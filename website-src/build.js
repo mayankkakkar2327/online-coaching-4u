@@ -8,7 +8,7 @@ const B = DATA.brand;
 const L = DATA.listings;
 const EX = DATA.examLabels;
 
-const cityLabel = (c) => c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
+const cityLabel = (c) => c === "online" ? "Online (Pan-India)" : c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const examLabel = (e) => EX[e] || e.toUpperCase();
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const typeLabel = { coaching: "Coaching", schools: "School", hostel: "Hostel" };
@@ -16,7 +16,9 @@ const typePlural = { coaching: "Coaching Institutes", schools: "Schools", hostel
 const typePage = { coaching: "coaching", schools: "schools", hostel: "hostels" };
 
 const byType = (t) => L.filter(x => x.type === t);
-const byCity = (t, c) => byType(t).filter(x => x.city === c).sort((a, b) => (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
+const byCity = (t, c) => byType(t)
+  .filter(x => c === "online" ? x.online === true : x.city === c)
+  .sort((a, b) => (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
 
 const stats = {
   listings: L.length,
@@ -29,6 +31,7 @@ const stats = {
 
 /* ---------- original, fact-based descriptions ---------- */
 function describe(x) {
+  if (x.about) return esc(x.about);
   const city = cityLabel(x.city);
   const exams = x.exams.filter(e => e !== "schooling").map(examLabel);
   const age = 2026 - x.estd;
@@ -103,7 +106,7 @@ ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-curr
 }
 
 function footer() {
-  const coachingCities = DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">Coaching in ${cityLabel(c)}</a></li>`).join("");
+  const coachingCities = DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">${c === "online" ? "Online CAT / MBA Coaching" : `Coaching in ${cityLabel(c)}`}</a></li>`).join("");
   const hostelCities = DATA.cities.hostels.map(c => `<li><a href="hostels-${c}.html">Hostels in ${cityLabel(c)}</a></li>`).join("");
   const schoolCities = DATA.cities.schools.map(c => `<li><a href="schools-${c}.html">Schools in ${cityLabel(c)}</a></li>`).join("");
   return `<footer class="site-footer">
@@ -150,12 +153,14 @@ function card(x) {
   const extra = x.exams.filter(e => e !== "schooling").length > 4 ? `<span class="chip chip-more">+${x.exams.length - 4} more</span>` : "";
   const gender = x.gender ? `<span class="chip">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
   const price = x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : "";
-  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd}" data-name="${esc(x.name.toLowerCase())}">
-<div class="card-media"><img src="${x.thumb}" alt="${esc(x.name)}, ${esc(x.locality)}, ${cityLabel(x.city)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')"></div>
+  const media = x.thumb ? `<img src="${x.thumb}" alt="${esc(x.name)}, ${esc(x.locality)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(x.name[0])}</span>`;
+  const locLine = x.city === "online" ? `🌐 ${esc(x.locality)}` : `📍 ${esc(x.locality)}, ${cityLabel(x.city)}`;
+  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
+<div class="card-media${x.thumb ? "" : " noimg"}">${media}</div>
 <div class="card-body">
-<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span></div>
+<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
 <h3>${esc(x.name)}</h3>
-<p class="card-loc">📍 ${esc(x.locality)}, ${cityLabel(x.city)} · Estd. ${x.estd}</p>
+<p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p>
 <div class="card-chips">${exams}${extra}${gender}${price}</div>
 <div class="card-foot">${stars(x)}<span class="card-cta">View details →</span></div>
 </div>
@@ -177,8 +182,10 @@ function searchBox() {
 }
 
 function homePage() {
-  const examCards = [["ias", "🏛️"], ["jee", "🔬"], ["neet", "⚕️"], ["ssc", "📋"], ["clat", "⚖️"], ["nda", "🎖️"], ["bank", "🏦"], ["teaching", "📚"], ["cuet", "🎓"]]
-    .map(([e, ic]) => `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'.html?exam=${e}'"><span class="tile-ic" aria-hidden="true">${ic}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
+  const examCards = [["ias", "🏛️"], ["jee", "🔬"], ["neet", "⚕️"], ["cat", "📊"], ["ssc", "📋"], ["clat", "⚖️"], ["nda", "🎖️"], ["bank", "🏦"], ["teaching", "📚"], ["cuet", "🎓"]]
+    .map(([e, ic]) => e === "cat"
+      ? `<a class="tile" href="coaching-online.html"><span class="tile-ic" aria-hidden="true">${ic}</span><strong>${examLabel(e)}</strong><span class="muted">Compare online platforms</span></a>`
+      : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'.html?exam=${e}'"><span class="tile-ic" aria-hidden="true">${ic}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
   const cityCards = DATA.cities.coaching.map(c => {
     const n = byCity("coaching", c).length;
     return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
@@ -261,16 +268,23 @@ function listingPage(type, city) {
   const items = byCity(type, city);
   const cityL = cityLabel(city);
   const label = typePlural[type];
+  const isOnline = city === "online";
+  const h1 = isOnline ? "Online CAT / MBA Coaching Platforms" : `${label} in ${cityL}`;
+  const subNote = isOnline
+    ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings.`
+    : `${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<div class="filterbar-row" role="group" aria-label="Filter by exam"><span class="filterbar-label">Exam:</span><button class="fchip active" data-exam="">All</button>${allExams.map(e => `<button class="fchip" data-exam="${e}">${examLabel(e)}</button>`).join("")}</div>` : "";
-  const title = `Best ${label} in ${cityL} (${items.length} listed)`;
+  const title = isOnline ? `Best Online CAT / MBA Coaching (${items.length} compared)` : `Best ${label} in ${cityL} (${items.length} listed)`;
   return head(`${title} — ${B.name}`,
-    `Compare ${items.length} ${label.toLowerCase()} in ${cityL} with real student ratings, exam specialisations, addresses and establishment year.`) +
+    isOnline
+      ? `Compare ${items.length} online CAT and MBA entrance coaching platforms — Rodha, Cracku, iQuanta, IMS, Career Launcher and more. Verified facts, no paid rankings.`
+      : `Compare ${items.length} ${label.toLowerCase()} in ${cityL} with real student ratings, exam specialisations, addresses and establishment year.`) +
     header(`${typePage[type]}.html`) + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[type]}.html">${label}</a> / <span>${cityL}</span></div>
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[type]}.html">${label}</a> / <span>${isOnline ? "Online" : cityL}</span></div>
 <section class="listing-head container">
-<h1>${label} in ${cityL}</h1>
-<p class="hero-sub">${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.</p>
+<h1>${h1}</h1>
+<p class="hero-sub">${subNote}</p>
 <div class="filterbar">
 ${examChips}
 <div class="filterbar-row">
@@ -297,12 +311,12 @@ function detailPage(x) {
   const listHref = `${typePage[x.type]}-${x.city}.html`;
   const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
   const waText = encodeURIComponent(`Hello, I found ${x.name} (${cityL}) on ${B.name} and would like more details.`);
-  return head(`${x.name} — ${typeLabel[x.type]} in ${cityL} | ${B.name}`,
+  return head(`${x.name} — ${x.city === "online" ? "Online CAT / MBA Coaching" : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
     `${x.name}, ${x.locality}, ${cityL}. Established ${x.estd}.${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} ${x.type === "hostel" ? "Address, pricing and enquiry details." : "Address, exams offered and enquiry details."}`) +
     header(`${typePage[x.type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${cityL}</a> / <span>${esc(x.name)}</span></div>
 <section class="container detail-hero">
-<div class="detail-media"><img src="${x.thumb}" alt="${esc(x.name)} campus" onerror="this.parentNode.classList.add('noimg')"></div>
+<div class="detail-media${x.thumb ? "" : " noimg"}">${x.thumb ? `<img src="${x.thumb}" alt="${esc(x.name)} campus" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(x.name[0])}</span>`}</div>
 <div class="detail-summary">
 <div class="card-top">${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : `<span class="badge badge-unverified">Unverified — details from public sources</span>`}</div>
 <h1>${esc(x.name)}</h1>
@@ -310,13 +324,14 @@ function detailPage(x) {
 <p>${stars(x)}</p>
 <div class="card-chips">${exams.map(e => `<span class="chip">${examLabel(e)}</span>`).join("")}${x.gender ? `<span class="chip">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : ""}${x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : ""}</div>
 <div class="detail-facts">
-<div><span class="muted">Established</span><strong>${x.estd}</strong></div>
-<div><span class="muted">Locality</span><strong>${esc(x.locality)}</strong></div>
-<div><span class="muted">City</span><strong>${cityL}</strong></div>
+${x.estd ? `<div><span class="muted">Established</span><strong>${x.estd}</strong></div>` : ""}
+<div><span class="muted">${x.city === "online" ? "Mode" : "Locality"}</span><strong>${x.city === "online" ? "100% Online" : esc(x.locality)}</strong></div>
+<div><span class="muted">${x.city === "online" ? "Availability" : "City"}</span><strong>${x.city === "online" ? "Pan-India" : cityL}</strong></div>
 </div>
 <div class="detail-actions">
 <a class="btn btn-primary" href="https://wa.me/${B.whatsapp}?text=${waText}">Enquire on WhatsApp</a>
-<a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">Open in Google Maps</a>
+${x.website ? `<a class="btn btn-ghost" href="${x.website}" rel="noopener nofollow">Visit official website</a>` : ""}
+${x.city !== "online" ? `<a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">Open in Google Maps</a>` : ""}
 </div>
 </div>
 </section>
