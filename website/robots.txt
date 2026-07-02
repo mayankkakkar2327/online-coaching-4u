@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://online-coaching-4u.vercel.app/sitemap.xml
+Sitemap: https://onlinecoaching4u.in/sitemap.xml
