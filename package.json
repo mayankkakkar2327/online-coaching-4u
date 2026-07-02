@@ -1,0 +1,9 @@
+{
+  "name": "online-coaching-4u",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Online Coaching 4u — find and compare coaching institutes, schools and hostels",
+  "scripts": {
+    "build": "node website-src/build.js"
+  }
+}
