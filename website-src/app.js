@@ -38,7 +38,7 @@
       });
       var mode = sortSel ? sortSel.value : "rating";
       vis.sort(function (a, b) {
-        if (mode === "rating") return (+b.dataset.rating * Math.log(+b.dataset.reviews + 1)) - (+a.dataset.rating * Math.log(+a.dataset.reviews + 1));
+        if (mode === "rating") return (+(b.dataset.featured || 0) - +(a.dataset.featured || 0)) || (+b.dataset.rating * Math.log(+b.dataset.reviews + 1)) - (+a.dataset.rating * Math.log(+a.dataset.reviews + 1));
         if (mode === "reviews") return +b.dataset.reviews - +a.dataset.reviews;
         if (mode === "estd") return +a.dataset.estd - +b.dataset.estd;
         return a.dataset.name < b.dataset.name ? -1 : 1;

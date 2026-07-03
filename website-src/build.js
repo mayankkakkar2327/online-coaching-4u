@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf8"));
+const POSTS = require("./posts.js");
 const OUT = path.join(__dirname, "..", "website");
 const B = DATA.brand;
 const L = DATA.listings;
@@ -18,7 +19,7 @@ const typePage = { coaching: "coaching", schools: "schools", hostel: "hostels" }
 const byType = (t) => L.filter(x => x.type === t);
 const byCity = (t, c) => byType(t)
   .filter(x => c === "online" ? x.online === true : x.city === c)
-  .sort((a, b) => (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
+  .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
 
 const stats = {
   listings: L.length,
@@ -155,10 +156,10 @@ function card(x) {
   const price = x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : "";
   const media = x.thumb ? `<img src="${x.thumb}" alt="${esc(x.name)}, ${esc(x.locality)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(x.name[0])}</span>`;
   const locLine = x.city === "online" ? `🌐 ${esc(x.locality)}` : `📍 ${esc(x.locality)}, ${cityLabel(x.city)}`;
-  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
+  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
 <div class="card-media${x.thumb ? "" : " noimg"}">${media}</div>
 <div class="card-body">
-<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
+<div class="card-top">${x.featured ? `<span class="badge badge-pick" title="Genuine editorial recommendation — not paid placement">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
 <h3>${esc(x.name)}</h3>
 <p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p>
 <div class="card-chips">${exams}${extra}${gender}${price}</div>
@@ -237,6 +238,11 @@ ${searchBox()}
 <div><h3>₹0 for students</h3><p>Comparing, enquiring and reviewing is completely free. Always will be.</p></div>
 </div>
 </section>
+<section class="section container">
+<h2>Latest from our guides</h2>
+<p class="section-sub">Original, research-backed articles — <a href="blog.html">see all</a></p>
+<div class="card-grid">${POSTS.slice(0, 3).map(postCard).join("")}</div>
+</section>
 <section class="section container cta-band">
 <h2>Run an institute or hostel?</h2>
 <p>Get listed free and reach students actively searching in your city.</p>
@@ -271,7 +277,7 @@ function listingPage(type, city) {
   const isOnline = city === "online";
   const h1 = isOnline ? "Online CAT / MBA Coaching Platforms" : `${label} in ${cityL}`;
   const subNote = isOnline
-    ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings.`
+    ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — our Editor's Pick is a genuine recommendation, clearly marked, and nobody pays for placement.`
     : `${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<div class="filterbar-row" role="group" aria-label="Filter by exam"><span class="filterbar-label">Exam:</span><button class="fchip active" data-exam="">All</button>${allExams.map(e => `<button class="fchip" data-exam="${e}">${examLabel(e)}</button>`).join("")}</div>` : "";
@@ -428,32 +434,39 @@ const listBody = `
 </div>
 </section>`;
 
-const blogBody = `
-<section class="hero hero-sm"><div class="container"><h1>Guides</h1>
-<p class="hero-sub">Practical, no-nonsense guides for choosing where to study.</p></div></section>
-<section class="section container prose">
-<article class="post">
-<h2>How to choose a coaching institute: 7 checks before you pay</h2>
-<p class="muted">Guidance · 5 min read</p>
-<p>1. <strong>Sit in a real class</strong>, not a demo prepared for visitors. Ask to attend the batch you'd actually join.
-2. <strong>Ask who will teach you</strong> — star faculty often teach only top batches.
-3. <strong>Check batch size.</strong> Beyond 60–80 students, individual doubt-solving realistically disappears.
-4. <strong>Verify results yourself.</strong> Ask for the topper's full name and batch; genuine institutes share this happily.
-5. <strong>Read the refund policy before paying</strong>, not after.
-6. <strong>Talk to current students</strong> outside the campus gate — the most honest source available.
-7. <strong>Compare fee vs. inclusions:</strong> study material, test series and doubt sessions are sometimes billed separately.</p>
-</article>
-<article class="post">
-<h2>Sikar vs Kota for NEET preparation: an honest comparison</h2>
-<p class="muted">Guidance · 4 min read</p>
-<p>Kota has scale — the biggest brands and deepest test-series ecosystems. Sikar has emerged as the value alternative: lower fees, lower living costs, smaller batches, and results that now compete at the top (a Sikar institute produced a perfect-score NEET AIR 1 in 2024). If self-discipline is your strength, Kota's ecosystem is unmatched; if you benefit from closer supervision and a lower-pressure environment, Sikar deserves a serious look. Visit both if you can — the right answer depends on the student, not the city.</p>
-</article>
-<article class="post">
-<h2>Choosing a student hostel: the checklist parents forget</h2>
-<p class="muted">Guidance · 3 min read</p>
-<p>Beyond rent and room photos, check: walking distance to the academy at the times you'll actually commute; mess menu on a random weekday (not the tour day); warden presence at night; guest and gate-timing rules; water and power backup; and what happens to your deposit if you leave mid-year. Get the full fee breakdown in writing — "all inclusive" often isn't.</p>
-</article>
+/* ---------- blog ---------- */
+const CATS = [...new Set(POSTS.map(p => p.category))];
+function postCard(p) {
+  return `<a class="card post-card" href="${p.slug}.html">
+<div class="card-body">
+<div class="card-top"><span class="badge badge-type">${esc(p.category)}</span><span class="muted">${p.date} · ${p.minutes} min read</span></div>
+<h3>${esc(p.title)}</h3>
+<p class="card-loc">${esc(p.excerpt)}</p>
+<div class="card-foot"><span></span><span class="card-cta">Read article →</span></div>
+</div></a>`;
+}
+function blogIndex() {
+  return `
+<section class="hero hero-sm"><div class="container"><h1>Guides &amp; Articles</h1>
+<p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Written by our editorial team — no sponsored content unless clearly labelled.</p></div></section>
+<section class="section container">
+<div class="filterbar"><div class="filterbar-row" role="group" aria-label="Filter by category"><span class="filterbar-label">Topic:</span><button class="fchip active" data-exam="">All</button>${CATS.map(c => `<button class="fchip" data-exam="${esc(c)}">${esc(c)}</button>`).join("")}</div></div>
+<div class="card-grid" id="cards" style="margin-top:22px">${POSTS.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
 </section>`;
+}
+function postPage(p) {
+  const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 2);
+  const more = related.length ? related : POSTS.filter(o => o.slug !== p.slug).slice(0, 2);
+  return head(`${p.title} | ${B.name}`, p.excerpt).replace("</head>", `<meta property="article:published_time" content="2026-07-03">\n</head>`) + header("blog.html") + `
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Guides</a> / <span>${esc(p.title)}</span></div>
+<article class="section container prose article-body">
+<p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} editorial team</p>
+<h1>${esc(p.title)}</h1>
+${p.html}
+<div class="cta-band" style="margin-top:36px"><h2>Ready to compare options?</h2><p>Every listing shows verified facts and unedited student ratings.</p><a class="btn btn-primary" href="${p.cta.href}">${esc(p.cta.text)}</a></div>
+</article>
+<section class="section container"><h2>More from our guides</h2><div class="card-grid" style="margin-top:18px">${more.map(postCard).join("")}</div></section>`;
+}
 
 const privacyBody = `
 <section class="hero hero-sm"><div class="container"><h1>Privacy Policy</h1></div></section>
@@ -522,7 +535,8 @@ L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
 w("about.html", simplePage("about.html", "About Us", `Who we are and how ${B.name} keeps listings honest.`, aboutBody, "about.html"));
 w("contact.html", simplePage("contact.html", "Contact Us", `Get in touch with the ${B.name} team.`, contactBody));
 w("list-your-institute.html", simplePage("list-your-institute.html", "List Your Institute Free", `Register your coaching institute, school or hostel on ${B.name} for free.`, listBody));
-w("blog.html", simplePage("blog.html", "Guides", "Practical guides for choosing coaching institutes, schools and hostels.", blogBody, "blog.html"));
+w("blog.html", simplePage("blog.html", "Guides & Articles", "Original research-backed articles on coaching, exam preparation and student life.", blogIndex(), "blog.html"));
+POSTS.forEach(p => w(`${p.slug}.html`, postPage(p) + footer()));
 w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privacy policy.`, privacyBody));
 w("terms.html", simplePage("terms.html", "Terms & Conditions", `${B.name} terms and conditions.`, termsBody));
 w("sitemap.html", simplePage("sitemap.html", "Sitemap", `All pages on ${B.name}.`, sitemapBody()));

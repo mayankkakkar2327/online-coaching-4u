@@ -75,6 +75,13 @@ a:hover{text-decoration:underline}
 .card-media.noimg,.detail-media.noimg{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--brand-soft),#e0e7ff)}
 .media-initial{font-size:3rem;font-weight:800;color:var(--brand);opacity:.55}
 .badge-online{background:#eff6ff;color:#1d4ed8}
+.badge-pick{background:#fef3c7;color:#92400e}
+.post-card h3{font-size:1.1rem}
+.article-body{max-width:760px}
+.article-body h1{font-size:1.9rem;line-height:1.2;margin:6px 0 18px;letter-spacing:-.01em}
+.article-body h2{color:var(--ink)}
+.article-body a{font-weight:600}
+.article-body .cta-band a{font-weight:600}
 .card-body{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card-top{display:flex;gap:8px;flex-wrap:wrap}
 .card h3{font-size:1.05rem;line-height:1.3}
