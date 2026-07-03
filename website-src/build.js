@@ -275,6 +275,7 @@ function listingPage(type, city) {
   const cityL = cityLabel(city);
   const label = typePlural[type];
   const isOnline = city === "online";
+  const cc = (DATA.cityContent || {})[`${typePage[type]}-${city}`];
   const h1 = isOnline ? "Online CAT / MBA Coaching Platforms" : `${label} in ${cityL}`;
   const subNote = isOnline
     ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — our Editor's Pick is a genuine recommendation, clearly marked, and nobody pays for placement.`
@@ -291,6 +292,7 @@ function listingPage(type, city) {
 <section class="listing-head container">
 <h1>${h1}</h1>
 <p class="hero-sub">${subNote}</p>
+${cc && cc.intro ? `<div class="prose" style="margin-top:14px">${cc.intro}</div>` : ""}
 <div class="filterbar">
 ${examChips}
 <div class="filterbar-row">
@@ -303,6 +305,16 @@ ${examChips}
 </section>
 <section class="section container"><div class="card-grid" id="cards">${items.map(card).join("")}</div>
 <p id="noresults" class="muted" hidden>No listings match these filters. Try clearing them.</p></section>
+${cc && cc.faqs ? `<section class="section container prose"><h2>Frequently asked questions</h2>${cc.faqs.map(f => `<h3 style="margin:18px 0 6px">${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}</section>` : ""}
+<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList",
+    "name": h1,
+    "itemListElement": items.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}` }))
+  })}</script>
+${cc && cc.faqs ? `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "FAQPage",
+    "mainEntity": cc.faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  })}</script>` : ""}
 <section class="section container cta-band">
 <h2>Know a great ${typeLabel[type].toLowerCase()} in ${cityL} that's missing?</h2>
 <p><a href="list-your-institute.html">Tell us</a> — or if you run it, list it free.</p>
@@ -350,6 +362,11 @@ ${highlights ? `<h2>Highlights</h2><ul class="hl-list">${highlights}</ul>` : ""}
 <p>We don't publish fee tables unless the institute has confirmed them — outdated fee data misleads more than it helps. Use the enquiry button and you'll get current fees, batch timings and any scholarship tests directly.</p>
 <h2>Student reviews</h2>
 ${x.ratingCount ? `<p>Rated <strong>${x.rating ? x.rating.toFixed(1) : "–"}/5</strong> from ${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"}.</p>` : `<p>No reviews yet.</p>`}
+<script type="application/ld+json">${JSON.stringify(Object.assign({
+  "@context": "https://schema.org", "@type": "EducationalOrganization",
+  "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
+  "address": { "@type": "PostalAddress", "streetAddress": x.address, "addressLocality": x.city === "online" ? "Online" : cityL, "addressCountry": "IN" }
+}, x.estd ? { "foundingDate": String(x.estd) } : {}, x.website ? { "sameAs": x.website } : {}, (x.rating && x.ratingCount) ? { "aggregateRating": { "@type": "AggregateRating", "ratingValue": x.rating, "reviewCount": x.ratingCount, "bestRating": 5 } } : {}))}</script>
 <p>Studied here? <a href="contact.html">Share your experience</a> — honest reviews (positive or negative) are published as-is.</p>
 </div>
 <aside class="detail-side">
