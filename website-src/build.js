@@ -16,6 +16,39 @@ const EX = DATA.examLabels;
 const cityLabel = (c) => c === "online" ? "Online (Pan-India)" : c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const examLabel = (e) => EX[e] || e.toUpperCase();
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const slugify = (s) => String(s).toLowerCase().replace(/<[^>]*>/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
+/* Scans article HTML for <h2>/<h3> headings, tags each with a unique id,
+   and returns a nested table-of-contents nav alongside the id-annotated HTML. */
+function buildToc(html) {
+  const used = new Set();
+  const items = [];
+  const withIds = html.replace(/<(h2|h3)>(.*?)<\/\1>/gs, (match, tag, text) => {
+    let id = slugify(text) || "section";
+    let unique = id, n = 2;
+    while (used.has(unique)) { unique = `${id}-${n++}`; }
+    used.add(unique);
+    items.push({ tag, text, id: unique });
+    return `<${tag} id="${unique}">${text}</${tag}>`;
+  });
+  if (items.length < 2) return { html, tocHtml: "" };
+  let list = "", h2Open = false, subOpen = false;
+  for (const it of items) {
+    if (it.tag === "h2") {
+      if (subOpen) { list += "</ul>"; subOpen = false; }
+      if (h2Open) list += "</li>";
+      list += `<li><a href="#${it.id}">${it.text}</a>`;
+      h2Open = true;
+    } else {
+      if (!subOpen) { list += "<ul>"; subOpen = true; }
+      list += `<li><a href="#${it.id}">${it.text}</a></li>`;
+    }
+  }
+  if (subOpen) list += "</ul>";
+  if (h2Open) list += "</li>";
+  const tocHtml = `<nav class="toc" aria-label="Table of contents"><p class="toc-title">Contents</p><ul>${list}</ul></nav>`;
+  return { html: withIds, tocHtml };
+}
 const typeLabel = { coaching: "Coaching" };
 const typePlural = { coaching: "Coaching Institutes" };
 const typePage = { coaching: "coaching" };
@@ -458,6 +491,7 @@ function blogIndex() {
 </section>`;
 }
 function postPage(p) {
+  const { html: bodyHtml, tocHtml } = buildToc(p.html);
   const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 2);
   const more = related.length ? related : POSTS.filter(o => o.slug !== p.slug).slice(0, 2);
   const iso = toISODate(p.date);
@@ -476,7 +510,8 @@ function postPage(p) {
 <p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} team</p>
 <h1>${esc(p.title)}</h1>
 ${p.image ? `<div class="detail-media blog-thumb" style="margin:20px 0"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>` : ""}
-${p.html}
+${tocHtml}
+${bodyHtml}
 <div class="cta-band" style="margin-top:36px"><h2>Ready to compare options?</h2><p>Every listing shows verified facts and unedited student ratings.</p><a class="btn btn-primary" href="${p.cta.href}">${esc(p.cta.text)}</a></div>
 </article>
 <section class="section container"><h2>More from our guides</h2><div class="card-grid" style="margin-top:18px">${more.map(postCard).join("")}</div></section>`;

@@ -164,6 +164,17 @@ a:hover{text-decoration:underline}
 .prose ul{padding-left:22px;color:var(--ink-2)}
 .prose li{margin-bottom:4px}
 
+/* table of contents (blog articles) */
+.toc{border:1px solid var(--line);background:var(--card);border-radius:var(--radius);padding:18px 22px;margin:22px 0 30px}
+.toc-title{font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-2);margin-bottom:8px}
+.toc ul{list-style:none;padding-left:0;margin:0}
+.toc>ul>li{margin-bottom:6px;font-weight:600}
+.toc>ul>li>a{color:var(--ink)}
+.toc ul ul{padding-left:18px;margin-top:6px}
+.toc ul ul li{margin-bottom:4px;font-weight:400}
+.toc a{color:var(--ink-2);text-decoration:none}
+.toc a:hover{color:var(--brand);text-decoration:underline}
+
 /* blog featured images: match the 1200x630 generated banners exactly so nothing gets cropped */
 .card-media.blog-thumb,.detail-media.blog-thumb{aspect-ratio:40/21}
 
