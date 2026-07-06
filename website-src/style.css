@@ -156,6 +156,16 @@ a:hover{text-decoration:underline}
 .prose p{margin-bottom:12px;color:var(--ink-2)}
 .prose ul{padding-left:22px;color:var(--ink-2)}
 .prose li{margin-bottom:4px}
+
+/* blog featured images: match the 1200x630 generated banners exactly so nothing gets cropped */
+.card-media.blog-thumb,.detail-media.blog-thumb{aspect-ratio:40/21}
+
+/* article tables (blog posts) */
+.prose table,.article-body table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;width:100%;border-collapse:collapse;margin:18px 0 26px;font-size:.95rem;border:1px solid var(--line);border-radius:var(--radius)}
+.prose thead,.article-body thead{background:var(--brand-soft)}
+.prose th,.article-body th{text-align:left;font-weight:700;color:var(--ink);padding:10px 16px;border-bottom:2px solid var(--brand-border);white-space:nowrap}
+.prose td,.article-body td{padding:10px 16px;border-top:1px solid var(--line);color:var(--ink-2);vertical-align:top}
+.prose tbody tr:nth-child(even),.article-body tbody tr:nth-child(even){background:#fafbff}
 .post{border:1px solid var(--line);background:var(--card);border-radius:var(--radius);padding:26px;margin-bottom:20px}
 .post h2{margin-top:0}
 .split{display:grid;grid-template-columns:1.4fr 1fr;gap:36px;align-items:start}

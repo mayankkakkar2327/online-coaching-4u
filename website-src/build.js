@@ -462,7 +462,7 @@ function toISODate(d) {
 }
 function postCard(p) {
   return `<a class="card post-card" href="${p.slug}.html">
-<div class="card-media${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}</div>
+<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}</div>
 <div class="card-body">
 <div class="card-top"><span class="badge badge-type">${esc(p.category)}</span><span class="muted">${p.date} · ${p.minutes} min read</span></div>
 <h3>${esc(p.title)}</h3>
@@ -497,7 +497,7 @@ function postPage(p) {
 <article class="section container prose article-body">
 <p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} editorial team</p>
 <h1>${esc(p.title)}</h1>
-${p.image ? `<div class="detail-media" style="margin:20px 0"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>` : ""}
+${p.image ? `<div class="detail-media blog-thumb" style="margin:20px 0"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>` : ""}
 ${p.html}
 <div class="cta-band" style="margin-top:36px"><h2>Ready to compare options?</h2><p>Every listing shows verified facts and unedited student ratings.</p><a class="btn btn-primary" href="${p.cta.href}">${esc(p.cta.text)}</a></div>
 </article>
