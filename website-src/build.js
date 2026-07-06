@@ -91,7 +91,7 @@ ${CSS_LINK}
 }
 
 function header(active) {
-  const nav = [["coaching.html", "Coaching"], ["schools.html", "Schools"], ["hostels.html", "Hostels"], ["blog.html", "Guides"], ["about.html", "About"]];
+  const nav = [["coaching.html", "Coaching"], ["schools.html", "Schools"], ["hostels.html", "Hostels"], ["blog.html", "Blogs"], ["about.html", "About"]];
   return `<header class="site-header">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">
@@ -101,7 +101,7 @@ function header(active) {
 <nav class="main-nav" aria-label="Main navigation">
 ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-current="page"' : ""}>${t}</a>`).join("\n")}
 </nav>
-<a class="btn btn-primary btn-sm" href="contact.html">Get a Callback</a>
+<a class="btn btn-primary btn-sm" href="contact.html">Contact us</a>
 <button class="nav-toggle" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
 </div>
 </header>`;
@@ -160,7 +160,7 @@ function card(x) {
   return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
 <div class="card-media${x.thumb ? "" : " noimg"}">${media}</div>
 <div class="card-body">
-<div class="card-top">${x.featured ? `<span class="badge badge-pick" title="Genuine editorial recommendation — not paid placement">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
+<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
 <h3>${esc(x.name)}</h3>
 <p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p>
 <div class="card-chips">${exams}${extra}${gender}${price}</div>
@@ -171,16 +171,12 @@ function card(x) {
 
 /* ---------- pages ---------- */
 function searchBox() {
-  const opts = [
-    ...DATA.cities.coaching.map(c => `<option value="coaching-${c}.html">Coaching · ${cityLabel(c)}</option>`),
-    ...DATA.cities.schools.map(c => `<option value="schools-${c}.html">Schools · ${cityLabel(c)}</option>`),
-    ...DATA.cities.hostels.map(c => `<option value="hostels-${c}.html">Hostels · ${cityLabel(c)}</option>`)
-  ].join("");
-  return `<form class="searchbox" onsubmit="var v=this.dest.value; if(v) location.href=v; return false;">
-<label class="sr-only" for="dest">Choose what you are looking for</label>
-<select id="dest" name="dest" required><option value="">What are you looking for?</option>${opts}</select>
-<button class="btn btn-primary" type="submit">Search</button>
-</form>`;
+  return `<div class="searchbox searchbox-live" role="search">
+<label class="sr-only" for="site-search">Search institutes, cities or guides</label>
+<input type="text" id="site-search" name="q" placeholder="Search institutes, cities or guides…" autocomplete="off">
+<button class="btn btn-primary" type="button" id="site-search-btn">Search</button>
+<div id="site-search-results" class="search-results" hidden></div>
+</div>`;
 }
 
 function homePage() {
@@ -279,7 +275,7 @@ function listingPage(type, city) {
   const cc = (DATA.cityContent || {})[`${typePage[type]}-${city}`];
   const h1 = isOnline ? "Online CAT / MBA Coaching Platforms" : `${label} in ${cityL}`;
   const subNote = isOnline
-    ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — our Editor's Pick is a genuine recommendation, clearly marked, and nobody pays for placement.`
+    ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`
     : `${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<div class="filterbar-row" role="group" aria-label="Filter by exam"><span class="filterbar-label">Exam:</span><button class="fchip active" data-exam="">All</button>${allExams.map(e => `<button class="fchip" data-exam="${e}">${examLabel(e)}</button>`).join("")}</div>` : "";
@@ -329,7 +325,6 @@ function detailPage(x) {
   const highlights = (x.highlights || []).map(h => `<li>${esc(h)}</li>`).join("");
   const listHref = `${typePage[x.type]}-${x.city}.html`;
   const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
-  const waText = encodeURIComponent(`Hello, I found ${x.name} (${cityL}) on ${B.name} and would like more details.`);
   return head(`${x.name} — ${x.city === "online" ? "Online CAT / MBA Coaching" : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
     `${x.name}, ${x.locality}, ${cityL}. Established ${x.estd}.${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} ${x.type === "hostel" ? "Address, pricing and enquiry details." : "Address, exams offered and enquiry details."}`) +
     header(`${typePage[x.type]}.html`) + `
@@ -348,8 +343,7 @@ ${x.estd ? `<div><span class="muted">Established</span><strong>${x.estd}</strong
 <div><span class="muted">${x.city === "online" ? "Availability" : "City"}</span><strong>${x.city === "online" ? "Pan-India" : cityL}</strong></div>
 </div>
 <div class="detail-actions">
-<a class="btn btn-primary" href="https://wa.me/${B.whatsapp}?text=${waText}">Enquire on WhatsApp</a>
-${x.website ? `<a class="btn btn-ghost" href="${x.website}" rel="noopener nofollow">Visit official website</a>` : ""}
+${x.website ? `<a class="btn btn-primary" href="${x.website}" rel="noopener nofollow">Visit official website</a>` : ""}
 ${x.city !== "online" ? `<a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">Open in Google Maps</a>` : ""}
 </div>
 </div>
@@ -374,11 +368,14 @@ ${x.ratingCount ? `<p>Rated <strong>${x.rating ? x.rating.toFixed(1) : "–"}/5<
 <div class="side-card">
 <h3>Quick enquiry</h3>
 <p class="muted">Goes straight to our counselling team — free, no spam.</p>
-<form class="enq-form" data-institute="${esc(x.name)} (${cityL})">
+<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
+<input type="hidden" name="_subject" value="New enquiry — ${esc(x.name)} (${cityL})">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">
 <label>Your name<input name="name" required autocomplete="name"></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel"></label>
 <button class="btn btn-primary" type="submit">Request a callback</button>
-<p class="form-ok" hidden>Thanks! Opening WhatsApp to send your enquiry…</p>
 </form>
 </div>
 ${others ? `<h3 class="side-h">Nearby alternatives</h3><div class="side-cards">${others}</div>` : ""}
@@ -442,13 +439,15 @@ const listBody = `
 </div>
 <div class="side-card">
 <h3>Registration</h3>
-<form class="enq-form" data-institute="New institute registration">
+<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
+<input type="hidden" name="_subject" value="New institute registration — Online Coaching 4u">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
 <label>Institute name<input name="institute" required></label>
 <label>Your name<input name="name" required></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}"></label>
 <label>City<input name="city" required></label>
 <button class="btn btn-primary" type="submit">Register free</button>
-<p class="form-ok" hidden>Thanks! Opening WhatsApp…</p>
 </form>
 <p class="muted">By registering you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>.</p>
 </div>
@@ -475,7 +474,7 @@ function postCard(p) {
 function blogIndex() {
   return `
 <section class="hero hero-sm"><div class="container"><h1>Guides &amp; Articles</h1>
-<p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Written by our editorial team — no sponsored content unless clearly labelled.</p></div></section>
+<p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Written by our team — no sponsored content unless clearly labelled.</p></div></section>
 <section class="section container">
 <div class="filterbar"><div class="filterbar-row" role="group" aria-label="Filter by category"><span class="filterbar-label">Topic:</span><button class="fchip active" data-exam="">All</button>${CATS.map(c => `<button class="fchip" data-exam="${esc(c)}">${esc(c)}</button>`).join("")}</div></div>
 <div class="card-grid" id="cards" style="margin-top:22px">${POSTS.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
@@ -489,7 +488,7 @@ function postPage(p) {
     "@context": "https://schema.org", "@type": "BlogPosting",
     headline: p.title, description: p.excerpt,
     ...(p.image ? { image: [`${B.siteUrl}/${p.image}`] } : {}),
-    author: { "@type": "Organization", name: `${B.name} Editorial Team`, url: B.siteUrl },
+    author: { "@type": "Organization", name: `${B.name} Team`, url: B.siteUrl },
     publisher: { "@type": "Organization", name: B.name, url: B.siteUrl },
     datePublished: iso, dateModified: iso,
     mainEntityOfPage: { "@type": "WebPage", "@id": `${B.siteUrl}/${p.slug}` }
@@ -497,7 +496,7 @@ function postPage(p) {
   return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n</head>`) + header("blog.html") + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Guides</a> / <span>${esc(p.title)}</span></div>
 <article class="section container prose article-body">
-<p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} editorial team</p>
+<p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} team</p>
 <h1>${esc(p.title)}</h1>
 ${p.image ? `<div class="detail-media blog-thumb" style="margin:20px 0"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>` : ""}
 ${p.html}
@@ -544,10 +543,22 @@ function sitemapBody() {
 const css = fs.readFileSync(path.join(__dirname, "style.css"), "utf8");
 const js = fs.readFileSync(path.join(__dirname, "app.js"), "utf8");
 
+/* ---------- site-wide search index (institutes + blog guides) ---------- */
+const searchIndex = [
+  ...L.map(x => ({
+    t: x.name,
+    s: x.city === "online" ? x.locality : `${x.locality}, ${cityLabel(x.city)}`,
+    c: typeLabel[x.type],
+    u: `institute-${x.slug}.html`
+  })),
+  ...POSTS.map(p => ({ t: p.title, s: p.category, c: "Guide", u: `${p.slug}.html` }))
+];
+
 /* ---------- write ---------- */
 fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
 fs.writeFileSync(path.join(OUT, "assets", "style.css"), css);
 fs.writeFileSync(path.join(OUT, "assets", "app.js"), js);
+fs.writeFileSync(path.join(OUT, "assets", "search-index.json"), JSON.stringify(searchIndex));
 
 /* copy blog images */
 const blogSrc = path.join(__dirname, "assets", "blog");

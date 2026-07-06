@@ -1,9 +1,7 @@
-/* Online Coaching 4u — client enhancements (filters, sort, forms).
+/* Online Coaching 4u — client enhancements (filters, sort, search, forms).
    All content is already in the HTML; this only enhances it. */
-/* build nudge: force fresh deploy trigger */
 (function () {
   "use strict";
-  var WHATSAPP = "910000000000"; // update to your business number
 
   /* remember last visited city for exam shortcuts on the home page */
   var m = location.pathname.match(/(?:coaching|schools|hostels)-([a-z-]+)\.html$/);
@@ -58,16 +56,52 @@
     apply();
   }
 
-  /* ---- enquiry forms → WhatsApp deep link (skip forms that already post somewhere real, e.g. the contact form) ---- */
-  document.querySelectorAll(".enq-form:not([action])").forEach(function (f) {
-    f.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var d = new FormData(f);
-      var parts = ["Enquiry via Online Coaching 4u", "Regarding: " + (f.dataset.institute || "General")];
-      d.forEach(function (v, k) { if (v) parts.push(k.charAt(0).toUpperCase() + k.slice(1) + ": " + v); });
-      var ok = f.querySelector(".form-ok");
-      if (ok) ok.hidden = false;
-      window.open("https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(parts.join("\n")), "_blank");
+  /* ---- universal site search: institutes (coaching/schools/hostels) + blog guides ---- */
+  var searchInput = document.getElementById("site-search");
+  if (searchInput) {
+    var resultsBox = document.getElementById("site-search-results");
+    var searchBtn = document.getElementById("site-search-btn");
+    var indexData = null;
+    var loadIndex = function () {
+      if (indexData) return Promise.resolve(indexData);
+      return fetch("assets/search-index.json").then(function (r) { return r.json(); }).then(function (d) { indexData = d; return d; });
+    };
+    var render = function (items, q) {
+      if (!items.length) {
+        resultsBox.innerHTML = q ? '<div class="search-empty">No matches for "' + q.replace(/</g, "&lt;") + '"</div>' : "";
+        resultsBox.hidden = !q;
+        return;
+      }
+      resultsBox.innerHTML = items.slice(0, 8).map(function (it) {
+        return '<a href="' + it.u + '"><strong>' + it.t.replace(/</g, "&lt;") + '</strong><span class="muted"> ' + it.s.replace(/</g, "&lt;") + ' · ' + it.c + '</span></a>';
+      }).join("");
+      resultsBox.hidden = false;
+    };
+    var search = function (q) {
+      loadIndex().then(function (data) {
+        if (!q) { render([], ""); return; }
+        var ql = q.toLowerCase();
+        var matches = data.filter(function (it) {
+          return it.t.toLowerCase().indexOf(ql) !== -1 || it.s.toLowerCase().indexOf(ql) !== -1;
+        });
+        render(matches, q);
+      });
+    };
+    searchInput.addEventListener("input", function () { search(searchInput.value.trim()); });
+    searchInput.addEventListener("focus", function () { if (searchInput.value.trim()) search(searchInput.value.trim()); });
+    searchInput.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter") {
+        ev.preventDefault();
+        var first = resultsBox.querySelector("a");
+        if (first) location.href = first.getAttribute("href");
+      }
     });
-  });
+    if (searchBtn) searchBtn.addEventListener("click", function () {
+      var first = resultsBox.querySelector("a");
+      if (first) location.href = first.getAttribute("href"); else searchInput.focus();
+    });
+    document.addEventListener("click", function (ev) {
+      if (!resultsBox.contains(ev.target) && ev.target !== searchInput) resultsBox.hidden = true;
+    });
+  }
 })();

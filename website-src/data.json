@@ -1245,6 +1245,181 @@
       ]
     },
     {
+      "slug": "time-education",
+      "type": "coaching",
+      "name": "T.I.M.E. (Triumphant Institute of Management Education)",
+      "city": "delhi",
+      "locality": "Connaught Place, Hudson Lane, Pitampura, Dwarka, Satya Niketan",
+      "address": "Multiple centres across Delhi, including Connaught Place, Hudson Lane, Pitampura, Dwarka and Satya Niketan",
+      "estd": 1992,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://www.time4education.com",
+      "about": "T.I.M.E. (Triumphant Institute of Management Education), founded in 1992, is a pan-India test-prep brand running multiple CAT coaching centres across Delhi — including Connaught Place, Hudson Lane, Pitampura, Dwarka and Satya Niketan — alongside online and live-class programs. Faculty vary by centre, with senior mentors covering VARC, DILR and Quant, and both weekday and weekend batches are offered; seat availability should be checked directly with the specific centre. A full CAT classroom or online course is generally priced in the range of about ₹50,000–₹75,000 depending on duration, centre and inclusions. Students generally report a positive classroom experience, strong faculty and a well-established test series, though some note that the experience can vary by branch and individual faculty.",
+      "highlights": [
+        "Long-standing brand with a wide branch network across Delhi",
+        "Established CAT test series alongside section-wise specialised modules",
+        "Comprehensive GD/PI support included",
+        "Both weekday and weekend batch options"
+      ]
+    },
+    {
+      "slug": "arun-sharma-mindworkzz",
+      "type": "coaching",
+      "name": "Arun Sharma's Mindworkzz",
+      "city": "delhi",
+      "locality": "Connaught Place",
+      "address": "Classroom centre in the Connaught Place area of Delhi, plus online/live courses for students across India",
+      "estd": 1995,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://mindworkzz.in",
+      "about": "Arun Sharma's Mindworkzz is a niche CAT coaching brand built around Arun Sharma, the well-known CAT Quant author, who leads a core team of senior faculty covering Quant, LRDI and VARC — with some sessions taught by Arun Sharma himself. It runs classroom batches from its Delhi centre alongside online/live courses reaching students nationwide, with limited-seat weekday and weekend options. Course fees for a complete CAT program are commonly in the range of about ₹60,000–₹80,000 depending on the mode and inclusions, with smaller specialised batches and doubt sessions also offered. Students frequently praise the Quant training and the quality of practice questions, though some prefer to supplement their verbal preparation with other sources or coaches.",
+      "highlights": [
+        "High focus on Quant, taught with author-curated material",
+        "Challenging, rigorously curated problem sets",
+        "Targeted coaching aimed at high-percentile aspirants",
+        "Limited-seat batches led by a senior, author-led faculty team"
+      ]
+    },
+    {
+      "slug": "tathagat",
+      "type": "coaching",
+      "name": "TathaGat (TG)",
+      "city": "delhi",
+      "locality": "Barakhamba Road",
+      "address": "Classroom centre on Barakhamba Road, Delhi, plus online classes and test-series for students outside Delhi",
+      "estd": 2007,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://tathagat.co.in",
+      "about": "TathaGat (TG), founded in 2007, is a boutique CAT coaching institute known for a student-first approach built around rigorous concept-building, regular homework and frequent interaction between students and faculty. Classroom coaching runs from its Delhi centre on Barakhamba Road, in carefully sized batches, alongside online classes and test-series for students outside Delhi. Course fees are usually in the range of about ₹55,000–₹75,000 depending on the specific program, with batches generally structured as weekday or weekend intensive programs. Students often praise the personal attention, doubt-solving and serious peer group, though limited seats mean batches fill up early — which also keeps class sizes controlled.",
+      "highlights": [
+        "Small batch sizes with personalised attention",
+        "Rigorous, frequent question practice",
+        "Tightly monitored, closely mentored learning environment",
+        "Founder-led team known for close student interaction"
+      ]
+    },
+    {
+      "slug": "mbaguru",
+      "type": "coaching",
+      "name": "MBAGuru",
+      "city": "delhi",
+      "locality": "Connaught Place, Kailash Colony, Rajouri Garden",
+      "address": "Multiple centres in Delhi including Connaught Place, Kailash Colony and Rajouri Garden, alongside online adaptive courses",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://mbaguru.in",
+      "about": "MBAGuru is a Delhi-headquartered CAT coaching institute known for its \"adaptive\" preparation model, which adjusts difficulty and focus based on individual student performance, backed by structured classroom teaching. It runs classroom programs from centres across Delhi — including Connaught Place, Kailash Colony and Rajouri Garden — alongside online adaptive courses and multiple batch options, with mentors described as 99+ percentilers heading different sections. CAT programs generally fall in a range of about ₹60,000–₹75,000, with classroom batches offered in both weekday and weekend modes and separate online batches available. Students often highlight the personalised attention and adaptive approach as positives, while some compare the fees with bigger national brands even as they appreciate the Delhi-centric focus.",
+      "highlights": [
+        "Adaptive prep methodology tailored to individual performance",
+        "Relatively smaller batches than large national brands",
+        "Detailed performance analytics and regular student feedback",
+        "Both classroom (Delhi) and online batch options"
+      ]
+    },
+    {
+      "slug": "alchemist-learning",
+      "type": "coaching",
+      "name": "Alchemist (Alchemist Learning)",
+      "city": "delhi",
+      "locality": "Pitampura, Connaught Place",
+      "address": "Centres in Pitampura and Connaught Place, Delhi, with some blended/online support",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://alchemistindia.com",
+      "about": "Alchemist (Alchemist Learning) is a Delhi-focused CAT coaching institute positioned around personalised coaching delivered through smaller, mentor-driven batches, with a senior in-house faculty team specialising across Quant, LRDI and VARC. It runs classroom programs from centres in Pitampura and Connaught Place, with some blended and online support, and limited-size batches running through the year. The fee range is usually reported at around ₹60,000–₹90,000 depending on the course depth and duration, with different weekday and weekend batch options offered. Students generally appreciate the personalised atmosphere and direct faculty access, though some consider it a slightly premium-priced option for its boutique positioning.",
+      "highlights": [
+        "Small batch sizes with individual doubt-solving",
+        "Mentor-driven teaching model",
+        "Emphasis on conceptual clarity over rote practice",
+        "Centres in both Pitampura and Connaught Place"
+      ]
+    },
+    {
+      "slug": "ankganit",
+      "type": "coaching",
+      "name": "AnkGanit",
+      "city": "delhi",
+      "locality": "Connaught Place",
+      "address": "Classroom centre associated with Connaught Place, Delhi, plus online/live Quant-focused courses",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://ankganit.in",
+      "about": "AnkGanit is a boutique CAT coaching institute with a clear emphasis on Quantitative Aptitude — reflected in its name — known for focused practice and high-level problem-solving, delivered by a math-focused faculty team with strong Quant backgrounds and structured material supporting the other sections. Classroom coaching runs from its Delhi centre, often associated with Connaught Place, alongside online/live Quant-focused offerings, with limited-size batches and start dates scheduled across the year. The reported fee for full CAT preparation is roughly around ₹40,000, though this may vary with inclusions and timing, and full batch details are shared directly by the centre. Students frequently credit AnkGanit with strengthening their Quant, and many combine it with separate verbal coaching for a more balanced overall CAT preparation strategy.",
+      "highlights": [
+        "Strong specialisation in Quantitative Aptitude",
+        "Intensive, high-level problem practice",
+        "Personalised doubt-clearing",
+        "Focus on building both speed and accuracy"
+      ]
+    },
+    {
+      "slug": "kitabee-cat-preparation",
+      "type": "coaching",
+      "name": "Kitabee CAT Preparation",
+      "city": "delhi",
+      "locality": "Jhandewalan Extension",
+      "address": "Classroom centre in Jhandewalan Extension and nearby areas of Delhi, with online support and test-series",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "online": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://www.kitabee.in",
+      "about": "Kitabee CAT Preparation is a Delhi-based CAT coaching centre offering full-length classroom programs, test-series and doubt-solving sessions at a relatively accessible price point, taught by classroom faculty experienced in CAT coaching with section-wise mentors for Quant, LRDI and VARC. It runs from a centre in Jhandewalan Extension and nearby areas, with relatively compact weekday and weekend batches, alongside online support and test-series. Course fees are commonly reported at around ₹55,000 for the full program, subject to change, with batch options usually including both weekday and weekend slots. Reviews are generally mixed to positive, with students liking the classroom environment and the affordability compared to some larger brands, aimed at both working professionals and full-time students alike.",
+      "highlights": [
+        "Focus on direct classroom interaction with approachable faculty",
+        "Structured test practice and doubt-solving sessions",
+        "Relatively accessible pricing versus larger national brands",
+        "Batches suited to both working professionals and full-time students"
+      ]
+    },
+    {
       "slug": "hitbullseye",
       "type": "coaching",
       "name": "Hitbullseye",
@@ -1488,11 +1663,11 @@
       ]
     },
     "coaching-online": {
-      "intro": "<p>Online CAT coaching has split into two clear camps: <strong>digital-first platforms</strong> (Rodha, Cracku, iQuanta, MBA Wallah, Unacademy, MBA Pathshala) built around video, apps and communities, and the <strong>online programs of legacy classroom institutes</strong> (IMS, Career Launcher, Hitbullseye, CATKing) that bring decades of test-series data online. The comparison below covers all ten on verifiable facts — founders, formats, mock-series depth and 2026 course features. Our Editor's Pick is marked and is a genuine, unpaid recommendation; every claim below an institute's name comes from the institute itself or independent sources, and is attributed accordingly.</p>",
+      "intro": "<p>Online CAT coaching has split into two clear camps: <strong>digital-first platforms</strong> (Rodha, Cracku, iQuanta, MBA Wallah, Unacademy, MBA Pathshala) built around video, apps and communities, and the <strong>online programs of legacy classroom institutes</strong> (IMS, Career Launcher, Hitbullseye, CATKing) that bring decades of test-series data online. The comparison below covers all ten on verifiable facts — founders, formats, mock-series depth and 2026 course features. Any standout recommendation on this page is a genuine, unpaid one; every claim below an institute's name comes from the institute itself or independent sources, and is attributed accordingly.</p>",
       "faqs": [
         {
           "q": "Which is the best online CAT coaching in India for 2026?",
-          "a": "Our Editor's Pick is Rodha — the only platform with its complete CAT syllabus (1,400+ videos) free on YouTube, so you can verify the teaching quality before paying anything; its paid batches and harder-than-CAT mock series stay cheaper than legacy institutes. Strong alternatives by need: Cracku for app-based daily-target prep by a five-time 100-percentiler, iQuanta for 24/7 doubt support, and IMS for India's most widely taken mock series (SimCAT)."
+          "a": "Rodha stands out as the only platform with its complete CAT syllabus (1,400+ videos) free on YouTube, so you can verify the teaching quality before paying anything; its paid batches and harder-than-CAT mock series stay cheaper than legacy institutes. Strong alternatives by need: Cracku for app-based daily-target prep by a five-time 100-percentiler, iQuanta for 24/7 doubt support, and IMS for India's most widely taken mock series (SimCAT)."
         },
         {
           "q": "Which online CAT coaching is free or cheapest?",

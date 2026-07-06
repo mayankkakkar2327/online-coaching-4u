@@ -1,4 +1,4 @@
-/* Original editorial content for Online Coaching 4u.
+/* Original content for Online Coaching 4u.
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
@@ -14,9 +14,9 @@ module.exports = [
     html: `
 <p>Online CAT preparation has matured to the point where a serious aspirant can realistically reach a 99+ percentile without ever entering a physical classroom. The Common Admission Test itself is expected to keep its now-familiar three-section structure in 2026 — Verbal Ability &amp; Reading Comprehension, Data Interpretation &amp; Logical Reasoning, and Quantitative Ability, each timed independently — a format the conducting IIM confirms and can revise each year on the <a href="https://iimcat.ac.in" rel="noopener" target="_blank">official CAT website</a>. What hasn't caught up with the exam's stability is aspirant confusion about which platform to trust. Every landing page claims the best faculty and the highest percentile toppers. Here is our honest read of the market, based on verifiable facts — founders, formats, and what each platform is genuinely best at. None of these placements are paid, and we say so explicitly below wherever it matters.</p>
 
-<h2>Our Editor's Pick: Rodha — the best starting point for most aspirants</h2>
+<h2>Where most aspirants should start: Rodha</h2>
 <p>We recommend <a href="https://www.rodha.co.in" rel="noopener" target="_blank">Rodha</a> as the first platform every CAT aspirant should open, for one checkable reason: it has put its entire teaching — more than 1,400 videos covering the full CAT syllabus — on YouTube, free. No other brand on this list matches that at this scale. Founder Ravi Prakash, an engineer from Patna who studied Electronics and Communication at ICFAI before moving into full-time teaching, built his channel into one of India's largest free CAT-prep resources purely on teaching quality, well before charging for anything, as he has described in interviews such as this <a href="https://www.eatmy.news/2024/01/ravi-prakash-coming-from-middle-class.html" rel="noopener" target="_blank">founder profile</a>. He personally holds a 99.86 CAT percentile. Paid offerings stay deliberately cheaper than legacy institutes and add what the free content can't: structured batches, doubt support, and a full-length test series on the <a href="https://mocks.rodha.co.in" rel="noopener" target="_blank">Rodha mock platform</a>, built to run 10–15% harder than the real exam on an interface that mirrors the actual TCS iON test screen. You can also follow the channel's newer updates directly on <a href="https://www.youtube.com/@Rodha" rel="noopener" target="_blank">Rodha's YouTube channel</a>.</p>
-<p>Start free, watch a week of videos, and you'll know if the teaching style fits before spending a rupee. That's a risk-free trial the big institutes simply don't offer, because their material sits behind a paywall from day one. <em>(Disclosure: this is a genuine editorial recommendation based on our own review of the free content and mock quality — Rodha does not pay us for this placement, and no commercial relationship exists between us.)</em></p>
+<p>Start free, watch a week of videos, and you'll know if the teaching style fits before spending a rupee. That's a risk-free trial the big institutes simply don't offer, because their material sits behind a paywall from day one. <em>(Disclosure: this is our own independent assessment based on reviewing the free content and mock quality — Rodha does not pay us for this placement, and no commercial relationship exists between us.)</em></p>
 
 <h2>The rest of the field, and who each suits</h2>
 <p>The other nine platforms on our <a href="coaching-online.html">CAT / MBA coaching page</a> are all legitimate options; the right one depends on your learning style, budget and how far along you already are.</p>
@@ -79,7 +79,7 @@ module.exports = [
 <p>Price mostly reflects brand overhead, centre infrastructure and marketing spend, not classroom quality on its own. Several of the platforms above with the lowest fees — or none at all for the core content — have some of the highest-rated teaching material in this comparison.</p>
 
 <h2>What "no paid rankings" actually means on this page</h2>
-<p>None of the ten platforms above have paid Online Coaching 4u for placement, inclusion, or a higher position in this article. Our Editor's Pick for Rodha is based on a specific, checkable claim — the size and completeness of its free content relative to every other platform we reviewed — not a sponsorship arrangement. If that ever changes for any brand on this page, we will disclose it plainly rather than let a ranking quietly shift.</p>
+<p>None of the ten platforms above have paid Online Coaching 4u for placement, inclusion, or a higher position in this article. Our recommendation for Rodha is based on a specific, checkable claim — the size and completeness of its free content relative to every other platform we reviewed — not a sponsorship arrangement. If that ever changes for any brand on this page, we will disclose it plainly rather than let a ranking quietly shift.</p>
 
 <h2>Frequently asked questions</h2>
 <h3>Do I need to pay for CAT coaching at all?</h3>
@@ -817,5 +817,131 @@ module.exports = [
 <p>Not visiting hostels unannounced at mealtime during the shortlisting trip is the most frequently mentioned regret — families who relied solely on a scheduled tour more often report food-related dissatisfaction than families who insisted on an unannounced weekday visit before committing.</p>
 
 <p>Compare every coaching institute we track in the city, with verified ratings and contact details, on our <a href="coaching-sikar.html">Sikar coaching listings page</a>.</p>`
+  },
+  {
+    slug: "top-10-cat-coaching-institutes-delhi",
+    title: "Top 10 CAT Coaching Institutes in Delhi",
+    category: "CAT / MBA",
+    date: "7 Jul 2026",
+    minutes: 12,
+    image: "assets/blog/top-10-cat-coaching-institutes-delhi.png",
+    imageAlt: "Bar chart graphic representing a comparison of top CAT coaching institutes in Delhi",
+    cta: { href: "coaching-delhi.html", text: "Browse coaching institutes in Delhi" },
+    excerpt: "Ten CAT coaching options for Delhi aspirants — faculty, fees, batches and what students say — profiled institute by institute, in one place.",
+    html: `
+<p>Delhi remains one of India's biggest CAT preparation markets, with everything from long-running classroom institutes to newer online-first platforms competing for aspirants' attention. Below are ten options Delhi CAT aspirants come across most often, profiled one by one — faculty, when they were established, how they teach, availability, official website, what the institute is about, its highlights, fees and batches, and what students say. These profiles are compiled from the institutes' own pages and public information; always confirm current fees, batch timings and faculty directly with the institute before enrolling.</p>
+
+<h2>1. Rodha</h2>
+<p><strong>Faculty:</strong> Primarily led by Ravi Prakash Rodha and a team of experienced instructors for Quantitative Aptitude, LRDI and VARC, with a strong focus on concept clarity.</p>
+<p><strong>Establised in which year:</strong> Recent‑generation online-first CAT coaching brand (active for CAT 2024–2026 cycles; exact incorporation year is mentioned in their company records).</p>
+<p><strong>Mode of teaching:</strong> Online‑only coaching with live classes, recordings, test-series and digital/physical study material; no physical offline centres in Delhi.</p>
+<p><strong>Availability:</strong> PAN‑India through online batches; multiple "Hinglish" comprehensive batches (for example, R3, R7) with fixed start dates and validity till the target CAT/OMET season.</p>
+<p><strong>Official website link:</strong> <a href="https://www.rodha.co.in" rel="noopener" target="_blank">rodha.co.in</a></p>
+<p><strong>About the institute:</strong> Rodha is a dedicated CAT and OMET (XAT, SNAP, NMAT etc.) online coaching platform focused on building strong fundamentals through phased learning, live classes, recorded lectures, worksheets, tests and structured guidance from basics to advanced level.</p>
+<p><strong>HIghlights:</strong> Strong emphasis on core conceptual understanding, extensive YouTube and app-based free content, full live plus recorded coverage of QA, LRDI and VARC, inclusion of OMET courses and mocks with CAT batches, and booklets plus topic-wise tests and sectionals.</p>
+<p><strong>Fees and Batches:</strong> Comprehensive CAT 2026 "all‑in‑one" batches (covering QA, LRDI, VARC plus OMETs) are typically priced in the mid-range segment (exact fee varies by batch and offer); example batch schedules include daily live sessions with Quants classes (around 5 pm–7 pm on multiple weekdays), LRDI classes in late evening/night slots (around 8 pm–10 pm or 10 pm–12 am) and VARC classes (around 5 pm–7 pm) with course completion by around September for CAT 2026.</p>
+<p><strong>Student reviews:</strong> Students frequently praise the high-quality QA and LRDI lectures, depth of concept coverage, quick availability of class recordings and rich test ecosystem. Some students have also talked about the special batches for working professional have really been a great relief and has helped alot. Users have also been praising their new initiatives Rodha buddy app and Rodha panchayat alot for there 1:1 support and quick doubt solving.</p>
+
+<h2>2. T.I.M.E. (Triumphant Institute of Management Education)</h2>
+<p><strong>Faculty:</strong> Experienced CAT faculty across Delhi branches; senior mentors for VARC, DILR and Quant (faculty varies by centre).</p>
+<p><strong>Establised in which year:</strong> 1992.</p>
+<p><strong>Mode of teaching:</strong> Classroom (multiple Delhi centres) and online/live classes.</p>
+<p><strong>Availability:</strong> Multiple Delhi branches (such as Connaught Place, Hudson Lane, Pitampura, Dwarka, Satya Niketan) with weekday and weekend batches; contact specific centre for current seat availability.</p>
+<p><strong>Official website link:</strong> <a href="https://www.time4education.com" rel="noopener" target="_blank">time4education.com</a></p>
+<p><strong>About the institute:</strong> Pan‑India test-prep brand for MBA entrance exams offering structured classroom programs, comprehensive study material, test series and GD/PI support with a strong offline presence in Delhi.</p>
+<p><strong>HIghlights:</strong> Long-standing brand, wide branch network in Delhi, established CAT test series, specialized modules for each section and comprehensive GD/PI support.</p>
+<p><strong>Fees and Batches:</strong> Full CAT classroom or online course is generally in the range of about ₹50,000–₹75,000 depending on duration, centre and inclusions; weekday and weekend batches are available.</p>
+<p><strong>Student reviews:</strong> Overall positive for classroom experience, faculty and test series; some students mention that experience can vary by branch and individual faculty.</p>
+
+<h2>3. Career Launcher (CL)</h2>
+<p><strong>Faculty:</strong> Combination of in-house and visiting mentors for Quant, VARC and DILR; senior faculty profiles are listed centre-wise and some centres have star faculty for specific sections.</p>
+<p><strong>Establised in which year:</strong> Organization founded in the mid‑1990s (national test-prep brand since late 1990s); Delhi centres opened subsequently (each centre has its own start year).</p>
+<p><strong>Mode of teaching:</strong> Classroom programs across multiple Delhi centres plus extensive online/live and recorded courses.</p>
+<p><strong>Availability:</strong> Centres in areas such as Connaught Place, Preet Vihar, Saket, Kailash Colony and others; weekday, weekend and sometimes night batches are run.</p>
+<p><strong>Official website link:</strong> <a href="https://www.careerlauncher.com" rel="noopener" target="_blank">careerlauncher.com</a></p>
+<p><strong>About the institute:</strong> Large national MBA coaching brand offering CAT classroom courses, online programs, test series, mentoring and GD/PI prep with structured course plans and material.</p>
+<p><strong>HIghlights:</strong> Strong brand recall, comprehensive classroom and online offerings, detailed test series, dedicated GD/PI modules and mentoring-driven premium programs.</p>
+<p><strong>Fees and Batches:</strong> CAT classroom and online programs usually fall in a band of roughly ₹55,000–₹80,000 depending on package and duration; multiple batch options (weekday, weekend, some night batches) are offered.</p>
+<p><strong>Student reviews:</strong> Appreciated for quality test series, structured material and mentoring; some students find the premium programs relatively expensive but value them for focused guidance.</p>
+
+<h2>4. IMS Learning Centre</h2>
+<p><strong>Faculty:</strong> Experienced test-prep faculty for Quant, VARC and DILR with some mentors having decades of teaching experience; faculty is centre-specific.</p>
+<p><strong>Establised in which year:</strong> IMS as a brand has been active since the 1970s–1980s and has expanded into multiple cities including Delhi over time.</p>
+<p><strong>Mode of teaching:</strong> Classroom coaching at Delhi centres such as Rajouri Garden, Karol Bagh, GTB Nagar, etc., along with online classes and test-series.</p>
+<p><strong>Availability:</strong> Multiple centres across Delhi offering weekday and weekend batches; online test-series and programs are accessible pan‑India.</p>
+<p><strong>Official website link:</strong> <a href="https://www.imsindia.com" rel="noopener" target="_blank">imsindia.com</a> (Delhi centres section)</p>
+<p><strong>About the institute:</strong> One of the oldest exam-prep companies in India, providing structured CAT coaching programs, detailed mock test-series and mentoring support.</p>
+<p><strong>HIghlights:</strong> Long history in MBA entrance coaching, comprehensive test-series platform, multiple Delhi centres and a mix of classroom plus online options.</p>
+<p><strong>Fees and Batches:</strong> Typical CAT course fees are generally reported around ₹50,000–₹75,000 depending on package, city and duration; batches are offered in both weekday and weekend formats.</p>
+<p><strong>Student reviews:</strong> Students often praise the test-series quality, analytics and structured preparation plans; some mention crowding in popular centres during peak season.</p>
+
+<h2>5. Arun Sharma's Mindworkzz</h2>
+<p><strong>Faculty:</strong> Led by Arun Sharma (well‑known CAT Quant author) with senior faculty for Quant, LRDI and VARC; some sessions are taken by Arun himself along with a core team.</p>
+<p><strong>Establised in which year:</strong> Built over Arun Sharma's long-standing teaching career; Delhi classroom operations have been active for several years.</p>
+<p><strong>Mode of teaching:</strong> Classroom coaching in Delhi (notably Connaught Place / GTB Nagar type locations) plus online/live courses.</p>
+<p><strong>Availability:</strong> Limited-seat classroom batches with weekday and weekend options, as well as online batches catering to students across India.</p>
+<p><strong>Official website link:</strong> mindworkzz.com (and related official pages)</p>
+<p><strong>About the institute:</strong> Niche CAT coaching brand centered around Arun Sharma's books and teaching style, with a strong focus on Quant and problem-solving rigor.</p>
+<p><strong>HIghlights:</strong> High focus on Quant, author-curated material, challenging problem sets and targeted coaching for high-percentile aspirants.</p>
+<p><strong>Fees and Batches:</strong> Course fees for complete CAT programs are commonly in the range of about ₹60,000–₹80,000 depending on the mode and inclusions; smaller specialized batches and doubt sessions are run.</p>
+<p><strong>Student reviews:</strong> Quant training and quality of questions receive strong appreciation; some students prefer to supplement verbal preparation with other sources or coaches.</p>
+
+<h2>6. TathaGat (TG)</h2>
+<p><strong>Faculty:</strong> Founder-led team (for example, Rajat and core faculty) with experienced mentors for all CAT sections and a reputation for close interaction with students.</p>
+<p><strong>Establised in which year:</strong> 2007.</p>
+<p><strong>Mode of teaching:</strong> Classroom coaching from its Delhi centre (such as Barakhamba Road) along with online classes and test-series.</p>
+<p><strong>Availability:</strong> Single or limited Delhi centres with carefully sized batches; online offerings for students outside Delhi.</p>
+<p><strong>Official website link:</strong> <a href="https://tathagat.co.in" rel="noopener" target="_blank">tathagat.co.in</a></p>
+<p><strong>About the institute:</strong> Boutique CAT coaching institute with a student-first approach, known for rigorous concept-building, homework and frequent interaction with faculty.</p>
+<p><strong>HIghlights:</strong> Small batch sizes, personalised attention, rigorous question practice and a tightly monitored learning environment.</p>
+<p><strong>Fees and Batches:</strong> Course fees are usually in the range of around ₹55,000–₹75,000 depending on the specific program; batches are generally structured as weekday or weekend intensive programs.</p>
+<p><strong>Student reviews:</strong> Often praised for personal attention, doubt-solving and serious peer group; limited seats mean batches fill early but also keep class sizes controlled.</p>
+
+<h2>7. MBAGuru</h2>
+<p><strong>Faculty:</strong> Claims of 99+ percentile mentors heading different sections with a team that focuses on adaptive learning and performance tracking.</p>
+<p><strong>Establised in which year:</strong> Delhi-based coaching brand active for many years; detailed foundation year is provided on their official channels.</p>
+<p><strong>Mode of teaching:</strong> Classroom programs in Delhi plus online adaptive courses and test-series.</p>
+<p><strong>Availability:</strong> Centres in areas such as Connaught Place, Kailash Colony, Rajouri Garden and more, along with multiple online batches.</p>
+<p><strong>Official website link:</strong> <a href="https://mbaguru.in" rel="noopener" target="_blank">mbaguru.in</a></p>
+<p><strong>About the institute:</strong> Delhi-headquartered CAT coaching institute known for its "adaptive" preparation model that adjusts difficulty and focus based on student performance, backed by structured classroom teaching.</p>
+<p><strong>HIghlights:</strong> Adaptive prep methodology, relatively smaller batches, detailed performance analytics and regular feedback for students.</p>
+<p><strong>Fees and Batches:</strong> CAT programs generally fall in a range of about ₹60,000–₹75,000; classroom batches run in weekday and weekend modes, and separate online batches are available.</p>
+<p><strong>Student reviews:</strong> Students often highlight personalised attention and adaptive approach as positives; a few compare the fees with bigger national brands while appreciating the Delhi-centric focus.</p>
+
+<h2>8. Alchemist (Alchemist Learning)</h2>
+<p><strong>Faculty:</strong> Senior in‑house faculty team with specialisation across Quant, LRDI and VARC; focus on mentoring and one‑to‑one interactions.</p>
+<p><strong>Establised in which year:</strong> Has been operational in Delhi for several years; each centre may have its own start year.</p>
+<p><strong>Mode of teaching:</strong> Classroom programs with some blended/online support.</p>
+<p><strong>Availability:</strong> Centres in localities such as Pitampura and Connaught Place, with limited-size batches running through the year.</p>
+<p><strong>Official website link:</strong> <a href="https://alchemistindia.com" rel="noopener" target="_blank">alchemistindia.com</a> (and related official pages)</p>
+<p><strong>About the institute:</strong> Delhi-focused CAT coaching institute that positions itself on the promise of personalised coaching and attention through smaller, mentor-driven batches.</p>
+<p><strong>HIghlights:</strong> Small batch sizes, individual doubt-solving, mentor support and emphasis on conceptual clarity over rote practice.</p>
+<p><strong>Fees and Batches:</strong> Fee range is usually reported around ₹60,000–₹90,000 depending on the course depth and duration; different weekday and weekend batch options are offered.</p>
+<p><strong>Student reviews:</strong> Students generally appreciate the personalised atmosphere and faculty access; some consider it slightly premium-priced for its boutique positioning.</p>
+
+<h2>9. AnkGanit</h2>
+<p><strong>Faculty:</strong> Math-focused faculty with strong Quant backgrounds, offering intensive Quant training plus support for other sections via structured material.</p>
+<p><strong>Establised in which year:</strong> Operating in Delhi for several years; exact year is given on their detailed profiles.</p>
+<p><strong>Mode of teaching:</strong> Classroom coaching from its Delhi centre (often associated with Connaught Place) along with online/live Quant-focused offerings.</p>
+<p><strong>Availability:</strong> Limited-size classroom batches and online live courses; batch starting dates are scheduled across the year.</p>
+<p><strong>Official website link:</strong> <a href="https://ankganit.in" rel="noopener" target="_blank">ankganit.in</a></p>
+<p><strong>About the institute:</strong> Boutique coaching with a clear emphasis on Quantitative Aptitude (the name itself signifies mathematics), known for focused practice and high-level problem-solving.</p>
+<p><strong>HIghlights:</strong> Strong Quant specialization, intensive problem practice, personalised doubt clearing and focus on building speed plus accuracy.</p>
+<p><strong>Fees and Batches:</strong> Reported fee for full CAT preparation is roughly around ₹40,000 (may vary with inclusions and time); batch details and schedules are shared directly by the centre.</p>
+<p><strong>Student reviews:</strong> Frequently appreciated by students for strengthening Quant; many aspirants combine it with separate verbal coaching to have a balanced CAT prep strategy.</p>
+
+<h2>10. Kitabee CAT Preparation</h2>
+<p><strong>Faculty:</strong> Classroom faculty with experience in CAT coaching and section-wise mentors for Quant, LRDI and VARC.</p>
+<p><strong>Establised in which year:</strong> Has been active in Delhi for multiple years; exact establishment year is mentioned on detailed institute profiles.</p>
+<p><strong>Mode of teaching:</strong> Classroom coaching (notably from Jhandewalan Extension and nearby areas) with online support and test-series.</p>
+<p><strong>Availability:</strong> Delhi centres with weekday and weekend batches that are relatively compact in size.</p>
+<p><strong>Official website link:</strong> <a href="https://www.kitabee.in" rel="noopener" target="_blank">kitabee.in</a> (and related official pages)</p>
+<p><strong>About the institute:</strong> Delhi-based CAT coaching centre offering full‑length classroom programs, test-series and doubt-solving sessions at a relatively accessible price point.</p>
+<p><strong>HIghlights:</strong> Focus on classroom interaction, approachable faculty and structured test practice aimed at working professionals and students alike.</p>
+<p><strong>Fees and Batches:</strong> Course fees are commonly reported around ₹55,000 for the full program (subject to change); batch options usually include both weekday and weekend slots.</p>
+<p><strong>Student reviews:</strong> Reviews are generally mixed to positive, with students liking the classroom environment and affordability compared to some larger brands.</p>
+
+<h2>Choosing between these ten</h2>
+<p>Fees, batch structure and faculty availability all change over time, so treat every figure above as a starting point for a conversation with the institute, not a locked-in number. Our general <a href="how-to-choose-coaching-institute.html">institute-selection checklist</a> — sit in a real class, get a written refund policy, verify at least one named result — applies just as well when choosing among these ten as it does anywhere else. Browse verified Delhi listings, ratings and contact details on our <a href="coaching-delhi.html">Delhi coaching page</a>.</p>`
   }
 ];
