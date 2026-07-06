@@ -410,18 +410,20 @@ const contactBody = `
 <section class="section container split">
 <div class="prose">
 <h2>Reach us directly</h2>
-<p><strong>Students:</strong> ${B.email}<br><strong>Institutes &amp; business:</strong> ${B.email}<br><strong>Phone/WhatsApp:</strong> ${B.phone} (10am–7pm)</p>
+<p><strong>Students:</strong> ${B.email}<br><strong>Institutes &amp; business:</strong> ${B.email}</p>
 <h2>Corrections</h2>
 <p>Spotted outdated information on a listing? Tell us the page and what's wrong — corrections are our top priority and are usually live within 48 hours.</p>
 </div>
 <div class="side-card">
 <h3>Send a message</h3>
-<form class="enq-form" data-institute="General enquiry">
+<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
+<input type="hidden" name="_subject" value="New enquiry — Online Coaching 4u contact form">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
 <label>Your name<input name="name" required autocomplete="name"></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel"></label>
 <label>Message<textarea name="msg" rows="4" required></textarea></label>
-<button class="btn btn-primary" type="submit">Send via WhatsApp</button>
-<p class="form-ok" hidden>Thanks! Opening WhatsApp…</p>
+<button class="btn btn-primary" type="submit">Send message</button>
 </form>
 </div>
 </section>`;

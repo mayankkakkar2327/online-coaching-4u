@@ -57,8 +57,8 @@
     apply();
   }
 
-  /* ---- enquiry forms → WhatsApp deep link ---- */
-  document.querySelectorAll(".enq-form").forEach(function (f) {
+  /* ---- enquiry forms → WhatsApp deep link (skip forms that already post somewhere real, e.g. the contact form) ---- */
+  document.querySelectorAll(".enq-form:not([action])").forEach(function (f) {
     f.addEventListener("submit", function (ev) {
       ev.preventDefault();
       var d = new FormData(f);
