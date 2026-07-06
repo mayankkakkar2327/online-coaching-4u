@@ -794,7 +794,7 @@ module.exports = [
 <p>It varies considerably by family circumstance and distance, and there's no single right answer — some students do better with infrequent visits that don't disrupt their routine, others benefit from a scheduled midpoint visit. This is worth discussing explicitly as a family before the move, rather than deciding reactively partway through the year.</p>
 
 <h2>A brief note on managing expectations around results</h2>
-<p>Sikar's 2024 AIR 1 result is real and independently verified, but it represents one exceptional outcome from a full year's cohort of students across many institutes, not a typical result every enrolled student should expect. A realistic family conversation before the move should center on steady, consistent improvement and a strong overall selection ratio, using the institute-level detail in our <a href="best-neet-coaching-sikar-2026.html">Sikar NEET coaching comparison</a>, rather than treating a single headline result as the expected outcome of moving to the city.</p>
+<p>Sikar's 2024 AIR 1 result is real and documented on PCP's own results page, but it represents one exceptional outcome from a full year's cohort of students across many institutes, not a typical result every enrolled student should expect. A realistic family conversation before the move should center on steady, consistent improvement and a strong overall selection ratio, using the institute-level detail in our <a href="best-neet-coaching-sikar-2026.html">Sikar NEET coaching comparison</a>, rather than treating a single headline result as the expected outcome of moving to the city.</p>
 
 <h2>Frequently asked questions</h2>
 <h3>Is Sikar suitable for both NEET and JEE preparation?</h3>
