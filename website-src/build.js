@@ -5,6 +5,10 @@ const path = require("path");
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf8"));
 const POSTS = require("./posts.js");
 const OUT = path.join(__dirname, "..", "website");
+
+/* wipe previous build output so removed/renamed pages don't linger as stale files */
+if (fs.existsSync(OUT)) fs.rmSync(OUT, { recursive: true, force: true });
+fs.mkdirSync(OUT, { recursive: true });
 const B = DATA.brand;
 const L = DATA.listings;
 const EX = DATA.examLabels;
@@ -12,9 +16,9 @@ const EX = DATA.examLabels;
 const cityLabel = (c) => c === "online" ? "Online (Pan-India)" : c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const examLabel = (e) => EX[e] || e.toUpperCase();
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const typeLabel = { coaching: "Coaching", schools: "School", hostel: "Hostel" };
-const typePlural = { coaching: "Coaching Institutes", schools: "Schools", hostel: "Hostels" };
-const typePage = { coaching: "coaching", schools: "schools", hostel: "hostels" };
+const typeLabel = { coaching: "Coaching" };
+const typePlural = { coaching: "Coaching Institutes" };
+const typePage = { coaching: "coaching" };
 
 const byType = (t) => L.filter(x => x.type === t);
 const byCity = (t, c) => byType(t)
@@ -24,8 +28,6 @@ const byCity = (t, c) => byType(t)
 const stats = {
   listings: L.length,
   coaching: byType("coaching").length,
-  schools: byType("schools").length,
-  hostels: byType("hostel").length,
   cities: new Set(L.map(x => x.city)).size,
   reviews: L.reduce((s, x) => s + (x.ratingCount || 0), 0)
 };
@@ -36,23 +38,6 @@ function describe(x) {
   const city = cityLabel(x.city);
   const exams = x.exams.filter(e => e !== "schooling").map(examLabel);
   const age = 2026 - x.estd;
-  if (x.type === "hostel") {
-    const who = x.gender === "Both" ? "both boys and girls" : x.gender === "Female" ? "girl students" : "boy students";
-    return [
-      `${x.name} is a student hostel in ${x.locality}, ${city}, offering accommodation for ${who}.`,
-      `Located at ${x.address}, it is positioned close to the city's main coaching hubs, which keeps daily travel time short for students.`,
-      x.priceRange ? `Room plans are available in the range of ${x.priceRange}.` : `Room plans and pricing are shared directly by the hostel on enquiry.`,
-      `Before booking, we recommend visiting in person to check the rooms, mess, security arrangements and house rules.`
-    ].join(" ");
-  }
-  if (x.type === "schools") {
-    return [
-      `${x.name} is a school in ${x.locality}, ${city} district, serving students since ${x.estd}.`,
-      `The school is located at ${x.address}.`,
-      age >= 20 ? `With over ${age} years of operation, it is an established name in the local community.` : `It is one of the newer schools in the area.`,
-      `Parents can contact the school directly for details on classes offered, board affiliation, admission process and fees.`
-    ].join(" ");
-  }
   const examStr = exams.length > 1 ? exams.slice(0, -1).join(", ") + " and " + exams.slice(-1) : exams[0] || "competitive exams";
   const bits = [
     `${x.name} is a coaching institute in ${x.locality}, ${city}, preparing students for ${examStr}.`,
@@ -91,7 +76,7 @@ ${CSS_LINK}
 }
 
 function header(active) {
-  const nav = [["coaching.html", "Coaching"], ["schools.html", "Schools"], ["hostels.html", "Hostels"], ["blog.html", "Blogs"], ["about.html", "About"]];
+  const nav = [["coaching.html", "Coaching"], ["blog.html", "Blogs"], ["about.html", "About"]];
   return `<header class="site-header">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">
@@ -109,15 +94,13 @@ ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-curr
 
 function footer() {
   const coachingCities = DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">${c === "online" ? "Online CAT / MBA Coaching" : `Coaching in ${cityLabel(c)}`}</a></li>`).join("");
-  const hostelCities = DATA.cities.hostels.map(c => `<li><a href="hostels-${c}.html">Hostels in ${cityLabel(c)}</a></li>`).join("");
-  const schoolCities = DATA.cities.schools.map(c => `<li><a href="schools-${c}.html">Schools in ${cityLabel(c)}</a></li>`).join("");
   return `<footer class="site-footer">
 <div class="container footer-grid">
 <div>
 <h3>Coaching</h3><ul>${coachingCities}</ul>
 </div>
 <div>
-<h3>Schools &amp; Hostels</h3><ul>${schoolCities}${hostelCities}</ul>
+<h3>Guides</h3><ul>${POSTS.slice(0, 6).map(p => `<li><a href="${p.slug}.html">${esc(p.title)}</a></li>`).join("")}</ul>
 </div>
 <div>
 <h3>Company</h3><ul>
@@ -188,10 +171,9 @@ function homePage() {
     const n = byCity("coaching", c).length;
     return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
   }).join("");
-  const hostelCards = DATA.cities.hostels.map(c => `<a class="tile tile-city" href="hostels-${c}.html"><strong>Hostels in ${cityLabel(c)}</strong><span class="muted">${byCity("hostel", c).length} listed</span></a>`).join("");
   const featured = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6).map(card).join("");
-  return head(`${B.name} — Find the Best Coaching, Schools & Hostels in India`,
-    `Compare ${stats.coaching} verified coaching institutes, schools and student hostels across ${stats.cities} cities. Real reviews, honest details, free for students.`) +
+  return head(`${B.name} — Find the Best Coaching Institutes in India`,
+    `Compare ${stats.coaching} verified coaching institutes across ${stats.cities} cities. Real reviews, honest details, free for students.`) +
     header("index.html") + `
 <section class="hero">
 <div class="container">
@@ -221,11 +203,6 @@ ${searchBox()}
 <h2>Browse by city</h2>
 <div class="tile-grid">${cityCards}</div>
 </section>
-<section class="section container">
-<h2>Need a hostel near your academy?</h2>
-<p class="section-sub">Verified hostels with location, gender and pricing details</p>
-<div class="tile-grid">${hostelCards}</div>
-</section>
 <section class="section container why">
 <h2>Why students trust ${B.name}</h2>
 <div class="why-grid">
@@ -241,14 +218,14 @@ ${searchBox()}
 <div class="card-grid">${POSTS.slice(0, 3).map(postCard).join("")}</div>
 </section>
 <section class="section container cta-band">
-<h2>Run an institute or hostel?</h2>
+<h2>Run a coaching institute?</h2>
 <p>Get listed free and reach students actively searching in your city.</p>
 <a class="btn btn-primary" href="list-your-institute.html">List Your Institute Free</a>
 </section>` + footer();
 }
 
 function hubPage(type, title, sub) {
-  const cities = DATA.cities[typePage[type] === "hostels" ? "hostels" : typePage[type]];
+  const cities = DATA.cities[typePage[type]];
   const cityCards = cities.map(c => {
     const items = byCity(type, c);
     const top = items[0];
@@ -326,7 +303,7 @@ function detailPage(x) {
   const listHref = `${typePage[x.type]}-${x.city}.html`;
   const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
   return head(`${x.name} — ${x.city === "online" ? "Online CAT / MBA Coaching" : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
-    `${x.name}, ${x.locality}, ${cityL}. Established ${x.estd}.${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} ${x.type === "hostel" ? "Address, pricing and enquiry details." : "Address, exams offered and enquiry details."}`) +
+    `${x.name}, ${x.locality}, ${cityL}. Established ${x.estd}.${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} Address, exams offered and enquiry details.`) +
     header(`${typePage[x.type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${cityL}</a> / <span>${esc(x.name)}</span></div>
 <section class="container detail-hero">
@@ -390,7 +367,7 @@ function simplePage(file, title, desc, bodyHtml, active) {
 /* ---------- static page bodies ---------- */
 const aboutBody = `
 <section class="hero hero-sm"><div class="container"><h1>About ${B.name}</h1>
-<p class="hero-sub">We help students and parents compare coaching institutes, schools and hostels — honestly.</p></div></section>
+<p class="hero-sub">We help students and parents compare coaching institutes — honestly.</p></div></section>
 <section class="section container prose">
 <h2>Why we exist</h2>
 <p>Choosing a coaching institute is one of the biggest decisions in a student's life, and most of the information out there is either an advertisement or a guess. ${B.name} exists to put verified, comparable facts in one place: who teaches what, since when, where exactly, and what students actually say about it.</p>
@@ -527,10 +504,8 @@ const termsBody = `
 
 function sitemapBody() {
   const links = [];
-  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["schools.html", "Schools"], ["hostels.html", "Hostels"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
+  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
   DATA.cities.coaching.forEach(c => links.push([`coaching-${c}.html`, `Coaching in ${cityLabel(c)}`]));
-  DATA.cities.schools.forEach(c => links.push([`schools-${c}.html`, `Schools in ${cityLabel(c)}`]));
-  DATA.cities.hostels.forEach(c => links.push([`hostels-${c}.html`, `Hostels in ${cityLabel(c)}`]));
   const inst = L.map(x => `<li><a href="institute-${x.slug}.html">${esc(x.name)} — ${cityLabel(x.city)}</a></li>`).join("");
   return `<section class="hero hero-sm"><div class="container"><h1>Sitemap</h1></div></section>
 <section class="section container prose">
@@ -582,18 +557,14 @@ const w = (f, html) => {
 
 w("index.html", homePage());
 w("coaching.html", hubPage("coaching", "Find Your Coaching Institute", `Compare ${stats.coaching} coaching institutes for IAS, JEE, NEET, SSC and more — with real student ratings.`));
-w("schools.html", hubPage("schools", "Find the Right School", `Compare ${stats.schools} schools with establishment history, location and parent reviews.`));
-w("hostels.html", hubPage("hostel", "Find a Safe, Comfortable Hostel", `Compare ${stats.hostels} student hostels — location, gender, pricing and reviews in one place.`));
 
 DATA.cities.coaching.forEach(c => w(`coaching-${c}.html`, listingPage("coaching", c)));
-DATA.cities.schools.forEach(c => w(`schools-${c}.html`, listingPage("schools", c)));
-DATA.cities.hostels.forEach(c => w(`hostels-${c}.html`, listingPage("hostel", c)));
 
 L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
 
 w("about.html", simplePage("about.html", "About Us", `Who we are and how ${B.name} keeps listings honest.`, aboutBody, "about.html"));
 w("contact.html", simplePage("contact.html", "Contact Us", `Get in touch with the ${B.name} team.`, contactBody));
-w("list-your-institute.html", simplePage("list-your-institute.html", "List Your Institute Free", `Register your coaching institute, school or hostel on ${B.name} for free.`, listBody));
+w("list-your-institute.html", simplePage("list-your-institute.html", "List Your Institute Free", `Register your coaching institute on ${B.name} for free.`, listBody));
 w("blog.html", simplePage("blog.html", "Guides & Articles", "Original research-backed articles on coaching, exam preparation and student life.", blogIndex(), "blog.html"));
 POSTS.forEach(p => w(`${p.slug}.html`, postPage(p) + footer()));
 w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privacy policy.`, privacyBody));
