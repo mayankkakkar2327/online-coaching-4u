@@ -70,7 +70,7 @@ function describe(x) {
 /* ---------- shared layout ---------- */
 const CSS_LINK = `<link rel="stylesheet" href="assets/style.css">`;
 
-function head(title, desc) {
+function head(title, desc, image) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,6 +82,7 @@ function head(title, desc) {
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:site_name" content="${B.name}">
 <meta property="og:type" content="website">
+${image ? `<meta property="og:image" content="${B.siteUrl}/${image}">\n<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="${B.siteUrl}/${image}">` : ""}
 <meta name="robots" content="index, follow">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 ${CSS_LINK}
@@ -453,8 +454,15 @@ const listBody = `
 
 /* ---------- blog ---------- */
 const CATS = [...new Set(POSTS.map(p => p.category))];
+const MONTHS = { Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06", Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12" };
+function toISODate(d) {
+  const m = /^(\d{1,2}) (\w{3}) (\d{4})$/.exec(d);
+  if (!m) return d;
+  return `${m[3]}-${MONTHS[m[2]] || "01"}-${m[1].padStart(2, "0")}`;
+}
 function postCard(p) {
   return `<a class="card post-card" href="${p.slug}.html">
+<div class="card-media${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}</div>
 <div class="card-body">
 <div class="card-top"><span class="badge badge-type">${esc(p.category)}</span><span class="muted">${p.date} · ${p.minutes} min read</span></div>
 <h3>${esc(p.title)}</h3>
@@ -474,11 +482,22 @@ function blogIndex() {
 function postPage(p) {
   const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 2);
   const more = related.length ? related : POSTS.filter(o => o.slug !== p.slug).slice(0, 2);
-  return head(`${p.title} | ${B.name}`, p.excerpt).replace("</head>", `<meta property="article:published_time" content="2026-07-03">\n</head>`) + header("blog.html") + `
+  const iso = toISODate(p.date);
+  const articleLd = {
+    "@context": "https://schema.org", "@type": "BlogPosting",
+    headline: p.title, description: p.excerpt,
+    ...(p.image ? { image: [`${B.siteUrl}/${p.image}`] } : {}),
+    author: { "@type": "Organization", name: `${B.name} Editorial Team`, url: B.siteUrl },
+    publisher: { "@type": "Organization", name: B.name, url: B.siteUrl },
+    datePublished: iso, dateModified: iso,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${B.siteUrl}/${p.slug}` }
+  };
+  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n</head>`) + header("blog.html") + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Guides</a> / <span>${esc(p.title)}</span></div>
 <article class="section container prose article-body">
 <p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} editorial team</p>
 <h1>${esc(p.title)}</h1>
+${p.image ? `<div class="detail-media" style="margin:20px 0"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>` : ""}
 ${p.html}
 <div class="cta-band" style="margin-top:36px"><h2>Ready to compare options?</h2><p>Every listing shows verified facts and unedited student ratings.</p><a class="btn btn-primary" href="${p.cta.href}">${esc(p.cta.text)}</a></div>
 </article>
@@ -527,6 +546,16 @@ const js = fs.readFileSync(path.join(__dirname, "app.js"), "utf8");
 fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
 fs.writeFileSync(path.join(OUT, "assets", "style.css"), css);
 fs.writeFileSync(path.join(OUT, "assets", "app.js"), js);
+
+/* copy blog images */
+const blogSrc = path.join(__dirname, "assets", "blog");
+if (fs.existsSync(blogSrc)) {
+  const blogOut = path.join(OUT, "assets", "blog");
+  fs.mkdirSync(blogOut, { recursive: true });
+  for (const f of fs.readdirSync(blogSrc)) {
+    fs.copyFileSync(path.join(blogSrc, f), path.join(blogOut, f));
+  }
+}
 
 /* canonical URLs use clean paths (Vercel cleanUrls: true strips .html) */
 const cleanPath = (f) => f === "index.html" ? "/" : "/" + f.replace(/\.html$/, "");
