@@ -545,6 +545,16 @@ if (fs.existsSync(blogSrc)) {
   }
 }
 
+/* copy institute logo images */
+const logosSrc = path.join(__dirname, "assets", "logos");
+if (fs.existsSync(logosSrc)) {
+  const logosOut = path.join(OUT, "assets", "logos");
+  fs.mkdirSync(logosOut, { recursive: true });
+  for (const f of fs.readdirSync(logosSrc)) {
+    fs.copyFileSync(path.join(logosSrc, f), path.join(logosOut, f));
+  }
+}
+
 /* canonical URLs use clean paths (Vercel cleanUrls: true strips .html) */
 const cleanPath = (f) => f === "index.html" ? "/" : "/" + f.replace(/\.html$/, "");
 const canonical = (f) => `${B.siteUrl}${cleanPath(f)}`;
