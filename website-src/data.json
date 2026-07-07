@@ -16,7 +16,15 @@
       "jaipur",
       "kota",
       "mumbai",
-      "chandigarh"
+      "chandigarh",
+      "bengaluru",
+      "chennai",
+      "hyderabad",
+      "visakhapatnam",
+      "kochi",
+      "thiruvananthapuram",
+      "coimbatore",
+      "mysuru"
     ]
   },
   "examLabels": {
@@ -59,7 +67,8 @@
     "epfo/apfc": "EPFO / APFC",
     "ao/eo": "AO / EO",
     "cet": "CET",
-    "schooling": "Schooling"
+    "schooling": "Schooling",
+    "ca": "CA Coaching"
   },
   "listings": [
     {
@@ -1415,6 +1424,584 @@
         "Small two-person core faculty with direct student access",
         "Positioned on affordability against legacy institute pricing"
       ]
+    },
+    {
+      "slug": "iproledge-academy-bengaluru",
+      "type": "coaching",
+      "name": "iProledge Academy",
+      "city": "bengaluru",
+      "locality": "Basavanagudi",
+      "address": "Basavanagudi, Bengaluru, Karnataka",
+      "estd": 2010,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.9,
+      "ratingCount": 38,
+      "verified": false,
+      "thumb": "https://unavatar.io/iproledge.com",
+      "about": "iProledge Academy is a Bengaluru CA coaching institute based in Basavanagudi with over 15 years of commerce coaching experience. Its faculty bench includes CA Prudhvi Raj, CA Veeraj, CA Varshith Gowda, CA Tejas Sudhakar, CA Sharanya and CA Theja G Shastri, covering CA Foundation, Intermediate and Final alongside CS, CMA India, CMA USA and ACCA. Classes run online, offline and hybrid, with a concept-based teaching style, structured mentoring and regular mock tests. The institute carries a strong reputation locally, reflected in a near-5-star Google rating built up over more than a decade of operation.",
+      "highlights": [
+        "15+ years of dedicated commerce and CA coaching in Bengaluru",
+        "Multi-exam faculty bench covering CA, CS, CMA (India & USA) and ACCA",
+        "Concept-based teaching backed by regular mock tests and mentoring"
+      ],
+      "website": "https://www.iproledge.com"
+    },
+    {
+      "slug": "arivupro-academy-bengaluru",
+      "type": "coaching",
+      "name": "ArivuPro Academy",
+      "city": "bengaluru",
+      "locality": "Koramangala & Malleshwaram",
+      "address": "Koramangala & Malleshwaram, Bengaluru, Karnataka",
+      "estd": 2015,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.4,
+      "ratingCount": 27,
+      "verified": false,
+      "thumb": "https://unavatar.io/arivupro.com",
+      "about": "ArivuPro Academy is a commerce ed-tech brand with centres in Koramangala and Malleshwaram, Bengaluru, offering CA Foundation, Intermediate and Final alongside CS, CMA, ACCA, CPA, CFA, FRM and EA. Classes combine online, offline and recorded-backup formats so students can revisit lectures, supported by personalised mentoring, structured learning aids and regular mock tests. The academy has expanded branches across several South Indian cities. Student feedback is generally positive on exam-focused teaching and notes, though experiences can vary by branch, so a trial class is worth taking before enrolling.",
+      "highlights": [
+        "Online, offline and recorded-backup formats in one program",
+        "Branch network spanning multiple South Indian cities",
+        "Personalised mentoring plus regular mock tests and learning aids"
+      ],
+      "website": "https://www.arivupro.com/"
+    },
+    {
+      "slug": "yeshas-academy-bengaluru",
+      "type": "coaching",
+      "name": "Yeshas Academy",
+      "city": "bengaluru",
+      "locality": "Malleshwaram / Jayanagar",
+      "address": "Malleshwaram / Jayanagar, Bengaluru, Karnataka",
+      "estd": 2004,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 16,
+      "verified": false,
+      "thumb": "https://unavatar.io/yeshasacademy.com",
+      "about": "Yeshas Academy is a long-running Bengaluru commerce education institute with centres in Malleshwaram and Jayanagar, offering CA, CS, CPA, US CMA, ACCA and PUC coaching. Founders and advisors CA Pawan Pagaria and CA Lalit Sharma lead a faculty team focused on conceptual learning and structured exam preparation. Running since 2004, the institute has built a stable local reputation, with listing reviews citing a good learning atmosphere and steady teaching quality, though prospective students should verify current batch details directly with the institute.",
+      "highlights": [
+        "Operating in Bengaluru's commerce coaching space since 2004",
+        "Covers CA alongside CS, CPA, US CMA and ACCA",
+        "Founder-led faculty focused on conceptual, structured learning"
+      ],
+      "website": "https://www.yeshasacademy.com/"
+    },
+    {
+      "slug": "successedge-academy-bengaluru",
+      "type": "coaching",
+      "name": "SuccessEdge Academy",
+      "city": "bengaluru",
+      "locality": "Vijayanagar, Basavanagudi, Malleshwaram",
+      "address": "Vijayanagar / Basavanagudi / Malleshwaram, Bengaluru, Karnataka",
+      "estd": 2012,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 24,
+      "verified": false,
+      "thumb": "https://unavatar.io/successedge.co",
+      "about": "SuccessEdge Academy runs CA Foundation, Intermediate and Final coaching from three Bengaluru centres — Vijayanagar, Basavanagudi and Malleshwaram — alongside CS, CMA and ACCA programs, in both online and offline formats. The institute positions itself around a mentoring model with expert faculty and regular mock tests. Testimonials highlight faculty who simplify difficult concepts and mock-test practice, and the institute is also profiled on UrbanPro as a professional-course coaching provider in the city.",
+      "highlights": [
+        "Three Bengaluru centres across Vijayanagar, Basavanagudi and Malleshwaram",
+        "CA, CS, CMA and ACCA under one roof",
+        "Mentoring model with regular mock tests"
+      ],
+      "website": "https://www.successedge.co/"
+    },
+    {
+      "slug": "ks-academy-chennai",
+      "type": "coaching",
+      "name": "KS Academy",
+      "city": "chennai",
+      "locality": "Tambaram",
+      "address": "Tambaram, Chennai, Tamil Nadu",
+      "estd": 2010,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.6,
+      "ratingCount": 45,
+      "verified": false,
+      "thumb": "https://unavatar.io/ksacademy.co.in",
+      "about": "KS Academy is one of South India's best-known CA coaching brands, founded in Chennai by CA K. Saravanan before expanding into Coimbatore, Bengaluru, Hyderabad and Trichy. Its Chennai centre offers CA Foundation, Intermediate and Final, a combined CA + B.Com route, and ACCA and allied programs through group entities, delivered online, offline and via virtual classrooms. The brand has strong recall across South India, with the official site emphasising close faculty attention, and social and student feedback that is generally positive.",
+      "highlights": [
+        "Chennai-origin CA brand now present across five South Indian cities",
+        "Combined CA + B.Com route alongside standard CA levels",
+        "Strong brand recall and generally positive student feedback"
+      ],
+      "website": "https://ksacademy.co.in/"
+    },
+    {
+      "slug": "rr-academy-chennai",
+      "type": "coaching",
+      "name": "RR Academy",
+      "city": "chennai",
+      "locality": "Chennai",
+      "address": "Chennai, Tamil Nadu",
+      "estd": 1993,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.6,
+      "ratingCount": 33,
+      "verified": false,
+      "thumb": "https://unavatar.io/rracademy.in",
+      "about": "RR Academy is an established Chennai professional-coaching institute with more than 30 years of experience in CA, CS and CMA/ICWA/ACS coaching. The institute emphasises small batches and personal attention, and its website publishes detailed testimonials praising experienced faculty, weekly tests and conceptual clarity. RR Academy also cites all-India rank results among its students, positioning it as one of Chennai's longer-standing names in professional accountancy coaching.",
+      "highlights": [
+        "30+ years of CA, CS and CMA/ICWA coaching in Chennai",
+        "Small-batch model with an emphasis on personal attention",
+        "Weekly tests and all-India rank claims among past students"
+      ],
+      "website": "https://www.rracademy.in/"
+    },
+    {
+      "slug": "sreeram-coaching-point-chennai",
+      "type": "coaching",
+      "name": "Sreeram Coaching Point",
+      "city": "chennai",
+      "locality": "T. Nagar",
+      "address": "T. Nagar, Chennai, Tamil Nadu",
+      "estd": 1989,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.4,
+      "ratingCount": 19,
+      "verified": false,
+      "thumb": "https://unavatar.io/sreeramcp.com",
+      "about": "Sreeram Coaching Point is a long-standing CA coaching forum in T. Nagar, Chennai, founded in 1989 by CA L. Muralidharan (B.Com, FCA, ACMA, Dip IFRS). It covers all levels of CA alongside CMA, CPA and EA, in both offline and online formats, and is positioned for serious, exam-focused CA aspirants. The institute has a long operating history in Chennai's professional coaching scene, though independent review volume is more limited than some larger multi-city brands.",
+      "highlights": [
+        "Founded in 1989 by CA L. Muralidharan (FCA, ACMA, Dip IFRS)",
+        "Covers all CA levels plus CMA, CPA and EA",
+        "Long-standing, exam-focused institute in T. Nagar"
+      ],
+      "website": "https://www.sreeramcp.com/"
+    },
+    {
+      "slug": "cms-for-ca-hyderabad",
+      "type": "coaching",
+      "name": "CMS for CA",
+      "city": "hyderabad",
+      "locality": "Sanjeeva Reddy Nagar",
+      "address": "Sanjeeva Reddy Nagar, Hyderabad, Telangana",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.1,
+      "ratingCount": 52,
+      "verified": false,
+      "thumb": "https://unavatar.io/cmsforca.in",
+      "about": "CMS for CA is a large Hyderabad commerce college and professional academy operating from Sanjeeva Reddy Nagar and other city campuses, offering CA, CMA and CS alongside integrated MEC/CEC programs and entrance coaching for CLAT, IPMAT and CUET. The institute claims to have produced 12,000+ qualified CA/CMA professionals and 500+ all-India ranks over its history. Shiksha reviews rate its faculty around 4.1, with students praising study material and weekly exams, alongside some mixed feedback typical of a large multi-program institute.",
+      "highlights": [
+        "Claims 12,000+ CA/CMA professionals produced and 500+ AIRs",
+        "Combines CA/CMA/CS with integrated MEC/CEC and entrance coaching",
+        "Shiksha-rated faculty around 4.1 with praise for weekly exams"
+      ],
+      "website": "https://cmsforca.in/"
+    },
+    {
+      "slug": "ks-academy-hyderabad",
+      "type": "coaching",
+      "name": "KS Academy Hyderabad",
+      "city": "hyderabad",
+      "locality": "Ameerpet",
+      "address": "Ameerpet, Hyderabad, Telangana",
+      "estd": 2010,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 21,
+      "verified": false,
+      "thumb": "https://unavatar.io/ksacademyhyderabad.in",
+      "about": "KS Academy Hyderabad is the Ameerpet branch of KS Academy, the Chennai-origin CA coaching brand with a multi-city South India presence. It runs CA Foundation, Intermediate and Final along with a combined CA + B.Com route, ACCA and allied programs, through offline, online and KS Virtuals classes. As a branch of an established brand, it carries the same faculty standards and structure as KS Academy's other centres, with active social-media presence even though branch-specific public review detail is more limited.",
+      "highlights": [
+        "Ameerpet branch of the multi-city KS Academy brand",
+        "Offline, online and KS Virtuals class formats",
+        "Combined CA + B.Com route alongside ACCA and allied programs"
+      ],
+      "website": "https://www.ksacademyhyderabad.in/"
+    },
+    {
+      "slug": "master-minds-hyderabad",
+      "type": "coaching",
+      "name": "Master Minds",
+      "city": "hyderabad",
+      "locality": "Serves Hyderabad primarily online (Guntur-origin)",
+      "address": "Guntur-origin institute serving Hyderabad students online",
+      "estd": 2002,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 29,
+      "verified": false,
+      "thumb": "https://unavatar.io/mastermindsindia.com",
+      "about": "Master Minds is a large commerce coaching institute founded in Guntur in 2002, known across Andhra Pradesh and Telangana for CA Foundation, Intermediate and Final along with CMA Foundation, Intermediate and Final and MEC/CEC programs. Hyderabad students primarily access it through its online and recorded-course offerings, backed by comprehensive study material and doubt-support. It carries a strong regional brand reputation built over two decades, though a dedicated Hyderabad physical branch should be confirmed directly with the institute.",
+      "highlights": [
+        "Guntur-origin brand with 20+ years in commerce coaching",
+        "Covers both CA and CMA across all levels",
+        "Strong regional reputation across Andhra Pradesh and Telangana"
+      ],
+      "website": "https://mastermindsindia.com/"
+    },
+    {
+      "slug": "srinivasa-academy-visakhapatnam",
+      "type": "coaching",
+      "name": "Srinivasa Academy",
+      "city": "visakhapatnam",
+      "locality": "Online/hybrid option (Chennai-based)",
+      "address": "Chennai-based academy, accessible to Visakhapatnam students online",
+      "estd": 2009,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.2,
+      "ratingCount": 14,
+      "verified": false,
+      "thumb": "https://unavatar.io/srinivasaacademy.com",
+      "about": "Srinivasa Academy, established in 2009 by Dr. Vidhya Srikanth and associated with JK Shah Classes, offers CA, CMA and CS coaching. While based in Chennai rather than Visakhapatnam itself, its offline-plus-hybrid delivery makes it a relevant option where dedicated local CA coaching is limited, such as in Vizag. Reviews note friendly faculty and practical teaching examples, though students should verify current batch access and delivery format for their city before enrolling.",
+      "highlights": [
+        "Established 2009, associated with JK Shah Classes",
+        "Covers CA, CMA and CS under one institute",
+        "Hybrid delivery makes it accessible beyond its home city"
+      ],
+      "website": "https://srinivasaacademy.com/sa/"
+    },
+    {
+      "slug": "jk-shah-online-visakhapatnam",
+      "type": "coaching",
+      "name": "JK Shah Online",
+      "city": "visakhapatnam",
+      "locality": "Online",
+      "address": "Online — accessible in Visakhapatnam",
+      "online": true,
+      "estd": 1983,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.6,
+      "ratingCount": 41,
+      "verified": false,
+      "thumb": "https://unavatar.io/online.jkshahclasses.com",
+      "about": "JK Shah Online is the online arm of JK Shah Classes, a national CA coaching brand founded in 1983 and led by CA Vishal Shah. It offers CA Foundation, Intermediate and Final, CS courses and a B.Com-with-CA track, with recorded HD lectures, chapter-and-subject-wise access, structured study plans and doubt-solving support. For cities like Visakhapatnam with fewer dedicated local CA institutes, its established brand trust and fully online delivery make it a practical option, backed by faculty including Akshat Vakharia, CA Deep Jain, CA Mohit Jain and Chirag Thakkar on various subjects.",
+      "highlights": [
+        "National brand founded in 1983, fully online delivery",
+        "Recorded HD lectures with chapter/subject-wise access",
+        "Established trust and structured doubt-solving support"
+      ],
+      "website": "https://online.jkshahclasses.com/"
+    },
+    {
+      "slug": "parag-gupta-classes-visakhapatnam",
+      "type": "coaching",
+      "name": "Parag Gupta Classes",
+      "city": "visakhapatnam",
+      "locality": "Online",
+      "address": "Online — city-specific page for Visakhapatnam",
+      "online": true,
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.0,
+      "ratingCount": 9,
+      "verified": false,
+      "thumb": "https://unavatar.io/paraggupta.com",
+      "about": "Parag Gupta Classes is a Delhi-origin online CA coaching option led by CA Parag Gupta, focused on CA Intermediate and Final subjects with a dedicated online presence for Visakhapatnam students. Independent review data is limited compared to larger multi-city brands, but the institute maintains a city-specific page targeting Vizag aspirants seeking purely online CA preparation, making it worth a trial class before committing.",
+      "highlights": [
+        "Delhi-origin faculty with a dedicated Visakhapatnam-facing page",
+        "Focused on CA Intermediate and Final subjects",
+        "Fully online delivery model"
+      ],
+      "website": "https://www.paraggupta.com/"
+    },
+    {
+      "slug": "logic-school-of-management-kochi",
+      "type": "coaching",
+      "name": "Logic School of Management",
+      "city": "kochi",
+      "locality": "Palarivattom (Head Office)",
+      "address": "Palarivattom, Kochi, Kerala",
+      "estd": 2005,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.4,
+      "ratingCount": 36,
+      "verified": false,
+      "thumb": "https://unavatar.io/logiceducation.org",
+      "about": "Logic School of Management is one of Kerala's largest commerce professional institutes, headquartered in Palarivattom, Kochi, with a claimed 82+ branch network across the state. It offers CA Foundation, Intermediate and Final alongside CS, CMA India, CMA USA, ACCA, CPA, EA and integrated B.Com/M.Com programs, in blended offline-and-online formats. Its Facebook page shows a 94% recommendation rate, and it is confirmed as an established institute on platforms like UrbanPro, with generally positive public feedback across its wide branch network.",
+      "highlights": [
+        "82+ branches claimed across Kerala, headquartered in Kochi",
+        "Broad course spread: CA, CS, CMA (India & USA), ACCA, CPA, EA",
+        "94% recommendation rate reported on its Facebook page"
+      ],
+      "website": "https://logiceducation.org/"
+    },
+    {
+      "slug": "triple-i-commerce-academy-kochi",
+      "type": "coaching",
+      "name": "Triple i Commerce Academy",
+      "city": "kochi",
+      "locality": "Kochi",
+      "address": "Kochi, Kerala",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 22,
+      "verified": false,
+      "thumb": "https://unavatar.io/tripleica.com",
+      "about": "Triple i Commerce Academy is a Kochi-based commerce academy with a faculty bench of 28+ experts, including 13+ qualified professionals and 9+ CAs for core subjects. It offers CA, CMA India, CMA USA, ACCA, CS and commerce entrance coaching in both online and offline formats, and claims around a 60% batch success rate on its Kochi CA page. The website carries detailed student testimonials praising faculty support and the overall learning environment.",
+      "highlights": [
+        "28+ expert faculty including 9+ CAs for core CA subjects",
+        "Claims ~60% batch success rate for its Kochi CA page",
+        "Detailed student testimonials on faculty support"
+      ],
+      "website": "https://www.tripleica.com/"
+    },
+    {
+      "slug": "xylem-learning-ca-kochi",
+      "type": "coaching",
+      "name": "Xylem Learning — Commerce/CA",
+      "city": "kochi",
+      "locality": "Kerala-based app + offline centers",
+      "address": "Kerala-based, app-accessible in Kochi",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.0,
+      "ratingCount": 31,
+      "verified": false,
+      "thumb": "https://unavatar.io/xylemlearning.com",
+      "about": "Xylem Learning is a large Kerala learning platform, well known for its NEET/JEE/PSC app ecosystem, that has expanded into commerce and CA coaching. Its CA offering combines an app-based learning model with offline centres, offering video classes and study material at accessible fee points. Reviews on app stores are mixed, typical of a large, broad-subject platform, while its official CA page emphasises friendly teachers and flexible video-based learning — a reasonable option for Kochi students who want app-first CA prep.",
+      "highlights": [
+        "Well-established Kerala ed-tech brand expanding into CA coaching",
+        "App-based video classes plus offline centre support",
+        "Accessible fee points aimed at broad reach"
+      ],
+      "website": "https://xylemlearning.com/"
+    },
+    {
+      "slug": "arivupro-academy-thiruvananthapuram",
+      "type": "coaching",
+      "name": "ArivuPro Academy Trivandrum",
+      "city": "thiruvananthapuram",
+      "locality": "Thiruvananthapuram",
+      "address": "Thiruvananthapuram, Kerala",
+      "estd": 2015,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.2,
+      "ratingCount": 13,
+      "verified": false,
+      "thumb": "https://unavatar.io/arivupro.com",
+      "about": "ArivuPro Academy's Thiruvananthapuram page extends the South India commerce ed-tech brand's CA Foundation, Intermediate and Final coaching — alongside CS, CMA and ACCA — to Kerala's capital, combining online delivery with centre-led support. Public review data specific to the Trivandrum branch is limited, though the parent ArivuPro brand carries a mix of positive and mixed feedback across its other cities, so a trial class is recommended before enrolling.",
+      "highlights": [
+        "Trivandrum extension of the multi-city ArivuPro brand",
+        "CA, CS, CMA and ACCA under one program",
+        "Online delivery with local, centre-led support"
+      ],
+      "website": "https://www.arivupro.com/"
+    },
+    {
+      "slug": "logic-school-of-management-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Logic School of Management",
+      "city": "thiruvananthapuram",
+      "locality": "Kerala-wide branch network",
+      "address": "Kerala-wide branch network, availability in Thiruvananthapuram",
+      "estd": 2005,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 17,
+      "verified": false,
+      "thumb": "https://unavatar.io/logiceducation.org",
+      "about": "Logic School of Management extends its large Kerala-wide commerce professional education network to Thiruvananthapuram, covering CA, CS, CMA India/USA, ACCA, CPA, EA and integrated finance-degree programs. The institute has run for over two decades and holds an established, positively regarded brand reputation across Kerala on platforms like UrbanPro, though branch-specific details for the Thiruvananthapuram centre are best confirmed directly with the institute.",
+      "highlights": [
+        "Part of a large, 20+ year Kerala-wide commerce education chain",
+        "Broad course spread: CA, CS, CMA, ACCA, CPA, EA",
+        "Positive brand-level reputation across Kerala"
+      ],
+      "website": "https://logiceducation.org/"
+    },
+    {
+      "slug": "rank-centre-for-ca-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Rank Centre for CA",
+      "city": "thiruvananthapuram",
+      "locality": "Kerala",
+      "address": "Kerala; centre in Thiruvananthapuram",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.4,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/rankcentreforca.com",
+      "about": "Rank Centre for CA is a Kerala-focused CA coaching centre with more than 20 years of experience, offering CA Foundation, Intermediate and Final in both online and offline formats. Its official positioning emphasises an experienced faculty team and long-standing focus on CA exam support, though independent review detail is more limited than some larger multi-city brands — worth a direct enquiry to confirm current Thiruvananthapuram centre details.",
+      "highlights": [
+        "20+ years of focused CA coaching experience in Kerala",
+        "Covers all three CA levels: Foundation, Intermediate, Final",
+        "Online and offline formats available"
+      ],
+      "website": "https://www.rankcentreforca.com/"
+    },
+    {
+      "slug": "ks-academy-coimbatore",
+      "type": "coaching",
+      "name": "KS Academy Coimbatore",
+      "city": "coimbatore",
+      "locality": "Coimbatore",
+      "address": "Coimbatore, Tamil Nadu",
+      "estd": 2010,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 18,
+      "verified": false,
+      "thumb": "https://unavatar.io/ksacademycoimbatore.com",
+      "about": "KS Academy Coimbatore is the local branch of KS Academy, the Chennai-origin CA coaching brand with a presence across five South Indian cities. It runs CA Foundation, Intermediate and Final along with a combined B.Com + CA route and allied programs, through offline, online and KS Virtuals classes. As part of an established multi-city brand, it carries consistent faculty standards, with the official branch page emphasising its faculty team and student support structure.",
+      "highlights": [
+        "Coimbatore branch of the multi-city KS Academy brand",
+        "Combined B.Com + CA route alongside standard CA levels",
+        "Offline, online and KS Virtuals class formats"
+      ],
+      "website": "https://www.ksacademycoimbatore.com/"
+    },
+    {
+      "slug": "pr-academy-coimbatore",
+      "type": "coaching",
+      "name": "PR Academy",
+      "city": "coimbatore",
+      "locality": "Ram Nagar",
+      "address": "Ram Nagar, Coimbatore, Tamil Nadu",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.6,
+      "ratingCount": 25,
+      "verified": false,
+      "thumb": "https://unavatar.io/pracademy.in",
+      "about": "PR Academy — 'Professionalism Redefined' — is a Coimbatore commerce academy offering CA, CMA and ACCA coaching with a structured, level-wise CA curriculum covering Foundation, Intermediate and Final. The institute is known for industry-veteran faculty and personalised guidance, alongside regular mock tests and doubt-clearing sessions, and also runs boarding and hostel facilities for outstation students. Student testimonials on its site consistently highlight faculty attention and a supportive, motivating learning environment.",
+      "highlights": [
+        "Structured CA curriculum across Foundation, Intermediate, Final",
+        "Also offers CMA and ACCA alongside CA",
+        "On-campus hostel facilities for outstation students"
+      ],
+      "website": "https://www.pracademy.in/"
+    },
+    {
+      "slug": "ara-education-coimbatore",
+      "type": "coaching",
+      "name": "ARA Education",
+      "city": "coimbatore",
+      "locality": "Coimbatore",
+      "address": "Coimbatore, Tamil Nadu",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 15,
+      "verified": false,
+      "thumb": "https://unavatar.io/araeducation.in",
+      "about": "ARA Education is a Coimbatore CA-focused institute offering CA Foundation, Intermediate and Final coaching with hostel facilities for outstation students. The institute is positioned around highly dedicated and experienced faculty across India and claims strong regional results and rank records. Its fee structure is described as nominal, with a one-time registration valid until a student passes their group, though exact amounts and current results are best confirmed directly with the institute.",
+      "highlights": [
+        "CA-focused institute covering Foundation, Intermediate, Final",
+        "Hostel facilities available for outstation students",
+        "Claims strong regional results and rank records"
+      ],
+      "website": "https://araeducation.in/"
+    },
+    {
+      "slug": "protree-academy-mysuru",
+      "type": "coaching",
+      "name": "ProTree Academy",
+      "city": "mysuru",
+      "locality": "Mysuru",
+      "address": "Mysuru, Karnataka",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 20,
+      "verified": false,
+      "thumb": "https://unavatar.io/protreeacademy.com",
+      "about": "ProTree Academy is a Mysuru-based CA and CS coaching academy focused on career-ready professional education, emphasising personalised guidance and a structured curriculum. Led by faculty including CS Aarti Panigrahi, CS Pranab Panigrahi and CA Abhishek Hinchegeri, the institute runs CA Foundation, Intermediate and Final alongside CSEET, CS Executive and CS Professional. It maintains an active blog with frequent 2026 updates on CA and CS topics, though independent third-party review data remains limited.",
+      "highlights": [
+        "Covers both CA and CS coaching tracks in Mysuru",
+        "Faculty team with corporate and academic experience",
+        "Active, frequently updated CA/CS blog and learning resources"
+      ],
+      "website": "https://protreeacademy.com/"
+    },
+    {
+      "slug": "successedge-academy-mysore",
+      "type": "coaching",
+      "name": "SuccessEdge Academy Mysore",
+      "city": "mysuru",
+      "locality": "Bangalore-based, Mysuru-focused delivery",
+      "address": "Bangalore-based institute with a Mysuru-focused page",
+      "estd": 2012,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 12,
+      "verified": false,
+      "thumb": "https://unavatar.io/successedge.co",
+      "about": "SuccessEdge Academy Mysore extends the Bangalore-based SuccessEdge brand's CA Foundation and Intermediate coaching to Mysuru students, with the parent institute citing 15,000+ students taught and claims of placement support. Delivery is offered in both online and offline formats for the Mysuru page, and official testimonials are positive, though students should verify local batch and centre details directly with the institute before enrolling.",
+      "highlights": [
+        "Extension of the established Bangalore-based SuccessEdge brand",
+        "Parent institute cites 15,000+ students taught",
+        "Online and offline formats available for Mysuru students"
+      ],
+      "website": "https://www.successedge.co/"
+    },
+    {
+      "slug": "arivupro-academy-mysuru",
+      "type": "coaching",
+      "name": "ArivuPro Academy",
+      "city": "mysuru",
+      "locality": "Online (nearby Bengaluru centres)",
+      "address": "Online for Mysuru students; centres nearby in Bengaluru",
+      "online": false,
+      "estd": 2015,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.2,
+      "ratingCount": 10,
+      "verified": false,
+      "thumb": "https://unavatar.io/arivupro.com",
+      "about": "ArivuPro Academy serves Mysuru students primarily through its online and recorded-class formats, given the absence of a dedicated Mysuru branch, while its nearby Bengaluru centres remain accessible for those who prefer in-person support. It covers CA Foundation, Intermediate and Final alongside CS, CMA and ACCA. Brand reviews are generally positive with some mixed comments across cities, so a demo class is recommended before committing to a batch.",
+      "highlights": [
+        "Online-first option for Mysuru students without a dedicated centre",
+        "Nearby Bengaluru centres available for in-person support",
+        "Covers CA, CS, CMA and ACCA"
+      ],
+      "website": "https://www.arivupro.com/"
     }
   ],
   "cityContent": {
@@ -1455,6 +2042,30 @@
           "a": "Yes — online-prepared students score 99+ percentiles every year, and CAT itself is a computer-based exam, so online mock practice transfers directly. The trade-off is accountability: classroom programs impose structure, while online prep demands self-discipline. Platforms compensate with daily targets (Cracku), 24/7 communities (iQuanta) and fixed live schedules (Rodha, MBA Wallah)."
         }
       ]
+    },
+    "coaching-bengaluru": {
+      "intro": "<p>Bengaluru is one of South India's biggest hubs for CA coaching, with established names clustered around Basavanagudi, Koramangala, Malleshwaram, Jayanagar and Vijayanagar. The city offers everything from decades-old institutes like Yeshas Academy (running since 2004) to fast-growing, tech-enabled brands like ArivuPro Academy that blend online, offline and recorded classes. Institutes here typically cover the full CA Foundation-to-Final journey, often alongside CS, CMA and ACCA, giving Bengaluru's large commerce-student population a wide choice of formats and price points.</p>"
+    },
+    "coaching-chennai": {
+      "intro": "<p>Chennai is the historical home of several of South India's best-known CA coaching brands, including KS Academy, RR Academy and Sreeram Coaching Point — the latter two tracing back three decades or more. The city's institutes are known for structured, exam-focused teaching, weekly test series and, in some cases, claimed all-India rank results. Chennai-founded brands like KS Academy have since expanded into Coimbatore, Bengaluru and Hyderabad, making the city something of a training ground for South India's CA coaching ecosystem.</p>"
+    },
+    "coaching-hyderabad": {
+      "intro": "<p>Hyderabad's CA coaching scene is anchored by large, multi-program institutes such as CMS for CA, which combines CA and CMA coaching with integrated junior-college and entrance-exam programs. Branches of multi-city brands like KS Academy and Master Minds (Guntur-origin) add further choice, with formats ranging from full offline campuses to online and recorded classes. The city serves a large regional student base across Telangana, with institutes competing on faculty depth, study material and structured mock-test cycles.</p>"
+    },
+    "coaching-visakhapatnam": {
+      "intro": "<p>Visakhapatnam has fewer dedicated, purely local CA institutes than cities like Chennai or Bengaluru, so online and hybrid options play an outsized role for students here. National online brands like JK Shah Online (founded 1983) and city-specific pages from institutes like Parag Gupta Classes give Vizag students access to established faculty without needing to relocate, while Chennai-based Srinivasa Academy offers a hybrid alternative. Students in the city typically weigh online-brand trust and recorded-lecture quality alongside occasional offline options.</p>"
+    },
+    "coaching-kochi": {
+      "intro": "<p>Kochi is home to some of Kerala's largest commerce coaching networks, led by Logic School of Management, which claims over 80 branches statewide from its Palarivattom head office. Alongside it, Triple i Commerce Academy and the CA arm of the well-known Xylem Learning platform give Kochi students a mix of traditional classroom coaching and app-based, video-first learning. The city's institutes generally cover CA alongside CS, CMA (India and USA) and ACCA, reflecting Kerala's broad commerce-education demand.</p>"
+    },
+    "coaching-thiruvananthapuram": {
+      "intro": "<p>Thiruvananthapuram's CA coaching options include branch extensions of major Kerala-wide brands — Logic School of Management and ArivuPro Academy Trivandrum — alongside Kerala-focused specialists like Rank Centre for CA, which has over 20 years of dedicated CA-only coaching experience. The city's students benefit from the same broad course spread (CA, CS, CMA, ACCA) found in Kochi, delivered through a mix of centre-led and online formats.</p>"
+    },
+    "coaching-coimbatore": {
+      "intro": "<p>Coimbatore's CA coaching lineup includes the local branch of the multi-city KS Academy brand, alongside independent institutes like PR Academy and ARA Education, both of which also provide hostel facilities for the city's significant outstation-student population. Institutes here generally offer the full CA Foundation-to-Final track, often bundled with CMA or ACCA, and the city's coaching cluster has built a reputation for personalised, industry-experienced faculty attention.</p>"
+    },
+    "coaching-mysuru": {
+      "intro": "<p>Mysuru's CA coaching market leans heavily on Bengaluru-based brands extending their reach into the city — SuccessEdge Academy Mysore and ArivuPro Academy both serve Mysuru students primarily through online delivery backed by nearby Bengaluru centres. Locally, ProTree Academy stands out as a dedicated Mysuru-based CA and CS academy with an active, frequently updated blog. Together, these options give Mysuru students a mix of local and online-extended CA coaching choices.</p>"
     }
   }
 }
