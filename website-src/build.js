@@ -342,7 +342,7 @@ function detailPage(x) {
 <section class="container detail-hero">
 <div class="detail-media${x.thumb ? "" : " noimg"}">${x.thumb ? `<img src="${x.thumb}" alt="${esc(x.name)} campus" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(x.name[0])}</span>`}</div>
 <div class="detail-summary">
-<div class="card-top">${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : `<span class="badge badge-unverified">Unverified — details from public sources</span>`}</div>
+<div class="card-top">${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : ""}</div>
 <h1>${esc(x.name)}</h1>
 <p class="card-loc">📍 ${esc(x.address)}</p>
 <p>${stars(x)}</p>
