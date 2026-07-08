@@ -864,17 +864,7 @@ module.exports = [
     html: `
 <p>South India's Chartered Accountancy coaching market spans everything from decades-old Chennai institutes with three generations of students to Kerala-wide commerce chains with 80-plus branches and national online-first brands serving cities with fewer local options. Below are ten CA coaching institutes drawn from Bengaluru, Chennai, Hyderabad, Visakhapatnam, Kochi, Thiruvananthapuram, Coimbatore and Mysuru, profiled one by one — faculty, when they were established, mode of teaching, availability, official website, what the institute is about, its highlights and what students say. These profiles are compiled from the institutes' own pages and public information; always confirm current fees, batch timings and faculty directly with the institute before enrolling.</p>
 
-<h2>1. KS Academy</h2>
-<p><strong>Faculty:</strong> Founded and led by CA K. Saravanan, with a faculty team the institute describes as having a high level of concern for students, across its Chennai, Coimbatore and Hyderabad centres.</p>
-<p><strong>Establised in which year:</strong> 2010.</p>
-<p><strong>Mode of teaching:</strong> Online, offline and "KS Virtuals" live-online classes.</p>
-<p><strong>Availability:</strong> Chennai (Tambaram), Coimbatore, Hyderabad (Ameerpet) and Bengaluru, with a combined CA + B.Com route alongside ACCA and allied programs through group entities.</p>
-<p><strong>Official website link:</strong> <a href="https://ksacademy.co.in/" rel="noopener" target="_blank">ksacademy.co.in</a></p>
-<p><strong>About the institute:</strong> One of South India's best-known CA coaching brands, started in Chennai and expanded into a multi-city network covering CA Foundation, Intermediate and Final.</p>
-<p><strong>HIghlights:</strong> Strong brand recall across five South Indian cities, combined CA + B.Com track, and a consistent faculty structure repeated across all its branches.</p>
-<p><strong>Student reviews:</strong> Social and student feedback is generally positive, with the official site and social pages emphasising close faculty attention; branch-specific review depth varies.</p>
-
-<h2>2. iProledge Academy</h2>
+<h2>1. iProledge Academy</h2>
 <p><strong>Faculty:</strong> CA Prudhvi Raj, CA Veeraj, CA Varshith Gowda, CA Tejas Sudhakar, CA Sharanya and CA Theja G Shastri.</p>
 <p><strong>Establised in which year:</strong> 2010–2011.</p>
 <p><strong>Mode of teaching:</strong> Online, offline and hybrid.</p>
@@ -883,6 +873,16 @@ module.exports = [
 <p><strong>About the institute:</strong> A 15-plus-year Bengaluru commerce coaching institute covering CA Foundation, Intermediate and Final along with CS, CMA India, CMA USA and ACCA, built around concept-based teaching and mentoring.</p>
 <p><strong>HIghlights:</strong> Long operating history in Bengaluru, multi-exam faculty bench, and regular mock tests paired with structured mentoring.</p>
 <p><strong>Student reviews:</strong> Approximately 4.9/5 on Google, with reviews praising faculty, mentoring and mock-test quality.</p>
+
+<h2>2. KS Academy</h2>
+<p><strong>Faculty:</strong> Founded and led by CA K. Saravanan, with a faculty team the institute describes as having a high level of concern for students, across its Chennai, Coimbatore and Hyderabad centres.</p>
+<p><strong>Establised in which year:</strong> 2010.</p>
+<p><strong>Mode of teaching:</strong> Online, offline and "KS Virtuals" live-online classes.</p>
+<p><strong>Availability:</strong> Chennai (Tambaram), Coimbatore, Hyderabad (Ameerpet) and Bengaluru, with a combined CA + B.Com route alongside ACCA and allied programs through group entities.</p>
+<p><strong>Official website link:</strong> <a href="https://ksacademy.co.in/" rel="noopener" target="_blank">ksacademy.co.in</a></p>
+<p><strong>About the institute:</strong> One of South India's best-known CA coaching brands, started in Chennai and expanded into a multi-city network covering CA Foundation, Intermediate and Final.</p>
+<p><strong>HIghlights:</strong> Strong brand recall across five South Indian cities, combined CA + B.Com track, and a consistent faculty structure repeated across all its branches.</p>
+<p><strong>Student reviews:</strong> Social and student feedback is generally positive, with the official site and social pages emphasising close faculty attention; branch-specific review depth varies.</p>
 
 <h2>3. CMS for CA</h2>
 <p><strong>Faculty:</strong> Experienced CA/CMA faculty team; the institute claims decades of combined teaching experience.</p>
