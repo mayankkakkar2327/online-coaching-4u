@@ -874,7 +874,17 @@ module.exports = [
 <p><strong>HIghlights:</strong> Long operating history in Bengaluru, multi-exam faculty bench, and regular mock tests paired with structured mentoring.</p>
 <p><strong>Student reviews:</strong> Approximately 4.9/5 on Google, with reviews praising faculty, mentoring and mock-test quality.</p>
 
-<h2>2. KS Academy</h2>
+<h2>2. SuccessEdge Academy</h2>
+<p><strong>Faculty:</strong> Expert faculty team; the institute positions itself around a mentoring model with regular mock tests.</p>
+<p><strong>Establised in which year:</strong> 2012.</p>
+<p><strong>Mode of teaching:</strong> Online and offline.</p>
+<p><strong>Availability:</strong> Three Bengaluru centres — Vijayanagar, Basavanagudi and Malleshwaram.</p>
+<p><strong>Official website link:</strong> <a href="https://www.successedge.co/" rel="noopener" target="_blank">successedge.co</a></p>
+<p><strong>About the institute:</strong> Runs CA Foundation, Intermediate and Final coaching alongside CS, CMA and ACCA programs across three Bengaluru centres, built around a mentoring model with expert faculty and regular mock tests, in both online and offline formats.</p>
+<p><strong>HIghlights:</strong> Three Bengaluru centres under one brand, broad course spread beyond CA alone, and a mentoring-led teaching model.</p>
+<p><strong>Student reviews:</strong> Testimonials highlight faculty who simplify difficult concepts and mock-test practice; also profiled on UrbanPro as a professional-course coaching provider in the city.</p>
+
+<h2>3. KS Academy</h2>
 <p><strong>Faculty:</strong> Founded and led by CA K. Saravanan, with a faculty team the institute describes as having a high level of concern for students, across its Chennai, Coimbatore and Hyderabad centres.</p>
 <p><strong>Establised in which year:</strong> 2010.</p>
 <p><strong>Mode of teaching:</strong> Online, offline and "KS Virtuals" live-online classes.</p>
@@ -884,7 +894,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> Strong brand recall across five South Indian cities, combined CA + B.Com track, and a consistent faculty structure repeated across all its branches.</p>
 <p><strong>Student reviews:</strong> Social and student feedback is generally positive, with the official site and social pages emphasising close faculty attention; branch-specific review depth varies.</p>
 
-<h2>3. CMS for CA</h2>
+<h2>4. CMS for CA</h2>
 <p><strong>Faculty:</strong> Experienced CA/CMA faculty team; the institute claims decades of combined teaching experience.</p>
 <p><strong>Establised in which year:</strong> Not clearly published by the institute.</p>
 <p><strong>Mode of teaching:</strong> Offline, integrated with a college-style model, alongside likely blended online support.</p>
@@ -894,7 +904,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> Large scale and claimed track record, broad program spread beyond CA alone, and Shiksha-rated faculty.</p>
 <p><strong>Student reviews:</strong> Shiksha reviews rate faculty around 4.1/5, with students praising study material and weekly exams alongside some mixed feedback typical of a large multi-program institute.</p>
 
-<h2>4. JK Shah Online</h2>
+<h2>5. JK Shah Online</h2>
 <p><strong>Faculty:</strong> Led by CA Vishal Shah, with subject faculty including Akshat Vakharia, CA Deep Jain, CA Mohit Jain and Chirag Thakkar.</p>
 <p><strong>Establised in which year:</strong> 1983.</p>
 <p><strong>Mode of teaching:</strong> Fully online, with recorded HD lectures and demo lectures available before enrolling.</p>
@@ -904,7 +914,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> More than four decades of brand history, fully online delivery model, and recorded lectures that let students revisit difficult topics on their own schedule.</p>
 <p><strong>Student reviews:</strong> Positioned as an established, trusted brand; useful specifically for cities where dedicated local CA institutes are limited.</p>
 
-<h2>5. Logic School of Management</h2>
+<h2>6. Logic School of Management</h2>
 <p><strong>Faculty:</strong> Faculty team spanning CA, CS, CMA and ACCA across the institute's branch network.</p>
 <p><strong>Establised in which year:</strong> 2005 (institute cites 20–21 years of experience).</p>
 <p><strong>Mode of teaching:</strong> Blended offline and online.</p>
@@ -914,7 +924,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> Very large branch network for a regional institute, broad course spread, and a high self-reported recommendation rate.</p>
 <p><strong>Student reviews:</strong> The institute's Facebook page shows a 94% recommendation rate; it is also listed as an established institute on UrbanPro, with generally positive public feedback.</p>
 
-<h2>6. Rank Centre for CA</h2>
+<h2>7. Rank Centre for CA</h2>
 <p><strong>Faculty:</strong> Experienced faculty team; the institute describes its faculty as rich in experience.</p>
 <p><strong>Establised in which year:</strong> Institute cites 20-plus years of experience.</p>
 <p><strong>Mode of teaching:</strong> Online and offline, in a Kerala centre-based model.</p>
@@ -924,7 +934,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> CA-only focus rather than a multi-program commerce academy, and a long operating history within Kerala's CA coaching space.</p>
 <p><strong>Student reviews:</strong> Official positioning is strong; independent, publicly available review detail is more limited than for larger multi-city brands, so a direct enquiry is worth it before enrolling.</p>
 
-<h2>7. PR Academy</h2>
+<h2>8. PR Academy</h2>
 <p><strong>Faculty:</strong> Industry-veteran faculty, described by the institute as highly qualified instructors.</p>
 <p><strong>Establised in which year:</strong> Not clearly published by the institute.</p>
 <p><strong>Mode of teaching:</strong> Offline, with likely online support.</p>
@@ -934,7 +944,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> Structured CA-through-Final curriculum, on-site hostel facilities for outstation students, and a multi-course offering beyond CA alone.</p>
 <p><strong>Student reviews:</strong> Student testimonials on the institute's own site consistently mention faculty attention and a supportive, motivating environment; independent third-party review volume is limited.</p>
 
-<h2>8. ProTree Academy</h2>
+<h2>9. ProTree Academy</h2>
 <p><strong>Faculty:</strong> CS Aarti Panigrahi, CS Pranab Panigrahi, CA Abhishek Hinchegeri, CS Manish Jain, CS Anuj Mehta, CA Niraj Jain and CS Harsha Jain.</p>
 <p><strong>Establised in which year:</strong> Not clearly published; the institute cites six years of academic operation.</p>
 <p><strong>Mode of teaching:</strong> Offline, with likely online support.</p>
@@ -944,7 +954,7 @@ module.exports = [
 <p><strong>HIghlights:</strong> Dual CA-and-CS focus, a faculty team with both corporate and academic experience, and an actively maintained blog with frequent 2026 updates.</p>
 <p><strong>Student reviews:</strong> The institute's site publishes detailed named testimonials from CS and CSEET students; independent third-party review data remains more limited.</p>
 
-<h2>9. RR Academy</h2>
+<h2>10. RR Academy</h2>
 <p><strong>Faculty:</strong> Experienced faculty team; the institute emphasises small batches and personal attention.</p>
 <p><strong>Establised in which year:</strong> 1993.</p>
 <p><strong>Mode of teaching:</strong> Offline, with online support.</p>
@@ -953,16 +963,6 @@ module.exports = [
 <p><strong>About the institute:</strong> An established Chennai professional-coaching academy with more than 30 years of CA, CS and CMA/ICWA/ACS coaching and all-India rank claims among past students.</p>
 <p><strong>HIghlights:</strong> Long operating history, a small-batch teaching model, and weekly test cycles.</p>
 <p><strong>Student reviews:</strong> The institute's website publishes detailed testimonials praising experienced faculty, weekly tests and conceptual clarity.</p>
-
-<h2>10. ArivuPro Academy</h2>
-<p><strong>Faculty:</strong> CA, CS, CMA and ACCA faculty team, under the Arivu Educational Consultant brand.</p>
-<p><strong>Establised in which year:</strong> 2015.</p>
-<p><strong>Mode of teaching:</strong> Online, offline and recorded-backup formats.</p>
-<p><strong>Availability:</strong> Koramangala and Malleshwaram (Bengaluru), plus branch and city pages extending to Thiruvananthapuram, Mysuru and other South Indian cities.</p>
-<p><strong>Official website link:</strong> <a href="https://www.arivupro.com/" rel="noopener" target="_blank">arivupro.com</a></p>
-<p><strong>About the institute:</strong> An ed-tech commerce academy offering CA Foundation, Intermediate and Final alongside CS, CMA, ACCA, CPA, CFA, FRM and EA, with personalised mentoring and recorded resources for cities without a dedicated branch.</p>
-<p><strong>HIghlights:</strong> Combined online, offline and recorded-class formats in one program, and a branch footprint spanning multiple South Indian cities.</p>
-<p><strong>Student reviews:</strong> Generally positive, citing concise exam-focused classes and helpful notes; feedback varies somewhat by branch, so a trial class is worth taking before enrolling.</p>
 
 <h2>Choosing between these ten</h2>
 <p>Course fees, batch structure and current faculty lineups change over time and are often not published city-wise, so treat every detail above as a starting point for a direct conversation with the institute rather than a locked-in fact. Our general <a href="how-to-choose-coaching-institute.html">institute-selection checklist</a> — sit in a real class, get a written refund policy, verify at least one named result — applies just as well across CA coaching as it does for any other exam. Browse verified listings, ratings and contact details for coaching institutes across Bengaluru, Chennai, Hyderabad, Visakhapatnam, Kochi, Thiruvananthapuram, Coimbatore and Mysuru on our <a href="coaching.html">coaching institutes page</a>.</p>`
