@@ -103,23 +103,28 @@ function head(title, desc, image) {
 ${image ? `<meta property="og:image" content="${B.siteUrl}/${image}">\n<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="${B.siteUrl}/${image}">` : ""}
 <meta name="robots" content="index, follow">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 ${CSS_LINK}
 </head>
 <body>`;
 }
 
-function header(active) {
+const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 34 34" aria-hidden="true"><path d="M17 6l12 6-12 6L5 12l12-6z" fill="#fff"/><path d="M11 16v5c0 2 2.7 3.6 6 3.6s6-1.6 6-3.6v-5l-6 3-6-3z" fill="#c7d2fe"/></svg></span>`;
+
+/* stable gradient class per listing name */
+const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
+
+function header(active, dark) {
   const nav = [["coaching.html", "Coaching"], ["blog.html", "Blogs"], ["about.html", "About"]];
-  return `<header class="site-header">
+  return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
-<a class="logo" href="index.html" aria-label="${B.name} home">
-<svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="#4f46e5"/><path d="M17 8l10 5-10 5L7 13l10-5z" fill="#fff"/><path d="M12 16.5v4c0 1.5 2.2 3 5 3s5-1.5 5-3v-4l-5 2.5-5-2.5z" fill="#c7d2fe"/></svg>
-<span>${B.name}</span>
-</a>
+<a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
 <nav class="main-nav" aria-label="Main navigation">
 ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-current="page"' : ""}>${t}</a>`).join("\n")}
 </nav>
-<a class="btn btn-primary btn-sm" href="contact.html">Contact us</a>
+<a class="btn ${dark ? "btn-primary" : "btn-dark"} btn-sm" href="contact.html">Contact us</a>
 <button class="nav-toggle" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
 </div>
 </header>`;
@@ -171,17 +176,15 @@ function card(x) {
   const extra = x.exams.filter(e => e !== "schooling").length > 4 ? `<span class="chip chip-more">+${x.exams.length - 4} more</span>` : "";
   const gender = x.gender ? `<span class="chip">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
   const price = x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : "";
-  const media = x.thumb ? `<img src="${x.thumb}" alt="${esc(x.name)}, ${esc(x.locality)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(x.name[0])}</span>`;
-  const locLine = x.city === "online" ? `🌐 ${esc(x.locality)}` : `📍 ${esc(x.locality)}, ${cityLabel(x.city)}`;
+  const locLine = x.city === "online" ? `${esc(x.locality)}` : `${esc(x.locality)}, ${cityLabel(x.city)}`;
   return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
-<div class="card-media${x.thumb ? "" : " noimg"}">${media}</div>
-<div class="card-body">
-<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
-<h3>${esc(x.name)}</h3>
-<p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p>
-<div class="card-chips">${exams}${extra}${gender}${price}</div>
-<div class="card-foot">${stars(x)}<span class="card-cta">View details →</span></div>
+<div class="card-top">${x.featured ? `<span class="badge badge-pick" title="Genuine editorial recommendation — not paid placement">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
+<div class="card-ident">
+<span class="avatar-md ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
+<div><h3>${esc(x.name)}</h3><p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p></div>
 </div>
+<div class="card-chips">${exams}${extra}${gender}${price}</div>
+<div class="card-foot">${stars(x)}<span class="card-cta">View profile →</span></div>
 </a>`;
 }
 
@@ -196,58 +199,79 @@ function searchBox() {
 }
 
 function homePage() {
-  const examCards = [["ias", "🏛️"], ["jee", "🔬"], ["neet", "⚕️"], ["cat", "📊"], ["ssc", "📋"], ["clat", "⚖️"], ["nda", "🎖️"], ["bank", "🏦"], ["teaching", "📚"], ["cuet", "🎓"]]
-    .map(([e, ic]) => e === "cat"
-      ? `<a class="tile" href="coaching-online.html"><span class="tile-ic" aria-hidden="true">${ic}</span><strong>${examLabel(e)}</strong><span class="muted">Compare online platforms</span></a>`
-      : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'.html?exam=${e}'"><span class="tile-ic" aria-hidden="true">${ic}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
+  const glyphs = { ias: "§", jee: "∆", neet: "✚", cat: "◆", ssc: "¶", clat: "⚖", nda: "✦", bank: "₹", teaching: "✎", cuet: "◎" };
+  const examCards = [["ias"], ["jee"], ["neet"], ["cat"], ["ssc"], ["clat"], ["nda"], ["bank"], ["teaching"], ["cuet"]]
+    .map(([e]) => e === "cat"
+      ? `<a class="tile" href="coaching-online.html"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Compare online platforms</span></a>`
+      : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'.html?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
   const cityCards = DATA.cities.coaching.map(c => {
     const n = byCity("coaching", c).length;
     return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
   }).join("");
-  const featured = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6).map(card).join("");
+  const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1));
+  const featured = topRated.slice(0, 6).map(card).join("");
+  const minis = topRated.slice(0, 4).map(x => `<a class="mini" href="institute-${x.slug}.html"><span class="avatar ${grad(x.name)}">${esc(x.name[0])}</span><div><b>${esc(x.name)}</b><span>${esc(x.locality)}${x.estd ? ` · Since ${x.estd}` : ""}</span></div><span class="score">★ ${x.rating ? x.rating.toFixed(1) : "—"}</span></a>`).join("");
   return head(`${B.name} — Find the Best Coaching Institutes in India`,
     `Compare ${stats.coaching} verified coaching institutes across ${stats.cities} cities. Real reviews, honest details, free for students.`) +
-    header("index.html") + `
+    header("index.html", true) + `
 <section class="hero">
-<div class="container">
-<p class="hero-kicker">Every listing checked · Free for students</p>
-<h1>Find the right academy,<br>without the guesswork</h1>
+<div class="container hero-grid">
+<div>
+<p class="hero-kicker">Verified listings · Free for students</p>
+<h1>Choose where you study <em>with certainty,</em> not guesswork</h1>
 <p class="hero-sub">${B.tagline}</p>
 ${searchBox()}
 <div class="stats-row">
 <div><strong>${stats.listings}</strong><span>Listings live</span></div>
-<div><strong>${stats.cities}</strong><span>Cities covered</span></div>
+<div><strong>${stats.cities}</strong><span>Cities &amp; online</span></div>
 <div><strong>${stats.reviews}+</strong><span>Student reviews</span></div>
-<div><strong>100%</strong><span>Free for students</span></div>
+<div><strong>₹0</strong><span>For students, always</span></div>
 </div>
+</div>
+<aside class="hero-card">
+<div class="hc-title">Top rated this month</div>
+${minis}
+</aside>
 </div>
 </section>
 <section class="section container">
-<h2>What are you preparing for?</h2>
-<p class="section-sub">Pick your exam — we'll show you specialised institutes in your city</p>
+<div class="sec-head">
+<div><div class="eyebrow">Start with your goal</div><h2>What are you preparing for?</h2></div>
+<a class="link-arrow" href="coaching.html">All categories →</a>
+</div>
 <div class="tile-grid">${examCards}</div>
 </section>
-<section class="section container">
-<h2>Top-rated coaching institutes</h2>
-<p class="section-sub">Ranked by genuine student reviews, not paid placement</p>
+<section class="section container" style="padding-top:0">
+<div class="sec-head">
+<div><div class="eyebrow">Ranked by students, not budgets</div><h2>Highest-rated institutes</h2><p class="section-sub" style="margin-bottom:0">Ratings come from students and cannot be bought, edited or hidden.</p></div>
+<a class="link-arrow" href="coaching.html">Browse all ${stats.coaching} →</a>
+</div>
 <div class="card-grid">${featured}</div>
 </section>
-<section class="section container">
-<h2>Browse by city</h2>
-<div class="tile-grid">${cityCards}</div>
-</section>
 <section class="section container why">
-<h2>Why students trust ${B.name}</h2>
-<div class="why-grid">
-<div><h3>✓ Honest listings</h3><p>We only show what we can confirm. No inflated counts, no fake "10,000+ academies" claims.</p></div>
-<div><h3>★ Real reviews</h3><p>Ratings come from students. Institutes cannot pay to change or hide them.</p></div>
-<div><h3>⚡ Fast &amp; simple</h3><p>Every page loads instantly with the full list visible — no endless spinners.</p></div>
-<div><h3>₹0 for students</h3><p>Comparing, enquiring and reviewing is completely free. Always will be.</p></div>
+<div class="band">
+<div>
+<div class="eyebrow">Why students trust us</div>
+<h2>Comparison you can actually believe</h2>
+<p>Most coaching directories sell their rankings. We built this platform on different economics: institutes never pay to rank, reviews are never edited, and anything promoted is labelled in plain sight.</p>
+</div>
+<div class="principles">
+<div class="principle"><span class="num">01</span><div><b>Honest listings</b><span>Verification status shown on every profile — you always know how much to trust.</span></div></div>
+<div class="principle"><span class="num">02</span><div><b>Unedited reviews</b><span>Institutes cannot pay to change or remove what students say.</span></div></div>
+<div class="principle"><span class="num">03</span><div><b>No paid rankings</b><span>Order is earned by ratings. Our recommendations are genuine and unpaid.</span></div></div>
+<div class="principle"><span class="num">04</span><div><b>Free for students</b><span>Comparing, enquiring and reviewing costs nothing. Ever.</span></div></div>
+</div>
 </div>
 </section>
-<section class="section container">
-<h2>Latest from our guides</h2>
-<p class="section-sub">Original, research-backed articles — <a href="blog.html">see all</a></p>
+<section class="section container" style="padding-top:16px">
+<div class="sec-head"><div><div class="eyebrow">Explore</div><h2>Browse by city</h2></div></div>
+<div class="tile-grid">${cityCards}</div>
+</section>
+<section class="section container" style="padding-top:16px">
+<div class="sec-head">
+<div><div class="eyebrow">From our editorial desk</div><h2>Guides worth your time</h2></div>
+<a class="link-arrow" href="blog.html">All guides →</a>
+</div>
 <div class="card-grid">${POSTS.slice(0, 3).map(postCard).join("")}</div>
 </section>
 <section class="section container cta-band">
@@ -340,33 +364,32 @@ function detailPage(x) {
     header(`${typePage[x.type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${cityL}</a> / <span>${esc(x.name)}</span></div>
 <section class="container detail-hero">
-<div class="detail-media${x.thumb ? "" : " noimg"}">${x.thumb ? `<img src="${x.thumb}" alt="${esc(x.name)} campus" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(x.name[0])}</span>`}</div>
-<div class="detail-summary">
-<div class="card-top">${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : ""}</div>
+<div class="identity">
+<span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
+<div>
 <h1>${esc(x.name)}</h1>
-<p class="card-loc">📍 ${esc(x.address)}</p>
-<p>${stars(x)}</p>
-<div class="card-chips">${exams.map(e => `<span class="chip">${examLabel(e)}</span>`).join("")}${x.gender ? `<span class="chip">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : ""}${x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : ""}</div>
-<div class="detail-facts">
-${x.estd ? `<div><span class="muted">Established</span><strong>${x.estd}</strong></div>` : ""}
-<div><span class="muted">${x.city === "online" ? "Mode" : "Locality"}</span><strong>${x.city === "online" ? "100% Online" : esc(x.locality)}</strong></div>
-<div><span class="muted">${x.city === "online" ? "Availability" : "City"}</span><strong>${x.city === "online" ? "Pan-India" : cityL}</strong></div>
+<div class="sub">${esc(x.address)}</div>
+<div class="badges card-top" style="margin-top:12px;margin-bottom:0">${x.featured ? `<span class="badge badge-pick">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : `<span class="badge badge-unverified">Details from public sources</span>`}${exams.map(e => `<span class="badge badge-type">${examLabel(e)}</span>`).join("")}${x.gender ? `<span class="badge badge-type">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : ""}</div>
 </div>
-<div class="detail-actions">
-${x.website ? `<a class="btn btn-primary" href="${x.website}" rel="noopener nofollow">Visit official website</a>` : ""}
-${x.city !== "online" ? `<a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">Open in Google Maps</a>` : ""}
 </div>
+<div class="factbar">
+<div class="fact"><span>Student rating</span><b>${x.rating ? `<span class="star">★</span> ${x.rating.toFixed(1)} <small style="font-size:.72rem;color:var(--ink-3);font-family:var(--sans)">${x.ratingCount} reviews</small>` : "No reviews yet"}</b></div>
+${x.estd ? `<div class="fact"><span>Established</span><b>${x.estd}</b></div>` : ""}
+<div class="fact"><span>${x.city === "online" ? "Mode" : "Locality"}</span><b>${x.city === "online" ? "100% Online" : esc(x.locality)}</b></div>
+<div class="fact"><span>${x.city === "online" ? "Availability" : "City"}</span><b>${x.city === "online" ? "Pan-India" : cityL}</b></div>
+${x.priceRange ? `<div class="fact"><span>Room plans</span><b>${x.priceRange}</b></div>` : ""}
 </div>
 </section>
-<section class="section container detail-body">
+<section class="container detail-body">
 <div class="detail-main">
 <h2>About ${esc(x.name)}</h2>
-<p>${describe(x)}</p>
+<p class="dropcap">${describe(x)}</p>
 ${highlights ? `<h2>Highlights</h2><ul class="hl-list">${highlights}</ul>` : ""}
 <h2>Fees &amp; batches</h2>
-<p>We don't publish fee tables unless the institute has confirmed them — outdated fee data misleads more than it helps. Use the enquiry button and you'll get current fees, batch timings and any scholarship tests directly.</p>
+<p>We don't publish fee tables unless the institute has confirmed them — outdated fee data misleads more than it helps. Use the enquiry card and you'll get current fees, batch timings and any scholarship tests directly.</p>
+<div class="callout">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee — material and test series included — in writing.</div>
 <h2>Student reviews</h2>
-${x.ratingCount ? `<p>Rated <strong>${x.rating ? x.rating.toFixed(1) : "–"}/5</strong> from ${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"}.</p>` : `<p>No reviews yet.</p>`}
+${x.ratingCount ? `<div class="review-box"><div><div class="review-score">${x.rating ? x.rating.toFixed(1) : "–"}</div><div class="of">out of 5 · ${x.ratingCount} review${x.ratingCount === 1 ? "" : "s"}</div></div><p>Ratings are collected from students and published unedited — positive or negative.</p></div>` : `<p>No reviews yet.</p>`}
 <script type="application/ld+json">${JSON.stringify(Object.assign({
   "@context": "https://schema.org", "@type": "EducationalOrganization",
   "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
@@ -376,19 +399,24 @@ ${x.ratingCount ? `<p>Rated <strong>${x.rating ? x.rating.toFixed(1) : "–"}/5<
 </div>
 <aside class="detail-side">
 <div class="side-card">
-<h3>Quick enquiry</h3>
-<p class="muted">Goes straight to our counselling team — free, no spam.</p>
+<h3>Talk to this institute</h3>
+<p class="muted">Free callback via our counselling team — no spam, ever.</p>
 <form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
 <input type="hidden" name="_subject" value="New enquiry — ${esc(x.name)} (${cityL})">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
 <input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">
-<label>Your name<input name="name" required autocomplete="name"></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel"></label>
-<button class="btn btn-primary" type="submit">Request a callback</button>
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
+<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
+<button class="btn btn-gold" type="submit">Request a callback</button>
 </form>
 </div>
-${others ? `<h3 class="side-h">Nearby alternatives</h3><div class="side-cards">${others}</div>` : ""}
+<div class="side-actions">
+${x.website ? `<a class="action" href="${x.website}" rel="noopener nofollow"><span class="ic">↗</span> Official website <span class="arr">→</span></a>` : ""}
+${x.city !== "online" ? `<a class="action" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener"><span class="ic">◎</span> Open in Google Maps <span class="arr">→</span></a>` : ""}
+<a class="action" href="${listHref}"><span class="ic">≡</span> All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} <span class="arr">→</span></a>
+</div>
+${others ? `<h3 class="side-h">Students also compared</h3><div class="side-cards">${others}</div>` : ""}
 </aside>
 </section>` + footer();
 }
