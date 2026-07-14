@@ -103,6 +103,8 @@ function head(title, desc, image) {
 ${image ? `<meta property="og:image" content="${B.siteUrl}/${image}">\n<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="${B.siteUrl}/${image}">` : ""}
 <meta name="robots" content="index, follow">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2F4C0EQXC"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H2F4C0EQXC');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -405,6 +407,8 @@ ${x.ratingCount ? `<div class="review-box"><div><div class="review-score">${x.ra
 <input type="hidden" name="_subject" value="New enquiry — ${esc(x.name)} (${cityL})">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 <input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">
 <label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
@@ -455,6 +459,8 @@ const contactBody = `
 <input type="hidden" name="_subject" value="New enquiry — Online Coaching 4u contact form">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 <label>Your name<input name="name" required autocomplete="name"></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel"></label>
 <label>Message<textarea name="msg" rows="4" required></textarea></label>
@@ -481,6 +487,8 @@ const listBody = `
 <input type="hidden" name="_subject" value="New institute registration — Online Coaching 4u">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 <label>Institute name<input name="institute" required></label>
 <label>Your name<input name="name" required></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}"></label>
@@ -644,6 +652,14 @@ w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privac
 w("terms.html", simplePage("terms.html", "Terms & Conditions", `${B.name} terms and conditions.`, termsBody));
 w("sitemap.html", simplePage("sitemap.html", "Sitemap", `All pages on ${B.name}.`, sitemapBody()));
 
+/* thank-you page for form submissions (excluded from sitemap) */
+w("thanks.html", simplePage("thanks.html", "Thank You", "Your message has been sent.", `
+<section class="hero hero-sm"><div class="container">
+<h1>Thank you — we've got it ✓</h1>
+<p class="hero-sub">Your enquiry has been sent to our counselling team. We typically respond within one working day. Meanwhile, feel free to keep exploring.</p>
+<p style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-primary" href="index.html">Back to homepage</a><a class="btn btn-ghost" href="coaching.html">Browse institutes</a></p>
+</div></section>`).replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex, follow">'));
+
 /* 404 page */
 w("404.html", simplePage("404.html", "Page Not Found", "This page does not exist.", `
 <section class="hero hero-sm"><div class="container">
@@ -654,7 +670,7 @@ w("404.html", simplePage("404.html", "Page Not Found", "This page does not exist
 
 /* sitemap.xml + robots.txt for search engines */
 const today = new Date().toISOString().slice(0, 10);
-const urls = PAGES.filter(f => f !== "404.html").map(f =>
+const urls = PAGES.filter(f => f !== "404.html" && f !== "thanks.html").map(f =>
   `<url><loc>${canonical(f)}</loc><lastmod>${today}</lastmod></url>`).join("\n");
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
