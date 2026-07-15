@@ -93,7 +93,9 @@ function describe(x) {
 }
 
 /* ---------- shared layout ---------- */
-const CSS_LINK = `<link rel="stylesheet" href="assets/style.css">`;
+/* asset version — changes each build so browsers never serve stale immutable-cached CSS/JS */
+const ASSET_V = Date.now().toString(36);
+const CSS_LINK = `<link rel="stylesheet" href="assets/style.css?v=${ASSET_V}">`;
 
 function head(title, desc, image) {
   return `<!DOCTYPE html>
@@ -170,7 +172,7 @@ function footer() {
 <p>© 2026 ${B.name}. All rights reserved.</p>
 </div>
 </footer>
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=${ASSET_V}"></script>
 </body></html>`;
 }
 
@@ -325,9 +327,9 @@ function listingPage(type, city) {
     ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`
     : `${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
-  const examChips = allExams.length ? `<div class="filterbar-row" role="group" aria-label="Filter by exam"><span class="filterbar-label">Exam:</span><button class="fchip active" data-exam="">All</button>${allExams.map(e => `<button class="fchip" data-exam="${e}">${examLabel(e)}</button>`).join("")}</div>` : "";
+  const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
   const allModes = [...new Set(items.map(x => x.mode).filter(Boolean))];
-  const modeChips = allModes.length > 1 ? `<div class="filterbar-row" role="group" aria-label="Filter by delivery mode"><span class="filterbar-label">Mode:</span><button class="fchip mchip active" data-mode="">All</button>${["offline", "hybrid", "online"].filter(m => allModes.includes(m)).map(m => `<button class="fchip mchip" data-mode="${m}">${modeLabel[m]}</button>`).join("")}</div>` : "";
+  const modeChips = allModes.length > 1 ? `<label class="fsel-label" for="modesel">Mode</label><select id="modesel" class="fsel"><option value="">All modes</option>${["offline", "hybrid", "online"].filter(m => allModes.includes(m)).map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>` : "";
   const title = isOnline ? `Best Online CAT / MBA Coaching (${items.length} compared)` : `Best ${label} in ${cityL} (${items.length} listed)`;
   return head(`${title} — ${B.name}`,
     isOnline
@@ -340,11 +342,11 @@ function listingPage(type, city) {
 <p class="hero-sub">${subNote}</p>
 ${cc && cc.intro ? `<div class="prose" style="margin-top:14px">${cc.intro}</div>` : ""}
 <div class="filterbar">
+<div class="filterbar-row">
 ${examChips}
 ${modeChips}
-<div class="filterbar-row">
-<span class="filterbar-label">Sort:</span>
-<select id="sortsel"><option value="rating">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
+<label class="fsel-label" for="sortsel">Sort</label>
+<select id="sortsel" class="fsel"><option value="rating">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
 <label class="vcheck"><input type="checkbox" id="verifiedonly"> Verified only</label>
 <span id="rescount" class="muted"></span>
 </div>
@@ -537,7 +539,7 @@ function blogIndex() {
 <section class="hero hero-sm"><div class="container"><h1>Guides &amp; Articles</h1>
 <p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Written by our team — no sponsored content unless clearly labelled.</p></div></section>
 <section class="section container">
-<div class="filterbar"><div class="filterbar-row" role="group" aria-label="Filter by category"><span class="filterbar-label">Topic:</span><button class="fchip active" data-exam="">All</button>${CATS.map(c => `<button class="fchip" data-exam="${esc(c)}">${esc(c)}</button>`).join("")}</div></div>
+<div class="filterbar"><div class="filterbar-row"><label class="fsel-label" for="examsel">Topic</label><select id="examsel" class="fsel"><option value="">All topics</option>${CATS.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select><span id="rescount" class="muted"></span></div></div>
 <div class="card-grid" id="cards" style="margin-top:22px">${POSTS.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
 </section>`;
 }

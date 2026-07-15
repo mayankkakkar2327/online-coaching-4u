@@ -179,7 +179,10 @@ body.nav-open .main-nav{display:flex}
 .fchip{background:var(--paper);border:1px solid var(--line);border-radius:99px;padding:6px 15px;font-size:.83rem;font-weight:600;color:var(--ink-2);cursor:pointer;font-family:var(--sans);transition:.15s}
 .fchip:hover{border-color:var(--brand-line);color:var(--brand-deep)}
 .fchip.active{background:var(--navy);border-color:var(--navy);color:#fff}
-#sortsel{padding:7px 12px;border-radius:10px;border:1px solid var(--line);font-size:.85rem;font-family:var(--sans);background:var(--paper);color:var(--ink)}
+.fsel,#sortsel{padding:9px 14px;border-radius:10px;border:1px solid var(--line);font-size:.88rem;font-family:var(--sans);background:var(--paper);color:var(--ink);cursor:pointer;min-width:130px}
+.fsel:focus,#sortsel:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+.fsel-label{font-size:.72rem;font-weight:700;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em;margin-left:6px}
+.fsel-label:first-child{margin-left:0}
 .vcheck{font-size:.85rem;color:var(--ink-2);display:flex;align-items:center;gap:6px}
 
 /* ---------- detail page ---------- */

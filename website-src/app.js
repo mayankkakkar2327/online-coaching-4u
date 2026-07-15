@@ -11,31 +11,23 @@
   var grid = document.getElementById("cards");
   if (grid) {
     var cards = Array.prototype.slice.call(grid.children);
-    var activeExam = "";
-    var activeMode = "";
-    var chips = document.querySelectorAll(".fchip:not(.mchip)");
-    var modeChips = document.querySelectorAll(".fchip.mchip");
+    var examSel = document.getElementById("examsel");
+    var modeSel = document.getElementById("modesel");
     var sortSel = document.getElementById("sortsel");
     var verified = document.getElementById("verifiedonly");
     var count = document.getElementById("rescount");
     var empty = document.getElementById("noresults");
 
-    /* support ?exam= and ?mode= deep links */
+    /* deep links: ?exam= and ?mode= preselect the dropdowns */
     var params = new URLSearchParams(location.search);
     var q = params.get("exam");
-    if (q) {
-      chips.forEach(function (c) {
-        if (c.dataset.exam === q) { activeExam = q; }
-      });
-    }
+    if (q && examSel && examSel.querySelector('option[value="' + q + '"]')) examSel.value = q;
     var qm = params.get("mode");
-    if (qm) {
-      modeChips.forEach(function (c) {
-        if (c.dataset.mode === qm) { activeMode = qm; }
-      });
-    }
+    if (qm && modeSel && modeSel.querySelector('option[value="' + qm + '"]')) modeSel.value = qm;
 
     function apply() {
+      var activeExam = examSel ? examSel.value : "";
+      var activeMode = modeSel ? modeSel.value : "";
       var shown = 0;
       var vis = cards.filter(function (c) {
         var ok = (!activeExam || (c.dataset.exams || "").split(",").indexOf(activeExam) !== -1) &&
@@ -55,17 +47,11 @@
       vis.forEach(function (c) { grid.appendChild(c); });
       if (count) count.textContent = shown + " shown";
       if (empty) empty.hidden = shown !== 0;
-      chips.forEach(function (c) { c.classList.toggle("active", c.dataset.exam === activeExam); });
-      modeChips.forEach(function (c) { c.classList.toggle("active", c.dataset.mode === activeMode); });
     }
 
-    chips.forEach(function (c) {
-      c.addEventListener("click", function () { activeExam = c.dataset.exam; apply(); });
+    [examSel, modeSel, sortSel].forEach(function (s) {
+      if (s) s.addEventListener("change", apply);
     });
-    modeChips.forEach(function (c) {
-      c.addEventListener("click", function () { activeMode = c.dataset.mode; apply(); });
-    });
-    if (sortSel) sortSel.addEventListener("change", apply);
     if (verified) verified.addEventListener("change", apply);
     apply();
   }
