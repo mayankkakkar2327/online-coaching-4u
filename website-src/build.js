@@ -190,7 +190,7 @@ function card(x) {
   const locLine = x.city === "online" ? `${esc(x.locality)}` : `${esc(x.locality)}, ${cityLabel(x.city)}`;
   const modeBadge = x.mode ? `<span class="badge ${x.mode === "online" ? "badge-online" : x.mode === "hybrid" ? "badge-hybrid" : "badge-type"}">${modeLabel[x.mode]}</span>` : "";
   return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-mode="${x.mode || ""}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
-<div class="card-top">${x.featured ? `<span class="badge badge-pick" title="Genuine editorial recommendation — not paid placement">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}${modeBadge}</div>
+<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}${modeBadge}</div>
 <div class="card-ident">
 <span class="avatar-md ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
 <div><h3>${esc(x.name)}</h3><p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p></div>
@@ -270,7 +270,7 @@ ${minis}
 <div class="principles">
 <div class="principle"><span class="num">01</span><div><b>Honest listings</b><span>Verification status shown on every profile — you always know how much to trust.</span></div></div>
 <div class="principle"><span class="num">02</span><div><b>Unedited reviews</b><span>Institutes cannot pay to change or remove what students say.</span></div></div>
-<div class="principle"><span class="num">03</span><div><b>No paid rankings</b><span>Order is earned by ratings. Our recommendations are genuine and unpaid.</span></div></div>
+<div class="principle"><span class="num">03</span><div><b>No paid rankings</b><span>Default order reflects our genuine, unpaid recommendation — weighing ratings, track record and free content. Nobody can buy placement.</span></div></div>
 <div class="principle"><span class="num">04</span><div><b>Free for students</b><span>Comparing, enquiring and reviewing costs nothing. Ever.</span></div></div>
 </div>
 </div>
@@ -325,7 +325,7 @@ function listingPage(type, city) {
   const h1 = isOnline ? "Online CAT / MBA Coaching Platforms" : `${label} in ${cityL}`;
   const subNote = isOnline
     ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`
-    : `${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.`;
+    : `${items.length} listed · ordered by our recommendation by default, which weighs student ratings, track record and depth of free content — switch to Top rated, Most reviewed or Oldest anytime. Institutes cannot pay for placement.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
   const allModes = [...new Set(items.map(x => x.mode).filter(Boolean))];
@@ -346,7 +346,7 @@ ${cc && cc.intro ? `<div class="prose" style="margin-top:14px">${cc.intro}</div>
 ${examChips}
 ${modeChips}
 <label class="fsel-label" for="sortsel">Sort</label>
-<select id="sortsel" class="fsel"><option value="rating">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
+<select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
 <label class="vcheck"><input type="checkbox" id="verifiedonly"> Verified only</label>
 <span id="rescount" class="muted"></span>
 </div>
@@ -387,7 +387,7 @@ function detailPage(x) {
 <div>
 <h1>${esc(x.name)}</h1>
 <div class="sub">${esc(x.address)}</div>
-<div class="badges card-top" style="margin-top:12px;margin-bottom:0">${x.featured ? `<span class="badge badge-pick">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : `<span class="badge badge-unverified">Details from public sources</span>`}${exams.map(e => `<span class="badge badge-type">${examLabel(e)}</span>`).join("")}${x.gender ? `<span class="badge badge-type">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : ""}</div>
+<div class="badges card-top" style="margin-top:12px;margin-bottom:0">${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : `<span class="badge badge-unverified">Details from public sources</span>`}${exams.map(e => `<span class="badge badge-type">${examLabel(e)}</span>`).join("")}${x.gender ? `<span class="badge badge-type">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : ""}</div>
 </div>
 </div>
 <div class="factbar">
@@ -404,6 +404,7 @@ ${x.priceRange ? `<div class="fact"><span>Room plans</span><b>${x.priceRange}</b
 <h2>About ${esc(x.name)}</h2>
 <p class="dropcap">${describe(x)}</p>
 ${highlights ? `<h2>Highlights</h2><ul class="hl-list">${highlights}</ul>` : ""}
+${x.ecosystem ? `<h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list eco-list">${x.ecosystem.map(p => `<li><div><a href="${p.url}" rel="noopener"><strong>${esc(p.name)}</strong></a> — ${esc(p.desc)}</div></li>`).join("")}</ul>` : ""}
 <h2>Fees &amp; batches</h2>
 <p>We don't publish fee tables unless the institute has confirmed them — outdated fee data misleads more than it helps. Use the enquiry card and you'll get current fees, batch timings and any scholarship tests directly.</p>
 <div class="callout">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee — material and test series included — in writing.</div>

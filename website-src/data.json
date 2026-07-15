@@ -1324,14 +1324,129 @@
       "verified": false,
       "thumb": "/assets/logos/rodha.png",
       "website": "https://www.rodha.co.in",
-      "about": "Rodha is a YouTube-first CAT preparation platform founded by Ravi Prakash, a 99.86 percentile CAT scorer who put the complete CAT syllabus — more than 1,400 videos across Quant, VARC and LRDI — on YouTube for free, growing the channel past 400,000 subscribers. For CAT 2026, Rodha's paid comprehensive batches (taught in Hinglish) add live classes with a fixed faculty per subject, a structured pacing plan that finishes the syllabus early to protect revision time, and the flexibility to switch batches up to three times a year. Its test series on mocks.rodha.co.in is deliberately built 10–15% harder than the real exam and mirrors the actual TCS iON test interface; free samples include full-length mocks, sectional tests and topic-wise mocks, all with video solutions. Coverage extends to XAT, SNAP, NMAT and other OMETs. Rodha remains the lowest-risk starting point in the category: the entire course is watchable free before any payment.",
+      "about": "Rodha is a YouTube-first education platform founded by Ravi Prakash, a 99.86 percentile CAT scorer who put the complete CAT syllabus — more than 1,400 videos — on YouTube for free, growing the channel past 400,000 subscribers. What began as CAT coaching has grown into a multi-category ecosystem: dedicated verticals now cover IPMAT and BBA entrances, SSC government exams, CLAT and AILET, professional upskilling (Rodha Skillhouse, taught by IIM Ahmedabad graduates), a community app for aspirants (Rodha Buddy), and a mock test platform whose papers are deliberately built 10–15% harder than the real exam on a TCS iON-style interface. The philosophy is consistent across every vertical: a large body of genuinely free content first — full free courses exist for CAT, IPMAT, SSC and CLAT — with paid batches adding structure, mentorship and test series at prices kept below legacy institutes.",
       "highlights": [
-        "1,400+ free full-syllabus videos on YouTube (400K+ subscribers)",
-        "CAT 2026 mocks built 10–15% harder than the real exam, on the actual TCS iON-style interface",
-        "Batch switching up to 3 times a year, with a fixed faculty per subject",
-        "Free full-length and sectional mocks with video solutions before you pay anything"
+        "1,400+ free full-syllabus CAT videos on YouTube (400K+ subscribers)",
+        "Six-platform ecosystem: CAT, IPMAT, SSC, CLAT, Skillhouse and the Buddy community app",
+        "Mocks built 10–15% harder than the real exam on a TCS iON-style interface",
+        "Free full courses in every category before any payment"
       ],
-      "mode": "online"
+      "mode": "online",
+      "ecosystem": [
+        {
+          "name": "Rodha CAT (main platform)",
+          "url": "https://www.rodha.co.in",
+          "desc": "1,400+ free full-syllabus CAT videos, comprehensive live batches and OMET coverage."
+        },
+        {
+          "name": "Rodha Mock Platform",
+          "url": "https://mocks.rodha.co.in/",
+          "desc": "Test series on a TCS iON-style interface, deliberately built 10–15% harder than the real exam; free full-length and sectional mocks with video solutions."
+        },
+        {
+          "name": "Rodha IPMAT",
+          "url": "https://ipmat.rodha.co.in/",
+          "desc": "IPMAT, JIPMAT and BBA-entrance coaching for Class 11–12 students, with free starter course and mock."
+        },
+        {
+          "name": "Rodha SSC",
+          "url": "https://ssc.rodha.co.in/",
+          "desc": "Bilingual (Hindi + English) live coaching for SSC CGL, CHSL, MTS, CPO and GD, with 300+ free YouTube classes."
+        },
+        {
+          "name": "Rodha CLAT",
+          "url": "https://clat.rodha.co.in/",
+          "desc": "CLAT and AILET preparation by NLU-alumni mentors — the Neenv Batch for CLAT 2027 is completely free."
+        },
+        {
+          "name": "Rodha Skillhouse",
+          "url": "https://skillhouse.rodha.co.in/",
+          "desc": "Pre-MBA and professional skills programs built and taught by IIM Ahmedabad graduates — Excel, finance, AI tools, communication and placement readiness."
+        },
+        {
+          "name": "Rodha Buddy",
+          "url": "https://buddy.rodha.co.in/",
+          "desc": "Rodha's community app for CAT aspirants — peer groups, doubt support and daily accountability."
+        }
+      ]
+    },
+    {
+      "slug": "rodha-ipmat",
+      "type": "coaching",
+      "name": "Rodha IPMAT",
+      "city": "online",
+      "locality": "Online, pan-India",
+      "address": "Online — via ipmat.rodha.co.in and the Rodha IPMAT app, available pan-India",
+      "estd": 2025,
+      "exams": [
+        "ipmat"
+      ],
+      "mode": "online",
+      "featured": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://ipmat.rodha.co.in/",
+      "about": "Rodha IPMAT is Rodha's dedicated vertical for IPMAT, JIPMAT and other BBA entrances — the exams that admit Class 12 students into the five-year integrated management programs at IIM Indore, IIM Rohtak and other IIMs. Launched on the back of Rodha's CAT track record, it runs live online classes structured to fit alongside school life, mentorship from subject specialists (including Sanchit Sir for QA and DILR), and mock tests built to mirror the actual exam. A free starter course and a free mock are available before any payment, staying true to Rodha's try-before-you-buy philosophy, and the vertical ships with its own Android and iOS apps.",
+      "highlights": [
+        "Covers IPMAT (IIM Indore & Rohtak), JIPMAT and other BBA entrances",
+        "Live classes scheduled to fit alongside Class 11–12 school life",
+        "Free starter course and free mock before any payment",
+        "Dedicated Android and iOS apps"
+      ]
+    },
+    {
+      "slug": "rodha-ssc",
+      "type": "coaching",
+      "name": "Rodha SSC",
+      "city": "online",
+      "locality": "Online, pan-India",
+      "address": "Online — via ssc.rodha.co.in, available pan-India",
+      "estd": null,
+      "exams": [
+        "ssc"
+      ],
+      "mode": "online",
+      "featured": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://ssc.rodha.co.in/",
+      "about": "Rodha SSC extends Rodha's teaching system to government recruitment exams — SSC CGL, CHSL, MTS, CPO and GD. Live classes are delivered bilingually in Hindi and English, making them accessible to aspirants across India, and every class is followed by Rodha Worksheets (RW) plus timed topic and module tests pitched at real exam difficulty. The faculty bench is subject-specialised: Neeraj Sir for Quantitative Aptitude, Shrikant Sir for Reasoning, Rupal Ma'am for English, and Abhishek and Himanshu Sir for GK and General Science. Over 300 free classes, strategy sessions and exam-analysis videos are available on its YouTube channel, along with a free starter course — so aspirants can evaluate the teaching fully before joining a paid batch.",
+      "highlights": [
+        "Covers SSC CGL, CHSL, MTS, CPO and GD",
+        "Bilingual live classes — Hindi and English",
+        "Rodha Worksheets plus timed topic and module tests after every class",
+        "300+ free classes and a free starter course on YouTube"
+      ]
+    },
+    {
+      "slug": "rodha-clat",
+      "type": "coaching",
+      "name": "Rodha CLAT",
+      "city": "online",
+      "locality": "Online, pan-India",
+      "address": "Online — via clat.rodha.co.in, available pan-India",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "mode": "online",
+      "featured": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "",
+      "website": "https://clat.rodha.co.in/",
+      "about": "Rodha CLAT prepares students for CLAT and AILET — the gateways to India's National Law Universities — with a faculty drawn from top NLUs themselves. Its headline offering is remarkable: the Neenv Batch for CLAT 2027 is completely free, bundling 300+ hours of live classes across all five sections, 300+ topic-wise practice tests, 20 CLAT-pattern mock tests and 4,000+ curated questions. Mentors include Divya Kumar Garg (CLAT AIR 60, AILET AIR 17, NLSIU Bangalore, IIM Ahmedabad, ex-McKinsey) and Abhishek Dubey, a published author with 12+ years of experience who has mentored AIR 3, 5, 7 and 11. Live sessions run on YouTube with recordings available anytime — arguably the most complete free CLAT program currently available online.",
+      "highlights": [
+        "Neenv Batch for CLAT 2027 is completely free — 300+ hours of live classes",
+        "20 CLAT-pattern mocks, 300+ topic tests and 4,000+ curated questions included",
+        "Mentors from top NLUs, including CLAT AIR 60 / ex-McKinsey Divya Kumar Garg",
+        "Covers CLAT and AILET across all five sections"
+      ]
     },
     {
       "slug": "cracku",
