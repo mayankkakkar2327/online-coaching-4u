@@ -9,7 +9,7 @@ module.exports = [
     minutes: 11,
     image: "assets/blog/best-online-cat-coaching-2026.png",
     imageAlt: "Bar chart graphic representing a comparison of online CAT coaching platforms in India",
-    cta: { href: "coaching-online.html", text: "Compare all 10 online CAT platforms" },
+    cta: { href: "coaching.html", text: "Compare all 10 online CAT platforms" },
     excerpt: "Ten online CAT platforms compared on facts — founders, formats, cost philosophy and what each is actually best at. No paid rankings.",
     html: `
 <p>Online CAT preparation has matured to the point where a serious aspirant can realistically reach a 99+ percentile without ever entering a physical classroom. The Common Admission Test itself is expected to keep its now-familiar three-section structure in 2026 — Verbal Ability &amp; Reading Comprehension, Data Interpretation &amp; Logical Reasoning, and Quantitative Ability, each timed independently — a format the conducting IIM confirms and can revise each year on the <a href="https://iimcat.ac.in" rel="noopener" target="_blank">official CAT website</a>. What hasn't caught up with the exam's stability is aspirant confusion about which platform to trust. Every landing page claims the best faculty and the highest percentile toppers. Here is our honest read of the market, based on verifiable facts — founders, formats, and what each platform is genuinely best at. None of these placements are paid, and we say so explicitly below wherever it matters.</p>
@@ -19,7 +19,7 @@ module.exports = [
 <p>Start free, watch a week of videos, and you'll know if the teaching style fits before spending a rupee. That's a risk-free trial the big institutes simply don't offer, because their material sits behind a paywall from day one. <em>(Disclosure: this is our own independent assessment based on reviewing the free content and mock quality — Rodha does not pay us for this placement, and no commercial relationship exists between us.)</em></p>
 
 <h2>The rest of the field, and who each suits</h2>
-<p>The other nine platforms on our <a href="coaching-online.html">CAT / MBA coaching page</a> are all legitimate options; the right one depends on your learning style, budget and how far along you already are.</p>
+<p>The other nine platforms on our <a href="coaching.html">CAT / MBA coaching page</a> are all legitimate options; the right one depends on your learning style, budget and how far along you already are.</p>
 
 <h3>Cracku — for self-paced learners who want a clear daily plan</h3>
 <p>Founded in 2014 by <a href="https://cracku.in/about" rel="noopener" target="_blank">Maruti Konduri</a>, an IIT Bombay (2008) and IIM Ahmedabad (2011) alumnus, alongside his wife Sayali Kale and a third co-founder, Cracku's founding story is unusually candid: Konduri has spoken publicly about failing his first CAT attempt before eventually clearing CAT 2009 and going on to score a 100 percentile five separate times, a track record covered in this <a href="https://yourstory.com/2014/09/cracku-cat" rel="noopener" target="_blank">YourStory feature</a>. The app's structured daily targets suit learners who want a plan handed to them rather than live-class timetables to work around.</p>
@@ -93,7 +93,7 @@ module.exports = [
 <h3>How often does this comparison get updated?</h3>
 <p>We revisit founder facts, fee philosophy and feature claims whenever a platform makes a material change, rather than on a fixed schedule — always cross-check current pricing directly with the platform before paying, since fee structures change more often than teaching approach.</p>
 
-<p>Whatever you choose, take at least one full mock early — on <a href="https://mocks.rodha.co.in" rel="noopener" target="_blank">Rodha's mock platform</a> or elsewhere — because your starting score, not a brand name, should decide your plan. Browse full details, ratings and contact options for every platform mentioned here on our <a href="coaching-online.html">online CAT coaching comparison page</a>.</p>`
+<p>Whatever you choose, take at least one full mock early — on <a href="https://mocks.rodha.co.in" rel="noopener" target="_blank">Rodha's mock platform</a> or elsewhere — because your starting score, not a brand name, should decide your plan. Browse full details, ratings and contact options for every platform mentioned here on our <a href="coaching.html">online CAT coaching comparison page</a>.</p>`
   },
   {
     slug: "free-cat-preparation-plan",
@@ -103,7 +103,7 @@ module.exports = [
     minutes: 10,
     image: "assets/blog/free-cat-preparation-plan.png",
     imageAlt: "Checklist graphic representing a step-by-step free CAT exam preparation plan",
-    cta: { href: "coaching-online.html", text: "Compare online CAT platforms" },
+    cta: { href: "coaching.html", text: "Compare online CAT platforms" },
     excerpt: "A genuinely zero-cost CAT preparation route — full-syllabus video lectures, official mocks, and a weekly structure that costs nothing but discipline.",
     html: `
 <p>The best-kept secret of CAT preparation is that the syllabus itself is small — three sections, school-level math, reading comprehension and logic, confirmed each year on the <a href="https://iimcat.ac.in" rel="noopener" target="_blank">official CAT website</a> — and every piece of it can now be learned free. What paid courses genuinely sell is structure and feedback, not access to knowledge that's otherwise locked away. This guide builds both yourself, at zero cost, across a realistic six-month timeline.</p>
@@ -120,7 +120,7 @@ module.exports = [
 <p>The IIMs release an official CAT mock and past papers through the <a href="https://iimcat.ac.in" rel="noopener" target="_blank">official CAT website</a> each cycle — these are the truest representation of the exam and cost nothing. Previous-year CAT papers are the single highest-value practice set available anywhere, because they show exactly how difficulty and question style have shifted year to year. Solve every paper from the past several years, strictly timed, before touching any third-party mock — you want your baseline calibrated against the real exam first.</p>
 
 <h2>Step 4: Take structured mocks and analyse them properly</h2>
-<p>Full-length mocks are where free preparation usually breaks down, because building a good simulated test — with sectional analytics and a large enough comparison pool to make percentiles meaningful — takes real money. <a href="https://mocks.rodha.co.in" rel="noopener" target="_blank">Rodha's mock platform</a> keeps this affordable rather than free, and free sectional tests are available across several platforms listed on our <a href="coaching-online.html">CAT coaching comparison page</a> if your budget is strictly zero. Whatever you use, follow our detailed <a href="cat-mock-test-strategy.html">mock test strategy guide</a> for the right cadence: roughly one mock per week early on, rising to two per week in the final two months, with at least twice as much time spent analysing each mock as taking it.</p>
+<p>Full-length mocks are where free preparation usually breaks down, because building a good simulated test — with sectional analytics and a large enough comparison pool to make percentiles meaningful — takes real money. <a href="https://mocks.rodha.co.in" rel="noopener" target="_blank">Rodha's mock platform</a> keeps this affordable rather than free, and free sectional tests are available across several platforms listed on our <a href="coaching.html">CAT coaching comparison page</a> if your budget is strictly zero. Whatever you use, follow our detailed <a href="cat-mock-test-strategy.html">mock test strategy guide</a> for the right cadence: roughly one mock per week early on, rising to two per week in the final two months, with at least twice as much time spent analysing each mock as taking it.</p>
 
 <h2>Step 5: Track your own data, not the platform's</h2>
 <p>Keep a single running spreadsheet across your entire prep: date, mock source, overall score, sectional percentiles, and the three specific mistakes you're correcting that week. This matters more with a free, multi-source approach than with a single paid course, because nobody else is tracking your progress for you. Fifteen minutes a week of honest logging replaces the "personalised feedback" that paid courses charge a premium for.</p>
@@ -183,7 +183,7 @@ module.exports = [
     minutes: 9,
     image: "assets/blog/cat-mock-test-strategy.png",
     imageAlt: "Rising line graph representing CAT mock test score improvement over a preparation cycle",
-    cta: { href: "coaching-online.html", text: "Compare online CAT platforms" },
+    cta: { href: "coaching.html", text: "Compare online CAT platforms" },
     excerpt: "Mocks don't raise your percentile — mock analysis does. The right count, the right cadence, and a 90-minute analysis routine that actually moves scores.",
     html: `
 <p>Ask a hundred 99-percentilers what changed their score and most will say the same thing: not more classes, more mocks — properly analysed. Yet most aspirants take mocks wrong: too few, too late, and reviewed only for the final score rather than the pattern behind it. This guide sets out the cadence, the count, and the analysis routine that actually moves a percentile.</p>
@@ -249,7 +249,7 @@ module.exports = [
 <h3>Is a dip in score after a strong mock something to worry about?</h3>
 <p>Not on its own. A single dip is normal variance; only a consistent downward trend across three or more consecutive mocks, combined with a stalled analysis log, signals an actual problem worth addressing directly, possibly by revisiting our <a href="free-cat-preparation-plan.html">free preparation plan</a>'s fundamentals stage.</p>
 
-<p>For a full breakdown of platforms, their mock offerings and pricing philosophy, see our <a href="coaching-online.html">CAT / MBA coaching comparison page</a>.</p>`
+<p>For a full breakdown of platforms, their mock offerings and pricing philosophy, see our <a href="coaching.html">CAT / MBA coaching comparison page</a>.</p>`
   },
   {
     slug: "best-neet-coaching-sikar-2026",

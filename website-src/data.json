@@ -10,7 +10,6 @@
   },
   "cities": {
     "coaching": [
-      "online",
       "sikar",
       "delhi",
       "jaipur",
@@ -90,7 +89,8 @@
         "Backed by Navjeevan Science Group, active in Sikar education for 17+ years",
         "NEET-only focus — no split attention across exams",
         "Largest student review base of any Sikar institute on our platform (59 reviews)"
-      ]
+      ],
+      "mode": "offline"
     },
     {
       "slug": "matrix-iit-jee-neet-coaching-sikar",
@@ -114,7 +114,8 @@
         "Institute reports 6,000+ JEE Advanced qualifiers since 2015",
         "Separate NEET division and pre-foundation programs alongside JEE"
       ],
-      "website": "https://matrixedu.in"
+      "website": "https://matrixedu.in",
+      "mode": "offline"
     },
     {
       "slug": "gurukripa-career-institute-sikar",
@@ -139,7 +140,8 @@
         "Hostel and mess support for outstation students"
       ],
       "about": "Gurukripa Career Institute (GCI) is Sikar's most established large-scale coaching institute, teaching NEET, IIT-JEE and foundation courses (classes 6–10) since 2007. Its head office is at Jyoti Nagar on Piprali Road, with additional campuses in Jaipur and Alwar. Gurukripa runs its own scholarship test, GSAT, through which students can earn fee waivers of up to 100%, and provides hostel and mess support for the large outstation population it draws from across North India. The listing is verified with the institute and rates 5.0 from 23 student reviews on our platform. For many families comparing Sikar options, GCI is the benchmark the newer institutes measure themselves against.",
-      "website": "https://gurukripa.ac.in"
+      "website": "https://gurukripa.ac.in",
+      "mode": "offline"
     },
     {
       "slug": "path-career-institute-sikar",
@@ -162,7 +164,8 @@
         "NEET-only program in a deliberately smaller, high-access setup",
         "New in 2025 — strong early reviews but no independent results history yet"
       ],
-      "website": "https://pathcareerinstitute.com"
+      "website": "https://pathcareerinstitute.com",
+      "mode": "offline"
     },
     {
       "slug": "pcp-coaching-sikar",
@@ -186,7 +189,8 @@
         "Dedicated JEE/NEET campus on Palwas Road since 2009"
       ],
       "about": "PCP (Prince Career Pioneer) is the JEE/NEET coaching arm of the Prince Eduhub education group, whose roots in Sikar schooling go back to 1998; the PCP coaching campus on Palwas Road has operated since 2009 under director Jogender Sunda. PCP delivered Sikar's biggest result to date: in NEET UG 2024, its student Devesh Joshi scored a perfect 720/720 to take All India Rank 1 — a landmark widely credited with putting Sikar on the national coaching map. Students rate it 4.2 from 10 reviews on our platform. PCP suits aspirants who want a results-proven system attached to one of Sikar's oldest education groups.",
-      "website": "https://pcpsikar.com"
+      "website": "https://pcpsikar.com",
+      "mode": "offline"
     },
     {
       "slug": "clc-iit-jee-neet-sikar",
@@ -210,7 +214,8 @@
         "Founded by Er. Shrawan Choudhary; branches now in Jaipur, Jodhpur and Alwar",
         "Covers NEET, JEE, Olympiads, NDA and pre-foundation under one roof"
       ],
-      "website": "https://clcsikar.com"
+      "website": "https://clcsikar.com",
+      "mode": "offline"
     },
     {
       "slug": "sri-chaitanya-academy-sikar",
@@ -229,7 +234,8 @@
       "verified": false,
       "thumb": "https://unavatar.io/srichaitanya.net",
       "about": "Sri Chaitanya Academy's Sikar centre, opened in 2024 in Jat Colony off Piprali Road, brings one of India's largest education groups into the city's coaching market. The Sri Chaitanya group, which originated in Andhra Pradesh and runs one of the country's biggest school-plus-coaching networks, is nationally known for its structured JEE and NEET programs and integrated foundation model. The Sikar campus teaches JEE and NEET batches. As a recent entrant it has only a handful of local reviews so far, so aspirants should judge it on a campus visit and demo class rather than ratings alone.",
-      "website": "https://srichaitanya.net"
+      "website": "https://srichaitanya.net",
+      "mode": "hybrid"
     },
     {
       "slug": "allen-career-institute-sikar",
@@ -248,7 +254,8 @@
       "verified": false,
       "thumb": "https://unavatar.io/allen.ac.in",
       "about": "ALLEN Career Institute's Sikar campus, near Piprali Circle on the Jhunjhunu Bypass, is the local outpost of India's best-known medical and engineering coaching brand, founded in Kota in 1988. The Sikar centre runs classroom programs for JEE and NEET on the same academic system as ALLEN's Kota headquarters — same study material, test series and batch structure. For Sikar students, it offers the ALLEN system without relocation to Kota. Its local review base on our platform is still small, so treat the national brand's reputation and a campus visit as your main evidence.",
-      "website": "https://allen.ac.in"
+      "website": "https://allen.ac.in",
+      "mode": "hybrid"
     },
     {
       "slug": "kalam-ias-academy-sikar",
@@ -268,7 +275,8 @@
       "verified": false,
       "thumb": "https://unavatar.io/kalamias.academy",
       "about": "Kalam IAS Academy, operating since 2017 from Jat Colony on Nawalgarh Road, prepares Sikar students for civil services and state government exams — IAS, RAS and teaching recruitment tests. It serves aspirants who want structured UPSC/RPSC preparation without moving to Jaipur or Delhi, the usual destinations for civil-services coaching. The institute has not yet accumulated student reviews on our platform; if you have studied here, your review would genuinely help others weigh the option.",
-      "website": "https://kalamias.academy"
+      "website": "https://kalamias.academy",
+      "mode": "offline"
     },
     {
       "slug": "inspector-ssc-academy",
@@ -289,7 +297,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://cf.academycheck.com/c/inspector-ssc-academy-thumb-1730080052576c.webp",
-      "about": "Inspector SSC Academy, running since 2014 near Charan Singh Gate on Nawalgarh Road, is a government-exam specialist — its batches target SSC, LDC, Police, RAS and Railway recruitment rather than the JEE/NEET mainstream that dominates Sikar. That specialisation matters: government-exam coaching lives on speed drills, current affairs and exam-pattern updates, which generalist academies often under-serve. The institute has no student reviews on our platform yet, so visit, sit in a session, and ask about the test-series schedule before enrolling."
+      "about": "Inspector SSC Academy, running since 2014 near Charan Singh Gate on Nawalgarh Road, is a government-exam specialist — its batches target SSC, LDC, Police, RAS and Railway recruitment rather than the JEE/NEET mainstream that dominates Sikar. That specialisation matters: government-exam coaching lives on speed drills, current affairs and exam-pattern updates, which generalist academies often under-serve. The institute has no student reviews on our platform yet, so visit, sit in a session, and ask about the test-series schedule before enrolling.",
+      "mode": "offline"
     },
     {
       "slug": "aayaam-career-academy",
@@ -307,7 +316,8 @@
       "verified": false,
       "thumb": "https://unavatar.io/aayaamacademy.com",
       "about": "Aayaam Career Academy is a young NEET-focused institute on Piprali Road in New Janta Colony, teaching since 2024. It is one of several compact NEET-only academies that have opened in Sikar as the city's medical-coaching reputation has grown, pitching smaller batches and closer faculty access than the large campuses. Early feedback is positive — 5.0 from its first 3 reviews on our platform — but with a review base this small, a personal visit and demo class should carry more weight than the number.",
-      "website": "https://aayaamacademy.com"
+      "website": "https://aayaamacademy.com",
+      "mode": "offline"
     },
     {
       "slug": "kautilya-iit-jee-academy-sikar",
@@ -330,7 +340,8 @@
         "Institute reports 800+ JEE Advanced qualifiers since 2018",
         "Verified listing; mixed early ratings worth checking in person"
       ],
-      "website": "https://kautilyaiitacademy.com"
+      "website": "https://kautilyaiitacademy.com",
+      "mode": "offline"
     },
     {
       "slug": "vibrant-ssc-academy-sikar",
@@ -351,7 +362,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://cf.academycheck.com/c/vibrant-ssc-academy-sikar-thumb-1730079918885c.webp",
-      "about": "Vibrant SSC Academy has prepared Sikar students for government recruitment exams since 2013 from Choudhary Complex on Nawalgarh Road, Jat Colony. Its programs cover SSC, LDC, Railway, Banking and RAS — the full spread of central and Rajasthan state government exams. A decade of operation makes it one of the more established govt-exam specialists in the city, though it has not yet gathered student reviews on our platform. Ask the academy for its recent selection list and verify a couple of names independently before enrolling — the standard check for this category."
+      "about": "Vibrant SSC Academy has prepared Sikar students for government recruitment exams since 2013 from Choudhary Complex on Nawalgarh Road, Jat Colony. Its programs cover SSC, LDC, Railway, Banking and RAS — the full spread of central and Rajasthan state government exams. A decade of operation makes it one of the more established govt-exam specialists in the city, though it has not yet gathered student reviews on our platform. Ask the academy for its recent selection list and verify a couple of names independently before enrolling — the standard check for this category.",
+      "mode": "offline"
     },
     {
       "slug": "pw-neet-iit-jee-coaching-sikar",
@@ -371,7 +383,8 @@
       "verified": false,
       "thumb": "https://unavatar.io/pw.live",
       "about": "PW Vidyapeeth Sikar is the offline centre of Physics Wallah — the edtech company that grew from Alakh Pandey's YouTube teaching into one of India's largest education platforms — located on Piprali Road. Vidyapeeth centres pair PW's famously low-fee model with physical classrooms: local faculty handle doubt-solving and discipline while the core lectures and test series ride on PW's national academic system for JEE and NEET. It suits students who want PW's affordability with the structure of a daily classroom, though its Sikar-specific review base on our platform is still tiny.",
-      "website": "https://pw.live"
+      "website": "https://pw.live",
+      "mode": "hybrid"
     },
     {
       "slug": "alpha-nda-academy-sikar",
@@ -391,7 +404,8 @@
       "verified": false,
       "thumb": "https://unavatar.io/alphandaacademy.in",
       "about": "Alpha NDA Academy, teaching since 2016 on Piprali Road, is Sikar's defence-exam specialist, preparing students for NDA and CDS alongside civil-services foundations. Defence preparation differs meaningfully from JEE/NEET coaching — SSB interview readiness, physical standards and general-awareness weight — which is why a dedicated academy can out-serve a generalist one for these exams. Students rate it 4.0 from 2 early reviews on our platform; ask specifically about written-exam results and SSB-stage support when you visit.",
-      "website": "https://alphandaacademy.in"
+      "website": "https://alphandaacademy.in",
+      "mode": "offline"
     },
     {
       "slug": "e-g-classes-upsc-ias-academy-delhi",
@@ -415,7 +429,8 @@
       "ratingCount": 20,
       "verified": true,
       "thumb": "https://unavatar.io/egclasses.com",
-      "website": "https://egclasses.com"
+      "website": "https://egclasses.com",
+      "mode": "offline"
     },
     {
       "slug": "tathastu-ics-new-delhi",
@@ -434,7 +449,8 @@
       "ratingCount": 14,
       "verified": true,
       "thumb": "https://unavatar.io/tathastuics.com",
-      "website": "https://tathastuics.com"
+      "website": "https://tathastuics.com",
+      "mode": "offline"
     },
     {
       "slug": "unimonks-delhi",
@@ -450,7 +466,8 @@
       ],
       "rating": null,
       "ratingCount": 0,
-      "verified": false
+      "verified": false,
+      "mode": "offline"
     },
     {
       "slug": "vajiram-and-ravi-institute-for-ias-exam-rajinder-nagar-delhi",
@@ -470,7 +487,8 @@
       "highlights": [
         "One of India's oldest UPSC coaching institutes, founded in 1976"
       ],
-      "website": "https://vajiramandravi.com"
+      "website": "https://vajiramandravi.com",
+      "mode": "hybrid"
     },
     {
       "slug": "classic-ias-academy-south-delhi",
@@ -487,7 +505,8 @@
       "ratingCount": 6,
       "verified": true,
       "thumb": "https://unavatar.io/classiciasacademy.com",
-      "website": "https://classiciasacademy.com"
+      "website": "https://classiciasacademy.com",
+      "mode": "offline"
     },
     {
       "slug": "path-ias-academy-delhi",
@@ -505,7 +524,8 @@
       "ratingCount": 4,
       "verified": true,
       "thumb": "https://unavatar.io/pathiasacademy.com",
-      "website": "https://pathiasacademy.com"
+      "website": "https://pathiasacademy.com",
+      "mode": "offline"
     },
     {
       "slug": "vedanga-ias-delhi",
@@ -527,7 +547,8 @@
       "ratingCount": 3,
       "verified": true,
       "thumb": "https://unavatar.io/vedanga.co.in",
-      "website": "https://vedanga.co.in"
+      "website": "https://vedanga.co.in",
+      "mode": "offline"
     },
     {
       "slug": "next-ias-saket-academy-delhi",
@@ -546,7 +567,8 @@
       "ratingCount": 3,
       "verified": false,
       "thumb": "https://unavatar.io/nextias.com",
-      "website": "https://nextias.com"
+      "website": "https://nextias.com",
+      "mode": "hybrid"
     },
     {
       "slug": "kd-campus-uttam-nagar-delhi",
@@ -565,7 +587,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/kdcampus.org",
-      "website": "https://kdcampus.org"
+      "website": "https://kdcampus.org",
+      "mode": "offline"
     },
     {
       "slug": "cse-topper-delhi",
@@ -581,7 +604,8 @@
       "rating": 5,
       "ratingCount": 3,
       "verified": true,
-      "thumb": "https://cf.academycheck.com/c/cse-topper-delhi-thumb-1730070877617c.webp"
+      "thumb": "https://cf.academycheck.com/c/cse-topper-delhi-thumb-1730070877617c.webp",
+      "mode": "offline"
     },
     {
       "slug": "kalam-academy-rajasthan",
@@ -608,7 +632,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/kalam.academy",
-      "website": "https://kalam.academy"
+      "website": "https://kalam.academy",
+      "mode": "offline"
     },
     {
       "slug": "drishti-ias-jaipur",
@@ -625,7 +650,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/drishtiias.com",
-      "website": "https://drishtiias.com"
+      "website": "https://drishtiias.com",
+      "mode": "hybrid"
     },
     {
       "slug": "mothers-education-hub-jaipur",
@@ -647,7 +673,8 @@
       "ratingCount": 1,
       "verified": false,
       "thumb": "https://unavatar.io/motherseducationhub.org",
-      "website": "https://motherseducationhub.org"
+      "website": "https://motherseducationhub.org",
+      "mode": "offline"
     },
     {
       "slug": "gurukripa-career-institute-jaipur",
@@ -665,7 +692,8 @@
       "ratingCount": 1,
       "verified": false,
       "thumb": "https://unavatar.io/gurukripa.ac.in",
-      "website": "https://gurukripa.ac.in"
+      "website": "https://gurukripa.ac.in",
+      "mode": "offline"
     },
     {
       "slug": "allen-ias-jaipur",
@@ -683,7 +711,8 @@
       "ratingCount": 1,
       "verified": true,
       "thumb": "https://unavatar.io/allen.ac.in",
-      "website": "https://allen.ac.in"
+      "website": "https://allen.ac.in",
+      "mode": "hybrid"
     },
     {
       "slug": "vision-ias-academy-jaipur",
@@ -700,7 +729,8 @@
       "ratingCount": 1,
       "verified": false,
       "thumb": "https://unavatar.io/visionias.in",
-      "website": "https://visionias.in"
+      "website": "https://visionias.in",
+      "mode": "hybrid"
     },
     {
       "slug": "kabeera-education-jaipur",
@@ -726,7 +756,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/kabeeraeducation.akamai.net.in",
-      "website": "https://kabeeraeducation.akamai.net.in"
+      "website": "https://kabeeraeducation.akamai.net.in",
+      "mode": "offline"
     },
     {
       "slug": "sri-chaitanya-academy-shubhash-nagar-jaipur",
@@ -744,7 +775,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/srichaitanya.net",
-      "website": "https://srichaitanya.net"
+      "website": "https://srichaitanya.net",
+      "mode": "hybrid"
     },
     {
       "slug": "divyadrishti-classes-jaipur",
@@ -763,7 +795,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/divyadrishti.in",
-      "website": "https://divyadrishti.in"
+      "website": "https://divyadrishti.in",
+      "mode": "offline"
     },
     {
       "slug": "yuwam-institute-jaipur",
@@ -782,7 +815,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/yuwam.edu.in",
-      "website": "https://yuwam.edu.in"
+      "website": "https://yuwam.edu.in",
+      "mode": "offline"
     },
     {
       "slug": "physics-wallah-kota-vidyapeeth",
@@ -804,7 +838,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/pw.live",
-      "website": "https://pw.live"
+      "website": "https://pw.live",
+      "mode": "hybrid"
     },
     {
       "slug": "allen-career-institute-kota",
@@ -822,7 +857,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/allen.ac.in",
-      "website": "https://allen.ac.in"
+      "website": "https://allen.ac.in",
+      "mode": "hybrid"
     },
     {
       "slug": "vibrant-academy-kota",
@@ -840,7 +876,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/vibrantacademy.com",
-      "website": "https://vibrantacademy.com"
+      "website": "https://vibrantacademy.com",
+      "mode": "offline"
     },
     {
       "slug": "vivekanand-civil-service-academy-kota",
@@ -860,7 +897,8 @@
       "rating": null,
       "ratingCount": 0,
       "verified": false,
-      "thumb": "https://cf.academycheck.com/c/vivekanand-civil-service-academy-kota-thumb-1730059132472c.webp"
+      "thumb": "https://cf.academycheck.com/c/vivekanand-civil-service-academy-kota-thumb-1730059132472c.webp",
+      "mode": "offline"
     },
     {
       "slug": "civil-service-academy-kota",
@@ -877,7 +915,8 @@
       "rating": null,
       "ratingCount": 0,
       "verified": false,
-      "thumb": "https://cf.academycheck.com/c/civil-service-academy-kota-thumb-1730059048068c.webp"
+      "thumb": "https://cf.academycheck.com/c/civil-service-academy-kota-thumb-1730059048068c.webp",
+      "mode": "offline"
     },
     {
       "slug": "srijan-classes-kota",
@@ -894,7 +933,8 @@
       "rating": null,
       "ratingCount": 0,
       "verified": false,
-      "thumb": "https://cf.academycheck.com/c/srijan-classes-kota-thumb-1730059073739c.webp"
+      "thumb": "https://cf.academycheck.com/c/srijan-classes-kota-thumb-1730059073739c.webp",
+      "mode": "offline"
     },
     {
       "slug": "edge-academy-kota",
@@ -913,7 +953,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/edgeacademy.co.in",
-      "website": "https://edgeacademy.co.in"
+      "website": "https://edgeacademy.co.in",
+      "mode": "offline"
     },
     {
       "slug": "advance-classes-kota",
@@ -932,7 +973,8 @@
       "rating": null,
       "ratingCount": 0,
       "verified": false,
-      "thumb": "https://cf.academycheck.com/c/advance-classes-kota-thumb-1730059102523c.webp"
+      "thumb": "https://cf.academycheck.com/c/advance-classes-kota-thumb-1730059102523c.webp",
+      "mode": "offline"
     },
     {
       "slug": "motion-iit-jee-neet-coaching-kota",
@@ -950,7 +992,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/motion.ac.in",
-      "website": "https://motion.ac.in"
+      "website": "https://motion.ac.in",
+      "mode": "hybrid"
     },
     {
       "slug": "tutorial-point-iit-jee-coaching-kota",
@@ -968,7 +1011,8 @@
       "ratingCount": 0,
       "verified": false,
       "thumb": "https://unavatar.io/tutorialpointkota.in",
-      "website": "https://tutorialpointkota.in"
+      "website": "https://tutorialpointkota.in",
+      "mode": "offline"
     },
     {
       "slug": "ims-learning-resources",
@@ -986,7 +1030,6 @@
         "clat",
         "ipmat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -998,7 +1041,8 @@
         "SimCAT 2026: up to 40 full mocks with AI insights and national percentile benchmarking",
         "One of India's largest mock test-taker pools, making percentiles meaningful",
         "90+ centres in 50+ cities plus complete online programs"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "career-launcher",
@@ -1016,7 +1060,6 @@
         "gre",
         "gmat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1028,7 +1071,8 @@
         "CAT 2026 series: 30+1 mocks, each with video solutions and AI performance analysis",
         "200+ centres across India plus Dubai and Abu Dhabi",
         "Mentor-led model across classroom, hybrid and online formats"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "time-education",
@@ -1041,7 +1085,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1053,7 +1096,8 @@
         "Established CAT test series alongside section-wise specialised modules",
         "Comprehensive GD/PI support included",
         "Both weekday and weekend batch options"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "arun-sharma-mindworkzz",
@@ -1066,7 +1110,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1078,7 +1121,8 @@
         "Challenging, rigorously curated problem sets",
         "Targeted coaching aimed at high-percentile aspirants",
         "Limited-seat batches led by a senior, author-led faculty team"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "tathagat",
@@ -1091,7 +1135,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1103,7 +1146,8 @@
         "Rigorous, frequent question practice",
         "Tightly monitored, closely mentored learning environment",
         "Founder-led team known for close student interaction"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "mbaguru",
@@ -1116,7 +1160,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1128,7 +1171,8 @@
         "Relatively smaller batches than large national brands",
         "Detailed performance analytics and regular student feedback",
         "Both classroom (Delhi) and online batch options"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "alchemist-learning",
@@ -1141,7 +1185,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1153,7 +1196,8 @@
         "Mentor-driven teaching model",
         "Emphasis on conceptual clarity over rote practice",
         "Centres in both Pitampura and Connaught Place"
-      ]
+      ],
+      "mode": "offline"
     },
     {
       "slug": "ankganit",
@@ -1166,7 +1210,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1178,7 +1221,8 @@
         "Intensive, high-level problem practice",
         "Personalised doubt-clearing",
         "Focus on building both speed and accuracy"
-      ]
+      ],
+      "mode": "offline"
     },
     {
       "slug": "kitabee-cat-preparation",
@@ -1191,7 +1235,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1203,7 +1246,8 @@
         "Structured test practice and doubt-solving sessions",
         "Relatively accessible pricing versus larger national brands",
         "Batches suited to both working professionals and full-time students"
-      ]
+      ],
+      "mode": "offline"
     },
     {
       "slug": "hitbullseye",
@@ -1221,7 +1265,6 @@
         "gre",
         "gmat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1233,7 +1276,8 @@
         "105+ practice tests covering CAT, XAT, SNAP, NMAT and IBSAT in one series",
         "AI-based performance analytics on its CAT 2026 test series",
         "One of the largest free mock and practice portals in Indian test prep"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "catking",
@@ -1249,7 +1293,6 @@
         "gmat",
         "gre"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1261,7 +1304,8 @@
         "No-franchisee model — all programs run directly by the core team",
         "CAT 2026 courses include repeater programs pitched at specific percentile bands",
         "Strongest MH-CET and Maharashtra B-school coverage in the category"
-      ]
+      ],
+      "mode": "hybrid"
     },
     {
       "slug": "rodha",
@@ -1274,7 +1318,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "featured": true,
       "rating": null,
       "ratingCount": 0,
@@ -1287,7 +1330,8 @@
         "CAT 2026 mocks built 10–15% harder than the real exam, on the actual TCS iON-style interface",
         "Batch switching up to 3 times a year, with a fixed faculty per subject",
         "Free full-length and sectional mocks with video solutions before you pay anything"
-      ]
+      ],
+      "mode": "online"
     },
     {
       "slug": "cracku",
@@ -1305,7 +1349,6 @@
         "ssc",
         "bank"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1317,7 +1360,8 @@
         "Free Daily Targets every day with video solutions by the founder",
         "DashCAT series: 20 national mocks + 5 Headstart mocks + 45 sectionals",
         "25,000+ practice questions with adaptive difficulty"
-      ]
+      ],
+      "mode": "online"
     },
     {
       "slug": "iquanta",
@@ -1332,7 +1376,6 @@
         "ipmat",
         "clat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1344,7 +1387,8 @@
         "35 full-length CAT mocks (20 proctored + 15 unproctored) with AI analytics",
         "AI insights estimate percentile and likely B-school conversions after each mock",
         "750+ tests with daily 15–30 minute practice quizzes"
-      ]
+      ],
+      "mode": "online"
     },
     {
       "slug": "mba-wallah",
@@ -1359,7 +1403,6 @@
         "gmat",
         "cuet"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1371,7 +1414,8 @@
         "Batch ladder from budget Starter Kit to 1:1-mentorship Power batch",
         "15,000+ practice questions with faculty-recorded video solutions",
         "Weekend-only batch options for working professionals"
-      ]
+      ],
+      "mode": "online"
     },
     {
       "slug": "unacademy-cat",
@@ -1384,7 +1428,6 @@
       "exams": [
         "cat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1396,7 +1439,8 @@
         "Plus and Iconic tiers — Iconic adds a personal coach and 1:1 doubt-solving",
         "CAT 2026 Early Start batches for aspirants beginning preparation early",
         "Switch freely between educators inside one subscription"
-      ]
+      ],
+      "mode": "online"
     },
     {
       "slug": "mba-pathshala",
@@ -1411,7 +1455,6 @@
         "cet",
         "ipmat"
       ],
-      "online": true,
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -1423,7 +1466,8 @@
         "Co-founder Suman Shekhawat was a top-ranked CAT VARC educator on Unacademy",
         "Small two-person core faculty with direct student access",
         "Positioned on affordability against legacy institute pricing"
-      ]
+      ],
+      "mode": "online"
     },
     {
       "slug": "iproledge-academy-bengaluru",
@@ -1446,7 +1490,8 @@
         "Multi-exam faculty bench covering CA, CS, CMA (India & USA) and ACCA",
         "Concept-based teaching backed by regular mock tests and mentoring"
       ],
-      "website": "https://www.iproledge.com"
+      "website": "https://www.iproledge.com",
+      "mode": "offline"
     },
     {
       "slug": "arivupro-academy-bengaluru",
@@ -1469,7 +1514,8 @@
         "Branch network spanning multiple South Indian cities",
         "Personalised mentoring plus regular mock tests and learning aids"
       ],
-      "website": "https://www.arivupro.com/"
+      "website": "https://www.arivupro.com/",
+      "mode": "offline"
     },
     {
       "slug": "yeshas-academy-bengaluru",
@@ -1492,7 +1538,8 @@
         "Covers CA alongside CS, CPA, US CMA and ACCA",
         "Founder-led faculty focused on conceptual, structured learning"
       ],
-      "website": "https://www.yeshasacademy.com/"
+      "website": "https://www.yeshasacademy.com/",
+      "mode": "offline"
     },
     {
       "slug": "successedge-academy-bengaluru",
@@ -1515,7 +1562,8 @@
         "CA, CS, CMA and ACCA under one roof",
         "Mentoring model with regular mock tests"
       ],
-      "website": "https://www.successedge.co/"
+      "website": "https://www.successedge.co/",
+      "mode": "offline"
     },
     {
       "slug": "ks-academy-chennai",
@@ -1538,7 +1586,8 @@
         "Combined CA + B.Com route alongside standard CA levels",
         "Strong brand recall and generally positive student feedback"
       ],
-      "website": "https://ksacademy.co.in/"
+      "website": "https://ksacademy.co.in/",
+      "mode": "hybrid"
     },
     {
       "slug": "rr-academy-chennai",
@@ -1561,7 +1610,8 @@
         "Small-batch model with an emphasis on personal attention",
         "Weekly tests and all-India rank claims among past students"
       ],
-      "website": "https://www.rracademy.in/"
+      "website": "https://www.rracademy.in/",
+      "mode": "offline"
     },
     {
       "slug": "sreeram-coaching-point-chennai",
@@ -1584,7 +1634,8 @@
         "Covers all CA levels plus CMA, CPA and EA",
         "Long-standing, exam-focused institute in T. Nagar"
       ],
-      "website": "https://www.sreeramcp.com/"
+      "website": "https://www.sreeramcp.com/",
+      "mode": "offline"
     },
     {
       "slug": "cms-for-ca-hyderabad",
@@ -1607,7 +1658,8 @@
         "Combines CA/CMA/CS with integrated MEC/CEC and entrance coaching",
         "Shiksha-rated faculty around 4.1 with praise for weekly exams"
       ],
-      "website": "https://cmsforca.in/"
+      "website": "https://cmsforca.in/",
+      "mode": "offline"
     },
     {
       "slug": "ks-academy-hyderabad",
@@ -1630,7 +1682,8 @@
         "Offline, online and KS Virtuals class formats",
         "Combined CA + B.Com route alongside ACCA and allied programs"
       ],
-      "website": "https://www.ksacademyhyderabad.in/"
+      "website": "https://www.ksacademyhyderabad.in/",
+      "mode": "hybrid"
     },
     {
       "slug": "master-minds-hyderabad",
@@ -1653,7 +1706,8 @@
         "Covers both CA and CMA across all levels",
         "Strong regional reputation across Andhra Pradesh and Telangana"
       ],
-      "website": "https://mastermindsindia.com/"
+      "website": "https://mastermindsindia.com/",
+      "mode": "hybrid"
     },
     {
       "slug": "srinivasa-academy-visakhapatnam",
@@ -1676,7 +1730,8 @@
         "Covers CA, CMA and CS under one institute",
         "Hybrid delivery makes it accessible beyond its home city"
       ],
-      "website": "https://srinivasaacademy.com/sa/"
+      "website": "https://srinivasaacademy.com/sa/",
+      "mode": "offline"
     },
     {
       "slug": "jk-shah-online-visakhapatnam",
@@ -1685,7 +1740,6 @@
       "city": "visakhapatnam",
       "locality": "Online",
       "address": "Online — accessible in Visakhapatnam",
-      "online": true,
       "estd": 1983,
       "exams": [
         "ca"
@@ -1700,7 +1754,8 @@
         "Recorded HD lectures with chapter/subject-wise access",
         "Established trust and structured doubt-solving support"
       ],
-      "website": "https://online.jkshahclasses.com/"
+      "website": "https://online.jkshahclasses.com/",
+      "mode": "online"
     },
     {
       "slug": "parag-gupta-classes-visakhapatnam",
@@ -1709,12 +1764,11 @@
       "city": "visakhapatnam",
       "locality": "Online",
       "address": "Online — city-specific page for Visakhapatnam",
-      "online": true,
       "estd": null,
       "exams": [
         "ca"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 9,
       "verified": false,
       "thumb": "https://unavatar.io/paraggupta.com",
@@ -1724,7 +1778,8 @@
         "Focused on CA Intermediate and Final subjects",
         "Fully online delivery model"
       ],
-      "website": "https://www.paraggupta.com/"
+      "website": "https://www.paraggupta.com/",
+      "mode": "online"
     },
     {
       "slug": "logic-school-of-management-kochi",
@@ -1747,7 +1802,8 @@
         "Broad course spread: CA, CS, CMA (India & USA), ACCA, CPA, EA",
         "94% recommendation rate reported on its Facebook page"
       ],
-      "website": "https://logiceducation.org/"
+      "website": "https://logiceducation.org/",
+      "mode": "offline"
     },
     {
       "slug": "triple-i-commerce-academy-kochi",
@@ -1770,7 +1826,8 @@
         "Claims ~60% batch success rate for its Kochi CA page",
         "Detailed student testimonials on faculty support"
       ],
-      "website": "https://www.tripleica.com/"
+      "website": "https://www.tripleica.com/",
+      "mode": "offline"
     },
     {
       "slug": "xylem-learning-ca-kochi",
@@ -1783,7 +1840,7 @@
       "exams": [
         "ca"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 31,
       "verified": false,
       "thumb": "https://unavatar.io/xylemlearning.com",
@@ -1793,7 +1850,8 @@
         "App-based video classes plus offline centre support",
         "Accessible fee points aimed at broad reach"
       ],
-      "website": "https://xylemlearning.com/"
+      "website": "https://xylemlearning.com/",
+      "mode": "hybrid"
     },
     {
       "slug": "arivupro-academy-thiruvananthapuram",
@@ -1816,7 +1874,8 @@
         "CA, CS, CMA and ACCA under one program",
         "Online delivery with local, centre-led support"
       ],
-      "website": "https://www.arivupro.com/"
+      "website": "https://www.arivupro.com/",
+      "mode": "offline"
     },
     {
       "slug": "logic-school-of-management-thiruvananthapuram",
@@ -1839,7 +1898,8 @@
         "Broad course spread: CA, CS, CMA, ACCA, CPA, EA",
         "Positive brand-level reputation across Kerala"
       ],
-      "website": "https://logiceducation.org/"
+      "website": "https://logiceducation.org/",
+      "mode": "offline"
     },
     {
       "slug": "rank-centre-for-ca-thiruvananthapuram",
@@ -1862,7 +1922,8 @@
         "Covers all three CA levels: Foundation, Intermediate, Final",
         "Online and offline formats available"
       ],
-      "website": "https://www.rankcentreforca.com/"
+      "website": "https://www.rankcentreforca.com/",
+      "mode": "offline"
     },
     {
       "slug": "ks-academy-coimbatore",
@@ -1885,7 +1946,8 @@
         "Combined B.Com + CA route alongside standard CA levels",
         "Offline, online and KS Virtuals class formats"
       ],
-      "website": "https://www.ksacademycoimbatore.com/"
+      "website": "https://www.ksacademycoimbatore.com/",
+      "mode": "hybrid"
     },
     {
       "slug": "pr-academy-coimbatore",
@@ -1908,7 +1970,8 @@
         "Also offers CMA and ACCA alongside CA",
         "On-campus hostel facilities for outstation students"
       ],
-      "website": "https://www.pracademy.in/"
+      "website": "https://www.pracademy.in/",
+      "mode": "offline"
     },
     {
       "slug": "ara-education-coimbatore",
@@ -1931,7 +1994,8 @@
         "Hostel facilities available for outstation students",
         "Claims strong regional results and rank records"
       ],
-      "website": "https://araeducation.in/"
+      "website": "https://araeducation.in/",
+      "mode": "offline"
     },
     {
       "slug": "protree-academy-mysuru",
@@ -1954,7 +2018,8 @@
         "Faculty team with corporate and academic experience",
         "Active, frequently updated CA/CS blog and learning resources"
       ],
-      "website": "https://protreeacademy.com/"
+      "website": "https://protreeacademy.com/",
+      "mode": "offline"
     },
     {
       "slug": "successedge-academy-mysore",
@@ -1977,7 +2042,8 @@
         "Parent institute cites 15,000+ students taught",
         "Online and offline formats available for Mysuru students"
       ],
-      "website": "https://www.successedge.co/"
+      "website": "https://www.successedge.co/",
+      "mode": "offline"
     },
     {
       "slug": "arivupro-academy-mysuru",
@@ -1986,7 +2052,6 @@
       "city": "mysuru",
       "locality": "Online (nearby Bengaluru centres)",
       "address": "Online for Mysuru students; centres nearby in Bengaluru",
-      "online": false,
       "estd": 2015,
       "exams": [
         "ca"
@@ -2001,7 +2066,8 @@
         "Nearby Bengaluru centres available for in-person support",
         "Covers CA, CS, CMA and ACCA"
       ],
-      "website": "https://www.arivupro.com/"
+      "website": "https://www.arivupro.com/",
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -2019,27 +2085,6 @@
         {
           "q": "Is Sikar better than Kota for NEET preparation?",
           "a": "It depends on the student. Kota offers unmatched scale and competition density; Sikar offers lower costs, smaller batches and closer faculty access, with results that now compete at the top (NEET 2024's AIR 1 came from Sikar). Self-driven students often prefer Kota's ecosystem; students who benefit from supervision and a calmer environment often do better in Sikar."
-        }
-      ]
-    },
-    "coaching-online": {
-      "intro": "<p>Online CAT coaching has split into two clear camps: <strong>digital-first platforms</strong> (Rodha, Cracku, iQuanta, MBA Wallah, Unacademy, MBA Pathshala) built around video, apps and communities, and the <strong>online programs of legacy classroom institutes</strong> (IMS, Career Launcher, Hitbullseye, CATKing) that bring decades of test-series data online. The comparison below covers all ten on verifiable facts — founders, formats, mock-series depth and 2026 course features. Any standout recommendation on this page is a genuine, unpaid one; every claim below an institute's name comes from the institute itself or independent sources, and is attributed accordingly.</p>",
-      "faqs": [
-        {
-          "q": "Which is the best online CAT coaching in India for 2026?",
-          "a": "Rodha stands out as the only platform with its complete CAT syllabus (1,400+ videos) free on YouTube, so you can verify the teaching quality before paying anything; its paid batches and harder-than-CAT mock series stay cheaper than legacy institutes. Strong alternatives by need: Cracku for app-based daily-target prep by a five-time 100-percentiler, iQuanta for 24/7 doubt support, and IMS for India's most widely taken mock series (SimCAT)."
-        },
-        {
-          "q": "Which online CAT coaching is free or cheapest?",
-          "a": "Rodha offers the most complete free preparation — its entire video syllabus is on YouTube, plus free full-length and sectional mocks with video solutions. Cracku's Daily Targets are free every day with video solutions. Hitbullseye runs one of the largest free practice portals. Among paid full courses, MBA Wallah (Physics Wallah) and Rodha are typically the most affordable."
-        },
-        {
-          "q": "Which CAT mock test series should I take for CAT 2026?",
-          "a": "IMS SimCAT has India's largest test-taker pool, which makes its percentiles the most meaningful benchmark. Rodha's mocks are deliberately 10–15% harder than the real exam on a TCS iON-style interface — good for building endurance. Cracku's 20 DashCATs and iQuanta's 35 mocks with AI analytics are also credible. Serious aspirants often combine two series in the final months."
-        },
-        {
-          "q": "Is online coaching enough to crack CAT?",
-          "a": "Yes — online-prepared students score 99+ percentiles every year, and CAT itself is a computer-based exam, so online mock practice transfers directly. The trade-off is accountability: classroom programs impose structure, while online prep demands self-discipline. Platforms compensate with daily targets (Cracku), 24/7 communities (iQuanta) and fixed live schedules (Rodha, MBA Wallah)."
         }
       ]
     },
@@ -2066,6 +2111,26 @@
     },
     "coaching-mysuru": {
       "intro": "<p>Mysuru's CA coaching market leans heavily on Bengaluru-based brands extending their reach into the city — SuccessEdge Academy Mysore and ArivuPro Academy both serve Mysuru students primarily through online delivery backed by nearby Bengaluru centres. Locally, ProTree Academy stands out as a dedicated Mysuru-based CA and CS academy with an active, frequently updated blog. Together, these options give Mysuru students a mix of local and online-extended CA coaching choices.</p>"
+    },
+    "coaching-hub": {
+      "faqs": [
+        {
+          "q": "Which is the best online CAT coaching in India for 2026?",
+          "a": "Rodha stands out as the only platform with its complete CAT syllabus (1,400+ videos) free on YouTube, so you can verify the teaching quality before paying anything; its paid batches and harder-than-CAT mock series stay cheaper than legacy institutes. Strong alternatives by need: Cracku for app-based daily-target prep by a five-time 100-percentiler, iQuanta for 24/7 doubt support, and IMS for India's most widely taken mock series (SimCAT)."
+        },
+        {
+          "q": "Which online CAT coaching is free or cheapest?",
+          "a": "Rodha offers the most complete free preparation — its entire video syllabus is on YouTube, plus free full-length and sectional mocks with video solutions. Cracku's Daily Targets are free every day with video solutions. Hitbullseye runs one of the largest free practice portals. Among paid full courses, MBA Wallah (Physics Wallah) and Rodha are typically the most affordable."
+        },
+        {
+          "q": "Which CAT mock test series should I take for CAT 2026?",
+          "a": "IMS SimCAT has India's largest test-taker pool, which makes its percentiles the most meaningful benchmark. Rodha's mocks are deliberately 10–15% harder than the real exam on a TCS iON-style interface — good for building endurance. Cracku's 20 DashCATs and iQuanta's 35 mocks with AI analytics are also credible. Serious aspirants often combine two series in the final months."
+        },
+        {
+          "q": "Is online coaching enough to crack CAT?",
+          "a": "Yes — online-prepared students score 99+ percentiles every year, and CAT itself is a computer-based exam, so online mock practice transfers directly. The trade-off is accountability: classroom programs impose structure, while online prep demands self-discipline. Platforms compensate with daily targets (Cracku), 24/7 communities (iQuanta) and fixed live schedules (Rodha, MBA Wallah)."
+        }
+      ]
     }
   }
 }

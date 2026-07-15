@@ -12,17 +12,26 @@
   if (grid) {
     var cards = Array.prototype.slice.call(grid.children);
     var activeExam = "";
-    var chips = document.querySelectorAll(".fchip");
+    var activeMode = "";
+    var chips = document.querySelectorAll(".fchip:not(.mchip)");
+    var modeChips = document.querySelectorAll(".fchip.mchip");
     var sortSel = document.getElementById("sortsel");
     var verified = document.getElementById("verifiedonly");
     var count = document.getElementById("rescount");
     var empty = document.getElementById("noresults");
 
-    /* support ?exam= deep links from home page */
-    var q = new URLSearchParams(location.search).get("exam");
+    /* support ?exam= and ?mode= deep links */
+    var params = new URLSearchParams(location.search);
+    var q = params.get("exam");
     if (q) {
       chips.forEach(function (c) {
         if (c.dataset.exam === q) { activeExam = q; }
+      });
+    }
+    var qm = params.get("mode");
+    if (qm) {
+      modeChips.forEach(function (c) {
+        if (c.dataset.mode === qm) { activeMode = qm; }
       });
     }
 
@@ -30,6 +39,7 @@
       var shown = 0;
       var vis = cards.filter(function (c) {
         var ok = (!activeExam || (c.dataset.exams || "").split(",").indexOf(activeExam) !== -1) &&
+                 (!activeMode || c.dataset.mode === activeMode) &&
                  (!verified || !verified.checked || c.dataset.verified === "true");
         c.hidden = !ok;
         if (ok) shown++;
@@ -46,10 +56,14 @@
       if (count) count.textContent = shown + " shown";
       if (empty) empty.hidden = shown !== 0;
       chips.forEach(function (c) { c.classList.toggle("active", c.dataset.exam === activeExam); });
+      modeChips.forEach(function (c) { c.classList.toggle("active", c.dataset.mode === activeMode); });
     }
 
     chips.forEach(function (c) {
       c.addEventListener("click", function () { activeExam = c.dataset.exam; apply(); });
+    });
+    modeChips.forEach(function (c) {
+      c.addEventListener("click", function () { activeMode = c.dataset.mode; apply(); });
     });
     if (sortSel) sortSel.addEventListener("change", apply);
     if (verified) verified.addEventListener("change", apply);

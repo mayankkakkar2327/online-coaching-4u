@@ -130,6 +130,7 @@ body.nav-open .main-nav{display:flex}
 .badge-unverified{background:var(--warn-soft);color:var(--warn)}
 .badge-type{background:var(--paper-2);color:var(--ink-2)}
 .badge-online{background:#e9f2fd;color:#155e9e}
+.badge-hybrid{background:#f0e9fd;color:#6d3fc0}
 .badge-pick{background:var(--gold-soft);color:var(--gold-deep)}
 .card-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
 .chip{background:var(--brand-soft);color:var(--brand-deep);font-size:.74rem;font-weight:600;padding:4px 11px;border-radius:99px}

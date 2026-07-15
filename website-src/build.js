@@ -54,9 +54,16 @@ const typePlural = { coaching: "Coaching Institutes" };
 const typePage = { coaching: "coaching" };
 
 const byType = (t) => L.filter(x => x.type === t);
-const byCity = (t, c) => byType(t)
-  .filter(x => c === "online" ? x.online === true : x.city === c)
-  .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
+const byCity = (t, c) => {
+  const locals = byType(t).filter(x => x.city === c);
+  /* pure-online platforms appear on every city page where their exams overlap local demand */
+  const localExams = new Set(locals.flatMap(x => x.exams || []));
+  const injected = c === "online" ? [] : byType(t).filter(x =>
+    x.mode === "online" && x.city !== c && (x.exams || []).some(e => localExams.has(e)));
+  return [...locals, ...injected]
+    .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
+};
+const modeLabel = { offline: "Classroom", hybrid: "Hybrid", online: "Online" };
 
 const stats = {
   listings: L.length,
@@ -179,8 +186,9 @@ function card(x) {
   const gender = x.gender ? `<span class="chip">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
   const price = x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : "";
   const locLine = x.city === "online" ? `${esc(x.locality)}` : `${esc(x.locality)}, ${cityLabel(x.city)}`;
-  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
-<div class="card-top">${x.featured ? `<span class="badge badge-pick" title="Genuine editorial recommendation — not paid placement">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}<span class="badge badge-type">${typeLabel[x.type]}</span>${x.online ? `<span class="badge badge-online">Online</span>` : ""}</div>
+  const modeBadge = x.mode ? `<span class="badge ${x.mode === "online" ? "badge-online" : x.mode === "hybrid" ? "badge-hybrid" : "badge-type"}">${modeLabel[x.mode]}</span>` : "";
+  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-mode="${x.mode || ""}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
+<div class="card-top">${x.featured ? `<span class="badge badge-pick" title="Genuine editorial recommendation — not paid placement">★ Editor's Pick</span>` : ""}${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}${modeBadge}</div>
 <div class="card-ident">
 <span class="avatar-md ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
 <div><h3>${esc(x.name)}</h3><p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p></div>
@@ -204,7 +212,7 @@ function homePage() {
   const glyphs = { ias: "§", jee: "∆", neet: "✚", cat: "◆", ssc: "¶", clat: "⚖", nda: "✦", bank: "₹", teaching: "✎", cuet: "◎" };
   const examCards = [["ias"], ["jee"], ["neet"], ["cat"], ["ssc"], ["clat"], ["nda"], ["bank"], ["teaching"], ["cuet"]]
     .map(([e]) => e === "cat"
-      ? `<a class="tile" href="coaching-online.html"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Compare online platforms</span></a>`
+      ? `<a class="tile" href="coaching-delhi.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Classroom &amp; online</span></a>`
       : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'.html?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
   const cityCards = DATA.cities.coaching.map(c => {
     const n = byCity("coaching", c).length;
@@ -284,6 +292,7 @@ ${minis}
 }
 
 function hubPage(type, title, sub) {
+  const hubCC = (DATA.cityContent || {})[`${typePage[type]}-hub`];
   const cities = DATA.cities[typePage[type]];
   const cityCards = cities.map(c => {
     const items = byCity(type, c);
@@ -297,6 +306,8 @@ function hubPage(type, title, sub) {
 </div></section>
 <section class="section container"><h2>Browse by city</h2><div class="tile-grid">${cityCards}</div></section>
 <section class="section container"><h2>Highest rated</h2><div class="card-grid">${featured}</div></section>
+${hubCC && hubCC.faqs ? `<section class="section container prose"><h2>Frequently asked questions</h2>${hubCC.faqs.map(f => `<h3 style="margin:18px 0 6px">${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}</section>
+<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": hubCC.faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) })}</script>` : ""}
 <section class="section container cta-band">
 <h2>Own a ${typeLabel[type].toLowerCase()}?</h2><p>List it free and reach students in your city.</p>
 <a class="btn btn-primary" href="list-your-institute.html">Get Listed Free</a>
@@ -315,6 +326,8 @@ function listingPage(type, city) {
     : `${items.length} listed · sorted by student rating by default. All information shown is baked into this page — nothing hidden behind loading spinners.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<div class="filterbar-row" role="group" aria-label="Filter by exam"><span class="filterbar-label">Exam:</span><button class="fchip active" data-exam="">All</button>${allExams.map(e => `<button class="fchip" data-exam="${e}">${examLabel(e)}</button>`).join("")}</div>` : "";
+  const allModes = [...new Set(items.map(x => x.mode).filter(Boolean))];
+  const modeChips = allModes.length > 1 ? `<div class="filterbar-row" role="group" aria-label="Filter by delivery mode"><span class="filterbar-label">Mode:</span><button class="fchip mchip active" data-mode="">All</button>${["offline", "hybrid", "online"].filter(m => allModes.includes(m)).map(m => `<button class="fchip mchip" data-mode="${m}">${modeLabel[m]}</button>`).join("")}</div>` : "";
   const title = isOnline ? `Best Online CAT / MBA Coaching (${items.length} compared)` : `Best ${label} in ${cityL} (${items.length} listed)`;
   return head(`${title} — ${B.name}`,
     isOnline
@@ -328,6 +341,7 @@ function listingPage(type, city) {
 ${cc && cc.intro ? `<div class="prose" style="margin-top:14px">${cc.intro}</div>` : ""}
 <div class="filterbar">
 ${examChips}
+${modeChips}
 <div class="filterbar-row">
 <span class="filterbar-label">Sort:</span>
 <select id="sortsel"><option value="rating">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
@@ -359,12 +373,12 @@ function detailPage(x) {
   const exams = x.exams.filter(e => e !== "schooling");
   const mapsQ = encodeURIComponent(`${x.name}, ${x.address}`);
   const highlights = (x.highlights || []).map(h => `<li>${esc(h)}</li>`).join("");
-  const listHref = `${typePage[x.type]}-${x.city}.html`;
+  const listHref = x.city === "online" ? `${typePage[x.type]}.html` : `${typePage[x.type]}-${x.city}.html`;
   const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
   return head(`${x.name} — ${x.city === "online" ? "Online CAT / MBA Coaching" : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
     `${x.name}, ${x.locality}, ${cityL}. Established ${x.estd}.${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} Address, exams offered and enquiry details.`) +
     header(`${typePage[x.type]}.html`) + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${cityL}</a> / <span>${esc(x.name)}</span></div>
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${x.city === "online" ? "Online Platforms" : cityL}</a> / <span>${esc(x.name)}</span></div>
 <section class="container detail-hero">
 <div class="identity">
 <span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
@@ -377,7 +391,8 @@ function detailPage(x) {
 <div class="factbar">
 <div class="fact"><span>Student rating</span><b>${x.rating ? `<span class="star">★</span> ${x.rating.toFixed(1)} <small style="font-size:.72rem;color:var(--ink-3);font-family:var(--sans)">${x.ratingCount} reviews</small>` : "No reviews yet"}</b></div>
 ${x.estd ? `<div class="fact"><span>Established</span><b>${x.estd}</b></div>` : ""}
-<div class="fact"><span>${x.city === "online" ? "Mode" : "Locality"}</span><b>${x.city === "online" ? "100% Online" : esc(x.locality)}</b></div>
+<div class="fact"><span>Mode</span><b>${modeLabel[x.mode] || (x.city === "online" ? "Online" : "Classroom")}</b></div>
+${x.city !== "online" ? `<div class="fact"><span>Locality</span><b>${esc(x.locality)}</b></div>` : ""}
 <div class="fact"><span>${x.city === "online" ? "Availability" : "City"}</span><b>${x.city === "online" ? "Pan-India" : cityL}</b></div>
 ${x.priceRange ? `<div class="fact"><span>Room plans</span><b>${x.priceRange}</b></div>` : ""}
 </div>
