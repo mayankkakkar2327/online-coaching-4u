@@ -4,6 +4,10 @@
   "outputDirectory": "website",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/coaching-online", "destination": "/coaching", "permanent": true },
+    { "source": "/coaching-online.html", "destination": "/coaching", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
