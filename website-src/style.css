@@ -246,6 +246,20 @@ body.nav-open .main-nav{display:flex}
 .prose p{margin-bottom:14px;color:#3c4258}
 .prose ul{padding-left:22px;color:#3c4258}
 .prose li{margin-bottom:6px}
+
+/* ---------- prose tables (blog comparison tables) ---------- */
+.prose table{width:100%;max-width:100%;border-collapse:separate;border-spacing:0;margin:22px 0 30px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);font-size:.92rem;line-height:1.55}
+.prose thead th{background:var(--brand-soft);color:var(--brand-deep);font-family:var(--serif);font-weight:600;font-size:.95rem;text-align:left;padding:14px 18px;border-bottom:1px solid var(--brand-line);white-space:nowrap}
+.prose tbody td{padding:14px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);color:#3c4258;vertical-align:top}
+.prose tbody td:last-child{border-right:none}
+.prose tbody tr:last-child td{border-bottom:none}
+.prose tbody tr:nth-child(even){background:var(--paper-2)}
+.prose tbody tr:hover{background:var(--brand-soft)}
+.prose td:first-child,.prose th:first-child{font-weight:600;color:var(--ink)}
+@media (max-width:700px){
+  .prose table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:12px}
+  .prose thead,.prose tbody,.prose tr{display:table;width:100%;table-layout:fixed}
+}
 .post{border:1px solid var(--line);background:var(--card);border-radius:24px;padding:30px;margin-bottom:22px}
 .split{display:grid;grid-template-columns:1.4fr 1fr;gap:44px;align-items:start}
 .article-body{max-width:780px}
