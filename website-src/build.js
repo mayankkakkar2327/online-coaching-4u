@@ -664,9 +664,11 @@ function blogIndex() {
 }
 function postPage(p) {
   const { html: bodyHtml, tocItems } = buildToc(p.html);
+  if (p.faqs) tocItems.push({ text: "Frequently asked questions", id: "faq" });
   const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 4);
   const more = related.length >= 4 ? related : [...related, ...POSTS.filter(o => o.slug !== p.slug && !related.includes(o))].slice(0, 4);
   const iso = toISODate(p.date);
+  const faqHtml = p.faqs ? `<h2 id="faq">Frequently asked questions</h2>${p.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${f.a}</p>`).join("")}` : "";
   const articleLd = {
     "@context": "https://schema.org", "@type": "BlogPosting",
     headline: p.title, description: p.excerpt,
@@ -676,12 +678,16 @@ function postPage(p) {
     datePublished: iso, dateModified: iso,
     mainEntityOfPage: { "@type": "WebPage", "@id": `${B.siteUrl}/${p.slug}` }
   };
+  const faqLd = p.faqs ? {
+    "@context": "https://schema.org", "@type": "FAQPage",
+    mainEntity: p.faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } }))
+  } : null;
   const shareUrl = `${B.siteUrl}/${p.slug}`;
   const tocSidebar = tocItems.length > 1 ? `<div class="post-toc-card">
 <p class="toc-title">Table of Contents</p>
 <ul class="toc-list">${tocItems.map((it, i) => `<li><a href="#${it.id}">${String(i + 1).padStart(2, "0")}. ${it.text}</a></li>`).join("")}</ul>
 </div>` : "";
-  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n</head>`) + header("blog.html") + `
+  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}</head>`) + header("blog.html") + `
 <section class="post-hero">
 <div class="container post-hero-inner${p.image ? "" : " post-hero-inner-solo"}">
 <div class="post-hero-text">
@@ -704,6 +710,7 @@ ${tocSidebar}
 <article class="post-body prose article-body">
 <p class="muted">By the ${B.name} team</p>
 ${bodyHtml}
+${faqHtml}
 </article>
 </section>
 ${p.cta ? `<div class="post-sticky-cta" id="postStickyCta">

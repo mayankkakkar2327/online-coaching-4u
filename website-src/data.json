@@ -2388,6 +2388,58 @@
       "mode": "online",
       "googleRating": 5.0,
       "googleReviewCount": 453
+    },
+    {
+      "slug": "2iim",
+      "type": "coaching",
+      "name": "2IIM",
+      "city": "chennai",
+      "locality": "Saligramam",
+      "address": "19/43, MG Chakrapani St, Sathya Garden, Saligramam, Chennai, Tamil Nadu 600093 (a Fermat Education initiative; classroom batches also run from Anna Nagar, Chennai)",
+      "estd": 2001,
+      "exams": [
+        "cat"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "https://unavatar.io/2iim.com",
+      "website": "https://2iim.com",
+      "about": "2IIM (styled 2iim, a Fermat Education initiative) is a Chennai-founded CAT-prep brand started in 2001 by K.S. ‘Baskar’ Baskar (IIM Calcutta) under the earlier name Ascent Education, with Rajesh Balasubramanian (IIT Madras, IIM Bangalore) joining as faculty in 2003 and later becoming its public face — he reports a 100th-percentile CAT score across five different years (2011, 2012, 2014, 2017 and 2023). The teaching style leans on short, screen-capture-style videos that build concepts from first principles rather than long lecture recordings, delivered across three formats: Live Online, Self-Paced, and a Chennai classroom batch at Anna Nagar. Course inclusions run to 30 original full-length mocks plus previous-year papers reformatted as mocks, 8,000+ practice questions, and physical books couriered with the Live Online package. 2IIM publishes its pricing on-site rather than gating it behind a sales call, though we found two different price tables live on its own homepage at the same time — confirm the current fee directly with 2IIM before paying.",
+      "highlights": [
+        "Faculty face Rajesh Balasubramanian reports a 100th-percentile CAT score in five separate years",
+        "Fundamentals-first teaching style using short screen-capture videos",
+        "Three formats: Live Online, Self-Paced, and Chennai classroom (Anna Nagar)",
+        "30 original mocks plus past-year papers reformatted as additional mocks"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.8,
+      "googleReviewCount": 183
+    },
+    {
+      "slug": "aarambh-academy",
+      "type": "coaching",
+      "name": "Aarambh Academy",
+      "city": "online",
+      "locality": "Online, pan-India",
+      "address": "Online-only — no physical centre publicly listed",
+      "estd": 2025,
+      "exams": [
+        "cat"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "thumb": "https://unavatar.io/aarambhacademy.com",
+      "website": "https://www.aarambhacademy.com",
+      "about": "Aarambh Academy is a CAT-prep venture launched in 2025 by three individual educators — Raman Tiwari (Quantitative Aptitude), Lokesh Sharma (VARC) and Sameer Sardana (DILR) — who together market roughly 45–50 years of combined prior teaching experience, though the academy itself has no multi-year track record of its own yet. Its flagship CAT 2026 batch bundles live classes, a 10,000+ question practice vault, weekly subject-wise doubt sessions, 105 sectional tests and 20 full-length mocks (branded Aarambh Mocks), plus a bundled Career Launcher test series and OMET coverage for XAT, SNAP and CMAT. As a sub-one-year-old brand, it has no independent Google or Reddit reputation history yet and no publicly listed physical address, so we're treating its ‘10,000+ successful students’ homepage claim with real caution — it almost certainly reflects the founders’ combined prior careers rather than results achieved under the Aarambh Academy name itself.",
+      "highlights": [
+        "Founded 2025 by three educators with a combined ~45-50 years of prior teaching experience",
+        "Flagship batch includes 105 sectional tests + 20 full-length Aarambh Mocks",
+        "Bundled third-party Career Launcher test series included in the flagship batch",
+        "Online-only, with no independent review history yet given its recent launch"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
