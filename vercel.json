@@ -5,8 +5,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/coaching-online", "destination": "/coaching", "permanent": true },
-    { "source": "/coaching-online.html", "destination": "/coaching", "permanent": true }
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.onlinecoaching4u.in" }], "destination": "https://onlinecoaching4u.in/:path*", "permanent": true }
   ],
   "headers": [
     {
