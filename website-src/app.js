@@ -4,7 +4,7 @@
   "use strict";
 
   /* remember last visited city for exam shortcuts on the home page */
-  var m = location.pathname.match(/(?:coaching|schools|hostels)-([a-z-]+)\.html$/);
+  var m = location.pathname.match(/(?:coaching|schools|hostels)-([a-z-]+)(?:\.html)?$/);
   if (m) try { localStorage.setItem("oc4u-city", m[1]); } catch (e) {}
 
   /* ---- listing page: filter + sort ---- */
@@ -106,5 +106,23 @@
     document.addEventListener("click", function (ev) {
       if (!resultsBox.contains(ev.target) && ev.target !== searchInput) resultsBox.hidden = true;
     });
+  }
+
+  /* ---- blog post: highlight the active section in the sticky numbered TOC ---- */
+  var tocList = document.querySelector(".toc-list");
+  if (tocList) {
+    var tocLinks = Array.prototype.slice.call(tocList.querySelectorAll("a"));
+    var tocSections = tocLinks.map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); }).filter(Boolean);
+    var setActiveToc = function () {
+      var pos = window.scrollY + 130;
+      var current = tocSections[0];
+      tocSections.forEach(function (s) { if (s.offsetTop <= pos) current = s; });
+      tocLinks.forEach(function (a) {
+        a.parentElement.classList.toggle("active", !!current && a.getAttribute("href") === "#" + current.id);
+      });
+    };
+    document.addEventListener("scroll", setActiveToc, { passive: true });
+    window.addEventListener("resize", setActiveToc);
+    setActiveToc();
   }
 })();

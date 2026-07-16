@@ -18,36 +18,21 @@ const examLabel = (e) => EX[e] || e.toUpperCase();
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const slugify = (s) => String(s).toLowerCase().replace(/<[^>]*>/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-/* Scans article HTML for <h2>/<h3> headings, tags each with a unique id,
-   and returns a nested table-of-contents nav alongside the id-annotated HTML. */
+/* Scans article HTML for <h2>/<h3> headings and tags each with a unique id
+   (so anchor links and FAQ deep-links work). Returns the id-annotated HTML
+   plus a flat list of only the <h2> sections, for a numbered sidebar TOC. */
 function buildToc(html) {
   const used = new Set();
-  const items = [];
+  const tocItems = [];
   const withIds = html.replace(/<(h2|h3)>(.*?)<\/\1>/gs, (match, tag, text) => {
     let id = slugify(text) || "section";
     let unique = id, n = 2;
     while (used.has(unique)) { unique = `${id}-${n++}`; }
     used.add(unique);
-    items.push({ tag, text, id: unique });
+    if (tag === "h2") tocItems.push({ text, id: unique });
     return `<${tag} id="${unique}">${text}</${tag}>`;
   });
-  if (items.length < 2) return { html, tocHtml: "" };
-  let list = "", h2Open = false, subOpen = false;
-  for (const it of items) {
-    if (it.tag === "h2") {
-      if (subOpen) { list += "</ul>"; subOpen = false; }
-      if (h2Open) list += "</li>";
-      list += `<li><a href="#${it.id}">${it.text}</a>`;
-      h2Open = true;
-    } else {
-      if (!subOpen) { list += "<ul>"; subOpen = true; }
-      list += `<li><a href="#${it.id}">${it.text}</a></li>`;
-    }
-  }
-  if (subOpen) list += "</ul>";
-  if (h2Open) list += "</li>";
-  const tocHtml = `<nav class="toc" aria-label="Table of contents"><p class="toc-title">Contents</p><ul>${list}</ul></nav>`;
-  return { html: withIds, tocHtml };
+  return { html: withIds, tocItems };
 }
 const typeLabel = { coaching: "Coaching", certification: "Certification" };
 const typePlural = { coaching: "Coaching Institutes", certification: "Professional Certifications" };
@@ -555,9 +540,9 @@ function toISODate(d) {
 }
 function postCard(p) {
   return `<a class="card post-card" href="${p.slug}.html">
-<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}</div>
+<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(p.category)}</span></div>
 <div class="card-body">
-<div class="card-top"><span class="badge badge-type">${esc(p.category)}</span><span class="muted">${p.date} · ${p.minutes} min read</span></div>
+<span class="muted">${p.date} · ${p.minutes} min read</span>
 <h3>${esc(p.title)}</h3>
 <p class="card-loc">${esc(p.excerpt)}</p>
 <div class="card-foot"><span></span><span class="card-cta">Read article →</span></div>
@@ -573,9 +558,9 @@ function blogIndex() {
 </section>`;
 }
 function postPage(p) {
-  const { html: bodyHtml, tocHtml } = buildToc(p.html);
-  const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 2);
-  const more = related.length ? related : POSTS.filter(o => o.slug !== p.slug).slice(0, 2);
+  const { html: bodyHtml, tocItems } = buildToc(p.html);
+  const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 4);
+  const more = related.length >= 4 ? related : [...related, ...POSTS.filter(o => o.slug !== p.slug && !related.includes(o))].slice(0, 4);
   const iso = toISODate(p.date);
   const articleLd = {
     "@context": "https://schema.org", "@type": "BlogPosting",
@@ -586,17 +571,44 @@ function postPage(p) {
     datePublished: iso, dateModified: iso,
     mainEntityOfPage: { "@type": "WebPage", "@id": `${B.siteUrl}/${p.slug}` }
   };
+  const shareUrl = `${B.siteUrl}/${p.slug}`;
+  const tocSidebar = tocItems.length > 1 ? `<div class="post-toc-card">
+<p class="toc-title">Table of Contents</p>
+<ul class="toc-list">${tocItems.map((it, i) => `<li><a href="#${it.id}">${String(i + 1).padStart(2, "0")}. ${it.text}</a></li>`).join("")}</ul>
+</div>` : "";
   return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n</head>`) + header("blog.html") + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Guides</a> / <span>${esc(p.title)}</span></div>
-<article class="section container prose article-body">
-<p class="muted">${esc(p.category)} · ${p.date} · ${p.minutes} min read · By the ${B.name} team</p>
+<section class="post-hero">
+<div class="container post-hero-inner${p.image ? "" : " post-hero-inner-solo"}">
+<div class="post-hero-text">
+<a class="post-back" href="blog.html">← Back to Blogs</a>
+<span class="post-pill">${esc(p.category)}</span>
 <h1>${esc(p.title)}</h1>
-${p.image ? `<div class="detail-media blog-thumb" style="margin:20px 0"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div>` : ""}
-${tocHtml}
+<div class="post-meta-row"><span>${p.date}</span><span>${p.minutes} min read</span></div>
+</div>
+${p.image ? `<div class="post-hero-media"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy"></div>` : ""}
+</div>
+</section>
+<section class="section container post-layout">
+<aside class="post-sidebar">
+${tocSidebar}
+<div class="post-share"><span>Share this article:</span><div class="post-share-icons">
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}" rel="noopener" target="_blank" aria-label="Share on LinkedIn">in</a>
+<a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&amp;text=${encodeURIComponent(p.title)}" rel="noopener" target="_blank" aria-label="Share on X">𝕏</a>
+</div></div>
+</aside>
+<article class="post-body prose article-body">
+<p class="muted">By the ${B.name} team</p>
 ${bodyHtml}
-<div class="cta-band" style="margin-top:36px"><h2>Ready to compare options?</h2><p>Every listing shows verified facts and unedited student ratings.</p><a class="btn btn-primary" href="${p.cta.href}">${esc(p.cta.text)}</a></div>
 </article>
-<section class="section container"><h2>More from our guides</h2><div class="card-grid" style="margin-top:18px">${more.map(postCard).join("")}</div></section>`;
+</section>
+${p.cta ? `<div class="post-sticky-cta" id="postStickyCta">
+<div class="container post-sticky-inner">
+<p>Ready to compare verified options?</p>
+<a class="btn btn-primary btn-sm" href="${p.cta.href}">${esc(p.cta.text)}</a>
+<button class="post-sticky-close" type="button" aria-label="Dismiss" onclick="document.getElementById('postStickyCta').style.display='none'">✕</button>
+</div>
+</div>` : ""}
+<section class="section container post-related"><h2>More From Our Guides</h2><div class="card-grid" style="margin-top:26px">${more.map(postCard).join("")}</div></section>`;
 }
 
 const privacyBody = `
