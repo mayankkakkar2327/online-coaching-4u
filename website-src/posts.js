@@ -2,6 +2,79 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    slug: "augment-consultancy-vs-izenbridge",
+    title: "Augment Consultancy vs iZenBridge: A Detailed PgMP & PfMP Training Comparison (2026)",
+    category: "Certification",
+    date: "16 Jul 2026",
+    minutes: 12,
+    cta: { href: "certification.html", text: "Compare certification training providers" },
+    excerpt: "Augment Consultancy and iZenBridge both train for PMI's PgMP and PfMP credentials, but the format, catalog and track record differ a lot. Here's the full breakdown.",
+    html: `
+<p>If you're weighing PgMP® or PfMP® training options, two names come up often: <a href="https://augmentconsultancy.com/" rel="noopener" target="_blank">Augment Consultancy</a>, a boutique provider built entirely around these two credentials, and iZenBridge, a much larger multi-certification training company that also teaches PMP, Agile and SAFe alongside PgMP/PfMP. They are not the same kind of business, and the right choice depends heavily on what you personally need from a training provider — depth and mentor access, or breadth and institutional infrastructure. This guide compares both on verifiable facts: what each actually offers, how they teach, and who each is genuinely built for.</p>
+
+<h2>Quick answer</h2>
+<p>Augment Consultancy is a founder-led specialist: Sanjeev Kumar, its founder, teaches PgMP and PfMP exclusively, in live weekend cohorts, and reports a 98% first-attempt success rate across 6,000+ professionals trained. iZenBridge is a much larger, PMI-authorized training company founded in 2012 that teaches PgMP and PfMP as two credentials among a wide catalog spanning PMP, PMI-ACP, Agile/Scrum, SAFe and ICAgile coaching, with PgMP/PfMP delivered primarily as self-paced video courses backed by a large multi-trainer roster. If you want a single expert's undivided attention across a live cohort, <a href="institute-augment-consultancy.html">Augment Consultancy</a> fits that brief. If you want a self-paced course from an established multi-certification training company with broader accreditation and a larger support infrastructure, iZenBridge fits that brief instead.</p>
+
+<h2>What Augment Consultancy offers</h2>
+<p><a href="https://augmentconsultancy.com/" rel="noopener" target="_blank">Augment Consultancy</a> is built around exactly two PMI credentials — Program Management Professional (PgMP)® and Portfolio Management Professional (PfMP)® — and nothing else. Its flagship format is a live, 2-weekend online cohort (Saturday and Sunday sessions), backed by a self-paced mentoring track for those who prefer it. The company is founded and taught by Sanjeev Kumar, who has more than 20 years of experience in project, program and portfolio management, and who personally leads the cohorts rather than handing them to a rotating faculty roster.</p>
+<p>On its own site, Augment states a 98% first-attempt success rate across more than 6,000 professionals trained, and lists exclusive bonuses with every cohort: one year of access to live session recordings, a one-on-one gap-assessment session with the mentor, and a library of program templates and case studies. Course materials add up to 60+ hours of learning content, 1,000+ exam-style practice questions, 100+ training videos and 150+ training slides, with a training certificate worth 24 PDUs. Beyond the classroom, Sanjeev Kumar has built a following of 10,000+ on LinkedIn and 1M+ views on Augment's YouTube training channel, both of which are checkable directly rather than taken on faith.</p>
+<p>You can see our fact-checked summary and contact details on <a href="institute-augment-consultancy.html">Augment Consultancy's profile on our platform</a>.</p>
+
+<h2>What iZenBridge offers</h2>
+<p>iZenBridge is a considerably larger organization, founded in 2012, describing itself as a training provider with a global customer base. It is reviewed and approved by PMI as a training provider, carries an Authorized Training Partner (ATP) badge on its PMP program specifically, and holds additional accreditations most boutique providers don't: a Bronze Partner status with Scaled Agile (SAFe), a Silver Solution Partner listing with Atlassian, and membership with ICAgile. Its course catalog runs far beyond PgMP/PfMP — PMP, PMI-ACP, PMI-PBA and a newer PMI-CPMAI (AI-focused) credential sit alongside a full Agile and Scrum lineup (CSM, CSPO, Advanced CSM/CSPO, CSP-SM), five SAFe tracks, three ICAgile coaching certifications, ICF coaching programs and Jira training.</p>
+<p>For PgMP specifically, iZenBridge's own course page describes 60+ hours of self-paced video learning, five full-length mock tests plus five domain-specific tests, specialized practice sets on program activities and artifacts, and downloadable eBooks. Its PfMP course covers all five PfMP domains per PMI's exam content outline, with two full-length mock tests, 600+ practice questions and application support aimed at panel-review success. Rather than one founder teaching everything, iZenBridge runs a roster of more than a dozen named trainers with public LinkedIn profiles; the PMP/PgMP/PfMP/PMI-ACP/SAFe track is led primarily by trainer Saket Bansal. The company also runs FORUM, an active peer community with reportedly thousands of discussion threads, plus free mentoring events and free mock exams for PgMP and PfMP as entry points before you commit to a paid course.</p>
+
+<h2>Head-to-head comparison</h2>
+<table>
+<thead><tr><th>Factor</th><th>Augment Consultancy</th><th>iZenBridge</th></tr></thead>
+<tbody>
+<tr><td>Certifications covered</td><td>PgMP and PfMP only</td><td>PMP, PgMP, PfMP, PMI-ACP, PMI-PBA, PMI-CPMAI, plus Agile/Scrum, SAFe and ICAgile coaching tracks</td></tr>
+<tr><td>PgMP/PfMP format</td><td>Live 2-weekend cohort (flagship), self-paced option also available</td><td>Self-paced video course (as marketed on its PgMP/PfMP pages)</td></tr>
+<tr><td>Who teaches</td><td>Founder Sanjeev Kumar, personally, across every cohort</td><td>A multi-trainer roster; PgMP/PfMP led primarily by trainer Saket Bansal</td></tr>
+<tr><td>Founded / track record</td><td>Not publicly dated; reports 6,000+ professionals trained</td><td>2012; PMI-reviewed provider with a longer public operating history</td></tr>
+<tr><td>Accreditation signals</td><td>No PMI Authorized Training Partner (ATP) badge shown on-site</td><td>PMI ATP badge (on its PMP program), Scaled Agile Bronze Partner, Atlassian Silver Solution Partner, ICAgile member</td></tr>
+<tr><td>Stated success rate</td><td>98% first-attempt success rate (self-reported)</td><td>No PgMP/PfMP-specific success-rate figure published on its course pages</td></tr>
+<tr><td>Extras included</td><td>1-year recording access, 1:1 gap-assessment session, templates &amp; case studies, 24 PDUs</td><td>FORUM peer community, free mentoring events, free mock exams as lead-ins</td></tr>
+<tr><td>Best fit for</td><td>Candidates who want one expert's full attention through a live, cohort-based sprint</td><td>Candidates who want a self-paced course from an institutionally larger, multi-accredited provider — especially if they may also need PMP, Agile or SAFe training later</td></tr>
+</tbody>
+</table>
+
+<h2>Live cohort vs self-paced: which actually matters more</h2>
+<p>This is the single biggest structural difference between the two, and it should drive your decision more than either brand's marketing claims. A live, weekend-based cohort — Augment's flagship format — imposes external structure: fixed session times, a mentor watching your progress in real time, and peers moving through the material alongside you. That works well if you know self-discipline is your weak point, or if you specifically want live Q&amp;A with an experienced practitioner rather than a recorded video answering a question you didn't ask.</p>
+<p>A self-paced course — the format iZenBridge markets for PgMP/PfMP — trades that structure for flexibility: you can start immediately, pause for weeks if work gets busy, and rewatch a difficult module as many times as you need. It suits candidates who are confident in their own scheduling discipline, or whose work travel and shift patterns make a fixed weekend cohort genuinely hard to commit to. Neither format is objectively better; the honest answer is that it depends on how you've actually finished self-directed learning commitments in the past, not on how you'd like to think you would.</p>
+
+<h2>Specialist depth vs multi-certification breadth</h2>
+<p>Augment's entire business is PgMP and PfMP — there is no second product line competing for the founder's attention, no other certification's marketing pulling focus. That kind of narrow specialization tends to produce material that is deeply tuned to exactly two exams' content outlines and panel-review requirements, taught by someone who has spent years focused on nothing else.</p>
+<p>iZenBridge's breadth cuts the other way: because it also runs PMP, PMI-ACP, SAFe and Agile/Scrum programs at scale, it has the institutional infrastructure — accreditation relationships, a larger trainer bench, a standing peer community — that a two-person specialist shop generally can't replicate. That breadth matters concretely if your career plan includes more than just PgMP/PfMP; a candidate who'll also want PMI-ACP or SAFe training within the next year or two may find real value in dealing with one provider across certifications rather than three separate vendors.</p>
+
+<h2>What we could and couldn't verify</h2>
+<p>In the interest of the same honesty policy we apply to every listing on this platform: Augment Consultancy's 98% success-rate and 6,000+ trained-professional figures are self-reported on its own site, as is common for boutique training providers, and we have not independently audited them — we note this not to cast doubt, but because you shouldn't take any provider's stated numbers as third-party verified unless you've confirmed them yourself. iZenBridge's PMI-reviewed-provider status, Scaled Agile partnership and Atlassian partnership are the kind of claims that are checkable against the accrediting bodies' own partner directories, which is a meaningfully different category of claim than a self-reported pass rate. Neither company has paid Online Coaching 4u for placement in this comparison, and this article's structure was not influenced by either party.</p>
+
+<h2>Which one should you choose?</h2>
+<h3>Choose Augment Consultancy if…</h3>
+<p>You want a live, cohort-based format with a fixed schedule and direct access to one experienced mentor across every session; you value a founder who teaches personally rather than delegates to a roster; and PgMP/PfMP are the only PMI credentials on your roadmap for now. The included gap-assessment session and full year of recording access are also worth weighing if you value a safety net alongside live teaching.</p>
+<h3>Choose iZenBridge if…</h3>
+<p>You prefer a self-paced format you can fit around unpredictable work hours; you want the reassurance of a PMI-authorized provider with additional accreditation from Scaled Agile and Atlassian; or your certification plans extend beyond PgMP/PfMP into PMP, PMI-ACP, SAFe or Agile coaching, where dealing with one larger provider across multiple credentials may be more convenient than switching vendors each time.</p>
+<h3>Do this regardless of which you pick</h3>
+<p>Before paying either provider, ask directly: who specifically teaches your batch or delivers your self-paced content, what the refund or re-attempt policy is if you don't clear the exam on the first try, and whether application-writing or panel-review support is included or a separate add-on. These three questions cut through marketing copy faster than any comparison article can.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>Is Augment Consultancy or iZenBridge better for PgMP certification?</h3>
+<p>Neither is objectively "better" — they suit different needs. Augment Consultancy offers a live, founder-led cohort focused only on PgMP/PfMP; iZenBridge offers a self-paced PgMP course backed by a larger multi-certification, multi-accredited organization. Pick based on whether you want live structure and a single mentor, or self-paced flexibility from an institutionally larger provider.</p>
+<h3>Is iZenBridge a PMI Authorized Training Partner?</h3>
+<p>iZenBridge states it has been reviewed and approved as a training provider by PMI and displays a PMI Authorized Training Partner (ATP) badge specifically on its PMP program page. We did not find an on-site claim that Augment Consultancy holds ATP status.</p>
+<h3>Does Augment Consultancy also offer PMP or Agile certifications?</h3>
+<p>No. Augment Consultancy's course catalog is limited to PgMP and PfMP. If you also need PMP, PMI-ACP, SAFe or Scrum training, iZenBridge's broader catalog covers those in one place.</p>
+<h3>Is Augment Consultancy's training live or self-paced?</h3>
+<p>Its flagship format is a live, 2-weekend online cohort, though a self-paced mentoring track is also listed on its site. iZenBridge's PgMP/PfMP courses are marketed primarily as self-paced video learning.</p>
+<h3>Where can I see verified details and contact info for Augment Consultancy?</h3>
+<p>See our fact-checked listing on <a href="institute-augment-consultancy.html">Augment Consultancy's profile page</a>, which includes its training format, highlights and official website link.</p>
+<h3>Does either provider pay Online Coaching 4u to appear in this comparison?</h3>
+<p>No. Neither Augment Consultancy nor iZenBridge has paid for placement in this article, and our listings never accept payment in exchange for a higher ranking or more favorable coverage.</p>
+
+<p>Whichever you choose, the format question — live cohort versus self-paced — matters more to your actual odds of finishing than either brand's marketing claims. Compare full details for Augment Consultancy and other providers on our <a href="certification.html">certification training comparison page</a>.</p>`
+  },
+  {
     slug: "best-online-cat-coaching-2026",
     title: "Best Online CAT Coaching in India (2026): An Honest Comparison",
     category: "CAT / MBA",
