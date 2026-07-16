@@ -289,6 +289,10 @@ body.nav-open .main-nav{display:flex}
 .review-score{font-family:var(--serif);font-size:2.4rem;font-weight:600}
 .review-box .of{color:var(--ink-3);font-size:.83rem;white-space:nowrap}
 .review-box p{margin:0;font-size:.92rem;color:var(--ink-2)}
+.review-box+.review-box{margin-top:14px}
+.review-box-google{background:var(--paper);border-style:dashed}
+.review-box-google .review-score{color:var(--gold-deep)}
+.review-box-google p a{color:var(--brand-deep);font-weight:600;white-space:nowrap}
 .detail-side{position:sticky;top:92px;display:grid;gap:20px}
 .side-card{background:var(--navy);border:none;border-radius:26px;padding:28px;color:#fff;box-shadow:var(--shadow)}
 .side-card h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;color:#fff}
@@ -316,6 +320,16 @@ body.nav-open .main-nav{display:flex}
 .side-card.light .enq-form label{color:var(--ink-2)}
 .side-card.light .enq-form input,.side-card.light .enq-form textarea{background:var(--paper);border:1px solid var(--line);color:var(--ink)}
 .side-card.light a{color:var(--brand-deep)}
+.btn-outline{background:transparent;color:var(--brand-deep);border:1.5px solid var(--brand-line)}
+.btn-outline:hover{border-color:var(--brand);background:var(--brand-soft)}
+.star-input{border:none;padding:0;margin:14px 0 0;display:flex;flex-direction:row-reverse;justify-content:flex-end;gap:2px}
+.star-input legend{width:100%;padding:0;font-size:.76rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-bottom:6px}
+.side-card:not(.light) .star-input legend{color:#8d94b8}
+.star-input input{position:absolute;opacity:0;width:1px;height:1px}
+.star-input label{font-size:1.9rem;line-height:1;color:var(--line);cursor:pointer;transition:.15s}
+.side-card:not(.light) .star-input label{color:rgba(255,255,255,.2)}
+.star-input input:checked~label,.star-input label:hover,.star-input label:hover~label{color:var(--gold)}
+.star-input input:focus-visible+label{outline:2px solid var(--brand);border-radius:4px}
 
 /* ---------- prose / static ---------- */
 .prose{max-width:780px}

@@ -486,6 +486,7 @@ function detailPage(x) {
 </div>
 <div class="factbar">
 <div class="fact"><span>Student rating</span><b>${x.rating ? `<span class="star">★</span> ${x.rating.toFixed(1)} <small style="font-size:.72rem;color:var(--ink-3);font-family:var(--sans)">${x.ratingCount} reviews</small>` : "No reviews yet"}</b></div>
+${x.googleRating ? `<div class="fact"><span>Google rating</span><b><span class="star">★</span> ${x.googleRating.toFixed(1)} <small style="font-size:.72rem;color:var(--ink-3);font-family:var(--sans)">${x.googleReviewCount} reviews</small></b></div>` : ""}
 ${x.estd ? `<div class="fact"><span>Established</span><b>${x.estd}</b></div>` : ""}
 <div class="fact"><span>Mode</span><b>${modeLabel[x.mode] || (x.city === "online" ? "Online" : "Classroom")}</b></div>
 ${x.city !== "online" ? `<div class="fact"><span>Locality</span><b>${esc(x.locality)}</b></div>` : ""}
@@ -504,12 +505,12 @@ ${x.ecosystem ? `<h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list eco-lis
 <div class="callout">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee — material and test series included — in writing.</div>
 <h2>Student reviews</h2>
 ${x.ratingCount ? `<div class="review-box"><div><div class="review-score">${x.rating ? x.rating.toFixed(1) : "–"}</div><div class="of">out of 5 · ${x.ratingCount} review${x.ratingCount === 1 ? "" : "s"}</div></div><p>Ratings are collected from students and published unedited — positive or negative.</p></div>` : `<p>No reviews yet.</p>`}
+${x.googleRating ? `<div class="review-box review-box-google"><div><div class="review-score">${x.googleRating.toFixed(1)}</div><div class="of">out of 5 · ${x.googleReviewCount} reviews</div></div><p>As rated on Google, checked ${new Date().toLocaleString("en-IN", { month: "long", year: "numeric" })}. Separate from our own student ratings above.${x.city !== "online" ? ` <a href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">View on Google Maps →</a>` : ""}</p></div>` : ""}
 <script type="application/ld+json">${JSON.stringify(Object.assign({
   "@context": "https://schema.org", "@type": "EducationalOrganization",
   "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
   "address": { "@type": "PostalAddress", "streetAddress": x.address, "addressLocality": x.city === "online" ? "Online" : cityL, "addressCountry": "IN" }
 }, x.estd ? { "foundingDate": String(x.estd) } : {}, x.website ? { "sameAs": x.website } : {}, (x.rating && x.ratingCount) ? { "aggregateRating": { "@type": "AggregateRating", "ratingValue": x.rating, "reviewCount": x.ratingCount, "bestRating": 5 } } : {}))}</script>
-<p>Studied here? <a href="contact.html">Share your experience</a> — honest reviews (positive or negative) are published as-is.</p>
 </div>
 <aside class="detail-side">
 <div class="side-card">
@@ -525,6 +526,29 @@ ${x.ratingCount ? `<div class="review-box"><div><div class="review-score">${x.ra
 <label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
 <button class="btn btn-gold" type="submit">Request a callback</button>
+</form>
+</div>
+<div class="side-card light">
+<h3>Share your experience</h3>
+<p class="muted">Studied here? Rate it. Reviews are checked before they're published, not posted instantly.</p>
+<form class="enq-form review-form" action="https://formsubmit.co/${B.email}" method="POST">
+<input type="hidden" name="_subject" value="New review — ${esc(x.name)} (${cityL})">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">
+<fieldset class="star-input">
+<legend>Your rating</legend>
+<input type="radio" id="r5-${x.slug}" name="rating" value="5"><label for="r5-${x.slug}" title="5 stars">★</label>
+<input type="radio" id="r4-${x.slug}" name="rating" value="4"><label for="r4-${x.slug}" title="4 stars">★</label>
+<input type="radio" id="r3-${x.slug}" name="rating" value="3"><label for="r3-${x.slug}" title="3 stars">★</label>
+<input type="radio" id="r2-${x.slug}" name="rating" value="2"><label for="r2-${x.slug}" title="2 stars">★</label>
+<input type="radio" id="r1-${x.slug}" name="rating" value="1" required><label for="r1-${x.slug}" title="1 star">★</label>
+</fieldset>
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
+<label>Your review<textarea name="review" required rows="4" placeholder="Faculty, batch size, results, fees — anything future students should know"></textarea></label>
+<button class="btn btn-outline" type="submit">Submit review</button>
 </form>
 </div>
 <div class="side-actions">
