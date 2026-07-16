@@ -24,6 +24,9 @@
       "thiruvananthapuram",
       "coimbatore",
       "mysuru"
+    ],
+    "certification": [
+      "online"
     ]
   },
   "examLabels": {
@@ -67,7 +70,12 @@
     "ao/eo": "AO / EO",
     "cet": "CET",
     "schooling": "Schooling",
-    "ca": "CA Coaching"
+    "ca": "CA Coaching",
+    "pgmp": "PgMP",
+    "pfmp": "PfMP",
+    "pmp": "PMP",
+    "capm": "CAPM",
+    "pmi-rmp": "PMI-RMP"
   },
   "listings": [
     {
@@ -2183,6 +2191,57 @@
       ],
       "website": "https://www.arivupro.com/",
       "mode": "offline"
+    },
+    {
+      "slug": "augment-consultancy",
+      "type": "certification",
+      "name": "Augment Consultancy",
+      "city": "online",
+      "locality": "Online (Global)",
+      "address": "Online — live and self-paced training delivered worldwide; support@augmentconsultancy.com, +91-9816360116",
+      "estd": null,
+      "exams": [
+        "pgmp",
+        "pfmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Augment Consultancy is an online training provider focused on PMI's Program Management Professional (PgMP)® and Portfolio Management Professional (PfMP)® certifications, founded and led by Sanjeev Kumar, who has more than 20 years of experience in project, program and portfolio management. The company runs live weekend cohorts alongside self-paced mentoring programs, backed by mock exams, training videos and dedicated support through the PMI application and panel-review process. Augment reports having trained 6,000+ professionals with a 98% first-attempt pass rate, and its founder has built a following of 10,000+ on LinkedIn and 1M+ views on the company's YouTube training channel. Unlike the city-based exam coaching listed elsewhere on this platform, Augment operates entirely online and serves working professionals worldwide rather than students preparing for Indian entrance exams.",
+      "highlights": [
+        "Founder Sanjeev Kumar has 20+ years of experience in project, program and portfolio management",
+        "Reports a 98% first-attempt pass rate across 6,000+ professionals trained in PgMP/PfMP prep",
+        "Live weekend cohorts plus self-paced courses, mock exams and PMI application/panel-review support"
+      ],
+      "website": "https://augmentconsultancy.com/",
+      "mode": "online"
+    },
+    {
+      "slug": "addon-skills",
+      "type": "certification",
+      "name": "Addon Skills",
+      "city": "online",
+      "locality": "Online, pan-India and international",
+      "address": "Meadows Avenue, Baner-Pashan Link Road, Baner, Pune, Maharashtra — live virtual cohorts delivered pan-India and internationally",
+      "estd": null,
+      "exams": [
+        "pmp",
+        "pgmp",
+        "pfmp",
+        "pmi-rmp",
+        "capm"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Addon Skills is a PMI Authorized Training Partner (ATP) based in Pune, India, offering certification prep across PMP, PgMP, PfMP, PMI-RMP and CAPM. Its cohorts run as instructor-led virtual live classes (ILVC) on weekends, taught by credentialed trainers — including Dr. Shri Rajagopalan for PMP and Ishpinder Kailey, a PMP/PgMP/PfMP holder with 15+ years of experience, for the program and portfolio management tracks. Beyond live training, Addon Skills offers application-writing support, an exam-simulation tool, self-paced learning and corporate/team training, alongside PDU courses for certification renewal. As an official PMI ATP, its course content is directly aligned with PMI's exam content outline rather than independently developed.",
+      "highlights": [
+        "Official PMI Authorized Training Partner (ATP), based in Pune, India",
+        "Covers five PMI credentials: PMP, PgMP, PfMP, PMI-RMP and CAPM",
+        "Weekend instructor-led virtual cohorts plus self-paced learning, exam simulator and application-writing support"
+      ],
+      "website": "https://addonskills.com/",
+      "mode": "online"
     }
   ],
   "cityContent": {

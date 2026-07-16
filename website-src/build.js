@@ -13,7 +13,7 @@ const B = DATA.brand;
 const L = DATA.listings;
 const EX = DATA.examLabels;
 
-const cityLabel = (c) => c === "online" ? "Online (Pan-India)" : c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
+const cityLabel = (c) => c === "online" ? "Online" : c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const examLabel = (e) => EX[e] || e.toUpperCase();
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const slugify = (s) => String(s).toLowerCase().replace(/<[^>]*>/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -49,9 +49,35 @@ function buildToc(html) {
   const tocHtml = `<nav class="toc" aria-label="Table of contents"><p class="toc-title">Contents</p><ul>${list}</ul></nav>`;
   return { html: withIds, tocHtml };
 }
-const typeLabel = { coaching: "Coaching" };
-const typePlural = { coaching: "Coaching Institutes" };
-const typePage = { coaching: "coaching" };
+const typeLabel = { coaching: "Coaching", certification: "Certification" };
+const typePlural = { coaching: "Coaching Institutes", certification: "Professional Certifications" };
+const typePage = { coaching: "coaching", certification: "certification" };
+
+/* copy used specifically for the "online" (no fixed city) listing/detail pages —
+   keyed by type so each vertical gets accurate, non-generic wording */
+const ONLINE_COPY = {
+  coaching: {
+    h1: "Online CAT / MBA Coaching Platforms",
+    title: (n) => `Best Online CAT / MBA Coaching (${n} compared)`,
+    metaDesc: (n) => `Compare ${n} online CAT and MBA entrance coaching platforms — Rodha, Cracku, iQuanta, IMS, Career Launcher and more. Verified facts, no paid rankings.`,
+    subNote: (n) => `${n} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`,
+    availability: "Pan-India"
+  },
+  certification: {
+    h1: "Online Professional Certification Training",
+    title: (n) => `Best Online Professional Certification Training (${n} compared)`,
+    metaDesc: (n) => `Compare ${n} online professional certification training providers — including PMI PgMP®, PfMP®, PMP® and related credentials. Verified facts, no paid rankings.`,
+    subNote: (n) => `${n} providers compared — facts only: founders/instructors, formats and track record. No paid rankings — nobody pays for placement.`,
+    availability: "Worldwide"
+  }
+};
+const onlineCopyFor = (type) => ONLINE_COPY[type] || {
+  h1: `Online ${typePlural[type] || type}`,
+  title: (n) => `Best Online ${typePlural[type] || type} (${n} compared)`,
+  metaDesc: (n) => `Compare ${n} online ${(typePlural[type] || type).toLowerCase()}.`,
+  subNote: (n) => `${n} listed.`,
+  availability: "Online"
+};
 
 const byType = (t) => L.filter(x => x.type === t);
 const byCity = (t, c) => {
@@ -128,7 +154,7 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["coaching.html", "Coaching"], ["blog.html", "Blogs"], ["about.html", "About"]];
+  const nav = [["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["blog.html", "Blogs"], ["about.html", "About"]];
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
@@ -156,8 +182,9 @@ function footer() {
 <li><a href="about.html">About Us</a></li>
 <li><a href="contact.html">Contact Us</a></li>
 <li><a href="blog.html">Guides</a></li>
+<li><a href="certification.html">Certifications</a></li>
 <li><a href="list-your-institute.html">List Your Institute</a></li>
-<li><a href="sitemap.html">Sitemap</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
 </ul>
 </div>
 <div>
@@ -215,7 +242,7 @@ function homePage() {
   const examCards = [["ias"], ["jee"], ["neet"], ["cat"], ["ssc"], ["clat"], ["nda"], ["bank"], ["teaching"], ["cuet"]]
     .map(([e]) => e === "cat"
       ? `<a class="tile" href="coaching-delhi.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Classroom &amp; online</span></a>`
-      : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'.html?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
+      : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='/coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
   const cityCards = DATA.cities.coaching.map(c => {
     const n = byCity("coaching", c).length;
     return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
@@ -322,18 +349,19 @@ function listingPage(type, city) {
   const label = typePlural[type];
   const isOnline = city === "online";
   const cc = (DATA.cityContent || {})[`${typePage[type]}-${city}`];
-  const h1 = isOnline ? "Online CAT / MBA Coaching Platforms" : `${label} in ${cityL}`;
+  const oc = onlineCopyFor(type);
+  const h1 = isOnline ? oc.h1 : `${label} in ${cityL}`;
   const subNote = isOnline
-    ? `${items.length} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`
+    ? oc.subNote(items.length)
     : `${items.length} listed · ordered by our recommendation by default, which weighs student ratings, track record and depth of free content — switch to Top rated, Most reviewed or Oldest anytime. Institutes cannot pay for placement.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
   const allModes = [...new Set(items.map(x => x.mode).filter(Boolean))];
   const modeChips = allModes.length > 1 ? `<label class="fsel-label" for="modesel">Mode</label><select id="modesel" class="fsel"><option value="">All modes</option>${["offline", "hybrid", "online"].filter(m => allModes.includes(m)).map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>` : "";
-  const title = isOnline ? `Best Online CAT / MBA Coaching (${items.length} compared)` : `Best ${label} in ${cityL} (${items.length} listed)`;
+  const title = isOnline ? oc.title(items.length) : `Best ${label} in ${cityL} (${items.length} listed)`;
   return head(`${title} — ${B.name}`,
     isOnline
-      ? `Compare ${items.length} online CAT and MBA entrance coaching platforms — Rodha, Cracku, iQuanta, IMS, Career Launcher and more. Verified facts, no paid rankings.`
+      ? oc.metaDesc(items.length)
       : `Compare ${items.length} ${label.toLowerCase()} in ${cityL} with real student ratings, exam specialisations, addresses and establishment year.`) +
     header(`${typePage[type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[type]}.html">${label}</a> / <span>${isOnline ? "Online" : cityL}</span></div>
@@ -377,8 +405,8 @@ function detailPage(x) {
   const highlights = (x.highlights || []).map(h => `<li>${esc(h)}</li>`).join("");
   const listHref = x.city === "online" ? `${typePage[x.type]}.html` : `${typePage[x.type]}-${x.city}.html`;
   const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
-  return head(`${x.name} — ${x.city === "online" ? "Online CAT / MBA Coaching" : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
-    `${x.name}, ${x.locality}, ${cityL}. Established ${x.estd}.${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} Address, exams offered and enquiry details.`) +
+  return head(`${x.name} — ${x.city === "online" ? onlineCopyFor(x.type).h1 : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
+    `${x.name}, ${x.locality}, ${cityL}.${x.estd ? ` Established ${x.estd}.` : ""}${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} Address, exams offered and enquiry details.`) +
     header(`${typePage[x.type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${x.city === "online" ? "Online Platforms" : cityL}</a> / <span>${esc(x.name)}</span></div>
 <section class="container detail-hero">
@@ -395,7 +423,7 @@ function detailPage(x) {
 ${x.estd ? `<div class="fact"><span>Established</span><b>${x.estd}</b></div>` : ""}
 <div class="fact"><span>Mode</span><b>${modeLabel[x.mode] || (x.city === "online" ? "Online" : "Classroom")}</b></div>
 ${x.city !== "online" ? `<div class="fact"><span>Locality</span><b>${esc(x.locality)}</b></div>` : ""}
-<div class="fact"><span>${x.city === "online" ? "Availability" : "City"}</span><b>${x.city === "online" ? "Pan-India" : cityL}</b></div>
+<div class="fact"><span>${x.city === "online" ? "Availability" : "City"}</span><b>${x.city === "online" ? onlineCopyFor(x.type).availability : cityL}</b></div>
 ${x.priceRange ? `<div class="fact"><span>Room plans</span><b>${x.priceRange}</b></div>` : ""}
 </div>
 </section>
@@ -593,8 +621,13 @@ const termsBody = `
 
 function sitemapBody() {
   const links = [];
-  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
-  DATA.cities.coaching.forEach(c => links.push([`coaching-${c}.html`, `Coaching in ${cityLabel(c)}`]));
+  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
+  Object.keys(DATA.cities).forEach(t => {
+    DATA.cities[t].forEach(c => {
+      const lbl = t === "coaching" ? `Coaching in ${cityLabel(c)}` : `${typeLabel[t]} — ${cityLabel(c)}`;
+      links.push([`${typePage[t]}-${c}.html`, lbl]);
+    });
+  });
   const inst = L.map(x => `<li><a href="institute-${x.slug}.html">${esc(x.name)} — ${cityLabel(x.city)}</a></li>`).join("");
   return `<section class="hero hero-sm"><div class="container"><h1>Sitemap</h1></div></section>
 <section class="section container prose">
@@ -613,9 +646,9 @@ const searchIndex = [
     t: x.name,
     s: x.city === "online" ? x.locality : `${x.locality}, ${cityLabel(x.city)}`,
     c: typeLabel[x.type],
-    u: `institute-${x.slug}.html`
+    u: `/institute-${x.slug}`
   })),
-  ...POSTS.map(p => ({ t: p.title, s: p.category, c: "Guide", u: `${p.slug}.html` }))
+  ...POSTS.map(p => ({ t: p.title, s: p.category, c: "Guide", u: `/${p.slug}` }))
 ];
 
 /* ---------- write ---------- */
@@ -648,8 +681,16 @@ if (fs.existsSync(logosSrc)) {
 const cleanPath = (f) => f === "index.html" ? "/" : "/" + f.replace(/\.html$/, "");
 const canonical = (f) => `${B.siteUrl}${cleanPath(f)}`;
 const PAGES = [];
+/* rewrite bare internal hrefs (href="page.html", href="index.html") to clean
+   canonical-format paths (href="/page", href="/") so internal links never
+   trigger the cleanUrls .html-stripping redirect or resolve against the
+   wrong (www) domain via relative-URL resolution. */
+const fixLinks = (html) => html
+  .replace(/href="index\.html"/g, 'href="/"')
+  .replace(/href="([a-zA-Z0-9_-]+)\.html(\?[^"#]*)?(#[^"]*)?"/g, (m, name, qs, hash) => `href="/${name}${qs || ""}${hash || ""}"`);
 const w = (f, html) => {
-  const withCanonical = html.replace("</head>", `<link rel="canonical" href="${canonical(f)}">\n<meta property="og:url" content="${canonical(f)}">\n</head>`);
+  const linked = fixLinks(html);
+  const withCanonical = linked.replace("</head>", `<link rel="canonical" href="${canonical(f)}">\n<meta property="og:url" content="${canonical(f)}">\n</head>`);
   fs.writeFileSync(path.join(OUT, f), withCanonical);
   PAGES.push(f);
 };
@@ -658,6 +699,10 @@ w("index.html", homePage());
 w("coaching.html", hubPage("coaching", "Find Your Coaching Institute", `Compare ${stats.coaching} coaching institutes for IAS, JEE, NEET, SSC and more — with real student ratings.`));
 
 DATA.cities.coaching.forEach(c => w(`coaching-${c}.html`, listingPage("coaching", c)));
+
+w("certification.html", hubPage("certification", "Compare Professional Certification Training Providers",
+  "Compare online professional certification training providers — including PMI PgMP®, PfMP® and PMP® programs — with verified facts, real track records and no paid rankings."));
+DATA.cities.certification.forEach(c => w(`certification-${c}.html`, listingPage("certification", c)));
 
 L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
 
