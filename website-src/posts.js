@@ -1042,71 +1042,85 @@ module.exports = [
   },
   {
     slug: "iquanta-vs-rodha",
-    title: "iQuanta vs Rodha: Which Online CAT Coaching Should You Pick? (2026)",
+    title: "Rodha vs iQuanta: Guided Ecosystem vs Community-Led CAT Prep (2026)",
     category: "CAT / MBA",
     date: "17 Jul 2026",
-    minutes: 12,
+    minutes: 11,
     cta: { href: "coaching-online.html", text: "Compare online CAT/MBA coaching options" },
-    excerpt: "iQuanta and Rodha are two of the most-searched online CAT coaches, both built around a founder-led YouTube funnel. Here's how their courses, pricing and faculty actually differ.",
+    excerpt: "Rodha and iQuanta solve different preparation problems: one is a guided, faculty-led ecosystem, the other is a community-led, discussion-first platform. Here's how they actually differ on faculty, mocks, mentoring and fees.",
     image: "assets/blog/iquanta-vs-rodha.png",
-    imageAlt: "iQuanta vs Rodha CAT coaching comparison",
+    imageAlt: "Rodha vs iQuanta CAT coaching comparison",
     faqs: [
-      { q: "Is iQuanta or Rodha better for CAT preparation?", a: "Neither is universally better. iQuanta has a larger named faculty roster, a published itemised price (₹49,999 for its Full Course Pro bundle) and a 24/7 doubt-resolution claim. Rodha is built almost entirely around founder Ravi Prakash's own teaching and a large free YouTube funnel, with course pricing that's harder to pin down without visiting its store directly." },
-      { q: "What is the price difference between iQuanta and Rodha?", a: "iQuanta publishes an itemised price of ₹49,999 for its 'CAT 2026 Full Course Pro' bundle on its own site. Rodha's site did not show a clean, current price for its flagship comprehensive batch at the time of research; a returning-student discounted price of ₹18,500 (without printed booklets) was found, which is not the standard new-enrolment price. Confirm Rodha's live price directly on rodha.co.in before paying." },
-      { q: "Does iQuanta or Rodha have better faculty?", a: "iQuanta names a wider bench of instructors with self-reported CAT percentiles (several claiming 99.8 to 100 percentile in Quant). Rodha is centred on one instructor, founder Ravi Prakash, who reports a 99.86 percentile. If you want variety across teachers, iQuanta's roster is broader; if you want one instructor's material end-to-end, Rodha is built that way by design." },
-      { q: "Are iQuanta's and Rodha's success claims independently verified?", a: "No. Both brands' percentile and topper claims (iQuanta's '500+ CAT 2024 99 percentilers,' Rodha's '40,000+ aspirants helped') are self-published on their own websites. Neither is backed by a named third-party auditor in what we found, so treat both as marketing claims rather than verified statistics." },
-      { q: "Which one has a bigger student community?", a: "iQuanta advertises a WhatsApp community of roughly 200,000 members. Rodha's official Telegram channel runs closer to 13,000 members. Community size isn't the same as teaching quality, but it does affect how easy it is to find peers and crowd-sourced doubt help outside paid sessions." }
+      { q: "Which is better for CAT 2026: Rodha or iQuanta?", a: "Rodha is a stronger fit for students who want guided concept learning, improved mocks, VARC faculty depth and mentoring, while iQuanta is a stronger fit for students who want an active community-led preparation environment." },
+      { q: "What is the most important factor while choosing between them?", a: "The most important factor is fit: whether the platform solves your weakest problem, such as concepts, mocks, discipline, VARC, DILR, Quant, mentoring or schedule flexibility." },
+      { q: "Should I buy both a Rodha and an iQuanta course?", a: "Usually no. Keep one primary course and add an extra test series only if you can analyze mocks properly. Too many full courses often create confusion." },
+      { q: "How should working professionals choose between Rodha and iQuanta?", a: "Working professionals should prioritise batch timing, recordings, concise practice, mock analysis and doubt support because schedule friction is usually their biggest challenge." },
+      { q: "Are mock tests alone enough for CAT preparation?", a: "Mocks are essential but not enough if concepts are weak. Students need concepts, practice, sectionals, full mocks and post-mock analysis." },
+      { q: "What should I verify before enrolling in either course?", a: "Verify current fees, batch dates, faculty, recordings, mocks, sectionals, previous papers, analytics, doubt support, mentoring access, refund policy and course validity on the official websites." }
     ],
     html: `
-<p>If you've spent any time on CAT-prep YouTube or Telegram, you've run into both of these names. <a href="institute-iquanta.html">iQuanta</a> and <a href="institute-rodha.html">Rodha</a> are two of the most visible online CAT coaching brands in India right now, and both built their reach the same way: free content first, paid batches second. But the businesses underneath that similar funnel are quite different once you look closely at pricing transparency, faculty structure and what a paid batch actually includes. This comparison is built from each brand's own current course pages, plus independent reviews where we could find them.</p>
+<p><a href="institute-rodha.html">Rodha</a> and <a href="institute-iquanta.html">iQuanta</a> are two of the most-shortlisted online CAT coaching options for CAT 2026, and students usually land on this comparison after narrowing their choice down to these two and wanting a practical answer. Note upfront: Rodha is not a single-instructor, founder-only brand. Its founder is a well-known CAT faculty, but Rodha's current ecosystem is built around a named teaching team alongside him, plus mocks, mentoring and community-support layers that go well beyond one person teaching. Below is a breakdown of what each platform is actually built around, section by section.</p>
 
 <div class="tldr-box"><p class="tldr-label">TL;DR</p>
-<p><strong>iQuanta</strong> publishes a clear, itemised price (₹49,999 for its "Full Course Pro" bundle), names a wide faculty roster with individually stated CAT percentiles, and leads with a 24/7 doubt-resolution promise backed by a roughly 200,000-member WhatsApp community.</p>
-<p><strong>Rodha</strong> is built almost entirely around founder Ravi Prakash, who taught at TIME, Career Launcher and IMS before starting his own brand in 2017-18; its pricing is less transparently published online, and independent chatter about it is more mixed than iQuanta's.</p>
-<p>If you want a itemised bundle with a large faculty bench, look at iQuanta. If you specifically want one instructor's teaching style end-to-end and you've watched enough of his free content to know you like it, Rodha is built that way on purpose.</p>
+<p><strong>Rodha</strong> is a guided, teacher-led ecosystem: KD Sir leads Quant/LRDI/VARC depth alongside Nikita Gupta and Brijesh Pandey for verbal support, backed by a revamped mock platform (full mocks, sectionals, previous papers, analytics), "Rodha Buddy" for community doubt-solving and "Rodha Panchayat" for 1:1 mentoring, plus dedicated batches and recordings for working professionals.</p>
+<p><strong>iQuanta</strong> is community-led: its strength is an active online discussion community and peer-driven doubt solving, which suits students who stay consistent through group energy rather than a structured, faculty-guided routine.</p>
+<p>Both list a similar published fee band online (roughly ₹8,000-₹40,000 for Rodha and ₹8,000-₹45,000 for iQuanta), so the deciding factor is rarely price, it's whether you need guided structure or community energy.</p>
 </div>
 
-<img src="assets/blog/iquanta-vs-rodha-compare.png" alt="iQuanta vs Rodha at a glance comparison table" loading="lazy">
+<h2>What Rodha offers</h2>
+<p><a href="institute-rodha.html">Rodha</a> is positioned as a guided CAT preparation ecosystem for students who want concept depth, structured classes, improved mock support, mentoring and doubt resolution in one place, not a single-teacher channel. Its founder is a recognised CAT faculty, but the teaching bench around him includes KD Sir, who leads VARC, Quant and LRDI depth, along with Nikita Gupta and Brijesh Pandey, who add further verbal support. Rodha has also revamped its mock-test platform, adding full-length mocks, sectional tests, previous papers and analytics, an area where it was previously seen mainly as a teaching resource rather than a testing one.</p>
+<p>Beyond classes and mocks, Rodha runs "Rodha Buddy," a community doubt-solving platform it developed and manages, and "Rodha Panchayat," a more personal 1:1 mentoring route where students can connect directly with mentors. For working professionals, it offers special batches and recorded lectures so missed live classes don't create backlog. Together, these make Rodha a genuinely guided ecosystem rather than a founder-only teaching channel.</p>
 
 <h2>What iQuanta offers</h2>
-<p><a href="institute-iquanta.html">iQuanta</a> was founded in 2019 by Indrajeet Singh, who built the brand out of Facebook groups before it became a full course platform. Its flagship CAT 2026 product, "Full Course Pro," is itemised directly on its course page: Complete CAT Prep (live classes, application classes, assignments and recorded modules) at ₹30,000, a Complete Mock Test Series at ₹5,000, a CAT Crash Course at ₹15,000, an "IIM ABC" advanced practice batch at ₹10,000 and a 12-book set at ₹6,000, a combined value of ₹66,000, sold as a bundle for ₹49,999.</p>
-<p>The course structure runs foundation ("Essentials") recorded modules first, then live conceptual classes, then application classes, topic-wise assignments, daily practice, the IIM ABC advanced batch, mocks and a crash course, with round-the-clock doubt solving layered throughout. iQuanta names seven instructors on its site, several with self-reported CAT Quant percentiles in the 99.8 to 100 range: Rajkumar Jha, Kamal Lohia, Sajjan Barnwal, Amit Panchmatia and Nikhil Goyal among them, alongside Shabana for VARC. The brand claims "500+ CAT 2024 99-percentilers," up from a claimed 250+ the year before, and cites "40,000 IIM calls in 5 years" on its results page. Both figures are self-published, not third-party audited.</p>
+<p><a href="institute-iquanta.html">iQuanta</a> is built around community-led CAT preparation for aspirants who learn through active discussion, peer doubt-solving and high engagement. Its core strength is an active online community and discussion-led learning: students who enjoy group energy can use that engagement to stay consistent through a long preparation cycle. The trade-off is that community involvement can also distract from focused solving and mock review if it isn't paired with a disciplined weekly study plan.</p>
 
-<h2>What Rodha offers</h2>
-<p><a href="institute-rodha.html">Rodha</a> was started around 2017-18 by Ravi Prakash, who taught at TIME, Career Launcher and IMS in Delhi and Bangalore between 2012 and 2016 before building his own YouTube-first brand (over 1,400 videos across Quant, LRDI and VARC, by third-party count). The company is registered as Rodha Educational Solutions Pvt Ltd in Bangalore, and runs several parallel CAT 2026 batch variants (labelled R1 through R8 and beyond) rather than one single national batch, delivered through a Graphy-based learning platform.</p>
-<p>Course inclusions for the comprehensive batch, per its own product pages, run to 30 full-length "RCM" mocks plus 105 sectional tests with video solutions, 2,000+ Quant questions, 300+ LRDI sets, 400+ Reading Comprehension passages, physical study booklets, and bundled XAT/SNAP/NMAT prep valued separately at roughly ₹12,000. Where iQuanta spreads teaching across a named bench, Rodha is built around Ravi Prakash personally: he is the primary instructional face of the brand, reporting a 99.86 CAT percentile and a 194/200 Maths score on SSC CGL Mains, both self-stated. We could not find a clean, current headline price for the standard new-enrolment comprehensive batch on Rodha's own site during this research; a discounted returning-student price of ₹18,500 (without printed booklets) was the clearest figure found, and a single unverified anecdote put a full package closer to ₹30,000. Confirm the live price on rodha.co.in before enrolling.</p>
-
-<h2>Head-to-head comparison</h2>
+<h2>Quick verdict</h2>
 <table>
-<thead><tr><th>Factor</th><th>iQuanta</th><th>Rodha</th></tr></thead>
+<thead><tr><th>Requirement</th><th>Better fit</th><th>Why</th></tr></thead>
 <tbody>
-<tr><td>Founded</td><td>2019, by Indrajeet Singh</td><td>Circa 2017-18, by Ravi Prakash</td></tr>
-<tr><td>Format</td><td>Recorded foundation modules + live classes + application classes + crash course</td><td>Hybrid live + recorded, multiple parallel batch variants (R1-R8+)</td></tr>
-<tr><td>Flagship price</td><td>₹49,999 ("Full Course Pro" bundle, itemised on-site)</td><td>Not clearly published; ₹18,500 seen as a returning-student discount, not the new-enrolment price</td></tr>
-<tr><td>Mocks included</td><td>35 full mocks + 45 sectional + 10 OMET mocks</td><td>30 full "RCM" mocks + 105 sectional tests</td></tr>
-<tr><td>Faculty</td><td>7+ named instructors, several with self-reported 99.8-100 percentile Quant scores</td><td>Centred on founder Ravi Prakash (self-reported 99.86 percentile); no large named faculty roster found</td></tr>
-<tr><td>Community</td><td>~200,000-member WhatsApp community (self-reported)</td><td>~13,000-member Telegram channel</td></tr>
-<tr><td>Doubt support</td><td>24/7 doubt solving, average response under 8 minutes (self-reported)</td><td>Doubt support exists but response-time figures weren't published</td></tr>
-<tr><td>Independent reputation</td><td>Trustpilot 4/5 (28 reviews); no major negative Reddit threads surfaced</td><td>Polarised: loyal fanbase alongside specific complaints (class cancellations, doubt-response speed) in independent write-ups</td></tr>
+<tr><td>Guided concepts</td><td>Rodha</td><td>Better fit for students who need structured teaching.</td></tr>
+<tr><td>Community</td><td>iQuanta</td><td>Large peer interaction can help doubt flow and motivation.</td></tr>
+<tr><td>Mocks</td><td>Rodha has improved</td><td>Rodha's revamped mock platform narrows an earlier gap.</td></tr>
+<tr><td>Mentoring</td><td>Rodha</td><td>Rodha Panchayat adds 1:1 mentoring access.</td></tr>
 </tbody>
 </table>
 
-<h2>Pricing transparency: a real point of difference</h2>
-<p>This is the most concrete, checkable difference between the two. iQuanta's course page lays out exactly what you're paying for, item by item, before you commit. Rodha's pricing was genuinely difficult to pin down from its own site during this research; the numbers we found were either a loyalty discount or a single secondhand anecdote, not a clean published fee. That doesn't mean Rodha is more expensive or cheaper than iQuanta, it means you should ask for the exact current price in writing before paying either brand, and treat any number quoted to you as needing confirmation against what's actually shown on the checkout page you're buying from.</p>
+<h2>Section-wise CAT 2026 view</h2>
+<p>A serious comparison has to look at VARC, DILR and Quant separately, since a platform that's strong in one section may still leave a gap elsewhere.</p>
+<table>
+<thead><tr><th>CAT area</th><th>What matters</th><th>How to evaluate these options</th></tr></thead>
+<tbody>
+<tr><td>VARC</td><td>Reading discipline, RC accuracy, verbal reasoning, question selection</td><td>Rodha's VARC case is stronger now because of KD Sir, Nikita Gupta and Brijesh Pandey; compare other platforms by actual VARC faculty and practice depth.</td></tr>
+<tr><td>DILR</td><td>Set selection, structured thinking, puzzle stamina, review discipline</td><td>Check whether the platform teaches how to approach unfamiliar sets rather than only providing solved videos.</td></tr>
+<tr><td>Quant</td><td>Concept depth, formula application, speed and accuracy</td><td>Beginners should choose stronger teaching depth; repeaters may prioritise sectional tests and analytics.</td></tr>
+<tr><td>Mocks</td><td>Full-length tests, sectionals, previous papers, percentile benchmarking, analytics</td><td>A mock is only useful if the analysis helps identify missed easy questions, time traps and weak topics.</td></tr>
+</tbody>
+</table>
 
-<h2>One instructor vs a named bench</h2>
-<p>The deeper structural difference is who's actually teaching you. Rodha's whole value proposition rests on Ravi Prakash's personal teaching style, since he is both founder and lead instructor across the batches we reviewed. That's a real strength if you've watched his free YouTube content and specifically like how he explains things, and a real risk if you haven't, since you're committing to one person's pedagogy rather than sampling a range. iQuanta instead names a wider bench, each instructor with their own stated specialism and percentile claim, which spreads the teaching load but also means your experience depends more on which instructor is assigned to your batch or module.</p>
+<h2>Doubt support, mentoring and accountability</h2>
+<p>CAT preparation is long enough for motivation to fluctuate, which is why doubt support and mentoring matter as much as the syllabus itself. Rodha's support layer is built for this: Rodha Buddy gives students a managed community doubt platform, while Rodha Panchayat adds a more personal, mentor-led route. For working professionals specifically, special batches and recordings reduce the risk of falling behind after missed live classes. iQuanta's accountability instead comes from its community: peer discussion and doubt traffic within an active group, which works well for students who are motivated by group energy but requires more self-discipline to keep review, not just discussion, at the centre of the routine.</p>
 
-<h2>What we could and couldn't verify</h2>
-<p>Every percentile, topper-count and "students helped" figure cited by both iQuanta and Rodha in this article is self-published on the company's own website; neither brand's numbers were backed by a named external auditor in what we found (contrast this with, for example, IMS Learning Resources, which cites a CAT-2024 results figure validated by an outside chartered-accountancy firm). Independent reputation signals were thinner and more mixed for Rodha than for iQuanta: we found a Trustpilot rating for iQuanta (4/5 from 28 reviews) but no comparably sourced third-party rating for Rodha, and some independent write-ups on Rodha describe specific complaints (class cancellations, slower doubt resolution) alongside a genuinely loyal following. We're flagging this gap rather than picking a side: the honest read is that iQuanta currently has more independently checkable reputation data available than Rodha does.</p>
+<h2>Which students should choose which?</h2>
+<table>
+<thead><tr><th>Student profile</th><th>Suggested option</th><th>Reason</th></tr></thead>
+<tbody>
+<tr><td>Beginner</td><td>Rodha</td><td>Needs structured fundamentals and recordings.</td></tr>
+<tr><td>Community-driven learner</td><td>iQuanta</td><td>Peer discussion can be motivating.</td></tr>
+<tr><td>Working professional</td><td>Rodha</td><td>Batches plus recordings can reduce schedule friction.</td></tr>
+<tr><td>Gets distracted by large groups</td><td>Rodha</td><td>A guided platform may be calmer than a high-activity community.</td></tr>
+</tbody>
+</table>
+
+<h2>What we could verify, and what you should double-check</h2>
+<p>Course features, fees, batch timings, faculty, refund rules, mock counts and mentoring inclusions can change, so treat every detail above as a starting point rather than a locked-in fact. Both Rodha and iQuanta publish a similar broad fee band (roughly ₹8,000-₹40,000 for Rodha and ₹8,000-₹45,000 for iQuanta), so run a short evaluation before paying: check current fees, batch dates, recordings, mocks, sectionals and refund rules on the official course pages; watch a demo lecture or sample video; ask for a look at the mock-analysis dashboard; confirm how doubts are resolved and whether mentor access is included; and match the batch schedule against your actual routine. Avoid buying two or three complete courses at once, since finishing and reviewing one properly matters more than collecting resources.</p>
 
 <h2>Which one should you choose?</h2>
-<h3>Choose iQuanta if…</h3>
-<p>You want an itemised price you can see before you commit, a wider bench of named instructors to learn from, and you value having a large peer community and a stated round-the-clock doubt-resolution promise.</p>
 <h3>Choose Rodha if…</h3>
-<p>You've already watched a meaningful amount of Ravi Prakash's free YouTube content, you like his specific teaching style, and you'd rather have one consistent instructor across your prep than a rotating bench, with the caveat that you should get the current price confirmed in writing first.</p>
+<p>You want a more guided system that has worked on mocks, VARC depth, doubt resolution and mentoring, especially if you're a beginner, a working professional, or someone who finds large groups distracting.</p>
+<h3>Choose iQuanta if…</h3>
+<p>Your preparation improves through an active online community and peer discussion, and you're disciplined enough to keep solving and mock review at the centre of your routine rather than letting community activity replace it.</p>
 <h3>Do this regardless of which you pick</h3>
-<p>Ask for the exact current fee in writing, ask how many of the mocks are genuinely full-length CAT-difficulty rather than easier warm-up tests, and ask what happens if you're unhappy a few weeks in, since refund and pause policies vary and are rarely advertised upfront.</p>
+<p>Verify the current fee, batch dates, faculty, recordings, mocks, sectionals, previous papers, analytics, doubt support, mentoring access, refund policy and course validity directly on the official website before enrolling, since these details change over time.</p>
 
 <p>Both brands are single entries in a much larger field of online CAT options. See how they stack up against other online-first coaches, or browse every institute we've verified, on our <a href="coaching-online.html">online CAT/MBA coaching page</a>.</p>`
   },
