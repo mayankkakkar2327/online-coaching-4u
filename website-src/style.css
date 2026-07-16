@@ -326,9 +326,9 @@ body.nav-open .main-nav{display:flex}
 .star-input legend{width:100%;padding:0;font-size:.76rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-bottom:6px}
 .side-card:not(.light) .star-input legend{color:#8d94b8}
 .star-input input{position:absolute;opacity:0;width:1px;height:1px}
-.star-input label{font-size:1.9rem;line-height:1;color:var(--line);cursor:pointer;transition:.15s}
-.side-card:not(.light) .star-input label{color:rgba(255,255,255,.2)}
-.star-input input:checked~label,.star-input label:hover,.star-input label:hover~label{color:var(--gold)}
+.star-input label{font-size:1.9rem;line-height:1;color:var(--line)!important;cursor:pointer;transition:.15s}
+.side-card:not(.light) .star-input label{color:rgba(255,255,255,.2)!important}
+.star-input input:checked~label,.star-input label:hover,.star-input label:hover~label{color:var(--gold)!important}
 .star-input input:focus-visible+label{outline:2px solid var(--brand);border-radius:4px}
 
 /* ---------- prose / static ---------- */
