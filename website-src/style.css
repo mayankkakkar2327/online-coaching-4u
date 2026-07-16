@@ -143,7 +143,6 @@ body.nav-open .main-nav{display:flex}
 .card-cta{color:var(--brand-deep);font-weight:600;font-size:.87rem}
 
 /* post cards */
-.post-card{border-top:2px solid var(--navy);border-radius:0 0 24px 24px}
 .post-card h3{font-family:var(--serif);font-weight:600;font-size:1.25rem}
 
 /* card media (blog thumbnails + institute photos where used) — bleeds to the card's edges */
