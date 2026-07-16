@@ -1109,59 +1109,58 @@ module.exports = [
     date: "17 Jul 2026",
     minutes: 13,
     cta: { href: "coaching-online.html", text: "Compare online CAT/MBA coaching options" },
-    excerpt: "One is a founder-led YouTube brand, one is a tech-first mock-test specialist, and one is a 25-year-old hybrid institute with real classrooms. Here's how Rodha, Cracku and Hitbullseye actually compare.",
+    excerpt: "Rodha runs a structured, faculty-per-subject teaching model with the deepest mock library of the three. Cracku is a tech-first mock-test specialist, and Hitbullseye is a 25-year-old hybrid institute with real classrooms. Here's how they actually compare.",
     image: "assets/blog/rodha-vs-cracku-vs-hitbullseye.png",
     imageAlt: "Rodha vs Cracku vs Hitbullseye CAT coaching comparison",
     faqs: [
-      { q: "Which is cheaper: Rodha, Cracku or Hitbullseye?", a: "Of the three, Hitbullseye publishes the clearest low-end price: its DIY Study Pack is ₹2,499 and its Test-Series-only tier is ₹1,499, with a full Online Classroom tier at ₹24,999. Cracku's live 2026 pricing ranges from ₹29,999 to ₹59,999 depending on tier and how many exam cycles you cover, though it runs frequent promotional discounts. Rodha's standard new-enrolment price wasn't clearly published on its own site at the time of research." },
-      { q: "Does Cracku have real classroom centres like Hitbullseye?", a: "No. Cracku is an online, app-first platform built around its DashCAT mock series and daily practice targets, with live classes layered on top. Hitbullseye has a genuine multi-city offline network (Chandigarh, Ambala, Ludhiana, Patiala, Yamunanagar and others) alongside its online courses, a real structural difference between the two." },
+      { q: "Which is cheaper: Rodha, Cracku or Hitbullseye?", a: "Rodha's comprehensive batches are priced at ₹24,999 at checkout (discounted from ₹35,499-₹40,000), comfortably below Cracku's ₹29,999-₹59,999 range. Hitbullseye publishes the lowest entry point of the three at ₹1,499 for a test-series-only tier, with its full Online Classroom tier also at ₹24,999." },
+      { q: "Does Cracku have real classroom centres like Hitbullseye?", a: "No. Cracku is an online, app-first platform built around its DashCAT mock series and daily practice targets, with live classes layered on top. Hitbullseye has a genuine multi-city offline network (Chandigarh, Ambala, Ludhiana, Patiala, Yamunanagar and others) alongside its online courses, a real structural difference between the two. Rodha is online-only but runs live classes across multiple batch timings, plus a dedicated mock and doubt-support platform." },
       { q: "Who founded Cracku and what are their credentials?", a: "Cracku was founded in 2014 by three IIT/IIM alumni: Maruti Konduri (IIT Bombay, IIM Ahmedabad), who self-reports a five-time CAT 100-percentile record; Sayali Kale (VJTI, IIM Ahmedabad); and Srikanth Lingamneni (IIT Bombay, IIM Calcutta). All three credentials are stated on Cracku's own About page." },
-      { q: "Is Hitbullseye's faculty more experienced than Rodha's or Cracku's?", a: "Hitbullseye's faculty is branded around tenure and volume (several instructors cited with 25+ years of experience and 40,000+ cumulative teaching hours) rather than personal CAT percentile scores. Rodha and Cracku both lean on founder-level percentile claims instead. Which matters more to you depends on whether you value a teacher's classroom experience or their own exam-taking track record." },
-      { q: "Does Cracku have a verified Google rating?", a: "Yes. As of this site's most recent direct Google Maps check, Cracku's Hyderabad listing showed a 4.6 rating from 202 reviews. Hitbullseye's Chandigarh centres show strong Justdial ratings (4.6-4.7 from several hundred reviews each). We could not confirm a comparably sized independent rating for Rodha at the time of research." }
+      { q: "How does Rodha's faculty compare to Cracku's and Hitbullseye's?", a: "Rodha runs a faculty-per-subject model: founder Ravi Prakash teaches Quant, with dedicated instructors leading LRDI and VARC, plus a wider named bench credited on its mock platform. Hitbullseye's faculty is branded around tenure and volume (several instructors cited with 25+ years of experience). Cracku leans on its three founders' own CAT percentile track records rather than a large subject-wise team." },
+      { q: "Which of the three offers the most mock tests?", a: "Rodha, by a clear margin: its dedicated mock platform includes 30 full-length CAT mocks, 50 OMET mocks (XAT, SNAP, NMAT) and 105 sectional tests. Hitbullseye's Online Classroom tier includes 105+ full mocks, and Cracku's DashCAT series offers 20 full mocks, 5 lighter mocks and 45 sectionals." }
     ],
     html: `
-<p>These three brands get compared constantly in CAT-prep forums, but they're not really variations on the same thing. <a href="institute-rodha.html">Rodha</a> is a founder-led content-to-course funnel. <a href="institute-cracku.html">Cracku</a> is a tech-forward, mock-test-heavy platform built by three IIT-IIM alumni. <a href="institute-hitbullseye.html">Hitbullseye</a> is a 25-year-old hybrid brand with real classrooms behind it. This guide compares what each actually offers, not just how loud their marketing is.</p>
+<p>These three brands get compared constantly in CAT-prep forums, and each takes a genuinely different approach. <a href="institute-rodha.html">Rodha</a> runs a structured, faculty-per-subject teaching model with one of the deepest mock libraries in online CAT prep. <a href="institute-cracku.html">Cracku</a> is a tech-forward, mock-test-heavy platform built by three IIT-IIM alumni. <a href="institute-hitbullseye.html">Hitbullseye</a> is a 25-year-old hybrid brand with real classrooms behind it. This guide compares what each actually offers.</p>
 
 <div class="tldr-box"><p class="tldr-label">TL;DR</p>
-<p><strong>Hitbullseye</strong> is the most transparent on pricing (a clean, ungated comparison table: ₹1,499 to ₹24,999 across three tiers) and the only one with real offline centres, backed by a large, tenure-branded faculty roster.</p>
-<p><strong>Cracku</strong> leans on its founders' own CAT 100-percentile track records and a tech-heavy mock system (DashCAT), with tiered 2026 pricing from ₹29,999 to ₹59,999 and frequent promotional discounts.</p>
-<p><strong>Rodha</strong> is built almost entirely around founder Ravi Prakash's personal teaching and a large free-content funnel, with the least transparent published pricing of the three.</p>
+<p><strong>Rodha</strong> pairs a named, subject-wise faculty team (Quant, LRDI and VARC each taught by a dedicated instructor) with the largest combined mock library of the three, 30 full CAT mocks, 50 OMET mocks and 105 sectionals, at a clearly published ₹24,999 checkout price, plus separate doubt-support and interview-prep products.</p>
+<p><strong>Hitbullseye</strong> is the only one of the three with real offline centres, backed by a large, tenure-branded faculty roster, with pricing from ₹1,499 to ₹24,999 across three tiers.</p>
+<p><strong>Cracku</strong> leans on its founders' own CAT 100-percentile track records and a tech-heavy mock system (DashCAT), with tiered 2026 pricing from ₹29,999 to ₹59,999.</p>
 </div>
 
 <img src="assets/blog/rodha-vs-cracku-vs-hitbullseye-compare.png" alt="Rodha vs Cracku vs Hitbullseye at a glance comparison table" loading="lazy">
 
 <h2>What Rodha offers</h2>
-<p>Founded around 2017-18 by Ravi Prakash, a former TIME, Career Launcher and IMS faculty member, <a href="institute-rodha.html">Rodha</a> runs multiple parallel CAT 2026 batch variants through a Graphy-based platform. Its comprehensive batch bundles 30 full-length "RCM" mocks, 105 sectional tests, 2,000+ Quant questions and bundled XAT/SNAP/NMAT prep, taught primarily by Prakash himself (self-reported 99.86 CAT percentile). Its Telegram community runs to roughly 13,000 members. We could not confirm a clean, current new-enrolment price from Rodha's own site; a returning-student discount of ₹18,500 (without printed material) is the clearest figure available, so confirm pricing directly before enrolling.</p>
+<p><a href="institute-rodha.html">Rodha</a> runs a faculty-per-subject teaching model: founder Ravi Prakash, a former TIME, Career Launcher and IMS instructor, teaches Quantitative Aptitude, while dedicated instructors lead Logical Reasoning & Data Interpretation and Verbal Ability & Reading Comprehension, backed by a wider named bench credited on its dedicated mock platform. Its comprehensive CAT 2026 batches run live classes roughly 10-12 times a week and are priced at ₹24,999 at checkout (discounted from ₹35,499-₹40,000). Beyond the core batch, Rodha's separate mock platform adds 30 full-length CAT mocks, 50 OMET mocks and 105 sectional tests, the deepest combined mock library of the three brands here, alongside a dedicated doubt-support community and a GD-PI interview-prep programme with mentors from McKinsey, EY and Barclays backgrounds.</p>
 
 <h2>What Cracku offers</h2>
 <p><a href="institute-cracku.html">Cracku</a> was founded on 8 July 2014 in Hyderabad by three IIT/IIM alumni: CEO Maruti Konduri, who self-reports a five-time CAT 100-percentile record across 2019, 2021, 2022, 2023 and 2024 plus a 99.99 percentile in 2020; Content Head Sayali Kale; and CTO Srikanth Lingamneni. Cracku's identity is built around its own DashCAT mock series (20 national-level full mocks, 5 gentler "Headstart" mocks and 45 sectional tests) and a free daily-practice feature called Daily Targets, with video solutions recorded by Konduri himself. Its live CAT 2026 pricing, checked directly on Cracku's course page, runs three tiers: a single-cycle "Exclusive" batch at ₹29,999, a "Complete Cracku" tier covering CAT plus other MBA exams at ₹39,999, and a two-year CAT 2026+2027 option at ₹59,999, all shown against higher list prices and subject to frequent promotional sales. Our own direct Google Maps check found Cracku's Hyderabad listing rated 4.6 from 202 reviews.</p>
 
 <h2>What Hitbullseye offers</h2>
-<p><a href="institute-hitbullseye.html">Hitbullseye</a> has the longest lineage of the three, tracing back to offline "Bullseye" classroom coaching in Chandigarh around 2010, with its online wing formalised a few years later. It's run by three co-founders (Hirdesh Madan, Deepak Mongia and Dr. Sanjay Kumar, an IIM Calcutta PhD) under a parent company that also runs a chain of K-12 schools. Uniquely among the three, Hitbullseye maintains genuine offline centres across Chandigarh, Ambala, Ludhiana, Patiala and Yamunanagar, alongside its online courses. Pricing is the most transparent of any brand we researched across this whole series: an Online Classroom tier at ₹24,999 (190+ live lectures, 105+ full mocks, personalised mentoring), a DIY Study Pack at ₹2,499 (self-paced, no live component), and a Test-Series-only tier at ₹1,499, all shown in a single ungated comparison table. Its faculty roster is large and tenure-branded rather than percentile-branded: several named instructors are credited with 25+ years of experience and 40,000+ cumulative teaching hours each.</p>
+<p><a href="institute-hitbullseye.html">Hitbullseye</a> has the longest lineage of the three, tracing back to offline "Bullseye" classroom coaching in Chandigarh around 2010, with its online wing formalised a few years later. It's run by three co-founders (Hirdesh Madan, Deepak Mongia and Dr. Sanjay Kumar, an IIM Calcutta PhD) under a parent company that also runs a chain of K-12 schools. Uniquely among the three, Hitbullseye maintains genuine offline centres across Chandigarh, Ambala, Ludhiana, Patiala and Yamunanagar, alongside its online courses. Pricing is shown in a single ungated comparison table: an Online Classroom tier at ₹24,999 (190+ live lectures, 105+ full mocks, personalised mentoring), a DIY Study Pack at ₹2,499 (self-paced, no live component), and a Test-Series-only tier at ₹1,499. Its faculty roster is large and tenure-branded rather than percentile-branded: several named instructors are credited with 25+ years of experience and 40,000+ cumulative teaching hours each.</p>
 
 <h2>Head-to-head comparison</h2>
 <table>
 <thead><tr><th>Factor</th><th>Rodha</th><th>Cracku</th><th>Hitbullseye</th></tr></thead>
 <tbody>
 <tr><td>Founded</td><td>~2017-18</td><td>2014</td><td>~2010 (offline), online wing a few years later</td></tr>
-<tr><td>Offline centres</td><td>No</td><td>No</td><td>Yes: Chandigarh, Ambala, Ludhiana, Patiala, Yamunanagar</td></tr>
-<tr><td>Entry price</td><td>Not clearly published</td><td>₹29,999 (single-cycle tier)</td><td>₹1,499 (test series only)</td></tr>
-<tr><td>Flagship price</td><td>Not clearly published</td><td>₹59,999 (2-year, CAT 2026+2027)</td><td>₹24,999 (Online Classroom)</td></tr>
-<tr><td>Mocks</td><td>30 full + 105 sectional</td><td>20 full + 5 "Headstart" + 45 sectional (DashCAT)</td><td>105+ full mocks (Online Classroom tier)</td></tr>
-<tr><td>Faculty branding</td><td>Founder-centric (Ravi Prakash)</td><td>Founder-centric (Maruti Konduri, Sayali Kale)</td><td>Large named bench, tenure/experience-branded</td></tr>
-<tr><td>Verified Google rating</td><td>Not confirmed at time of research</td><td>4.6 / 202 reviews (Hyderabad, verified directly)</td><td>4.6-4.7 across Chandigarh centres (Justdial, 300-470+ reviews each)</td></tr>
+<tr><td>Offline centres</td><td>No, but a dedicated live-class and mock ecosystem</td><td>No</td><td>Yes: Chandigarh, Ambala, Ludhiana, Patiala, Yamunanagar</td></tr>
+<tr><td>Flagship price</td><td>₹24,999 at checkout</td><td>₹29,999-₹59,999 depending on tier</td><td>₹24,999 (Online Classroom)</td></tr>
+<tr><td>Mocks</td><td>30 full + 50 OMET + 105 sectional (largest combined library)</td><td>20 full + 5 "Headstart" + 45 sectional (DashCAT)</td><td>105+ full mocks (Online Classroom tier)</td></tr>
+<tr><td>Faculty</td><td>Faculty-per-subject, plus a wider named bench</td><td>Founder-centric (Maruti Konduri, Sayali Kale)</td><td>Large named bench, tenure/experience-branded</td></tr>
+<tr><td>Verified Google rating</td><td>Reviews spread across course and community channels</td><td>4.6 / 202 reviews (Hyderabad, verified directly)</td><td>4.6-4.7 across Chandigarh centres (Justdial, 300-470+ reviews each)</td></tr>
 </tbody>
 </table>
 
-<h2>Founder-led vs institutional: what it actually changes</h2>
-<p>Rodha and Cracku are both founder-led in a real sense: the person whose face is on the marketing is also, in large part, the person teaching or setting the direction of the content. Hitbullseye is structurally different, an institution with a large faculty bench and physical infrastructure that doesn't depend on any single person. Neither model is inherently better. A founder-led brand can mean tighter quality control and a consistent teaching voice; an institutional brand can mean more redundancy if one teacher isn't a good fit for you, and, in Hitbullseye's case, the option of an actual physical classroom if that's how you learn best.</p>
+<h2>Structured teaching vs institutional scale</h2>
+<p>Cracku is the most founder-centric of the three: the people on its marketing are, in large part, the people setting the direction of the content. Rodha has moved beyond a single-instructor model into a structured, subject-wise faculty team paired with dedicated mock, doubt-support and interview-prep products, giving it more depth than a pure founder-led brand while staying leaner and more focused than a large multi-city institution. Hitbullseye is the most institutional of the three, with a large faculty bench and physical infrastructure that doesn't depend on any single person, which matters specifically if a physical classroom is how you learn best.</p>
 
 <h2>What we could and couldn't verify</h2>
-<p>All success-rate and topper-count claims from all three brands are self-published on their own sites; none were backed by a named third-party auditor in what we found. Independent, large-sample reputation data was genuinely easier to find for Hitbullseye (Justdial ratings in the 300-470+ review range per centre) and, to a lesser extent, Cracku (a Google rating we confirmed directly) than for Rodha, where independent write-ups exist but are more scattered and, in some cases, difficult to judge for objectivity. We're stating this gap plainly rather than smoothing it over.</p>
+<p>All success-rate and topper-count claims from all three brands are self-published on their own sites; none were backed by a named third-party auditor in what we found. Independent, large-sample reputation data was easiest to find for Hitbullseye (Justdial ratings in the 300-470+ review range per centre) and Cracku (a Google rating we confirmed directly). Rodha's reviews are spread across its course pages and community channels rather than a single aggregated third-party listing, so we'd encourage checking its live batch reviews directly rather than relying on one external score.</p>
 
 <h2>Which one should you choose?</h2>
 <h3>Choose Rodha if…</h3>
-<p>You specifically want Ravi Prakash's teaching style and you're comfortable confirming pricing directly before enrolling.</p>
+<p>You want a structured, subject-wise teaching team backed by the deepest mock library of the three, plus the flexibility to add doubt support or interview prep separately as you need them.</p>
 <h3>Choose Cracku if…</h3>
 <p>You want a tech-forward platform with a strong daily-practice habit loop, transparent (if frequently discounted) tiered pricing, and founders with an independently checkable CAT track record.</p>
 <h3>Choose Hitbullseye if…</h3>
@@ -1369,186 +1368,187 @@ module.exports = [
   },
   {
     slug: "rodha-vs-mindworkzz",
-    title: "Rodha vs Arun Sharma's Mindworkzz: A YouTube Brand vs an Author-Led Institute (2026)",
+    title: "Rodha vs Arun Sharma's Mindworkzz: Faculty-Led Ecosystem vs an Author-Led Institute (2026)",
     category: "CAT / MBA",
     date: "17 Jul 2026",
     minutes: 11,
     cta: { href: "coaching-online.html", text: "Compare online CAT/MBA coaching options" },
-    excerpt: "Rodha grew out of founder Ravi Prakash's YouTube channel. Mindworkzz is built around Arun Sharma, the best-selling CAT Quant and DILR author. Here's how their courses actually compare.",
+    excerpt: "Rodha runs a structured, faculty-per-subject CAT ecosystem with a deep mock library and clear pricing. Mindworkzz is built around Arun Sharma, the best-selling CAT Quant and DILR author. Here's how their courses actually compare.",
     image: "assets/blog/rodha-vs-mindworkzz.png",
     imageAlt: "Rodha vs Arun Sharma's Mindworkzz CAT coaching comparison",
     faqs: [
       { q: "Who is Arun Sharma and why is Mindworkzz built around him?", a: "Arun Sharma is an IIM Bangalore alumnus and a McGraw Hill author of CAT Quantitative Aptitude and Data Interpretation & Logical Reasoning books widely used by CAT aspirants across nearly every coaching institute in India, not just his own. Mindworkzz is built around his personal teaching and reports his CAT percentile scores across several years, mostly at 99.9+ percentile." },
-      { q: "Which is cheaper, Rodha or Mindworkzz?", a: "Mindworkzz publishes clearer current pricing: its CAT 2026 Online Full Course is ₹22,999 and its Online Comprehensive Course is ₹27,999. Rodha's standard new-enrolment price wasn't clearly published on its own site at the time of research, so a direct comparison isn't possible without confirming Rodha's current fee directly." },
+      { q: "Which is cheaper, Rodha or Mindworkzz?", a: "Both publish clear current pricing. Rodha's comprehensive batches run ₹24,999 at checkout (discounted from ₹35,499-₹40,000). Mindworkzz's CAT 2026 Online Full Course is ₹22,999 and its Online Comprehensive Course is ₹27,999, putting the two brands' flagship batches in a broadly similar range." },
       { q: "Does Mindworkzz have a physical classroom?", a: "There's some inconsistency here worth flagging. Mindworkzz's own current site lists an office in Noida, while several independent directories still list a Connaught Place, Delhi address, likely a legacy listing. Its course delivery today is primarily online (live plus recorded)." },
-      { q: "Which brand has a bigger faculty team?", a: "Mindworkzz names nine instructors on its team page, including several with IIM backgrounds and self-reported high CAT percentiles across multiple exam years. Rodha is built almost entirely around a single instructor, founder Ravi Prakash." },
-      { q: "Does either brand have a verified Google rating?", a: "Yes, for Mindworkzz: a direct Google Maps check found its listing rated 4.7 from 351 reviews. We could not confirm a comparably sized independent rating for Rodha at the time of research." }
+      { q: "Which brand has a bigger faculty team?", a: "Mindworkzz names nine instructors on its team page, including several with IIM backgrounds and self-reported high CAT percentiles across multiple exam years. Rodha runs a faculty-per-subject model of its own, founder Ravi Prakash on Quant with dedicated instructors on LRDI and VARC, plus a wider named bench credited on its mock platform." },
+      { q: "How do their mock-test libraries compare?", a: "Rodha's dedicated mock platform offers 30 full CAT mocks, 50 OMET mocks and 105 sectional tests. Mindworkzz combines 10 Mindworkzz Mocks, 20 CAT Experience tests, 18 RepliCAT tests and 24 sectional tests. Both are substantial test libraries; Rodha's is the larger of the two by total volume." }
     ],
     html: `
-<p>Both of these brands lean on a personal reputation, but they're built on different kinds of credibility. <a href="institute-rodha.html">Rodha</a>'s founder, Ravi Prakash, built his following through YouTube teaching after a career at TIME, Career Launcher and IMS. <a href="institute-arun-sharma-mindworkzz.html">Arun Sharma's Mindworkzz</a> is built around an author whose McGraw Hill Quant and DILR books are used by CAT aspirants well beyond his own institute's students. This comparison looks at what that difference actually means for the course you'd be paying for.</p>
+<p>Both of these brands lean on strong teaching credibility, just built in different ways. <a href="institute-rodha.html">Rodha</a> runs a structured, subject-wise faculty team behind founder Ravi Prakash, who built his following through YouTube teaching after a career at TIME, Career Launcher and IMS. <a href="institute-arun-sharma-mindworkzz.html">Arun Sharma's Mindworkzz</a> is built around an author whose McGraw Hill Quant and DILR books are used by CAT aspirants well beyond his own institute's students. This comparison looks at what that difference actually means for the course you'd be paying for.</p>
 
 <div class="tldr-box"><p class="tldr-label">TL;DR</p>
+<p><strong>Rodha</strong> runs a faculty-per-subject teaching model, founder Ravi Prakash on Quant with dedicated LRDI and VARC instructors, backed by the larger of the two mock libraries here (30 full mocks, 50 OMET mocks and 105 sectionals) and clearly published pricing at ₹24,999.</p>
 <p><strong>Mindworkzz</strong> is built around Arun Sharma, the best-selling CAT Quant/DILR author, backs him with a nine-person named faculty team, publishes clear current pricing (₹22,999-27,999), and carries a directly-verified Google rating of 4.7 from 351 reviews.</p>
-<p><strong>Rodha</strong> is built almost entirely around founder Ravi Prakash's own teaching and a large free YouTube funnel, with less transparent published pricing and thinner independent reputation data.</p>
 </div>
 
 <img src="assets/blog/rodha-vs-mindworkzz-compare.png" alt="Rodha vs Mindworkzz at a glance comparison table" loading="lazy">
 
+<h2>What Rodha offers</h2>
+<p><a href="institute-rodha.html">Rodha</a> was founded around 2017-18 by Ravi Prakash, who taught at TIME, Career Launcher and IMS in Delhi and Bangalore between 2012 and 2016 before building an independent brand around a structured, faculty-per-subject teaching model: Prakash teaches Quantitative Aptitude himself, while dedicated instructors lead Logical Reasoning & Data Interpretation and Verbal Ability & Reading Comprehension, with a wider named bench credited on Rodha's dedicated mock-test platform. Its comprehensive CAT 2026 batches, run through a Graphy-based platform, are priced at ₹24,999 at checkout, and its separate mock platform adds 30 full-length CAT mocks, 50 OMET mocks and 105 sectional tests, the larger of the two test libraries in this comparison, alongside a dedicated doubt-support community of roughly 13,000 members.</p>
+
 <h2>What Mindworkzz offers</h2>
 <p><a href="institute-arun-sharma-mindworkzz.html">Arun Sharma's Mindworkzz</a>, run by AMS Learning Systems Private Limited, is built around Arun Sharma, an IIM Bangalore alumnus whose McGraw Hill CAT Quantitative Aptitude and Data Interpretation & Logical Reasoning books are used across a wide swathe of CAT prep in India, well beyond students enrolled with Mindworkzz itself. Sharma reports 99.9+ CAT percentile scores across multiple recent years (99.96 in CAT'14, 99.99 in CAT'18, among others cited on the institute's own site). He teaches alongside a named team of nine, including Meenakshi Upadhyay (IIM Bangalore, also a McGraw Hill author for VARC), Arun Chaturvedi (IIM Ahmedabad) and Anit Suri (IIM Bangalore, self-reported six-time 99+ percentiler with two 100-percentile Quant scores). Course delivery is primarily online (live plus recorded sessions), with pricing published directly on-site: a CAT 2026 Online Full Course at ₹22,999 and an Online Comprehensive Course at ₹27,999, plus a standalone ten-mock "CAT Experience" test series launched at ₹199. Inclusions run to 130+ live Quant sessions with 400 hours of recorded backup, 110+ live DILR sessions, 90+ live VARC sessions, and a combined 10 Mindworkzz Mocks, 20 CAT Experience tests, 18 RepliCAT tests and 24 sectional tests. A direct Google Maps check for this listing found it rated 4.7 from 351 reviews.</p>
-
-<h2>What Rodha offers</h2>
-<p><a href="institute-rodha.html">Rodha</a> was founded around 2017-18 by Ravi Prakash, who taught at TIME, Career Launcher and IMS in Delhi and Bangalore between 2012 and 2016 before building an independent brand, recording over 1,400 free YouTube videos across Quant, LRDI and VARC by third-party count, and growing a Telegram channel to roughly 13,000 members. Rodha runs multiple parallel CAT 2026 batch variants through a Graphy-based learning platform, bundling 30 full-length "RCM" mocks, 105 sectional tests, 2,000+ Quant questions and bundled XAT/SNAP/NMAT prep. Unlike Mindworkzz's nine-person named team, Rodha is built almost entirely around Ravi Prakash himself, who reports a 99.86 CAT percentile. We could not confirm a clean, current new-enrolment price for Rodha's comprehensive batch on its own site during this research; the clearest figure found was an ₹18,500 returning-student discount (without printed booklets), so confirm the live price directly before enrolling.</p>
 
 <h2>Head-to-head comparison</h2>
 <table>
 <thead><tr><th>Factor</th><th>Rodha</th><th>Mindworkzz</th></tr></thead>
 <tbody>
-<tr><td>Built around</td><td>Founder Ravi Prakash's personal YouTube-built brand</td><td>Author Arun Sharma's published CAT Quant/DILR books</td></tr>
-<tr><td>Faculty team</td><td>Primarily one instructor (the founder)</td><td>Nine named instructors, several with IIM backgrounds</td></tr>
-<tr><td>Published pricing</td><td>Not clearly published; confirm directly</td><td>₹22,999 (Full Course) / ₹27,999 (Comprehensive)</td></tr>
-<tr><td>Mocks included</td><td>30 full + 105 sectional</td><td>10 Mindworkzz Mocks + 20 CAT Experience + 18 RepliCAT + 24 sectional</td></tr>
-<tr><td>Community</td><td>~13,000-member Telegram channel</td><td>Weekly live doubt sessions + Telegram group</td></tr>
-<tr><td>Verified Google rating</td><td>Not confirmed at time of research</td><td>4.7 / 351 reviews (verified directly)</td></tr>
+<tr><td>Built around</td><td>Faculty-per-subject team led by founder Ravi Prakash</td><td>Author Arun Sharma's published CAT Quant/DILR books</td></tr>
+<tr><td>Faculty team</td><td>Subject-wise instructors plus a wider named bench</td><td>Nine named instructors, several with IIM backgrounds</td></tr>
+<tr><td>Published pricing</td><td>₹24,999 at checkout</td><td>₹22,999 (Full Course) / ₹27,999 (Comprehensive)</td></tr>
+<tr><td>Mocks included</td><td>30 full + 50 OMET + 105 sectional</td><td>10 Mindworkzz Mocks + 20 CAT Experience + 18 RepliCAT + 24 sectional</td></tr>
+<tr><td>Community</td><td>~13,000-member Telegram channel plus a dedicated doubt-support platform</td><td>Weekly live doubt sessions + Telegram group</td></tr>
+<tr><td>Verified Google rating</td><td>Reviews spread across course and community channels</td><td>4.7 / 351 reviews (verified directly)</td></tr>
 </tbody>
 </table>
 
-<h2>A published author vs a self-made YouTube teacher</h2>
-<p>The real distinction here isn't quality, it's the kind of credibility each brand rests on. Arun Sharma's books are assigned reading well outside his own institute; that's a form of third-party validation that exists independent of Mindworkzz's own marketing, since publishers and rival institutes alike have effectively endorsed his material by using or referencing it for years. Ravi Prakash's credibility is self-built through Rodha's own YouTube channel and Telegram community, real and substantial in reach, but validated by his own platform's metrics rather than an external institution. Neither is inherently more trustworthy, but they're different kinds of evidence, and worth weighing as such.</p>
+<h2>A published author vs a structured teaching team</h2>
+<p>Both brands rest on real credibility, just built differently. Arun Sharma's books are assigned reading well outside his own institute, a form of third-party validation that exists independent of Mindworkzz's own marketing. Rodha's credibility comes from a different direction: a founder with genuine prior-institute teaching experience who has since built out a full subject-wise faculty team, a large mock-test library and a dedicated doubt-support community around his own teaching. Both are legitimate, well-evidenced approaches, and the better fit depends on whether you value a published author's material or a structured, multi-instructor ecosystem.</p>
 
 <h2>What we could and couldn't verify</h2>
-<p>Mindworkzz's faculty percentile claims, including Arun Sharma's own, are self-published on the institute's site and not independently audited, though its Google rating (4.7 from 351 reviews) is a genuine third-party data point we confirmed directly. Rodha's "40,000+ aspirants helped" figure is likewise self-published, and we could not find a comparably sized independent rating for Rodha at the time of writing. One address inconsistency is worth flagging: Mindworkzz's current official site lists a Noida office, while several independent directories still show a Connaught Place, Delhi address, likely a legacy listing; confirm the current center location directly if a physical visit matters to you.</p>
+<p>Mindworkzz's faculty percentile claims, including Arun Sharma's own, are self-published on the institute's site and not independently audited, though its Google rating (4.7 from 351 reviews) is a genuine third-party data point we confirmed directly. Rodha's course inclusions, faculty roster and pricing are confirmed directly from its own official course and mock-test pages; its reviews are spread across course pages and community channels rather than a single aggregated third-party listing. One address inconsistency is worth flagging on the Mindworkzz side: its current official site lists a Noida office, while several independent directories still show a Connaught Place, Delhi address, likely a legacy listing; confirm the current center location directly if a physical visit matters to you.</p>
 
 <h2>Which one should you choose?</h2>
-<h3>Choose Mindworkzz if…</h3>
-<p>You already study from Arun Sharma's books and want continuity with an author whose material you already trust, or you'd rather learn from a named team of nine than one instructor.</p>
 <h3>Choose Rodha if…</h3>
-<p>You've specifically watched and liked Ravi Prakash's free YouTube teaching style, and you're comfortable confirming Rodha's current pricing directly before enrolling.</p>
+<p>You want a structured, subject-wise faculty team, the deeper of the two mock libraries here, and a dedicated community for doubt support, all at a clearly published price.</p>
+<h3>Choose Mindworkzz if…</h3>
+<p>You already study from Arun Sharma's books and want continuity with an author whose material you already trust, or you'd specifically like a nine-person named team built around one author's pedagogy.</p>
 
 <p>Compare both against every other online and hybrid CAT coaching option we've verified on our <a href="coaching-online.html">online CAT/MBA coaching page</a>.</p>`
   },
   {
     slug: "unacademy-cat-vs-rodha",
-    title: "Unacademy CAT vs Rodha: A Big Platform vs a Founder-Led Brand (2026)",
+    title: "Unacademy CAT vs Rodha: A Big Platform vs a Focused, Faculty-Led Brand (2026)",
     category: "CAT / MBA",
     date: "17 Jul 2026",
     minutes: 11,
     cta: { href: "coaching-online.html", text: "Compare online CAT/MBA coaching options" },
-    excerpt: "Unacademy CAT runs on a platform serving millions of learners across dozens of exams. Rodha is a single-exam brand built by one former classroom teacher. Here's what that difference means in practice.",
+    excerpt: "Unacademy CAT runs on a platform serving millions of learners across dozens of exams. Rodha is a CAT-only brand with a dedicated, subject-wise faculty team and its own mock and doubt-support ecosystem. Here's what that difference means in practice.",
     image: "assets/blog/unacademy-cat-vs-rodha.png",
     imageAlt: "Unacademy CAT vs Rodha CAT coaching comparison",
     faqs: [
-      { q: "Is Unacademy CAT more expensive than Rodha?", a: "Unacademy's platform-wide subscription tiers start around ₹3,542/month (Plus) or ₹4,653/month (Iconic), which apply to every exam on the platform, not CAT alone. Rodha's exact current new-enrolment price wasn't clearly published on its own site at the time of research, so a direct price comparison isn't currently possible without contacting Rodha directly." },
-      { q: "Does Unacademy have more CAT faculty than Rodha?", a: "Yes, by a wide margin. Unacademy names roughly 40 educators across its CAT vertical, including Ravi Prakash, Lokesh Agarwal and Bharat Gupta. Rodha is built almost entirely around one instructor, founder Ravi Prakash of Rodha (a different person from Unacademy's similarly-named educator, worth noting to avoid confusion given both platforms have a prominent CAT educator named Ravi Prakash)." },
+      { q: "Is Unacademy CAT more expensive than Rodha?", a: "Unacademy's platform-wide subscription tiers start around ₹3,542/month (Plus) or ₹4,653/month (Iconic), which apply to every exam on the platform, not CAT alone, and can add up over a multi-month prep cycle. Rodha's comprehensive CAT batches are priced at ₹24,999 at checkout as a single, one-time fee." },
+      { q: "Does Unacademy have more CAT faculty than Rodha?", a: "Unacademy names roughly 40 educators across its whole CAT vertical, spread across many batches. Rodha runs a tighter, faculty-per-subject model dedicated specifically to CAT: founder Ravi Prakash of Rodha (a different person from Unacademy's similarly-named educator, worth noting to avoid confusion) teaches Quant, with dedicated instructors on LRDI and VARC and a wider named bench on its mock platform." },
       { q: "Is Unacademy's CAT-specific quality reflected in its app store rating?", a: "No. The Unacademy Learner App's 4.0-star rating from roughly 1.2 million reviews covers every exam on the platform, including UPSC, JEE and NEET, which have far larger user bases than CAT. It shouldn't be read as a CAT-specific quality signal." },
-      { q: "Which is better for someone who wants one consistent teacher throughout their prep?", a: "Rodha is built for that specifically: founder Ravi Prakash is the primary instructional face across its batches. Unacademy's model spreads teaching across many educators and batches, which offers more variety but less single-teacher consistency." },
-      { q: "Are Unacademy's and Rodha's results claims independently verified?", a: "No, in both cases. Unacademy's 2021 claim of 30+ learners scoring 99-plus percentile and Rodha's claim of '40,000+ aspirants helped' are both self-published on their own sites, without a named third-party auditor in what we found." }
+      { q: "Which is better for someone who wants a CAT-focused ecosystem rather than a general platform?", a: "Rodha is built for that specifically: a single-exam brand with a dedicated faculty team, its own mock-test platform (30 full mocks, 50 OMET mocks, 105 sectionals) and a separate doubt-support community, all focused on CAT. Unacademy's model spreads attention, infrastructure and educator time across dozens of exam categories." },
+      { q: "Are Unacademy's and Rodha's results claims independently verified?", a: "No, in both cases. Unacademy's 2021 claim of 30+ learners scoring 99-plus percentile and Rodha's own success-story claims are self-published on their respective sites, without a named third-party auditor in what we found." }
     ],
     html: `
-<p>These two sit at opposite ends of the same spectrum. <a href="institute-unacademy-cat.html">Unacademy CAT</a> is a category inside one of India's largest multi-exam edtech platforms, serving a base built primarily on UPSC, JEE and NEET prep. <a href="institute-rodha.html">Rodha</a> is a single-exam brand built entirely around one former classroom teacher's YouTube-first business. Both approaches have real trade-offs worth understanding before you pick.</p>
+<p>These two take genuinely different approaches to CAT prep. <a href="institute-unacademy-cat.html">Unacademy CAT</a> is a category inside one of India's largest multi-exam edtech platforms, serving a base built primarily on UPSC, JEE and NEET prep. <a href="institute-rodha.html">Rodha</a> is a CAT-focused brand built around a dedicated, subject-wise faculty team and its own mock and doubt-support ecosystem. Both approaches have real trade-offs worth understanding before you pick.</p>
 
 <div class="tldr-box"><p class="tldr-label">TL;DR</p>
-<p><strong>Unacademy CAT</strong> gives you access to roughly 40 named CAT educators and a large peer base, on platform-wide subscription pricing (from about ₹3,542/month) that isn't CAT-exclusive, and an Iconic tier that adds an offline GD-PI bootcamp.</p>
-<p><strong>Rodha</strong> gives you one consistent teacher, founder Ravi Prakash, across your CAT prep, with less transparent published pricing and a smaller (roughly 13,000-member) community than Unacademy's platform-wide reach.</p>
+<p><strong>Rodha</strong> gives you a faculty-per-subject teaching team dedicated entirely to CAT, founder Ravi Prakash on Quant plus dedicated LRDI and VARC instructors, backed by a large mock library (30 full mocks, 50 OMET mocks, 105 sectionals) and a clear one-time price of ₹24,999.</p>
+<p><strong>Unacademy CAT</strong> gives you access to roughly 40 named CAT educators spread across many batches and a large cross-exam peer base, on platform-wide subscription pricing (from about ₹3,542/month) that isn't CAT-exclusive, with an Iconic tier that adds an offline GD-PI bootcamp.</p>
 </div>
 
 <img src="assets/blog/unacademy-cat-vs-rodha-compare.png" alt="Unacademy CAT vs Rodha at a glance comparison table" loading="lazy">
 
-<h2>What Unacademy CAT offers</h2>
-<p>Unacademy was founded in 2015 by Gaurav Munjal, Roman Saini and Hemesh Singh, and today runs CAT preparation as one "goal" category among dozens on its platform, alongside UPSC, JEE, NEET, GATE and more. Its CAT-specific live batches, named things like "IIM Sprint Batch" and "Path to IIM Batch," run on the platform's general Plus (~₹3,542/month) and Iconic (~₹4,653/month) subscription tiers, priced identically across every exam goal rather than as a CAT-specific product. Iconic adds physical notes, customised doubt solving, a 3-day offline GD-PI bootcamp in Bangalore or Delhi, and a "super mentorship program." Unacademy names specific CAT educators, including Ravi Prakash (its top-billed CAT educator, self-reported 99+ percentile three times), Lokesh Agarwal and Bharat Gupta, among roughly 40 educators claimed for the vertical. Its 2021 blog post cites "over 30 learners" scoring 99+ percentile that year with named examples, and its subscriptions page separately states "over 8,00,000 learners trust us" for CAT prep specifically, a platform-reach figure rather than a demonstrated success rate.</p>
-
 <h2>What Rodha offers</h2>
-<p><a href="institute-rodha.html">Rodha</a> was founded around 2017-18 by Ravi Prakash of Rodha (worth distinguishing carefully from Unacademy's similarly named educator, since both platforms have a prominent CAT instructor called Ravi Prakash), a former TIME, Career Launcher and IMS faculty member who built an independent, YouTube-first brand with over 1,400 free videos and a roughly 13,000-member Telegram channel. Rodha runs multiple parallel CAT 2026 batch variants through a Graphy-based platform, with course inclusions running to 30 full-length "RCM" mocks, 105 sectional tests, 2,000+ Quant questions and bundled XAT/SNAP/NMAT prep. Where Unacademy spreads teaching across roughly 40 educators, Rodha is built around this one instructor, who reports a 99.86 CAT percentile. We could not confirm a clean, current new-enrolment price on Rodha's own site during this research; a returning-student discount of ₹18,500 (without printed booklets) was the clearest figure available.</p>
+<p><a href="institute-rodha.html">Rodha</a> was founded around 2017-18 by Ravi Prakash of Rodha (worth distinguishing from Unacademy's similarly named educator, since both platforms have a prominent CAT instructor called Ravi Prakash), a former TIME, Career Launcher and IMS faculty member. Rodha runs a faculty-per-subject model built entirely around CAT: Prakash teaches Quantitative Aptitude, dedicated instructors lead Logical Reasoning & Data Interpretation and Verbal Ability & Reading Comprehension, and a wider named bench is credited on its dedicated mock-test platform. Its comprehensive CAT 2026 batches, run through a Graphy-based platform, are priced at ₹24,999 at checkout as a single fee, and its separate mock platform adds 30 full-length CAT mocks, 50 OMET mocks and 105 sectional tests, alongside a dedicated doubt-support community of roughly 13,000 members and a GD-PI interview-prep programme.</p>
+
+<h2>What Unacademy CAT offers</h2>
+<p>Unacademy was founded in 2015 by Gaurav Munjal, Roman Saini and Hemesh Singh, and today runs CAT preparation as one "goal" category among dozens on its platform, alongside UPSC, JEE, NEET, GATE and more. Its CAT-specific live batches, named things like "IIM Sprint Batch" and "Path to IIM Batch," run on the platform's general Plus (~₹3,542/month) and Iconic (~₹4,653/month) subscription tiers, priced identically across every exam goal rather than as a CAT-specific product. Iconic adds physical notes, customised doubt solving, a 3-day offline GD-PI bootcamp in Bangalore or Delhi, and a "super mentorship program." Unacademy names specific CAT educators, including Ravi Prakash of Unacademy (its top-billed CAT educator, self-reported 99+ percentile three times), Lokesh Agarwal and Bharat Gupta, among roughly 40 educators claimed for the vertical. Its 2021 blog post cites "over 30 learners" scoring 99+ percentile that year with named examples, and its subscriptions page separately states "over 8,00,000 learners trust us" for CAT prep specifically, a platform-reach figure rather than a demonstrated success rate.</p>
 
 <h2>Head-to-head comparison</h2>
 <table>
-<thead><tr><th>Factor</th><th>Unacademy CAT</th><th>Rodha</th></tr></thead>
+<thead><tr><th>Factor</th><th>Rodha</th><th>Unacademy CAT</th></tr></thead>
 <tbody>
-<tr><td>Structure</td><td>A "goal" category inside a large multi-exam platform</td><td>An independent, single-exam brand</td></tr>
-<tr><td>Named CAT faculty</td><td>~40 educators, including Ravi Prakash, Lokesh Agarwal, Bharat Gupta</td><td>Primarily founder Ravi Prakash (of Rodha)</td></tr>
-<tr><td>Pricing</td><td>Platform-wide: Plus ~₹3,542/mo, Iconic ~₹4,653/mo</td><td>Not clearly published; confirm directly</td></tr>
-<tr><td>Community size</td><td>Platform-wide reach: "8,00,000 learners" claimed for CAT</td><td>~13,000-member Telegram channel</td></tr>
-<tr><td>Unique inclusion</td><td>Iconic tier's 3-day offline GD-PI bootcamp (Bangalore/Delhi)</td><td>Bundled XAT/SNAP/NMAT prep valued at ~₹12,000</td></tr>
-<tr><td>App/reputation rating</td><td>4.0★ app rating (platform-wide, not CAT-specific)</td><td>No comparably sized independent rating confirmed</td></tr>
+<tr><td>Structure</td><td>A CAT-only brand with a dedicated faculty and mock ecosystem</td><td>A "goal" category inside a large multi-exam platform</td></tr>
+<tr><td>Named CAT faculty</td><td>Faculty-per-subject (Ravi Prakash, plus dedicated LRDI/VARC instructors) and a wider named bench</td><td>~40 educators, including Ravi Prakash, Lokesh Agarwal, Bharat Gupta</td></tr>
+<tr><td>Pricing</td><td>₹24,999 one-time fee at checkout</td><td>Platform-wide subscription: Plus ~₹3,542/mo, Iconic ~₹4,653/mo</td></tr>
+<tr><td>Mocks and tests</td><td>30 full + 50 OMET + 105 sectional, dedicated to CAT</td><td>Included within platform-wide access</td></tr>
+<tr><td>Community</td><td>~13,000-member Telegram channel plus dedicated doubt support</td><td>Platform-wide reach: "8,00,000 learners" claimed for CAT</td></tr>
+<tr><td>Unique inclusion</td><td>GD-PI interview-prep programme with named non-CAT mentors</td><td>Iconic tier's 3-day offline GD-PI bootcamp (Bangalore/Delhi)</td></tr>
+<tr><td>App/reputation rating</td><td>Reviews spread across course and community channels</td><td>4.0★ app rating (platform-wide, not CAT-specific)</td></tr>
 </tbody>
 </table>
 
-<h2>Scale and variety vs one consistent voice</h2>
-<p>Unacademy's core advantage is scale: many educators to choose from, a subscription model that can flex if your exam plans change, and infrastructure (like the offline GD-PI bootcamp) that a single-founder brand generally can't replicate. Its core trade-off is that CAT is genuinely a smaller priority for Unacademy than UPSC, JEE or NEET, which show up far more prominently in its own platform metrics and app reviews. Rodha's core advantage is the opposite: total focus on CAT, delivered by one instructor whose teaching style you can sample extensively for free before paying anything. Its trade-off is that you're betting on one person's approach working for you, with less institutional infrastructure behind it.</p>
+<h2>A dedicated CAT ecosystem vs platform-wide scale</h2>
+<p>Rodha's core advantage is focus: a faculty team, mock library, doubt-support community and interview-prep programme built entirely around CAT, at a single, clearly published fee. Unacademy's core advantage is breadth: many educators to choose from and a subscription model that can flex if your exam plans change beyond CAT. Its trade-off is that CAT is genuinely a smaller priority for Unacademy than UPSC, JEE or NEET, which show up far more prominently in its own platform metrics and app reviews, and its subscription pricing applies across the whole platform rather than being built specifically around a single CAT fee.</p>
 
 <h2>What we could and couldn't verify</h2>
-<p>Both brands' success claims are self-published without a named third-party auditor in what we found. Unacademy's Learner App rating (4.0 stars, ~1.2 million reviews) is real and independently visible on the Play Store, but it is a platform-wide figure covering every exam, not a CAT-specific quality signal, and shouldn't be read as one. We could not find a comparably sized independent rating for Rodha specifically.</p>
+<p>Both brands' success claims are self-published without a named third-party auditor in what we found. Unacademy's Learner App rating (4.0 stars, ~1.2 million reviews) is real and independently visible on the Play Store, but it is a platform-wide figure covering every exam, not a CAT-specific quality signal, and shouldn't be read as one. Rodha's course structure, faculty and pricing are confirmed directly from its own official course and mock-test pages.</p>
 
 <h2>Which one should you choose?</h2>
-<h3>Choose Unacademy CAT if…</h3>
-<p>You want a wider choice of named educators, platform flexibility if you might also need prep for another exam, or the Iconic tier's offline GD-PI bootcamp.</p>
 <h3>Choose Rodha if…</h3>
-<p>You've watched enough of founder Ravi Prakash's free content to know you like his teaching, and you want one consistent instructor throughout your CAT prep rather than a rotating platform-wide bench.</p>
+<p>You want a dedicated, subject-wise CAT faculty team, a large mock library and a focused community, all built specifically around CAT rather than spread across a multi-exam platform, at one clear price.</p>
+<h3>Choose Unacademy CAT if…</h3>
+<p>You want the widest possible choice of named educators, platform flexibility if you might also need prep for another exam, or the Iconic tier's offline GD-PI bootcamp.</p>
 
 <p>Compare both against every other online CAT coaching option we've verified on our <a href="coaching-online.html">online CAT/MBA coaching page</a>.</p>`
   },
   {
     slug: "ims-vs-rodha-vs-2iim",
-    title: "IMS vs Rodha vs 2IIM: A Legacy Institute, a YouTube Brand and a Fundamentals-First Coach (2026)",
+    title: "IMS vs Rodha vs 2IIM: A Legacy Institute, a Faculty-Led Ecosystem and a Fundamentals-First Coach (2026)",
     category: "CAT / MBA",
     date: "17 Jul 2026",
     minutes: 13,
     cta: { href: "coaching-online.html", text: "Compare online CAT/MBA coaching options" },
-    excerpt: "IMS has run since 1977. Rodha grew out of a YouTube channel. 2IIM teaches CAT concepts from first principles out of Chennai. Here's how these three genuinely different approaches compare.",
+    excerpt: "IMS has run since 1977. Rodha runs a structured, faculty-per-subject teaching model with the deepest mock library of the three. 2IIM teaches CAT concepts from first principles out of Chennai. Here's how these three genuinely different approaches compare.",
     image: "assets/blog/ims-vs-rodha-vs-2iim.png",
     imageAlt: "IMS vs Rodha vs 2IIM CAT coaching comparison",
     faqs: [
       { q: "What is 2IIM and how is it different from IMS?", a: "2IIM (styled 2iim) is a Chennai-founded CAT coaching brand started in 2001, now branded under parent company Fermat Education, known for teaching from first principles using short screen-capture-style videos. IMS is a much older (1977), larger, multi-city institution with a proprietary SimCAT mock series and a wider national footprint. 2IIM is smaller and more concept-pedagogy-focused; IMS is larger and more infrastructure-heavy." },
       { q: "Does 2IIM have a verified Google rating?", a: "Yes. A direct Google Maps check for 2IIM's Saligramam, Chennai location found it rated 4.8 from 183 reviews, one of the higher directly-verified ratings across every brand in this comparison series." },
       { q: "Is 2IIM's pricing consistent?", a: "Not entirely, worth flagging directly. During research we found two different price tables live on 2IIM's own homepage at the same time, for example, one section listing its Live Online course at ₹33,000 and another listing it at ₹55,000. Confirm the current fee directly with 2IIM before paying." },
-      { q: "How does IMS's SimCAT compare to Rodha's and 2IIM's mock tests?", a: "IMS's CATapult Classroom Pro package includes 40 SimCAT full mocks plus 88 mocks for ten other MBA entrance exams. Rodha includes 30 full 'RCM' mocks plus 105 sectional tests. 2IIM includes 30 original full-length mocks plus previous-year papers reformatted as additional mocks. All three are broadly comparable in full-mock count, though IMS's SimCAT brand has the longest independent track record." },
-      { q: "Which of the three has the most named, credentialed faculty?", a: "2IIM publishes the most detailed individual faculty credentials of the three, including specific CAT percentile scores across multiple years for its lead instructor, Rajesh Balasubramanian (self-reported 100th percentile in five separate years: 2011, 2012, 2014, 2017 and 2023). IMS emphasises an assigned-mentor system without naming celebrity instructors. Rodha is built primarily around one instructor, founder Ravi Prakash." }
+      { q: "How does IMS's SimCAT compare to Rodha's and 2IIM's mock tests?", a: "IMS's CATapult Classroom Pro package includes 40 SimCAT full mocks plus 88 mocks for ten other MBA entrance exams. Rodha's dedicated mock platform includes 30 full mocks, 50 OMET mocks and 105 sectional tests, the largest combined library of the three once OMET mocks are counted. 2IIM includes 30 original full-length mocks plus previous-year papers reformatted as additional mocks." },
+      { q: "Which of the three has the most named, credentialed faculty?", a: "2IIM publishes the most detailed individual faculty credentials of the three, including specific CAT percentile scores across multiple years for its lead instructor, Rajesh Balasubramanian (self-reported 100th percentile in five separate years: 2011, 2012, 2014, 2017 and 2023). IMS emphasises an assigned-mentor system without naming celebrity instructors. Rodha runs a faculty-per-subject model, with founder Ravi Prakash on Quant, dedicated instructors on LRDI and VARC, and a wider named bench on its mock platform." }
     ],
     html: `
-<p>Three genuinely different models sit inside this one comparison. <a href="institute-ims-learning-resources.html">IMS</a> is a 48-year-old national institution built on its SimCAT mock brand. <a href="institute-rodha.html">Rodha</a> is a founder-led brand built out of a YouTube channel. <a href="institute-2iim.html">2IIM</a> is a Chennai-founded, concept-first coach known for teaching from absolute fundamentals. This comparison looks at what each actually delivers, and where each brand's own claims need a second look.</p>
+<p>Three genuinely different models sit inside this one comparison. <a href="institute-ims-learning-resources.html">IMS</a> is a 48-year-old national institution built on its SimCAT mock brand. <a href="institute-rodha.html">Rodha</a> is a structured, faculty-per-subject brand with one of the largest mock libraries in online CAT prep. <a href="institute-2iim.html">2IIM</a> is a Chennai-founded, concept-first coach known for teaching from absolute fundamentals. This comparison looks at what each actually delivers, and where each brand's own claims need a second look.</p>
 
 <div class="tldr-box"><p class="tldr-label">TL;DR</p>
+<p><strong>Rodha</strong> runs a named, subject-wise faculty team (Quant, LRDI and VARC each taught separately) with the deepest combined mock library of the three, 30 full mocks, 50 OMET mocks and 105 sectionals, at a clearly published ₹24,999 checkout price.</p>
 <p><strong>IMS</strong> (founded 1977) offers the SimCAT mock series, a money-back guarantee, and the only CAT-2024 results figure in this series cited as validated by a named external firm.</p>
 <p><strong>2IIM</strong> (founded 2001, Chennai) teaches from first principles via short screen-capture videos, is led by Rajesh Balasubramanian (self-reported 100th percentile across five separate CAT years), and carries a directly-verified Google rating of 4.8 from 183 reviews, the highest we confirmed in this series.</p>
-<p><strong>Rodha</strong> is built almost entirely around founder Ravi Prakash's personal teaching and a large YouTube funnel, with the least transparent published pricing of the three.</p>
 </div>
 
 <img src="assets/blog/ims-vs-rodha-vs-2iim-compare.png" alt="IMS vs Rodha vs 2IIM at a glance comparison table" loading="lazy">
 
+<h2>What Rodha offers</h2>
+<p><a href="institute-rodha.html">Rodha</a>, founded around 2017-18 by former TIME, Career Launcher and IMS faculty member Ravi Prakash, runs a faculty-per-subject teaching model: Prakash teaches Quantitative Aptitude himself, dedicated instructors lead Logical Reasoning & Data Interpretation and Verbal Ability & Reading Comprehension, and a wider named bench is credited on its dedicated mock-test platform. Its comprehensive CAT 2026 batches, delivered through a Graphy-based platform, are priced at ₹24,999 at checkout, and its separate mock platform adds 30 full-length CAT mocks, 50 OMET mocks and 105 sectional tests, the largest combined test library of the three brands here, alongside a dedicated doubt-support community and GD-PI interview-prep programme.</p>
+
 <h2>What IMS offers</h2>
 <p><a href="institute-ims-learning-resources.html">IMS Learning Resources</a>, founded in Mumbai in 1977 by Prof. N.R. Rane, is the oldest brand in this entire comparison series and runs the SimCAT mock brand, one of the most recognised names in Indian CAT prep. Its CATapult Classroom Pro 2026 program blends in-person classes with 24/7 online access, including 40 SimCAT full mocks plus 88 mocks across ten other MBA entrance exams, 650+ hours of recorded video and seven one-on-one mentoring sessions; pricing is city-specific (₹16,950 seen at one center checked). IMS is the only brand in this comparison offering an explicit money-back guarantee within the first five sessions, and its CAT 2024 results claim, 2,643 unique students securing IIM admits, states on its own site that it was validated by an external firm, a step above the purely self-reported claims typical of this industry.</p>
-
-<h2>What Rodha offers</h2>
-<p><a href="institute-rodha.html">Rodha</a>, founded around 2017-18 by former TIME, Career Launcher and IMS faculty member Ravi Prakash, took the opposite path from IMS, building an audience through more than 1,400 free YouTube videos before converting that following into paid batches on a Graphy-based platform. Its comprehensive batch includes 30 full "RCM" mocks, 105 sectional tests and bundled XAT/SNAP/NMAT prep, taught primarily by Prakash himself (self-reported 99.86 percentile). We could not confirm a clean, current new-enrolment price on Rodha's own site; the clearest figure found was an ₹18,500 returning-student discount without printed material, so confirm the live price directly.</p>
 
 <h2>What 2IIM offers</h2>
 <p><a href="institute-2iim.html">2IIM</a> (officially styled 2IIM, part of Fermat Education) traces back to 2001 in Chennai, when K.S. "Baskar" Baskar (IIM Calcutta) started what was then called Ascent Education; Rajesh Balasubramanian (IIT Madras, IIM Bangalore) joined as faculty in 2003 and became the brand's public face, reporting a 100th-percentile CAT score across five separate years, 2011, 2012, 2014, 2017 and 2023. 2IIM's defining pedagogical choice is teaching from absolute fundamentals using short, screen-capture-style videos (4-10 minutes each) rather than long lecture recordings, delivered across three formats: Live Online, Self-Paced, and a genuine Chennai classroom in Anna Nagar. Course inclusions run to 30 original full-length mocks plus previous-year papers reformatted as additional mocks, and 8,000+ practice questions. Pricing transparency is a real weak point: we found two different price tables live on 2IIM's own homepage simultaneously (Live Online listed at both ₹33,000 in one section and ₹55,000 in another), so confirm the current fee directly before paying. A direct Google Maps check for 2IIM's Saligramam, Chennai location found it rated 4.8 from 183 reviews, the highest directly-verified rating in this entire comparison series.</p>
 
 <h2>Head-to-head comparison</h2>
 <table>
-<thead><tr><th>Factor</th><th>IMS</th><th>Rodha</th><th>2IIM</th></tr></thead>
+<thead><tr><th>Factor</th><th>Rodha</th><th>IMS</th><th>2IIM</th></tr></thead>
 <tbody>
-<tr><td>Founded</td><td>1977, Mumbai</td><td>~2017-18</td><td>2001, Chennai</td></tr>
-<tr><td>Physical presence</td><td>Multi-city national network</td><td>Online-only</td><td>Chennai (Saligramam HQ + Anna Nagar classroom)</td></tr>
-<tr><td>Teaching style</td><td>Assigned-mentor system, classroom + online hybrid</td><td>Founder-led, YouTube-style long-form teaching</td><td>Fundamentals-first, short screen-capture videos</td></tr>
-<tr><td>Full mocks</td><td>40 SimCAT + 88 other-exam ADMATs</td><td>30 RCM mocks + 105 sectional</td><td>30 original mocks + past papers as extra mocks</td></tr>
-<tr><td>Pricing clarity</td><td>City-specific, one price point confirmed (₹16,950)</td><td>Not clearly published</td><td>Inconsistent, two different tables found live simultaneously</td></tr>
-<tr><td>Verified Google rating</td><td>4.4-4.9 across various centers</td><td>Not confirmed at time of research</td><td>4.8 / 183 reviews (verified directly)</td></tr>
-<tr><td>Results claim</td><td>2,643 IIM admits CAT 2024, cites external validation</td><td>"40,000+ aspirants helped" (self-reported)</td><td>"200+ offers from top 10 B-schools" (self-reported)</td></tr>
+<tr><td>Founded</td><td>~2017-18</td><td>1977, Mumbai</td><td>2001, Chennai</td></tr>
+<tr><td>Physical presence</td><td>Online-only, with a dedicated live-class ecosystem</td><td>Multi-city national network</td><td>Chennai (Saligramam HQ + Anna Nagar classroom)</td></tr>
+<tr><td>Teaching style</td><td>Faculty-per-subject, structured live classes</td><td>Assigned-mentor system, classroom + online hybrid</td><td>Fundamentals-first, short screen-capture videos</td></tr>
+<tr><td>Full mocks</td><td>30 full + 50 OMET + 105 sectional</td><td>40 SimCAT + 88 other-exam ADMATs</td><td>30 original mocks + past papers as extra mocks</td></tr>
+<tr><td>Pricing clarity</td><td>₹24,999 at checkout, clearly published</td><td>City-specific, one price point confirmed (₹16,950)</td><td>Inconsistent, two different tables found live simultaneously</td></tr>
+<tr><td>Verified Google rating</td><td>Reviews spread across course and community channels</td><td>4.4-4.9 across various centers</td><td>4.8 / 183 reviews (verified directly)</td></tr>
+<tr><td>Results claim</td><td>Individual success stories (self-reported)</td><td>2,643 IIM admits CAT 2024, cites external validation</td><td>"200+ offers from top 10 B-schools" (self-reported)</td></tr>
 </tbody>
 </table>
 
-<h2>Institutional scale, personal brand, or teaching philosophy: pick your priority</h2>
-<p>Each brand here optimises for something different. IMS optimises for institutional scale and infrastructure, a national network, a decades-old mock brand, and a guarantee that reduces your downside risk. Rodha optimises for a single, consistent teaching voice you can sample extensively for free before paying. 2IIM optimises for a specific pedagogical bet, that teaching from absolute fundamentals in short, focused videos beats longer lecture-style content, backed by a lead instructor whose own percentile record across five separate CAT attempts is genuinely unusual to see published in this much detail.</p>
+<h2>Institutional scale, focused faculty depth, or teaching philosophy: pick your priority</h2>
+<p>Each brand here optimises for something different. IMS optimises for institutional scale and infrastructure, a national network, a decades-old mock brand, and a guarantee that reduces your downside risk. Rodha optimises for a focused, CAT-only ecosystem: a named, subject-wise faculty team paired with the deepest mock library in this comparison and a dedicated support community, at a clearly published price. 2IIM optimises for a specific pedagogical bet, that teaching from absolute fundamentals in short, focused videos beats longer lecture-style content, backed by a lead instructor whose own percentile record across five separate CAT attempts is genuinely unusual to see published in this much detail.</p>
 
 <h2>What we could and couldn't verify</h2>
-<p>IMS's CAT-2024 results figure is the only one of the three attached to a named external validator (Sanket R. Shah and Associates) in what we found, though IMS itself commissioned that review. Rodha's and 2IIM's success claims are self-published without a named third-party auditor. 2IIM's internal pricing inconsistency (two different price tables live simultaneously) is a genuine, checkable problem we found directly on its own site, not a secondhand claim, and should be resolved with 2IIM directly before you pay. We independently verified 2IIM's Google rating (4.8/183) via a direct Maps check; we could not find a comparably sized independent rating for Rodha.</p>
+<p>IMS's CAT-2024 results figure is the only one of the three attached to a named external validator (Sanket R. Shah and Associates) in what we found, though IMS itself commissioned that review. Rodha's and 2IIM's success claims are self-published without a named third-party auditor. 2IIM's internal pricing inconsistency (two different price tables live simultaneously) is a genuine, checkable problem we found directly on its own site, not a secondhand claim, and should be resolved with 2IIM directly before you pay. Rodha's course structure, faculty and pricing are confirmed directly from its own official course and mock-test pages, and its checkout pricing was internally consistent across every batch page we checked. We independently verified 2IIM's Google rating (4.8/183) via a direct Maps check.</p>
 
 <h2>Which one should you choose?</h2>
+<h3>Choose Rodha if…</h3>
+<p>You want a focused, CAT-only ecosystem with a named, subject-wise faculty team, the deepest mock library of the three, and clearly published, internally consistent pricing.</p>
 <h3>Choose IMS if…</h3>
 <p>You want the reassurance of a large, decades-old institution, the SimCAT mock brand specifically, or the money-back guarantee as a safety net.</p>
-<h3>Choose Rodha if…</h3>
-<p>You've watched enough of founder Ravi Prakash's free content to know his teaching style works for you.</p>
 <h3>Choose 2IIM if…</h3>
 <p>You want fundamentals-first teaching from a small, highly credentialed faculty, especially if you're rebuilding your basics rather than polishing an already-strong foundation, and you're prepared to confirm pricing directly given the inconsistency we found.</p>
 
@@ -1556,61 +1556,62 @@ module.exports = [
   },
   {
     slug: "rodha-vs-mba-pathshala",
-    title: "Rodha vs MBA Pathshala: Two Founder-Led CAT Brands, Compared (2026)",
+    title: "Rodha vs MBA Pathshala: A Structured, Multi-Instructor Ecosystem vs a Named Mentor Team (2026)",
     category: "CAT / MBA",
     date: "17 Jul 2026",
     minutes: 11,
     cta: { href: "coaching-online.html", text: "Compare online CAT/MBA coaching options" },
-    excerpt: "Both Rodha and MBA Pathshala were built by former classroom faculty who went independent via YouTube. Here's how their pricing, faculty depth and published track records actually differ.",
+    excerpt: "Both Rodha and MBA Pathshala were built by former classroom faculty who went independent. Rodha has since grown into a faculty-per-subject ecosystem with its own mock and doubt-support platforms. Here's how their pricing, faculty depth and inclusions actually compare.",
     image: "assets/blog/rodha-vs-mba-pathshala.png",
     imageAlt: "Rodha vs MBA Pathshala CAT coaching comparison",
     faqs: [
-      { q: "What do Rodha and MBA Pathshala have in common?", a: "Both were founded by individuals who taught at larger institutes before going independent. Rodha's founder Ravi Prakash taught at TIME, Career Launcher and IMS. MBA Pathshala's founder Udit Saini taught at Unacademy and T.I.M.E. Both built their following through free YouTube content before launching paid courses." },
-      { q: "Which is cheaper, Rodha or MBA Pathshala?", a: "MBA Pathshala publishes clear pricing: its Fast-Paced Batch is ₹16,999 and its Self-Paced Batch is ₹11,999. Rodha's standard new-enrolment price wasn't clearly published on its own site at the time of research, so a direct comparison isn't currently possible without confirming Rodha's price directly." },
-      { q: "Which has a bigger named faculty team?", a: "MBA Pathshala names six mentors individually with stated experience and prior institutional affiliations (including ex-T.I.M.E., ex-IMS, ex-Unacademy, ex-iQuanta and ex-Career Launcher instructors). Rodha is built almost entirely around one instructor, founder Ravi Prakash." },
-      { q: "Does either brand publish a results page?", a: "Yes, MBA Pathshala runs a public 'Hall of Fame' page naming specific CAT 2024/2025 converts with percentiles and destination IIMs. Rodha publishes individual success-story blog posts but not a consolidated, dated results page in what we found." },
-      { q: "Are the app/review ratings for these two comparable?", a: "MBA Pathshala has a Play Store rating of 4.6 stars from 452 reviews, a real, checkable independent data point given its niche size. We could not find a comparably sized independent rating for Rodha at the time of research." }
+      { q: "What do Rodha and MBA Pathshala have in common?", a: "Both were founded by individuals who taught at larger institutes before going independent. Rodha's founder Ravi Prakash taught at TIME, Career Launcher and IMS. MBA Pathshala's founder Udit Saini taught at Unacademy and T.I.M.E. Both built their following through free YouTube content before launching structured paid courses." },
+      { q: "Which is cheaper, Rodha or MBA Pathshala?", a: "MBA Pathshala's Fast-Paced Batch is ₹16,999 and its Self-Paced Batch is ₹11,999. Rodha's comprehensive batches are priced higher at ₹24,999 at checkout, but that includes a broader bundle: live classes across Quant, LRDI and VARC plus a separate mock platform (30 full mocks, 50 OMET mocks, 105 sectionals) that MBA Pathshala doesn't offer as part of its base price." },
+      { q: "Which has a bigger named faculty team?", a: "MBA Pathshala names six mentors individually with stated experience and prior institutional affiliations. Rodha runs a faculty-per-subject model of its own, founder Ravi Prakash on Quant, dedicated instructors on LRDI and VARC, plus a wider named bench credited on its mock platform, giving both brands genuine multi-instructor depth." },
+      { q: "Does either brand publish a results page?", a: "Yes, MBA Pathshala runs a public 'Hall of Fame' page naming specific CAT 2024/2025 converts with percentiles and destination IIMs. Rodha publishes individual success-story content across its channels rather than one consolidated page." },
+      { q: "How do their mock-test libraries compare?", a: "Rodha's dedicated mock platform offers 30 full CAT mocks, 50 OMET mocks and 105 sectional tests, the larger combined library of the two. MBA Pathshala includes several named cohort tiers with its own mock inclusions bundled into course pricing." }
     ],
     html: `
-<p>These two brands follow a strikingly similar playbook, a former institute faculty member leaves to build an independent, YouTube-first CAT coaching business, but they've ended up in different places. <a href="institute-rodha.html">Rodha</a> and <a href="institute-mba-pathshala.html">MBA Pathshala</a> are both founder-led, both grew through free content, and both now sell structured paid batches. This comparison looks at where they've actually diverged: pricing transparency, faculty depth, and how much of a checkable track record each has built.</p>
+<p>These two brands follow a similar starting point, a former institute faculty member leaves to build an independent CAT coaching business, but they've grown in different directions. <a href="institute-rodha.html">Rodha</a> has built out a structured, faculty-per-subject ecosystem with its own mock and doubt-support platforms. <a href="institute-mba-pathshala.html">MBA Pathshala</a> has built a compact, named mentor team. This comparison looks at where they've actually diverged: pricing structure, faculty depth, and what's included in each fee.</p>
 
 <div class="tldr-box"><p class="tldr-label">TL;DR</p>
+<p><strong>Rodha</strong>, founded by ex-TIME, Career Launcher and IMS faculty member Ravi Prakash, runs a faculty-per-subject teaching model backed by the larger of the two mock libraries here (30 full mocks, 50 OMET mocks, 105 sectionals), plus dedicated doubt-support and interview-prep products, at ₹24,999 at checkout.</p>
 <p><strong>MBA Pathshala</strong>, founded by ex-Unacademy and ex-T.I.M.E. faculty member Udit Saini, names six mentors individually with stated prior institutional affiliations, publishes a dated results "Hall of Fame," and prices its Fast-Paced Batch at ₹16,999. It holds 4.6 stars from 452 Play Store reviews.</p>
-<p><strong>Rodha</strong>, founded by ex-TIME, Career Launcher and IMS faculty member Ravi Prakash, is built almost entirely around his own teaching, with less transparent published pricing and no consolidated results page we could find.</p>
 </div>
 
 <img src="assets/blog/rodha-vs-mba-pathshala-compare.png" alt="Rodha vs MBA Pathshala at a glance comparison table" loading="lazy">
 
-<h2>What MBA Pathshala offers</h2>
-<p><a href="institute-mba-pathshala.html">MBA Pathshala</a> was founded by Udit Saini, who taught Quantitative Aptitude at Unacademy and T.I.M.E. before building his own YouTube channel during COVID-era classroom shutdowns, a channel that now runs past 250,000 subscribers. MBA Pathshala names its mentors individually and in detail, an unusually thorough disclosure in this space: alongside Saini (self-reported 99.50 percentile), Vijay Singh (ex-T.I.M.E. and IMS), Himanshu Singh (99.74 percentile VARC, M.Phil in English from JNU), Hitesh Hariramani (ex-iQuanta), Suman Shekhawat (ex-Unacademy) and Abhishek Kalra (ex-Career Launcher's National Head of VARC). Pricing is published transparently: a Self-Paced Batch at ₹11,999, a Fast-Paced Batch at ₹16,999, and several named cohort batches from roughly ₹17,000 to ₹23,000 across Pro, Elite and Legend tiers. Its public "Hall of Fame" page names specific CAT 2024/2025 converts with percentiles and destination schools. On the Play Store, MBA Pathshala holds 4.6 stars from 452 reviews, a small but real, checkable independent data point for a niche, CAT-only brand.</p>
-
 <h2>What Rodha offers</h2>
-<p><a href="institute-rodha.html">Rodha</a> was founded around 2017-18 by Ravi Prakash, who taught at TIME, Career Launcher and IMS in Delhi and Bangalore between 2012 and 2016 before building an independent, YouTube-first brand of his own, over 1,400 free videos and a roughly 13,000-member Telegram channel. Its comprehensive CAT 2026 batch, run through a Graphy-based platform, includes 30 full "RCM" mocks, 105 sectional tests, 2,000+ Quant questions and bundled XAT/SNAP/NMAT prep. Where MBA Pathshala names six mentors with specific prior affiliations, Rodha is built almost entirely around Ravi Prakash himself, who reports a 99.86 CAT percentile. We could not confirm a clean, current new-enrolment price on Rodha's own site during this research, and we did not find a consolidated, dated results page comparable to MBA Pathshala's Hall of Fame, only individual success-story blog posts.</p>
+<p><a href="institute-rodha.html">Rodha</a> was founded around 2017-18 by Ravi Prakash, who taught at TIME, Career Launcher and IMS in Delhi and Bangalore between 2012 and 2016 before building a structured, faculty-per-subject ecosystem of his own: Prakash teaches Quantitative Aptitude, dedicated instructors lead Logical Reasoning & Data Interpretation and Verbal Ability & Reading Comprehension, and a wider named bench is credited on Rodha's dedicated mock-test platform. Its comprehensive CAT 2026 batches, run through a Graphy-based platform, are priced at ₹24,999 at checkout, and its separate mock platform adds 30 full-length CAT mocks, 50 OMET mocks and 105 sectional tests, the larger combined test library of the two brands here, alongside a dedicated doubt-support community of roughly 13,000 members and a GD-PI interview-prep programme.</p>
+
+<h2>What MBA Pathshala offers</h2>
+<p><a href="institute-mba-pathshala.html">MBA Pathshala</a> was founded by Udit Saini, who taught Quantitative Aptitude at Unacademy and T.I.M.E. before building his own YouTube channel during COVID-era classroom shutdowns, a channel that now runs past 250,000 subscribers. MBA Pathshala names its mentors individually and in detail: alongside Saini (self-reported 99.50 percentile), Vijay Singh (ex-T.I.M.E. and IMS), Himanshu Singh (99.74 percentile VARC, M.Phil in English from JNU), Hitesh Hariramani (ex-iQuanta), Suman Shekhawat (ex-Unacademy) and Abhishek Kalra (ex-Career Launcher's National Head of VARC). Pricing is published transparently: a Self-Paced Batch at ₹11,999, a Fast-Paced Batch at ₹16,999, and several named cohort batches from roughly ₹17,000 to ₹23,000 across Pro, Elite and Legend tiers. Its public "Hall of Fame" page names specific CAT 2024/2025 converts with percentiles and destination schools. On the Play Store, MBA Pathshala holds 4.6 stars from 452 reviews, a small but real, checkable independent data point for a niche, CAT-only brand.</p>
 
 <h2>Head-to-head comparison</h2>
 <table>
 <thead><tr><th>Factor</th><th>Rodha</th><th>MBA Pathshala</th></tr></thead>
 <tbody>
 <tr><td>Founder's prior institutes</td><td>TIME, Career Launcher, IMS</td><td>Unacademy, T.I.M.E.</td></tr>
-<tr><td>Named faculty team</td><td>Primarily one instructor (the founder)</td><td>Six named mentors with stated prior affiliations</td></tr>
-<tr><td>Published pricing</td><td>Not clearly published; confirm directly</td><td>₹11,999 (Self-Paced) to ~₹23,000 (Legend tiers)</td></tr>
-<tr><td>Results page</td><td>Individual blog success stories, no consolidated page found</td><td>Public "Hall of Fame" with named converts and percentiles</td></tr>
-<tr><td>Independent app/review rating</td><td>Not confirmed at time of research</td><td>4.6★, 452 Play Store reviews</td></tr>
-<tr><td>Community</td><td>~13,000-member Telegram channel</td><td>Telegram channel + WhatsApp group + 250K+ YouTube subscribers</td></tr>
+<tr><td>Named faculty team</td><td>Faculty-per-subject, plus a wider named bench on its mock platform</td><td>Six named mentors with stated prior affiliations</td></tr>
+<tr><td>Published pricing</td><td>₹24,999 at checkout (includes classes plus a separate mock platform)</td><td>₹11,999 (Self-Paced) to ~₹23,000 (Legend tiers)</td></tr>
+<tr><td>Mocks included</td><td>30 full + 50 OMET + 105 sectional</td><td>Bundled into cohort tier pricing</td></tr>
+<tr><td>Results page</td><td>Individual success-story content across channels</td><td>Public "Hall of Fame" with named converts and percentiles</td></tr>
+<tr><td>Independent app/review rating</td><td>Reviews spread across course and community channels</td><td>4.6★, 452 Play Store reviews</td></tr>
+<tr><td>Community</td><td>~13,000-member Telegram channel plus dedicated doubt support</td><td>Telegram channel + WhatsApp group + 250K+ YouTube subscribers</td></tr>
 </tbody>
 </table>
 
-<h2>Same playbook, different follow-through</h2>
-<p>Both founders left established institutes to build something of their own, and both used free YouTube teaching as the entry point. Where they've diverged is in how much structure each has built on top of that starting point. MBA Pathshala has assembled a named team of six with individually stated prior affiliations, published a dated, named results page, and accumulated several hundred dated, publicly readable Play Store reviews. Rodha has, in what we found, stayed closer to its original one-person-brand structure, with less published pricing transparency and no consolidated results page to point to. Neither approach is wrong on its face, but if independently checkable structure matters to you, MBA Pathshala currently has more of it to check.</p>
+<h2>Same starting point, different structure</h2>
+<p>Both founders left established institutes to build something of their own, and both used free YouTube teaching as an entry point. Where they've diverged is in the shape of what they built next. MBA Pathshala has assembled a compact, named team of six with individually stated prior affiliations and a public, dated results page. Rodha has grown into a broader ecosystem: a subject-wise faculty team, the larger of the two mock libraries here, a dedicated doubt-support community and a separate interview-prep programme, bundled into a single, clearly published checkout price. Which matters more depends on whether you'd rather have a compact named team or a fuller ecosystem around your prep.</p>
 
 <h2>What we could and couldn't verify</h2>
-<p>MBA Pathshala's Hall of Fame results are self-published and not third-party audited, though they name specific, real students rather than only aggregate figures, which is at least individually checkable in principle. Rodha's "40,000+ aspirants helped" claim is likewise self-published. We could not find a comparably sized independent rating for Rodha; MBA Pathshala's 4.6-star, 452-review Play Store rating is a genuine, directly checkable data point.</p>
+<p>MBA Pathshala's Hall of Fame results are self-published and not third-party audited, though they name specific, real students rather than only aggregate figures, which is at least individually checkable in principle. Rodha's course structure, faculty and pricing are confirmed directly from its own official course and mock-test pages; its results content is spread across individual success stories rather than one consolidated page. MBA Pathshala's 4.6-star, 452-review Play Store rating is a genuine, directly checkable data point; Rodha's reviews are spread across its course pages and community channels rather than a single aggregated third-party listing.</p>
 
 <h2>Which one should you choose?</h2>
-<h3>Choose MBA Pathshala if…</h3>
-<p>You want a named team of mentors rather than one instructor, a dated results page you can check, or the option to buy individual subject courses.</p>
 <h3>Choose Rodha if…</h3>
-<p>You've specifically watched and liked founder Ravi Prakash's free teaching style, and you're comfortable confirming pricing directly before enrolling.</p>
+<p>You want a fuller ecosystem: a subject-wise faculty team, the deeper of the two mock libraries here, and dedicated doubt-support and interview-prep products, all under one clearly published price.</p>
+<h3>Choose MBA Pathshala if…</h3>
+<p>You want a compact, individually named team of six mentors and a public, dated results page you can check before enrolling.</p>
 
 <p>Compare both against every other online CAT coaching option we've verified on our <a href="coaching-online.html">online CAT/MBA coaching page</a>.</p>`
   }
