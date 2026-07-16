@@ -1,4 +1,5 @@
 /* Online Coaching 4u — static site generator. Run: node build.js */
+/* redeploy-trigger: forcing a fresh Vercel build/alias after custom-domain asset 503s */
 const fs = require("fs");
 const path = require("path");
 
