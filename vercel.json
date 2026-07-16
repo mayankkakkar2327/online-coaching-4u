@@ -4,9 +4,6 @@
   "outputDirectory": "website",
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.onlinecoaching4u.in" }], "destination": "https://onlinecoaching4u.in/:path*", "permanent": true }
-  ],
   "headers": [
     {
       "source": "/assets/(.*)",
