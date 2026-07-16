@@ -139,7 +139,7 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["blog.html", "Blogs"], ["about.html", "About"]];
+  const nav = [["coaching-online.html", "Online Coaching"], ["coaching.html", "Offline Coaching"], ["certification.html", "Certifications"], ["blog.html", "Blogs"], ["about.html", "About"]];
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
@@ -153,7 +153,8 @@ ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-curr
 }
 
 function footer() {
-  const coachingCities = DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">${c === "online" ? "Online CAT / MBA Coaching" : `Coaching in ${cityLabel(c)}`}</a></li>`).join("");
+  const coachingCities = `<li><a href="coaching-online.html">Online CAT / MBA Coaching</a></li>` +
+    DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">Coaching in ${cityLabel(c)}</a></li>`).join("");
   return `<footer class="site-footer">
 <div class="container footer-grid">
 <div>
@@ -228,10 +229,11 @@ function homePage() {
     .map(([e]) => e === "cat"
       ? `<a class="tile" href="coaching-delhi.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Classroom &amp; online</span></a>`
       : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='/coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
-  const cityCards = DATA.cities.coaching.map(c => {
+  const cityCards = DATA.cities.coaching.filter(c => c !== "online").map(c => {
     const n = byCity("coaching", c).length;
     return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
   }).join("");
+  const onlineCount = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid").length;
   const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1));
   const featured = topRated.slice(0, 6).map(card).join("");
   const minis = topRated.slice(0, 4).map(x => `<a class="mini" href="institute-${x.slug}.html"><span class="avatar ${grad(x.name)}">${esc(x.name[0])}</span><div><b>${esc(x.name)}</b><span>${esc(x.locality)}${x.estd ? ` · Since ${x.estd}` : ""}</span></div><span class="score">★ ${x.rating ? x.rating.toFixed(1) : "—"}</span></a>`).join("");
@@ -256,6 +258,25 @@ ${searchBox()}
 <div class="hc-title">Top rated this month</div>
 ${minis}
 </aside>
+</div>
+</section>
+<section class="section container" style="padding-bottom:0">
+<div class="sec-head">
+<div><div class="eyebrow">Start here</div><h2>Online or offline: pick your path</h2></div>
+</div>
+<div class="path-grid">
+<a class="path-card path-card-online" href="coaching-online.html">
+<span class="path-kicker">Study from anywhere</span>
+<h3>Online Coaching</h3>
+<p>Live and self-paced programs from platforms and hybrid institutes, joinable from anywhere. ${onlineCount} listed.</p>
+<span class="link-arrow">Explore online coaching →</span>
+</a>
+<a class="path-card path-card-offline" href="coaching.html">
+<span class="path-kicker">Classroom, near you</span>
+<h3>Offline Coaching</h3>
+<p>In-person institutes with physical batches, browsed by city. ${stats.coaching} institutes listed.</p>
+<span class="link-arrow">Browse by city →</span>
+</a>
 </div>
 </section>
 <section class="section container">
@@ -307,17 +328,21 @@ ${minis}
 
 function hubPage(type, title, sub) {
   const hubCC = (DATA.cityContent || {})[`${typePage[type]}-hub`];
-  const cities = DATA.cities[typePage[type]];
+  const cities = DATA.cities[typePage[type]].filter(c => !(type === "coaching" && c === "online"));
+  const onlineBanner = type === "coaching" ? `<section class="section container" style="padding-top:0;padding-bottom:0">
+<a class="path-banner" href="coaching-online.html"><span><strong>Looking for online coaching instead?</strong> Browse nationwide online-only CAT/MBA platforms.</span><span class="link-arrow">Explore online coaching →</span></a>
+</section>` : "";
   const cityCards = cities.map(c => {
     const items = byCity(type, c);
     const top = items[0];
     return `<a class="tile tile-city" href="${typePage[type]}-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${items.length} listed${top && top.rating ? ` · top rated ${top.rating.toFixed(1)}★` : ""}</span></a>`;
   }).join("");
-  const featured = [...byType(type)].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6).map(card).join("");
+  const featured = [...byType(type)].filter(x => !(type === "coaching" && x.city === "online")).sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6).map(card).join("");
   return head(`${title} — ${B.name}`, sub) + header(`${typePage[type]}.html`) + `
 <section class="hero hero-sm"><div class="container">
 <h1>${title}</h1><p class="hero-sub">${sub}</p>${searchBox()}
 </div></section>
+${onlineBanner}
 <section class="section container"><h2>Browse by city</h2><div class="tile-grid">${cityCards}</div></section>
 <section class="section container"><h2>Highest rated</h2><div class="card-grid">${featured}</div></section>
 ${hubCC && hubCC.faqs ? `<section class="section container prose"><h2>Frequently asked questions</h2>${hubCC.faqs.map(f => `<h3 style="margin:18px 0 6px">${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}</section>
@@ -342,13 +367,20 @@ function listingPage(type, city) {
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
   const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
   const allModes = [...new Set(items.map(x => x.mode).filter(Boolean))];
-  const modeChips = allModes.length > 1 ? `<label class="fsel-label" for="modesel">Mode</label><select id="modesel" class="fsel"><option value="">All modes</option>${["offline", "hybrid", "online"].filter(m => allModes.includes(m)).map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>` : "";
+  const modeOptions = ["offline", "hybrid", "online"].filter(m => allModes.includes(m));
+  const modeChips = allModes.length > 1
+    ? `<select id="modesel" class="sr-only"><option value="">All modes</option>${modeOptions.map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>
+<div class="mode-toggle" id="modetoggle" role="group" aria-label="Filter by mode">
+<button type="button" class="mode-btn" data-mode="">All</button>
+${modeOptions.map(m => `<button type="button" class="mode-btn" data-mode="${m}">${modeLabel[m]}</button>`).join("")}
+</div>`
+    : "";
   const title = isOnline ? oc.title(items.length) : `Best ${label} in ${cityL} (${items.length} listed)`;
   return head(`${title} — ${B.name}`,
     isOnline
       ? oc.metaDesc(items.length)
       : `Compare ${items.length} ${label.toLowerCase()} in ${cityL} with real student ratings, exam specialisations, addresses and establishment year.`) +
-    header(`${typePage[type]}.html`) + `
+    header(isOnline && type === "coaching" ? "coaching-online.html" : `${typePage[type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[type]}.html">${label}</a> / <span>${isOnline ? "Online" : cityL}</span></div>
 <section class="listing-head container">
 <h1>${h1}</h1>
@@ -380,6 +412,54 @@ ${cc && cc.faqs ? `<script type="application/ld+json">${JSON.stringify({
 <section class="section container cta-band">
 <h2>Know a great ${typeLabel[type].toLowerCase()} in ${cityL} that's missing?</h2>
 <p><a href="list-your-institute.html">Tell us</a> — or if you run it, list it free.</p>
+</section>` + footer();
+}
+
+/* Dedicated cross-city page for "Online Coaching": coaching institutes don't use a
+   pseudo-city like certification does, so this aggregates every institute whose own
+   mode is online or hybrid, regardless of which city they're physically based in. */
+function onlineCoachingPage() {
+  const items = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid")
+    .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
+  const oc = onlineCopyFor("coaching");
+  const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
+  const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
+  const modeOptions = ["hybrid", "online"].filter(m => items.some(x => x.mode === m));
+  const modeChips = modeOptions.length > 1
+    ? `<select id="modesel" class="sr-only"><option value="">All modes</option>${modeOptions.map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>
+<div class="mode-toggle" id="modetoggle" role="group" aria-label="Filter by mode">
+<button type="button" class="mode-btn" data-mode="">All</button>
+${modeOptions.map(m => `<button type="button" class="mode-btn" data-mode="${m}">${modeLabel[m]}</button>`).join("")}
+</div>`
+    : "";
+  const title = oc.title(items.length);
+  return head(`${title} — ${B.name}`, oc.metaDesc(items.length)) +
+    header("coaching-online.html") + `
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="coaching.html">Coaching</a> / <span>Online</span></div>
+<section class="listing-head container">
+<h1>${oc.h1}</h1>
+<p class="hero-sub">${oc.subNote(items.length)}</p>
+<div class="filterbar">
+<div class="filterbar-row">
+${examChips}
+${modeChips}
+<label class="fsel-label" for="sortsel">Sort</label>
+<select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
+<label class="vcheck"><input type="checkbox" id="verifiedonly"> Verified only</label>
+<span id="rescount" class="muted"></span>
+</div>
+</div>
+</section>
+<section class="section container"><div class="card-grid" id="cards">${items.map(card).join("")}</div>
+<p id="noresults" class="muted" hidden>No listings match these filters. Try clearing them.</p></section>
+<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList",
+    "name": oc.h1,
+    "itemListElement": items.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}` }))
+  })}</script>
+<section class="section container cta-band">
+<h2>Run an online or hybrid coaching program?</h2>
+<p><a href="list-your-institute.html">List it free</a> and reach students comparing online options.</p>
 </section>` + footer();
 }
 
@@ -711,6 +791,7 @@ w("index.html", homePage());
 w("coaching.html", hubPage("coaching", "Find Your Coaching Institute", `Compare ${stats.coaching} coaching institutes for IAS, JEE, NEET, SSC and more — with real student ratings.`));
 
 DATA.cities.coaching.forEach(c => w(`coaching-${c}.html`, listingPage("coaching", c)));
+w("coaching-online.html", onlineCoachingPage());
 
 w("certification.html", hubPage("certification", "Compare Professional Certification Training Providers",
   "Compare online professional certification training providers — including PMI PgMP®, PfMP® and PMP® programs — with verified facts, real track records and no paid rankings."));

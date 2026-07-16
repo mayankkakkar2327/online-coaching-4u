@@ -13,6 +13,7 @@
     var cards = Array.prototype.slice.call(grid.children);
     var examSel = document.getElementById("examsel");
     var modeSel = document.getElementById("modesel");
+    var modeToggle = document.getElementById("modetoggle");
     var sortSel = document.getElementById("sortsel");
     var verified = document.getElementById("verifiedonly");
     var count = document.getElementById("rescount");
@@ -24,6 +25,25 @@
     if (q && examSel && examSel.querySelector('option[value="' + q + '"]')) examSel.value = q;
     var qm = params.get("mode");
     if (qm && modeSel && modeSel.querySelector('option[value="' + qm + '"]')) modeSel.value = qm;
+
+    /* mode toggle: segmented buttons mirror the hidden #modesel so filtering logic stays unchanged */
+    var syncModeToggle = function () {
+      if (!modeToggle) return;
+      var current = modeSel ? modeSel.value : "";
+      Array.prototype.forEach.call(modeToggle.querySelectorAll(".mode-btn"), function (b) {
+        b.classList.toggle("active", b.dataset.mode === current);
+      });
+    };
+    if (modeToggle) {
+      syncModeToggle();
+      modeToggle.addEventListener("click", function (ev) {
+        var btn = ev.target.closest(".mode-btn");
+        if (!btn || !modeSel) return;
+        modeSel.value = btn.dataset.mode;
+        syncModeToggle();
+        apply();
+      });
+    }
 
     function apply() {
       var activeExam = examSel ? examSel.value : "";
