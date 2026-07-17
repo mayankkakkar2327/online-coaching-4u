@@ -858,8 +858,34 @@ w("404.html", simplePage("404.html", "Page Not Found", "This page does not exist
 
 /* sitemap.xml + robots.txt for search engines */
 const today = new Date().toISOString().slice(0, 10);
-const urls = PAGES.filter(f => f !== "404.html" && f !== "thanks.html").map(f =>
-  `<url><loc>${canonical(f)}</loc><lastmod>${today}</lastmod></url>`).join("\n");
+/* per-post publish dates (posts.js uses "D MMM YYYY") converted to ISO, so
+   article pages carry their real lastmod instead of a blanket build-date
+   stamp on every URL. */
+const postDateBySlug = {};
+POSTS.forEach(p => {
+  const iso = toISODate(p.date || "");
+  postDateBySlug[p.slug] = /^\d{4}-\d{2}-\d{2}$/.test(iso) ? iso : today;
+});
+const hubPages = new Set([
+  "coaching.html", "coaching-online.html", "certification.html",
+  "blog.html", "about.html", "contact.html", "list-your-institute.html"
+]);
+const cityPageRe = /^(coaching|certification)-[a-z-]+\.html$/;
+const sitemapMeta = (f) => {
+  if (f === "index.html") return { priority: "1.0", changefreq: "daily" };
+  if (hubPages.has(f) || cityPageRe.test(f)) return { priority: "0.8", changefreq: "daily" };
+  if (f === "privacy.html" || f === "terms.html" || f === "sitemap.html") return { priority: "0.3", changefreq: "monthly" };
+  if (f.startsWith("institute-")) return { priority: "0.6", changefreq: "weekly" };
+  const slug = f.replace(/\.html$/, "");
+  if (postDateBySlug[slug]) return { priority: "0.6", changefreq: "weekly" };
+  return { priority: "0.5", changefreq: "monthly" };
+};
+const urls = PAGES.filter(f => f !== "404.html" && f !== "thanks.html").map(f => {
+  const slug = f.replace(/\.html$/, "");
+  const lastmod = postDateBySlug[slug] || today;
+  const { priority, changefreq } = sitemapMeta(f);
+  return `<url><loc>${canonical(f)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
+}).join("\n");
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 fs.writeFileSync(path.join(OUT, "robots.txt"),
