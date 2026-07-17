@@ -2390,6 +2390,243 @@
       "googleReviewCount": 453
     },
     {
+      "slug": "izenbridge-consultancy",
+      "type": "certification",
+      "name": "iZenBridge Consultancy",
+      "city": "online",
+      "locality": "Online (Global)",
+      "address": "Online — live virtual and classroom-style training delivered worldwide; headquartered in Sector 48, Gurugram, Haryana",
+      "estd": 2012,
+      "exams": [
+        "pmp",
+        "pgmp",
+        "pfmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "iZenBridge is a Gurugram-based training provider founded in 2012 by Saket Bansal, who has personally trained more than 15,000 professionals across PMP, PgMP, PfMP and Agile certifications. The company holds Premium Authorized Training Partner (ATP) status with PMI, meaning its course content is directly aligned with PMI's official exam content outlines rather than independently developed. Its PgMP and PfMP tracks run as structured mentoring cohorts aimed at senior program and portfolio managers, backed by mock exams, application-review support and a money-back guarantee on select PMP batches. Unlike broader IT-bootcamp platforms that treat PMP as one course among hundreds, iZenBridge's training bench is built specifically around PMI's leadership-tier credentials.",
+      "highlights": [
+        "Premium Authorized Training Partner (ATP) of PMI",
+        "Founder Saket Bansal has personally trained 15,000+ professionals across PMP, PgMP and PfMP",
+        "Money-back guarantee offered on select PMP batches"
+      ],
+      "website": "https://www.izenbridge.com/",
+      "mode": "online",
+      "googleRating": 4.9,
+      "googleReviewCount": 26
+    },
+    {
+      "slug": "prothoughts-solutions",
+      "type": "certification",
+      "name": "ProThoughts Solutions",
+      "city": "online",
+      "locality": "Online, pan-India",
+      "address": "JVLR, Mumbai, Maharashtra 400060 — live virtual cohorts delivered pan-India, with a second campus in Magarpatta City, Pune",
+      "estd": 2014,
+      "exams": [
+        "pmp",
+        "pgmp",
+        "pfmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "ProThoughts Solutions is a Mumbai-headquartered training provider that began offering PMP preparation in 2014 and has since grown into one of India's larger project-management training brands, with a second campus in Pune's Magarpatta City. It holds Premier Authorized Training Partner (ATP) status with PMI and runs live instructor-led online batches across PMP, PgMP and PfMP, alongside corporate and in-house training for enterprise teams. The company markets itself on India-focused delivery — trainers familiar with Indian professionals' work schedules and exam-preparation habits — rather than the global, self-paced catalogue approach of larger bootcamp platforms.",
+      "highlights": [
+        "Premier Authorized Training Partner (ATP) of PMI",
+        "Campuses in Mumbai and Pune, with live online batches delivered pan-India",
+        "Covers PMP, PgMP and PfMP alongside corporate/in-house training"
+      ],
+      "website": "https://prothoughtssolutions.com/",
+      "mode": "online",
+      "googleRating": 4.8,
+      "googleReviewCount": 948
+    },
+    {
+      "slug": "knowledgehut-upgrad",
+      "type": "certification",
+      "name": "KnowledgeHut (upGrad)",
+      "city": "online",
+      "locality": "Online, pan-India and international",
+      "address": "10, Reliable Plaza, 14th Main Road, Sector 5, HSR Layout, Bengaluru, Karnataka 560102 — live online cohorts delivered pan-India and internationally",
+      "estd": 2011,
+      "exams": [
+        "pmp",
+        "capm"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "KnowledgeHut, now part of the upGrad group, is a Bengaluru-headquartered professional training platform founded in 2011 that has grown into one of India's largest bootcamp-style certification providers, spanning technology, data and project management. It holds Premier Authorized Training Partner (ATP) status with PMI and runs its PMP program under Program Director Kevin Davis, who brings over two decades of project-management experience, delivering 36 contact hours of live instructor-led sessions plus practice exams and application assistance. As a generalist platform with hundreds of courses beyond project management, KnowledgeHut suits learners who want PMP prep bundled with a broader upskilling ecosystem rather than a boutique, PM-only provider.",
+      "highlights": [
+        "Premier Authorized Training Partner (ATP) of PMI, now part of the upGrad group",
+        "PMP program led by Program Director Kevin Davis, 20+ years of PM experience",
+        "36 contact hours of live instructor-led sessions with practice exams included"
+      ],
+      "website": "https://www.knowledgehut.com/",
+      "mode": "online",
+      "googleRating": 4.8,
+      "googleReviewCount": 8801
+    },
+    {
+      "slug": "koenig-solutions",
+      "type": "certification",
+      "name": "Koenig Solutions",
+      "city": "online",
+      "locality": "Online, international",
+      "address": "DSM-640-641, 6th Floor, DLF Towers Shivaji Marg, Moti Nagar, New Delhi, Delhi 110015 — live online training delivered across 13 countries",
+      "estd": 1993,
+      "exams": [
+        "pmp",
+        "pfmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Koenig Solutions is a New Delhi-headquartered IT training company founded in 1993, with training operations spanning 13 countries — making it one of the longer-established names on this list, though its roots are in broad enterprise IT training rather than project management specifically. It is a PMI Authorized Training Partner and runs certification tracks for PMP and PfMP alongside its much larger catalogue of cloud, cybersecurity and software courses. Learners who want PMP training paired with a vendor also known for cloud and infrastructure certifications may find Koenig's scale useful; those seeking a PM-focused faculty bench may prefer a specialist provider instead.",
+      "highlights": [
+        "PMI Authorized Training Partner, operating in 13 countries since 1993",
+        "Covers both PMP and PfMP alongside a much wider IT-certification catalogue",
+        "One of the longest-established general IT training companies on this list"
+      ],
+      "website": "https://www.koenig-solutions.com/",
+      "mode": "online",
+      "googleRating": 4.0,
+      "googleReviewCount": 215
+    },
+    {
+      "slug": "simplilearn",
+      "type": "certification",
+      "name": "Simplilearn",
+      "city": "online",
+      "locality": "Online, global",
+      "address": "No. 53, NALANDA, Manoj Arcade, 24th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102 — live online cohorts delivered worldwide",
+      "estd": 2010,
+      "exams": [
+        "pmp",
+        "capm"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Simplilearn, founded in 2010 and dual-headquartered in San Francisco and Bengaluru, is among the largest online bootcamp platforms in the world, offering certification training across technology, data and management disciplines. It holds PMI Premier Partner status and its PMP course is one of its best-selling programs, combining live virtual classes with self-paced video content, practice tests and application-filing support. As a large, well-funded platform, Simplilearn's PMP batches run on scale — frequent cohort start dates and a large trainer pool — rather than the boutique cohort sizes of specialist PM-training firms, which is worth weighing if personalised faculty access matters to you.",
+      "highlights": [
+        "PMI Premier Partner; PMP is one of its flagship certification programs",
+        "Founded 2010, dual-headquartered in San Francisco and Bengaluru",
+        "Blended format: live virtual classes plus self-paced video and practice tests"
+      ],
+      "website": "https://www.simplilearn.com/",
+      "mode": "online",
+      "googleRating": 4.4,
+      "googleReviewCount": 5687
+    },
+    {
+      "slug": "invensis-learning",
+      "type": "certification",
+      "name": "Invensis Learning",
+      "city": "online",
+      "locality": "Online, global",
+      "address": "34/1 Upkar Chambers, RV Road, Basavangudi, Bengaluru, Karnataka — live online training delivered across 100+ locations worldwide",
+      "estd": null,
+      "exams": [
+        "pmp",
+        "capm",
+        "pmi-rmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Invensis Learning is the training and certification division of Bengaluru-based Invensis, offering courses across project management, IT service management, Agile and quality management in more than 100 locations worldwide. It holds PMI Authorized Training Partner status (ATP ID 4177) and runs certification programs for PMP, CAPM and PMI-RMP through live virtual classrooms, alongside a considerably larger catalogue of ITIL, PRINCE2 and Six Sigma courses. Invensis suits professionals who want PMP training from a provider with an established global training footprint rather than a project-management-only specialist.",
+      "highlights": [
+        "PMI Authorized Training Partner (ATP ID 4177)",
+        "Delivers training across 100+ locations worldwide, spanning PM, ITSM and quality management",
+        "Covers PMP, CAPM and PMI-RMP certification tracks"
+      ],
+      "website": "https://www.invensislearning.com/",
+      "mode": "online",
+      "googleRating": 4.6,
+      "googleReviewCount": 17
+    },
+    {
+      "slug": "henry-harvin",
+      "type": "certification",
+      "name": "Henry Harvin",
+      "city": "online",
+      "locality": "Online, pan-India and international",
+      "address": "Henry Harvin House, B-12, B Block, Sector 6, Noida, Uttar Pradesh 201301 — live online cohorts delivered pan-India and internationally",
+      "estd": 2013,
+      "exams": [
+        "pmp",
+        "pmi-rmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Henry Harvin is a Noida-headquartered upskilling company founded in 2013 by Kounal Gupta, who started the venture at 19 and has since grown it into a global training brand offering more than 1,200 courses across 37+ categories. It holds Premier Authorized Training Partner status with PMI and its PMP course runs as an 8-to-12-week program combining 36 hours of live training with internship-style projects and interview preparation, alongside a separate PMI-RMP track for risk-management specialists. As a broad-catalogue upskilling platform rather than a PM-only specialist, Henry Harvin bundles PMP training with placement-style extras — bootcamps, resume support — that dedicated PM training firms typically don't offer.",
+      "highlights": [
+        "Premier Authorized Training Partner (ATP) of PMI",
+        "Founded 2013 by Kounal Gupta; now runs 1,200+ courses across 37+ categories",
+        "PMP course bundles 36 hours of live training with internship-style projects and interview prep"
+      ],
+      "website": "https://www.henryharvin.com/",
+      "mode": "online",
+      "googleRating": 4.2,
+      "googleReviewCount": 497
+    },
+    {
+      "slug": "vinsys",
+      "type": "certification",
+      "name": "Vinsys",
+      "city": "online",
+      "locality": "Online, pan-India and international",
+      "address": "CTS No 458A, Tejas Housing Society, Shivaji Niketan, near Mantri Park, Kothrud, Pune, Maharashtra — live online training delivered pan-India and internationally",
+      "estd": null,
+      "exams": [
+        "pmp",
+        "pgmp",
+        "pmi-rmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Vinsys is a Pune-headquartered training and consultancy company with a track record stretching back to the late 1990s, founded by Vikrant Patil out of an earlier Aptech Computer Education franchise. It is a PMI Authorized Training Partner and Global Registered Education Provider (R.E.P.), running certification programs across PMP, PgMP and PMI-RMP through live virtual and classroom batches, alongside a large IT and corporate-training catalogue. Vinsys also has a listed presence on the NSE and offices across the Middle East, Southeast Asia and East Africa — useful for professionals who may relocate internationally mid-career and want a training provider with matching global reach.",
+      "highlights": [
+        "PMI Authorized Training Partner and Global Registered Education Provider (R.E.P.)",
+        "Track record stretching back to the late 1990s; publicly listed on the NSE since 2023",
+        "Covers PMP, PgMP and PMI-RMP, with offices spanning the Middle East, Southeast Asia and East Africa"
+      ],
+      "website": "https://www.vinsys.com/",
+      "mode": "online",
+      "googleRating": 4.5,
+      "googleReviewCount": 287
+    },
+    {
+      "slug": "edureka",
+      "type": "certification",
+      "name": "Edureka",
+      "city": "online",
+      "locality": "Online, pan-India and international",
+      "address": "4th Floor, 38/4, Outer Ring Rd, Doddanekundi, Mahadevapura, Bengaluru, Karnataka 560048 — live online cohorts delivered pan-India and internationally",
+      "estd": 2011,
+      "exams": [
+        "pmp"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Edureka, operated by Brain4ce Education Solutions, is a Bengaluru-based online learning platform founded in 2011 by Kapil Tyagi, Lovleen Bhatia and Vineet Chaturvedi, initially built around technology upskilling before expanding into project-management certification. It holds PMI Authorized Training Partner status and its PMP course follows PMI's official exam-preparation roadmap, delivered through live online classes with recorded backups and round-the-clock doubt-support access. Edureka was acquired by SNVA Veranda in October 2025, giving it backing from a larger listed education group while continuing to operate its original brand and course catalogue.",
+      "highlights": [
+        "PMI Authorized Training Partner; PMP course follows PMI's official exam-prep roadmap",
+        "Founded 2011 as Brain4ce Education Solutions; acquired by SNVA Veranda in October 2025",
+        "Live online classes with recorded backups and round-the-clock doubt support"
+      ],
+      "website": "https://www.edureka.co/",
+      "mode": "online",
+      "googleRating": 4.5,
+      "googleReviewCount": 6637
+    },
+    {
       "slug": "2iim",
       "type": "coaching",
       "name": "2IIM",
