@@ -75,7 +75,8 @@
     "pfmp": "PfMP",
     "pmp": "PMP",
     "capm": "CAPM",
-    "pmi-rmp": "PMI-RMP"
+    "pmi-rmp": "PMI-RMP",
+    "ipmat": "IPMAT"
   },
   "listings": [
     {
@@ -2678,6 +2679,372 @@
         "Online-only, with no independent review history yet given its recent launch"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "vinex-institute-visakhapatnam",
+      "type": "coaching",
+      "name": "Vinex Institute",
+      "city": "visakhapatnam",
+      "locality": "Dwaraka Nagar",
+      "address": "47/11-21/1, Iswarya Complex, 1st Lane, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.6,
+      "ratingCount": 12,
+      "verified": false,
+      "thumb": "https://unavatar.io/myvinex.com",
+      "about": "Vinex Institute is a Dwaraka Nagar coaching centre in Visakhapatnam offering CA Intermediate and Final classes alongside Bank exam and Company Secretary tuitions. It operates under the wider Vinex brand, which has been active in Vizag's coaching scene since 1997, historically best known for IIT-JEE and NEET preparation before adding a dedicated CA vertical. Classes combine in-person teaching with online mock-test access for CA aspirants.",
+      "highlights": [
+        "Part of the Vinex brand, active in Vizag coaching since 1997",
+        "Covers CA Inter and Final alongside Bank exam and CS tuitions",
+        "Classroom teaching backed by an online mock-test series"
+      ],
+      "website": "https://www.myvinex.com/",
+      "mode": "offline",
+      "googleRating": 4.9,
+      "googleReviewCount": 196
+    },
+    {
+      "slug": "accounting-minds-visakhapatnam",
+      "type": "coaching",
+      "name": "Accounting Minds",
+      "city": "visakhapatnam",
+      "locality": "Dondaparthy",
+      "address": "3rd Floor, Vijaya Sales Building, 46-15-44, Mandavaripeta, Dondaparthy, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.7,
+      "ratingCount": 9,
+      "verified": false,
+      "about": "Accounting Minds is a Dondaparthy-based coaching centre in Visakhapatnam focused on CA, CMA and CS professional-qualification coaching. It runs both in-person and online class formats, which makes batches accessible to students who can't attend campus daily. It's one of the higher-rated finance-coaching options for Vizag on local business directories, though it maintains a Facebook presence rather than a dedicated website.",
+      "highlights": [
+        "Covers CA, CMA and CS under one roof",
+        "Flexible in-person and online class formats",
+        "Consistently high ratings on local directories"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.9,
+      "googleReviewCount": 115
+    },
+    {
+      "slug": "master-minds-visakhapatnam",
+      "type": "coaching",
+      "name": "Master Minds (Vizag)",
+      "city": "visakhapatnam",
+      "locality": "Daba Gardens",
+      "address": "1-104-27, Sanitizer Mansion, AQJ College Road, MVP Colony, Daba Gardens, Visakhapatnam, Andhra Pradesh 530017",
+      "estd": 2002,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 19,
+      "verified": false,
+      "thumb": "https://unavatar.io/mastermindsindia.com",
+      "about": "Master Minds is the Visakhapatnam branch network of a CA coaching chain founded in 2002 in Guntur, Andhra Pradesh. The Vizag presence spans multiple locations across the city, including Daba Gardens, CBM Compound and Gajuwaka, offering CA Foundation, Intermediate and Final coaching. As a branch of one of Andhra Pradesh's larger multi-city CA coaching operators, it draws on a shared curriculum and study-material bank used across all Master Minds centres.",
+      "highlights": [
+        "Branch of a CA coaching chain founded 2002 in Guntur",
+        "Multiple branches within Visakhapatnam city",
+        "Shares curriculum and study material with the wider Master Minds network"
+      ],
+      "website": "https://mastermindsindia.com/",
+      "mode": "offline",
+      "googleRating": 4.5,
+      "googleReviewCount": 686
+    },
+    {
+      "slug": "apex-institute-visakhapatnam",
+      "type": "coaching",
+      "name": "APEX Institute",
+      "city": "visakhapatnam",
+      "locality": "Asilmetta",
+      "address": "D.No. 9-17-4, Plot No. 36, Amar Nagar, Asilmetta, Visakhapatnam, Andhra Pradesh 530013",
+      "estd": 2015,
+      "exams": [
+        "cat"
+      ],
+      "rating": 4.8,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/apexinstitute.net",
+      "about": "APEX Institute is a CAT/MBA-entrance coaching institute in Asilmetta, Visakhapatnam, founded in 2015 by Suraj Chawla. It markets itself as a single-focus CAT and MBA-entrance institute rather than a generalist coaching centre, running both classroom batches and an online course platform. Its Google listing shows a strong rating, though it is still built on a small number of reviews, so it's worth confirming current batch strength directly before enrolling.",
+      "highlights": [
+        "Founded 2015, focused solely on CAT/MBA-entrance coaching",
+        "Runs both classroom batches and an online course platform",
+        "Also covers XAT, GRE and campus-recruitment aptitude prep"
+      ],
+      "website": "https://www.apexinstitute.net/",
+      "mode": "hybrid",
+      "googleRating": 5.0,
+      "googleReviewCount": 3
+    },
+    {
+      "slug": "time-visakhapatnam",
+      "type": "coaching",
+      "name": "T.I.M.E. Visakhapatnam",
+      "city": "visakhapatnam",
+      "locality": "Dwaraka Nagar",
+      "address": "47-13-6, First Floor, near Diamond Park, Sankara Matam Road, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.5,
+      "ratingCount": 33,
+      "verified": false,
+      "thumb": "https://unavatar.io/time4education.com",
+      "about": "T.I.M.E. (Triumphant Institute of Management Education) Visakhapatnam is the local branch of one of India's largest and longest-running MBA-entrance coaching chains, located on Sankara Matam Road in Dwaraka Nagar. Alongside its core CAT/MBA-entrance programs, the branch also offers CLAT, IPMAT, SSC and bank-exam coaching under the same roof, following the standard multi-exam format T.I.M.E. runs nationally.",
+      "highlights": [
+        "Local branch of the pan-India T.I.M.E. coaching chain",
+        "Offers CAT, CLAT, IPMAT and SSC coaching at one centre",
+        "Part of a chain with decades of MBA-entrance coaching experience"
+      ],
+      "website": "https://www.time4education.com/Vizag",
+      "mode": "offline",
+      "googleRating": 4.5,
+      "googleReviewCount": 225
+    },
+    {
+      "slug": "george-prep-visakhapatnam",
+      "type": "coaching",
+      "name": "George Prep",
+      "city": "visakhapatnam",
+      "locality": "Sri Nagar",
+      "address": "D.No. 48-3-32, Day and Night Hospital Road, Sri Nagar, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": 2013,
+      "exams": [
+        "cat"
+      ],
+      "rating": 4.5,
+      "ratingCount": 17,
+      "verified": false,
+      "thumb": "https://unavatar.io/georgeprep.com",
+      "about": "George Prep is a CAT/MBA-entrance coaching institute in Sri Nagar, Visakhapatnam, founded in 2013. It runs both classroom and online coaching formats, taught by faculty who market their teaching around IIM-alumni credentials, and combines recorded concept videos with in-person mentoring. It carries one of the larger review counts among local Vizag CAT-coaching options.",
+      "highlights": [
+        "Founded 2013, dedicated CAT/MBA-entrance coaching",
+        "Combines classroom mentoring with online concept videos",
+        "One of the more reviewed CAT institutes in Vizag"
+      ],
+      "website": "https://www.georgeprep.com/",
+      "mode": "hybrid",
+      "googleRating": 4.4,
+      "googleReviewCount": 409
+    },
+    {
+      "slug": "adari-institute-visakhapatnam",
+      "type": "coaching",
+      "name": "Adari Institute",
+      "city": "visakhapatnam",
+      "locality": "Dwaraka Nagar",
+      "address": "4th Floor, Varanasi Majestic, opposite Pizza Hut, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": 2012,
+      "exams": [
+        "clat",
+        "cat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.9,
+      "ratingCount": 21,
+      "verified": false,
+      "thumb": "https://unavatar.io/adarisinstitute.com",
+      "about": "Adari Institute is a Dwaraka Nagar coaching centre in Visakhapatnam that has been operating since 2012, covering an unusually wide spread of competitive exams under one roof: CLAT, CAT, MAT, ICET, Bank, SSC, RRB, AFCAT and IIT-JEE foundation. Rather than specialising in a single exam, it positions itself as a one-stop coaching option for Vizag students preparing for management, law or government-service entrance exams.",
+      "highlights": [
+        "Operating since 2012 in Dwaraka Nagar",
+        "One of the few Vizag institutes offering dedicated CLAT preparation",
+        "Also covers CAT, IPMAT, SSC, Bank and RRB under one roof"
+      ],
+      "website": "https://www.adarisinstitute.com/",
+      "mode": "offline",
+      "googleRating": 4.9,
+      "googleReviewCount": 71
+    },
+    {
+      "slug": "thinkplus-education-visakhapatnam",
+      "type": "coaching",
+      "name": "Thinkplus Education",
+      "city": "visakhapatnam",
+      "locality": "Akkayyapalem",
+      "address": "45-56-03/5/4, near Axis Bank, Narasimha Nagar, Akkayyapalem, Visakhapatnam, Andhra Pradesh 530024",
+      "estd": 2022,
+      "exams": [
+        "clat",
+        "cat",
+        "ipmat"
+      ],
+      "rating": 4.8,
+      "ratingCount": 14,
+      "verified": false,
+      "thumb": "https://unavatar.io/thinkpluseducation.com",
+      "about": "Thinkplus Education is an Akkayyapalem coaching institute in Visakhapatnam founded in 2022 by a group of IIM Udaipur graduates, registered as a private limited company. It runs a combined CLAT, CAT and IPMAT preparation program, positioning itself around IIM-alumni-led instruction rather than splitting into separate single-exam batches.",
+      "highlights": [
+        "Founded 2022 by a group of IIM Udaipur alumni",
+        "Registered as a private limited company",
+        "Combined CLAT, CAT and IPMAT preparation track"
+      ],
+      "website": "https://thinkpluseducation.com/",
+      "mode": "hybrid",
+      "googleRating": 4.8,
+      "googleReviewCount": 329
+    },
+    {
+      "slug": "vshreshta-academy-visakhapatnam",
+      "type": "coaching",
+      "name": "VSHRESHTA Academy",
+      "city": "visakhapatnam",
+      "locality": "Akkayyapalem",
+      "address": "45-58/5/14/2, Narasimha Nagar, Port Stadium Area, Akkayyapalem, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "clat",
+        "ipmat",
+        "ias"
+      ],
+      "rating": 4.9,
+      "ratingCount": 16,
+      "verified": false,
+      "thumb": "https://unavatar.io/vshreshta.com",
+      "about": "VSHRESHTA Academy is an Akkayyapalem coaching institute in Visakhapatnam running dedicated CLAT and IPMAT preparation tracks alongside its core UPSC/IAS coaching program. It holds one of the highest review volumes among local law and management-entrance coaching centres in the city. Claims of past placement numbers are self-reported by the institute and worth confirming independently before enrolling.",
+      "highlights": [
+        "Dedicated CLAT and IPMAT tracks alongside UPSC/IAS coaching",
+        "High review volume relative to other local law-entrance options",
+        "Based in the Akkayyapalem/Port Stadium area"
+      ],
+      "website": "https://vshreshta.com/",
+      "mode": "offline",
+      "googleRating": 5.0,
+      "googleReviewCount": 175
+    },
+    {
+      "slug": "raos-academy-visakhapatnam",
+      "type": "coaching",
+      "name": "RAO'S Academy",
+      "city": "visakhapatnam",
+      "locality": "Seethammadhara",
+      "address": "Seethammadhara, Visakhapatnam, Andhra Pradesh",
+      "estd": 2017,
+      "exams": [
+        "ipmat",
+        "clat",
+        "ias"
+      ],
+      "rating": 4.3,
+      "ratingCount": 8,
+      "verified": false,
+      "thumb": "https://unavatar.io/raosacademy.in",
+      "about": "RAO'S Academy is a Seethammadhara-based coaching institute in Visakhapatnam, founded in 2017 by Rama Rao, offering IPMAT preparation alongside CLAT, UPSC and various government-exam coaching tracks. It runs both offline classroom batches and online courses. Independent Google/Justdial review data for this institute is thin, so it's worth confirming current batch details directly before enrolling.",
+      "highlights": [
+        "Founded 2017, covers IPMAT, CLAT and UPSC coaching",
+        "Offers both offline classroom and online course options",
+        "One of the few local options with a dedicated IPMAT track"
+      ],
+      "website": "https://raosacademy.in/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "iace-visakhapatnam",
+      "type": "coaching",
+      "name": "IACE (Indian Academy of Competitive Exams)",
+      "city": "visakhapatnam",
+      "locality": "Dwaraka Nagar",
+      "address": "47-10-24/25, 2nd Floor, above Axis Bank, Dwaraka Nagar Road, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.5,
+      "ratingCount": 22,
+      "verified": false,
+      "thumb": "https://unavatar.io/iace.co.in",
+      "about": "IACE is a Dwaraka Nagar coaching institute in Visakhapatnam specialising in SSC (CGL, CHSL) and banking-exam preparation, including IBPS, SBI and RRB. It operates seven days a week and runs a daily mock-test program branded as its 'Real Intensive Program'. Review ratings for IACE vary noticeably between directories, so it's worth checking its current Google Maps listing directly before enrolling.",
+      "highlights": [
+        "Dedicated SSC and banking-exam coaching, not a generalist institute",
+        "Open seven days a week with daily mock tests",
+        "Runs a structured 'Real Intensive Program' for exam practice"
+      ],
+      "website": "https://iace.co.in/",
+      "mode": "offline",
+      "googleRating": 3.8,
+      "googleReviewCount": 18
+    },
+    {
+      "slug": "victory-study-circle-visakhapatnam",
+      "type": "coaching",
+      "name": "Victory Study Circle",
+      "city": "visakhapatnam",
+      "locality": "Dwaraka Nagar",
+      "address": "Door No. 47-7-35/1, 4th Lane, Dwaraka Nagar, opposite Sundaram Finance, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "ssc"
+      ],
+      "rating": 4.6,
+      "ratingCount": 19,
+      "verified": false,
+      "about": "Victory Study Circle is a Dwaraka Nagar coaching centre in Visakhapatnam focused on SSC and general competitive-exam preparation. Reviews across multiple platforms consistently single out the quality of its class notes and current-affairs/GK material as a strength. It's open seven days a week, with shorter hours on Sundays.",
+      "highlights": [
+        "Consistently praised across reviews for class-notes and GK material",
+        "Open seven days a week",
+        "Focused specifically on SSC and general competitive exams"
+      ],
+      "website": "http://www.victorystudycircle.com/",
+      "mode": "offline",
+      "googleRating": 4.6,
+      "googleReviewCount": 281
+    },
+    {
+      "slug": "ample-education-visakhapatnam",
+      "type": "coaching",
+      "name": "AMPLE Education",
+      "city": "visakhapatnam",
+      "locality": "Gajuwaka",
+      "address": "Door No. 10-6-7, beside SBI Bank, 2nd Floor, Gajuwaka, Visakhapatnam, Andhra Pradesh 530026",
+      "estd": null,
+      "exams": [
+        "ssc"
+      ],
+      "rating": 4.7,
+      "ratingCount": 10,
+      "verified": false,
+      "about": "AMPLE Education is a Gajuwaka-based coaching institute offering SSC exam preparation alongside Bank, Railways and Defence/Police recruitment coaching. Reviews specifically note its focus on physical-fitness-exam preparation for Defence and Police recruitment in addition to the standard academic syllabus, making it a somewhat different option from Vizag's mostly-academic SSC coaching centres.",
+      "highlights": [
+        "Covers SSC alongside Bank, Railways and Defence/Police exams",
+        "Notable focus on physical-fitness prep for Defence/Police recruitment",
+        "Gajuwaka's primary local competitive-exam coaching option"
+      ],
+      "mode": "offline",
+      "googleRating": 4.8,
+      "googleReviewCount": 120
+    },
+    {
+      "slug": "epitome-of-gs-visakhapatnam",
+      "type": "coaching",
+      "name": "Epitome of GS",
+      "city": "visakhapatnam",
+      "locality": "Dwaraka Nagar",
+      "address": "Mohans Arcade, Flat No. 404, 5th Floor, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh 530016",
+      "estd": null,
+      "exams": [
+        "ssc"
+      ],
+      "rating": 4.4,
+      "ratingCount": 7,
+      "verified": false,
+      "about": "Epitome of GS is a Dwaraka Nagar coaching institute in Visakhapatnam focused on SSC (CGL, CHSL, CPO, JE) along with UPSC and state PSC coaching. Unlike several other local options, it appears to operate as a single standalone centre rather than a multi-city chain. Reviews specifically highlight the strength of its general-studies and current-affairs faculty, along with an on-site library.",
+      "highlights": [
+        "Standalone centre, not part of a multi-city chain",
+        "Reviews highlight strong general-studies/current-affairs faculty",
+        "Has an on-site library facility for students"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
