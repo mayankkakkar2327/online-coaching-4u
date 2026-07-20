@@ -3851,6 +3851,324 @@
       ],
       "website": "https://aptitudetrivandrum.com/",
       "mode": "offline"
+    },
+    {
+      "slug": "lakshya-ca-campus-kochi",
+      "type": "coaching",
+      "name": "Lakshya CA Campus",
+      "city": "kochi",
+      "locality": "Ernakulam Town",
+      "address": "6th Floor, Metro Palace, opp. North Railway Station, Ernakulam Town, Kochi, Kerala 682018",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.2,
+      "ratingCount": 9,
+      "verified": false,
+      "thumb": "https://unavatar.io/lakshyacommerce.com",
+      "about": "Lakshya CA Campus is a Kerala-based chartered accountancy coaching network whose first branch was established in Ernakulam, co-founded by Adheesh Damodaran and Orwell Lionel. It now runs seven centres across the state, including Ernakulam, Kozhikode and Thiruvananthapuram, focused on CA Foundation, Intermediate and Final level coaching.",
+      "highlights": [
+        "Ernakulam was the network's founding centre",
+        "Runs seven campuses across Kerala under one brand",
+        "Focused specifically on CA Foundation, Intermediate and Final"
+      ],
+      "website": "https://lakshyacommerce.com/campus/kochi",
+      "mode": "offline"
+    },
+    {
+      "slug": "ks-academy-kochi",
+      "type": "coaching",
+      "name": "KS Academy (Ernakulam)",
+      "city": "kochi",
+      "locality": "Ernakulam",
+      "address": "Ernakulam, Kochi, Kerala 682021",
+      "estd": 2010,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.1,
+      "ratingCount": 6,
+      "verified": false,
+      "thumb": "https://unavatar.io/ksacademy.co.in",
+      "about": "KS Academy is a national CA coaching brand founded by CA K. Saravanan in 2010, with a dedicated Ernakulam-facing platform serving Kerala students, primarily through online and recorded/live formats. The academy has 14+ years of online CA coaching experience and a presence in multiple Indian cities including Chennai, Bengaluru, Mumbai and Delhi.",
+      "highlights": [
+        "Founder has 25+ years of teaching experience",
+        "14+ years of online CA coaching experience",
+        "Presence across multiple Indian cities under one brand"
+      ],
+      "website": "https://ksacademyernakulam.com",
+      "mode": "online"
+    },
+    {
+      "slug": "prabhus-institute-kochi",
+      "type": "coaching",
+      "name": "Prabhu's Institute",
+      "city": "kochi",
+      "locality": "Ernakulam",
+      "address": "Ernakulam, Kochi, Kerala",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 7,
+      "verified": false,
+      "thumb": "https://unavatar.io/prabhusinstitute.com",
+      "about": "Prabhu's Institute is a Kochi-based coaching centre offering combined CA, CMA and CS preparation, alongside commerce degree tuitions. It runs both offline and online batches with faculty who are practicing chartered accountants and college lecturers from the wider South Indian region.",
+      "highlights": [
+        "Covers CA, CMA and CS under one institute",
+        "Faculty drawn from Kerala, Tamil Nadu and Karnataka",
+        "Offers both offline and online batches"
+      ],
+      "website": "https://prabhusinstitute.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-learning-resources-kochi",
+      "type": "coaching",
+      "name": "IMS Cochin",
+      "city": "kochi",
+      "locality": "Shenoy's Junction",
+      "address": "First Floor, MKV Building, 40/8982B, M.G. Road, Shenoy's Junction, Ernakulam, Kochi, Kerala 682035",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.4,
+      "ratingCount": 14,
+      "verified": false,
+      "thumb": "https://unavatar.io/imsindia.com",
+      "about": "IMS Cochin is the local branch of IMS Learning Resources, one of India's oldest MBA-entrance coaching brands, operating two centres in Ernakulam — at Shenoy's Junction and Palarivattom. Beyond CAT/MBA coaching, the centre's own page lists CLAT and BBA/IPM among its offerings, and has published numerous CAT 90+ percentile student results.",
+      "highlights": [
+        "Two centres in Ernakulam: Shenoy's Junction and Palarivattom",
+        "Explicitly covers CAT, CLAT and BBA/IPM at the same centres",
+        "Part of a 40+ year-old national test-prep brand"
+      ],
+      "website": "https://imsindia.com/center/cochin/index.html",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-kochi",
+      "type": "coaching",
+      "name": "T.I.M.E. Cochin",
+      "city": "kochi",
+      "locality": "Ravipuram",
+      "address": "39/6340, 1st Floor, Cheloor Building, Ravipuram Road, Kochi, Kerala 682016",
+      "estd": 1992,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.5,
+      "ratingCount": 17,
+      "verified": false,
+      "thumb": "https://unavatar.io/time4education.com",
+      "about": "T.I.M.E. is a pan-India test-prep company founded in 1992 that operates seven branches across greater Kochi, including Ravipuram and Palarivattom. Its Kochi centres offer coaching not only for CAT/MBA entrance but also CLAT, IPM/IPMAT, SSC and bank exams, making it one of the few single institutes in the city spanning four exam categories.",
+      "highlights": [
+        "Seven branches across greater Kochi — the widest local network of any chain",
+        "Covers CAT, CLAT, IPM and SSC at the same branches",
+        "Part of a pan-India chain founded in 1992"
+      ],
+      "website": "https://www.time4education.com/Cochin",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-kochi",
+      "type": "coaching",
+      "name": "Career Launcher (Cochin)",
+      "city": "kochi",
+      "locality": "Ravipuram",
+      "address": "Krishnanjali Towers, Sannidhi Road, near Ravipuram Temple, Ravipuram, Ernakulam, Kochi, Kerala 682016",
+      "estd": 1995,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.6,
+      "ratingCount": 21,
+      "verified": false,
+      "thumb": "https://unavatar.io/careerlauncher.com",
+      "about": "Career Launcher Cochin is the Ravipuram-based branch of the national Career Launcher network, operating since 1995 and led locally by directors Vishnu S S and Allen Thomas Kannattu. Beyond MBA-entrance coaching, the centre explicitly runs law-entrance (CLAT/AILET) and IPM/BBA coaching verticals, reporting 9 of the top 10 CLAT'24 ranks and 5 of the top 5 AILET'24 ranks on its own centre page.",
+      "highlights": [
+        "Runs CAT, CLAT/AILET and IPM/BBA verticals at one centre",
+        "Reports 9/10 top CLAT'24 ranks on its own centre page",
+        "Branch of the national Career Launcher network since 1995"
+      ],
+      "website": "https://www.careerlauncher.com/cochin/",
+      "mode": "hybrid",
+      "googleRating": 4.7,
+      "googleReviewCount": 1000
+    },
+    {
+      "slug": "heritage-classes-kochi",
+      "type": "coaching",
+      "name": "Heritage (Heritage Classes)",
+      "city": "kochi",
+      "locality": "Vidya Nagar",
+      "address": "VNRA-20, Doctor's Lane, opposite Infra Hamlin Apartments, Vidya Nagar, Kochi, Kerala 682020",
+      "estd": 1998,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.7,
+      "ratingCount": 19,
+      "verified": false,
+      "thumb": "https://unavatar.io/heritageclasses.com",
+      "about": "Heritage is a Kochi-based CLAT coaching institute founded in 1998 by Mariam J Pattom, billed as India's first classroom coaching centre focused on National Law School entrance exams. Based in Vidya Nagar, it prepares students for CLAT, AILET, LNAT and other law entrances, with several faculty who are NUALS (NLU Kochi) alumnae, and its published 2025 topper list includes admits to NLSIU Bangalore and NALSAR Hyderabad.",
+      "highlights": [
+        "Founded 1998 — billed as India's first classroom CLAT coaching centre",
+        "Multiple faculty are NUALS (NLU Kochi) alumnae",
+        "2025 toppers list includes NLSIU Bangalore and NALSAR Hyderabad admits"
+      ],
+      "website": "https://heritageclasses.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "law-prep-tutorial-kochi",
+      "type": "coaching",
+      "name": "Law Prep Tutorial (Kochi)",
+      "city": "kochi",
+      "locality": "Elamkulam",
+      "address": "Match Point Building, Subhash Chandra Bose Road, Elamkulam, Kochi, Kerala 682019",
+      "estd": 2001,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.3,
+      "ratingCount": 10,
+      "verified": false,
+      "about": "Law Prep Tutorial is a pan-India CLAT coaching chain founded in 2001 by Sagar Joshi, with an active branch in Elamkulam, Kochi — one of 13 branches nationally. It is one of the longer-running national CLAT-prep networks with a genuine local presence, alongside home-grown Kochi specialists like Heritage and The Guide.",
+      "highlights": [
+        "Part of a national CLAT chain founded in 2001, 13 branches",
+        "One of the longer-running national CLAT-prep networks in Kochi",
+        "Dedicated CLAT/AILET specialist, not a generalist institute"
+      ],
+      "website": "https://www.lawpreptutorial.com/ernakulam",
+      "mode": "offline"
+    },
+    {
+      "slug": "the-guide-clat-kochi",
+      "type": "coaching",
+      "name": "The Guide (Law Entrance Coaching Centre)",
+      "city": "kochi",
+      "locality": "Kacherippady",
+      "address": "Kanakath Building, St. Benedict Road Junction, Kacherippady, Ernakulam, Kochi, Kerala 682018",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.6,
+      "ratingCount": 15,
+      "verified": false,
+      "about": "The Guide is a Kacherippady (Ernakulam)-based law-entrance coaching centre that has trained CLAT/NUALS aspirants for years, taught by practicing advocates and law lecturers rather than generalist tutors. It carries a strong local reputation, with a high directory review volume, though this has not been independently confirmed as a Google rating.",
+      "highlights": [
+        "Taught by practicing advocates and law lecturers",
+        "Long-established local reputation for CLAT/NUALS prep",
+        "Dedicated CLAT specialist institute"
+      ],
+      "website": "https://clatentranceguide.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "jmj-law-institute-kochi",
+      "type": "coaching",
+      "name": "J.M.J Law Institute",
+      "city": "kochi",
+      "locality": "Ravipuram",
+      "address": "TEAMS Building, South Overbridge, K.S.N. Menon Road, Ravipuram, Ernakulam, Kochi, Kerala 682016",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.4,
+      "ratingCount": 8,
+      "verified": false,
+      "about": "JMJ Law Institute is an Ernakulam-based (Ravipuram) law-entrance coaching centre operated by practicing lawyers, preparing students for CLAT as well as Kerala-specific and other private-university law entrances (KLEE, CUSAT, SLAT, MHCET). It reported over 180 successful placements across these exams in 2024.",
+      "highlights": [
+        "Operated by practicing lawyers, not generalist tutors",
+        "Also covers Kerala-specific law entrances (KLEE, CUSAT)",
+        "Reported 180+ exam placements in 2024"
+      ],
+      "website": "https://jmjlawentrance.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "success-academy-kochi",
+      "type": "coaching",
+      "name": "Success Academy (Kochi)",
+      "city": "kochi",
+      "locality": "Valanjambalam",
+      "address": "3rd Floor, Appusoutham Building, Ravipuram Road, Valanjambalam, Ernakulam, Kochi, Kerala 682016",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.5,
+      "ratingCount": 13,
+      "verified": false,
+      "about": "Success Academy is an Ernakulam-based coaching centre (Valanjambalam) specialising in SSC, banking (IBPS/SBI PO and Clerk) and railway recruitment exam preparation. It operates from multiple micro-locations across the city and reports a large volume of student reviews, though the exact source of that review figure could not be independently confirmed as Google-specific.",
+      "highlights": [
+        "Multiple micro-locations across Ernakulam",
+        "Covers SSC, Bank PO/Clerk and Railway exams",
+        "High review volume on local directories"
+      ],
+      "website": "https://successforyou.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "veranda-race-kochi",
+      "type": "coaching",
+      "name": "Veranda RACE (Kochi)",
+      "city": "kochi",
+      "locality": "Palarivattom",
+      "address": "3rd Floor, opposite KR Bakes, Palarivattom Junction, Ernakulam, Kochi, Kerala 682025",
+      "estd": 2018,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.3,
+      "ratingCount": 9,
+      "verified": false,
+      "about": "Veranda RACE Kochi is the local branch of Veranda RACE, a South India-wide government-exam coaching brand launched in November 2018 under Veranda Learning Solutions, with 40+ offline centres. Its Palarivattom branch offers coaching for SSC, banking, railway recruitment and Kerala PSC exams.",
+      "highlights": [
+        "Part of a 40+ centre South India network",
+        "Covers SSC, Banking, Railways and Kerala PSC",
+        "Located at Palarivattom Junction, Ernakulam"
+      ],
+      "website": "https://verandarace.com/branches/kochi",
+      "mode": "offline"
+    },
+    {
+      "slug": "avision-institute-kochi",
+      "type": "coaching",
+      "name": "Avision Institute",
+      "city": "kochi",
+      "locality": "Kaloor",
+      "address": "2nd Floor, Sree Muruka Building, Kaloor-Kadavanthra Road, near A.J. Hall, Kaloor, Ernakulam, Kochi, Kerala 682017",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.2,
+      "ratingCount": 4,
+      "verified": false,
+      "about": "Avision Institute is a Kaloor (Ernakulam)-based coaching centre offering preparation for SSC, banking, railway recruitment and Kerala PSC exams, with an additional UPSC vertical, in both classroom and online formats. Its directory review sample is small, so any rating should be treated with caution until confirmed directly.",
+      "highlights": [
+        "Also runs a Kerala PSC and UPSC coaching vertical",
+        "Offers both classroom and online formats",
+        "Based in the Kaloor commercial area of Ernakulam"
+      ],
+      "website": "https://avision.co.in/",
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
