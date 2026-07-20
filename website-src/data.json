@@ -2245,7 +2245,8 @@
       "address": "Coimbatore, Tamil Nadu",
       "estd": null,
       "exams": [
-        "ca"
+        "ca",
+        "clat"
       ],
       "rating": 4.3,
       "ratingCount": 15,
@@ -3345,6 +3346,260 @@
         "Single Agrahara location",
         "Verification confidence is moderate — confirm directly before enrolling"
       ],
+      "mode": "offline"
+    },
+    {
+      "slug": "jk-shah-classes-coimbatore",
+      "type": "coaching",
+      "name": "JK Shah Classes (Coimbatore)",
+      "city": "coimbatore",
+      "locality": "R.S. Puram",
+      "address": "No. 179, Subaveena Towers, 4th Floor, Krishnaswamy Mudaliar Road (Brookebond Road), opposite Brookefields Mall, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.6,
+      "ratingCount": 18,
+      "verified": false,
+      "thumb": "https://unavatar.io/jkshahclasses.com",
+      "about": "JK Shah Classes is a pan-India commerce coaching chain founded in 1983 by Prof. J.K. Shah, with a branch in R.S. Puram, Coimbatore. The centre offers classroom coaching for CA Foundation, Intermediate and Final levels alongside the chain's online learning platform. It's one of India's largest commerce-education franchises, with a presence across multiple states.",
+      "highlights": [
+        "Branch of a national CA/CS/CMA chain founded in 1983",
+        "Covers CA Foundation, Intermediate and Final levels",
+        "Backed by an online learning platform alongside classroom batches"
+      ],
+      "website": "https://www.jkshahclasses.com/",
+      "mode": "hybrid",
+      "googleRating": 4.6,
+      "googleReviewCount": 215
+    },
+    {
+      "slug": "sooriya-academy-coimbatore",
+      "type": "coaching",
+      "name": "Sooriya Academy",
+      "city": "coimbatore",
+      "locality": "Gandhipuram",
+      "address": "Kalidas Road, Ram Nagar, Gandhipuram, Coimbatore, Tamil Nadu 641009",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.7,
+      "ratingCount": 6,
+      "verified": false,
+      "thumb": "https://unavatar.io/sooriyaacademy.com",
+      "about": "Sooriya Academy is a Gandhipuram-based coaching centre in Coimbatore for CA and CMA students, positioned around affordable, exam-focused preparation. Independent directory rankings place it among the city's more notable CA coaching options, though the founder's full name and precise founding year could not be independently confirmed beyond references to 'Mr. Sooriya' in testimonials.",
+      "highlights": [
+        "Covers both CA and CMA training",
+        "Ranked among Coimbatore's notable CA coaching options by directory rankings",
+        "Positioned around affordable, exam-focused preparation"
+      ],
+      "website": "http://sooriyaacademy.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "ys-academy-coimbatore",
+      "type": "coaching",
+      "name": "YS Academy",
+      "city": "coimbatore",
+      "locality": "Ram Nagar",
+      "address": "219-220, Vivekananda Road, Ram Nagar, Coimbatore, Tamil Nadu 641009",
+      "estd": 2009,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.8,
+      "ratingCount": 24,
+      "verified": false,
+      "thumb": "https://unavatar.io/ysacademy.in",
+      "about": "YS Academy, founded in 2009 by CA Yogesh Kumar, is a Coimbatore CA coaching institute with branches in Ram Nagar and Peelamedu. It has partnered with local colleges, including an MoU with NGP College for CA/CMA coaching, reported in local press, and states it has trained over 10,000 students to date. It offers CA Foundation, Intermediate and Final preparation through classroom instruction.",
+      "highlights": [
+        "Founded 2009 by CA Yogesh Kumar",
+        "MoU with NGP College for CA/CMA coaching, reported in local press",
+        "Two branches: Ram Nagar and Peelamedu"
+      ],
+      "website": "https://ysacademy.in/",
+      "mode": "offline",
+      "googleRating": 4.8,
+      "googleReviewCount": 1074
+    },
+    {
+      "slug": "time-coimbatore",
+      "type": "coaching",
+      "name": "T.I.M.E. Coimbatore",
+      "city": "coimbatore",
+      "locality": "R.S. Puram",
+      "address": "A186, Kiruba Complex, near Kennedy Theatre, D.B. Road, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+      "estd": 1992,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.5,
+      "ratingCount": 19,
+      "verified": false,
+      "thumb": "https://unavatar.io/time4education.com",
+      "about": "T.I.M.E. runs two centres in Coimbatore (Avinashi Road and R.S. Puram), part of the pan-India test-prep chain founded in 1992 in Hyderabad with 188 offices in 96 cities. The Coimbatore centres offer classroom and online coaching for CAT and other MBA-entrance exams, alongside CLAT, IPM and SSC preparation under the same roof.",
+      "highlights": [
+        "Two centres in Coimbatore: Avinashi Road and R.S. Puram",
+        "Part of a national chain with 188 offices in 96 cities",
+        "Covers CAT, CLAT, IPM and SSC at the same location"
+      ],
+      "website": "https://timecbe.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-learning-resources-coimbatore",
+      "type": "coaching",
+      "name": "IMS Coimbatore",
+      "city": "coimbatore",
+      "locality": "Race Course",
+      "address": "176-2, Renaissance Terrace, Thirugnanasambandam Road, Race Course, Coimbatore, Tamil Nadu 641018",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.3,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/imsindia.com",
+      "about": "IMS Coimbatore, part of the IMS Learning Resources network founded in 1977, has operated at Race Course, Coimbatore for roughly two decades. The centre provides classroom and mentoring-based preparation for CAT and other MBA-entrance exams, and doubles as a CLAT and BBA/IPM coaching hub under the same roof, with named faculty mentors listed on its official centre page.",
+      "highlights": [
+        "Operating in Coimbatore for roughly two decades",
+        "Covers CAT, CLAT and BBA/IPM at a single centre",
+        "Named faculty mentors listed for legal aptitude and verbal reasoning"
+      ],
+      "website": "https://www.imsindia.com/center/coimbatore/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-coimbatore",
+      "type": "coaching",
+      "name": "Career Launcher (Coimbatore)",
+      "city": "coimbatore",
+      "locality": "R.S. Puram",
+      "address": "Door No. 160/3, 3rd Floor, Thiruvenkatasamy Road (West), R.S. Puram, Coimbatore, Tamil Nadu 641002",
+      "estd": 1996,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.5,
+      "ratingCount": 9,
+      "verified": false,
+      "thumb": "https://unavatar.io/careerlauncher.com",
+      "about": "Career Launcher's Coimbatore centre, in R.S. Puram, is part of the national CL Educate network founded in 1995-96 by Satya Narayanan R and co-founders. The centre offers classroom coaching for CAT and other MBA-entrance exams, alongside CLAT, IPM/BBA and CUET preparation, and publishes named student outcomes including CLAT and IPMAT admits on its official page. An earlier Peelamedu branch has since closed; R.S. Puram is the currently active centre.",
+      "highlights": [
+        "Part of the national Career Launcher (CL Educate) network",
+        "Covers CAT, CLAT, IPM/BBA and CUET at one centre",
+        "Publishes named student results, including CLAT and IPMAT admits"
+      ],
+      "website": "https://www.careerlauncher.com/coimbatore/",
+      "mode": "hybrid",
+      "googleRating": 4.7,
+      "googleReviewCount": 64
+    },
+    {
+      "slug": "clatprep-coimbatore",
+      "type": "coaching",
+      "name": "ClatPrep (Coimbatore)",
+      "city": "coimbatore",
+      "locality": "R.S. Puram",
+      "address": "A186, Kiruba Complex, near Kennedy Theatre, D.B. Road, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 5,
+      "verified": false,
+      "about": "ClatPrep, now operating under the T.I.M.E. brand, runs CLAT-focused coaching centres in Coimbatore on Avinashi Road and in R.S. Puram. The centres provide classroom, online and correspondence preparation specifically for CLAT, AILET, SLAT and LSAT, backed by T.I.M.E.'s national test-prep infrastructure, and publish named student results including reported All India Ranks on their official site.",
+      "highlights": [
+        "Dedicated CLAT/AILET/SLAT/LSAT specialist, now under the T.I.M.E. brand",
+        "Publishes named toppers with reported CLAT All India Ranks",
+        "Classroom, online and correspondence formats"
+      ],
+      "website": "https://clatprepindia.com/cp-coimbatore.html",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ibt-institute-coimbatore",
+      "type": "coaching",
+      "name": "IBT Institute (Coimbatore)",
+      "city": "coimbatore",
+      "locality": "Pappanaickenpalayam",
+      "address": "2nd Floor, No. 62, Dr. NRN Layout, near Mani School Bus Stop, Pappanaickenpalayam, Coimbatore, Tamil Nadu 641037",
+      "estd": 2009,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.6,
+      "ratingCount": 8,
+      "verified": false,
+      "about": "IBT Institute's Coimbatore centre, in Pappanaickenpalayam, has operated since approximately 2009, offering classroom coaching for SSC exams (CGL, CHSL, MTS, CPO) as well as banking and railway recruitment exam prep. It's part of a larger multi-city Indian coaching network and markets itself as ISO-certified, though its self-reported qualification-rate claims haven't been independently audited.",
+      "highlights": [
+        "Operating in Coimbatore since approximately 2009",
+        "Covers SSC (CGL, CHSL, MTS, CPO) alongside Bank and RRB prep",
+        "Part of a larger multi-city Indian coaching network"
+      ],
+      "website": "https://www.ibtindia.com/ssc-coaching-in-coimbatore",
+      "mode": "offline",
+      "googleRating": 4.8,
+      "googleReviewCount": 19
+    },
+    {
+      "slug": "veranda-race-coimbatore",
+      "type": "coaching",
+      "name": "Veranda RACE (Coimbatore)",
+      "city": "coimbatore",
+      "locality": "R.S. Puram",
+      "address": "1st Floor, Krishna Building, 545, Diwan Bahadur Road, adjacent to SBI, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+      "estd": 2018,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.3,
+      "ratingCount": 10,
+      "verified": false,
+      "about": "Veranda RACE, founded in November 2018 by Bharath Seeman as part of Veranda Learning Solutions, operates a Coimbatore centre on Diwan Bahadur Road in R.S. Puram. It offers classroom and online coaching for SSC exams as well as TNPSC, banking and railway recruitment exams, and is part of a larger South Indian network of 40+ centres — relevant for Tamil Nadu-based government-exam aspirants who also want TNPSC coverage.",
+      "highlights": [
+        "Founded November 2018 by Bharath Seeman",
+        "Part of a South Indian network of 40+ centres",
+        "Also covers TNPSC alongside SSC, relevant for Tamil Nadu aspirants"
+      ],
+      "website": "https://verandarace.com/branches/coimbatore",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "plutus-academy-coimbatore",
+      "type": "coaching",
+      "name": "Plutus Academy (Coimbatore)",
+      "city": "coimbatore",
+      "locality": "Gandhipuram",
+      "address": "No. 316, Sri Devi Towers, 5th Street Extension, 100 Feet Road, Gandhipuram, Coimbatore, Tamil Nadu 641012",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.1,
+      "ratingCount": 6,
+      "verified": false,
+      "about": "Plutus Academy operates a Coimbatore branch in Gandhipuram, one of just four cities nationally (alongside Noida, Bangalore and Jammu) where the Delhi-founded institute runs offline classroom coaching, which lends some credibility to a genuine physical presence rather than just online marketing. The Coimbatore centre offers SSC and banking-exam preparation.",
+      "highlights": [
+        "One of only four cities where the institute runs offline classes",
+        "Focused on SSC and banking-exam preparation",
+        "Backed by a Delhi-headquartered parent organisation"
+      ],
+      "website": "https://plutusacademy.com/",
       "mode": "offline"
     }
   ],
