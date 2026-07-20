@@ -3045,6 +3045,307 @@
         "Has an on-site library facility for students"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "greater-knack-mysuru",
+      "type": "coaching",
+      "name": "Greater Knack Professional Review",
+      "city": "mysuru",
+      "locality": "Vijayanagar II Stage",
+      "address": "#14, 3rd Main, Mahadeshwara Badavane 2nd Stage, High Tension Road, Vijayanagar II Stage, near Surya Bakery, Mysuru, Karnataka 570017",
+      "estd": 2018,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 13,
+      "verified": false,
+      "thumb": "https://unavatar.io/greaterknack.com",
+      "about": "Greater Knack Professional Review is a Vijayanagar II Stage coaching institute in Mysuru offering CA, CS and CMA (USA)/ACCA coaching, alongside PUC and KCET tuitions. Established around 2018, it also runs sister branches in Mangalore and Bangalore under the same brand. Reviews cite faculty expertise and exam-oriented training, with 'CA Sagar' mentioned repeatedly as a key instructor.",
+      "highlights": [
+        "Sister branches in Mangalore and Bangalore under the same brand",
+        "Covers CA, CS and CMA (USA)/ACCA under one roof",
+        "Also runs PUC and KCET coaching alongside professional courses"
+      ],
+      "website": "https://www.greaterknack.com/",
+      "mode": "offline",
+      "googleRating": 4.4,
+      "googleReviewCount": 146
+    },
+    {
+      "slug": "ekcel-academy-mysuru",
+      "type": "coaching",
+      "name": "Ekcel Academy",
+      "city": "mysuru",
+      "locality": "Saraswathipuram",
+      "address": "273, 16th Main Road, Saraswathipuram, Mysuru, Karnataka 570009",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.3,
+      "ratingCount": 8,
+      "verified": false,
+      "thumb": "https://unavatar.io/ekcelacademy.com",
+      "about": "Ekcel Academy is a Saraswathipuram-based coaching institute in Mysuru offering CA, CS and CMA coaching, founded by a group of practicing Company Secretary professionals. It deliberately keeps batch sizes small (around 50 students) rather than running the large-batch model common at bigger chains. No independent Google/Justdial rating could be confirmed at time of research, so treat any star rating with caution until verified directly.",
+      "highlights": [
+        "Founded by practicing Company Secretary professionals",
+        "Deliberately small batch sizes (around 50 students)",
+        "Covers CA, CS and CMA under one institute"
+      ],
+      "website": "https://ekcelacademy.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-mysuru",
+      "type": "coaching",
+      "name": "Career Launcher (Mysuru)",
+      "city": "mysuru",
+      "locality": "Vijayanagar",
+      "address": "1st Floor, Building No. 511, New Kalidasa Road, Vijayanagar 1st Stage, Mysuru, Karnataka 570017",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.4,
+      "ratingCount": 17,
+      "verified": false,
+      "thumb": "https://unavatar.io/careerlauncher.com",
+      "about": "Career Launcher's Mysuru centre, in Vijayanagar, is a branch of the national Career Launcher (CL Educate) network, offering CAT/MBA-entrance coaching alongside CLAT, IPM and SSC/banking preparation at the same location. Google Maps shows the branch at roughly a 4-star rating, though an exact review count wasn't independently confirmed; a separate directory listing shows 214 ratings. It runs both classroom and online formats.",
+      "highlights": [
+        "Branch of the national Career Launcher (CL Educate) network",
+        "Offers CAT, CLAT, IPM and SSC coaching at one Vijayanagar centre",
+        "Classroom and online course formats available"
+      ],
+      "website": "https://www.careerlauncher.com/mysuru/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-mysuru",
+      "type": "coaching",
+      "name": "T.I.M.E. Mysuru",
+      "city": "mysuru",
+      "locality": "Vijayanagar",
+      "address": "No. 5487, 1st Floor, above erstwhile State Bank of Mysore, Vijayanagar Water Tank Circle, Vijayanagar 2nd Stage, Mysuru, Karnataka 570017",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.6,
+      "ratingCount": 21,
+      "verified": false,
+      "thumb": "https://unavatar.io/time4education.com",
+      "about": "T.I.M.E. runs two centres in Mysuru (Lakshmipuram and Vijayanagar), offering CAT and other MBA-entrance coaching alongside SSC, Bank PO, CLAT and IPM preparation. It's part of India's Triumphant Institute of Management Education network, one of the country's largest exam-coaching chains, and its Vijayanagar centre carries a 4.5-star Justdial rating from 163 reviews. It runs classroom, online and correspondence formats, along with its pan-India AIMCAT mock-test series.",
+      "highlights": [
+        "Two centres in Mysuru: Lakshmipuram and Vijayanagar",
+        "Part of the pan-India T.I.M.E. coaching network",
+        "Runs the AIMCAT mock-test series benchmarked nationally"
+      ],
+      "website": "https://www.time4education.com/Mysore",
+      "mode": "hybrid",
+      "googleRating": 4.5,
+      "googleReviewCount": 163
+    },
+    {
+      "slug": "ims-learning-resources-mysuru",
+      "type": "coaching",
+      "name": "IMS Mysuru",
+      "city": "mysuru",
+      "locality": "Jayalakshmipuram",
+      "address": "2nd Floor, Shri Sainik Mansion, No. 30/A & 30/B, Kalidasa Road, near Green Leaf Hotel, Jayalakshmipuram, Mysuru, Karnataka 570012",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 9,
+      "verified": false,
+      "thumb": "https://unavatar.io/imsindia.com",
+      "about": "IMS Mysuru, in Jayalakshmipuram, is a branch of IMS Learning Resources, one of India's longest-running MBA-entrance coaching networks with 90+ centres nationally. It offers CAT, GMAT, CLAT, MAT and related exam coaching in classroom, online and correspondence formats, along with its tiered 'CATapult' program structure. No Mysuru-specific Google or Justdial rating could be independently confirmed at time of research.",
+      "highlights": [
+        "Branch of the 40+ year-old IMS Learning Resources network",
+        "Runs tiered 'CATapult' program structure for CAT prep",
+        "Classroom, online and correspondence formats available"
+      ],
+      "website": "https://www.imsindia.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "bulls-eye-mysuru",
+      "type": "coaching",
+      "name": "Bulls Eye (Mysuru)",
+      "city": "mysuru",
+      "locality": "Kuvempunagar",
+      "address": "1050 Panchamantra Road, Kuvempunagar, Mysuru, Karnataka 570023",
+      "estd": 1996,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.5,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/bullseye.ac",
+      "about": "Bulls Eye's Mysuru centre, in Kuvempunagar, is confirmed via the institute's own website and is led locally by centre head Kumara Krishna K, an NIT Jalandhar engineering graduate. It's one of the few single institutes confirmed to cover four exam categories at one location: CAT/MBA entrance, CLAT, the 5-year IPM program, and SSC/Bank PO. The parent brand was founded in 1996. No independently verified Google rating was found for this specific branch.",
+      "highlights": [
+        "One location covering CAT, CLAT, IPM and SSC/Bank PO",
+        "Parent brand founded in 1996",
+        "Local centre led by an NIT Jalandhar engineering graduate"
+      ],
+      "website": "https://bullseye.ac/mysore-center.html",
+      "mode": "offline"
+    },
+    {
+      "slug": "vprov-mysuru",
+      "type": "coaching",
+      "name": "Vprov",
+      "city": "mysuru",
+      "locality": "Hootagalli",
+      "address": "DE PAUL International School, Hootagalli, Mysuru, Karnataka",
+      "estd": 2006,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.0,
+      "ratingCount": 6,
+      "verified": false,
+      "about": "Vprov is a competitive-exam coaching organisation with a Mysuru presence at DE PAUL International School, Hootagalli, founded in 2006 by Prof. Rajesh Kumar, an IIT Madras/IIM Bangalore alumnus. It offers coaching across CAT, CLAT, IPMAT and government/SSC-related exams, positioning itself with a not-for-profit orientation. Its 3.9/5 rating from 48 reviews comes from aggregator data and could not be cross-verified directly against Google Maps.",
+      "highlights": [
+        "Founded 2006 by an IIT Madras/IIM Bangalore alumnus",
+        "One of the few Mysuru-linked names explicitly offering IPMAT prep",
+        "Not-for-profit positioning, unlike most for-profit coaching chains"
+      ],
+      "website": "https://vprov.com/",
+      "mode": "hybrid",
+      "googleRating": 3.9,
+      "googleReviewCount": 48
+    },
+    {
+      "slug": "law-prep-tutorial-mysuru",
+      "type": "coaching",
+      "name": "Law Prep Tutorial (Mysuru)",
+      "city": "mysuru",
+      "locality": "Vijayanagar",
+      "address": "449, First Floor, above Samagra Super Store, Jayachamarajendra Road, Vijayanagar-I Stage, Mysuru, Karnataka 570017",
+      "estd": 2001,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.4,
+      "ratingCount": 7,
+      "verified": false,
+      "about": "Law Prep Tutorial's Mysuru centre, in Vijayanagar-I Stage, is part of a national CLAT/AILET coaching chain founded in the early 2000s that has grown to 50+ city centres across India, confirmed via its official centre-locator page. The Mysuru branch offers classroom-based CLAT and AILET preparation with faculty the chain describes as having 10+ years of experience. A branch-specific rating could not be independently verified.",
+      "highlights": [
+        "Part of a national CLAT/AILET coaching chain, 50+ centres",
+        "Founded in the early 2000s, dedicated law-entrance focus",
+        "Confirmed Mysuru branch via the chain's official centre locator"
+      ],
+      "website": "https://www.lawpreptutorial.com/mysore",
+      "mode": "offline"
+    },
+    {
+      "slug": "clatprep-mysuru",
+      "type": "coaching",
+      "name": "CLATPrep (Mysore Centre)",
+      "city": "mysuru",
+      "locality": "Chamaraja Double Road",
+      "address": "No. 413/1A, 2nd Floor, above S.V. Traders, behind Indian Robin Groups, Chamaraja Double Road, near Ramaswamy Circle, Mysuru, Karnataka 570005",
+      "estd": 2015,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.1,
+      "ratingCount": 5,
+      "verified": false,
+      "about": "CLATPrep's Mysore centre, on Chamaraja Double Road, offers dedicated coaching for CLAT, AILET, SLAT and other law-entrance exams. The parent organisation was founded in Jaipur in 2015 and now operates as part of the T.I.M.E. group's law-coaching vertical. No independent rating data could be confirmed for the Mysore branch specifically.",
+      "highlights": [
+        "Dedicated CLAT/AILET/SLAT specialist, not a generalist institute",
+        "Now operates under the T.I.M.E. group's law-coaching vertical",
+        "Parent organisation founded 2015 in Jaipur"
+      ],
+      "website": "https://www.clatprepindia.com/cp-mysore.html",
+      "mode": "offline"
+    },
+    {
+      "slug": "vasista-mysuru",
+      "type": "coaching",
+      "name": "Vasista",
+      "city": "mysuru",
+      "locality": "Kuvempunagar",
+      "address": "Kuvempunagar, Mysuru, Karnataka 570023",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.2,
+      "ratingCount": 6,
+      "verified": false,
+      "about": "Vasista is a Kuvempunagar-based coaching centre in Mysuru offering Bank, Railways, SPSC/UPSC and school-entrance exam coaching, along with Vedic Maths classes. Its address and course list are confirmed via directory sources, though no independent Google or Justdial rating was found, so treat any star rating with caution until verified directly.",
+      "highlights": [
+        "Covers SSC-adjacent Bank, Railways and SPSC/UPSC prep",
+        "Also runs Vedic Maths classes alongside exam coaching",
+        "Single-location Kuvempunagar centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sapthagiri-academy-mysuru",
+      "type": "coaching",
+      "name": "Sapthagiri Academy (Career Forum)",
+      "city": "mysuru",
+      "locality": "Jayalakshmipuram",
+      "address": "#3, 1st Floor, Temple Road, near Mathru Mandali Circle, Jayalakshmipuram, Mysuru, Karnataka 570012",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.0,
+      "ratingCount": 5,
+      "verified": false,
+      "about": "Sapthagiri Academy, also referenced as Career Forum (a unit of Sapthagiri Education Service), is a Jayalakshmipuram coaching centre in Mysuru offering bank-exam coaching, cross-confirmed via two independent third-party directory listings at the same Temple Road address. No rating data was found, and its SSC-specific coverage (versus purely banking) is not fully confirmed — worth checking directly before enrolling.",
+      "highlights": [
+        "Confirmed via two independent directory listings at the same address",
+        "Focused on bank-exam coaching",
+        "Single Jayalakshmipuram location"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "shree-gurudeva-academy-mysuru",
+      "type": "coaching",
+      "name": "Shree Gurudeva Academy",
+      "city": "mysuru",
+      "locality": "Agrahara",
+      "address": "Shree Krishna Lalitha Kala Mandira, opposite Urs Mandali, Agrahara, Mysuru, Karnataka",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "ias"
+      ],
+      "rating": 3.9,
+      "ratingCount": 4,
+      "verified": false,
+      "about": "Shree Gurudeva Academy is an Agrahara-based coaching centre in Mysuru offering SSC, NDA, IAS/IPS, UPSC, UGC NET, RRB and teaching-exam coaching. Its address and contact details are corroborated across search results, but the institute's own site could not be directly accessed during research, so this listing carries moderate rather than full verification confidence — worth confirming directly by phone or visit before enrolling.",
+      "highlights": [
+        "Covers SSC alongside NDA, IAS/IPS, UPSC and RRB coaching",
+        "Single Agrahara location",
+        "Verification confidence is moderate — confirm directly before enrolling"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
