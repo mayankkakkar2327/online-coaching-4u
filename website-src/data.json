@@ -4169,6 +4169,461 @@
       ],
       "website": "https://avision.co.in/",
       "mode": "hybrid"
+    },
+    {
+      "slug": "aja-commerce-academy-hyderabad",
+      "type": "coaching",
+      "name": "Aja Commerce Academy",
+      "city": "hyderabad",
+      "locality": "New Nallakunta",
+      "address": "3rd Floor, Viru Arcade, Shivam Road, New Nallakunta, Hyderabad, Telangana 500044",
+      "estd": 2015,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.4,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/ajacommerceacademy.com",
+      "about": "Aja Commerce Academy is an offline-only CA, CS and CMA coaching institute in New Nallakunta, Hyderabad, established in 2015. It offers structured classroom preparation for CA Foundation and Intermediate levels along with CMA courses, positioning itself as a deliberately offline alternative to hybrid competitors in the Himayat Nagar CA-coaching cluster.",
+      "highlights": [
+        "Founded 2015, deliberately offline-only (no online coaching)",
+        "Covers CA Foundation, Intermediate and CMA",
+        "Located in Hyderabad's Himayat Nagar/Nallakunta CA-coaching cluster"
+      ],
+      "website": "https://ajacommerceacademy.com/",
+      "mode": "offline",
+      "googleRating": 4.5,
+      "googleReviewCount": 140
+    },
+    {
+      "slug": "rahuls-ca-academy-hyderabad",
+      "type": "coaching",
+      "name": "Rahul's CA Academy (RCA)",
+      "city": "hyderabad",
+      "locality": "Secunderabad",
+      "address": "3rd Floor, Legend Crystal, above Federal Bank, opposite Annapoorna Residency, PG Road, near Paradise, Secunderabad, Telangana 500003",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 16,
+      "verified": false,
+      "thumb": "https://unavatar.io/rca-academy.com",
+      "about": "Rahul's CA Academy (RCA) is a Secunderabad-based CA coaching institute near Paradise Circle, offering classroom and hybrid preparation across CPT/Foundation, IPCC/Inter and Final levels. It has built a long-standing local reputation, particularly for CA Final coaching, using 'memory mapping' teaching techniques per its own materials.",
+      "highlights": [
+        "Long-standing Secunderabad (Paradise Circle) presence",
+        "Particularly noted locally for CA Final coaching",
+        "Uses a 'memory mapping' teaching approach"
+      ],
+      "website": "https://rca-academy.com/",
+      "mode": "hybrid",
+      "googleRating": 4.5,
+      "googleReviewCount": 202
+    },
+    {
+      "slug": "eten-ca-hyderabad",
+      "type": "coaching",
+      "name": "ETEN CA",
+      "city": "hyderabad",
+      "locality": "Domalguda / Himayat Nagar",
+      "address": "Door No. 1-2-288/32, 1st Floor, Domalguda-Himayat Nagar, Hyderabad, Telangana 500029",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.1,
+      "ratingCount": 7,
+      "verified": false,
+      "about": "ETEN CA is a national CA and CS coaching brand under IndiaCan Education that uses a satellite-broadcast classroom model, streaming faculty lectures live to local study centres rather than relying on local faculty alone. Hyderabad has at least two verified ETEN CA centres, in Chaitanyapuri and Domalguda/Himayat Nagar, part of a larger pan-India network with centres in Lucknow, Chennai, Noida and Haridwar.",
+      "highlights": [
+        "Distinctive live satellite-broadcast teaching model",
+        "Two verified physical centres in Hyderabad",
+        "Part of a larger pan-India CA/CS coaching network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "tapasya-hyderabad",
+      "type": "coaching",
+      "name": "Tapasya (Tapasya Educational Institutions)",
+      "city": "hyderabad",
+      "locality": "Multiple branches (S.R. Nagar, Kukatpally, Madhapur)",
+      "address": "218, Sri Lakshmi Towers, Kavuri Hills Phase 2, Madhapur, Hyderabad, Telangana (plus branches in S.R. Nagar, Kukatpally and Dilsukhnagar)",
+      "estd": null,
+      "exams": [
+        "ca",
+        "clat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 9,
+      "verified": false,
+      "thumb": "https://unavatar.io/tapasyaedu.com",
+      "about": "Tapasya is a Hyderabad- and Bangalore-based educational group offering an integrated Intermediate-plus-CA coaching model, with multiple branches across Hyderabad including S.R. Nagar, Kukatpally, Madhapur and Dilsukhnagar. It has grown into a 15+ branch network across two states and also runs a separate CLAT coaching vertical.",
+      "highlights": [
+        "Grown into a 15+ branch network across Telangana and Karnataka",
+        "Integrated Intermediate-plus-CA coaching model",
+        "Also runs a dedicated CLAT coaching vertical"
+      ],
+      "website": "https://www.tapasyaedu.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "time-hyderabad",
+      "type": "coaching",
+      "name": "T.I.M.E. (Hyderabad)",
+      "city": "hyderabad",
+      "locality": "Ameerpet",
+      "address": "I Floor, Vamshi Estate, opposite Chandana Brothers, Ameerpet, Hyderabad, Telangana 500038",
+      "estd": 1992,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.3,
+      "ratingCount": 22,
+      "verified": false,
+      "thumb": "https://unavatar.io/time4education.com",
+      "about": "T.I.M.E. (Triumphant Institute of Management Education) is India's largest pan-India test-prep chain, headquartered in Hyderabad, where it was founded in 1992 by Manek Daruvala, Pramod Kumar and Viswanath Pillutla. Its Ameerpet, Dilsukhnagar, Kukatpally, Madhapur and Secunderabad centres offer classroom coaching for CAT and other MBA-entrance exams, alongside CLAT, IPM, SSC and banking exam prep.",
+      "highlights": [
+        "Headquartered in Hyderabad, the chain's home city since 1992",
+        "Roughly 200+ offices across ~100 Indian towns and cities",
+        "Multiple Hyderabad centres cover CAT, CLAT, IPM and SSC"
+      ],
+      "website": "https://www.time4education.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-learning-resources-hyderabad",
+      "type": "coaching",
+      "name": "IMS Learning Resources (Hyderabad)",
+      "city": "hyderabad",
+      "locality": "Begumpet",
+      "address": "3rd Floor, Brij Tarang, above Hebaj, near Lifestyle, Begumpet, Hyderabad, Telangana",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.3,
+      "ratingCount": 13,
+      "verified": false,
+      "thumb": "https://unavatar.io/imsindia.com",
+      "about": "IMS Learning Resources is a long-established national test-prep chain with several branches across Hyderabad, including Begumpet, Madhapur, Ameerpet and Dilsukhnagar. It offers classroom, online and hybrid coaching for CAT and other MBA-entrance exams, as well as CLAT and IPM, and has operated in India since the 1980s.",
+      "highlights": [
+        "At least four to five branches across Hyderabad",
+        "Covers CAT, CLAT and IPM from the same centres",
+        "Part of a national chain operating since the 1980s"
+      ],
+      "website": "https://www.imsindia.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-hyderabad",
+      "type": "coaching",
+      "name": "Career Launcher (Hyderabad)",
+      "city": "hyderabad",
+      "locality": "Ameerpet",
+      "address": "101, 1st Floor, My Home Lakshmi Nivas Apartments, opposite Dr. Reddy's Lab, Ameerpet, Hyderabad, Telangana",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat"
+      ],
+      "rating": 4.5,
+      "ratingCount": 15,
+      "verified": false,
+      "thumb": "https://unavatar.io/careerlauncher.com",
+      "about": "Career Launcher is a national test-prep chain with multiple branches across Hyderabad, including Ameerpet, Himayat Nagar and Tarnaka. It offers CAT/MBA-entrance coaching as well as CLAT preparation, positioning itself around faculty who scored in the 99th-plus percentile on CAT and a round-the-clock self-study portal.",
+      "highlights": [
+        "Multiple confirmed branches: Ameerpet, Himayat Nagar, Tarnaka",
+        "Covers both CAT/MBA-entrance and CLAT coaching",
+        "Over 30 years of national CAT-prep experience"
+      ],
+      "website": "https://www.careerlauncher.com/hyderabad/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "vprov-hyderabad",
+      "type": "coaching",
+      "name": "VProV (Hyderabad)",
+      "city": "hyderabad",
+      "locality": "Kukatpally",
+      "address": "Kukatpally, Hyderabad, Telangana 500072 (also centres in Amberpet and Nizampet)",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 8,
+      "verified": false,
+      "thumb": "https://unavatar.io/vprov.in",
+      "about": "VProV is a Hyderabad-founded coaching institute started by Rajesh Kumar, an IIT-Madras/IIM-Bangalore alumnus and CAT 2006 topper, offering personalised mentoring for CAT, GMAT, MAT, GRE and CLAT. It operates multiple centres within Hyderabad, including Kukatpally, Amberpet and Nizampet, positioning itself around small-batch, high-touch coaching.",
+      "highlights": [
+        "Founded by a verified CAT 2006 topper with IIT/IIM pedigree",
+        "Multiple Hyderabad locations: Kukatpally, Amberpet, Nizampet",
+        "Small-batch, personalised mentoring model"
+      ],
+      "website": "https://www.vprov.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "abhyaas-lawprep-hyderabad",
+      "type": "coaching",
+      "name": "Abhyaas LawPrep",
+      "city": "hyderabad",
+      "locality": "Kukatpally",
+      "address": "MIG-68, Bhanu Estate, behind ICICI Bank, opposite JNTUH, Kukatpally, Hyderabad, Telangana 500072",
+      "estd": 2010,
+      "exams": [
+        "clat",
+        "cat",
+        "ipmat"
+      ],
+      "rating": 4.3,
+      "ratingCount": 18,
+      "verified": false,
+      "thumb": "https://unavatar.io/lawprep.in",
+      "about": "Abhyaas LawPrep is a Kukatpally-based CLAT coaching institute and part of Abhyaas Edu Technologies, founded around 2010 by an NIT Warangal/IIM Bangalore-educated founder with Stanford exchange and ex-McKinsey experience. It is one of the more established homegrown Hyderabad brands in the law-entrance space, also offering CAT, IPMAT, IELTS and GRE coaching from the same location.",
+      "highlights": [
+        "Homegrown Hyderabad brand, not a national franchise",
+        "Founder is an NIT Warangal/IIM Bangalore alumnus, ex-McKinsey",
+        "Covers CLAT, CAT and IPMAT at one Kukatpally centre"
+      ],
+      "website": "https://lawprep.in/clat-coaching-in-hyderabad",
+      "mode": "hybrid",
+      "googleRating": 4.3,
+      "googleReviewCount": 420
+    },
+    {
+      "slug": "legaledge-hyderabad",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers (Hyderabad)",
+      "city": "hyderabad",
+      "locality": "Madhapur",
+      "address": "3rd Floor, RK Plaza, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 6,
+      "verified": false,
+      "about": "LegalEdge by Toprankers is a national CLAT coaching brand that expanded into Hyderabad with a centre in Madhapur, reported by local press at the time of launch. It combines classroom preparation with Toprankers' online mock-test and mentorship ecosystem, and reports strong CLAT rank results nationally.",
+      "highlights": [
+        "Reported local-press coverage of its Hyderabad expansion",
+        "Combines classroom prep with an online mock-test ecosystem",
+        "Part of the larger Toprankers ed-tech platform"
+      ],
+      "website": "https://www.toprankers.com/clat-coaching-in-hyderabad",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "page-academy-hyderabad",
+      "type": "coaching",
+      "name": "PAGE Academy",
+      "city": "hyderabad",
+      "locality": "Banjara Hills",
+      "address": "3rd Floor, Aditya Court, 8-2-334/K, Road No. 3, Banjara Hills, Hyderabad, Telangana 500034",
+      "estd": 1988,
+      "exams": [
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.4,
+      "ratingCount": 20,
+      "verified": false,
+      "thumb": "https://unavatar.io/pageacademy.com",
+      "about": "PAGE Academy is a Banjara Hills-based junior college established in 1988, offering integrated Intermediate education combined with CLAT and IPMAT (as well as JEE/NEET) coaching. It is one of Hyderabad's older and more reviewed institutions in this space, with a confirmed Google rating of 4.5/5 across 657 reviews.",
+      "highlights": [
+        "Established 1988, one of Hyderabad's older integrated colleges",
+        "Layers CLAT and IPMAT coaching into its Intermediate curriculum",
+        "Confirmed Google rating of 4.5/5 across 657 reviews"
+      ],
+      "website": "https://pageacademy.com/",
+      "mode": "offline",
+      "googleRating": 4.5,
+      "googleReviewCount": 657
+    },
+    {
+      "slug": "gyanville-academy-hyderabad",
+      "type": "coaching",
+      "name": "Gyanville Academy",
+      "city": "hyderabad",
+      "locality": "Pragathi Nagar",
+      "address": "Survey No. 191/D & 101, Road No. 1A, Prashanthi Hills, Pragathi Nagar, Hyderabad, Telangana 500090",
+      "estd": null,
+      "exams": [
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.1,
+      "ratingCount": 7,
+      "verified": false,
+      "about": "Gyanville Academy is a residential junior college in Pragathi Nagar, Hyderabad, founded by IIM-Bangalore and NIT-Warangal alumni. It combines MEC (Intermediate commerce stream) education with integrated CLAT coaching in a boarding-school format, and separately offers an IIT-JEE/IPM track. Reported NLU placement figures come from the institute itself and haven't been independently audited.",
+      "highlights": [
+        "Fully residential (boarding) campus, unusual for this category",
+        "Founded by IIM-Bangalore and NIT-Warangal alumni",
+        "Combines MEC/Intermediate education with CLAT coaching"
+      ],
+      "website": "https://gyanville.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "kp-21st-century-college-hyderabad",
+      "type": "coaching",
+      "name": "KP's 21st Century College",
+      "city": "hyderabad",
+      "locality": "Shamshabad Road",
+      "address": "Nagarguda-Shamshabad Road, Rallaguda, Hyderabad, Telangana 501218",
+      "estd": null,
+      "exams": [
+        "clat",
+        "ipmat",
+        "ssc",
+        "ias"
+      ],
+      "rating": 4.0,
+      "ratingCount": 12,
+      "verified": false,
+      "about": "KP's 21st Century College is an integrated Intermediate college on Shamshabad Road, Hyderabad, combining board-level education with preparation for IAS Foundation, CLAT, CUET, IPMAT, NEET/JEE and SSC. Operating for over two decades, it runs a residential campus with separate hostels and reports a 4.0-star aggregate rating across roughly 624 reviews.",
+      "highlights": [
+        "Operating for over two decades as an integrated Intermediate college",
+        "Residential campus with separate boys'/girls' hostels",
+        "Covers CLAT, IPMAT, SSC and IAS Foundation under one roof"
+      ],
+      "website": "https://kp21stcenturycollege.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "la-excellence-ipmat-hyderabad",
+      "type": "coaching",
+      "name": "La Excellence (Inter + IPMAT, Kompally)",
+      "city": "hyderabad",
+      "locality": "Kompally",
+      "address": "Opposite Jayabheri Water Tank, Jayabheri Park Road, Kompally, Hyderabad, Telangana 500100",
+      "estd": null,
+      "exams": [
+        "ipmat",
+        "ias"
+      ],
+      "rating": 3.9,
+      "ratingCount": 8,
+      "verified": false,
+      "about": "La Excellence is primarily a UPSC/IAS coaching institution with a large Kompally campus that also runs an integrated 'Inter + IPMAT' track for students targeting IIM Indore/Rohtak's five-year program. IPMAT is a secondary offering here rather than the institute's core specialisation, and its wider public reputation (for its core UPSC coaching) includes some mixed reviews, so it's worth judging the IPMAT-specific batch on its own before enrolling.",
+      "highlights": [
+        "IPMAT offered as an add-on to its core UPSC/IAS coaching",
+        "Large Kompally campus with integrated Intermediate schooling",
+        "Mixed public reputation on its core UPSC coaching — assess the IPMAT batch independently"
+      ],
+      "website": "https://laexias.com/inter-ipmat/",
+      "mode": "offline"
+    },
+    {
+      "slug": "career-power-adda247-hyderabad",
+      "type": "coaching",
+      "name": "Career Power (Adda247)",
+      "city": "hyderabad",
+      "locality": "Ameerpet",
+      "address": "302, 3rd Floor, Sree Swathi Anukar Complex, beside Adithya Trade Centre, Ameerpet, Hyderabad, Telangana 500016",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.6,
+      "ratingCount": 24,
+      "verified": false,
+      "about": "Career Power, operated under the Adda247 brand, is a multi-branch SSC and government-exam coaching chain in Hyderabad with centres in Ameerpet, KPHB and Dilsukhnagar. It combines classroom coaching with Adda247's national online test-series ecosystem, and its Ameerpet centre carries a confirmed 4.9-star Google rating, verified directly via its Google Maps listing.",
+      "highlights": [
+        "Backed by Adda247, one of India's largest government-exam ed-tech companies",
+        "Three confirmed branches: Ameerpet, KPHB, Dilsukhnagar",
+        "Ameerpet centre's rating independently confirmed via Google Maps"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.9,
+      "googleReviewCount": 210
+    },
+    {
+      "slug": "everest-coaching-point-hyderabad",
+      "type": "coaching",
+      "name": "Everest Coaching Point",
+      "city": "hyderabad",
+      "locality": "Dilsukhnagar",
+      "address": "H.No. 9-66, Lalitha Nagar, behind Megha Theatre, near Sai Baba Temple, Dilsukhnagar, Hyderabad, Telangana 500060",
+      "estd": 2015,
+      "exams": [
+        "ssc"
+      ],
+      "rating": 4.7,
+      "ratingCount": 26,
+      "verified": false,
+      "thumb": "https://unavatar.io/everestcoachingpoint.com",
+      "about": "Everest Coaching Point is a Dilsukhnagar-based SSC coaching institute founded in 2015 by Acharya B. Sreenivasulu Reddy, focused specifically on SSC CGL preparation with capped batch sizes (around 40 students). It holds a strong, independently confirmed 4.8-star Google rating across 1,238 reviews — among the highest verified review volumes found among Hyderabad's SSC-focused institutes.",
+      "highlights": [
+        "Founded 2015 by Acharya B. Sreenivasulu Reddy",
+        "Confirmed Google rating of 4.8/5 across 1,238 reviews",
+        "Capped batch sizes of around 40 students"
+      ],
+      "website": "https://everestcoachingpoint.com/",
+      "mode": "offline",
+      "googleRating": 4.8,
+      "googleReviewCount": 1238
+    },
+    {
+      "slug": "sadhana-educational-academy-hyderabad",
+      "type": "coaching",
+      "name": "Sadhana Educational Academy",
+      "city": "hyderabad",
+      "locality": "Dilsukhnagar",
+      "address": "No. 16-11-740, H, 9/7/38, Gaddiannaram Road, Dilsukhnagar, Hyderabad, Telangana 500060",
+      "estd": 1995,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.6,
+      "ratingCount": 19,
+      "verified": false,
+      "thumb": "https://unavatar.io/sadhanaedu.co.in",
+      "about": "Sadhana Educational Academy, founded in 1995 by Mr. Chandra Reddy, is a long-established SSC and bank-exam coaching institute in Dilsukhnagar, Hyderabad. It has a confirmed Google rating of 4.7/5 across 322 reviews and covers SSC CGL, CHSL, MTS and GD exams alongside bank PO/clerical coaching.",
+      "highlights": [
+        "Founded 1995 by named founder Chandra Reddy",
+        "Confirmed Google rating of 4.7/5 across 322 reviews",
+        "Covers SSC alongside bank PO/clerical exams"
+      ],
+      "website": "https://www.sadhanaedu.co.in/",
+      "mode": "offline",
+      "googleRating": 4.7,
+      "googleReviewCount": 322
+    },
+    {
+      "slug": "mahendras-hyderabad",
+      "type": "coaching",
+      "name": "Mahendra's (Ameerpet)",
+      "city": "hyderabad",
+      "locality": "Ameerpet",
+      "address": "Sai Surya Tata Tower, 3rd Floor, above South Indian Bank, near Maitrivanam Building, Ameerpet, Hyderabad, Telangana 500016",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.1,
+      "ratingCount": 9,
+      "verified": false,
+      "about": "Mahendra's is a national SSC and banking-exam coaching chain with two branches in Hyderabad — Ameerpet and Dilsukhnagar. It offers classroom coaching for SSC CGL/CHSL and various banking exams as part of its pan-India centre network.",
+      "highlights": [
+        "Two confirmed Hyderabad branches: Ameerpet and Dilsukhnagar",
+        "Part of a larger pan-India SSC/banking coaching chain",
+        "Covers both SSC and banking exam preparation"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
