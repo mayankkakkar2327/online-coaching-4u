@@ -3601,6 +3601,256 @@
       ],
       "website": "https://plutusacademy.com/",
       "mode": "offline"
+    },
+    {
+      "slug": "lakshya-coaching-classes-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Lakshya Coaching Classes",
+      "city": "thiruvananthapuram",
+      "locality": "Thampanoor",
+      "address": "Opp. SBI Local Head Office, S.S. Kovil Road, Santhi Nagar, Thampanoor, Thiruvananthapuram, Kerala 695001",
+      "estd": 2011,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.1,
+      "ratingCount": 14,
+      "verified": false,
+      "thumb": "https://unavatar.io/lakshyacommerce.com",
+      "about": "Lakshya Coaching Classes is a Thampanoor-based commerce coaching institute established in 2011, offering classroom training for CA Foundation and Intermediate alongside ACCA preparation. It's part of the wider IIC Lakshya commerce-education group with a presence across Kerala. Student feedback is mixed, with positive notes on faculty quality and study materials.",
+      "highlights": [
+        "Founded 2011, part of the wider IIC Lakshya commerce-education group",
+        "Covers CA Foundation, Intermediate and ACCA tracks",
+        "Presence across multiple Kerala cities under the same brand"
+      ],
+      "website": "https://lakshyacommerce.com/campus/thiruvananthapuram",
+      "mode": "offline",
+      "googleRating": 4.0,
+      "googleReviewCount": 501
+    },
+    {
+      "slug": "triple-i-commerce-academy-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Triple I Commerce Academy (Trivandrum)",
+      "city": "thiruvananthapuram",
+      "locality": "East Fort",
+      "address": "2nd Floor, SP Bhagya Tower, opposite Ramachandran Textiles, East Fort, Thiruvananthapuram, Kerala",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.2,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/tripleica.com",
+      "about": "Triple I Commerce Academy is a multi-city CA/CMA/CS/ACCA coaching chain headquartered in Kochi, with a branch in East Fort, Thiruvananthapuram, distinct from its Kochi and Calicut locations. The centre offers full CA Foundation-to-Final coaching aligned with ICAI's syllabus, along with CMA (India and US) and CS programs, taught by a named team of qualified CA faculty.",
+      "highlights": [
+        "Branch of a multi-city CA/CMA/CS/ACCA chain headquartered in Kochi",
+        "Covers full CA Foundation-to-Final track plus CMA and CS",
+        "Named CA faculty team specific to the Trivandrum branch"
+      ],
+      "website": "https://www.tripleica.com/best-ca-coaching-centre-trivandrum",
+      "mode": "offline"
+    },
+    {
+      "slug": "time-thiruvananthapuram",
+      "type": "coaching",
+      "name": "T.I.M.E. Trivandrum",
+      "city": "thiruvananthapuram",
+      "locality": "Palayam",
+      "address": "4th Floor, Archana Building, opp. General Hospital Junction, Statue Road, Palayam, Thiruvananthapuram, Kerala",
+      "estd": 1992,
+      "exams": [
+        "cat",
+        "ssc"
+      ],
+      "rating": 4.3,
+      "ratingCount": 15,
+      "verified": false,
+      "thumb": "https://unavatar.io/timetrivandrum.com",
+      "about": "T.I.M.E. Trivandrum is a local franchise (run by Rajeev Associates) of India's pan-India T.I.M.E. test-prep chain, established nationally in 1992. Located near General Hospital Junction on Statue Road, Palayam, it offers classroom and online coaching for CAT and other MBA-entrance exams along with SSC and bank exam preparation, and reports strong historical IIM-conversion numbers from its Trivandrum batches.",
+      "highlights": [
+        "Franchise of the pan-India T.I.M.E. chain, established nationally in 1992",
+        "Reports 550+ IIM calls in 2019 from Trivandrum batches",
+        "11 classrooms plus a 120+ capacity seminar hall and hostel facility"
+      ],
+      "website": "https://www.timetrivandrum.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Career Launcher (Trivandrum)",
+      "city": "thiruvananthapuram",
+      "locality": "Palayam",
+      "address": "First Floor, Kollamkottil Building, Palayam-Airport Road, near AKG Centre, Palayam, Thiruvananthapuram, Kerala 695035",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.4,
+      "ratingCount": 7,
+      "verified": false,
+      "thumb": "https://unavatar.io/careerlauncher.com",
+      "about": "Career Launcher Trivandrum, based at Palayam near the AKG Centre, is the local branch of the pan-India Career Launcher chain (est. 1995), led by Director Vishnu S S and Academic Director Midhunjith A K. It runs classroom and online coaching for CAT and other MBA entrances, CLAT and other law-entrance exams, and IPM/BBA programs, and publicises a reported 20+ NLU selections in 2022 among its alumni.",
+      "highlights": [
+        "Branch of the pan-India Career Launcher network, est. 1995",
+        "Covers CAT, CLAT and IPM/BBA at one Palayam centre",
+        "Reports 20+ NLU selections among alumni in 2022"
+      ],
+      "website": "https://www.careerlauncher.com/trivandrum/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-learning-resources-thiruvananthapuram",
+      "type": "coaching",
+      "name": "IMS Trivandrum",
+      "city": "thiruvananthapuram",
+      "locality": "Pattom",
+      "address": "2nd Floor, TC 2/3384, Jose Building, opp. Indian Pentecostal Assembly, Chalakuzhy Road, Pattom Palace P.O., Pattom, Thiruvananthapuram, Kerala 695004",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat"
+      ],
+      "rating": 4.1,
+      "ratingCount": 8,
+      "verified": false,
+      "thumb": "https://unavatar.io/imsindia.com",
+      "about": "IMS Trivandrum, located in Pattom, is a branch of the long-established pan-India IMS Learning Resources test-prep network. The centre explicitly offers coaching for CAT and other MBA-entrance exams as well as CLAT on its own branch page, alongside GRE/GMAT/CUET and other test prep, with local mentors named on the site and specific IIM-conversion testimonials.",
+      "highlights": [
+        "Branch of the 40+ year-old IMS Learning Resources network",
+        "Explicitly covers both CAT and CLAT at its Pattom centre",
+        "Named local mentors with reported IIM-conversion testimonials"
+      ],
+      "website": "https://imsindia.com/center/trivandrum/index.html",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "jays-academy-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Jay's Academy",
+      "city": "thiruvananthapuram",
+      "locality": "Pattom",
+      "address": "First Floor, Kailas Plaza, Pattom Junction, Pattom Palace P.O., Thiruvananthapuram, Kerala 695004",
+      "estd": 2009,
+      "exams": [
+        "clat",
+        "ipmat",
+        "cat",
+        "ssc"
+      ],
+      "rating": 4.5,
+      "ratingCount": 13,
+      "verified": false,
+      "thumb": "https://unavatar.io/jaysacademy.in",
+      "about": "Jay's Academy is a Pattom Junction-based multi-exam coaching institute founded by Aswathy Mohan, offering both offline classroom and online preparation. Distinctively among Trivandrum institutes, it explicitly advertises IPMAT and other BBA-entrance coaching alongside CLAT/law-entrance prep, CAT/MBA entrance, and SSC/bank exam coaching. Several of its CLAT faculty are Jay's Academy alumni who went on to NUALS Cochin and NLU Gandhinagar, and the institute runs career-guidance outreach across roughly 25 Kerala engineering colleges.",
+      "highlights": [
+        "One of the few Trivandrum institutes with a dedicated IPMAT track",
+        "CLAT faculty include alumni now at NUALS Cochin and NLU Gandhinagar",
+        "Runs outreach programs across roughly 25 Kerala engineering colleges"
+      ],
+      "website": "https://www.jaysacademy.in/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "dots-academy-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Dots Academy",
+      "city": "thiruvananthapuram",
+      "locality": "Vanchiyoor",
+      "address": "Ambujavilasom Road, near GPO, Vanchiyoor, Thiruvananthapuram, Kerala",
+      "estd": 2015,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.4,
+      "ratingCount": 12,
+      "verified": false,
+      "thumb": "https://unavatar.io/dotsias.com",
+      "about": "Dots Academy is a Vanchiyoor-based competitive-exam coaching institute established in 2015, offering both offline and online preparation for SSC (CGL/CHSL/MTS), Kerala PSC, RRB and bank exams. It maintains a public 'Toppers' archive on its website dating back to 2017 and operates a second branch in Kollam, having pivoted to live online classes during the pandemic and continued a hybrid offering since.",
+      "highlights": [
+        "Founded 2015, maintains a public toppers archive since 2017",
+        "Second branch in Kollam under the same brand",
+        "Pivoted to hybrid online/offline delivery during the pandemic"
+      ],
+      "website": "https://dotsias.com/",
+      "mode": "hybrid",
+      "googleRating": 4.3,
+      "googleReviewCount": 42
+    },
+    {
+      "slug": "veranda-race-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Veranda RACE (Thiruvananthapuram)",
+      "city": "thiruvananthapuram",
+      "locality": "Thampanoor",
+      "address": "Seven Storied Building, S.S. Kovil Road, Thampanoor, Thiruvananthapuram, Kerala 695001",
+      "estd": 2018,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.5,
+      "ratingCount": 16,
+      "verified": false,
+      "about": "Veranda RACE Thiruvananthapuram, on S.S. Kovil Road in Thampanoor, is the local branch of Veranda Learning Solutions' RACE government-exam coaching vertical, founded in November 2018. It focuses on Bank, SSC, Railway and Kerala PSC exam preparation, with on-site library and computer-lab facilities, and is part of a 40+ centre network across South India.",
+      "highlights": [
+        "Founded November 2018, part of a 40+ centre South India network",
+        "On-site library and computer-lab facilities",
+        "Covers Bank, SSC, Railway and Kerala PSC exams"
+      ],
+      "website": "https://verandarace.com/branches/trivandrum",
+      "mode": "offline"
+    },
+    {
+      "slug": "ignite-ssc-academy-thiruvananthapuram",
+      "type": "coaching",
+      "name": "Ignite SSC Academy",
+      "city": "thiruvananthapuram",
+      "locality": "East Fort",
+      "address": "1st Floor, S.P. Bhagya Tower, opposite Ramachandran Textiles, Attakulangara, East Fort, Thiruvananthapuram, Kerala",
+      "estd": null,
+      "exams": [
+        "ssc"
+      ],
+      "rating": 4.3,
+      "ratingCount": 9,
+      "verified": false,
+      "about": "Ignite SSC Academy is an East Fort/Attakulangara-based coaching institute that positions itself as a specialist focused solely on SSC and Railway (RRB) exam preparation, distinguishing it from most Trivandrum government-exam coaching centres that bundle SSC with bank and PSC prep. It has a substantial review volume on directory sites, though this shouldn't be read as a confirmed Google rating.",
+      "highlights": [
+        "Focused solely on SSC and Railway (RRB) exams, not a generalist institute",
+        "Substantial directory review volume",
+        "Based in the East Fort/Attakulangara commercial area"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aptitude-trivandrum",
+      "type": "coaching",
+      "name": "Aptitude Trivandrum",
+      "city": "thiruvananthapuram",
+      "locality": "Pulimoodu",
+      "address": "Kohinoor Flat, behind QRS Square, Lukes Lane, Pulimoodu, Thiruvananthapuram, Kerala 695001",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.2,
+      "ratingCount": 5,
+      "verified": false,
+      "about": "Aptitude Trivandrum is a Pulimoodu-based coaching institute for Bank, SSC and Kerala PSC exam preparation, with a second branch in Attingal. It was founded by an instructor who reportedly cleared multiple nationalised bank officer exams personally, and the institute caps batch sizes at around 30 students. Its published rating is based on a small review sample and shouldn't be treated as statistically meaningful.",
+      "highlights": [
+        "Small batch sizes, capped around 30 students",
+        "Second branch in Attingal",
+        "Founder reportedly cleared multiple bank officer exams personally"
+      ],
+      "website": "https://aptitudetrivandrum.com/",
+      "mode": "offline"
     }
   ],
   "cityContent": {
