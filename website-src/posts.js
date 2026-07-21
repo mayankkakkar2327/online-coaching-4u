@@ -1624,6 +1624,8 @@ module.exports = [
     minutes: 8,
     cta: { href: "coaching-bengaluru.html", text: "Browse CA coaching institutes in Bengaluru" },
     excerpt: "Five CA coaching institutes worth shortlisting in Bangalore's crowded commerce-coaching market, led by two of the city's highest-rated names, iProledge Academy and SuccessEdge Academy.",
+    image: "assets/blog/top-5-ca-coaching-institutes-bangalore.png",
+    imageAlt: "Top 5 CA coaching institutes in Bangalore",
     html: `
 <p>Bangalore's Chartered Accountancy coaching market is spread across Malleshwaram, Basavanagudi, Jayanagar and Koramangala, with dozens of institutes to choose from. Rather than list every one, we've narrowed this down to five worth shortlisting first, based on our own platform ratings, independently checked Google ratings, and how long each has actually been operating in the city.</p>
 
@@ -1657,6 +1659,8 @@ module.exports = [
     minutes: 9,
     cta: { href: "institute-iproledge-academy-bengaluru.html", text: "View iProledge Academy's full profile" },
     excerpt: "iProledge Academy and BRICS Academy are two Malleshwaram-adjacent CA coaching options in Bengaluru with different track records. Here's how their faculty, ratings and course spread actually compare.",
+    image: "assets/blog/iproledge-vs-brics-academy.png",
+    imageAlt: "iProledge Academy vs BRICS Academy CA coaching comparison",
     html: `
 <p><a href="institute-iproledge-academy-bengaluru.html">iProledge Academy</a> and <a href="institute-brics-academy-bengaluru.html">BRICS Academy</a> both coach Chartered Accountancy students out of Bengaluru, within a few kilometres of each other, but they differ meaningfully in how long they've operated, how many credentials they cover, and how consistently they're rated. Here's what the numbers and public information actually show.</p>
 
@@ -1704,6 +1708,8 @@ module.exports = [
     minutes: 10,
     cta: { href: "institute-iproledge-academy-bengaluru.html", text: "View iProledge Academy's full profile" },
     excerpt: "KS Academy, Yeshas Academy and iProledge Academy are three long-running, Malleshwaram-and-Basavanagudi-area CA coaching options in Bangalore. Here's how their faculty, credentials and ratings compare.",
+    image: "assets/blog/ks-academy-vs-yeshas-academy-vs-iproledge.png",
+    imageAlt: "KS Academy vs Yeshas Academy vs iProledge Academy CA coaching comparison",
     html: `
 <p><a href="institute-ks-academy-bengaluru.html">KS Academy</a>, <a href="institute-yeshas-academy-bengaluru.html">Yeshas Academy</a> and <a href="institute-iproledge-academy-bengaluru.html">iProledge Academy</a> are three of Bengaluru's more established CA coaching names, each with a different origin story: KS Academy is a Chennai-founded multi-city chain, Yeshas Academy is Bengaluru's longest-running of the three, and iProledge Academy is a Bengaluru-founded, Bengaluru-focused institute. Here's how they actually compare.</p>
 
