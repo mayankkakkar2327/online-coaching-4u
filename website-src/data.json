@@ -4624,6 +4624,442 @@
         "Covers both SSC and banking exam preparation"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "ks-academy-bengaluru",
+      "type": "coaching",
+      "name": "KS Academy (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Malleshwaram",
+      "address": "No.47, Arkay Square, 2nd Floor, 3rd Main, 15th Cross, Margosa Road, Malleshwaram, Bengaluru, Karnataka",
+      "estd": 2010,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.2,
+      "ratingCount": 11,
+      "verified": false,
+      "thumb": "https://unavatar.io/ksacademybangalore.in",
+      "about": "KS Academy is a CA coaching chain founded in Chennai in 2010 by CA K. Saravanan, with a branch operating in Malleshwaram, Bengaluru. It offers coaching for CA Foundation, Intermediate and Final, alongside CMA, CS, ACCA and other professional courses, combining classroom and online delivery.",
+      "highlights": [
+        "Founder has 25+ years teaching CA",
+        "Multi-city chain: Chennai, Coimbatore, Trichy, Bengaluru, Hyderabad",
+        "Covers CA alongside CMA, CS and ACCA"
+      ],
+      "website": "https://www.ksacademybangalore.in/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "brics-academy-bengaluru",
+      "type": "coaching",
+      "name": "BRICS Academy",
+      "city": "bengaluru",
+      "locality": "Malleshwaram",
+      "address": "3rd Floor, Sri Siddhi Plaza, 8th Cross, Margosa Road, Malleshwaram, Bengaluru, Karnataka 560003",
+      "estd": 2016,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.4,
+      "ratingCount": 17,
+      "verified": false,
+      "thumb": "https://unavatar.io/bricsacademy.com",
+      "about": "BRICS Academy is a CA, CS and CMA coaching institute in Malleshwaram, Bengaluru, founded in 2016 by Prof. Babu Rayipudi, a 26-year veteran educator. It offers classroom and online programs for CA Foundation through Final. Independent listings show generally consistent positive ratings across Google and Justdial, in the low-to-mid 4-star range.",
+      "highlights": [
+        "Founded 2016 by a 26-year veteran CA educator",
+        "Covers CA, CS and CMA under one institute",
+        "Consistent positive ratings across multiple directories"
+      ],
+      "website": "https://bricsacademy.com/",
+      "mode": "hybrid",
+      "googleRating": 4.3,
+      "googleReviewCount": 309
+    },
+    {
+      "slug": "national-ca-academy-bengaluru",
+      "type": "coaching",
+      "name": "National CA Academy",
+      "city": "bengaluru",
+      "locality": "Kalyan Nagar",
+      "address": "No. 193, Chilkere, Chilikere Main Road, Kalyan Nagar, Bengaluru, Karnataka 560043",
+      "estd": null,
+      "exams": [
+        "ca"
+      ],
+      "rating": 4.5,
+      "ratingCount": 8,
+      "verified": false,
+      "about": "National CA Academy is a CA coaching institute in Kalyan Nagar, Bengaluru, offering integrated PUC+CA and BCom+CA tracks alongside standard CA Foundation, Intermediate and Final coaching. Founder identity and exact founding year could not be independently confirmed beyond directory listings.",
+      "highlights": [
+        "Offers integrated PUC+CA and BCom+CA tracks",
+        "Kalyan Nagar location near Croma",
+        "Covers the full CA Foundation-to-Final track"
+      ],
+      "website": "https://nationalacademy.ind.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-learning-resources-bengaluru",
+      "type": "coaching",
+      "name": "IMS (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Multiple branches (Indiranagar, Jayanagar, Koramangala)",
+      "address": "IMS Learning Resources, Indiranagar, Bengaluru, Karnataka (also branches in Jayanagar, Koramangala, Malleshwaram and Marathahalli)",
+      "estd": null,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat"
+      ],
+      "rating": 4.3,
+      "ratingCount": 14,
+      "verified": false,
+      "thumb": "https://unavatar.io/imsindia.com",
+      "about": "IMS is a long-established pan-India CAT/MBA coaching chain with five branches across Bengaluru — Indiranagar, Jayanagar, Koramangala, Malleshwaram and Marathahalli. It offers CAT, GATE, CLAT and IPMAT coaching through classroom and online formats, with faculty including an IIM-Bangalore alumnus mentor.",
+      "highlights": [
+        "Five branches across Bengaluru — the widest local network of any chain",
+        "Covers CAT, CLAT and IPMAT at the same centres",
+        "Faculty includes an IIM-Bangalore alumnus mentor"
+      ],
+      "website": "https://www.imsindia.com/center/bangalore/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-bengaluru",
+      "type": "coaching",
+      "name": "T.I.M.E. (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Koramangala",
+      "address": "No.2, 3rd Floor, 80 Ft Road, 12th Main, 4th Block, Koramangala, Bengaluru, Karnataka 560034",
+      "estd": 1992,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.4,
+      "ratingCount": 18,
+      "verified": false,
+      "thumb": "https://unavatar.io/time4education.com",
+      "about": "T.I.M.E. is a national coaching chain founded in 1992 by IIT and IIM alumni, with multiple Bengaluru centres including Koramangala and Jayanagar, offering CAT, IPMAT, CLAT and other competitive-exam coaching alongside bank and SSC exam prep.",
+      "highlights": [
+        "Multiple Bengaluru centres, including Koramangala and Jayanagar",
+        "Covers CAT, CLAT, IPMAT and SSC at the same centres",
+        "Part of a national chain founded in 1992 by IIT/IIM alumni"
+      ],
+      "website": "https://www.time4education.com/Bangalore",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-bengaluru",
+      "type": "coaching",
+      "name": "Career Launcher (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Jayanagar",
+      "address": "4/3/1 & 3/2, 3rd Floor, Shubha Shree Mahendra Tower, 11th Main, 3rd Block, Jayanagar, Bengaluru, Karnataka 560011",
+      "estd": 1995,
+      "exams": [
+        "cat",
+        "clat",
+        "ipmat",
+        "ssc"
+      ],
+      "rating": 4.5,
+      "ratingCount": 16,
+      "verified": false,
+      "thumb": "https://unavatar.io/careerlauncher.com",
+      "about": "Career Launcher is a national coaching chain founded in 1995 by Satya Narayanan R., with multiple Bengaluru branches (Jayanagar, Indiranagar, Haralur) offering CAT, CLAT, IPMAT and SSC/banking coaching.",
+      "highlights": [
+        "Multiple Bengaluru branches: Jayanagar, Indiranagar, Haralur",
+        "Covers CAT, CLAT, IPMAT and SSC/banking at its centres",
+        "Part of the national Career Launcher network since 1995"
+      ],
+      "website": "https://www.careerlauncher.com/bangalore/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "paradygm-law-bengaluru",
+      "type": "coaching",
+      "name": "Paradygm Law",
+      "city": "bengaluru",
+      "locality": "Madiwala",
+      "address": "2nd Floor, Paradygm Law Building, 322/2, Hosur Road, Madiwala, Bengaluru, Karnataka 560068",
+      "estd": 2003,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.3,
+      "ratingCount": 10,
+      "verified": false,
+      "thumb": "https://unavatar.io/paradygmlaw.com",
+      "about": "Paradygm Law is a dedicated law-entrance coaching institute in Madiwala, Bengaluru, founded in 2003 by Anita Thussu, an alumna of the National Law School of India University (NLSIU), Bangalore. It coaches for CLAT, AILET and related exams and holds a 4.2/5 Google rating from 59 reviews — one of the more independently confirmed ratings among Bengaluru's CLAT institutes.",
+      "highlights": [
+        "Founded 2003 by an NLSIU Bangalore alumna",
+        "One of the longer-running dedicated CLAT institutes in the city",
+        "Confirmed Google rating: 4.2/5 from 59 reviews"
+      ],
+      "website": "https://paradygmlaw.com/",
+      "mode": "hybrid",
+      "googleRating": 4.2,
+      "googleReviewCount": 59
+    },
+    {
+      "slug": "law-prep-tutorial-bengaluru",
+      "type": "coaching",
+      "name": "Law Prep Tutorial (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Jayanagar",
+      "address": "3rd Floor, 120/A, Pattalamma Temple Road, Jayanagar 3rd Block, Bengaluru, Karnataka 560011",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 7,
+      "verified": false,
+      "about": "Law Prep Tutorial operates a dedicated CLAT coaching centre in Jayanagar, Bengaluru (with a second Vijayanagar centre), focused exclusively on law-entrance exams with tech-supported learning and personalised mentorship, as part of a national CLAT-prep chain.",
+      "highlights": [
+        "Law-exclusive coaching model, not a generalist institute",
+        "Two Bengaluru centres: Jayanagar and Vijayanagar",
+        "Part of a national CLAT-prep chain"
+      ],
+      "website": "https://www.lawpreptutorial.com/bangalore",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "legaledge-bengaluru",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Malleswaram",
+      "address": "2nd Floor, Indrani Complex, 5th Cross Road, Malleswaram, Bengaluru, Karnataka (second centre in Whitefield)",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.1,
+      "ratingCount": 6,
+      "verified": false,
+      "about": "LegalEdge by Toprankers runs two CLAT coaching centres in Bengaluru — Malleswaram and Whitefield — offering interactive classes, recorded sessions and mock tests as part of a national CLAT-prep brand under the wider Toprankers ed-tech platform.",
+      "highlights": [
+        "Two Bengaluru centres: Malleswaram and Whitefield",
+        "Combines classroom teaching with recorded sessions and mock tests",
+        "Part of the national Toprankers ed-tech platform"
+      ],
+      "website": "https://www.toprankers.com/legaledge-by-toprankers",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "clatutor-bengaluru",
+      "type": "coaching",
+      "name": "CLATutor (Kovid Academy)",
+      "city": "bengaluru",
+      "locality": "Malleshwaram West",
+      "address": "92, 15th Cross, Margosa Road, Malleshwaram West, Bengaluru, Karnataka",
+      "estd": 2007,
+      "exams": [
+        "clat"
+      ],
+      "rating": 4.4,
+      "ratingCount": 9,
+      "verified": false,
+      "about": "CLATutor (Kovid Academy) is a Bengaluru-origin CLAT coaching institute founded in 2007, with branches in Malleshwaram, Jayanagar and Indiranagar. It's a homegrown local brand rather than a national franchise, reporting having taught or counselled 5,000+ CLAT students to date (self-reported).",
+      "highlights": [
+        "Homegrown Bengaluru brand, founded 2007",
+        "Three branches: Malleshwaram, Jayanagar and Indiranagar",
+        "Dedicated CLAT specialist, not a generalist institute"
+      ],
+      "website": "https://clatutor.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "lpt-edtech-ipmat-bengaluru",
+      "type": "coaching",
+      "name": "LPT Edtech (IPMAT, Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Vijayanagar",
+      "address": "1710, 1st Floor, Aasritha Service Road, above RV Bajaj Showroom, PF Layout, Vijayanagar, Bengaluru, Karnataka 560040",
+      "estd": null,
+      "exams": [
+        "ipmat",
+        "cat"
+      ],
+      "rating": 4.2,
+      "ratingCount": 8,
+      "verified": false,
+      "about": "LPT Edtech runs IPMAT-focused coaching centres in Vijayanagar, Jayanagar and Malleshwaram, Bengaluru, taught by faculty including IIM alumni, targeting IIM Indore and Rohtak admissions, and also covers CAT and CUET.",
+      "highlights": [
+        "Dedicated IPMAT coaching, targeting IIM Indore and Rohtak",
+        "Three Bengaluru centres: Vijayanagar, Jayanagar, Malleshwaram",
+        "Faculty includes IIM alumni"
+      ],
+      "website": "https://lptedtech.com/bangalore/ipmat-coaching",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "greatlearnpro-bengaluru",
+      "type": "coaching",
+      "name": "GreatLearnPro",
+      "city": "bengaluru",
+      "locality": "Malleshwaram",
+      "address": "Malleshwaram, Bengaluru, Karnataka (second centre in Banaswadi)",
+      "estd": null,
+      "exams": [
+        "ipmat"
+      ],
+      "rating": 4.0,
+      "ratingCount": 4,
+      "verified": false,
+      "about": "GreatLearnPro is a Bengaluru-based IPMAT coaching provider with centres in Malleshwaram and Banaswadi, offering both offline and online preparation formats.",
+      "highlights": [
+        "Two Bengaluru centres: Malleshwaram and Banaswadi",
+        "Focused on IPMAT preparation",
+        "Offers both offline and online formats"
+      ],
+      "website": "https://greatlearnpro.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "learncrew-bengaluru",
+      "type": "coaching",
+      "name": "LearnCrew",
+      "city": "bengaluru",
+      "locality": "Horamavu",
+      "address": "Horamavu, Bengaluru, Karnataka",
+      "estd": null,
+      "exams": [
+        "ipmat"
+      ],
+      "rating": 4.1,
+      "ratingCount": 5,
+      "verified": false,
+      "about": "LearnCrew is a Bengaluru-based IPMAT coaching provider with a classroom centre in Horamavu, covering Quant, Verbal, Logical Reasoning and Data Interpretation for the IPMAT exam, alongside recorded-lecture support.",
+      "highlights": [
+        "Dedicated IPMAT preparation, covering Quant/Verbal/LR/DI",
+        "Classroom centre in Horamavu",
+        "Backed by recorded-lecture support"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "veranda-race-bengaluru",
+      "type": "coaching",
+      "name": "Veranda RACE (Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Jayanagar",
+      "address": "232/19, 9th Main Road, 3rd Block, Jayanagar East, Bengaluru, Karnataka 560011",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.4,
+      "ratingCount": 13,
+      "verified": false,
+      "about": "RACE (now under the Veranda RACE brand) is a long-running SSC, Bank and Railway exam coaching institute with multiple branches in Bengaluru, including Jayanagar East and the Vijayanagar/Garvebhavi Palya area.",
+      "highlights": [
+        "Multiple Bengaluru branches, including Jayanagar East",
+        "Covers SSC, Bank (IBPS) and Railway exams",
+        "Part of the wider Veranda RACE South India network"
+      ],
+      "website": "https://verandarace.com/branches/karnataka/vijayanagar",
+      "mode": "offline"
+    },
+    {
+      "slug": "prasads-academy-bengaluru",
+      "type": "coaching",
+      "name": "Prasad's Academy",
+      "city": "bengaluru",
+      "locality": "Marathahalli",
+      "address": "2nd Floor, Krishna Towers, MTK Road, Outer Ring Road, Aswath Nagar, Marathahalli, Bengaluru, Karnataka 560037",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.3,
+      "ratingCount": 9,
+      "verified": false,
+      "about": "Prasad's Academy is a Marathahalli-based coaching institute for SSC, banking, CDS and defence-exam preparation, led by faculty referred to as 'Prasad sir'. It uses a Vedic Mathematics module for students weak in quant and runs daily mock tests after each batch.",
+      "highlights": [
+        "Uses a Vedic Mathematics module for weak-in-math students",
+        "Runs daily mock tests after each batch",
+        "Located in the Marathahalli student hub"
+      ],
+      "website": "https://prasadsacademy.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "bharat-ias-kas-bengaluru",
+      "type": "coaching",
+      "name": "Bharat IAS & KAS Coaching Academy",
+      "city": "bengaluru",
+      "locality": "R.T. Nagar",
+      "address": "3rd Floor, Trinity Building, opposite Shanti Sagar Hotel, R.T. Nagar, Bengaluru, Karnataka 560032",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "ias",
+        "bank"
+      ],
+      "rating": 4.5,
+      "ratingCount": 11,
+      "verified": false,
+      "about": "Bharat IAS & KAS Coaching Academy in R.T. Nagar, Bengaluru, primarily serves IAS/KAS aspirants but also offers SSC and banking-exam coaching as part of its course lineup.",
+      "highlights": [
+        "Primarily an IAS/KAS institute that also covers SSC and banking",
+        "Located in R.T. Nagar",
+        "Offers both offline and online formats"
+      ],
+      "website": "https://bharatiasandkas.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "competitive-success-bengaluru",
+      "type": "coaching",
+      "name": "Competitive Success",
+      "city": "bengaluru",
+      "locality": "Sheshadripuram",
+      "address": "20/7, 2nd Main Road, opposite Swastik Mandi, Sheshadripuram, VV Giri Colony, Bengaluru, Karnataka 560020",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.1,
+      "ratingCount": 5,
+      "verified": false,
+      "about": "Competitive Success is a Sheshadripuram-based coaching institute for SSC and banking (IBPS PO/Clerk) exam preparation.",
+      "highlights": [
+        "Focused on SSC and IBPS PO/Clerk exams",
+        "Based in the Sheshadripuram area",
+        "Classroom-based coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "mahendras-bengaluru",
+      "type": "coaching",
+      "name": "Mahendra's (Jayanagar, Bengaluru)",
+      "city": "bengaluru",
+      "locality": "Jayanagar",
+      "address": "178/5, Lakshmi Chambers, 8th 'F' Main, above Abhushan Jewellers, 3rd Block, Jayanagar, Bengaluru, Karnataka 560011",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "rating": 4.0,
+      "ratingCount": 6,
+      "verified": false,
+      "about": "Mahendra's is a pan-India competitive-exam coaching chain (SSC, banking, railways, teaching exams) with a branch in Jayanagar, Bengaluru.",
+      "highlights": [
+        "Branch of a pan-India SSC/banking coaching chain",
+        "Located in Jayanagar",
+        "Also covers Railways and teaching-exam coaching"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
