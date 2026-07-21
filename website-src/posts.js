@@ -9,6 +9,8 @@ module.exports = [
     minutes: 12,
     cta: { href: "certification.html", text: "Compare certification training providers" },
     excerpt: "Augment Consultancy and iZenBridge both train for PMI's PgMP and PfMP credentials, but the format, catalog and track record differ a lot. Here's the full breakdown.",
+    image: "assets/blog/augment-consultancy-vs-izenbridge.png",
+    imageAlt: "Augment Consultancy vs iZenBridge PgMP and PfMP training comparison",
     html: `
 <p>If you're weighing PgMP® or PfMP® training options, two names come up often: <a href="https://augmentconsultancy.com/" rel="noopener" target="_blank">Augment Consultancy</a>, a boutique provider built entirely around these two credentials, and iZenBridge, a much larger multi-certification training company that also teaches PMP, Agile and SAFe alongside PgMP/PfMP. They are not the same kind of business, and the right choice depends heavily on what you personally need from a training provider: depth and mentor access, or breadth and institutional infrastructure. This guide compares both on verifiable facts: what each actually offers, how they teach, and who each is genuinely built for.</p>
 
