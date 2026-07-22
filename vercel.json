@@ -4,6 +4,9 @@
   "outputDirectory": "website",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/schools-jhunjhunu", "destination": "/", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -27,4 +30,3 @@
     }
   ]
 }
-
