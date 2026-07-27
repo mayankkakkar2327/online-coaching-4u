@@ -1756,5 +1756,78 @@ module.exports = [
 <p>Ratings and credential lists change; confirm current faculty, fees and refund terms directly with whichever institute you shortlist, and sit in on a live class before paying.</p>
 
 <p>See how these three compare against other Bengaluru CA institutes in our <a href="top-5-ca-coaching-institutes-bangalore.html">shortlist of five options worth considering</a>, or browse every institute we track on our <a href="coaching-bengaluru.html">Bengaluru coaching page</a>.</p>`
+  },
+  {
+    slug: "cat-2026-exam-date-registration-guide",
+    title: "CAT 2026 Exam Date, Registration and Fees: Everything Announced So Far",
+    category: "CAT / MBA",
+    date: "27 Jul 2026",
+    minutes: 9,
+    cta: { href: "coaching-online.html", text: "Compare verified CAT/MBA coaching options" },
+    excerpt: "IIM Indore released the CAT 2026 notification on 25 July. Here's what's actually confirmed so far: registration window, exam date, fees, eligibility and whether the pattern is changing.",
+    image: "assets/blog/cat-2026-exam-date-registration-guide.png",
+    imageAlt: "CAT 2026 exam date and registration calendar graphic",
+    faqs: [
+      { q: "When is the CAT 2026 exam?", a: "CAT 2026 will be held on Sunday, 29 November 2026, across three sessions in a single day. IIM Indore is the conducting institute for this year's exam." },
+      { q: "When does CAT 2026 registration open and close?", a: "Registration opens on 3 August 2026 at 10:00 AM and closes on 15 September 2026 at 5:00 PM on the official site, iimcat.ac.in. There is typically a short late-registration window with a higher fee after the main deadline, so treat 15 September as the date to work backward from, not a buffer." },
+      { q: "What is the CAT 2026 application fee?", a: "The fee is ₹2,700 for General, EWS and NC-OBC candidates and ₹1,350 for SC, ST and PwD candidates, paid online at the time of registration. This is a modest increase from CAT 2025's ₹2,600 general-category fee." },
+      { q: "Is the CAT 2026 exam pattern changing?", a: "No confirmed changes have been announced. CAT 2026 is expected to keep the same structure as recent years: 68 questions across three sections (VARC, DILR and Quant), 120 minutes total with a 40-minute sectional time limit, and you cannot move between sections once a section's time is up." },
+      { q: "How many IIMs accept CAT scores for admission?", a: "22 IIMs are expected to use CAT 2026 scores for their PGP admissions this cycle, alongside 100+ other non-IIM B-schools that accept CAT as one of their entry routes." },
+      { q: "What are the eligibility requirements for CAT 2026?", a: "You need a bachelor's degree of at least three years from a recognised university with a minimum of 50% marks (45% for SC, ST and PwD candidates). Final-year undergraduates can also apply, provided they complete their degree requirements by the date each IIM specifies at the time of admission." }
+    ],
+    html: `
+<p><em>Last updated: 27 Jul 2026, shortly after the official notification. We'll revise this page if IIM Indore changes any date below, but always cross-check the live countdown and forms at <a href="https://www.iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a> before you act on a deadline.</em></p>
+
+<p>IIM Indore released the CAT 2026 notification on 25 July, confirming the dates that matter most if you're planning to apply this year: when registration opens, when the exam actually happens, and what it will cost you. None of this is guesswork, it's drawn directly from the notification and the conducting institute's own published schedule. Here's the full picture, plus what's genuinely unclear or still pending.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Conducting institute:</strong> IIM Indore</p>
+<p><strong>Registration window:</strong> 3 August 2026 (10:00 AM) to 15 September 2026 (5:00 PM)</p>
+<p><strong>Exam date:</strong> Sunday, 29 November 2026, across three sessions</p>
+<p><strong>Application fee:</strong> ₹2,700 (General/EWS/NC-OBC), ₹1,350 (SC/ST/PwD)</p>
+<p><strong>Test cities:</strong> Roughly 170 cities nationwide, with five city preferences allowed at registration</p>
+<p><strong>Pattern:</strong> Unchanged, 68 questions, three sections, 120 minutes</p>
+</div>
+
+<h2>Who is conducting CAT 2026, and when was it announced</h2>
+<p>The Common Admission Test rotates its conducting IIM each year, and for the 2026 cycle that responsibility falls to IIM Indore. The notification went live on the official CAT website on 25 July 2026, which is also when the registration and exam dates below were first made public. If you've been tracking unofficial "expected date" articles for the past few weeks, this notification supersedes all of them, the dates in this piece come from the actual release, not a projection.</p>
+
+<h2>CAT 2026 registration: dates and how the process works</h2>
+<p>Registration opens on 3 August 2026 at 10:00 AM and closes on 15 September 2026 at 5:00 PM, both on iimcat.ac.in. In practice, the process runs in a fairly consistent sequence each year: you register with basic details and a working email and phone number first, then complete the full application form with your academic history, work experience (if any) and category details, upload your photograph and signature, pay the fee online, and download the completed form for your own records. IIMs have historically opened a short correction window after the main deadline for candidates to fix minor errors in personal or academic details, but this is not a substitute for reading the form carefully the first time, category and work-experience entries in particular are difficult to correct once the window closes.</p>
+<p>Because slots at your preferred test city can fill up, registering earlier in the window rather than closer to 15 September generally gives you a better chance at your first-choice city, even though the deadline itself doesn't move.</p>
+
+<h2>Eligibility criteria for CAT 2026</h2>
+<p>You need a bachelor's degree of at least three years' duration from a university recognised under Indian law (or an equivalent qualification recognised by the AIU), with a minimum of 50% marks or equivalent CGPA. The threshold drops to 45% for SC, ST and PwD candidates. If you're in the final year of your degree, or awaiting your final results, you can still register and sit the exam, but you'll need to submit proof of having completed your degree by the date each individual IIM specifies during their admission process, this cutoff varies by institute, so check the specific programme you're targeting rather than assuming a single universal deadline.</p>
+
+<h2>CAT 2026 application fee</h2>
+<p>The fee is ₹2,700 for General, EWS and NC-OBC candidates and ₹1,350 for SC, ST and PwD candidates, payable online (net banking, debit or credit card) at the time of registration. This is a modest rise from CAT 2025's general-category fee of ₹2,600. If you've registered for CAT in a previous year, budget for this small increase rather than assuming last year's fee still applies.</p>
+
+<h2>Exam date, sessions and test cities</h2>
+<p>CAT 2026 will be held on Sunday, 29 November 2026, in three sessions across a single day, the format IIMs have used consistently in recent years to accommodate the large number of candidates within available test infrastructure. The exam is expected to run across roughly 170 cities and 400-plus test labs nationwide. At registration, you'll be asked to rank up to five preferred test cities in order; final centre allotment depends on your preferences and seat availability, so listing genuine alternatives (not just your top choice five times over in different words) improves your odds of landing somewhere convenient.</p>
+
+<h2>Is the CAT 2026 exam pattern changing?</h2>
+<p>No changes have been announced. Based on the notification and recent years' consistent format, CAT 2026 is expected to retain the same structure test-takers have prepared for over the last several cycles.</p>
+<table>
+<thead><tr><th>Element</th><th>CAT 2026 (expected)</th></tr></thead>
+<tbody>
+<tr><td>Total questions</td><td>68</td></tr>
+<tr><td>Sections</td><td>VARC, DILR, Quantitative Ability</td></tr>
+<tr><td>Total duration</td><td>120 minutes</td></tr>
+<tr><td>Time per section</td><td>40 minutes each, cannot move between sections once a section's time expires</td></tr>
+<tr><td>Marking scheme</td><td>+3 for a correct answer, -1 for an incorrect MCQ (no negative marking on non-MCQ/TITA questions)</td></tr>
+</tbody>
+</table>
+<p>IIMs don't publish a fixed syllabus document, but the underlying topics tested (reading comprehension and verbal reasoning in VARC, data sets and logical puzzles in DILR, and school-to-early-college-level arithmetic, algebra and geometry in Quant) have stayed consistent for years, even as the relative weight given to specific topics shifts slightly from year to year.</p>
+
+<h2>Which institutes accept a CAT score</h2>
+<p>22 IIMs are expected to use CAT 2026 scores for their PGP admissions this cycle, and well over a hundred other B-schools outside the IIM system also accept CAT as one of their entry routes, some as their primary criterion, others alongside their own additional tests. Once your CAT percentile is out, each institute runs its own next-stage process, typically a Written Ability Test and/or Personal Interview (WAT-PI), weighted differently by each IIM alongside your percentile, academic record and (for some IIMs) work experience and gender diversity factors.</p>
+
+<h2>What happens after you register</h2>
+<p>Two dates matter after the registration window closes, and neither is officially confirmed yet, so treat the following as informed expectation rather than fact: the admit card has, in recent years, been released roughly two to three weeks before the exam, which for a 29 November exam date would put it in the second week of November 2026. Results have historically followed in the first two to three weeks of January, ahead of most IIMs' WAT-PI shortlists going out shortly after. We'll update this page with the confirmed dates as soon as IIM Indore announces them.</p>
+
+<h2>How to start preparing right now</h2>
+<p>With roughly four months between today and the exam, and about seven weeks before registration even opens, this is a reasonable point to lock in a study structure rather than wait for the admit card to create urgency. If you're starting from scratch, our <a href="free-cat-preparation-plan.html">step-by-step free CAT preparation plan</a> lays out a genuinely zero-cost route using official material and video lectures. Once you're taking regular mocks, our <a href="cat-mock-test-strategy.html">mock test strategy guide</a> covers how many you actually need and how to analyse them without wasting review time. And if you're deciding whether to go it alone or enrol somewhere, our <a href="best-online-cat-coaching-2026.html">honest comparison of online CAT coaching platforms</a> breaks down founders, formats and cost philosophy across ten options, with no paid rankings involved.</p>
+
+<p>Compare every verified CAT/MBA coaching option, online and offline, on our <a href="coaching-online.html">CAT/MBA coaching page</a>, and check back here for updates as IIM Indore releases the admit card and further exam-day instructions.</p>`
   }
 ];
