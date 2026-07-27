@@ -643,6 +643,7 @@ function toISODate(d) {
   if (!m) return d;
   return `${m[3]}-${MONTHS[m[2]] || "01"}-${m[1].padStart(2, "0")}`;
 }
+const POSTS_BY_DATE = [...POSTS].sort((a, b) => new Date(toISODate(b.date)) - new Date(toISODate(a.date)));
 function postCard(p) {
   return `<a class="card post-card" href="${p.slug}.html">
 <div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(p.category)}</span></div>
@@ -659,7 +660,7 @@ function blogIndex() {
 <p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Written by our team — no sponsored content unless clearly labelled.</p></div></section>
 <section class="section container">
 <div class="filterbar"><div class="filterbar-row"><label class="fsel-label" for="examsel">Topic</label><select id="examsel" class="fsel"><option value="">All topics</option>${CATS.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select><span id="rescount" class="muted"></span></div></div>
-<div class="card-grid" id="cards" style="margin-top:22px">${POSTS.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
+<div class="card-grid" id="cards" style="margin-top:22px">${POSTS_BY_DATE.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
 </section>`;
 }
 function postPage(p) {
