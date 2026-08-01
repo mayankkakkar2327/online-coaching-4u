@@ -1829,5 +1829,510 @@ module.exports = [
 <p>With roughly four months between today and the exam, and about seven weeks before registration even opens, this is a reasonable point to lock in a study structure rather than wait for the admit card to create urgency. If you're starting from scratch, our <a href="free-cat-preparation-plan.html">step-by-step free CAT preparation plan</a> lays out a genuinely zero-cost route using official material and video lectures. Once you're taking regular mocks, our <a href="cat-mock-test-strategy.html">mock test strategy guide</a> covers how many you actually need and how to analyse them without wasting review time. And if you're deciding whether to go it alone or enrol somewhere, our <a href="best-online-cat-coaching-2026.html">honest comparison of online CAT coaching platforms</a> breaks down founders, formats and cost philosophy across ten options, with no paid rankings involved.</p>
 
 <p>Compare every verified CAT/MBA coaching option, online and offline, on our <a href="coaching-online.html">CAT/MBA coaching page</a>, and check back here for updates as IIM Indore releases the admit card and further exam-day instructions.</p>`
+  },
+  {
+    slug: "clat-2027-exam-date-registration-guide",
+    title: "CLAT 2027 Exam Date, Registration and Fees: Everything Announced So Far",
+    category: "CLAT / Law",
+    date: "02 Aug 2026",
+    minutes: 8,
+    cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT coaching institutes" },
+    excerpt: "The Consortium of NLUs released the CLAT 2027 notification on 22 July, and registration opens 3 August. Here's what's actually confirmed: exam date, fees, eligibility and how the process works.",
+    image: "assets/blog/clat-2027-exam-date-registration-guide.png",
+    imageAlt: "CLAT 2027 exam date and registration calendar graphic",
+    faqs: [
+      { q: "When is the CLAT 2027 exam?", a: "CLAT 2027 will be held on Sunday, 6 December 2026, offline (pen-and-paper) from 2 PM to 4 PM. The Consortium of National Law Universities conducts CLAT every year on a fixed early-December Sunday." },
+      { q: "When does CLAT 2027 registration open and close?", a: "Registration opens on 3 August 2026 and closes on 31 October 2026, exclusively at consortiumofnlus.ac.in. There is no other official portal, be wary of any third-party site asking for CLAT registration payments." },
+      { q: "What is the CLAT 2027 application fee?", a: "₹4,000 for General, OBC, NRI, PIO and OCI candidates, and ₹3,500 for SC, ST, BPL and PwD candidates." },
+      { q: "What are the eligibility requirements for CLAT 2027 (UG)?", a: "A pass in 10+2 (or equivalent) with at least 45% marks for General/OBC/PwD/NRI candidates, or 40% for SC/ST candidates. There's no upper age limit, and students appearing for their board exams in the 2026-27 session can also apply." },
+      { q: "Is the CLAT 2027 exam pattern changing?", a: "No. The Consortium's Governing Body has confirmed the structure stays the same as CLAT 2026: 120 questions across five sections, 120 marks, 2 hours, offline mode. A committee had proposed a full redesign, but the Consortium deferred any structural changes to CLAT 2028 at the earliest." },
+      { q: "Which law universities accept CLAT scores?", a: "Around 24 National Law Universities admit through the CLAT consortium for UG and/or PG programmes. One common point of confusion: NLU Delhi does not use CLAT, it runs its own separate exam, AILET." }
+    ],
+    html: `
+<p><em>Last updated: 2 August 2026. We'll revise this page if the Consortium changes any date below, but always confirm live deadlines and forms at <a href="https://consortiumofnlus.ac.in" rel="noopener" target="_blank">consortiumofnlus.ac.in</a> before you act on anything time-sensitive.</em></p>
+
+<p>The Consortium of National Law Universities released the CLAT 2027 notification on 22 July 2026, confirming the dates most aspirants have been waiting for since CLAT 2026 wrapped up its counselling in early 2026. Registration opens on 3 August, just a day after this notification, so there's very little lead time to get your documents and photographs ready if you're planning to apply as soon as the window opens. Here's the complete picture.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Conducting body:</strong> Consortium of National Law Universities</p>
+<p><strong>Registration window:</strong> 3 August 2026 to 31 October 2026</p>
+<p><strong>Exam date:</strong> Sunday, 6 December 2026, 2 PM to 4 PM</p>
+<p><strong>Application fee:</strong> ₹4,000 (General/OBC/NRI), ₹3,500 (SC/ST/BPL/PwD)</p>
+<p><strong>Mode:</strong> Offline, pen-and-paper</p>
+<p><strong>Pattern:</strong> Unchanged from CLAT 2026, 120 questions, five sections, 120 minutes</p>
+</div>
+
+<h2>Who conducts CLAT, and when was CLAT 2027 announced</h2>
+<p>CLAT is conducted by the Consortium of National Law Universities, a body jointly run by the participating NLUs rather than a single rotating institute (unlike CAT, which rotates between IIMs). The official CLAT 2027 notification went live on the Consortium's website on 22 July 2026. If you've seen "expected date" articles floating around before that, this notification is what actually confirms them.</p>
+
+<h2>CLAT 2027 registration: dates and how the process works</h2>
+<p>Registration opens on 3 August 2026 and closes on 31 October 2026, entirely on consortiumofnlus.ac.in, the only official portal for CLAT. The process typically runs in stages: you first create a login with a working email and phone number, then fill in your academic and category details, upload your photograph and signature to the specification listed on the site, choose your preferred exam city, and pay the fee online before downloading your completed form. Registering well before the October 31 deadline, rather than in the final days, generally improves your chances of getting your first-choice exam city, since city-wise capacity does fill up.</p>
+
+<h2>Eligibility criteria: UG-CLAT vs PG-CLAT</h2>
+<p>CLAT runs two separate eligibility tracks depending on which programme you're applying for.</p>
+<table>
+<thead><tr><th>Requirement</th><th>UG-CLAT (5-year law programmes)</th><th>PG-CLAT (LL.M.)</th></tr></thead>
+<tbody>
+<tr><td>Qualifying exam</td><td>10+2 or equivalent</td><td>LL.B. or equivalent law degree</td></tr>
+<tr><td>Minimum marks, General/OBC</td><td>45%</td><td>50%</td></tr>
+<tr><td>Minimum marks, SC/ST</td><td>40%</td><td>45%</td></tr>
+<tr><td>Upper age limit</td><td>None</td><td>None</td></tr>
+<tr><td>Appearing candidates</td><td>Eligible, subject to proof of passing by admission</td><td>Final-year LL.B. students eligible, subject to submitting marksheets at admission</td></tr>
+</tbody>
+</table>
+<p>We couldn't find an official, currently enforced cap on the number of CLAT attempts for either track, if you've heard otherwise, that's likely an outdated or unofficial claim, always check the current year's notification PDF directly rather than relying on a coaching institute's marketing page.</p>
+
+<h2>CLAT 2027 application fee</h2>
+<p>₹4,000 for General, OBC, NRI, PIO and OCI category candidates, and ₹3,500 for SC, ST, BPL and PwD candidates, payable online at the time of registration.</p>
+
+<h2>Exam date and mode</h2>
+<p>CLAT 2027 will be held on Sunday, 6 December 2026, from 2 PM to 4 PM, in offline (pen-and-paper) mode, the format CLAT has consistently used, unlike most other entrance exams that have moved to computer-based testing.</p>
+
+<h2>Is the CLAT 2027 pattern changing?</h2>
+<p>No structural changes have been confirmed. The Consortium's Governing Body reportedly received a report proposing a fairly significant redesign of the CLAT paper, but decided to defer any structural reform to CLAT 2028 at the earliest, keeping CLAT 2027 aligned with the recent format: 120 questions, 120 marks, 2 hours, across English, Current Affairs & GK, Legal Reasoning, Logical Reasoning and Quantitative Techniques. That said, question-setters may still apply quality and difficulty-calibration changes recommended by that committee even without altering the overall structure, so don't assume last year's paper is a perfect predictor of difficulty.</p>
+
+<h2>Which law universities accept CLAT scores</h2>
+<p>Roughly two dozen National Law Universities admit students through the CLAT consortium, across UG and PG programmes, including NLSIU Bangalore, NALSAR Hyderabad, NLIU Bhopal, WBNUJS Kolkata, NLU Jodhpur, GNLU Gandhinagar and others. One mix-up worth clearing up early in your prep: NLU Delhi does not accept CLAT, it runs its own separate entrance exam called AILET, so if NLU Delhi is on your list, you'll need to register for that exam independently.</p>
+
+<h2>What happens after you register</h2>
+<p>Admit cards for CLAT have typically been released a couple of weeks before the exam in past cycles, which for a 6 December exam would put the admit card release in the third week of November, though this isn't officially confirmed yet. Results and the first round of seat allotment have historically followed within a few weeks of the exam, with counselling running in multiple rounds into January and February. We'll update this article once the Consortium confirms these dates.</p>
+
+<h2>How to start preparing right now</h2>
+<p>With exactly four months between the notification and exam day, this is a good point to lock in a study plan rather than wait for exam anxiety to force one. Our <a href="clat-eligibility-syllabus-exam-pattern.html">complete breakdown of CLAT eligibility, syllabus and exam pattern</a> covers exactly what each section tests, our <a href="clat-cutoff-nlu-wise-trends.html">CLAT cutoff and NLU-wise trends guide</a> shows roughly what score different tiers of NLUs required last cycle, and our <a href="how-to-prepare-for-clat.html">CLAT study plan and strategy piece</a> lays out a realistic section-by-section approach, including a genuinely free mock series most aspirants haven't heard of.</p>
+
+<p>Compare every verified CLAT coaching institute we track on our <a href="coaching.html?exam=clat">CLAT coaching listings page</a>, and check back here for updates as the Consortium releases the admit card and further instructions.</p>`
+  },
+  {
+    slug: "clat-eligibility-syllabus-exam-pattern",
+    title: "CLAT Eligibility, Syllabus and Exam Pattern: The Complete Breakdown",
+    category: "CLAT / Law",
+    date: "02 Aug 2026",
+    minutes: 9,
+    cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT coaching institutes" },
+    excerpt: "What you actually need to qualify for CLAT, and exactly what it tests across English, Current Affairs, Legal Reasoning, Logical Reasoning and Quantitative Techniques.",
+    image: "assets/blog/clat-eligibility-syllabus-exam-pattern.png",
+    imageAlt: "CLAT eligibility syllabus and exam pattern illustration with justice scale",
+    faqs: [
+      { q: "How many questions does CLAT have, and how much time do I get?", a: "120 multiple-choice questions in 120 minutes (2 hours), for the UG-CLAT exam. There's no separate sectional time limit, you can move freely between sections within the two hours." },
+      { q: "What is the CLAT marking scheme?", a: "+1 mark for every correct answer, -0.25 for every incorrect answer, and 0 for unattempted questions. There's no bonus for speed beyond simply attempting more correct answers." },
+      { q: "Which CLAT section carries the most weight?", a: "Legal Reasoning, at roughly 28-32 questions out of 120 (about a quarter of the paper), followed by Current Affairs including GK and Logical Reasoning at a similar or slightly smaller share. Quantitative Techniques is the smallest section, typically 10-14 questions." },
+      { q: "Does CLAT test legal knowledge from law school, or something else?", a: "Neither, really. Legal Reasoning at the UG level tests whether you can apply a given legal principle (stated in the passage itself) to a new fact scenario, it's a reasoning skill, not a memory test of statutes or case law. You don't need any prior legal education." },
+      { q: "Is the PG-CLAT pattern the same as UG-CLAT?", a: "No, it's structurally different: 100 MCQs plus 2 subjective/essay-type questions, 150 total marks, still within 2 hours, and it tests substantive law subjects like Constitutional Law, Contract, Criminal Law, Torts, International Law and IPR rather than the UG's aptitude-style sections." }
+    ],
+    html: `
+<p>CLAT gets discussed a lot in terms of "how hard is it," but the more useful question before you start preparing is simpler: what, specifically, does it test, and do you actually qualify to sit it? Both answers are more precise than most casual summaries suggest, here's the complete breakdown.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>UG-CLAT:</strong> 120 questions, 120 marks, 2 hours, offline, +1/-0.25 marking</p>
+<p><strong>Highest-weight section:</strong> Legal Reasoning (~25% of the paper)</p>
+<p><strong>Minimum qualifying marks:</strong> 45% in 10+2 (40% for SC/ST) for UG</p>
+<p><strong>Upper age limit:</strong> None</p>
+<p><strong>PG-CLAT:</strong> 100 MCQs + 2 subjective questions, 150 marks</p>
+</div>
+
+<h2>Eligibility: who can actually sit for CLAT</h2>
+<table>
+<thead><tr><th>Requirement</th><th>UG-CLAT</th><th>PG-CLAT</th></tr></thead>
+<tbody>
+<tr><td>Qualifying exam</td><td>10+2 (any stream)</td><td>LL.B. or equivalent</td></tr>
+<tr><td>Minimum marks, General/OBC</td><td>45%</td><td>50%</td></tr>
+<tr><td>Minimum marks, SC/ST</td><td>40%</td><td>45%</td></tr>
+<tr><td>Upper age limit</td><td>None</td><td>None</td></tr>
+</tbody>
+</table>
+<p>Two details trip people up: first, CLAT doesn't require any specific 12th-grade stream, commerce, science and humanities students all sit the same paper on equal footing, since Legal Reasoning and Logical Reasoning don't assume subject-specific background. Second, if you're currently in Class 12 and haven't received your results yet, you can still register and appear, you'll just need to submit proof of having cleared the qualifying exam by the time the admitting NLU asks for it.</p>
+
+<h2>UG-CLAT exam pattern</h2>
+<table>
+<thead><tr><th>Element</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td>Total questions</td><td>120 MCQs</td></tr>
+<tr><td>Total marks</td><td>120</td></tr>
+<tr><td>Duration</td><td>2 hours (no sectional time limit)</td></tr>
+<tr><td>Marking scheme</td><td>+1 correct, -0.25 incorrect, 0 unattempted</td></tr>
+<tr><td>Mode</td><td>Offline, pen-and-paper (OMR-based)</td></tr>
+</tbody>
+</table>
+
+<h3>Section-wise breakdown (approximate)</h3>
+<table>
+<thead><tr><th>Section</th><th>Approx. questions</th><th>Approx. weight</th></tr></thead>
+<tbody>
+<tr><td>Legal Reasoning</td><td>28-32</td><td>~25%</td></tr>
+<tr><td>Current Affairs incl. GK</td><td>28-32</td><td>~25%</td></tr>
+<tr><td>Logical Reasoning</td><td>22-26</td><td>~20%</td></tr>
+<tr><td>English incl. Comprehension</td><td>22-26</td><td>~20%</td></tr>
+<tr><td>Quantitative Techniques</td><td>10-14</td><td>~10%</td></tr>
+</tbody>
+</table>
+<p>These figures are approximate and shift a little from year to year, the Consortium doesn't publish a fixed per-section question count in advance, only the overall total of 120.</p>
+
+<h2>What each section actually tests</h2>
+<h3>Legal Reasoning</h3>
+<p>Passage-based questions built around a legal principle or a recent development, you're then asked to apply that stated principle to a new fact pattern, no outside legal knowledge is assumed. Topics that come up repeatedly: the Constitution (fundamental rights, directive principles, landmark judgments), Law of Torts, Contract Law, Criminal Law, legal maxims, and current developments in Indian law and public policy.</p>
+<h3>Logical Reasoning</h3>
+<p>Also passage-based, this section is closer to critical reasoning than to puzzle-style logic, you're asked to identify an argument's premises and conclusion, spot logical flaws, and draw valid inferences. It's not the verbal/non-verbal reasoning format (seating arrangements, blood relations) common in banking or SSC exams.</p>
+<h3>English including Comprehension</h3>
+<p>Reading comprehension of moderately complex passages, testing inference, tone, and main-idea identification, alongside grammar and vocabulary-in-context questions drawn from the same passages.</p>
+<h3>Current Affairs including General Knowledge</h3>
+<p>National and international events, government schemes, awards, and socio-economic and environmental issues, generally covering the 12 months leading up to the exam, with heavier weight on the more recent months.</p>
+<h3>Quantitative Techniques</h3>
+<p>Short passages or datasets (2-3 lines of information) followed by 4-5 questions on percentages, ratios, averages, profit and loss, time and work, and basic data interpretation, class 10-level maths, not the harder quant tested in exams like CAT.</p>
+
+<h2>PG-CLAT: a genuinely different exam</h2>
+<p>If you're applying for an LL.M., don't assume UG-CLAT prep transfers directly, the PG pattern is structurally different: 100 MCQs plus 2 subjective/essay-type questions, for 150 total marks, still within 2 hours. It tests substantive law directly rather than aptitude, covering Constitutional Law, Contract Law, Criminal Law, Torts, Jurisprudence, and specialised areas like Environmental Law, International Law and Intellectual Property Rights.</p>
+
+<h2>Where to go next</h2>
+<p>If you're still working out the calendar, our <a href="clat-2027-exam-date-registration-guide.html">CLAT 2027 exam date and registration guide</a> has the confirmed dates and fees. Once you know what you're up against, our <a href="clat-cutoff-nlu-wise-trends.html">CLAT cutoff and NLU-wise trends piece</a> shows roughly what score different tiers of NLUs required last cycle, and our <a href="how-to-prepare-for-clat.html">CLAT preparation strategy guide</a> turns this syllabus into an actual study plan.</p>
+
+<p>Compare every verified CLAT coaching institute we track on our <a href="coaching.html?exam=clat">CLAT coaching listings page</a>.</p>`
+  },
+  {
+    slug: "clat-cutoff-nlu-wise-trends",
+    title: "CLAT Cutoff Trends: What Score Gets You Into Which NLU",
+    category: "CLAT / Law",
+    date: "02 Aug 2026",
+    minutes: 8,
+    cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT coaching institutes" },
+    excerpt: "Approximate marks and rank ranges that got candidates into top, mid-tier and newer NLUs in the CLAT 2026 cycle, plus why you should treat any single cutoff number with caution.",
+    image: "assets/blog/clat-cutoff-nlu-wise-trends.png",
+    imageAlt: "CLAT cutoff trends bar chart illustration",
+    faqs: [
+      { q: "What marks did top NLUs like NLSIU Bangalore and NALSAR Hyderabad require in CLAT 2026?", a: "Roughly 100-108 out of 120 for general-category closing ranks at NLSIU Bangalore, and around 100-104 at NALSAR Hyderabad, based on aggregator data. Exact closing ranks varied across sources, so treat these as directional rather than precise, and check each NLU's official seat-allotment list for the definitive figure." },
+      { q: "Does NLU Delhi accept CLAT scores?", a: "No. NLU Delhi runs its own separate entrance exam, AILET, and does not admit through the CLAT consortium. This is one of the most common points of confusion among CLAT aspirants targeting NLU Delhi specifically." },
+      { q: "How many NLUs accept CLAT?", a: "Around 24-26 National Law Universities are part of the Consortium, though not all use CLAT for every programme they offer, some use it only for PG admissions. Always confirm on the individual NLU's admissions page rather than assuming blanket participation." },
+      { q: "Why do CLAT cutoffs change every year?", a: "Cutoffs depend on that year's paper difficulty, the total number of candidates, the seat matrix at each NLU (which itself sometimes changes, NLSIU Bangalore added seats in a recent cycle), and category-wise reservation rules. A cutoff from two years ago is a rough reference point, not a guarantee." },
+      { q: "How many total seats does CLAT offer across all NLUs?", a: "Aggregator estimates put it at roughly 4,000-4,100 UG seats and around 1,600 PG seats across all participating NLUs, though this figure isn't published as a single official number by the Consortium and can shift as new NLUs join or existing ones adjust their intake." }
+    ],
+    html: `
+<p>"What score do I need for NLSIU?" is close to the single most-asked CLAT question, and the honest answer is that no one, including the NLUs themselves before results are out, can give you a precise number in advance. What we can do is show you the range candidates actually needed last cycle, and explain why that range moves every year.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts (CLAT 2026 cycle, for directional reference only)</p>
+<p><strong>Top NLUs (General category):</strong> roughly 95-108 out of 120 marks</p>
+<p><strong>Mid-tier NLUs:</strong> closing ranks roughly in the 300-800 range</p>
+<p><strong>NLU Delhi:</strong> does not accept CLAT, uses AILET separately</p>
+<p><strong>Participating NLUs:</strong> approximately 24-26</p>
+<p><strong>Total estimated seats:</strong> ~4,000+ UG, ~1,600 PG (aggregator estimate)</p>
+</div>
+
+<h2>Why we're giving ranges, not exact numbers</h2>
+<p>Before the specifics: CLAT cutoff data circulating online is compiled by third-party aggregators from public seat-allotment PDFs, and different aggregators sometimes report meaningfully different numbers for the same NLU and the same year. We cross-checked multiple sources for this piece and found real disagreement on exact closing ranks for several top NLUs, in some cases a difference of 50-100 rank positions. Rather than presenting a single confident number that might be wrong, we're giving you the range, and pointing you to where to check the authoritative figure yourself: each NLU publishes its own round-wise seat allotment list during counselling, and the Consortium's own site is the definitive source once that data is out for a given year.</p>
+
+<h2>Approximate CLAT 2026 cutoffs by NLU tier</h2>
+<table>
+<thead><tr><th>NLU tier</th><th>Examples</th><th>General category (approx.)</th></tr></thead>
+<tbody>
+<tr><td>Top-tier</td><td>NLSIU Bangalore, NALSAR Hyderabad, WBNUJS Kolkata</td><td>~95-108 marks, closing rank roughly top 100-350</td></tr>
+<tr><td>Mid-tier</td><td>GNLU Gandhinagar, NLIU Bhopal, NLU Jodhpur, RMLNLU Lucknow</td><td>Closing rank roughly 300-800</td></tr>
+<tr><td>Newer/developing NLUs</td><td>DBRANLU Haryana, NLU Tripura, RPNLU Prayagraj, IIULER Goa</td><td>Closing rank often 1,500-4,000+</td></tr>
+</tbody>
+</table>
+<p>Category-wise, one aggregator's cross-NLU average puts General around 95-98 marks, OBC around 92-95, SC around 86-90, ST around 82-86 and EWS around 94-96, but this is a blended average across all NLUs, not a per-university figure, individual NLU category cutoffs vary more widely than this average suggests.</p>
+
+<h2>The NLU Delhi mix-up</h2>
+<p>This deserves its own section because it trips up enough aspirants: NLU Delhi does not participate in CLAT. It conducts its own separate entrance exam, AILET (All India Law Entrance Test), with its own dates, pattern and application process. If NLU Delhi is on your shortlist, a strong CLAT score alone won't get you there, you need to register and prepare for AILET separately.</p>
+
+<h2>Who's actually in the CLAT consortium</h2>
+<p>Roughly two dozen National Law Universities participate, including NLSIU Bangalore, NALSAR Hyderabad, NLIU Bhopal, WBNUJS Kolkata, NLU Jodhpur, HNLU Raipur, GNLU Gandhinagar, RMLNLU Lucknow, RGNUL Patiala, CNLU Patna, NUALS Kochi, NLUO Cuttack, NUSRL Ranchi, NLUJA Assam, DSNLU Visakhapatnam, TNNLU Tiruchirappalli, MNLU Mumbai, MNLU Nagpur, MNLU Aurangabad, HPNLU Shimla, DNLU Jabalpur, DBRANLU Haryana, NLU Tripura, RPNLU Prayagraj and IIULER Goa. Not every member university uses CLAT for both UG and PG admissions, some use it for one and not the other, so confirm on the specific NLU's own page rather than assuming.</p>
+<p>The seat matrix isn't static either: NLSIU Bangalore recently expanded to around 310 total seats (including additional Karnataka-domicile seats), NLIU Bhopal added a new BSc LLB programme with a cybersecurity focus, and RPNLU Prayagraj and IIULER Goa are among the more recent additions to the Consortium, both factors that shift where cutoffs land year to year.</p>
+
+<h2>How to use this data without over-trusting it</h2>
+<p>Treat last year's cutoff as a rough anchor for where you'd need to land, not a target to hit exactly. A realistic approach: pick 6-8 NLUs spanning top, mid and safer tiers when you fill your preference list at counselling time, rather than only listing your top 2-3 choices, seat allotment happens across multiple rounds and having a wider spread genuinely improves your odds of landing somewhere you're happy with.</p>
+
+<p>If you're still building your prep plan, our <a href="clat-eligibility-syllabus-exam-pattern.html">CLAT syllabus and exam pattern breakdown</a> and <a href="how-to-prepare-for-clat.html">CLAT study strategy guide</a> cover what to focus on and how much time to give each section.</p>
+
+<p>Compare every verified CLAT coaching institute we track on our <a href="coaching.html?exam=clat">CLAT coaching listings page</a>.</p>`
+  },
+  {
+    slug: "how-to-prepare-for-clat",
+    title: "How to Prepare for CLAT: A Realistic Study Plan and Strategy",
+    category: "CLAT / Law",
+    date: "02 Aug 2026",
+    minutes: 8,
+    cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT coaching institutes" },
+    excerpt: "A section-by-section strategy for CLAT: how much weight to give Legal Reasoning, how many mocks you actually need, and a free mock series most aspirants haven't heard of.",
+    image: "assets/blog/how-to-prepare-for-clat.png",
+    imageAlt: "CLAT preparation strategy target and arrow illustration",
+    faqs: [
+      { q: "Which CLAT section should I prioritise?", a: "Legal Reasoning and Logical Reasoning together make up roughly 45% of the paper, more than any other pairing, so they deserve a proportionally larger share of your prep time, not equal time across all five sections." },
+      { q: "How many CLAT mock tests should I take?", a: "Early on, one full mock every 10-12 days to 2-3 weeks is enough while you're still building concepts, jumping straight to daily mocks before your fundamentals are solid wastes time reviewing the same mistakes. As you get closer to the exam, ramp up to weekly, then 2-3 full-length mocks a week in the final intensive phase." },
+      { q: "Is analysing a mock test more important than taking it?", a: "Genuinely, yes, according to most experienced CLAT mentors. Re-attempting every wrong or skipped question afterward without a timer, to work out whether you missed it due to a concept gap or a timing mistake, is what actually improves your score. Taking mock after mock without this step tends to just repeat the same errors." },
+      { q: "Is there a free CLAT mock test series worth using?", a: "Yes, IIT Kanpur's SATHEE portal (clat.iitk.ac.in/sathee-clat) runs a genuinely free CLAT mock series, a solid no-cost option if you're not enrolled with a paid coaching platform or want to supplement one." },
+      { q: "Do I need to read the newspaper every day for CLAT?", a: "Current Affairs is roughly a quarter of the paper, so yes, but passively skimming headlines isn't enough, you need to actually retain names, dates and context well enough to answer specific questions about them months later, which usually means active notes or a dedicated current affairs compilation rather than just reading." }
+    ],
+    html: `
+<p>Most CLAT prep advice online is either too generic ("read the newspaper, practice mocks") or too rigid (a fixed hour-by-hour timetable that assumes you have nothing else going on). Here's a strategy built around what actually seems to separate high scorers from everyone else: where they put their time, and what they do after a mock, not just how many mocks they take.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Highest-weight sections:</strong> Legal Reasoning (~25%) and Logical Reasoning (~20%)</p>
+<p><strong>Early-phase mock cadence:</strong> 1 every 10-12 days to 2-3 weeks</p>
+<p><strong>Final-phase mock cadence:</strong> 2-3 full-length mocks per week</p>
+<p><strong>Free resource:</strong> IIT Kanpur's SATHEE CLAT mock series</p>
+</div>
+
+<h2>Weight your prep time to match the paper, not equally across sections</h2>
+<p>Legal Reasoning (~25% of the paper) and Logical Reasoning (~20%) together account for nearly half the exam, more than English, Current Affairs and Quant combined in some years. If you're splitting study time evenly across all five sections, you're under-investing in the two that matter most for your final score. That doesn't mean ignoring the other three, Quant in particular is easy to under-prep since it's a small section, but a handful of missed easy Quant questions costs you less than a systematic weakness in Legal Reasoning.</p>
+
+<h2>A realistic four-month structure</h2>
+<p>With roughly four months between the CLAT 2027 notification and exam day, here's a reasonable phase breakdown:</p>
+<h3>Weeks 1-6: concept building</h3>
+<p>Cover the fundamentals of each section, constitutional law basics and tort/contract fundamentals for Legal Reasoning, argument structure for Logical Reasoning, grammar and vocabulary gaps for English, a current affairs base going back 6-8 months, and class 10-level Quant topics. Take a full mock roughly every 10-12 days during this phase, not more often, the point right now is learning, not scoring.</p>
+<h3>Weeks 7-12: sectional practice and weekly mocks</h3>
+<p>Move to one full-length mock a week, and spend the days between mocks doing targeted sectional practice on whichever section your last mock exposed as weakest. Keep current affairs reading going daily rather than cramming it later, retention for current affairs specifically degrades fast if you only revise it once.</p>
+<h3>Final 4-6 weeks: intensive mocking and pure revision</h3>
+<p>Ramp up to 2-3 full-length mocks a week. This late in prep, new content matters less than exam-day execution, pacing across sections, staying calm when a passage is unexpectedly dense, and not getting stuck on one hard question at the cost of three easy ones later in the section.</p>
+
+<h2>Mock analysis matters more than mock volume</h2>
+<p>The single most repeated piece of advice across experienced CLAT mentors, and the one most aspirants skip under time pressure, is a proper post-mock review: go back through every question you got wrong or skipped, without a timer, and work out specifically why, was it a genuine concept gap, a careless misread of the passage, or a timing issue where you rushed a section you'd have gotten right with more time? Those three failure modes need different fixes, more content study, slower/more careful reading practice, or better time allocation respectively, and lumping them together as "I need to practice more" doesn't fix any of them specifically.</p>
+
+<h2>A free resource worth knowing about</h2>
+<p>If you're not enrolled with a paid coaching platform, or want a free supplement to one, IIT Kanpur runs a genuinely free CLAT mock test series through its SATHEE portal at clat.iitk.ac.in/sathee-clat. It's a solid, no-cost way to get exam-format practice without committing to a paid mock series until you know whether you need one.</p>
+
+<h2>Where to go next</h2>
+<p>If you haven't yet, start with our <a href="clat-eligibility-syllabus-exam-pattern.html">complete CLAT syllabus and exam pattern breakdown</a> to know exactly what each section tests, and check our <a href="clat-cutoff-nlu-wise-trends.html">CLAT cutoff and NLU-wise trends piece</a> to set a realistic score target based on which NLUs you're aiming for.</p>
+
+<p>If you'd rather have structured guidance than build this plan solo, compare every verified CLAT coaching institute we track, with real ratings and fee transparency, on our <a href="coaching.html?exam=clat">CLAT coaching listings page</a>.</p>`
+  },
+  {
+    slug: "ipmat-2027-exam-date-registration-guide",
+    title: "IPMAT 2027 Exam Date, Registration and Fees: IIM Indore vs IIM Rohtak",
+    category: "IPMAT",
+    date: "02 Aug 2026",
+    minutes: 8,
+    cta: { href: "coaching.html?exam=ipmat", text: "Compare verified IPMAT coaching institutes" },
+    excerpt: "IIM Indore and IIM Rohtak each run their own separate IPMAT for 5-year integrated BBA+MBA admissions. Here's what's expected for the 2027 cycle, and why you should treat these dates as provisional for now.",
+    image: "assets/blog/ipmat-2027-exam-date-registration-guide.png",
+    imageAlt: "IPMAT 2027 exam date and registration calendar graphic",
+    faqs: [
+      { q: "Is IPMAT one exam or several?", a: "Several, and this genuinely confuses aspirants. IIM Indore and IIM Rohtak each conduct their own separate IPMAT with different question papers and formats. IIM Ranchi and IIM Amritsar don't run their own exam at all, they admit based on your IIM Indore IPMAT score. IIM Jammu and IIM Bodh Gaya use a different, NTA-conducted exam called JIPMAT, not IPMAT." },
+      { q: "When is IPMAT 2027?", a: "Not officially confirmed yet as of this writing. Based on previous years' patterns, IIM Indore's exam typically falls in the first week of May and IIM Rohtak's in the second week of May, with notifications expected around October 2026 (Indore) and January 2027 (Rohtak). Treat these as estimates, not confirmed dates, until each IIM releases its own notification." },
+      { q: "What did IPMAT 2026 registration dates and fees look like?", a: "For reference: IIM Indore's 2026 registration ran 2 February to 17 March, with a fee of ₹4,130 for General category and ₹2,065 for reserved categories. IIM Rohtak's ran 6 February to 6 April 2026, with a flat fee of ₹4,937 and no category-based fee concession. Fees and windows for 2027 should be broadly similar but aren't confirmed yet." },
+      { q: "Is there an age limit for IPMAT?", a: "Yes, and it's stricter than most entrance exams. IIM Indore requires candidates to have been born on or after a specific cutoff date each year (effectively capping age at 20 for the General category, with a 5-year relaxation for SC/ST/PwD candidates). Check our detailed eligibility article for the exact mechanics." },
+      { q: "How many seats does IPMAT offer?", a: "IIM Indore had 150 domestic seats and IIM Rohtak had 198 seats (including 10% reserved for EWS) in the 2026 cycle. Seat counts can shift slightly year to year." }
+    ],
+    html: `
+<p><em>Last updated: 2 August 2026. Unlike CLAT and CAT, neither IIM Indore nor IIM Rohtak has released an official IPMAT 2027 notification yet as of this writing. Everything below dated "expected" is based on the pattern of previous years, not a confirmed announcement, bookmark this page and we'll update it the moment either IIM notifies.</em></p>
+
+<p>IPMAT is genuinely more fragmented than most aspirants realise going in. It isn't one national exam, it's two separate exams (run independently by IIM Indore and IIM Rohtak, with different question papers and formats), plus two more IIMs that piggyback on IIM Indore's score without running their own test, plus a fifth and sixth IIM that use an entirely different NTA-run exam under a different name. Here's how that actually breaks down, and what's expected for the 2027 admission cycle.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>IIM Indore IPMAT:</strong> exam expected early May 2027 (unconfirmed); official site iimidr.ac.in</p>
+<p><strong>IIM Rohtak IPMAT:</strong> exam expected mid-May 2027 (unconfirmed); official site iimrohtak.ac.in</p>
+<p><strong>IIM Ranchi & IIM Amritsar:</strong> use IIM Indore's IPMAT score, no separate exam</p>
+<p><strong>IIM Jammu & IIM Bodh Gaya:</strong> use a different, NTA-run exam called JIPMAT</p>
+<p><strong>2026 fees (for reference):</strong> ₹4,130 Indore (General) / ₹4,937 Rohtak (flat)</p>
+</div>
+
+<h2>Which IIMs actually run "IPMAT," and which don't</h2>
+<table>
+<thead><tr><th>IIM</th><th>Entrance test</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>IIM Indore</td><td>IPMAT Indore (own exam)</td><td>The original and largest IPM programme</td></tr>
+<tr><td>IIM Rohtak</td><td>IPMAT Rohtak (own exam)</td><td>Structurally different paper from Indore's</td></tr>
+<tr><td>IIM Ranchi</td><td>Uses IPMAT Indore score</td><td>No separate written exam of its own</td></tr>
+<tr><td>IIM Amritsar</td><td>Uses IPMAT Indore score</td><td>IPMAT score weighted alongside its own PI</td></tr>
+<tr><td>IIM Jammu</td><td>JIPMAT (NTA-conducted)</td><td>Different exam name, different conducting body</td></tr>
+<tr><td>IIM Bodh Gaya</td><td>JIPMAT (NTA-conducted)</td><td>Shares JIPMAT with IIM Jammu</td></tr>
+</tbody>
+</table>
+<p>This piece focuses on IPMAT Indore and IPMAT Rohtak specifically, since those are the exams actually branded "IPMAT." If Jammu or Bodh Gaya are on your list, JIPMAT (100 questions across QA, DILR and VARC, 400 marks, 150 minutes, no sectional time limit) is a separate exam you'd need to research and register for independently through the NTA.</p>
+
+<h2>IPMAT 2027 expected dates (unconfirmed)</h2>
+<table>
+<thead><tr><th>Milestone</th><th>IIM Indore (expected)</th><th>IIM Rohtak (expected)</th></tr></thead>
+<tbody>
+<tr><td>Notification</td><td>~October 2026</td><td>~January 2027</td></tr>
+<tr><td>Registration opens</td><td>~First week of February 2027</td><td>~First week of February 2027</td></tr>
+<tr><td>Registration closes</td><td>~Third week of March 2027</td><td>~First week of April 2027</td></tr>
+<tr><td>Exam date</td><td>~First week of May 2027</td><td>~Second week of May 2027</td></tr>
+</tbody>
+</table>
+<p>We want to be direct about how tentative this table is: it's built by projecting forward from each IIM's 2026 cycle, not from an official 2027 notification, since none has been released yet. Both IIMs have shifted their exact dates by a week or two in different years, so use this as a rough planning horizon (broadly, expect registration in February and the exam in May), not a date to write into your calendar as fixed.</p>
+
+<h2>IPMAT 2026 dates and fees, for reference</h2>
+<p>Since 2027 details aren't out, the most recently completed cycle is your best concrete reference point:</p>
+<ul>
+<li><strong>IIM Indore:</strong> registration ran 2 February to 17 March 2026, exam held in early May 2026, results released 25 May 2026. Fee: ₹4,130 (General/OBC/EWS), ₹2,065 (SC/ST/PwD).</li>
+<li><strong>IIM Rohtak:</strong> registration ran 6 February to 6 April 2026, exam held 10 May 2026, results released 20 May 2026. Fee: ₹4,937 flat, no category-based concession.</li>
+</ul>
+
+<h2>Eligibility snapshot</h2>
+<p>Both exams share a broadly similar eligibility bar, minimum 60% aggregate in both Class 10 and Class 12 (55% for SC/ST/PwD), plus an unusually strict age cap (roughly 20 years as of a specific date each year, with a 5-year relaxation for SC/ST/PwD candidates), unlike most other entrance exams that have no upper age limit at all. Our <a href="ipmat-eligibility-syllabus-exam-pattern.html">detailed IPMAT eligibility, syllabus and pattern comparison</a> covers the exact mechanics and cites the age-cap dates precisely.</p>
+
+<h2>How to start preparing right now</h2>
+<p>Even with 2027 dates unconfirmed, the syllabus and pattern for both exams are stable year to year, so there's no reason to wait on your prep. Our <a href="ipmat-eligibility-syllabus-exam-pattern.html">IPMAT eligibility, syllabus and pattern breakdown</a> covers exactly how Indore and Rohtak differ, our <a href="ipmat-cutoff-previous-year-trends.html">IPMAT cutoff and previous year trends piece</a> shows what score got candidates shortlisted in 2026, and our <a href="how-to-prepare-for-ipmat.html">IPMAT preparation strategy guide</a> lays out how the two exams demand genuinely different test-taking approaches.</p>
+
+<p>Compare every verified IPMAT coaching institute we track on our <a href="coaching.html?exam=ipmat">IPMAT coaching listings page</a>, and check back here the moment IIM Indore or IIM Rohtak releases their official 2027 notification.</p>`
+  },
+  {
+    slug: "ipmat-eligibility-syllabus-exam-pattern",
+    title: "IPMAT Eligibility, Syllabus and Exam Pattern: IIM Indore vs IIM Rohtak Compared",
+    category: "IPMAT",
+    date: "02 Aug 2026",
+    minutes: 9,
+    cta: { href: "coaching.html?exam=ipmat", text: "Compare verified IPMAT coaching institutes" },
+    excerpt: "IIM Indore and IIM Rohtak run genuinely different IPMAT exams, different sections, different marking, different cutoff rules. Here's exactly how they compare, plus the age limit most aspirants miss.",
+    image: "assets/blog/ipmat-eligibility-syllabus-exam-pattern.png",
+    imageAlt: "IPMAT eligibility syllabus and exam pattern comparison illustration",
+    faqs: [
+      { q: "Is IPMAT Indore the same exam as IPMAT Rohtak?", a: "No, they're structurally different papers set independently by each IIM. Indore has three sections (Quant MCQ, Quant Short Answer with no options, and Verbal), each with its own sectional cutoff you must clear separately. Rohtak has three different sections (Quant, Logical Reasoning/DI, and Verbal & Reading Comprehension), with no sectional cutoff, only an overall score threshold." },
+      { q: "What is the IPMAT age limit?", a: "IIM Indore requires General-category candidates to be born on or after a specific date each year, effectively capping age at 20, with a 5-year relaxation for SC/ST/PwD candidates (effectively capping at 25). This is stricter than most entrance exams, which have no upper age limit at all, so double-check your eligibility early if you've taken a gap year." },
+      { q: "How many questions and how much time does IPMAT Indore have?", a: "90 questions across three sections (30 Quant MCQ, 15 Quant Short Answer, 45 Verbal MCQ), for 360 total marks, in 120 minutes with roughly 40 minutes per section." },
+      { q: "How many questions and how much time does IPMAT Rohtak have?", a: "120 questions across three sections (40 each in Quant, Logical Reasoning/DI, and Verbal & Reading Comprehension), for 480 total marks, in 120 minutes, with +4 for a correct answer and -1 for an incorrect one uniformly across all questions." },
+      { q: "Do I need Class 12 Maths for IPMAT?", a: "Yes, Mathematics or Applied Mathematics as a Class 12 subject is a standard requirement across IPM programmes, since the Quant sections in both Indore and Rohtak's exams draw on Class 11-12 level maths." }
+    ],
+    html: `
+<p>Because IIM Indore and IIM Rohtak each set their own paper, "how do I prepare for IPMAT" doesn't have one answer, it depends which IPMAT you mean. Here's a precise, side-by-side comparison of both, plus the eligibility rules that catch aspirants off guard.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Age limit (General):</strong> effectively 20 years, with a 5-year relaxation for SC/ST/PwD</p>
+<p><strong>Minimum qualifying marks:</strong> 60% in both Class 10 and Class 12 (55% for SC/ST/PwD)</p>
+<p><strong>IIM Indore:</strong> 90 questions, 3 sections, sectional cutoffs apply</p>
+<p><strong>IIM Rohtak:</strong> 120 questions, 3 different sections, no sectional cutoff</p>
+</div>
+
+<h2>Eligibility: the age limit most aspirants miss</h2>
+<p>Unlike CAT, CLAT or most other entrance exams, IPMAT (at both Indore and Rohtak) enforces a genuine upper age limit, not just an academic percentage. For the General/EWS/OBC-NCL category, candidates must be born on or after a specific date the IIM sets each cycle, in practice this caps you at around 20 years old at the time of the exam. SC/ST/PwD candidates get a 5-year relaxation, effectively raising their cap to around 25. If you've taken a gap year or two after Class 12, check this date carefully and early, it's one of the few IPM eligibility rules that can disqualify you outright regardless of how well you'd score.</p>
+<table>
+<thead><tr><th>Requirement</th><th>General/EWS/OBC-NCL</th><th>SC/ST/PwD</th></tr></thead>
+<tbody>
+<tr><td>Age cap (approx.)</td><td>~20 years</td><td>~25 years (5-year relaxation)</td></tr>
+<tr><td>Class 10 minimum</td><td>60%</td><td>55%</td></tr>
+<tr><td>Class 12 minimum</td><td>60%</td><td>55%</td></tr>
+<tr><td>Class 12 subject requirement</td><td colspan="2">Mathematics or Applied Mathematics, generally required</td></tr>
+</tbody>
+</table>
+
+<h2>IPMAT Indore exam pattern</h2>
+<table>
+<thead><tr><th>Section</th><th>Questions</th><th>Marks</th><th>Marking scheme</th></tr></thead>
+<tbody>
+<tr><td>Quantitative Ability (MCQ)</td><td>30</td><td>120</td><td>+4 correct, -1 incorrect</td></tr>
+<tr><td>Quantitative Ability (Short Answer)</td><td>15</td><td>60</td><td>+4 correct, no negative marking</td></tr>
+<tr><td>Verbal Ability (MCQ)</td><td>45</td><td>180</td><td>+4 correct, -1 incorrect</td></tr>
+<tr><td>Total</td><td>90</td><td>360</td><td>2 hours, ~40 minutes per section</td></tr>
+</tbody>
+</table>
+<p>The Short Answer Quant section is the one genuinely unusual feature here, there are no answer options, you calculate and enter the value directly, and there's no negative marking on it, which changes the risk calculus compared to the MCQ sections. Indore also enforces sectional cutoffs, meaning you must clear a minimum score in each of the three sections independently, a strong overall total doesn't help if you score too low in any single section.</p>
+
+<h2>IPMAT Rohtak exam pattern</h2>
+<table>
+<thead><tr><th>Section</th><th>Questions</th><th>Marking scheme</th></tr></thead>
+<tbody>
+<tr><td>Quantitative Ability</td><td>40</td><td>+4 correct, -1 incorrect</td></tr>
+<tr><td>Logical Reasoning / DI</td><td>40</td><td>+4 correct, -1 incorrect</td></tr>
+<tr><td>Verbal Ability & Reading Comprehension</td><td>40</td><td>+4 correct, -1 incorrect</td></tr>
+<tr><td>Total</td><td>120</td><td>480 marks, 2 hours</td></tr>
+</tbody>
+</table>
+<p>Rohtak's marking is uniform across all questions (+4/-1 everywhere, no exception), and unlike Indore, there's no sectional cutoff, only an overall score threshold. That's a meaningfully different structure: at Rohtak, a candidate who's genuinely strong in two sections and weak in a third can still clear the bar by compensating, a strategy that simply doesn't work at Indore.</p>
+
+<h2>Syllabus: what's actually tested</h2>
+<h3>Quantitative Ability (both exams)</h3>
+<p>Draws on Class 9-12 level maths, with Arithmetic (percentages, profit and loss, time-speed-distance, ratios) carrying the most weight, followed by Algebra (functions, logarithms, progressions and sequences), Number Systems, Geometry and Coordinate Geometry, and occasional Modern Math (permutations, combinations, probability).</p>
+<h3>Verbal Ability (Indore) / Verbal Ability & Reading Comprehension (Rohtak)</h3>
+<p>Reading Comprehension is the dominant component (roughly half of Indore's Verbal section), testing inference, tone and context from passages, alongside Vocabulary, Synonyms/Antonyms, Grammar, Sentence Correction, Para-jumbles and verbal reasoning.</p>
+<h3>Logical Reasoning / DI (Rohtak only)</h3>
+<p>A section entirely absent from Indore's format, covering data interpretation from tables and graphs alongside logical puzzles, a genuine structural difference that means Rohtak-focused prep needs a section Indore-focused prep doesn't.</p>
+
+<h2>After the written test: WAT and PI</h2>
+<p>Neither exam ends at the written score. Both IIMs run a Written Ability Test and/or Personal Interview stage for shortlisted candidates, and your final merit blends the written score with your Class 10/12 academic percentage and PI performance, sources we cross-checked disagree on the exact weightage split (Indore estimates range roughly 50-65% written, 35-40% PI, with WAT weighted lightly; Rohtak estimates put written around 55%, academics around 30% combined, and PI around 15%), so treat any single precise percentage you see elsewhere with some caution and focus on the direction: a good written score alone doesn't guarantee a seat, your interview and prior academic record matter too.</p>
+
+<h2>Where to go next</h2>
+<p>Once you know which exam (or both) you're targeting, our <a href="ipmat-cutoff-previous-year-trends.html">IPMAT cutoff and previous year trends piece</a> shows what score actually cleared each institute's bar in 2026, and our <a href="how-to-prepare-for-ipmat.html">IPMAT preparation strategy guide</a> explains why Indore and Rohtak genuinely need different test-taking approaches.</p>
+
+<p>Compare every verified IPMAT coaching institute we track on our <a href="coaching.html?exam=ipmat">IPMAT coaching listings page</a>.</p>`
+  },
+  {
+    slug: "ipmat-cutoff-previous-year-trends",
+    title: "IPMAT Cutoff 2026: IIM Indore vs IIM Rohtak Previous Year Trends",
+    category: "IPMAT",
+    date: "02 Aug 2026",
+    minutes: 7,
+    cta: { href: "coaching.html?exam=ipmat", text: "Compare verified IPMAT coaching institutes" },
+    excerpt: "How many marks it actually took to get shortlisted at IIM Indore and IIM Rohtak in 2026, how many candidates cleared the cutoff, and what the WAT-PI stage means for your final rank.",
+    image: "assets/blog/ipmat-cutoff-previous-year-trends.png",
+    imageAlt: "IPMAT cutoff previous year trends bar chart illustration",
+    faqs: [
+      { q: "What was the IPMAT Indore cutoff in 2026?", a: "General-category sectional cutoffs were approximately 28 out of 60 in Quant Short Answer, 27 out of 120 in Quant MCQ, and 111 out of 180 in Verbal. All three had to be cleared independently, a high score in one section couldn't offset a miss in another." },
+      { q: "What was the IPMAT Rohtak cutoff in 2026?", a: "An overall score of approximately 363 out of 480 for the General category, with no sectional cutoff, only this single combined threshold." },
+      { q: "How many candidates got shortlisted at each IIM in 2026?", a: "IIM Indore shortlisted 838 candidates for its WAT/PI round for 150 seats. IIM Rohtak shortlisted 1,030 candidates for 198 seats (10% of which are reserved for EWS)." },
+      { q: "Can I directly compare Indore's cutoff marks to Rohtak's?", a: "Not meaningfully, no. The two exams have different total marks (360 vs 480), different section counts, and different marking schemes, so a raw score comparison is misleading. What matters is each exam's own cutoff relative to its own maximum, not the two numbers side by side." },
+      { q: "Does clearing the cutoff guarantee admission?", a: "No. Clearing the cutoff only gets you shortlisted for the WAT/PI round. Final selection blends your written score with your Class 10/12 academic percentage and your PI performance, so being shortlisted is a milestone, not the finish line." }
+    ],
+    html: `
+<p>Cutoff numbers for IPMAT circulate constantly on forums, often without enough context to be useful. Here's what actually happened in the most recently completed cycle, IPMAT 2026, held in May 2026, with results out by the end of that month, close enough to today that it's a genuinely useful reference point for 2027 aspirants.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts, IPMAT 2026 (General category)</p>
+<p><strong>IIM Indore:</strong> sectional cutoffs, Quant SA 28/60, Quant MCQ 27/120, Verbal 111/180</p>
+<p><strong>IIM Indore shortlisted:</strong> 838 candidates for 150 seats</p>
+<p><strong>IIM Rohtak:</strong> overall cutoff ~363/480, no sectional cutoff</p>
+<p><strong>IIM Rohtak shortlisted:</strong> 1,030 candidates for 198 seats</p>
+</div>
+
+<h2>IIM Indore: sectional cutoffs, cleared independently</h2>
+<p>IIM Indore's structure means a single aggregate score isn't enough, you need to clear a minimum in each of the three sections separately. For the 2026 cycle, General-category candidates needed approximately 28 out of 60 in the Quant Short Answer section, 27 out of 120 in Quant MCQ, and 111 out of 180 in Verbal. Around 26,500-28,000 candidates are estimated to have appeared out of roughly 32,500 registered, with 838 ultimately clearing all three sectional thresholds and getting shortlisted for the WAT/PI stage, competing for 150 domestic seats.</p>
+
+<h2>IIM Rohtak: one combined threshold</h2>
+<p>Rohtak works differently, there's no sectional cutoff, only an overall score threshold. For 2026, that threshold sat at approximately 363 out of 480 marks for the General category. 1,030 candidates cleared it and were shortlisted for the WAT/PI round, competing for 198 seats, of which 10% are reserved for the EWS category.</p>
+
+<h2>Why you shouldn't compare the two numbers directly</h2>
+<p>363 (Rohtak) and roughly 166 combined (Indore's three sectional cutoffs added together) look wildly different, but comparing them head-to-head is meaningless: the exams have different total marks (480 vs 360), different question counts, and different marking rules. What matters for your own prep is each exam's cutoff as a percentage of its own maximum, not a cross-exam comparison. If you're targeting both, treat them as two separate benchmarks, not one number expressed two ways.</p>
+
+<h2>Clearing the cutoff is a milestone, not the finish line</h2>
+<p>Both IIMs run a Written Ability Test and/or Personal Interview after shortlisting, and your final merit rank blends the written score with your Class 10/12 academic percentage and your PI performance. Practically, this means two candidates with similar written scores can land at meaningfully different final ranks depending on their academic record and interview performance, so getting shortlisted is genuinely just the first hurdle, not a guarantee of a seat.</p>
+
+<h2>What this means for your prep</h2>
+<p>If you're aiming for IIM Indore, don't neglect any single section chasing a high aggregate, since a weak Quant Short Answer score alone can disqualify you even with a strong Verbal score. If you're aiming for IIM Rohtak, a more balanced-but-flexible approach works, since you can lean on your strongest section to offset a weaker one, a strategy that simply isn't available at Indore. Our <a href="how-to-prepare-for-ipmat.html">IPMAT preparation strategy guide</a> goes deeper into how this structural difference should actually change how you study for each.</p>
+
+<p>Compare every verified IPMAT coaching institute we track on our <a href="coaching.html?exam=ipmat">IPMAT coaching listings page</a>.</p>`
+  },
+  {
+    slug: "how-to-prepare-for-ipmat",
+    title: "How to Prepare for IPMAT: Strategy for IIM Indore and IIM Rohtak",
+    category: "IPMAT",
+    date: "02 Aug 2026",
+    minutes: 8,
+    cta: { href: "coaching.html?exam=ipmat", text: "Compare verified IPMAT coaching institutes" },
+    excerpt: "Why Indore and Rohtak need genuinely different test-taking approaches, how much NCERT maths is really enough, and how to prepare for the WAT-PI round most aspirants ignore until the last minute.",
+    image: "assets/blog/how-to-prepare-for-ipmat.png",
+    imageAlt: "IPMAT preparation strategy target and arrow illustration",
+    faqs: [
+      { q: "Should I prepare differently for IIM Indore vs IIM Rohtak?", a: "Yes, meaningfully. IIM Indore enforces sectional cutoffs, so you must be reliably competent in all three sections, you can't compensate a weak section with a strong one. IIM Rohtak has only an overall threshold, so a compensatory strategy, leaning on your strongest section, is genuinely viable there." },
+      { q: "Is NCERT Class 11-12 maths enough for IPMAT Quant?", a: "It's the necessary foundation, but most aspirants who score well go beyond it with extra calculation-heavy word-problem practice, particularly in Arithmetic and Algebra, which carry the highest weight in both exams' Quant sections. NCERT alone tends to leave you underprepared for the speed and application style IPMAT actually tests." },
+      { q: "What's the single biggest preparation mistake for IPMAT?", a: "Not taking enough timed mock tests, and even more specifically, not properly analysing the ones you do take. This is flagged repeatedly across prep resources as a bigger factor in under-scoring than actual content gaps." },
+      { q: "How should I prepare for the IPMAT WAT/PI round?", a: "The specific method recommended across sources is daily current-affairs reading paired with writing a short essay on one topic each day, then reviewing your own essay the next day with a critical eye, a self-review loop, rather than just passively reading news or waiting until shortlisting to start." },
+      { q: "Does my Class 12 percentage matter if I score well in IPMAT?", a: "Yes. Final merit at both IIMs blends your written score with your Class 10/12 academic percentage and PI performance, so your academic record going in genuinely affects your final rank, not just your exam-day performance." }
+    ],
+    html: `
+<p>IPMAT prep advice online often treats "IPMAT" as one exam, when in practice IIM Indore and IIM Rohtak test you differently enough that the same blanket strategy doesn't serve both equally well. Here's a strategy that accounts for that, plus the WAT/PI stage most aspirants under-prepare for.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Indore strategy:</strong> must clear all 3 sections independently, no compensating</p>
+<p><strong>Rohtak strategy:</strong> only overall threshold, compensatory strategy viable</p>
+<p><strong>Biggest cited mistake:</strong> not analysing mock tests properly</p>
+<p><strong>WAT/PI tip:</strong> daily current affairs + short essay + next-day self-review</p>
+</div>
+
+<h2>Know which exam you're optimising for, they're not the same</h2>
+<p>This is the single most important strategic decision in IPMAT prep, and it's easy to skip if you're treating "IPMAT" as one thing. IIM Indore enforces independent sectional cutoffs across Quant MCQ, Quant Short Answer and Verbal, meaning a lopsided prep plan (say, coasting on a strong Verbal score while treating Quant Short Answer as an afterthought because "there's no negative marking so it feels low-risk to skip") can genuinely disqualify you even with a strong overall total. IIM Rohtak, by contrast, has only one combined threshold, so if you're consistently strong in Verbal and average in Quant, you can lean on that strength to clear the bar, a strategy that simply doesn't work at Indore.</p>
+<p>If you're targeting both exams, which is common since many aspirants apply to both, build your baseline competency across all sections first (for Indore's sake), then layer on exam-specific speed and strategy work closer to each exam date.</p>
+
+<h2>NCERT is the floor, not the ceiling, for Quant</h2>
+<p>Both exams draw their Quant syllabus from Class 9-12 level maths, which makes NCERT textbooks a reasonable starting point, but most aspirants who score well don't stop there. Arithmetic and Algebra carry the highest question-weightage in both exams, and IPMAT-style questions tend to be more calculation-heavy and time-pressured than the way NCERT presents the same concepts, so supplementing with dedicated word-problem practice in these two areas specifically tends to matter more than broadening across every possible topic evenly.</p>
+
+<h2>Mock analysis, not mock volume, is what actually improves your score</h2>
+<p>Across the prep resources we reviewed, the single most repeated cause of under-scoring wasn't a content gap, it was simply not taking enough timed mocks, and even more specifically, not properly reviewing the ones taken. Genuine improvement comes from a structured post-mock review: for every wrong or skipped question, work out whether it was a concept gap, a careless error, or a timing issue, and address each differently rather than lumping them all together as "practice more."</p>
+
+<h2>Don't leave WAT/PI prep until after your results</h2>
+<p>Because the written test feels like the immediate hurdle, WAT/PI prep often gets pushed to "after I clear the cutoff," which leaves very little runway once shortlists come out. A specific, actionable method worth starting early: read current affairs daily, then write a short essay on one topic each day, and the next day, go back and critically review your own essay from the day before. This self-review loop builds both the content depth and the structured-writing ability WAT actually tests, far more effectively than passively reading news without producing anything from it.</p>
+
+<h2>Your academic record matters before exam day, not just on it</h2>
+<p>Final merit at both IIMs blends your written score with your Class 10 and Class 12 academic percentage and your PI performance, not the written score alone. Practically, this means your preparation for IPMAT genuinely started with how you approached your board exams, if those percentages are already locked in, focus your energy on what's still in your control: the written test and how you present yourself at PI.</p>
+
+<h2>Where to go next</h2>
+<p>If you haven't already, our <a href="ipmat-eligibility-syllabus-exam-pattern.html">IPMAT eligibility, syllabus and exam pattern comparison</a> breaks down exactly how Indore and Rohtak's papers differ section by section, and our <a href="ipmat-cutoff-previous-year-trends.html">IPMAT cutoff and previous year trends piece</a> shows what score actually cleared each institute's bar in 2026.</p>
+
+<p>If you'd rather have structured guidance than build this plan solo, compare every verified IPMAT coaching institute we track, with real ratings and fee transparency, on our <a href="coaching.html?exam=ipmat">IPMAT coaching listings page</a>.</p>`
   }
 ];
