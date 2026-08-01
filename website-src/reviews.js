@@ -7,8 +7,8 @@ module.exports = [
   {
     slug: "rodha",
     reddit: [
-      { quote: "Almost 2000 questions in CAT Quant all in all that ensure you find atleast 13 familiar questions on D Day.", sub: "r/CATPrep", url: "https://www.reddit.com/r/CATPrep/comments/1qjpl58/rodha_cat_coaching_honest_feedback_9997/" },
-      { quote: "Avoid Rodha, there are some teachers who have never even tried or given CAT test.", sub: "r/CATpreparation", url: "https://www.reddit.com/r/CATpreparation/comments/1uleg4q/rodha_crash_course_for_cat_2026/" }
+      { quote: "Almost 2000 questions in CAT Quant all in all that ensure you find atleast 13 familiar questions on D Day.", sub: "r/CATPrep", url: "https://www.reddit.com/r/CATPrep/s/6Urh4BFbm6" },
+      { quote: "All the faculty of Rodha are amazing.", sub: "r/CATPrep", url: "https://www.reddit.com/r/CATPrep/s/pFsaHcds3R" }
     ],
     youtube: "https://www.youtube.com/c/Rodha",
     instagram: "https://www.instagram.com/rodhaplanet/?hl=en"
