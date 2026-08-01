@@ -5,6 +5,7 @@ const path = require("path");
 
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf8"));
 const POSTS = require("./posts.js");
+const REVIEWS = require("./reviews.js");
 const OUT = path.join(__dirname, "..", "website");
 
 /* wipe previous build output so removed/renamed pages don't linger as stale files */
@@ -140,7 +141,7 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["coaching-online.html", "Online Coaching"], ["coaching.html", "Offline Coaching"], ["certification.html", "Certifications"], ["blog.html", "Blogs"], ["about.html", "About"]];
+  const nav = [["coaching-online.html", "Online Coaching"], ["coaching.html", "Offline Coaching"], ["certification.html", "Certifications"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"], ["about.html", "About"]];
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
@@ -663,6 +664,54 @@ function blogIndex() {
 <div class="card-grid" id="cards" style="margin-top:22px">${POSTS_BY_DATE.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
 </section>`;
 }
+/* ---------- reviews hub ---------- */
+function reviewsIndex() {
+  const cards = REVIEWS.map(r => {
+    const x = L.find(o => o.slug === r.slug);
+    if (!x) return "";
+    const cityL = cityLabel(x.city);
+    const mapsQ = encodeURIComponent(`${x.name}, ${x.address}`);
+    const ownChip = x.ratingCount
+      ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"} on ${esc(B.name)}</span></span>`
+      : `<span class="rating-chip"><span class="muted">No student reviews yet on ${esc(B.name)}</span></span>`;
+    const googleChip = x.googleRating
+      ? `<span class="rating-chip google"><span class="star">★</span> ${x.googleRating.toFixed(1)} <span class="muted">${x.googleReviewCount} on Google</span>${x.city !== "online" ? ` <a href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">Maps →</a>` : ""}</span>`
+      : "";
+    const reddit = r.reddit || [];
+    const redditBlock = reddit.length
+      ? `<div class="rhc-platform"><h4>From Reddit</h4>${reddit.map(q => `<div class="rhc-quote">“${esc(q.quote)}”<a href="${q.url}" rel="noopener nofollow">Read the full thread on ${esc(q.sub)} →</a></div>`).join("")}</div>`
+      : `<div class="rhc-platform"><h4>From Reddit</h4><p class="rhc-empty">No verifiable public Reddit discussion found yet — we only publish quotes we can personally confirm and link back to.</p></div>`;
+    const links = [
+      x.website ? `<a href="${x.website}" rel="noopener nofollow"><span class="ic">↗</span> Website</a>` : "",
+      r.youtube ? `<a href="${r.youtube}" rel="noopener nofollow"><span class="ic">▶</span> YouTube</a>` : "",
+      r.instagram ? `<a href="${r.instagram}" rel="noopener nofollow"><span class="ic">◎</span> Instagram</a>` : "",
+      `<a class="link-arrow" href="institute-${x.slug}.html">Full profile →</a>`
+    ].filter(Boolean).join("");
+    return `<article class="card review-hub-card">
+<div class="rhc-head">
+<span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
+<div><h2><a href="institute-${x.slug}.html">${esc(x.name)}</a></h2><div class="muted">${x.city === "online" ? "Online" : cityL}${x.estd ? ` · Est. ${x.estd}` : ""}</div></div>
+</div>
+<div class="rhc-ratings">${ownChip}${googleChip}</div>
+${redditBlock}
+<div class="rhc-links">${links}</div>
+</article>`;
+  }).join("");
+  return `
+<section class="hero hero-sm"><div class="container"><h1>Coaching Reviews — Google, Reddit &amp; More, in One Place</h1>
+<p class="hero-sub">One page per institute, pulling together what students actually say across the web — so you don't have to hunt through five tabs before choosing a coaching. Starting with the 10 most-searched CAT coaching institutes; more exam categories are coming soon.</p></div></section>
+<section class="section container prose">
+<p>Every quote below links straight back to its original public post so you can read it in full context — nothing here is edited, summarised out of context, or paid for. Where we couldn't verify a genuine public review on a platform, we've said so rather than guess.</p>
+</section>
+<section class="section container">
+<div class="review-hub-list">${cards}</div>
+</section>
+<section class="section container cta-band">
+<h2>Studied at one of these institutes?</h2>
+<p>Reviews here are unedited and can't be bought or removed. <a href="list-your-institute.html">Tell us what's missing</a> or use the review form on any institute's page.</p>
+</section>`;
+}
+
 function postPage(p) {
   const { html: bodyHtml, tocItems } = buildToc(p.html);
   if (p.faqs) tocItems.push({ text: "Frequently asked questions", id: "faq" });
@@ -836,6 +885,7 @@ w("about.html", simplePage("about.html", "About Us", `Who we are and how ${B.nam
 w("contact.html", simplePage("contact.html", "Contact Us", `Get in touch with the ${B.name} team.`, contactBody));
 w("list-your-institute.html", simplePage("list-your-institute.html", "List Your Institute Free", `Register your coaching institute on ${B.name} for free.`, listBody));
 w("blog.html", simplePage("blog.html", "Guides & Articles", "Original research-backed articles on coaching, exam preparation and student life.", blogIndex(), "blog.html"));
+w("reviews.html", simplePage("reviews.html", "Coaching Reviews — Google, Reddit & More", "Real, linked reviews of top CAT coaching institutes pulled from Google, Reddit and other platforms in one place.", reviewsIndex(), "reviews.html"));
 POSTS.forEach(p => w(`${p.slug}.html`, postPage(p) + footer()));
 w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privacy policy.`, privacyBody));
 w("terms.html", simplePage("terms.html", "Terms & Conditions", `${B.name} terms and conditions.`, termsBody));
