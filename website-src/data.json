@@ -23,7 +23,8 @@
       "kochi",
       "thiruvananthapuram",
       "coimbatore",
-      "mysuru"
+      "mysuru",
+      "kolkata"
     ],
     "certification": [
       "online"
@@ -5060,9 +5061,193 @@
         "Also covers Railways and teaching-exam coaching"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-kolkata",
+      "type": "coaching",
+      "name": "Aakash Institute (Kolkata)",
+      "city": "kolkata",
+      "locality": "Circus Avenue / Motilal Nehru Road",
+      "address": "No. 23, Circus Avenue, near Park Circus 7-Point Crossing, Kolkata, West Bengal, plus centres on Motilal Nehru Road, CIT Road and in Bansdroni",
+      "estd": 1988,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Aakash Educational Services, founded in 1988 by J.C. Chaudhry, runs several Kolkata centres including its Circus Avenue campus near Park Circus, a Motilal Nehru Road medical-wing branch near Priya Cinema, a CIT Road (North Kolkata) branch, and a Bansdroni centre near the Mastarda Suryasen metro station. As one of India's largest NEET-focused chains, it suits students who want a nationally benchmarked test series and study material delivered close to home rather than a single-branch local institute.",
+      "highlights": [
+        "Founded 1988 by J.C. Chaudhry; one of India's largest NEET-focused national chains",
+        "Multiple Kolkata centres: Circus Avenue, Motilal Nehru Road, CIT Road, Bansdroni",
+        "Runs dedicated NEET medical-wing batches alongside JEE"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-kolkata",
+      "type": "coaching",
+      "name": "Allen Career Institute (Kolkata)",
+      "city": "kolkata",
+      "locality": "New Town",
+      "address": "PS IXL Building, near Holiday Inn, New Town, Kolkata, West Bengal, with further branches near Sealdah and in Howrah",
+      "estd": 1988,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Allen Career Institute, founded in Kota in 1988 by Rajesh Maheshwari, runs its flagship Kolkata centre in New Town (PS IXL Building, near Holiday Inn), with additional branches near Sealdah metro/railway station and in Howrah. Allen's Pre-Medical Division is built specifically around NEET-UG and AIIMS-pattern preparation, run alongside CBSE/board-aligned coursework, and brings Kota's large-scale test-series infrastructure to a Kolkata classroom.",
+      "highlights": [
+        "Founded in Kota (1988) by Rajesh Maheshwari; Pre-Medical Division built specifically for NEET-UG",
+        "New Town flagship centre plus branches near Sealdah and in Howrah",
+        "National test-series and mock exam infrastructure delivered locally"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-kolkata",
+      "type": "coaching",
+      "name": "Resonance (Kolkata)",
+      "city": "kolkata",
+      "locality": "Kankurgachi",
+      "address": "2nd Floor, P-189, CIT Road, Scheme VI-M, Kadapara, Phool Bagan, Kankurgachi, Kolkata, West Bengal, with further centres near Exide More and in Ultadanga",
+      "estd": 2001,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Resonance Eduventures, founded in Kota on 11 April 2001 by R.K. Verma, runs its main Kolkata NEET/JEE centre in Kankurgachi on CIT Road, with further branches near Exide More on Acharya Jagadish Chandra Bose Road and in Ultadanga. Resonance is best known nationally for its large-scale test series (including the DPT/PDT test formats used across its centres), giving Kolkata students access to a mock-exam pool benchmarked against Resonance's much larger Kota batch.",
+      "highlights": [
+        "Founded in Kota (11 April 2001) by R.K. Verma",
+        "Three Kolkata centres: Kankurgachi (CIT Road), Exide More, Ultadanga",
+        "National test-series infrastructure shared across all Resonance centres"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "narayana-kolkata",
+      "type": "coaching",
+      "name": "Narayana IIT/NEET Academy (Kolkata)",
+      "city": "kolkata",
+      "locality": "Park Street",
+      "address": "2nd Floor, Barlow House, 59C Chowringhee Road, near Rabindra Sadan Metro Station, Kolkata, West Bengal",
+      "estd": 1979,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Narayana Group traces back to a single tutorial founded in 1979 by P. Narayana in Andhra Pradesh, since grown into one of India's largest school-plus-coaching networks. Its Kolkata academy runs from Barlow House on Chowringhee Road near Rabindra Sadan metro station, combining board-curriculum teaching with NEET and JEE preparation for Class 11-12 and dropper batches.",
+      "highlights": [
+        "Traces to a 1979 founding by P. Narayana; now one of India's largest coaching-plus-schooling networks",
+        "Central Kolkata location near Rabindra Sadan metro, on Chowringhee Road",
+        "Combined board-curriculum and NEET/JEE batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-point-kolkata",
+      "type": "coaching",
+      "name": "Career Point (Kolkata)",
+      "city": "kolkata",
+      "locality": "Salt Lake City",
+      "address": "41, Golaghata Road, Salt Lake City, Kolkata, West Bengal 700091",
+      "estd": 1993,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Career Point, founded in Kota in 1993 by Pramod Maheshwari, runs its Kolkata NEET/JEE centre on Golaghata Road in Salt Lake City. Being one of the older Kota-origin chains, it brings a long-running test-series and study-material system to a Salt Lake classroom, useful for students who specifically want an established national brand's material over a newer local institute's.",
+      "highlights": [
+        "Founded in Kota (1993) by Pramod Maheshwari",
+        "Salt Lake City centre on Golaghata Road",
+        "Long-running NEET/JEE test-series and study-material system"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pace-iit-medical-kolkata",
+      "type": "coaching",
+      "name": "PACE IIT & Medical (Kolkata)",
+      "city": "kolkata",
+      "locality": "Kankurgachi / Phool Bagan",
+      "address": "P-12, CIT Road, Scheme VI-M, Phool Bagan, 1st Floor, Akshoy House, Kolkata, West Bengal 700054, near Lake Gardens and New Town branches",
+      "estd": 1999,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "PACE IIT & Medical was founded in Mumbai in 1999 by Praveen Tyagi, Pooja Tyagi and Kuldeep Tyagi, and has since expanded into several cities. Its main Kolkata NEET centre sits on CIT Road in Phool Bagan/Kankurgachi, with further branches near Lake Gardens (Rabindra Sadan) and in New Town, giving students a choice of location across the city's eastern and southern coaching clusters.",
+      "highlights": [
+        "Founded in Mumbai (1999) by Praveen, Pooja and Kuldeep Tyagi",
+        "Kolkata centres in Phool Bagan/Kankurgachi, Lake Gardens and New Town",
+        "Runs dedicated NEET and JEE Advanced batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vidyamandir-classes-kolkata",
+      "type": "coaching",
+      "name": "Vidyamandir Classes (Kolkata)",
+      "city": "kolkata",
+      "locality": "Kolkata",
+      "address": "Vidyamandir Classes, Kolkata, West Bengal (multiple study centres; confirm current branch address directly with the institute)",
+      "estd": 1986,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Vidyamandir Classes (VMC), started in Delhi in 1986 by a group of IIT alumni, built its early reputation purely on JEE before launching a dedicated Medical (NEET/AIIMS) test-prep division in 2018. Its Kolkata centre extends that combined JEE-and-NEET curriculum to the city, run by the same Delhi-origin faculty and material system used across VMC's other centres.",
+      "highlights": [
+        "Founded in Delhi (1986) by a group of IIT alumni",
+        "Dedicated Medical (NEET/AIIMS) division launched in 2018",
+        "Shares VMC's national faculty and study-material system"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rana-sir-classes-kolkata",
+      "type": "coaching",
+      "name": "Rana Sir Classes",
+      "city": "kolkata",
+      "locality": "Sarat Bose Road",
+      "address": "Sarat Bose Road, Kolkata, West Bengal",
+      "estd": null,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Rana Sir Classes is a Kolkata-founded institute built around biology teacher Durgapada Rana, who has taught NEET biology in the city for more than 15 years. Unlike the national chains on this list, Rana Sir Classes is a single-city, faculty-led institute on Sarat Bose Road, and is typically shortlisted specifically for its biology coaching by students who are otherwise self-studying or attending a separate institute for physics and chemistry.",
+      "highlights": [
+        "Built around biology faculty Durgapada Rana, teaching NEET biology in Kolkata for 15+ years",
+        "Kolkata-founded, single-city institute rather than a national chain branch",
+        "Also runs IIT-JEE and WBJEE batches alongside NEET"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ignescent-gurukul-kolkata",
+      "type": "coaching",
+      "name": "Ignescent Gurukul",
+      "city": "kolkata",
+      "locality": "Gariahat",
+      "address": "Gariahat Crossing, Kolkata, West Bengal, with further centres in Salt Lake, New Town, Jadavpur, Behala and Garia",
+      "estd": 2006,
+      "exams": ["neet"],
+      "verified": false,
+      "about": "Ignescent Gurukul, founded in 2006, is a Kolkata-built NEET specialist centred at Gariahat Crossing, with further centres across Salt Lake, New Town, Jadavpur, Behala and Garia. Its defining feature is a strict 10-students-per-batch cap, considerably smaller than the large-chain norm, paired with daily computer-based tests and AI-assisted performance tracking — a structure aimed at students who specifically want small-batch, closely monitored NEET preparation over a large classroom.",
+      "highlights": [
+        "Kolkata-founded in 2006; caps every batch at 10 students",
+        "Six locations: Gariahat, Salt Lake, New Town, Jadavpur, Behala, Garia",
+        "Daily computer-based tests with AI-assisted performance tracking"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-and-courses-kolkata",
+      "type": "coaching",
+      "name": "Career & Courses (C&C)",
+      "city": "kolkata",
+      "locality": "Gariahat",
+      "address": "Gariahat, Kolkata, West Bengal, with a further centre in Rajarhat",
+      "estd": 2018,
+      "exams": ["neet", "jee"],
+      "verified": false,
+      "about": "Career & Courses (C&C), founded in 2018, runs a residential NEET coaching programme from its Gariahat centre with board-exam support built into the schedule, plus a further Rajarhat centre. Being a newer, Kolkata-founded institute, it suits families who specifically want a residential setup (accommodation bundled with academics) inside the city rather than sending a student to an outstation hub like Kota.",
+      "highlights": [
+        "Kolkata-founded in 2018; runs a residential NEET programme with board-exam support",
+        "Centres in Gariahat and Rajarhat",
+        "Positioned as an in-city residential alternative to outstation coaching hubs"
+      ],
+      "mode": "offline"
     }
+
   ],
-  "cityContent": {
+  "cityContent": {    "coaching-kolkata": {
+      "intro": "<p>Kolkata is West Bengal's coaching hub for NEET preparation, feeding the state's roughly 40 government and private medical colleges and their combined MBBS seat count in the thousands, alongside AIQ seats across India. The city's institutes cluster around three zones: the CIT Road/Kankurgachi/Phool Bagan belt in the east, Salt Lake and New Town further out, and Gariahat/Rash Behari/Sarat Bose Road in the south, all well connected by the Blue and Green Line metro. The market mixes Kota- and Mumbai-origin national chains (Aakash, Allen, Resonance, Career Point, PACE IIT & Medical, Vidyamandir Classes, Narayana) with Kolkata-built specialists (Rana Sir Classes, Ignescent Gurukul, Career & Courses). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+
     "coaching-sikar": {
       "intro": "<p>Sikar, in Rajasthan's Shekhawati region, has grown into one of India's fastest-rising coaching destinations — a serious alternative to Kota for NEET and JEE preparation at meaningfully lower fees and living costs. The city's institutes cluster along <strong>Piprali Road</strong> and <strong>Nawalgarh Road</strong>, surrounded by hostels, libraries and mess facilities built for its large outstation student population. Sikar's breakout moment came in 2024, when a student of the city's PCP institute scored a perfect 720/720 in NEET UG to take All India Rank 1. Beyond JEE and NEET, the city also hosts specialist academies for SSC, defence (NDA/CDS) and civil-services preparation. Every listing below shows its verification status and unedited student ratings.</p>",
       "faqs": [
