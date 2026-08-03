@@ -24,6 +24,7 @@
       "thiruvananthapuram",
       "coimbatore",
       "mysuru",
+      "pune",
       "kolkata"
     ],
     "certification": [
@@ -77,7 +78,10 @@
     "pmp": "PMP",
     "capm": "CAPM",
     "pmi-rmp": "PMI-RMP",
-    "ipmat": "IPMAT"
+    "ipmat": "IPMAT",
+    "csir-net": "CSIR NET Maths",
+    "iit-jam": "IIT JAM",
+    "cuet-pg": "CUET PG"
   },
   "listings": [
     {
@@ -5063,6 +5067,223 @@
       "mode": "offline"
     },
     {
+      "slug": "bakliwal-tutorials-pune",
+      "type": "coaching",
+      "name": "Bakliwal Tutorials",
+      "city": "pune",
+      "locality": "Shivajinagar (FC Road)",
+      "address": "Dnyaneshwar Paduka Chowk, 6th Floor, Gurukrupa Complex, Modern College Road, Off FC Road, Shivajinagar, Pune, Maharashtra 411005",
+      "estd": 2005,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Bakliwal Tutorials is a Pune-founded JEE institute started in 2005 by Vaibhav Bakliwal, now running 12 centres across the city from its head office on Modern College Road (FC Road), Shivajinagar. The institute reports more than 770 JEE Main qualifiers and 347 JEE Advanced selections from its 2024 batch. It is typically shortlisted by droppers and Class 12 students who want a structured, test-heavy JEE-only schedule without leaving Pune.",
+      "highlights": [
+        "Founded 2005 by Vaibhav Bakliwal; 12 centres across Pune",
+        "Reports 770+ JEE Main qualifiers and 347 JEE Advanced selections (2024 batch)",
+        "JEE-only focus, including a dedicated dropper batch"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "fiitjee-pune",
+      "type": "coaching",
+      "name": "FIITJEE Pune",
+      "city": "pune",
+      "locality": "Swargate",
+      "address": "FIITJEE Ltd, 3rd Floor, A-Wing, Vega Centre, Shankarsheth Road, Swargate, Pune, Maharashtra 411037",
+      "estd": 1992,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "FIITJEE is a national JEE-focused coaching chain founded in Delhi in 1992 by IIT Delhi alumnus D.K. Goel. Its Pune centre operates from Vega Centre on Shankarsheth Road, Swargate, bringing the chain's long-running JEE Advanced-focused curriculum and test series to the city. It suits students who specifically want a legacy national brand's ranking system and study material over a locally built one.",
+      "highlights": [
+        "Part of FIITJEE, founded in Delhi in 1992 by D.K. Goel (IIT Delhi alumnus)",
+        "Pune centre based in Swargate",
+        "JEE Advanced-focused curriculum and test series"
+      ],
+      "website": "https://www.fiitjee.com",
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-pune",
+      "type": "coaching",
+      "name": "Aakash Institute Pune",
+      "city": "pune",
+      "locality": "Shankar Sheth Road",
+      "address": "Aakash Institute, Golibar Maidan, 1st Floor, No 2390B, Shankar Sheth Rd, Parvaz Complex, Pune, Maharashtra 411001 (opposite Dhobi Ghat)",
+      "estd": 1988,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Aakash Educational Services, founded in 1988 by J.C. Chaudhry, runs two centres in Pune: one at Golibar Maidan on Shankar Sheth Road, and a second in Morwadi, Pimpri-Chinchwad. Aakash is best known nationally for NEET, but its Pune centres run full JEE Main and Advanced batches alongside NEET, useful for students who want one institute covering both a JEE attempt and a backup NEET attempt.",
+      "highlights": [
+        "Part of Aakash Educational Services, founded 1988 by J.C. Chaudhry",
+        "Two Pune centres: Shankar Sheth Road and Morwadi (PCMC)",
+        "Runs JEE and NEET batches side by side"
+      ],
+      "website": "https://www.aakash.ac.in",
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-pune",
+      "type": "coaching",
+      "name": "Allen Career Institute (Pune)",
+      "city": "pune",
+      "locality": "Shivaji Nagar",
+      "address": "A&T House, 1205/01/10, Nanasaheb Deshpande Path, Near Apte Road, Off Jangli Maharaj Road, Shivaji Nagar, Pune, Maharashtra 411004",
+      "estd": 1988,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Allen Career Institute, founded in Kota in 1988 by Rajesh Maheshwari, is the most geographically spread national chain in Pune, with centres in Shivaji Nagar, Swargate, Baner, Hadapsar and Pimpri (PCMC). That spread makes it a convenient national option across the city, backed by Kota's original test-series infrastructure delivered through local classrooms.",
+      "highlights": [
+        "Part of Allen Career Institute, founded in Kota (1988) by Rajesh Maheshwari",
+        "Five Pune centres: Shivaji Nagar, Swargate, Baner, Hadapsar, Pimpri",
+        "Runs both JEE and NEET batches"
+      ],
+      "website": "https://www.allen.ac.in",
+      "mode": "offline"
+    },
+    {
+      "slug": "sri-chaitanya-pune",
+      "type": "coaching",
+      "name": "Sri Chaitanya (Pune)",
+      "city": "pune",
+      "locality": "Wagholi",
+      "address": "Konark Orchid, Opposite Satav Enterprises, Beside Seema Warehouse, Kesnand Road, Wagholi, Pune, Maharashtra",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Sri Chaitanya, whose roots trace to Andhra Pradesh from 1986, runs a Pune campus in Wagholi that bundles junior college (Class 11-12) academics with integrated JEE and NEET coaching in one timetable. It's an option worth considering for students who want board-exam preparation and entrance-exam coaching managed together rather than as two separate schedules.",
+      "highlights": [
+        "Part of the Sri Chaitanya group (Andhra Pradesh-origin, tracing to 1986)",
+        "Pune campus in Wagholi with integrated junior college + JEE/NEET coaching",
+        "Single timetable covering board academics and entrance coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "iitians-prashikshan-kendra-pune",
+      "type": "coaching",
+      "name": "IITians Prashikshan Kendra (IITPK)",
+      "city": "pune",
+      "locality": "Kothrud",
+      "address": "Kothrud, Pune, Maharashtra",
+      "estd": 2002,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "IITians Prashikshan Kendra (IITPK) is a Pune-built specialist founded in 2002 by managing director Durgesh C. Mangeshkar, based in Kothrud. It runs long-term JEE Main/Advanced and NEET programs alongside foundation courses for younger students. Being purely Pune-grown and over two decades old, it's a reasonable pick for aspirants who want a local institute's continuity without a national chain's franchise structure.",
+      "highlights": [
+        "Founded 2002 by managing director Durgesh C. Mangeshkar",
+        "Pune-origin specialist based in Kothrud",
+        "Runs JEE, NEET and foundation programs for younger students"
+      ],
+      "website": "https://www.iitpk.com",
+      "mode": "offline"
+    },
+    {
+      "slug": "chaitanyas-academy-pune",
+      "type": "coaching",
+      "name": "Chaitanya's Academy",
+      "city": "pune",
+      "locality": "Pune (multiple centres)",
+      "address": "Pune, Maharashtra (4 centres)",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet",
+        "cet"
+      ],
+      "verified": false,
+      "about": "Chaitanya's Academy is a Pune-founded institute led by Sunil Dhayphule, built around a faculty bench the institute says includes 28 IIT/NIT alumni. It runs four centres with more than 5,200 students enrolled across JEE, NEET and MHT-CET programs, plus dedicated foundation batches for Classes 8-10. Not to be confused with the Andhra-origin Sri Chaitanya, a separate, unrelated brand also present in Pune.",
+      "highlights": [
+        "Faculty bench includes 28 IIT/NIT alumni, per the institute",
+        "4 centres, 5,200+ students across JEE, NEET and MHT-CET",
+        "Dedicated foundation programs for Classes 8-10"
+      ],
+      "website": "https://chaitanyas-academy.com",
+      "mode": "offline"
+    },
+    {
+      "slug": "asquare-classes-pune",
+      "type": "coaching",
+      "name": "Asquare Classes",
+      "city": "pune",
+      "locality": "Pimpri-Chinchwad",
+      "address": "Pimpri, Chinchwad, Vishrantwadi, Hadapsar and Pimple Saudagar, Pune, Maharashtra",
+      "estd": 2010,
+      "exams": [
+        "jee",
+        "neet",
+        "cet"
+      ],
+      "verified": false,
+      "about": "Asquare Classes, established in 2010, runs across Pimpri, Chinchwad, Vishrantwadi, Hadapsar and Pimple Saudagar, offering JEE, NEET and MHT-CET coaching. It publishes a two-year JEE/NEET program fee of roughly Rs 2.5 lakh, with scholarship tests held each March-April that can substantially reduce this for strong scorers. The institute cites 16 JEE Main clears at an average 98 percentile and 4 JEE Advanced selections (AIR 163-439) from a recent batch.",
+      "highlights": [
+        "Founded 2010; five locations across Pimpri-Chinchwad and Pune",
+        "Publishes fees: ~Rs 2.5 lakh for a 2-year JEE/NEET program, with scholarship tests",
+        "Cites 16 JEE Main clears (avg 98 percentile) and 4 JEE Advanced selections in a recent batch"
+      ],
+      "website": "https://www.asquareclasses.com",
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-pune",
+      "type": "coaching",
+      "name": "PW Vidyapeeth (Pune)",
+      "city": "pune",
+      "locality": "Multiple centres (FC Road, Kothrud, Pimpri, Hadapsar, Viman Nagar)",
+      "address": "FC Road, Kothrud (NalStop), Pimpri, Hadapsar and Viman Nagar, Pune, Maharashtra",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "PW Vidyapeeth is Physics Wallah's offline classroom arm, running five centres across Pune: FC Road, Kothrud (NalStop), Pimpri, Hadapsar and Viman Nagar. It extends PW's lower-fee positioning from its online platform into physical classrooms, suiting students who already like PW's teaching style online and want the same content structure with in-person accountability.",
+      "highlights": [
+        "Offline arm of Physics Wallah (PW)",
+        "Five Pune centres: FC Road, Kothrud, Pimpri, Hadapsar, Viman Nagar",
+        "Positioned at a lower fee point than legacy national chains"
+      ],
+      "website": "https://www.pw.live",
+      "mode": "offline"
+    },
+    {
+      "slug": "motion-education-pune",
+      "type": "coaching",
+      "name": "Motion Education (Pune)",
+      "city": "pune",
+      "locality": "Viman Nagar",
+      "address": "Viman Nagar, Deccan Gymkhana, Vadgaon Sheri and PCMC (Chinchwad), Pune, Maharashtra",
+      "estd": 2007,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Motion Education, founded in Kota in 2007 by Nitin Vijay and Surendra Vijay, has expanded into Pune with centres in Viman Nagar, Deccan Gymkhana, Vadgaon Sheri and PCMC (Chinchwad). Like Allen, it brings Kota's test-series scale to a Pune classroom, an option for students who specifically want that pedigree without relocating.",
+      "highlights": [
+        "Part of Motion Education, founded in Kota (2007) by Nitin Vijay and Surendra Vijay",
+        "Four Pune centres: Viman Nagar, Deccan Gymkhana, Vadgaon Sheri, PCMC",
+        "Runs both JEE and NEET batches"
+      ],
+      "mode": "offline"
+    },
+    {
       "slug": "aakash-institute-kolkata",
       "type": "coaching",
       "name": "Aakash Institute (Kolkata)",
@@ -5241,13 +5462,160 @@
         "Positioned as an in-city residential alternative to outstation coaching hubs"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "sbtechmath-academy",
+      "type": "coaching",
+      "name": "SBTechMath Academy",
+      "city": "online",
+      "locality": "Online, pan-India",
+      "address": "Online — live and recorded pure-mathematics coaching, available pan-India, registered office in Vidhyadhar Nagar, Jaipur",
+      "estd": null,
+      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "onlineCategory": "Online CSIR-NET / IIT JAM / GATE Maths Coaching",
+      "featured": true,
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://learn.sbtechmath.com",
+      "about": "SBTechMath Academy is an online coaching platform built entirely around pure mathematics for postgraduate and research-track exams — CSIR-NET Mathematics, IIT JAM Mathematics, GATE Mathematics and CUET PG Mathematics. It's led by Sunil Bansal (SB Sir), who qualified CSIR-NET with All India Rank 11 and has over a decade of experience teaching Real Analysis, Linear Algebra and Complex Analysis. The platform's positioning is concept-first: theorems and proofs are built from the ground up rather than taught as memorisable shortcuts, backed by daily live classes, recorded lectures, DPP assignments, a dedicated doubt-resolution team (24-hour turnaround) and an app with performance analytics. SBTechMath reports a YouTube subscriber base above 57,000 and more than 800 CSIR-NET qualifiers among its students to date — figures it publishes itself, so treat them as claims rather than independently audited results. Among the newer, math-specialist online platforms in this category, its founder's individually verifiable CSIR-NET AIR and multi-year teaching track record in exactly the subjects the exam tests (rather than broader test-prep) is what most distinguishes it from generalist coaching brands.",
+      "highlights": [
+        "Founder Sunil Bansal qualified CSIR-NET with AIR 11, 10+ years teaching Real Analysis, Linear Algebra and Complex Analysis",
+        "Concept-first pedagogy: proofs and theorems built from scratch, not formula shortcuts",
+        "Covers CSIR-NET Mathematics, IIT JAM Mathematics, GATE Mathematics and CUET PG Mathematics in one platform",
+        "Daily live classes, recorded lectures, DPP assignments, 24-hour doubt resolution and an analytics-driven app",
+        "Reports 57,000+ YouTube subscribers and 800+ CSIR-NET qualifiers (self-reported)"
+      ],
+      "mode": "online"
+    },
+    {
+      "slug": "dips-academy",
+      "type": "coaching",
+      "name": "DIPS Academy",
+      "city": "delhi",
+      "locality": "Jia Sarai, Hauz Khas",
+      "address": "DIPS House, 28, Jia Sarai, Hauz Khas, near IIT Delhi, New Delhi",
+      "estd": 2004,
+      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.dipsacademy.com",
+      "about": "DIPS Academy is a Jia Sarai (near IIT Delhi) coaching institute for CSIR-NET, IIT JAM, GATE and CUET PG Mathematics, formally founded in 2004 under director Rajendra Dubey after informal coaching beginnings in 1998. It runs classroom batches from its Delhi centre alongside online live and recorded classes, and also covers UPSC Mathematics optional and Assistant Professor recruitment exams. The institute is ISO 9001 certified and describes itself as India's highest-result-producing centre for these exams, claiming over 40,000 students taught to date — a figure it publishes itself rather than one independently verified.",
+      "highlights": [
+        "Founded 2004 (informal coaching since 1998) by director Rajendra Dubey, 25+ years teaching experience",
+        "Covers CSIR-NET, IIT JAM, GATE and CUET PG Mathematics plus UPSC Maths optional",
+        "Hybrid delivery: Jia Sarai classroom batches plus online live and recorded classes",
+        "ISO 9001 certified; reports 40,000+ students taught"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.3,
+      "googleReviewCount": 300
+    },
+    {
+      "slug": "mim-academy-chandigarh",
+      "type": "coaching",
+      "name": "MIM Academy (Mohan Institute of Mathematics)",
+      "city": "chandigarh",
+      "locality": "Sector 37C",
+      "address": "SCO 223, Sector 37C, Chandigarh, plus online live and recorded classes",
+      "estd": null,
+      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://onlinemim.com",
+      "about": "MIM Academy (Mohan Institute of Mathematics) is a Chandigarh-based coaching institute for CSIR-NET, IIT JAM, GATE and CUET PG Mathematics, also covering Lecturer and Master Cadre recruitment exams and state PSC Assistant Professor posts across Punjab, Haryana, Himachal and Madhya Pradesh. It positions itself as one of the oldest and most established mathematics coaching institutes in Northern India, running both offline classroom batches from its Sector 37C centre and online live and recorded courses. We couldn't independently confirm the institute's exact founding year or individual founder credentials from its official site, students weighing this listing should verify these details directly with the institute.",
+      "highlights": [
+        "Long-running Chandigarh institute for pure-mathematics competitive exams",
+        "Covers CSIR-NET, IIT JAM, GATE, CUET PG Mathematics plus Lecturer/Master Cadre and Assistant Professor exams",
+        "Hybrid delivery: Sector 37C classroom plus online live and recorded batches",
+        "Serves aspirants across Punjab, Haryana, Himachal Pradesh and Madhya Pradesh recruitment exams"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.6,
+      "googleReviewCount": 199
+    },
+    {
+      "slug": "anand-institute-of-mathematics-piaim",
+      "type": "coaching",
+      "name": "Anand Institute of Mathematics (PI-AIM)",
+      "city": "delhi",
+      "locality": "Jia Sarai, Hauz Khas",
+      "address": "28-B/6, Jia Sarai, near IIT Delhi, Hauz Khas, New Delhi",
+      "estd": null,
+      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.anandinstitute.org",
+      "about": "Anand Institute of Mathematics, branded PI-AIM, is a Jia Sarai (near IIT Delhi) coaching institute for CSIR-NET, IIT JAM, GATE and CUET PG Mathematics, founded and led by Dr. Anand Kumar (M.Tech, Ph.D from JNU), with a faculty team holding postgraduate and doctoral degrees from IIT Delhi, IIT Roorkee, Delhi University and South Asian University. It also prepares students for MSc entrance exams at institutions like DU, CMI, JNU, ISI, IISc and IISERs, and for TIFR and NBHM. The institute offers both offline classroom batches (with hostel and library facilities for outstation students) and online/correspondence courses.",
+      "highlights": [
+        "Founded and led by Dr. Anand Kumar (M.Tech, Ph.D, JNU)",
+        "Faculty holds postgraduate/doctoral degrees from IIT Delhi, IIT Roorkee, Delhi University and South Asian University",
+        "Covers CSIR-NET, IIT JAM, GATE, CUET PG Mathematics plus MSc entrance exams, TIFR and NBHM",
+        "Offline batches with hostel/library facilities, plus online and correspondence courses"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.6,
+      "googleReviewCount": 184
+    },
+    {
+      "slug": "career-endeavour",
+      "type": "coaching",
+      "name": "Career Endeavour",
+      "city": "delhi",
+      "locality": "Jia Sarai, Hauz Khas",
+      "address": "28-A/11, near IIT Delhi, Hauz Khas, New Delhi",
+      "estd": 2007,
+      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://careerendeavour.com",
+      "about": "Career Endeavour is a Jia Sarai (near IIT Delhi) coaching institute covering CSIR-NET Mathematics (alongside its Physical, Chemical and Life Sciences streams), IIT JAM, GATE and CUET PG Mathematics, operating since 2007. It runs online live classes over Zoom and a dedicated app with recorded lectures, alongside its Delhi classroom presence, and also prepares students for TIFR, NBHM and Assistant Professor recruitment exams.",
+      "highlights": [
+        "Delhi (Jia Sarai) institute operating since 2007",
+        "Covers CSIR-NET Mathematics, IIT JAM, GATE and CUET PG Mathematics",
+        "Online live classes via Zoom plus a dedicated recorded-lecture app",
+        "Also prepares for TIFR, NBHM and Assistant Professor recruitment exams"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.3,
+      "googleReviewCount": 394
+    },
+    {
+      "slug": "green-mathematical-institute-chennai",
+      "type": "coaching",
+      "name": "Green Mathematical Institute (GMI)",
+      "city": "chennai",
+      "locality": "Pazhavanthangal",
+      "address": "Bharathiyar Complex, Bharathiyar 2nd Street, Pazhavanthangal, Chennai",
+      "estd": 2019,
+      "exams": ["csir-net", "iit-jam", "gate"],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://csirnetmathematics.com",
+      "about": "Green Mathematical Institute (GMI), founded in 2019 in Pazhavanthangal, Chennai, offers offline and online coaching for CSIR-NET Mathematics, GATE Mathematics and IIT JAM Mathematics, alongside Tamil Nadu-specific exams TNSET and PGTRB Mathematics, with instruction available in both English and Tamil. It also prepares students for NBHM and TIFR. GMI reports helping around 90-140 students join PhD programmes at institutions including IITs, IISc, IISERs and TIFR, and publishes qualifier counts across CSIR-NET, GATE, TNSET, IIT-JAM and NBHM, figures it reports itself rather than ones independently audited. Note: Green Mathematical Institute is a separate coaching centre and should not be confused with the Chennai Mathematical Institute (CMI), an unrelated research institute and university.",
+      "highlights": [
+        "Chennai institute founded 2019, teaching in both English and Tamil",
+        "Covers CSIR-NET, GATE and IIT JAM Mathematics plus Tamil Nadu's TNSET and PGTRB",
+        "Also prepares for NBHM and TIFR",
+        "Reports 250+ students helped into PhD programmes at IITs, IISc, IISERs and TIFR (self-reported)"
+      ],
+      "mode": "hybrid",
+      "googleRating": 5.0,
+      "googleReviewCount": 687
     }
-
   ],
-  "cityContent": {    "coaching-kolkata": {
+  "cityContent": {
+    "coaching-kolkata": {
       "intro": "<p>Kolkata is West Bengal's coaching hub for NEET preparation, feeding the state's roughly 40 government and private medical colleges and their combined MBBS seat count in the thousands, alongside AIQ seats across India. The city's institutes cluster around three zones: the CIT Road/Kankurgachi/Phool Bagan belt in the east, Salt Lake and New Town further out, and Gariahat/Rash Behari/Sarat Bose Road in the south, all well connected by the Blue and Green Line metro. The market mixes Kota- and Mumbai-origin national chains (Aakash, Allen, Resonance, Career Point, PACE IIT & Medical, Vidyamandir Classes, Narayana) with Kolkata-built specialists (Rana Sir Classes, Ignescent Gurukul, Career & Courses). Every listing below shows its verification status and, where available, student ratings.</p>"
     },
-
+    "coaching-pune": {
+      "intro": "<p>Pune runs one of Maharashtra's largest coaching markets for engineering entrance exams, serving a dual role: a serious JEE (Main + Advanced) hub in its own right, and the state's biggest cluster for MHT-CET preparation, since the city is home to COEP Technological University, VIT Pune and dozens of other MHT-CET-admitting colleges. The city's coaching scene mixes Kota-origin national chains (FIITJEE, Aakash, Allen, Motion Education) with Pune-built specialists (Bakliwal Tutorials, IITians Prashikshan Kendra, Chaitanya's Academy), most running combined JEE + MHT-CET batches since Maharashtra students rarely prepare for only one. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
     "coaching-sikar": {
       "intro": "<p>Sikar, in Rajasthan's Shekhawati region, has grown into one of India's fastest-rising coaching destinations — a serious alternative to Kota for NEET and JEE preparation at meaningfully lower fees and living costs. The city's institutes cluster along <strong>Piprali Road</strong> and <strong>Nawalgarh Road</strong>, surrounded by hostels, libraries and mess facilities built for its large outstation student population. Sikar's breakout moment came in 2024, when a student of the city's PCP institute scored a perfect 720/720 in NEET UG to take All India Rank 1. Beyond JEE and NEET, the city also hosts specialist academies for SSC, defence (NDA/CDS) and civil-services preparation. Every listing below shows its verification status and unedited student ratings.</p>",
       "faqs": [

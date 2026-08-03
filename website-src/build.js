@@ -472,7 +472,7 @@ function detailPage(x) {
   const highlights = (x.highlights || []).map(h => `<li>${esc(h)}</li>`).join("");
   const listHref = x.city === "online" ? `${typePage[x.type]}.html` : `${typePage[x.type]}-${x.city}.html`;
   const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
-  return head(`${x.name} — ${x.city === "online" ? onlineCopyFor(x.type).h1 : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
+  return head(`${x.name} — ${x.city === "online" ? (x.onlineCategory || onlineCopyFor(x.type).h1) : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
     `${x.name}, ${x.locality}, ${cityL}.${x.estd ? ` Established ${x.estd}.` : ""}${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} Address, exams offered and enquiry details.`) +
     header(`${typePage[x.type]}.html`) + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${x.city === "online" ? "Online Platforms" : cityL}</a> / <span>${esc(x.name)}</span></div>

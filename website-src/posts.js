@@ -2336,6 +2336,114 @@ module.exports = [
 <p>If you'd rather have structured guidance than build this plan solo, compare every verified IPMAT coaching institute we track, with real ratings and fee transparency, on our <a href="coaching.html?exam=ipmat">IPMAT coaching listings page</a>.</p>`
   },
   {
+    slug: "csab-special-dasa-2026-counselling-josaa-round5-update",
+    title: "CSAB Special & DASA 2026 Counselling Opens as JoSAA's Final Round Wraps Up",
+    category: "IIT JEE",
+    date: "02 Aug 2026",
+    minutes: 5,
+    cta: { href: "coaching.html?exam=jee", text: "Compare verified JEE coaching institutes" },
+    excerpt: "CSAB has opened registration for DASA & CSAB Special Counselling 2026, the process that fills seats vacated after JoSAA's fifth and final round. Here's what NIT+ system aspirants need to do next.",
+    image: "assets/blog/jee-josaa-csab-special-counselling-2026-update.png",
+    imageAlt: "CSAB Special and DASA 2026 counselling update graphic",
+    html: `
+<p><strong>Last updated: 2 August 2026.</strong></p>
+<p>The Central Seat Allocation Board (CSAB) has opened online registration and choice filling for DASA and CSAB Special Counselling 2026, the process that fills seats left vacant across NITs, IIITs and other centrally-funded technical institutes after the Joint Seat Allocation Authority's (JoSAA) five main rounds conclude, according to the official CSAB portal, <a href="https://csab.nic.in/" rel="noopener" target="_blank">csab.nic.in</a>.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Three things changed on the official portals this week. First, JoSAA has announced the Round 5 seat allocation result, its fifth and final round for the 2026-27 session, covering 138 institutes: 23 IITs, IISc Bengaluru, 31 NITs, IIEST Shibpur, 26 IIITs and 56 other government-funded technical institutes. Second, CSAB has declared the Round 1 result for NEUT (the North-Eastern and Union Territory) seat allocation. Third, CSAB has opened fresh registration and choice filling for DASA (Direct Admission of Students Abroad) and CSAB Special Rounds 2026, run as a combined process this year, which will allocate any seats still vacant in the NIT+ system after JoSAA closes.</p>
+
+<h2>What it means for students</h2>
+<p>If you already hold a JoSAA-allotted seat in the NIT+ system, have paid the Partial Admission Fee (PAF), and are not applying through CSAB Special Rounds or DASA, your next step is physical reporting at your allotted institute, scheduled for 13-18 August 2026, per JoSAA's official notice. IIT and IISc candidates should check their specific institute's reporting schedule separately, since JoSAA states these are published on each institute's own admission page rather than centrally.</p>
+<p>If you don't yet have a seat you're satisfied with, treat CSAB Special Rounds and DASA as a genuinely separate process from JoSAA, not a continuation of it. CSAB's own guidance is explicit that registration, choice filling and locking, seat allotment and fee payment all differ from JoSAA's procedures, so your JoSAA login or choices don't carry over. Document verification for DASA candidates happens before seat allotment; for CSAB Special candidates, it happens during the rounds themselves. Two seat-allocation rounds are planned under this combined DASA/CSAB-Special process for 2026.</p>
+
+<h2>Where to check for yourself</h2>
+<p>Because these portals update quickly during counselling season, confirm your specific dates directly rather than relying on a forwarded message or a third-party aggregator: the official CSAB Special/DASA page is at <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">csab.nic.in/csab-special</a>, and JoSAA's own schedule and notices are at <a href="https://josaa.nic.in/schedule/" rel="noopener" target="_blank">josaa.nic.in/schedule</a>.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[2 Aug 2026]</strong> CSAB NEUT Round 1 seat allocation result has been declared, per <a href="https://csab.nic.in/" rel="noopener" target="_blank">csab.nic.in</a>.</li>
+<li><strong>[2 Aug 2026]</strong> JoSAA's Round 5 allocation, its fifth and final round for 2026-27, has been announced, per <a href="https://josaa.nic.in/" rel="noopener" target="_blank">josaa.nic.in</a>.</li>
+<li><strong>[Effective 13-18 Aug 2026]</strong> Physical reporting for NIT+ system candidates who are not applying through CSAB Special/DASA falls in this window, per JoSAA's official notice.</li>
+<li><strong>Myth check:</strong> Accepting a JoSAA seat does not automatically register you for CSAB Special Rounds or DASA — both require a fresh, separate registration on csab.nic.in.</li>
+<li><strong>[Updated 28 Jul 2026]</strong> CSAB's DASA (UG) information brochure was last revised on 28 July 2026; always confirm you're reading the current version before relying on a date in it.</li>
+</ul>
+
+<p><em>Last updated: 2 August 2026. Sources: <a href="https://josaa.nic.in/" rel="noopener" target="_blank">josaa.nic.in</a>, <a href="https://csab.nic.in/" rel="noopener" target="_blank">csab.nic.in</a>.</em></p>`
+  },
+  {
+    slug: "top-10-jee-coaching-institutes-pune-2026",
+    title: "Top 10 JEE Coaching Institutes in Pune (2026)",
+    category: "IIT JEE",
+    date: "02 Aug 2026",
+    minutes: 10,
+    cta: { href: "coaching-pune.html", text: "Browse all verified coaching institutes in Pune" },
+    excerpt: "Pune runs on a mix of Kota-origin national chains and homegrown specialists for JEE prep. Here's a fact-checked look at ten institutes actually training students for IIT-JEE in the city.",
+    image: "assets/blog/top-10-jee-coaching-institutes-pune-2026.png",
+    imageAlt: "Top 10 JEE coaching institutes in Pune 2026 graphic",
+    faqs: [
+      { q: "Which is the best JEE coaching institute in Pune?", a: "There's no single 'best' — it depends on whether you want a Pune-origin specialist (Bakliwal Tutorials, IITians Prashikshan Kendra, Chaitanya's Academy) or a national chain's test-series infrastructure (FIITJEE, Aakash, Allen, Motion Education). Compare batch size, faculty and current fees directly with 2-3 shortlisted institutes before deciding." },
+      { q: "Do Pune JEE institutes also cover MHT-CET?", a: "Most do. Because Pune is home to COEP Technological University, VIT Pune and many other MHT-CET-admitting colleges, most institutes on this list run combined JEE + MHT-CET batches rather than a JEE-only track." },
+      { q: "Is Bakliwal Tutorials only for JEE droppers?", a: "No, though it's especially well known for its dropper batch. Bakliwal also runs regular Class 11-12 JEE programs; droppers are simply one of its most established tracks." },
+      { q: "Does Online Coaching 4u accept payment for higher placement in this list?", a: "No. None of the institutes featured here have paid for placement, and rankings on this platform are never for sale." }
+    ],
+    html: `
+<p>Pune doesn't get the instant name-recognition Kota does when people talk about JEE preparation, but it quietly runs one of India's larger coaching markets for the exam — an estimated 1,000+ engineering-entrance tutors and roughly 380 institutes operate in the city. That scale exists because Pune plays a dual role for Maharashtra's engineering aspirants: it's a serious JEE (Main + Advanced) market in its own right, and simultaneously the state's biggest hub for MHT-CET preparation, since the city is home to COEP Technological University (one of India's oldest engineering colleges), VIT Pune, and dozens of other private engineering colleges that admit through the state CET. Most institutes below run combined JEE + MHT-CET batches for exactly this reason: a Maharashtra student rarely prepares for only one of the two.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Pune, Maharashtra</p>
+<p><strong>Exam this list is built for:</strong> IIT-JEE (Main + Advanced); most institutes below also run parallel MHT-CET batches</p>
+<p><strong>Institutes compared:</strong> 10, spanning national Kota-origin chains and Pune-origin specialists</p>
+<p><strong>Why Pune:</strong> home to COEP Technological University and VIT Pune, plus a large state/private engineering college base drawing both JEE and MHT-CET aspirants</p>
+<p><strong>JoSAA 2026-27 institute count nationally:</strong> 138 (23 IITs, IISc, 31 NITs, IIEST Shibpur, 26 IIITs, 56 other GFTIs)</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable JEE-coaching presence in Pune: a real local address, a track record we could find independent confirmation of (JEE Main/Advanced qualifier counts, founder credentials, years actually operating in the city), and coverage across Pune's major coaching clusters rather than a single branch. The list below mixes large national chains that have opened Pune centres with institutes built in Pune specifically. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Bakliwal Tutorials</h3>
+<p>Founded in 2005 by Vaibhav Bakliwal, Bakliwal Tutorials is one of Pune's most established homegrown JEE institutes, now running 12 centres across the city from its head office on Modern College Road (FC Road), Shivajinagar. The institute reports more than 770 JEE Main qualifiers and 347 JEE Advanced selections from its 2024 batch, a scale that puts it among the largest Pune-origin players. It's typically shortlisted by droppers and Class 12 students who want a structured, test-heavy schedule without leaving the city.</p>
+
+<h3>2. FIITJEE Pune</h3>
+<p>FIITJEE, founded in Delhi in 1992 by IIT Delhi alumnus D.K. Goel, runs a Pune centre at Vega Centre on Shankarsheth Road, Swargate. As one of India's oldest national JEE-only chains, it brings a long-running, JEE Advanced-focused curriculum and test series to the city — an option for students who specifically want a legacy national brand's material and ranking system rather than a locally built one.</p>
+
+<h3>3. Aakash Institute Pune</h3>
+<p>Aakash Educational Services, founded in 1988 by J.C. Chaudhry, runs two Pune centres: one at Golibar Maidan on Shankar Sheth Road (opposite Dhobi Ghat), and a second in Morwadi, Pimpri-Chinchwad. Aakash is better known nationally for NEET, but its Pune centres run full JEE Main and Advanced batches too, useful if you want one institute's ecosystem to cover both a JEE attempt and a backup NEET attempt.</p>
+
+<h3>4. Allen Career Institute (Pune)</h3>
+<p>Allen, founded in Kota in 1988 by Rajesh Maheshwari, is the most geographically spread national chain on this list in Pune, with centres in Shivaji Nagar, Swargate, Baner, Hadapsar and Pimpri. That spread makes it one of the more convenient national options regardless of which part of the city you're based in, backed by Kota's original test-series infrastructure delivered locally.</p>
+
+<h3>5. Sri Chaitanya (Pune)</h3>
+<p>Part of the Sri Chaitanya group, whose roots trace back to Andhra Pradesh from 1986, the Pune operation runs from Wagholi (Konark Orchid, Kesnand Road) and typically bundles junior college (Class 11-12) academics with JEE and NEET coaching in a single integrated program — an option worth considering if you want board-exam marks and JEE prep managed under one timetable rather than two separate schedules.</p>
+
+<h3>6. IITians Prashikshan Kendra (IITPK)</h3>
+<p>Founded in 2002 by managing director Durgesh C. Mangeshkar, IITPK is a Pune-built specialist based in Kothrud, running long-term JEE Main/Advanced and NEET programs alongside foundation courses for younger students. Being purely Pune-grown and over two decades old, it's a reasonable pick for aspirants who want a local institute's continuity without a national chain's franchise structure.</p>
+
+<h3>7. Chaitanya's Academy</h3>
+<p>Not to be confused with the Andhra-origin Sri Chaitanya, this is a separate, Pune-founded institute led by Sunil Dhayphule, built around a faculty bench the institute says includes 28 IIT/NIT alumni. It now runs four centres and reports over 5,200 students enrolled across JEE, NEET and MHT-CET programs, with dedicated foundation batches for Classes 8-10.</p>
+
+<h3>8. Asquare Classes</h3>
+<p>Established in 2010, Asquare runs across Pimpri, Chinchwad, Vishrantwadi, Hadapsar and Pimple Saudagar, and is one of the few institutes on this list with a published fee figure: roughly ₹2.5 lakh for its two-year JEE/NEET program, with scholarship tests held each March-April that can cut this substantially for strong scorers. The institute cites 16 JEE Main clears at an average 98 percentile and 4 JEE Advanced selections (AIR 163-439) from a recent batch.</p>
+
+<h3>9. PW Vidyapeeth (Physics Wallah)</h3>
+<p>Physics Wallah's offline arm runs five Pune centres — FC Road, Kothrud (NalStop), Pimpri, Hadapsar and Viman Nagar — extending its low-fee positioning from the online platform into physical classrooms. It suits students who already like PW's teaching style online and want the same content structure with in-person accountability, typically at a lower price point than the legacy chains on this list.</p>
+
+<h3>10. Motion Education (Pune)</h3>
+<p>Motion Education, founded in Kota in 2007 by Nitin Vijay and Surendra Vijay, has expanded into Pune with centres in Viman Nagar, Deccan Gymkhana, Vadgaon Sheri and PCMC (Chinchwad). Like Allen, it brings Kota's test-series scale to a Pune classroom, an option for students who specifically want that pedigree without relocating.</p>
+
+<h2>How to actually choose between them</h2>
+<p>The honest pattern across this list: Bakliwal Tutorials, IITPK and Chaitanya's Academy are Pune-built specialists with a genuine local track record and, in Bakliwal's and Chaitanya's Academy's case, real scale of their own. FIITJEE, Aakash, Allen, Sri Chaitanya, PW Vidyapeeth and Motion Education are national chains that bring an outstation brand's infrastructure and test series to a Pune classroom. Asquare sits in between — Pune-founded, but publishing the kind of fee and outcome transparency you'd expect from a larger chain. Neither category is objectively better. If you want a locally accountable institute where the founder is reachable and the culture is Pune-specific, start with the homegrown three. If you want a nationally benchmarked test series and don't mind a franchise structure, the national chains give you that. Whichever you pick, verify current fees, batch sizes and this year's actual faculty roster directly with the centre before enrolling — none of the figures above should substitute for asking the institute itself.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>Which is the best JEE coaching institute in Pune?</h3>
+<p>There's no single "best" — it depends on whether you want a Pune-origin specialist (Bakliwal Tutorials, IITPK, Chaitanya's Academy) or a national chain's test-series infrastructure (FIITJEE, Aakash, Allen, Motion Education). Compare batch size, faculty and fees directly with 2-3 shortlisted institutes before deciding.</p>
+<h3>Do Pune JEE institutes also cover MHT-CET?</h3>
+<p>Most do. Because Pune is home to COEP, VIT Pune and many other MHT-CET-admitting colleges, nearly every institute on this list runs combined JEE + MHT-CET batches rather than a JEE-only track.</p>
+<h3>Does Online Coaching 4u accept payment for higher placement in this list?</h3>
+<p>No. None of the institutes featured here have paid for placement, and our rankings are never for sale.</p>
+
+<p>Compare full details, fees and reviews for every coaching institute we track in the city on our <a href="coaching-pune.html">Pune coaching listings page</a>.</p>`
+  },
+  {
     slug: "neet-ug-2026-aiq-counselling-registration-round1-update",
     title: "NEET UG 2026 AIQ Counselling: MCC Opens Round 1 Registration on August 5",
     category: "NEET",
@@ -2441,6 +2549,175 @@ module.exports = [
 <p>No. None of the institutes featured here have paid for placement, and our rankings are never for sale.</p>
 
 <p>Compare full details, fees and reviews for every coaching institute we track in the city on our <a href="coaching-kolkata.html">Kolkata coaching listings page</a>.</p>`
-  }
+  },
+  {
+    slug: "csir-net-iit-jam-gate-maths-exam-guide",
+    title: "CSIR-NET, IIT JAM and GATE Mathematics: Exam Overview, Eligibility and Syllabus",
+    category: "CSIR NET / IIT JAM / GATE Maths",
+    date: "02 Aug 2026",
+    minutes: 10,
+    cta: { href: "coaching-online.html?exam=csir-net", text: "Compare verified pure-maths coaching institutes" },
+    excerpt: "Four separate national exams test pure mathematics beyond a bachelor's degree, CSIR-NET, IIT JAM, GATE and CUET PG, each for a different purpose. Here's exactly what each requires and tests.",
+    image: "assets/blog/csir-net-iit-jam-gate-maths-exam-guide.png",
+    imageAlt: "CSIR NET IIT JAM GATE Mathematics eligibility and syllabus illustration",
+    faqs: [
+      { q: "What's the difference between CSIR-NET JRF and CSIR-NET Lectureship?", a: "Both come from the same exam and paper. Candidates who clear the higher JRF cutoff get both a funded Junior Research Fellowship (for a PhD) and Assistant Professor/lectureship eligibility. Candidates who clear only the lower Lectureship cutoff get teaching eligibility alone, with no fellowship." },
+      { q: "Is there an age limit for CSIR-NET Mathematical Sciences?", a: "Only for JRF: the upper age limit is 28 years as of the application closing date, with relaxations (5 years for SC/ST/PwD/female/third gender, 3 years for OBC-NCL). There's no upper age limit if you're applying for Lectureship/Assistant Professor eligibility only." },
+      { q: "Do IIT JAM and GATE Mathematics have negative marking?", a: "Both do, but only on certain question types. In JAM Mathematics, negative marking applies only to Section A (MCQs), not to MSQs or NAT questions. GATE Mathematics follows the same principle, MCQs lose marks for a wrong answer, MSQs and NAT questions don't." },
+      { q: "Which exam should I take if I want to become a college lecturer?", a: "CSIR-NET Mathematical Sciences is the one built specifically for that outcome, clearing it (at either the JRF or Lectureship cutoff) is a standard eligibility requirement for Assistant Professor posts in Indian universities and colleges. IIT JAM, GATE and CUET PG are primarily admission exams for postgraduate or PhD programmes, not teaching-eligibility exams." },
+      { q: "Can I take more than one of these exams in the same year?", a: "Yes, and many serious aspirants do, since the core subjects overlap heavily (Real Analysis, Linear Algebra, Complex Analysis, Algebra). CSIR-NET (June/December) and GATE/JAM (typically February) fall in different windows, so preparing for one genuinely builds a base for the others." }
+    ],
+    html: `
+<p>If you've searched for "how to prepare for CSIR-NET Mathematics" and come away more confused about which exam you actually need, that confusion is reasonable, there are four separate national exams testing pure mathematics beyond a bachelor's degree, run by different bodies, for genuinely different purposes. CSIR-NET Mathematical Sciences decides who's eligible to teach in a college or fund a PhD. IIT JAM and GATE Mathematics decide who gets into a postgraduate or research programme at an IIT or IISc. CUET PG Mathematics decides who gets into an MSc at a central university. Here's exactly what each one requires and tests.</p>
 
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>CSIR-NET Mathematical Sciences:</strong> NTA/CSIR, twice yearly (June & December), decides JRF/PhD funding and lectureship eligibility</p>
+<p><strong>IIT JAM Mathematics:</strong> rotating IIT, once yearly (~February), decides admission to MSc/PhD programmes at IITs and IISc</p>
+<p><strong>GATE Mathematics (MA):</strong> rotating IIT, once yearly (~February), decides admission to MTech/PhD programmes at IITs/IISc</p>
+<p><strong>CUET PG Mathematics:</strong> NTA, once yearly, decides admission to MSc Mathematics at central universities (DU, JNU, BHU and others)</p>
+</div>
+
+<h2>CSIR-NET Mathematical Sciences</h2>
+<p>CSIR-NET is conducted by the National Testing Agency on behalf of CSIR, twice a year, in June and December cycles. It's the exam that determines whether you're eligible for a Junior Research Fellowship (a funded PhD position) or for Assistant Professor/lectureship roles at Indian universities and colleges, both outcomes come from the same paper, but clearing a higher cutoff gets you JRF eligibility (fellowship plus PhD), while clearing a lower cutoff gets you lectureship eligibility only, with no fellowship attached.</p>
+<h3>Eligibility</h3>
+<p>You need a Master's degree (or equivalent, typically MSc Mathematics) with at least 55% marks, reduced to 50% for SC/ST/OBC-NCL/PwD/third-gender candidates. The JRF track carries a genuine age limit, 28 years as of the application closing date, with a 5-year relaxation for SC/ST/PwD/female/third-gender candidates and a 3-year relaxation for OBC-NCL. If you're applying purely for lectureship eligibility rather than JRF, there's no upper age limit at all.</p>
+<h3>Exam pattern</h3>
+<table>
+<thead><tr><th>Element</th><th>Detail</th></tr></thead>
+<tbody>
+<tr><td>Mode & duration</td><td>Computer-based test, 3 hours, no breaks</td></tr>
+<tr><td>Total marks</td><td>200</td></tr>
+<tr><td>Structure</td><td>Part A (general aptitude, common to all subjects), Part B, Part C (subject-specific)</td></tr>
+<tr><td>Marking</td><td>Part A: 2 marks/question, 25% negative marking. Part B: 3 marks/question, 25% negative marking. Part C: 4.75 marks/question, no negative marking</td></tr>
+</tbody>
+</table>
+<h3>Syllabus structure</h3>
+<p>The Mathematical Sciences paper is organised into units, Unit 1 is compulsory for everyone, Units 2-3 are for Mathematics-background candidates, and Unit 4 (Statistics) is a separate track for Statistics-background candidates who don't need Units 2-3.</p>
+<ul>
+<li><strong>Unit 1 (compulsory):</strong> Real Analysis and Linear Algebra, set theory, the real number system, sequences and series, continuity and differentiability, mean value theorems, Riemann integration, improper integrals, matrices, determinants and vector spaces.</li>
+<li><strong>Unit 2:</strong> Complex Analysis (analytic functions, the residue theorem, Liouville's theorem, conformal mapping) and Modern/Abstract Algebra (group theory, ring theory, Galois theory).</li>
+<li><strong>Unit 3:</strong> Ordinary and Partial Differential Equations, Numerical Analysis, Calculus of Variations, Linear Integral Equations and Classical Mechanics.</li>
+</ul>
+<p>Exact unit boundaries (particularly where Topology sits) vary slightly across secondary sources, always cross-check the official CSIR Information Bulletin for the precise breakdown before finalising your study plan.</p>
+<p>Application fee: ₹1,150 (General), ₹600 (OBC-NCL/EWS), ₹325 (SC/ST/PwD/third gender).</p>
+
+<h2>IIT JAM Mathematics (MA paper)</h2>
+<p>IIT JAM is a once-yearly exam, typically held in February, organised by a different IIT each cycle on a rotation. It's the standard route into MSc and integrated PhD programmes in Mathematics at the IITs, IISc and other centrally funded technical institutes.</p>
+<h3>Eligibility</h3>
+<p>A bachelor's degree with Mathematics as a subject, minimum 55% aggregate (or 5.5/10 CGPA) for General/OBC candidates, 50% (or 5/10 CGPA) for SC/ST/PwD candidates. There's no upper age limit, and you can attempt it more than once.</p>
+<h3>Exam pattern</h3>
+<table>
+<thead><tr><th>Section</th><th>Format</th><th>Questions</th><th>Negative marking</th></tr></thead>
+<tbody>
+<tr><td>Section A</td><td>MCQ</td><td>30 (10 × 1 mark, 20 × 2 marks)</td><td>Yes, -1/3 (1-mark), -2/3 (2-mark)</td></tr>
+<tr><td>Section B</td><td>MSQ (Multiple Select)</td><td>10, 2 marks each</td><td>No</td></tr>
+<tr><td>Section C</td><td>NAT (Numerical Answer)</td><td>20 (10 × 1 mark, 10 × 2 marks)</td><td>No</td></tr>
+</tbody>
+</table>
+<p>Total: 60 questions, 100 marks, 3 hours.</p>
+<h3>Syllabus</h3>
+<p>Sequences and series of real numbers, functions of one and two real variables (limits, continuity, differentiability, Rolle's theorem and the mean value theorem, L'Hospital's rule, Taylor series, maxima and minima, Lagrange multipliers), Riemann integration and the fundamental theorem of calculus, multivariable calculus (double and triple integrals), Linear Algebra, Real Analysis, Group Theory, Ordinary Differential Equations and Vector Calculus.</p>
+<p>JAM Mathematics scores are accepted by all IITs running the exam that cycle, plus IISc Bangalore (via a separate application), several NITs, IISERs, IIEST Shibpur and other centrally funded institutes.</p>
+
+<h2>GATE Mathematics (MA paper)</h2>
+<p>GATE also rotates its organising institute each year, GATE 2027 is being conducted by IIT Madras, with exams scheduled across four weekends in February 2027 and registration running mid-August to late-September 2026. GATE 2027 brings a full syllabus revision across papers and a new Robotics and Automation paper, worth checking the official GATE 2027 syllabus PDF for any Mathematics-specific changes before you finalise a study plan.</p>
+<h3>Eligibility</h3>
+<p>A bachelor's degree in a relevant discipline (typically BSc Mathematics or equivalent, including final-year students), with no upper age limit.</p>
+<h3>Exam pattern</h3>
+<p>65 questions, 100 total marks, 3 hours, a mix of MCQ, MSQ and NAT questions. General Aptitude accounts for 15 of the 100 marks (the same across every GATE paper), with the remaining 85 marks on core Mathematics content. Negative marking applies only to MCQs (-1/3 for 1-mark, -2/3 for 2-mark questions), not to MSQs or NAT questions.</p>
+<h3>Syllabus</h3>
+<p>Calculus, Linear Algebra, Real Analysis, Complex Analysis, Ordinary Differential Equations, Algebra, Functional Analysis, Numerical Analysis, Partial Differential Equations, Topology and Linear Programming. Real Analysis specifically covers metric spaces, compactness and completeness, uniform convergence, the Ascoli-Arzelà theorem, the Weierstrass approximation theorem, Lebesgue measure and integration, and the monotone and dominated convergence theorems; Topology covers bases and subbases, product/quotient/order topology, connectedness, compactness and separation axioms.</p>
+<p>GATE Mathematics scores are used for MTech and PhD admissions at IITs, IISc and other CFTIs (a GATE score is generally valid for three years). Unlike engineering GATE papers, the Mathematics paper has little to no relevance for PSU recruitment, PSUs overwhelmingly hire against engineering-discipline papers, not MA.</p>
+
+<h2>CUET PG Mathematics</h2>
+<p>CUET PG is conducted by the NTA and covers admission to MSc Mathematics and related postgraduate programmes at central universities, including Delhi University, JNU and BHU. It's a shorter, more compact exam than the other three: 75 MCQs in 90 minutes, for 300 total marks (4 marks per correct answer, -1 for a wrong answer, no penalty for skipping a question). The syllabus is BSc-level, covering Algebra (groups, subgroups, rings, ideals, fields) and Linear Algebra (vector spaces, linear transformations, rank-nullity, matrices, determinants, systems of linear equations). Eligibility is a bachelor's degree with at least 50% marks; final-year students can also apply, with admission conditional on completing the degree before counselling.</p>
+
+<h2>Side-by-side comparison</h2>
+<table>
+<thead><tr><th>Exam</th><th>Conducted by</th><th>Frequency</th><th>Duration</th><th>Decides</th></tr></thead>
+<tbody>
+<tr><td>CSIR-NET Mathematical Sciences</td><td>NTA / CSIR</td><td>Twice yearly (June, December)</td><td>3 hours</td><td>JRF/PhD funding + lectureship eligibility</td></tr>
+<tr><td>IIT JAM Mathematics</td><td>Rotating IIT</td><td>Once yearly (~February)</td><td>3 hours</td><td>MSc/PhD admission at IITs, IISc</td></tr>
+<tr><td>GATE Mathematics (MA)</td><td>Rotating IIT</td><td>Once yearly (~February)</td><td>3 hours</td><td>MTech/PhD admission at IITs, IISc, CFTIs</td></tr>
+<tr><td>CUET PG Mathematics</td><td>NTA</td><td>Once yearly</td><td>90 minutes</td><td>MSc admission at central universities</td></tr>
+</tbody>
+</table>
+
+<h2>How to start preparing</h2>
+<p>Because the core subjects overlap so heavily across all four exams, Real Analysis, Linear Algebra and Complex Analysis show up in some form on every one of them, preparing seriously for one genuinely builds a transferable base for the others, rather than requiring four separate study plans. Among the concept-first platforms teaching exactly this overlap, <a href="https://learn.sbtechmath.com" rel="noopener" target="_blank">SBTechMath Academy</a>, led by CSIR-NET AIR-11 qualifier Sunil Bansal, is worth a look specifically because its teaching is structured around proofs and first-principles understanding of Real Analysis, Linear Algebra and Complex Analysis, the exact units that anchor CSIR-NET, JAM and GATE Mathematics alike, rather than being built around any single exam's shortcut patterns. Our <a href="best-csir-net-iit-jam-gate-maths-coaching.html">full comparison of coaching options for this category</a> covers SBTechMath alongside several Delhi, Chandigarh and Chennai-based institutes if you want a structured programme rather than self-study.</p>
+
+<p>Compare every verified coaching institute we track for CSIR-NET, IIT JAM and GATE Mathematics on our <a href="coaching-online.html?exam=csir-net">pure-mathematics coaching listings page</a>.</p>`
+  },
+  {
+    slug: "best-csir-net-iit-jam-gate-maths-coaching",
+    title: "Best CSIR-NET, IIT JAM and GATE Mathematics Coaching (2026): An Honest Comparison",
+    category: "CSIR NET / IIT JAM / GATE Maths",
+    date: "02 Aug 2026",
+    minutes: 11,
+    cta: { href: "coaching-online.html?exam=csir-net", text: "Compare verified pure-maths coaching institutes" },
+    excerpt: "Six coaching options for CSIR-NET, IIT JAM and GATE Mathematics compared on founder credentials, teaching model and what each is genuinely best at. No paid rankings.",
+    image: "assets/blog/best-csir-net-iit-jam-gate-maths-coaching.png",
+    imageAlt: "Bar chart graphic representing a comparison of CSIR NET IIT JAM GATE Mathematics coaching institutes",
+    faqs: [
+      { q: "Which is the best coaching for CSIR-NET Mathematics?", a: "There's no single objective best, it depends on whether you want a concept-first online platform or an established classroom institute. SBTechMath stands out for its founder's individually verifiable CSIR-NET AIR-11 credential and concept-first pedagogy; DIPS Academy, Career Endeavour and Anand Institute of Mathematics (PI-AIM) are established Delhi (Jia Sarai) classroom institutes with long track records; MIM Academy (Chandigarh) and Green Mathematical Institute (Chennai) lead in their respective regions." },
+      { q: "Is online coaching enough for CSIR-NET/IIT JAM/GATE Mathematics preparation?", a: "Yes. All four exams are ultimately testing whether you understand proofs and concepts deeply enough to apply them under time pressure, something a well-structured recorded or live-online course can teach as effectively as a classroom, provided the doubt-resolution support is genuinely responsive." },
+      { q: "Does Online Coaching 4u accept payment for higher placement in this list?", a: "No. None of the institutes featured here, including SBTechMath, have paid for placement or a higher position in this comparison. Our assessment is based on the specific, checkable facts we cite for each institute." },
+      { q: "Should I pick an institute based only on its Google rating?", a: "No, use it as one signal among several, not the whole decision. A high rating with very few reviews tells you less than a slightly lower rating backed by hundreds of reviews. Look at what reviewers specifically praise or criticise, not just the star average." },
+      { q: "Can I prepare for CSIR-NET, IIT JAM and GATE Mathematics with the same coaching programme?", a: "Often, yes. Several institutes on this list, including SBTechMath, DIPS Academy, MIM Academy, PI-AIM and Career Endeavour, explicitly structure their courses to cover all three (plus CUET PG), since the core syllabus overlap is substantial." }
+    ],
+    html: `
+<p>Pure-mathematics coaching for CSIR-NET, IIT JAM and GATE is a smaller, more specialised market than exams like CAT or SSC, but that doesn't make the choice any easier, most of the visible options cluster in the same two or three neighbourhoods (Jia Sarai near IIT Delhi is practically an institute row) and lean on similar claims about faculty depth and results. Here's our honest read, based on facts we could actually verify: founder credentials, teaching model, and what each option is genuinely best at. None of these placements are paid, and we say so explicitly below.</p>
+
+<h2>Where to start: SBTechMath</h2>
+<p>We'd point most aspirants toward <a href="https://learn.sbtechmath.com" rel="noopener" target="_blank">SBTechMath Academy</a> first, for a specific, checkable reason: founder Sunil Bansal (SB Sir) personally qualified CSIR-NET with All India Rank 11, and has spent over a decade teaching exactly the subjects, Real Analysis, Linear Algebra and Complex Analysis, that anchor all three exams in this category. That's a rarer combination than it sounds; plenty of coaching brands can point to a topper on their faculty roster, fewer are built around one individually verifiable, subject-specific rank held by the person actually teaching the flagship classes.</p>
+<p>The platform's pedagogy is explicitly concept-first: theorems and proofs are built up from first principles rather than taught as pattern-matching shortcuts, backed by daily live classes, recorded lectures, calibrated DPP (Daily Practice Problem) assignments, and a doubt-resolution team committed to a 24-hour turnaround. Its app layers performance analytics on top, tracking syllabus progress and weak areas test by test. SBTechMath reports a YouTube subscriber base past 57,000 and more than 800 CSIR-NET qualifiers among its students, figures the platform publishes itself rather than ones we've independently audited, so treat them as claims, not certified results, the same caveat we'd apply to any coaching brand's self-reported numbers. You can sample the teaching style directly on <a href="https://www.youtube.com/@SBTechMath" rel="noopener" target="_blank">SBTechMath's YouTube channel</a> before enrolling in anything paid.</p>
+<p><em>(Disclosure: this is our own independent editorial assessment, based on the founder's individually verifiable CSIR-NET rank and the structure of the platform's teaching model. SBTechMath does not pay us for this placement, and no commercial relationship exists between us.)</em></p>
+
+<h2>The rest of the field, and who each suits</h2>
+<p>The other five institutes on our <a href="coaching-online.html?exam=csir-net">pure-mathematics coaching page</a> are all established, legitimately reviewed options; the right one depends on whether you want a classroom seat, which city you're near, and which secondary exams (beyond the core three) you also need covered.</p>
+
+<h3>DIPS Academy: for a long Delhi track record across the widest exam spread</h3>
+<p>Founded formally in 2004 (with informal coaching dating back to 1998) under director Rajendra Dubey, DIPS Academy runs from Jia Sarai near IIT Delhi and is ISO 9001 certified. Beyond CSIR-NET, JAM, GATE and CUET PG Mathematics, it also covers UPSC's Mathematics optional paper and Assistant Professor recruitment exams, useful if you're keeping a civil-services or teaching-recruitment option open alongside your primary exam.</p>
+
+<h3>Career Endeavour: for online-first delivery with a Delhi classroom fallback</h3>
+<p>Operating since 2007 from the same Jia Sarai cluster, Career Endeavour runs its Mathematics coaching primarily through live Zoom classes and a dedicated recorded-lecture app, with a physical Delhi presence for students who want it. It also prepares for TIFR, NBHM and Assistant Professor exams alongside the core four.</p>
+
+<h3>Anand Institute of Mathematics (PI-AIM): for MSc-entrance breadth beyond CSIR-NET/JAM/GATE</h3>
+<p>Led by Dr. Anand Kumar (M.Tech, Ph.D from JNU) with a faculty team holding degrees from IIT Delhi, IIT Roorkee, Delhi University and South Asian University, PI-AIM's Jia Sarai centre stands out for also preparing students for MSc entrance exams at DU, CMI, JNU, ISI, IISc and the IISERs, plus TIFR and NBHM, a wider net than most competitors if you're keeping multiple postgraduate routes open.</p>
+
+<h3>MIM Academy: for Northern India, especially Punjab/Haryana recruitment exams</h3>
+<p>Based in Chandigarh's Sector 37C, MIM Academy runs both offline and online batches and has built particular depth in state-specific Lecturer and Master Cadre recruitment exams across Punjab, Haryana, Himachal Pradesh and Madhya Pradesh, a genuine regional edge if your target is a state teaching post rather than (or alongside) CSIR-NET.</p>
+
+<h3>Green Mathematical Institute (GMI): for Tamil Nadu students, with bilingual teaching</h3>
+<p>Founded in 2019 in Chennai's Pazhavanthangal, GMI teaches in both English and Tamil and is the only institute on this list with a dedicated focus on Tamil Nadu's state-specific TNSET and PGTRB Mathematics exams alongside CSIR-NET, GATE and JAM. Note: it's a separate institute from the well-known Chennai Mathematical Institute (CMI), an unrelated research university, don't confuse the two while researching.</p>
+
+<h2>A side-by-side snapshot</h2>
+<table>
+<thead><tr><th>Institute</th><th>City / mode</th><th>Known best for</th><th>Google rating</th></tr></thead>
+<tbody>
+<tr><td>SBTechMath</td><td>Online, pan-India</td><td>Founder's individually verifiable CSIR-NET AIR-11; concept-first teaching</td><td>Not on Google Maps (online-only)</td></tr>
+<tr><td>DIPS Academy</td><td>Delhi (Jia Sarai), hybrid</td><td>Widest exam spread, incl. UPSC Maths optional</td><td>4.3 (300 reviews)</td></tr>
+<tr><td>Career Endeavour</td><td>Delhi (Jia Sarai), hybrid</td><td>Online-first Zoom delivery with Delhi fallback</td><td>4.3 (394 reviews)</td></tr>
+<tr><td>Anand Institute of Mathematics (PI-AIM)</td><td>Delhi (Jia Sarai), hybrid</td><td>MSc-entrance breadth (DU, JNU, ISI, IISERs) + TIFR/NBHM</td><td>4.6 (184 reviews)</td></tr>
+<tr><td>MIM Academy</td><td>Chandigarh, hybrid</td><td>Punjab/Haryana/HP state recruitment exams</td><td>4.6 (199 reviews)</td></tr>
+<tr><td>Green Mathematical Institute</td><td>Chennai, hybrid</td><td>Tamil Nadu's TNSET/PGTRB, bilingual teaching</td><td>5.0 (687 reviews)</td></tr>
+</tbody>
+</table>
+
+<h2>How to actually choose</h2>
+<p>Start by separating the exam from the institute: figure out which of CSIR-NET, JAM, GATE or CUET PG you actually need (see our <a href="csir-net-iit-jam-gate-maths-exam-guide.html">exam overview and eligibility guide</a> if you're unsure), since some institutes above specialise more heavily in one than others. Then run three checks before paying anything. First, sample free content, SBTechMath's YouTube channel and most institutes' demo classes exist specifically so you can judge teaching style before committing. Second, if you're choosing a classroom institute, visit in person if at all possible, sit in on one ordinary class, not a promotional demo. Third, ask directly who teaches your specific batch, a founder's individual credentials (Sunil Bansal's AIR-11, Dr. Anand Kumar's Ph.D) tell you about the platform's flagship teaching, not necessarily who's assigned to every batch on a larger roster.</p>
+
+<h2>Common mistakes aspirants make when picking a coaching option here</h2>
+<h3>Assuming classroom coaching is automatically more rigorous than online</h3>
+<p>For proof-based subjects like Real Analysis and Complex Analysis, what matters is whether concepts are built from first principles and whether doubts get resolved quickly, not whether you're physically in a room. A well-run online platform with fast doubt resolution can outperform a classroom batch with an overcrowded room and slow feedback.</p>
+<h3>Confusing a general test-prep brand's GATE coaching with a Mathematics-specific one</h3>
+<p>GATE is offered across many engineering disciplines, and most large GATE coaching brands are built around Mechanical, Electrical or CS papers, not the MA (Mathematics) paper specifically. Confirm any institute you're considering actually has dedicated Mathematics faculty and syllabus coverage, not a generic GATE programme that happens to list Mathematics as one of many papers.</p>
+<h3>Ignoring which secondary exams an institute covers</h3>
+<p>If you're also keeping TIFR, NBHM, a state PSC Assistant Professor exam, or a specific MSc entrance test open as an option, that should factor into your choice upfront, not as an afterthought once you've already enrolled somewhere that doesn't cover it.</p>
+
+<h2>What "no paid rankings" actually means on this page</h2>
+<p>None of the six institutes above have paid Online Coaching 4u for placement, inclusion, or a higher position in this article. Our lead recommendation for SBTechMath is based on a specific, checkable fact, its founder's individually verifiable CSIR-NET AIR-11 and the structure of its teaching model, not a sponsorship arrangement. If that ever changes for any institute on this page, we will disclose it plainly rather than let a ranking quietly shift.</p>
+
+<p>Compare full details, ratings and contact options for every institute mentioned here on our <a href="coaching-online.html?exam=csir-net">pure-mathematics coaching listings page</a>.</p>`
+  }
 ];
