@@ -2334,5 +2334,113 @@ module.exports = [
 <p>If you haven't already, our <a href="ipmat-eligibility-syllabus-exam-pattern.html">IPMAT eligibility, syllabus and exam pattern comparison</a> breaks down exactly how Indore and Rohtak's papers differ section by section, and our <a href="ipmat-cutoff-previous-year-trends.html">IPMAT cutoff and previous year trends piece</a> shows what score actually cleared each institute's bar in 2026.</p>
 
 <p>If you'd rather have structured guidance than build this plan solo, compare every verified IPMAT coaching institute we track, with real ratings and fee transparency, on our <a href="coaching.html?exam=ipmat">IPMAT coaching listings page</a>.</p>`
+  },
+  {
+    slug: "neet-ug-2026-aiq-counselling-registration-round1-update",
+    title: "NEET UG 2026 AIQ Counselling: MCC Opens Round 1 Registration on August 5",
+    category: "NEET",
+    date: "03 Aug 2026",
+    minutes: 5,
+    cta: { href: "coaching.html?exam=neet", text: "Compare verified NEET coaching institutes" },
+    excerpt: "The Medical Counselling Committee has released the official Round 1 schedule for NEET UG 2026's 15% All India Quota and central university seats, with registration opening 5 August. Here's the full dated schedule.",
+    image: "assets/blog/neet-ug-2026-aiq-counselling-registration-update.png",
+    imageAlt: "NEET UG 2026 AIQ counselling registration update graphic",
+    html: `
+<p><strong>Last updated: 3 August 2026.</strong></p>
+<p>The Medical Counselling Committee (MCC) has confirmed that registration for NEET UG 2026 counselling opens on 5 August 2026, per the "Registration for UG Counselling will be start from 5th August 2026" notice on the official portal, <a href="https://mcc.nic.in/" rel="noopener" target="_blank">mcc.nic.in</a>.</p>
+
+<h2>What's actually confirmed</h2>
+<p>MCC has published the full Round 1 schedule for the 15% All India Quota (AIQ) and 100% Deemed/Central Universities, AIIMS and JIPMER (Puducherry & Karaikal) seats for MBBS, BDS and B.Sc Nursing, academic year 2026, in its official <a href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/202608012074024595.pdf" rel="noopener" target="_blank">UG AIQ Counselling Schedule PDF</a> dated 1 August 2026. Round 1 runs as follows: participating institutes verify their tentative seat matrix on 4 August; registration and payment stay open from 5 to 12 August (registration closes 3 PM, payment facility stays open until 6 PM on 12 August, server time); choice filling and locking run 6 to 13 August; the seat allotment result is processed from 13 to 16 August and declared on 17 August; and reporting/joining at allotted institutes runs 18 to 22 August, with institutes verifying joined-candidate data on 23 August. This comes after NTA declared the Re-NEET (UG) 2026 results on 16 July, with 11.21 lakh candidates qualifying nationally.</p>
+
+<h2>What it means for students</h2>
+<p>If you're applying for an AIQ, Deemed/Central University, AIIMS or JIPMER seat, your first actionable step is registering and paying the counselling fee on the MCC portal between 5 and 12 August — don't wait until the final day, since both registration and payment cut off at fixed server times rather than end-of-day. MCC has also confirmed two separate process changes this counselling cycle: candidates who get a seat and opt for upgradation in a later round no longer need to physically report to the allotted college to complete that step, and resignation from an allotted seat can now be done entirely online through the MCC portal within the specified window, without a campus visit. State quota counselling runs on a separate schedule set by each state's own authority, not by MCC, so AIQ dates don't automatically apply if you're going through a state counselling process.</p>
+
+<h2>Where to check for yourself</h2>
+<p>Because counselling portals update quickly during this window, verify your specific round's cut-off times directly rather than relying on a forwarded message: the schedule PDF is at <a href="https://mcc.nic.in/ug-medical-counselling/" rel="noopener" target="_blank">mcc.nic.in/ug-medical-counselling</a>, and NEET UG's own notice board is at <a href="https://neet.nta.nic.in/" rel="noopener" target="_blank">neet.nta.nic.in</a>.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[Effective 5-12 Aug 2026]</strong> NEET UG 2026 AIQ Round 1 registration and payment window, per the official MCC schedule at <a href="https://mcc.nic.in/" rel="noopener" target="_blank">mcc.nic.in</a>.</li>
+<li><strong>[17 Aug 2026]</strong> Round 1 seat allotment result is scheduled for declaration on this date, per MCC's published schedule.</li>
+<li><strong>[Effective 18-22 Aug 2026]</strong> Reporting/joining window for candidates allotted a Round 1 AIQ, Deemed/Central University, AIIMS or JIPMER seat.</li>
+<li><strong>Myth check:</strong> Upgrading your seat in a later round no longer requires a physical visit to the currently allotted college — MCC has made this an online step on its counselling portal.</li>
+<li><strong>Myth check:</strong> AIQ registration dates are not the same as your state's own counselling dates — MCC runs only the 15% AIQ and central-institution seats; state quota seats follow each state authority's separate schedule.</li>
+</ul>
+
+<p><em>Last updated: 3 August 2026. Sources: <a href="https://mcc.nic.in/" rel="noopener" target="_blank">mcc.nic.in</a>, <a href="https://neet.nta.nic.in/" rel="noopener" target="_blank">neet.nta.nic.in</a>.</em></p>`
+  },
+  {
+    slug: "top-10-neet-coaching-institutes-kolkata-2026",
+    title: "Top 10 NEET Coaching Institutes in Kolkata (2026)",
+    category: "NEET",
+    date: "03 Aug 2026",
+    minutes: 11,
+    cta: { href: "coaching-kolkata.html", text: "Browse all verified coaching institutes in Kolkata" },
+    excerpt: "Kolkata runs on a mix of Kota- and Mumbai-origin national chains and homegrown specialists for NEET prep. Here's a fact-checked look at ten institutes actually training students for NEET in the city.",
+    image: "assets/blog/top-10-neet-coaching-institutes-kolkata-2026.png",
+    imageAlt: "Top 10 NEET coaching institutes in Kolkata 2026 graphic",
+    faqs: [
+      { q: "Which is the best NEET coaching institute in Kolkata?", a: "There's no single 'best' — it depends on whether you want a Kolkata-built specialist (Rana Sir Classes for biology, Ignescent Gurukul for small batches, Career & Courses for a residential setup) or a national chain's test-series infrastructure (Aakash, Allen, Resonance, Career Point, PACE IIT & Medical, Vidyamandir Classes, Narayana). Compare batch size, faculty and current fees directly with 2-3 shortlisted institutes before deciding." },
+      { q: "Where are Kolkata's main NEET coaching clusters?", a: "Three zones: the CIT Road/Kankurgachi/Phool Bagan belt in the east (Resonance, PACE), Salt Lake and New Town further out (Career Point, Allen), and Gariahat/Rash Behari/Sarat Bose Road in the south (Rana Sir Classes, Ignescent Gurukul, Career & Courses)." },
+      { q: "Is Ignescent Gurukul only for small batches?", a: "Its defining feature is a 10-students-per-batch cap across all six of its centres, considerably smaller than the large national chains, paired with daily computer-based tests." },
+      { q: "Does Online Coaching 4u accept payment for higher placement in this list?", a: "No. None of the institutes featured here have paid for placement, and rankings on this platform are never for sale." }
+    ],
+    html: `
+<p>Kolkata doesn't carry Kota's name-recognition for NEET preparation, but it runs one of East India's largest coaching markets for the exam, feeding West Bengal's roughly 40 government and private medical colleges as well as All India Quota seats nationwide. That scale exists because Kolkata plays a genuinely large role for the state's medical aspirants: it's home to some of India's oldest medical colleges (Calcutta Medical College, dating to 1835), a dense state and central quota seat count, and a growing AIIMS Kalyani pipeline just outside the city. The institutes below split roughly evenly between Kota- and Mumbai-origin national chains that have opened Kolkata centres, and Kolkata-built specialists that compete on smaller batches or faculty-led teaching instead of national scale.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Kolkata, West Bengal</p>
+<p><strong>Exam this list is built for:</strong> NEET-UG; several institutes below also run parallel JEE batches</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Kolkata-origin specialists</p>
+<p><strong>Why Kolkata:</strong> West Bengal runs an estimated 40 government and private medical colleges combined, plus a growing AIQ and central-university seat pool via MCC counselling</p>
+<p><strong>NEET UG 2026 AIQ Round 1 registration:</strong> 5-12 August 2026, per the official MCC schedule</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable NEET-coaching presence in Kolkata: a real local address, a track record we could find independent confirmation of (founding year, founder identity, years actually operating in the city or nationally), and coverage across Kolkata's major coaching clusters rather than a single branch. The list below mixes large national chains that have opened Kolkata centres with institutes built in the city specifically. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Aakash Institute</h3>
+<p>Founded in 1988 by J.C. Chaudhry, Aakash runs several Kolkata centres including its Circus Avenue campus near Park Circus, a Motilal Nehru Road medical-wing branch near Priya Cinema, a CIT Road branch in North Kolkata, and a Bansdroni centre near Mastarda Suryasen metro station. As one of India's largest NEET-focused chains, it suits students who want a nationally benchmarked test series close to home.</p>
+
+<h3>2. Allen Career Institute</h3>
+<p>Allen, founded in Kota in 1988 by Rajesh Maheshwari, runs its flagship Kolkata centre in New Town (PS IXL Building, near Holiday Inn), with further branches near Sealdah and in Howrah. Its Pre-Medical Division is built specifically around NEET-UG and AIIMS-pattern preparation, bringing Kota's test-series scale to a Kolkata classroom.</p>
+
+<h3>3. Resonance</h3>
+<p>Founded in Kota on 11 April 2001 by R.K. Verma, Resonance's main Kolkata centre sits in Kankurgachi on CIT Road, with further branches near Exide More and in Ultadanga. It's best known nationally for its large-scale test series, giving Kolkata students a mock-exam pool benchmarked against Resonance's much bigger Kota batch.</p>
+
+<h3>4. Career Point</h3>
+<p>Founded in Kota in 1993 by Pramod Maheshwari, Career Point runs its Kolkata centre on Golaghata Road in Salt Lake City. As one of the older Kota-origin chains, it brings a long-running test-series and study-material system to a Salt Lake classroom.</p>
+
+<h3>5. PACE IIT & Medical</h3>
+<p>PACE was founded in Mumbai in 1999 by Praveen Tyagi, Pooja Tyagi and Kuldeep Tyagi. Its main Kolkata centre sits on CIT Road in Phool Bagan/Kankurgachi, with further branches near Lake Gardens and in New Town, giving students a choice of location across the city's eastern and southern coaching clusters.</p>
+
+<h3>6. Vidyamandir Classes (VMC)</h3>
+<p>Started in Delhi in 1986 by a group of IIT alumni, VMC built its early reputation purely on JEE before launching a dedicated Medical (NEET/AIIMS) division in 2018. Its Kolkata centre extends that combined JEE-and-NEET curriculum to the city, run on the same faculty and material system used across VMC's other centres.</p>
+
+<h3>7. Narayana IIT/NEET Academy</h3>
+<p>Narayana Group traces back to a single tutorial founded in 1979 by P. Narayana in Andhra Pradesh, since grown into one of India's largest coaching-plus-schooling networks. Its Kolkata academy runs from Barlow House on Chowringhee Road, near Rabindra Sadan metro station, combining board-curriculum teaching with NEET and JEE preparation.</p>
+
+<h3>8. Rana Sir Classes</h3>
+<p>A Kolkata-founded, single-city institute on Sarat Bose Road, built around biology faculty Durgapada Rana, who has taught NEET biology in the city for more than 15 years. It's typically shortlisted specifically for biology by students who are self-studying or attending a separate institute for physics and chemistry.</p>
+
+<h3>9. Ignescent Gurukul</h3>
+<p>Founded in Kolkata in 2006 and centred at Gariahat Crossing, with further centres in Salt Lake, New Town, Jadavpur, Behala and Garia. Its defining feature is a strict 10-students-per-batch cap, considerably smaller than the large-chain norm, paired with daily computer-based tests and performance tracking.</p>
+
+<h3>10. Career & Courses (C&C)</h3>
+<p>Founded in Kolkata in 2018, C&C runs a residential NEET programme from its Gariahat centre with board-exam support built into the schedule, plus a further Rajarhat centre — an in-city residential option for families who want accommodation bundled with academics without sending a student to an outstation hub.</p>
+
+<h2>How to actually choose between them</h2>
+<p>The honest pattern across this list: Rana Sir Classes, Ignescent Gurukul and Career & Courses are Kolkata-built institutes competing on faculty depth, small batches or a residential setup rather than national scale. Aakash, Allen, Resonance, Career Point, PACE IIT & Medical, Vidyamandir Classes and Narayana are national chains bringing an outstation brand's test-series infrastructure and study material to a Kolkata classroom. Neither category is objectively better. If you want closely monitored, small-batch teaching or a subject specialist, start with the Kolkata-built three. If you want a nationally benchmarked mock-exam pool and don't mind a franchise structure, the national chains give you that. Whichever you pick, verify current fees, batch sizes and this year's actual faculty roster directly with the centre before enrolling — none of the details above should substitute for asking the institute itself.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>Which is the best NEET coaching institute in Kolkata?</h3>
+<p>There's no single "best" — it depends on whether you want a Kolkata-built specialist (Rana Sir Classes, Ignescent Gurukul, Career & Courses) or a national chain's test-series infrastructure (Aakash, Allen, Resonance, Career Point, PACE IIT & Medical, Vidyamandir Classes, Narayana). Compare batch size, faculty and fees directly with 2-3 shortlisted institutes before deciding.</p>
+<h3>Where are Kolkata's main NEET coaching clusters?</h3>
+<p>Three zones: the CIT Road/Kankurgachi/Phool Bagan belt in the east, Salt Lake and New Town further out, and Gariahat/Rash Behari/Sarat Bose Road in the south.</p>
+<h3>Does Online Coaching 4u accept payment for higher placement in this list?</h3>
+<p>No. None of the institutes featured here have paid for placement, and our rankings are never for sale.</p>
+
+<p>Compare full details, fees and reviews for every coaching institute we track in the city on our <a href="coaching-kolkata.html">Kolkata coaching listings page</a>.</p>`
   }
+
 ];
