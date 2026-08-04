@@ -25,7 +25,8 @@
       "coimbatore",
       "mysuru",
       "pune",
-      "kolkata"
+      "kolkata",
+      "lucknow"
     ],
     "certification": [
       "online"
@@ -2785,7 +2786,7 @@
       ],
       "website": "https://www.apexinstitute.net/",
       "mode": "hybrid",
-      "googleRating": 5.0,
+      "googleRating": 5,
       "googleReviewCount": 3
     },
     {
@@ -2925,7 +2926,7 @@
       ],
       "website": "https://vshreshta.com/",
       "mode": "offline",
-      "googleRating": 5.0,
+      "googleRating": 5,
       "googleReviewCount": 175
     },
     {
@@ -3224,7 +3225,7 @@
         "ipmat",
         "ssc"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 6,
       "verified": false,
       "about": "Vprov is a competitive-exam coaching organisation with a Mysuru presence at DE PAUL International School, Hootagalli, founded in 2006 by Prof. Rajesh Kumar, an IIT Madras/IIM Bangalore alumnus. It offers coaching across CAT, CLAT, IPMAT and government/SSC-related exams, positioning itself with a not-for-profit orientation. Its 3.9/5 rating from 48 reviews comes from aggregator data and could not be cross-verified directly against Google Maps.",
@@ -3319,7 +3320,7 @@
         "ssc",
         "bank"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 5,
       "verified": false,
       "about": "Sapthagiri Academy, also referenced as Career Forum (a unit of Sapthagiri Education Service), is a Jayalakshmipuram coaching centre in Mysuru offering bank-exam coaching, cross-confirmed via two independent third-party directory listings at the same Temple Road address. No rating data was found, and its SSC-specific coverage (versus purely banking) is not fully confirmed — worth checking directly before enrolling.",
@@ -3630,7 +3631,7 @@
       ],
       "website": "https://lakshyacommerce.com/campus/thiruvananthapuram",
       "mode": "offline",
-      "googleRating": 4.0,
+      "googleRating": 4,
       "googleReviewCount": 501
     },
     {
@@ -4493,7 +4494,7 @@
         "ssc",
         "ias"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 12,
       "verified": false,
       "about": "KP's 21st Century College is an integrated Intermediate college on Shamshabad Road, Hyderabad, combining board-level education with preparation for IAS Foundation, CLAT, CUET, IPMAT, NEET/JEE and SSC. Operating for over two decades, it runs a residential campus with separate hostels and reports a 4.0-star aggregate rating across roughly 624 reviews.",
@@ -4913,7 +4914,7 @@
       "exams": [
         "ipmat"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 4,
       "verified": false,
       "about": "GreatLearnPro is a Bengaluru-based IPMAT coaching provider with centres in Malleshwaram and Banaswadi, offering both offline and online preparation formats.",
@@ -5055,7 +5056,7 @@
         "ssc",
         "bank"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "ratingCount": 6,
       "verified": false,
       "about": "Mahendra's is a pan-India competitive-exam coaching chain (SSC, banking, railways, teaching exams) with a branch in Jayanagar, Bengaluru.",
@@ -5291,7 +5292,10 @@
       "locality": "Circus Avenue / Motilal Nehru Road",
       "address": "No. 23, Circus Avenue, near Park Circus 7-Point Crossing, Kolkata, West Bengal, plus centres on Motilal Nehru Road, CIT Road and in Bansdroni",
       "estd": 1988,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Aakash Educational Services, founded in 1988 by J.C. Chaudhry, runs several Kolkata centres including its Circus Avenue campus near Park Circus, a Motilal Nehru Road medical-wing branch near Priya Cinema, a CIT Road (North Kolkata) branch, and a Bansdroni centre near the Mastarda Suryasen metro station. As one of India's largest NEET-focused chains, it suits students who want a nationally benchmarked test series and study material delivered close to home rather than a single-branch local institute.",
       "highlights": [
@@ -5309,7 +5313,10 @@
       "locality": "New Town",
       "address": "PS IXL Building, near Holiday Inn, New Town, Kolkata, West Bengal, with further branches near Sealdah and in Howrah",
       "estd": 1988,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Allen Career Institute, founded in Kota in 1988 by Rajesh Maheshwari, runs its flagship Kolkata centre in New Town (PS IXL Building, near Holiday Inn), with additional branches near Sealdah metro/railway station and in Howrah. Allen's Pre-Medical Division is built specifically around NEET-UG and AIIMS-pattern preparation, run alongside CBSE/board-aligned coursework, and brings Kota's large-scale test-series infrastructure to a Kolkata classroom.",
       "highlights": [
@@ -5327,7 +5334,10 @@
       "locality": "Kankurgachi",
       "address": "2nd Floor, P-189, CIT Road, Scheme VI-M, Kadapara, Phool Bagan, Kankurgachi, Kolkata, West Bengal, with further centres near Exide More and in Ultadanga",
       "estd": 2001,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Resonance Eduventures, founded in Kota on 11 April 2001 by R.K. Verma, runs its main Kolkata NEET/JEE centre in Kankurgachi on CIT Road, with further branches near Exide More on Acharya Jagadish Chandra Bose Road and in Ultadanga. Resonance is best known nationally for its large-scale test series (including the DPT/PDT test formats used across its centres), giving Kolkata students access to a mock-exam pool benchmarked against Resonance's much larger Kota batch.",
       "highlights": [
@@ -5345,7 +5355,10 @@
       "locality": "Park Street",
       "address": "2nd Floor, Barlow House, 59C Chowringhee Road, near Rabindra Sadan Metro Station, Kolkata, West Bengal",
       "estd": 1979,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Narayana Group traces back to a single tutorial founded in 1979 by P. Narayana in Andhra Pradesh, since grown into one of India's largest school-plus-coaching networks. Its Kolkata academy runs from Barlow House on Chowringhee Road near Rabindra Sadan metro station, combining board-curriculum teaching with NEET and JEE preparation for Class 11-12 and dropper batches.",
       "highlights": [
@@ -5363,7 +5376,10 @@
       "locality": "Salt Lake City",
       "address": "41, Golaghata Road, Salt Lake City, Kolkata, West Bengal 700091",
       "estd": 1993,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Career Point, founded in Kota in 1993 by Pramod Maheshwari, runs its Kolkata NEET/JEE centre on Golaghata Road in Salt Lake City. Being one of the older Kota-origin chains, it brings a long-running test-series and study-material system to a Salt Lake classroom, useful for students who specifically want an established national brand's material over a newer local institute's.",
       "highlights": [
@@ -5381,7 +5397,10 @@
       "locality": "Kankurgachi / Phool Bagan",
       "address": "P-12, CIT Road, Scheme VI-M, Phool Bagan, 1st Floor, Akshoy House, Kolkata, West Bengal 700054, near Lake Gardens and New Town branches",
       "estd": 1999,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "PACE IIT & Medical was founded in Mumbai in 1999 by Praveen Tyagi, Pooja Tyagi and Kuldeep Tyagi, and has since expanded into several cities. Its main Kolkata NEET centre sits on CIT Road in Phool Bagan/Kankurgachi, with further branches near Lake Gardens (Rabindra Sadan) and in New Town, giving students a choice of location across the city's eastern and southern coaching clusters.",
       "highlights": [
@@ -5399,7 +5418,10 @@
       "locality": "Kolkata",
       "address": "Vidyamandir Classes, Kolkata, West Bengal (multiple study centres; confirm current branch address directly with the institute)",
       "estd": 1986,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Vidyamandir Classes (VMC), started in Delhi in 1986 by a group of IIT alumni, built its early reputation purely on JEE before launching a dedicated Medical (NEET/AIIMS) test-prep division in 2018. Its Kolkata centre extends that combined JEE-and-NEET curriculum to the city, run by the same Delhi-origin faculty and material system used across VMC's other centres.",
       "highlights": [
@@ -5417,7 +5439,10 @@
       "locality": "Sarat Bose Road",
       "address": "Sarat Bose Road, Kolkata, West Bengal",
       "estd": null,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Rana Sir Classes is a Kolkata-founded institute built around biology teacher Durgapada Rana, who has taught NEET biology in the city for more than 15 years. Unlike the national chains on this list, Rana Sir Classes is a single-city, faculty-led institute on Sarat Bose Road, and is typically shortlisted specifically for its biology coaching by students who are otherwise self-studying or attending a separate institute for physics and chemistry.",
       "highlights": [
@@ -5435,7 +5460,9 @@
       "locality": "Gariahat",
       "address": "Gariahat Crossing, Kolkata, West Bengal, with further centres in Salt Lake, New Town, Jadavpur, Behala and Garia",
       "estd": 2006,
-      "exams": ["neet"],
+      "exams": [
+        "neet"
+      ],
       "verified": false,
       "about": "Ignescent Gurukul, founded in 2006, is a Kolkata-built NEET specialist centred at Gariahat Crossing, with further centres across Salt Lake, New Town, Jadavpur, Behala and Garia. Its defining feature is a strict 10-students-per-batch cap, considerably smaller than the large-chain norm, paired with daily computer-based tests and AI-assisted performance tracking — a structure aimed at students who specifically want small-batch, closely monitored NEET preparation over a large classroom.",
       "highlights": [
@@ -5453,7 +5480,10 @@
       "locality": "Gariahat",
       "address": "Gariahat, Kolkata, West Bengal, with a further centre in Rajarhat",
       "estd": 2018,
-      "exams": ["neet", "jee"],
+      "exams": [
+        "neet",
+        "jee"
+      ],
       "verified": false,
       "about": "Career & Courses (C&C), founded in 2018, runs a residential NEET coaching programme from its Gariahat centre with board-exam support built into the schedule, plus a further Rajarhat centre. Being a newer, Kolkata-founded institute, it suits families who specifically want a residential setup (accommodation bundled with academics) inside the city rather than sending a student to an outstation hub like Kota.",
       "highlights": [
@@ -5471,7 +5501,12 @@
       "locality": "Online, pan-India",
       "address": "Online — live and recorded pure-mathematics coaching, available pan-India, registered office in Vidhyadhar Nagar, Jaipur",
       "estd": null,
-      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "exams": [
+        "csir-net",
+        "iit-jam",
+        "gate",
+        "cuet-pg"
+      ],
       "onlineCategory": "Online CSIR-NET / IIT JAM / GATE Maths Coaching",
       "featured": true,
       "rating": null,
@@ -5496,7 +5531,12 @@
       "locality": "Jia Sarai, Hauz Khas",
       "address": "DIPS House, 28, Jia Sarai, Hauz Khas, near IIT Delhi, New Delhi",
       "estd": 2004,
-      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "exams": [
+        "csir-net",
+        "iit-jam",
+        "gate",
+        "cuet-pg"
+      ],
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -5520,7 +5560,12 @@
       "locality": "Sector 37C",
       "address": "SCO 223, Sector 37C, Chandigarh, plus online live and recorded classes",
       "estd": null,
-      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "exams": [
+        "csir-net",
+        "iit-jam",
+        "gate",
+        "cuet-pg"
+      ],
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -5544,7 +5589,12 @@
       "locality": "Jia Sarai, Hauz Khas",
       "address": "28-B/6, Jia Sarai, near IIT Delhi, Hauz Khas, New Delhi",
       "estd": null,
-      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "exams": [
+        "csir-net",
+        "iit-jam",
+        "gate",
+        "cuet-pg"
+      ],
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -5568,7 +5618,12 @@
       "locality": "Jia Sarai, Hauz Khas",
       "address": "28-A/11, near IIT Delhi, Hauz Khas, New Delhi",
       "estd": 2007,
-      "exams": ["csir-net", "iit-jam", "gate", "cuet-pg"],
+      "exams": [
+        "csir-net",
+        "iit-jam",
+        "gate",
+        "cuet-pg"
+      ],
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -5592,7 +5647,11 @@
       "locality": "Pazhavanthangal",
       "address": "Bharathiyar Complex, Bharathiyar 2nd Street, Pazhavanthangal, Chennai",
       "estd": 2019,
-      "exams": ["csir-net", "iit-jam", "gate"],
+      "exams": [
+        "csir-net",
+        "iit-jam",
+        "gate"
+      ],
       "rating": null,
       "ratingCount": 0,
       "verified": false,
@@ -5605,8 +5664,209 @@
         "Reports 250+ students helped into PhD programmes at IITs, IISc, IISERs and TIFR (self-reported)"
       ],
       "mode": "hybrid",
-      "googleRating": 5.0,
+      "googleRating": 5,
       "googleReviewCount": 687
+    },
+    {
+      "slug": "ims-lucknow",
+      "type": "coaching",
+      "name": "IMS Lucknow",
+      "city": "lucknow",
+      "locality": "Hazratganj / Aliganj",
+      "address": "2nd Floor, Rohit Bhavan, Canara Bank Building, 4 Sapru Marg, Hazratganj, Lucknow, Uttar Pradesh 226001, plus a second centre in Aliganj (2nd Floor, Sector J Road, above ICICI Bank, Lucknow 226024)",
+      "estd": 1977,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "IMS Learning Resources was founded in Mumbai in 1977 by Prof. N.R. Rane, making it one of India's oldest dedicated management-entrance coaching chains. Its Lucknow operation runs two centres, in Hazratganj and Aliganj, and plugs local students into the same nationally benchmarked SimCAT mock series used across its roughly 90-plus centres countrywide.",
+      "highlights": [
+        "Founded 1977 by Prof. N.R. Rane; one of India's oldest CAT coaching chains",
+        "Two Lucknow centres: Hazratganj and Aliganj",
+        "Access to IMS's national SimCAT mock series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-lucknow",
+      "type": "coaching",
+      "name": "TIME (Triumphant Institute of Management Education) — Lucknow",
+      "city": "lucknow",
+      "locality": "Alambagh / Gomti Nagar / Mahanagar Extension",
+      "address": "Baba The Best Place, Opposite Phoenix Mall Exit Gate, Alambagh, Lucknow 226005; Ground Floor, Shiva Palace, 2/1 Vikas Khand, Gomti Nagar, Lucknow 226010; 2nd Floor, Sky Business Center, Mahanagar Extension, Lucknow 226006",
+      "estd": 1992,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "TIME was founded in 1992 and now runs three Lucknow centres across Alambagh, Gomti Nagar and Mahanagar Extension, making it the most physically distributed CAT coaching chain in the city. Its flagship All-India Mock CAT series and a faculty pool that includes IIT/IIM alumni are the institute's signature draw.",
+      "highlights": [
+        "Founded 1992; three Lucknow centres across Alambagh, Gomti Nagar and Mahanagar Extension",
+        "Flagship All-India Mock CAT series replicates the real exam interface",
+        "Faculty pool includes IIT/IIM alumni"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-lucknow",
+      "type": "coaching",
+      "name": "Career Launcher Lucknow",
+      "city": "lucknow",
+      "locality": "Hazratganj / Kapoorthala (Aliganj)",
+      "address": "New Janpath Complex, 4th Floor, near Shreeram Tower, Hazratganj Crossing, opp. Income Tax Office, Lucknow 226001; also M-1/9, Sector B, 2nd Floor, Kapoorthala, Aliganj, above Vijay Bank, Lucknow 226020",
+      "estd": 1995,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Founded in 1995 by Satya Narayanan R, Career Launcher operates two Lucknow centres in Hazratganj and Kapoorthala/Aliganj. The institute pairs structured lecture modules with regular mock tests and performance tracking, suiting students who want an established national organisation with a defined mentor structure.",
+      "highlights": [
+        "Founded 1995 by Satya Narayanan R; national chain with 200+ centres",
+        "Two Lucknow centres: Hazratganj and Kapoorthala (Aliganj)",
+        "Structured lecture modules with regular mock tests and tracked performance"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "fundamakers-lucknow",
+      "type": "coaching",
+      "name": "FundaMakers",
+      "city": "lucknow",
+      "locality": "Gomti Nagar",
+      "address": "100 metres from Jeevan Plaza, 5, Shaheed Chandrashekhar Azad Chowk, Viram Khand-2, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+      "estd": 2017,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "A Lucknow-origin institute founded in 2017, FundaMakers draws its faculty pool from IITs, IIMs, XLRI and FMS. Its Gomti Nagar centre runs limited batch sizes for closer individual attention, alongside an online course track for students who prefer flexibility.",
+      "highlights": [
+        "Lucknow-founded in 2017; faculty from IITs, IIMs, XLRI and FMS",
+        "Limited batch sizes for individual attention",
+        "Both classroom (Gomti Nagar) and online formats available"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "tathagat-lucknow",
+      "type": "coaching",
+      "name": "TathaGat",
+      "city": "lucknow",
+      "locality": "Mahanagar Extension",
+      "address": "C-18, J Road, near Mid Land Hospital, Mahanagar Extension, Mahanagar, Lucknow, Uttar Pradesh 226006",
+      "estd": 2010,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "TathaGat has run its Mahanagar Extension centre for 16 years, reporting roughly 12,000 students trained and 6,000-plus selections into IIMs and other B-schools over that period. It runs both weekday and weekend batches alongside an online test series, leaning on personalised mentoring over large lecture-hall batches.",
+      "highlights": [
+        "16 years in Lucknow; reports 12,000+ students trained, 6,000+ B-school selections",
+        "Weekday and weekend batch options",
+        "Personalised mentoring approach over large lecture-hall batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "catapult-lucknow",
+      "type": "coaching",
+      "name": "CATaPult",
+      "city": "lucknow",
+      "locality": "Aliganj",
+      "address": "27/2, 2nd Floor, Chandralok Colony, Aliganj, Lucknow, Uttar Pradesh 226024",
+      "estd": 2016,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "CATaPult's Aliganj centre focuses specifically on CAT and allied management-entrance tests, offering both classroom and online formats with small batch sizes. It suits students who want a more boutique, closely tracked preparation experience over a large national chain's scale.",
+      "highlights": [
+        "Focused specifically on CAT and allied MBA entrance tests",
+        "Small batch sizes with regular performance tracking",
+        "Both classroom (Aliganj) and online formats available"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-capital-lucknow",
+      "type": "coaching",
+      "name": "Career Capital",
+      "city": "lucknow",
+      "locality": "Aliganj",
+      "address": "B1/160, Opposite IHM (Institute of Hotel Management), Sector G, Aliganj, Lucknow 226024",
+      "estd": 2015,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Founded in 2015, Career Capital has grown from a slow start into a full CAT-prep operation covering Data Interpretation, Quantitative Aptitude, Logical Reasoning and Verbal Ability through regular mock tests. It offers both classroom and online formats, with an online test series that is one of the more budget-friendly entry points in the city.",
+      "highlights": [
+        "Founded 2015; covers all four CAT sections through regular mock tests",
+        "Both classroom and online formats",
+        "Budget-friendly online test series entry point"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "logicans-lucknow",
+      "type": "coaching",
+      "name": "Logicans Institute of Aptitude Development",
+      "city": "lucknow",
+      "locality": "Aliganj",
+      "address": "C-24, 2nd Floor, HIRA Tower, Alkapuri, Aliganj, Lucknow, Uttar Pradesh 226024",
+      "estd": 2012,
+      "exams": [
+        "cat",
+        "clat"
+      ],
+      "verified": false,
+      "about": "Logicans trains for both management and law entrance exams under one roof, with a faculty pool of professionals and alumni from reputed institutes. Beyond core CAT prep, it runs foundation classes, group discussion and personal interview practice, and career counselling.",
+      "highlights": [
+        "Trains for both CAT/MBA and CLAT/law entrances under one roof",
+        "Includes GD-PI practice and career counselling alongside test prep",
+        "Faculty pool of professionals and alumni from reputed institutes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "nexgen-academy-lucknow",
+      "type": "coaching",
+      "name": "NexGen Academy",
+      "city": "lucknow",
+      "locality": "Hazratganj",
+      "address": "404, T.S. Tower, Ashok Marg, Hazratganj, Lucknow, Uttar Pradesh",
+      "estd": 2014,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "NexGen Academy balances theoretical and practical exam preparation with library access and regular practice tests. It's a smaller, locally-run option for students who prefer a tighter, more accessible setup over a multi-branch national chain.",
+      "highlights": [
+        "Locally-run Hazratganj centre with library access",
+        "Regular practice tests alongside theory-focused teaching",
+        "Smaller, closely tracked batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "team-satyam-lucknow",
+      "type": "coaching",
+      "name": "Team Satyam",
+      "city": "lucknow",
+      "locality": "Hazratganj",
+      "address": "25 B, Ashok Marg, Hazratganj, Lucknow, Uttar Pradesh",
+      "estd": 2018,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Team Satyam runs its Hazratganj centre with a focus on identifying and correcting each student's weak areas through live mock analysis and structured workshops. It's a smaller Lucknow-built option worth shortlisting alongside the larger chains for more individualised faculty attention.",
+      "highlights": [
+        "Hazratganj centre focused on weak-area diagnosis and correction",
+        "Live mock analysis and structured workshops",
+        "Individualised faculty attention in smaller batches"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -5676,6 +5936,9 @@
           "a": "Yes — online-prepared students score 99+ percentiles every year, and CAT itself is a computer-based exam, so online mock practice transfers directly. The trade-off is accountability: classroom programs impose structure, while online prep demands self-discipline. Platforms compensate with daily targets (Cracku), 24/7 communities (iQuanta) and fixed live schedules (Rodha, MBA Wallah)."
         }
       ]
+    },
+    "coaching-lucknow": {
+      "intro": "<p>Lucknow is Uttar Pradesh's largest CAT coaching market, drawing on a local base that includes IIM Lucknow itself, the University of Lucknow and Amity University, alongside engineering and commerce graduates from across the state. Coaching clusters mainly around Aliganj and Hazratganj, with a growing Gomti Nagar and Mahanagar Extension presence, mixing long-established national chains (IMS, TIME, Career Launcher) with Lucknow-built specialists (FundaMakers, TathaGat, CATaPult, Career Capital, Logicans, NexGen Academy, Team Satyam). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }

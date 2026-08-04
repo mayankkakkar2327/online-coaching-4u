@@ -1,6 +1,104 @@
 /* Original content for Online Coaching 4u.
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
+{
+slug: "cat-2026-registration-open-iimcat-update",
+title: "CAT 2026 Registration Opens: IIM Indore's Official Window Now Live",
+category: "CAT / MBA",
+date: "04 Aug 2026",
+minutes: 6,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "IIM Indore has opened CAT 2026 registration on the official iimcat.ac.in portal, with the exam scheduled for 29 November 2026. Here's the full dated schedule and what it means for aspirants.",
+image: "assets/blog/cat-2026-registration-open-update.png",
+imageAlt: "CAT 2026 registration open notification graphic",
+html: `
+<p><strong>Last updated: 4 August 2026.</strong></p>
+<p>IIM Indore has opened registration for the Common Admission Test (CAT) 2026 on the official portal, <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a>, with the window live since 3 August 2026 at 10:00 AM IST.</p>
+
+<h2>What's actually confirmed</h2>
+<p>The CAT 2026 notification and Information Bulletin were released on 26 July 2026, and registration itself opened a week later. Per the official "Important Dates" panel on <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a>: registration runs from 3 August 2026 (10:00 AM IST) to 15 September 2026 (5:00 PM IST), admit cards go live from 4 November 2026, and the exam itself is scheduled for Sunday, 29 November 2026, across three sessions in an estimated 170+ test cities nationwide, per <a href="https://news.careers360.com/iim-cat-notification-out-iimcat-ac-in-registration-from-august-3-eligibility-exam-date-test-centres-reservation" rel="noopener" target="_blank">Careers360's notification coverage</a>. Eligibility is unchanged from previous years: a bachelor's degree with at least 50% aggregate marks (45% for SC/ST/PwD candidates), and final-year students awaiting results remain eligible to apply. The application fee stands at Rs 2,700 for General/EWS/NC-OBC candidates and Rs 1,350 for SC/ST/PwD candidates, per the official Information Bulletin cited across <a href="https://www.mbauniverse.com/cat" rel="noopener" target="_blank">MBAUniverse's</a> and <a href="https://cracku.in/cat-2026-notification-pdf-out/" rel="noopener" target="_blank">Cracku's</a> coverage of the same bulletin.</p>
+
+<h2>What this means for aspirants</h2>
+<p>The exam pattern itself carries over from CAT 2025 with no structural changes reported: three sections (Verbal Ability &amp; Reading Comprehension, Data Interpretation &amp; Logical Reasoning, and Quantitative Ability), 68 questions total, each section individually timed. That stability means aspirants can safely train on the last two years' papers without adjusting for a format shift. The immediate action item is registration itself: candidates choose up to five preferred test cities during the application process, so it's worth deciding your city preferences before the portal opens rather than during a rushed final-week submission. With registration open for roughly six weeks and the exam not until late November, there's no reason to wait until the September 15 deadline; earlier registration also means earlier access to the practice/mock test link IIM Indore typically activates closer to the exam.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[Effective 3 Aug – 15 Sep 2026]</strong> CAT 2026 registration and application window, per the official schedule at <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a>.</li>
+<li><strong>[4 Nov 2026]</strong> CAT 2026 admit card download begins, per the same official Important Dates panel.</li>
+<li><strong>[29 Nov 2026, Sunday]</strong> CAT 2026 test day, conducted in three sessions across roughly 170 cities nationwide.</li>
+<li><strong>[26 Jul 2026]</strong> CAT 2026 Information Bulletin and official notification were released by IIM Indore, the conducting institute for this cycle.</li>
+<li><strong>Myth check:</strong> The CAT application fee has not changed from recent cycles — Rs 2,700 for General/EWS/NC-OBC and Rs 1,350 for SC/ST/PwD — despite some social-media claims of a fee hike this year.</li>
+</ul>
+
+<p><em>Last updated: 4 August 2026. Sources: <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a>, <a href="https://news.careers360.com/iim-cat-notification-out-iimcat-ac-in-registration-from-august-3-eligibility-exam-date-test-centres-reservation" rel="noopener" target="_blank">Careers360</a>, <a href="https://www.mbauniverse.com/cat" rel="noopener" target="_blank">MBAUniverse</a>.</em></p>`
+},
+{
+slug: "top-10-cat-coaching-institutes-lucknow-2026",
+title: "Top 10 CAT Coaching Institutes in Lucknow (2026)",
+category: "CAT / MBA",
+date: "04 Aug 2026",
+minutes: 11,
+cta: { href: "coaching-lucknow.html", text: "Browse all verified coaching institutes in Lucknow" },
+excerpt: "Lucknow's CAT coaching market mixes national chains with homegrown specialists clustered around Aliganj and Hazratganj. Here's a fact-checked look at ten institutes actually training students for CAT in the city.",
+image: "assets/blog/top-10-cat-coaching-institutes-lucknow-2026.png",
+imageAlt: "Top 10 CAT coaching institutes in Lucknow 2026 graphic",
+faqs: [
+      { q: "Which is the best CAT coaching institute in Lucknow?", a: "There's no single 'best' — it depends on whether you want a large national chain's mock-test scale (IMS, TIME, Career Launcher) or a Lucknow-built specialist's smaller batches and closer mentoring (FundaMakers, TathaGat, CATaPult, Career Capital, Logicans, NexGen Academy, Team Satyam). Compare batch size, faculty and current fees directly with 2-3 shortlisted institutes before deciding." },
+      { q: "Where are Lucknow's main CAT coaching clusters?", a: "Aliganj and Hazratganj are the city's two biggest coaching clusters, with a growing presence in Gomti Nagar and Mahanagar Extension. Most institutes on this list run at least one centre in Aliganj or Hazratganj." },
+      { q: "What is the average fee for CAT coaching in Lucknow?", a: "Fees typically range from roughly Rs 5,000 for a budget online test series up to Rs 65,000 for a full classroom program at a national chain, depending on the institute and course format." },
+      { q: "Is online CAT coaching available in Lucknow?", a: "Yes — several institutes on this list, including FundaMakers, CATaPult and Career Capital, offer online or hybrid formats alongside their physical Lucknow centres." },
+      { q: "Does Online Coaching 4u accept payment for institute rankings?", a: "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform." }
+    ],
+html: `
+<p>Lucknow has quietly become one of North India's busier CAT coaching markets, drawing on a local base that includes IIM Lucknow itself, the University of Lucknow and Amity University, alongside a growing pool of engineering and commerce graduates from across Uttar Pradesh who see an MBA as the next step. Coaching here splits between national chains that opened Lucknow branches once the city's demand justified it, and homegrown institutes built specifically around CAT and allied MBA entrance exams. The list below sticks to institutes with a genuine, checkable local presence: a real address, a track record we could cross-reference across more than one source, and current operations in the city as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Lucknow, Uttar Pradesh</p>
+<p><strong>Exam this list is built for:</strong> CAT (Common Admission Test); most institutes below also coach for XAT, NMAT, CMAT and SNAP</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Lucknow-origin specialists</p>
+<p><strong>Why Lucknow:</strong> Home to IIM Lucknow, University of Lucknow and Amity University, with most CAT coaching clustered in Aliganj, Hazratganj, Gomti Nagar and Mahanagar</p>
+<p><strong>CAT 2026 registration:</strong> Open 3 August – 15 September 2026, per the official <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a> schedule</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CAT-coaching presence in Lucknow: a real local address, a track record we could find independent confirmation of (founding year, founder identity, years actually operating in the city), and coverage across Lucknow's main coaching clusters rather than a single branch. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. IMS Lucknow</h3>
+<p>IMS Learning Resources was founded in Mumbai in 1977 by Prof. N.R. Rane, making it one of India's oldest dedicated management-entrance coaching chains. Its Lucknow operation runs two centres, in Hazratganj (Rohit Bhavan, near Canara Bank, 4 Sapru Marg) and Aliganj, and plugs local students into the same nationally benchmarked SimCAT mock series used across its roughly 90-plus centres countrywide. Classroom fees for CAT programs typically start around Rs 10,000 and scale up with add-ons.</p>
+
+<h3>2. TIME (Triumphant Institute of Management Education)</h3>
+<p>TIME was founded in 1992 and now runs three Lucknow centres — Alambagh, Gomti Nagar and Mahanagar Extension — making it the most physically distributed CAT coaching chain in the city. Its flagship All-India Mock CAT series and a faculty pool that includes IIT/IIM alumni are the draw; classroom course fees run roughly Rs 38,000–66,000 depending on the batch.</p>
+
+<h3>3. Career Launcher</h3>
+<p>Founded in 1995 by Satya Narayanan R, Career Launcher operates two Lucknow centres: a Hazratganj centre near the Income Tax office and a Kapoorthala/Aliganj centre above Vijay Bank. The institute pairs structured lecture modules with regular mock tests and performance tracking, and suits students who want a large, established organisation with a defined mentor structure. Classroom fees start around Rs 19,000.</p>
+
+<h3>4. FundaMakers</h3>
+<p>A Lucknow-origin institute founded in 2017, FundaMakers has built its reputation faster than its age suggests, with a faculty pool drawn from IITs, IIMs, XLRI and FMS. Its Gomti Nagar centre (near Jeevan Plaza, Shaheed Chandrashekhar Azad Chowk) runs limited batch sizes for more individual attention, with classroom fees starting around Rs 15,000 and online courses from roughly Rs 20,000.</p>
+
+<h3>5. TathaGat</h3>
+<p>TathaGat has run its Mahanagar Extension centre (near Mid Land Hospital) for 16 years, reporting roughly 12,000 students trained and 6,000-plus selections into IIMs and other B-schools over that period. It runs both weekday and weekend batches alongside an online test series, and leans on personalised mentoring rather than large lecture-hall batches.</p>
+
+<h3>6. CATaPult</h3>
+<p>CATaPult's Aliganj centre (Chandralok Colony) focuses specifically on CAT and allied management-entrance tests, offering both classroom and online formats. Batch sizes are kept small, with fees around Rs 35,000 for the classroom track — a fit for students who want a more boutique, closely tracked preparation experience over a large national chain's scale.</p>
+
+<h3>7. Career Capital</h3>
+<p>Founded in 2015, Career Capital's Aliganj centre (opposite the Institute of Hotel Management) has grown from a slow start into a full CAT-prep operation covering Data Interpretation, Quantitative Aptitude, Logical Reasoning and Verbal Ability through regular mock tests. It offers both classroom and online formats, with online test series starting as low as roughly Rs 5,200 — one of the more budget-friendly entry points on this list.</p>
+
+<h3>8. Logicans</h3>
+<p>Logicans Institute of Aptitude Development, based in Aliganj (HIRA Tower), trains for both management and law entrance exams under one roof, with a faculty pool of professionals and alumni from reputed institutes. Beyond core CAT prep, it runs foundation classes, group discussion and personal interview practice, and career counselling — useful if you want B-school and admissions guidance bundled with test prep. Fees range roughly Rs 24,000–35,000.</p>
+
+<h3>9. NexGen Academy</h3>
+<p>NexGen Academy's Hazratganj centre (T.S. Tower, Ashok Marg) balances theoretical and practical exam preparation with library access and regular practice tests. It's a smaller, locally-run option for students who prefer a tighter, more accessible setup over a multi-branch national chain.</p>
+
+<h3>10. Team Satyam</h3>
+<p>Team Satyam runs its Hazratganj centre (Ashok Marg) with a focus on identifying and correcting each student's weak areas through live mock analysis and structured workshops. It's a smaller Lucknow-built option worth shortlisting alongside the larger chains above, particularly if you want closer, more individualised faculty attention.</p>
+
+<h2>How these institutes compare</h2>
+<p>The national chains — IMS, TIME and Career Launcher — bring the largest mock-test pools and the most physical locations across the city, which matters if you want a statistically meaningful percentile benchmark or a centre close to home regardless of which part of Lucknow you're in. The Lucknow-built specialists — FundaMakers, TathaGat, CATaPult, Career Capital, Logicans, NexGen Academy and Team Satyam — generally run smaller batches and lean harder on individual mentoring, which suits students who plateau in large lecture-hall settings. Aliganj and Hazratganj are the city's two biggest coaching clusters, so proximity to home or college is worth weighing alongside brand name when you shortlist.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically who teaches your batch (not just who founded the institute), how many full-length mocks are included, and whether GD-PI interview preparation is bundled in or a separate add-on — these three questions cut through marketing copy faster than any ranking can. Compare full details and additional Lucknow institutes on our <a href="coaching-lucknow.html">Lucknow coaching directory</a>.</p>`
+},
   {
     slug: "augment-consultancy-vs-izenbridge",
     title: "Augment Consultancy vs iZenBridge: A Detailed PgMP & PfMP Training Comparison (2026)",
