@@ -5,7 +5,10 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/schools-jhunjhunu", "destination": "/", "permanent": true }
+    { "source": "/schools-jhunjhunu", "destination": "/", "permanent": true },
+    { "source": "/institute-aci-senior-secondary-school-jhunjhunu", "destination": "/", "permanent": true },
+    { "source": "/institute-jhunjhunu-academy-gaushala-road", "destination": "/", "permanent": true },
+    { "source": "/institute-shri-saraswati-sr-sec-school-udaipurwati", "destination": "/", "permanent": true }
   ],
   "headers": [
     {
