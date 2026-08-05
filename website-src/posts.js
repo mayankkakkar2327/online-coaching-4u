@@ -2,6 +2,105 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "upsc-cse-mains-2026-admit-card-schedule-update",
+title: "UPSC CSE 2026 Mains: 13,343 Candidates Shortlisted, Exam Runs 21-30 August",
+category: "IAS / UPSC",
+date: "05 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=ias", text: "Compare verified IAS / UPSC coaching institutes" },
+excerpt: "UPSC has shortlisted 13,343 candidates for the Civil Services (Main) Examination 2026, scheduled for 21-30 August. Here's what's officially confirmed and what shortlisted candidates need to do now.",
+image: "assets/blog/upsc-cse-mains-2026-admit-card-update.png",
+imageAlt: "UPSC CSE 2026 Mains admit card and schedule update graphic",
+html: `
+<p><strong>Last updated: 5 August 2026.</strong></p>
+<p>The Union Public Service Commission has shortlisted 13,343 candidates for the Civil Services (Main) Examination, 2026, which is scheduled to run from 21 to 30 August 2026, and the Mains e-admit card is expected on the Commission's e-Admit Card portal in the coming days.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per UPSC's official result press note on <a href="https://www.upsc.gov.in/" rel="noopener" target="_blank">upsc.gov.in</a> (dated 18 June 2026), 13,343 candidates cleared the Civil Services (Preliminary) Examination, 2026 and were shortlisted for the Mains stage. The Commission's website subsequently opened a Detailed Application Form (DAF-II) window from 19 to 28 June 2026 for these shortlisted candidates to submit further personal, academic and service-preference details. The Civil Services (Main) Examination, 2026 currently appears at the top of UPSC's "Active Examinations" list on <a href="https://www.upsc.gov.in/examinations/active-exams" rel="noopener" target="_blank">upsc.gov.in/examinations/active-exams</a>, and is scheduled to be conducted over five days between 21 and 30 August 2026. This year's cycle traces back to the original CSE 2026 notification issued on 29 January 2026, with the Preliminary Examination held on 24 May 2026.</p>
+<p>UPSC has not yet published the Mains e-admit card as of this update. Based on the Commission's usual practice of releasing Mains hall tickets roughly one to two weeks before the exam date, candidate-tracking portals expect it to go live on the official e-Admit Card portal at <a href="https://upsconline.gov.in/eadmitcard/" rel="noopener" target="_blank">upsconline.gov.in/eadmitcard</a> during the first half of August; this is an estimate based on past cycles, not a date UPSC itself has announced.</p>
+
+<h2>What this means for shortlisted candidates</h2>
+<p>If you're among the 13,343 shortlisted, the immediate action items are straightforward: keep checking upsc.gov.in and upsconline.gov.in daily from now through mid-August for the e-admit card link, and have your registration ID/roll number and date of birth ready to retrieve it the moment it's live. UPSC admit cards typically cannot be reissued for a changed exam centre once released, so double-check the centre and shift details as soon as you download it, and report any discrepancy to the Commission immediately rather than close to the exam date. With roughly two weeks left before the 21 August start, this is also the window to shift from broad syllabus coverage to focused answer-writing practice and full-length Mains mock tests, since Mains marks (1,750) and the subsequent Interview (275) — not the qualifying-only Prelims — decide the final merit list.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[18 Jun 2026]</strong> UPSC declared the Civil Services (Preliminary) Examination, 2026 result, shortlisting 13,343 candidates for the Mains stage, per the official result press note on <a href="https://www.upsc.gov.in/" rel="noopener" target="_blank">upsc.gov.in</a>.</li>
+<li><strong>[19-28 Jun 2026]</strong> The Detailed Application Form (DAF-II) window for shortlisted candidates was open on the Commission's website during this period.</li>
+<li><strong>[21-30 Aug 2026]</strong> The Civil Services (Main) Examination, 2026 is scheduled to be conducted across five days, per UPSC's Active Examinations listing.</li>
+<li><strong>[First half of August 2026, expected]</strong> The Mains e-admit card is expected on <a href="https://upsconline.gov.in/eadmitcard/" rel="noopener" target="_blank">upsconline.gov.in/eadmitcard</a>; this is a candidate-tracking-portal estimate based on past cycles, not an official UPSC-announced date.</li>
+<li><strong>Myth check:</strong> Clearing the Prelims does not contribute marks to the final UPSC merit list — Prelims is purely qualifying, and only Mains (1,750 marks) plus the Interview (275 marks) count toward your final rank.</li>
+</ul>
+
+<p><em>Last updated: 5 August 2026. Sources: <a href="https://www.upsc.gov.in/" rel="noopener" target="_blank">upsc.gov.in</a>, <a href="https://www.upsc.gov.in/examinations/active-exams" rel="noopener" target="_blank">UPSC Active Examinations</a>, <a href="https://upsconline.gov.in/eadmitcard/" rel="noopener" target="_blank">UPSC e-Admit Card Portal</a>.</em></p>`
+},
+{
+slug: "top-10-ias-coaching-institutes-prayagraj-2026",
+title: "Top 10 IAS Coaching Institutes in Prayagraj (2026)",
+category: "IAS / UPSC",
+date: "05 Aug 2026",
+minutes: 12,
+cta: { href: "coaching-prayagraj.html", text: "Browse all verified coaching institutes in Prayagraj" },
+excerpt: "Prayagraj is India's second-biggest UPSC coaching hub after Delhi, built around a century-old civil-services culture centred on Civil Lines. Here's a fact-checked look at ten institutes actually training students for IAS in the city.",
+image: "assets/blog/top-10-ias-coaching-institutes-prayagraj-2026.png",
+imageAlt: "Top 10 IAS coaching institutes in Prayagraj 2026 graphic",
+faqs: [
+      { q: "Which is the best IAS coaching institute in Prayagraj?", a: "There's no single 'best' — it depends on medium of instruction and format. Drishti IAS and Sanskriti IAS are the city's biggest Hindi-medium names; NEXT IAS, Vajirao & Reddy and Chanakya IAS Academy are Delhi-origin chains with local branches; Eden IAS, Vision IAS Academy, Kernel IAS Academy, Dhyeya IAS Academy and Mission IAS Institute are Prayagraj-built options. Compare batch size, medium and current fees directly with 2-3 shortlisted institutes before deciding." },
+      { q: "Where is IAS coaching concentrated in Prayagraj?", a: "Civil Lines is by far the largest coaching cluster, hosting most of the institutes on this list. Tagore Town, George Town and Katra near Allahabad University host a handful of additional institutes." },
+      { q: "What is the average fee for IAS coaching in Prayagraj?", a: "Fees for a full GS Foundation course (Prelims + Mains) typically range from roughly Rs 75,000 at the more affordable end to Rs 2,00,000 at the higher end, depending on the institute, course duration and whether it's offline, online or hybrid." },
+      { q: "Do Prayagraj institutes also coach for UPPCS and other state PCS exams?", a: "Yes — several institutes on this list, including Drishti IAS, NEXT IAS and Sanskriti IAS, run dedicated UPPCS (Uttar Pradesh) batches and mentorship programs alongside their core UPSC coaching, reflecting how many local aspirants prepare for both exams together." },
+      { q: "Does Online Coaching 4u accept payment for institute rankings?", a: "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform." }
+    ],
+html: `
+<p>Prayagraj — Allahabad, until the city's 2018 renaming — has been a civil-services training ground since well before independence, when Allahabad University's reputation as the "Oxford of the East" made it a natural feeder into the colonial and later Indian administrative services. That legacy has hardened into modern India's second-biggest UPSC coaching market after Delhi: a dense cluster of institutes concentrated almost entirely in Civil Lines, with a smaller pocket near Allahabad University in Katra and a handful of outliers in Tagore Town and George Town. The list below sticks to institutes with a genuine, checkable local presence: a real address, a track record we could cross-reference across more than one source, and current operations in the city as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Prayagraj (formerly Allahabad), Uttar Pradesh</p>
+<p><strong>Exam this list is built for:</strong> UPSC Civil Services Examination (IAS/IPS/IFS); most institutes below also coach for UPPCS and other state PCS exams</p>
+<p><strong>Institutes compared:</strong> 10, spanning Hindi-medium originals, Delhi-origin chains and Prayagraj-built academies</p>
+<p><strong>Why Prayagraj:</strong> India's second-largest UPSC coaching hub after Delhi, with coaching concentrated in Civil Lines and a smaller cluster near Allahabad University</p>
+<p><strong>UPSC CSE 2026 Mains:</strong> Scheduled 21-30 August 2026, per UPSC's official <a href="https://www.upsc.gov.in/examinations/active-exams" rel="noopener" target="_blank">Active Examinations</a> listing</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable IAS-coaching presence in Prayagraj: a real local address, a track record we could find independent confirmation of (founding year, founder identity, faculty background), and coverage across the city's Civil Lines coaching cluster rather than a single obscure branch. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Drishti IAS</h3>
+<p>Group Drishti ("Drishti: The Vision") was founded in November 1999 by Dr. Vikas Divyakirti and Dr. Taruna Verma as a Hindi-medium UPSC institute, later expanding into English-medium coaching from 2021. Its Civil Lines centre (13/15, Tashkent Marg) runs classroom GS Foundation, CSAT and Essay batches alongside Drishti's national Prelims and Mains Test Series, and the institute also coaches for Uttar Pradesh, Bihar, Rajasthan, Madhya Pradesh, Uttarakhand and Haryana state PCS exams.</p>
+
+<h3>2. NEXT IAS</h3>
+<p>NEXT IAS's Prayagraj centre (13A/1B, KP Complex, Tashkent Marg, near Civil Lines) is staffed by a faculty panel the institute describes as Delhi-based with an average of 10-15 years' experience. It runs offline GS Foundation batches (GSPM, GSPMC and advance tracks) with morning and evening sections, plus optional-subject and UPPCS-support courses; NEXT IAS cites 8 candidates in the Top 10 of the CSE 2025 results across its programs nationally.</p>
+
+<h3>3. Sanskriti IAS</h3>
+<p>Sanskriti IAS runs its Civil Lines centre (1/1/8A Stanley Road, Maharana Pratap Chauraha) primarily in Hindi medium, with subject specialists reporting 10-22 years of teaching experience each on the institute's published faculty profiles. Alongside its core UPSC GS Foundation course, the centre runs a dedicated UPPCS Foundation batch and an AROHAN UPPCS mentorship program, reflecting how many Prayagraj aspirants prepare for both exams together.</p>
+
+<h3>4. Vajirao & Reddy Institute</h3>
+<p>Vajirao & Reddy's Civil Lines centre offers 1-year and 2-year GS Foundation courses, a Prelims-cum-Mains course, optional-subject coaching and a test series, at fees reported in the roughly Rs 1,20,000-2,00,000 range depending on course length and format. Independent coaching directories generally cite its structured course sequencing and regular mock-test cycle as its strength.</p>
+
+<h3>5. Eden IAS</h3>
+<p>Eden IAS's Civil Lines centre focuses on GS Prelims and Mains coaching plus optional subjects and interview guidance, with fees reported around Rs 80,000-1,20,000. Independent coaching directories consistently flag Eden's Mains-stage preparation and answer-writing focus as a particular strength worth shortlisting for.</p>
+
+<h3>6. Vision IAS Academy</h3>
+<p>This Tagore Town academy runs a GS Foundation course, a combined Prelims-cum-Mains program, optional-subject coaching and interview preparation, at fees reported around Rs 85,000-1,60,000. It is a Prayagraj-specific institute and operates independently of the similarly named Delhi-based VisionIAS chain, so confirm which entity you're enrolling with before paying any fees.</p>
+
+<h3>7. Chanakya IAS Academy</h3>
+<p>Chanakya IAS Academy's Civil Lines centre offers GS Prelims and Mains coaching, optional-subject courses, a test series and interview guidance, at fees reported around Rs 1,10,000-1,90,000. Coaching directories cite its study material depth and structured answer-writing practice as its main draw.</p>
+
+<h3>8. Kernel IAS Academy</h3>
+<p>Kernel IAS Academy runs a GS Foundation course and a separate Mains Enrichment Program from its Civil Lines centre, at fees reported around Rs 95,000-1,70,000. It is generally cited for regular assessments and individual feedback sessions within a competitive batch environment.</p>
+
+<h3>9. Dhyeya IAS Academy</h3>
+<p>Dhyeya IAS Academy's Civil Lines centre pairs a GS Foundation course with a dedicated Mains Enrichment Program and interview preparation, at fees reported around Rs 85,000-1,60,000. The academy is commonly cited for weaving ethics and civil-services values into its broader teaching approach.</p>
+
+<h3>10. Mission IAS Institute</h3>
+<p>Mission IAS Institute's George Town centre — one of the few outside the Civil Lines cluster — runs an integrated Prelims-plus-Mains course, optional-subject coaching and a test series, at fees reported around Rs 75,000-1,40,000, among the more budget-friendly options on this list. It is generally cited for a rigorous-practice, doubt-clearing approach over large-scale brand infrastructure.</p>
+
+<h2>How these institutes compare</h2>
+<p>Drishti IAS and Sanskriti IAS are the city's biggest Hindi-medium names, with the longest local track records and the widest course catalogues, including dedicated UPPCS batches for students preparing for both UPSC and Uttar Pradesh's state PCS exam. NEXT IAS, Vajirao & Reddy and Chanakya IAS Academy bring Delhi-chain infrastructure and national faculty rosters to a local Civil Lines branch. Eden IAS, Vision IAS Academy, Kernel IAS Academy, Dhyeya IAS Academy and Mission IAS Institute are Prayagraj-built options generally positioned around a specific strength — Mains focus, ethics teaching, or affordability — rather than sheer scale. Civil Lines is overwhelmingly the city's dominant coaching cluster, so most institutes here sit within walking distance of each other.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically who teaches your batch (not just who founded the institute), how many full-length Mains mocks are included, and whether GS Foundation includes UPPCS or other state PCS coverage bundled in or as a separate add-on — these questions cut through marketing copy faster than any ranking can. Compare full details and additional Prayagraj institutes on our <a href="coaching-prayagraj.html">Prayagraj coaching directory</a>.</p>`
+},
+{
 slug: "cat-2026-registration-open-iimcat-update",
 title: "CAT 2026 Registration Opens: IIM Indore's Official Window Now Live",
 category: "CAT / MBA",

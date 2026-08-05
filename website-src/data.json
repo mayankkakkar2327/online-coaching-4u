@@ -26,7 +26,8 @@
       "mysuru",
       "pune",
       "kolkata",
-      "lucknow"
+      "lucknow",
+      "prayagraj"
     ],
     "certification": [
       "online"
@@ -5867,6 +5868,197 @@
         "Individualised faculty attention in smaller batches"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "drishti-ias-prayagraj",
+      "type": "coaching",
+      "name": "Drishti IAS - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "13/15, Tashkent Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+      "estd": 1999,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Group Drishti ('Drishti: The Vision') was founded in November 1999 by Dr. Vikas Divyakirti and Dr. Taruna Verma as a Hindi-medium UPSC institute, later expanding into English-medium coaching from 2021. Its Prayagraj centre in Civil Lines runs classroom GS Foundation, CSAT and Essay batches alongside Drishti's national Prelims and Mains Test Series, and the institute also coaches for Uttar Pradesh, Bihar, Rajasthan, Madhya Pradesh, Uttarakhand and Haryana state PCS exams.",
+      "highlights": [
+        "Founded November 1999 by Dr. Vikas Divyakirti and Dr. Taruna Verma",
+        "Civil Lines centre with classroom GS Foundation, CSAT and Essay batches",
+        "Also coaches for UP, Bihar, Rajasthan, MP, Uttarakhand and Haryana state PCS exams"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "next-ias-prayagraj",
+      "type": "coaching",
+      "name": "NEXT IAS - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "13A/1B, KP Complex, Tashkent Marg, Near Civil Lines, Prayagraj, Uttar Pradesh 211001",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "NEXT IAS's Prayagraj centre is staffed by teachers the institute describes as Delhi-based, with an average faculty experience of 10-15 years across its panel. The centre runs offline GS Foundation batches (GSPM, GSPMC and advance tracks) with morning and evening sections, plus optional-subject and UPPCS-support courses, and NEXT IAS cites 8 candidates in the Top 10 of the CSE 2025 results across its programs nationally.",
+      "highlights": [
+        "Delhi-based faculty panel with 10-15 years' average experience",
+        "Offline GS Foundation batches with morning and evening sections in Civil Lines",
+        "Institute-wide CSE 2025 results: 8 in Top 10, 17 in Top 20, 65 in Top 100"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sanskriti-ias-prayagraj",
+      "type": "coaching",
+      "name": "Sanskriti IAS - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "1/1/8A Stanley Road, Maharana Pratap Chauraha, Civil Lines, Prayagraj, Uttar Pradesh 211002",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Sanskriti IAS runs its Prayagraj centre primarily in Hindi medium, with a faculty roster of subject specialists carrying 10-22 years of teaching experience each (per the institute's published faculty profiles). Alongside the core UPSC GS Foundation course, the centre offers a dedicated UPPCS Foundation batch and an AROHAN UPPCS mentorship program, reflecting the large share of Prayagraj aspirants who prepare for both UPSC and Uttar Pradesh's state PCS exam simultaneously.",
+      "highlights": [
+        "Hindi-medium centre with UPSC and dedicated UPPCS Foundation batches",
+        "Faculty specialists reporting 10-22 years of subject-specific teaching experience",
+        "AROHAN UPPCS 2026 mentorship program run alongside core GS coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vajirao-and-reddy-institute-prayagraj",
+      "type": "coaching",
+      "name": "Vajirao & Reddy Institute - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "Civil Lines, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Vajirao & Reddy Institute's Prayagraj centre offers 1-year and 2-year GS Foundation courses, a Prelims-cum-Mains course, optional-subject coaching and a test series, at fees reported in the roughly Rs 1,20,000-2,00,000 range depending on course length and format. The institute is generally cited for its structured course sequencing and regular mock-test cycle.",
+      "highlights": [
+        "1-year and 2-year GS Foundation course formats",
+        "Reported fee range roughly Rs 1,20,000-2,00,000 depending on course",
+        "Regular mock tests with personalised guidance, per third-party coaching directories"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "eden-ias-prayagraj",
+      "type": "coaching",
+      "name": "Eden IAS - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "Civil Lines, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Eden IAS's Prayagraj centre focuses on GS Prelims and Mains coaching plus optional subjects and interview guidance, with fees reported in the roughly Rs 80,000-1,20,000 range. Independent coaching directories consistently flag Eden's Mains-stage preparation and answer-writing focus as a particular strength.",
+      "highlights": [
+        "GS Prelims, Mains, optional subjects and interview guidance under one roof",
+        "Reported fee range roughly Rs 80,000-1,20,000",
+        "Frequently cited for Mains-stage answer-writing focus"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vision-ias-academy-prayagraj",
+      "type": "coaching",
+      "name": "Vision IAS Academy - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Tagore Town",
+      "address": "Tagore Town, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Vision IAS Academy's Tagore Town centre runs a GS Foundation course, a combined Prelims-cum-Mains program, optional-subject coaching and interview preparation, at fees reported around Rs 85,000-1,60,000. It is a Prayagraj-specific academy and operates independently of the similarly named Delhi-based VisionIAS chain, so aspirants should confirm which entity they're enrolling with before paying.",
+      "highlights": [
+        "Tagore Town centre, distinct from the Delhi-based VisionIAS chain of the same name",
+        "GS Foundation plus combined Prelims-cum-Mains program",
+        "Reported fee range roughly Rs 85,000-1,60,000"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chanakya-ias-academy-prayagraj",
+      "type": "coaching",
+      "name": "Chanakya IAS Academy - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "Civil Lines, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Chanakya IAS Academy's Prayagraj centre offers GS Prelims and Mains coaching, optional-subject courses, a test series and interview guidance, at fees reported around Rs 1,10,000-1,90,000. Coaching directories cite its study material depth and structured answer-writing practice as its main draw.",
+      "highlights": [
+        "GS Prelims and Mains coaching plus optional subjects and interview guidance",
+        "Reported fee range roughly Rs 1,10,000-1,90,000",
+        "Structured answer-writing practice cited across independent listings"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "kernel-ias-academy-prayagraj",
+      "type": "coaching",
+      "name": "Kernel IAS Academy - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "Civil Lines, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Kernel IAS Academy runs a GS Foundation course and a separate Mains Enrichment Program from its Civil Lines centre, with fees reported around Rs 95,000-1,70,000. It is generally cited for regular assessments and individual feedback sessions in a competitive batch environment.",
+      "highlights": [
+        "Separate GS Foundation and Mains Enrichment Program tracks",
+        "Reported fee range roughly Rs 95,000-1,70,000",
+        "Regular assessments with individual feedback, per independent coaching directories"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dhyeya-ias-academy-prayagraj",
+      "type": "coaching",
+      "name": "Dhyeya IAS Academy - Prayagraj",
+      "city": "prayagraj",
+      "locality": "Civil Lines",
+      "address": "Civil Lines, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Dhyeya IAS Academy's Prayagraj centre pairs a GS Foundation course with a dedicated Mains Enrichment Program and interview preparation, at fees reported around Rs 85,000-1,60,000. The academy is commonly cited for weaving ethics and civil-services values into its broader teaching approach.",
+      "highlights": [
+        "GS Foundation plus dedicated Mains Enrichment Program and interview prep",
+        "Reported fee range roughly Rs 85,000-1,60,000",
+        "Cited for integrating ethics and civil-services values into coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "mission-ias-institute-prayagraj",
+      "type": "coaching",
+      "name": "Mission IAS Institute - Prayagraj",
+      "city": "prayagraj",
+      "locality": "George Town",
+      "address": "George Town, Prayagraj, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Mission IAS Institute's George Town centre runs an integrated Prelims-plus-Mains course, optional-subject coaching and a test series, at fees reported around Rs 75,000-1,40,000 -- among the more budget-friendly options on this list. It is generally cited for a rigorous-practice, doubt-clearing approach rather than large-scale brand infrastructure.",
+      "highlights": [
+        "George Town centre, one of the few outside the Civil Lines cluster",
+        "Reported fee range roughly Rs 75,000-1,40,000, among the more affordable options",
+        "Cited for rigorous practice sessions and regular doubt-clearing classes"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -5939,6 +6131,9 @@
     },
     "coaching-lucknow": {
       "intro": "<p>Lucknow is Uttar Pradesh's largest CAT coaching market, drawing on a local base that includes IIM Lucknow itself, the University of Lucknow and Amity University, alongside engineering and commerce graduates from across the state. Coaching clusters mainly around Aliganj and Hazratganj, with a growing Gomti Nagar and Mahanagar Extension presence, mixing long-established national chains (IMS, TIME, Career Launcher) with Lucknow-built specialists (FundaMakers, TathaGat, CATaPult, Career Capital, Logicans, NexGen Academy, Team Satyam). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-prayagraj": {
+      "intro": "<p>Prayagraj (formerly Allahabad) is India's second-biggest UPSC coaching hub after Delhi, built on a century-old civil-services culture that traces back to Allahabad University's reputation as the \"Oxford of the East.\" Coaching clusters almost entirely around Civil Lines, with a secondary pocket in Katra near the university and a few institutes in Tagore Town and George Town. The city mixes long-running Hindi-medium giants (Drishti IAS, Sanskriti IAS) with Delhi-origin chains that opened local branches (NEXT IAS, Vajirao & Reddy, Chanakya IAS Academy) and homegrown Prayagraj institutes (Eden IAS, Vision IAS Academy, Kernel IAS Academy, Dhyeya IAS Academy, Mission IAS Institute). Every listing below shows its verification status and locality so you can cross-check directly before enrolling.</p>"
     }
   }
 }
