@@ -44,10 +44,10 @@ const typePage = { coaching: "coaching", certification: "certification" };
    keyed by type so each vertical gets accurate, non-generic wording */
 const ONLINE_COPY = {
   coaching: {
-    h1: "Online CAT / MBA Coaching Platforms",
-    title: (n) => `Best Online CAT / MBA Coaching (${n} compared)`,
-    metaDesc: (n) => `Compare ${n} online CAT and MBA entrance coaching platforms — Rodha, Cracku, iQuanta, IMS, Career Launcher and more. Verified facts, no paid rankings.`,
-    subNote: (n) => `${n} platforms compared — pure-online brands plus the online programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`,
+    h1: "Online Coaching Platforms",
+    title: (n) => `Best Online Coaching Platforms (${n} compared)`,
+    metaDesc: (n) => `Compare ${n} online coaching platforms across CAT, CLAT, IAS, JEE, NEET, SSC, CA and more — verified facts, no paid rankings.`,
+    subNote: (n) => `${n} platforms compared across every exam category we track — pure-online brands plus the online and hybrid programs of major classroom institutes. Facts only: founders, formats and track record. No paid rankings — any standout recommendation on this page is based on verifiable facts, not payment, and nobody pays for placement.`,
     availability: "Pan-India"
   },
   certification: {
@@ -155,7 +155,7 @@ ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-curr
 }
 
 function footer() {
-  const coachingCities = `<li><a href="coaching-online.html">Online CAT / MBA Coaching</a></li>` +
+  const coachingCities = `<li><a href="coaching-online.html">Online Coaching</a></li>` +
     DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">Coaching in ${cityLabel(c)}</a></li>`).join("");
   return `<footer class="site-footer">
 <div class="container footer-grid">

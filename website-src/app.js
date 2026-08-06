@@ -22,7 +22,16 @@
     /* deep links: ?exam= and ?mode= preselect the dropdowns */
     var params = new URLSearchParams(location.search);
     var q = params.get("exam");
-    if (q && examSel && examSel.querySelector('option[value="' + q + '"]')) examSel.value = q;
+    if (q && examSel && examSel.querySelector('option[value="' + q + '"]')) {
+      examSel.value = q;
+      /* these pages share one static heading per city/hub regardless of which exam
+         tile was clicked, so make the heading reflect the deep-linked exam too */
+      var h1 = document.querySelector(".listing-head h1");
+      if (h1) {
+        var examLabelText = examSel.options[examSel.selectedIndex].textContent;
+        h1.textContent = examLabelText + " " + h1.textContent;
+      }
+    }
     var qm = params.get("mode");
     if (qm && modeSel && modeSel.querySelector('option[value="' + qm + '"]')) modeSel.value = qm;
 
