@@ -76,6 +76,20 @@ const byCity = (t, c) => {
   return [...locals, ...injected]
     .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
 };
+
+/* homepage exam tiles link straight to a city page — pick whichever city actually has
+   the most listings for that exam, so a niche exam (e.g. NDA, only offered in a
+   handful of cities) never lands a visitor on a page with zero matching results */
+const bestCityForExam = (e) => {
+  const counts = {};
+  byType("coaching").forEach(x => {
+    if (x.city && x.city !== "online" && (x.exams || []).includes(e)) counts[x.city] = (counts[x.city] || 0) + 1;
+  });
+  const cities = Object.keys(counts);
+  if (!cities.length) return "sikar";
+  cities.sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+  return cities[0];
+};
 const modeLabel = { offline: "Classroom", hybrid: "Hybrid", online: "Online" };
 
 const stats = {
@@ -227,10 +241,11 @@ function searchBox() {
 
 function homePage() {
   const glyphs = { ias: "§", jee: "∆", neet: "✚", cat: "◆", ssc: "¶", clat: "⚖", nda: "✦", bank: "₹", cuet: "◎" };
-  const examCards = [["ias"], ["jee"], ["neet"], ["cat"], ["ssc"], ["clat"], ["nda"], ["bank"], ["cuet"]]
-    .map(([e]) => e === "cat"
-      ? `<a class="tile" href="coaching-delhi.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Classroom &amp; online</span></a>`
-      : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='/coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
+  /* each tile links straight to whichever city has the most listings for that exam —
+     deterministic and always has results, unlike the old last-visited-city guess,
+     which could land a visitor on a city with zero matches for a niche exam */
+  const examCards = ["ias", "jee", "neet", "cat", "ssc", "clat", "nda", "bank", "cuet"]
+    .map((e) => `<a class="tile" href="coaching-${bestCityForExam(e)}.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">${e === "cat" ? "Classroom &amp; online" : "Find coaching"}</span></a>`).join("");
   const cityCards = DATA.cities.coaching.filter(c => c !== "online").map(c => {
     const n = byCity("coaching", c).length;
     return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
