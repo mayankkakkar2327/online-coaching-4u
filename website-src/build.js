@@ -253,7 +253,10 @@ function homePage() {
   const onlineCount = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid").length;
   const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1));
   const featured = topRated.slice(0, 6).map(card).join("");
-  const minis = topRated.slice(0, 4).map(x => `<a class="mini" href="institute-${x.slug}.html"><span class="avatar ${grad(x.name)}">${esc(x.name[0])}</span><div><b>${esc(x.name)}</b><span>${esc(x.locality)}${x.estd ? ` · Since ${x.estd}` : ""}</span></div><span class="score">★ ${x.rating ? x.rating.toFixed(1) : "—"}</span></a>`).join("");
+  /* "Top rated this month" hero widget: curated, not algorithmic — hand-picked slugs */
+  const MINI_SLUGS = ["rodha", "iproledge-academy-bengaluru", "sbtechmath-academy", "navjeevan-neet-academy-sikar"];
+  const miniItems = MINI_SLUGS.map(s => L.find(x => x.slug === s)).filter(Boolean);
+  const minis = miniItems.map(x => `<a class="mini" href="institute-${x.slug}.html"><span class="avatar ${grad(x.name)}">${esc(x.name[0])}</span><div><b>${esc(x.name)}</b><span>${esc(x.locality)}${x.estd ? ` · Since ${x.estd}` : ""}</span></div><span class="score">★ ${x.rating ? x.rating.toFixed(1) : "—"}</span></a>`).join("");
   return head(`${B.name} — Find the Best Coaching Institutes in India`,
     `Compare ${stats.coaching} verified coaching institutes across ${stats.cities} cities. Real reviews, honest details, free for students.`) +
     header("index.html", true) + `
