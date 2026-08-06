@@ -226,8 +226,8 @@ function searchBox() {
 }
 
 function homePage() {
-  const glyphs = { ias: "§", jee: "∆", neet: "✚", cat: "◆", ssc: "¶", clat: "⚖", nda: "✦", bank: "₹", teaching: "✎", cuet: "◎" };
-  const examCards = [["ias"], ["jee"], ["neet"], ["cat"], ["ssc"], ["clat"], ["nda"], ["bank"], ["teaching"], ["cuet"]]
+  const glyphs = { ias: "§", jee: "∆", neet: "✚", cat: "◆", ssc: "¶", clat: "⚖", nda: "✦", bank: "₹", cuet: "◎" };
+  const examCards = [["ias"], ["jee"], ["neet"], ["cat"], ["ssc"], ["clat"], ["nda"], ["bank"], ["cuet"]]
     .map(([e]) => e === "cat"
       ? `<a class="tile" href="coaching-delhi.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Classroom &amp; online</span></a>`
       : `<a class="tile" href="coaching-sikar.html?exam=${e}" onclick="this.href='/coaching-'+(localStorage.getItem('oc4u-city')||'sikar')+'?exam=${e}'"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">Find coaching</span></a>`).join("");
