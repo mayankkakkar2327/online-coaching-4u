@@ -27,7 +27,8 @@
       "pune",
       "kolkata",
       "lucknow",
-      "prayagraj"
+      "prayagraj",
+      "patna"
     ],
     "certification": [
       "online"
@@ -83,7 +84,8 @@
     "ipmat": "IPMAT",
     "csir-net": "CSIR NET Maths",
     "iit-jam": "IIT JAM",
-    "cuet-pg": "CUET PG"
+    "cuet-pg": "CUET PG",
+    "ailet": "AILET"
   },
   "listings": [
     {
@@ -6059,6 +6061,198 @@
         "Cited for rigorous practice sessions and regular doubt-clearing classes"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "legaledge-patna",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers - Patna",
+      "city": "patna",
+      "locality": "Dak Bungalow / Fraser Road",
+      "address": "2nd Floor, Ravi Chandra Estate, Fraser Road, above Punjab & Sindh Bank, Dak Bungalow Crossing, Lodipur, Patna, Bihar 800001",
+      "exams": [
+        "clat",
+        "ailet"
+      ],
+      "verified": false,
+      "about": "LegalEdge is the CLAT-coaching brand of Toprankers, a test-prep company founded in 2016, and its Patna centre at Dak Bungalow Crossing runs Achievers (Class 11), Fighters (Class 12) and Dropper batches in offline and hybrid formats. The centre carries a 4.9-star Google rating from 109 Patna student reviews, and LegalEdge's faculty pool nationally includes an NLIU-graduate co-founder and subject specialists with 10+ years each in legal, logical and English training for CLAT and AILET.",
+      "highlights": [
+        "Part of Toprankers' 50+ centre national LegalEdge network, with a dedicated Patna centre at Dak Bungalow",
+        "4.9-star Google rating from 109 Patna student reviews, among the highest of any listed Patna institute",
+        "Institute-wide CLAT 2026 results include AIR 1, 2 and 3, cited across the LegalEdge network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "law-prep-tutorial-patna",
+      "type": "coaching",
+      "name": "Law Prep Tutorial - Patna",
+      "city": "patna",
+      "locality": "Boring Canal Road",
+      "address": "AG Tower, East Boring Canal Road, Patna, Bihar 800001",
+      "exams": [
+        "clat",
+        "ailet"
+      ],
+      "verified": false,
+      "about": "Law Prep Tutorial runs one of Patna's most established CLAT coaching centres from AG Tower on East Boring Canal Road, part of a national chain that coaching directories describe as among India's oldest and largest CLAT-focused institutes. Its Patna centre offers CLAT/AILET Booster, Finisher and Foundation batches, with reported fees ranging from roughly Rs 58,000 for a short booster course to Rs 2,25,000 for the multi-year foundation track.",
+      "highlights": [
+        "National CLAT-focused chain with a dedicated East Boring Canal Road centre in Patna",
+        "Separate CLAT/AILET Booster, Finisher and Foundation batch options at different course lengths",
+        "Reported fees span roughly Rs 58,000 (Booster) to Rs 2,25,000 (multi-year Foundation)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "clat-path-patna",
+      "type": "coaching",
+      "name": "CLAT Path",
+      "city": "patna",
+      "locality": "Boring Canal Road",
+      "address": "3rd Floor, Rai Complex, near Panchmukhi Mandir, East Boring Canal Road, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "CLAT Path is a Patna-founded institute led by director Chandan Jha, who coaching directories credit with over a decade of legal-studies teaching experience, alongside subject faculty for maths, reasoning and current affairs. It runs Target (1-year) and Foundation (2-year) classroom batches plus online options, with reported fees from around Rs 40,000 for an online Target course up to Rs 1,50,000 for the 2-year offline Foundation batch.",
+      "highlights": [
+        "Patna-founded institute led by director Chandan Jha, cited with 13+ years in legal-studies teaching",
+        "Both online and offline Target/Foundation batch formats, roughly Rs 40,000-1,50,000 reported fee range",
+        "Boring Canal Road centre near Panchmukhi Mandir, one of Patna's densest CLAT-coaching clusters"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-patna",
+      "type": "coaching",
+      "name": "Career Launcher - Patna",
+      "city": "patna",
+      "locality": "S.P. Verma Road",
+      "address": "404, Samriddhi Complex, S.P. Verma Road, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Career Launcher's Patna centre on S.P. Verma Road is part of the national CL Educate network, offering dedicated Legal Studies Test (LST) batches for CLAT preparation alongside its broader management-entrance coaching. Reported course fees range from roughly Rs 90,000 for the standard LST Plus batch to Rs 1,40,000 for the longer LST Span format.",
+      "highlights": [
+        "Part of the national Career Launcher (CL Educate) network, with dedicated CLAT-focused LST batches",
+        "S.P. Verma Road centre, a short distance from Patna's Boring Road coaching cluster",
+        "Reported fees roughly Rs 90,000 (LST Plus) to Rs 1,40,000 (LST Span)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "upadhyay-law-gurukul-patna",
+      "type": "coaching",
+      "name": "Upadhyay Law Gurukul",
+      "city": "patna",
+      "locality": "Boring Canal Road",
+      "address": "Lalpati Complex, Boring Canal Road, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Upadhyay Law Gurukul is a Patna-based CLAT institute on Boring Canal Road, offering a 1-year Target course and an 18-month Foundation course, with reported fees around Rs 95,000 and Rs 1,10,000 respectively. It's frequently cited alongside CLAT Path and Law Prep Tutorial as one of the established names in Patna's Boring Road coaching cluster.",
+      "highlights": [
+        "1-year Target and 18-month Foundation course formats for CLAT preparation",
+        "Reported fees roughly Rs 95,000 (Target) and Rs 1,10,000 (Foundation)",
+        "Located in the Boring Canal Road cluster alongside several other listed institutes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chanakya-clat-classes-patna",
+      "type": "coaching",
+      "name": "Chanakya CLAT Classes",
+      "city": "patna",
+      "locality": "Boring Road",
+      "address": "3rd Floor, Kumar Tower, Boring Road, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Chanakya CLAT Classes runs a Boring Road centre offering 1-year and 2-year CLAT preparation tracks, with reported fees of roughly Rs 65,000 and Rs 1,11,000 respectively. Coaching directories cite the institute's structured study material and modern classroom teaching methods as its main draw for Patna aspirants comparing mid-sized local options.",
+      "highlights": [
+        "1-year and 2-year CLAT preparation tracks at Kumar Tower, Boring Road",
+        "Reported fees roughly Rs 65,000 (1-year) and Rs 1,11,000 (2-year)",
+        "Cited by independent directories for structured study material and modern teaching methods"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "clatians-ieeclat-patna",
+      "type": "coaching",
+      "name": "CLATians (IEE CLAT Coaching)",
+      "city": "patna",
+      "locality": "Boring Road",
+      "address": "2nd Floor, Gangotri Palace, Boring Road, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "CLATians, also known locally as IEE CLAT Coaching, operates from Gangotri Palace on Boring Road with Success (1-year) and Vital (2-year) course tracks, plus backup classes for doubt clearance. Reported fees run roughly Rs 75,000 for the 1-year Success course to Rs 1,20,000 for the 2-year Vital programme.",
+      "highlights": [
+        "Success (1-year) and Vital (2-year) CLAT batches with dedicated backup doubt-clearing classes",
+        "Reported fees roughly Rs 75,000 (Success) to Rs 1,20,000 (Vital)",
+        "Boring Road centre in one of Patna's most concentrated coaching pockets"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "legalight-patna",
+      "type": "coaching",
+      "name": "Legalight",
+      "city": "patna",
+      "locality": "Boring Road",
+      "address": "3rd Floor, DPL House, Dadijee Lane, Boring Road, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Legalight is a CLAT-coaching brand with a Boring Road centre in Patna, offering both offline and online crash-course formats alongside mock tests and personalised counselling. Reported fees run around Rs 35,000 for the online crash course to Rs 50,000 for the offline version, making it one of the more accessible short-format options on this list.",
+      "highlights": [
+        "Offline and online crash-course formats plus mock tests and personalised counselling",
+        "Reported fees roughly Rs 35,000 (online) to Rs 50,000 (offline) for crash-format prep",
+        "DPL House, Dadijee Lane centre in Patna's Boring Road coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "clat-gurukul-patna",
+      "type": "coaching",
+      "name": "CLAT Gurukul",
+      "city": "patna",
+      "locality": "Boring Road area",
+      "address": "24-B, Ground Floor, Sahdeo Mahto Marg, Patna, Bihar 800001",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "CLAT Gurukul positions itself around small batch sizes for closer individual attention, offering 1-year and 2-year CLAT tracks with reported fees of roughly Rs 65,000 and Rs 85,000. It also provides unlimited online mock tests as part of its course package, aimed at students who want frequent practice alongside classroom teaching.",
+      "highlights": [
+        "Small-batch-size positioning for closer individual student attention",
+        "Reported fees roughly Rs 65,000 (1-year) to Rs 85,000 (2-year)",
+        "Unlimited online mock tests included as part of the course package"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "clat-focus-coaching-patna",
+      "type": "coaching",
+      "name": "CLAT Focus Coaching",
+      "city": "patna",
+      "locality": "Kankarbagh",
+      "address": "Kankarbagh, Patna, Bihar 800020",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "CLAT Focus Coaching runs from Kankarbagh, a residential locality on the opposite side of the city from Patna's Boring Road coaching cluster, giving it a distinct catchment among students based in that part of Patna. It covers Legal Reasoning, English, Aptitude and General Knowledge across 1-year and 2-year tracks, with reported fees of roughly Rs 75,000 and Rs 1,25,000 respectively.",
+      "highlights": [
+        "Kankarbagh location, a distinct catchment area from the Boring Road coaching cluster",
+        "Covers Legal Reasoning, English, Aptitude and GK across 1-year and 2-year tracks",
+        "Reported fees roughly Rs 75,000 (1-year) to Rs 1,25,000 (2-year)"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -6134,6 +6328,9 @@
     },
     "coaching-prayagraj": {
       "intro": "<p>Prayagraj (formerly Allahabad) is India's second-biggest UPSC coaching hub after Delhi, built on a century-old civil-services culture that traces back to Allahabad University's reputation as the \"Oxford of the East.\" Coaching clusters almost entirely around Civil Lines, with a secondary pocket in Katra near the university and a few institutes in Tagore Town and George Town. The city mixes long-running Hindi-medium giants (Drishti IAS, Sanskriti IAS) with Delhi-origin chains that opened local branches (NEXT IAS, Vajirao & Reddy, Chanakya IAS Academy) and homegrown Prayagraj institutes (Eden IAS, Vision IAS Academy, Kernel IAS Academy, Dhyeya IAS Academy, Mission IAS Institute). Every listing below shows its verification status and locality so you can cross-check directly before enrolling.</p>"
+    },
+    "coaching-patna": {
+      "intro": "<p>Patna is Bihar's largest coaching hub for CLAT and AILET preparation, with a dense cluster of institutes concentrated around Boring Road and East Boring Canal Road, plus a smaller pocket in Kankarbagh. The market mixes long-established Patna-founded specialists (CLAT Path, Upadhyay Law Gurukul, Chanakya CLAT Classes, CLATians, Legalight, CLAT Gurukul, CLAT Focus Coaching) with national chains that run dedicated local centres (LegalEdge by Toprankers, Law Prep Tutorial, Career Launcher). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }

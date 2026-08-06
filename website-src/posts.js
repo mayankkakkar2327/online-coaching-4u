@@ -2,6 +2,105 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "ailet-2027-applications-open-nlu-delhi-update",
+title: "AILET 2027 Applications Open August 7: NLU Delhi Sets Exam for December 13",
+category: "AILET / Law",
+date: "06 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT / AILET coaching institutes" },
+excerpt: "NLU Delhi has confirmed AILET 2027 will be held on 13 December 2026, with the Admission Notice and online application forms opening on 7 August. Here's what's officially confirmed and what it means for law aspirants.",
+image: "assets/blog/ailet-2027-applications-open-nlu-delhi-update.png",
+imageAlt: "AILET 2027 application window opens NLU Delhi graphic",
+html: `
+<p><strong>Last updated: 6 August 2026.</strong></p>
+<p>National Law University, Delhi has confirmed that AILET 2027 — the All India Law Entrance Test for its five-year B.A. LL.B. (Hons.) and LL.M. programmes — will be held on Sunday, 13 December 2026, from 2 PM to 4 PM, with the Admission Notice and online application forms opening on the university's website from 7 August 2026.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per NLU Delhi's official notification dated 23 July 2026, the university will conduct AILET 2027 "at all India level" on 13 December 2026 from 2:00 PM to 4:00 PM. The same notification states that the Admission Notice and Online Application Forms will be available on <a href="https://nationallawuniversitydelhi.in/" rel="noopener" target="_blank">nationallawuniversitydelhi.in</a> starting 7 August 2026 — the day after this update. As of this writing, the university's AILET admissions page still displays "AILET 2026" branding and is expected to switch over once the new cycle's forms go live. NLU Delhi does not accept CLAT scores for its own programmes; AILET is a fully separate exam with its own application, fee and result process, run only by NLU Delhi itself.</p>
+<p>NLU Delhi's notification does not itself spell out the application fee or eligibility percentages — those appear in the full Admission Notice once published. Based on AILET's pattern in recent cycles, law-entrance portals tracking the notification report an application fee of roughly Rs 3,000 for General/OBC/EWS candidates and Rs 1,000 for SC/ST/PwD candidates, and eligibility of 45% in Class 12 for General candidates (42% OBC, 40% SC/ST/PwD), with no upper age limit. Treat these as reported figures until NLU Delhi's own Admission Notice confirms them on 7 August.</p>
+
+<h2>What this means for aspirants</h2>
+<p>If NLU Delhi is on your shortlist, 7 August is the date to actually watch, not the 23 July notification, since that's when the application form itself becomes fillable. AILET runs independently of CLAT: its own Class 12 percentage cut-offs, its own roughly 150-question paper covering English, Current Affairs & GK and Legal Aptitude/Reasoning, and its own separate registration fee — clearing CLAT gives you no automatic path into NLU Delhi, and vice versa. With the exam on 13 December, a week after CLAT 2027 on 6 December, most aspirants targeting NLU Delhi are also sitting CLAT the same admission season, so it's worth building a study schedule that covers both papers' overlapping but not identical syllabi rather than treating them as one combined prep.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[23 Jul 2026]</strong> NLU Delhi issued the official AILET 2027 notification confirming the exam date, per the university's notification PDF.</li>
+<li><strong>[7 Aug 2026]</strong> AILET 2027 Admission Notice and online application forms open on <a href="https://nationallawuniversitydelhi.in/" rel="noopener" target="_blank">nationallawuniversitydelhi.in</a>.</li>
+<li><strong>[13 Dec 2026, Sunday]</strong> AILET 2027 exam day, 2:00 PM – 4:00 PM, conducted at the all-India level by NLU Delhi.</li>
+<li><strong>[Reported, unofficial until 7 Aug]</strong> Application fee is expected around Rs 3,000 (General/OBC/EWS) and Rs 1,000 (SC/ST/PwD), per law-entrance portals tracking NLU Delhi's past fee structure.</li>
+<li><strong>Myth check:</strong> A good CLAT score does not get you into NLU Delhi — AILET is a separate exam with its own application and result, run solely by NLU Delhi, not the CLAT Consortium.</li>
+</ul>
+
+<p><em>Last updated: 6 August 2026. Sources: <a href="https://nationallawuniversitydelhi.in/notification/AILET_2027.pdf" rel="noopener" target="_blank">NLU Delhi official AILET 2027 notification (PDF)</a>, <a href="https://nludelhi.ac.in/admission/ailet/" rel="noopener" target="_blank">nludelhi.ac.in/admission/ailet</a>.</em></p>`
+},
+{
+slug: "top-10-clat-coaching-institutes-patna-2026",
+title: "Top 10 CLAT Coaching Institutes in Patna (2026)",
+category: "CLAT / Law",
+date: "06 Aug 2026",
+minutes: 12,
+cta: { href: "coaching-patna.html", text: "Browse all verified coaching institutes in Patna" },
+excerpt: "Patna is Bihar's biggest CLAT coaching market, concentrated almost entirely around Boring Road. Here's a fact-checked look at ten institutes actually training students for CLAT and AILET in the city.",
+image: "assets/blog/top-10-clat-coaching-institutes-patna-2026.png",
+imageAlt: "Top 10 CLAT coaching institutes in Patna 2026 graphic",
+faqs: [
+      { q: "Which is the best CLAT coaching institute in Patna?", a: "There's no single 'best' — it depends on budget and format. LegalEdge (Toprankers) and Law Prep Tutorial are the biggest national chains with local Patna centres; CLAT Path, Upadhyay Law Gurukul, Chanakya CLAT Classes, CLATians, Legalight, CLAT Gurukul and CLAT Focus Coaching are Patna-built options with more localised fee structures. Compare batch size, current fees and faculty directly with 2-3 shortlisted institutes before deciding." },
+      { q: "Where is CLAT coaching concentrated in Patna?", a: "Boring Road and East Boring Canal Road form by far the largest coaching cluster, hosting most of the institutes on this list. S.P. Verma Road and Kankarbagh host a smaller number of additional centres." },
+      { q: "What is the average fee for CLAT coaching in Patna?", a: "Reported fees for a 1-year classroom CLAT course typically range from roughly Rs 65,000 at the more affordable end to Rs 1,50,000-plus for 2-year foundation batches at the higher end, depending on the institute and course format." },
+      { q: "Do Patna institutes also coach for AILET?", a: "Some do. LegalEdge and Law Prep Tutorial explicitly run combined CLAT/AILET batches, since NLU Delhi's AILET is a separate exam many CLAT aspirants also sit in the same admission season. Confirm AILET-specific coverage directly with the institute before enrolling if that's a priority." },
+      { q: "Does Online Coaching 4u accept payment for institute rankings?", a: "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform." }
+    ],
+html: `
+<p>Patna has grown into Bihar's primary CLAT coaching market over the past decade, drawing aspirants from across the state to a coaching cluster concentrated almost entirely along Boring Road and East Boring Canal Road. The city mixes long-running Patna-founded institutes with national CLAT-coaching chains that have opened dedicated local centres, giving aspirants a genuine choice between big-chain infrastructure and smaller, closely mentored batches. The list below sticks to institutes with a checkable local presence: a real address, and a track record referenced across more than one independent source, as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Patna, Bihar</p>
+<p><strong>Exam this list is built for:</strong> Common Law Admission Test (CLAT); several institutes below also coach for AILET (NLU Delhi's separate law entrance exam)</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Patna-built specialists</p>
+<p><strong>Why Patna:</strong> Bihar's largest CLAT coaching hub, with coaching concentrated along Boring Road and East Boring Canal Road</p>
+<p><strong>CLAT 2027:</strong> Registration open 3 Aug – 31 Oct 2026, exam on 6 December 2026, per the <a href="https://consortiumofnlus.ac.in" rel="noopener" target="_blank">Consortium of NLUs</a></p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CLAT-coaching presence in Patna: a real local address, a track record we could find independent confirmation of, and coverage across the city's main Boring Road coaching cluster rather than a single obscure branch. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. LegalEdge by Toprankers</h3>
+<p>LegalEdge is the CLAT-coaching brand of Toprankers, a test-prep company founded in 2016, and its Patna centre at Dak Bungalow Crossing on Fraser Road runs Achievers (Class 11), Fighters (Class 12) and Dropper batches in offline and hybrid formats. The centre carries a 4.9-star Google rating from 109 Patna student reviews, and LegalEdge cites AIR 1, 2 and 3 in CLAT 2026 across its national network.</p>
+
+<h3>2. Law Prep Tutorial</h3>
+<p>Law Prep Tutorial's Patna centre at AG Tower, East Boring Canal Road, is part of a national chain that coaching directories describe as among India's oldest and largest CLAT-focused institutes. It runs separate CLAT/AILET Booster, Finisher and Foundation batches, with reported fees ranging from roughly Rs 58,000 for the short Booster course to Rs 2,25,000 for the multi-year Foundation track.</p>
+
+<h3>3. CLAT Path</h3>
+<p>CLAT Path is a Patna-founded institute on East Boring Canal Road led by director Chandan Jha, credited by coaching directories with over a decade of legal-studies teaching experience, alongside dedicated maths, reasoning and current-affairs faculty. It offers both online and offline Target (1-year) and Foundation (2-year) batches, with reported fees from around Rs 40,000 to Rs 1,50,000 depending on format.</p>
+
+<h3>4. Career Launcher</h3>
+<p>Career Launcher's Patna centre on S.P. Verma Road is part of the national CL Educate network and runs dedicated Legal Studies Test (LST) batches for CLAT preparation. Reported course fees range from roughly Rs 90,000 for the standard LST Plus batch to Rs 1,40,000 for the longer LST Span format.</p>
+
+<h3>5. Upadhyay Law Gurukul</h3>
+<p>Upadhyay Law Gurukul runs a Boring Canal Road centre offering a 1-year Target course and an 18-month Foundation course, with reported fees around Rs 95,000 and Rs 1,10,000 respectively. It's frequently cited alongside CLAT Path and Law Prep Tutorial as one of the established names in Patna's Boring Road coaching cluster.</p>
+
+<h3>6. Chanakya CLAT Classes</h3>
+<p>Chanakya CLAT Classes operates from Kumar Tower on Boring Road, offering 1-year and 2-year CLAT preparation tracks with reported fees of roughly Rs 65,000 and Rs 1,11,000 respectively. Coaching directories cite its structured study material and modern classroom teaching methods as its main draw.</p>
+
+<h3>7. CLATians (IEE CLAT Coaching)</h3>
+<p>CLATians, also known locally as IEE CLAT Coaching, operates from Gangotri Palace on Boring Road with Success (1-year) and Vital (2-year) course tracks, plus dedicated backup classes for doubt clearance. Reported fees run roughly Rs 75,000 for Success to Rs 1,20,000 for Vital.</p>
+
+<h3>8. Legalight</h3>
+<p>Legalight's Boring Road centre, at DPL House on Dadijee Lane, offers both offline and online crash-course formats alongside mock tests and personalised counselling. Reported fees run around Rs 35,000 for the online crash course to Rs 50,000 for the offline version, making it one of the more accessible short-format options on this list.</p>
+
+<h3>9. CLAT Gurukul</h3>
+<p>CLAT Gurukul positions itself around small batch sizes for closer individual attention, running 1-year and 2-year CLAT tracks from its Sahdeo Mahto Marg centre, with reported fees of roughly Rs 65,000 and Rs 85,000. It also includes unlimited online mock tests as part of its course package.</p>
+
+<h3>10. CLAT Focus Coaching</h3>
+<p>CLAT Focus Coaching runs from Kankarbagh, a residential locality on the opposite side of the city from Patna's Boring Road cluster, giving it a distinct catchment among students based in that part of Patna. It covers Legal Reasoning, English, Aptitude and General Knowledge across 1-year and 2-year tracks, with reported fees of roughly Rs 75,000 and Rs 1,25,000.</p>
+
+<h2>How these institutes compare</h2>
+<p>LegalEdge, Law Prep Tutorial and Career Launcher bring national-chain infrastructure — larger mock-test pools, multi-city faculty resources and long track records — which matters if you want a statistically meaningful percentile benchmark. The Patna-built specialists — CLAT Path, Upadhyay Law Gurukul, Chanakya CLAT Classes, CLATians, Legalight, CLAT Gurukul and CLAT Focus Coaching — generally run smaller batches at more accessible fee points, which suits students who want closer individual mentoring or a tighter budget. Boring Road and East Boring Canal Road host the bulk of these institutes within a few minutes' walk of each other, so proximity to home is worth weighing alongside brand name and fee when you shortlist.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically who teaches your batch, how many full-length mocks are included, and whether AILET coverage is bundled in if that's a priority for you — these questions cut through marketing copy faster than any ranking can. Compare full details and additional Patna institutes on our <a href="coaching-patna.html">Patna coaching directory</a>.</p>`
+},
+{
 slug: "upsc-cse-mains-2026-admit-card-schedule-update",
 title: "UPSC CSE 2026 Mains: 13,343 Candidates Shortlisted, Exam Runs 21-30 August",
 category: "IAS / UPSC",
