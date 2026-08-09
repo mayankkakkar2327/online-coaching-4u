@@ -29,7 +29,8 @@
       "lucknow",
       "prayagraj",
       "patna",
-      "indore"
+      "indore",
+      "ahmedabad"
     ],
     "certification": [
       "online"
@@ -6494,6 +6495,207 @@
       ],
       "website": "https://bestsolution.ac.in/",
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-ahmedabad",
+      "type": "coaching",
+      "name": "Aakash Institute (Ahmedabad)",
+      "city": "ahmedabad",
+      "locality": "Ambawadi",
+      "address": "1st Floor, Shivalik Ishaan Tower, near Sheth C.N. Vidyalaya, Ambawadi, Ahmedabad, Gujarat 380015",
+      "estd": 1988,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Aakash Educational Services, founded in 1988 by J.C. Chaudhry, runs multiple Ahmedabad centres including its Ambawadi campus near Sheth C.N. Vidyalaya, a South Bopal branch, and an SG Highway/Thaltej centre. As one of India's largest NEET-focused national chains, it suits students who want a nationally benchmarked test series and structured study material delivered across several city locations rather than a single-branch local institute.",
+      "highlights": [
+        "Founded 1988 by J.C. Chaudhry; one of India's largest NEET-focused national chains",
+        "Multiple Ahmedabad centres: Ambawadi, South Bopal, SG Highway/Thaltej",
+        "Runs dedicated NEET medical-wing batches alongside JEE and Foundation courses"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-ahmedabad",
+      "type": "coaching",
+      "name": "ALLEN Career Institute (Ahmedabad)",
+      "city": "ahmedabad",
+      "locality": "Chandkheda",
+      "address": "Chanakya Plaza, 3rd Floor, New CG Road, near Swagat Bungalow, Chandkheda, Ahmedabad, Gujarat",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "ALLEN Career Institute, the Kota-founded national chain known for NEET and IIT-JEE coaching, runs its Chandkheda centre on New CG Road near Swagat Bungalow, alongside a South Bopal campus. The institute organises its programmes into separate Pre-Medical (NEET) and JEE divisions, and its national faculty panel and test-series infrastructure are the main draw for students who want a large, well-resourced chain over a boutique local institute.",
+      "highlights": [
+        "Kota-founded national chain with dedicated Pre-Medical (NEET) and JEE divisions",
+        "Ahmedabad centres in Chandkheda and South Bopal",
+        "National-scale test series and study material shared across ALLEN's pan-India network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-ahmedabad",
+      "type": "coaching",
+      "name": "Resonance (Ahmedabad)",
+      "city": "ahmedabad",
+      "locality": "Vastrapur",
+      "address": "2nd Floor, C-Block, Galaxy Bazaar, off Drive-In Road, near Himalaya Mall, Vastrapur, Ahmedabad, Gujarat 380051",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Resonance, founded in Kota and one of India's longer-running JEE/NEET chains, runs its Vastrapur campus at Galaxy Bazaar off Drive-In Road near Himalaya Mall, plus a second centre in Gandhinagar's Info City area that also serves western Ahmedabad. It follows Resonance's national course structure for Pre-Medical (NEET/AIIMS) alongside JEE and pre-foundation batches for Classes 8-10.",
+      "highlights": [
+        "Kota-founded national chain running dedicated Pre-Medical (NEET) batches",
+        "Vastrapur campus near Himalaya Mall, plus a Gandhinagar Info City centre",
+        "Offers hybrid online-plus-offline formats alongside classroom batches"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "narayana-ahmedabad",
+      "type": "coaching",
+      "name": "Narayana (Ahmedabad)",
+      "city": "ahmedabad",
+      "locality": "Bodakdev",
+      "address": "Salister, Rajpath Rangoli Road, behind Rajpath Club, Bodakdev, Ahmedabad, Gujarat 380054",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Narayana, part of one of Asia's largest school-and-coaching groups with roots going back to 1979, runs its Ahmedabad centre in Bodakdev on Rajpath Rangoli Road behind Rajpath Club. The centre follows Narayana's standard national NEET and IIT-JEE curriculum rather than a city-specific programme, and sits in the Bodakdev/Sindhu Bhavan Marg belt alongside several other coaching chains.",
+      "highlights": [
+        "Part of the national Narayana Group, coaching for NEET and JEE since 1979",
+        "Bodakdev centre on Rajpath Rangoli Road, behind Rajpath Club",
+        "Follows Narayana's standard pan-India curriculum and test series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "unacademy-centre-ahmedabad",
+      "type": "coaching",
+      "name": "Unacademy Centre (Ahmedabad)",
+      "city": "ahmedabad",
+      "locality": "Bodakdev",
+      "address": "1st and 2nd Floor, Zion Z1, Sindhu Bhavan Marg, near Avalon Hotel, Bodakdev, Ahmedabad, Gujarat 380054",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Unacademy's offline Ahmedabad centre in Bodakdev's Zion Z1 building on Sindhu Bhavan Marg extends the online platform's NEET UG faculty and test series into a physical classroom format, part of Unacademy's national push into hybrid offline centres. It suits students who want Unacademy's app-based content and educators alongside in-person classroom accountability rather than a fully online-only track.",
+      "highlights": [
+        "Offline extension of Unacademy's national online NEET UG platform",
+        "Bodakdev centre at Zion Z1 on Sindhu Bhavan Marg",
+        "Hybrid format: app-based content plus in-person classroom sessions"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "om-coaching-ahmedabad",
+      "type": "coaching",
+      "name": "OM Coaching",
+      "city": "ahmedabad",
+      "locality": "Nikol",
+      "address": "414, Silver Square Complex, near Deepak School, near Gangotri Circle Road, Sanidhya Park, Nikol, Ahmedabad, Gujarat 380049",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "OM Coaching is a Nikol-based local institute that carries the highest Google-linked review count among Ahmedabad-specific NEET listings tracked by Collegedunia, with over 400 reviews. It runs NEET and JEE batches for Class 11-12 students out of its Silver Square Complex premises near Gangotri Circle Road, serving the eastern Ahmedabad localities around Nikol and Naroda that sit outside the city's western coaching belt.",
+      "highlights": [
+        "Nikol-based local institute with the highest review count among Ahmedabad-specific NEET listings on Collegedunia",
+        "Serves eastern Ahmedabad (Nikol, Naroda), outside the western Bodakdev/Vastrapur coaching belt",
+        "Runs dedicated NEET and JEE batches for Class 11-12"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "masters60-ahmedabad",
+      "type": "coaching",
+      "name": "Masters60",
+      "city": "ahmedabad",
+      "locality": "Vastrapur",
+      "address": "308, Shivalik Highstreet, near Mansi Cross Road, near ITC Narmada, IIM, Vastrapur, Ahmedabad, Gujarat 380015",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Masters60, on Vastrapur's Shivalik Highstreet near the IIM Ahmedabad campus and ITC Narmada, is a locally built institute running two-year NEET and JEE batches from Class 11 alongside board-exam support. It sits in the dense Vastrapur coaching cluster and has built a strong local review base tracked on Collegedunia.",
+      "highlights": [
+        "Vastrapur institute near IIM Ahmedabad, running 2-year NEET and JEE batches",
+        "Combines entrance-exam coaching with board-exam support",
+        "Part of Vastrapur's dense multi-institute coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "keystone-universe-of-education-ahmedabad",
+      "type": "coaching",
+      "name": "Keystone Universe of Education",
+      "city": "ahmedabad",
+      "locality": "Vastrapur Gam",
+      "address": "4th Floor, F-1, Sigma Excellence, Nehru Park Society, opposite Hanuman Temple near the lake, Vastrapur Gam, Ahmedabad, Gujarat",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Keystone Universe of Education, based in Vastrapur Gam near the old Hanuman Temple by the lake, is a locally built NEET and JEE institute with one of the larger independent review bases among Ahmedabad's non-chain coaching centres. It runs two-year Class 11 batches alongside shorter-format options for repeaters.",
+      "highlights": [
+        "Vastrapur Gam institute with a large independent Google review base",
+        "Runs 2-year NEET/JEE batches from Class 11, plus repeater-focused formats",
+        "Locally built, not part of a national coaching chain"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "cube-tutorials-ahmedabad",
+      "type": "coaching",
+      "name": "Cube Tutorials",
+      "city": "ahmedabad",
+      "locality": "South Bopal",
+      "address": "202, Sun South Trade, opposite Bopal Police Station, Chittavan, South Bopal, Ahmedabad, Gujarat",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Cube Tutorials, in South Bopal opposite the Bopal police station, is a locally built institute covering NEET and JEE for Class 11-12 students, and carries a strong independent review base for a single-branch institute. It represents South Bopal's growing coaching presence alongside larger chains like ALLEN and Aakash that also run centres in the same neighbourhood.",
+      "highlights": [
+        "South Bopal institute with a strong independent Google review base for a single branch",
+        "Runs NEET and JEE batches for Class 11-12",
+        "Sits in South Bopal's growing coaching cluster alongside national chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "brainquest-academy-ahmedabad",
+      "type": "coaching",
+      "name": "BrainQuest Academy",
+      "city": "ahmedabad",
+      "locality": "Satellite",
+      "address": "F-1110 & 1111, Titanium City Centre, 100 Feet Anand Nagar Road, Satellite, Ahmedabad, Gujarat 380015",
+      "estd": 2006,
+      "exams": [
+        "neet"
+      ],
+      "verified": false,
+      "about": "Brainquest Science Academy, founded in 2006 and based in Satellite near Shyamal with a second centre at Titanium City Centre, is one of the few Ahmedabad NEET institutes to explicitly offer both English- and Gujarati-medium batches, with doctor faculty teaching Biology. It focuses specifically on NEET preparation for Class 11-12 rather than splitting attention across JEE, positioning itself around personalised, smaller-batch coaching.",
+      "highlights": [
+        "Founded 2006; one of the few Ahmedabad institutes offering both English and Gujarati-medium NEET batches",
+        "Doctor faculty teaching Biology, with a NEET-only (not JEE) focus",
+        "Two Satellite-area centres: near Shyamal and at Titanium City Centre"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -6575,6 +6777,9 @@
     },
     "coaching-indore": {
       "intro": "<p>Indore is Madhya Pradesh's largest JEE coaching hub, drawing aspirants from across the state to a coaching cluster concentrated in three pockets: Geeta Bhawan Square and the AB Road corridor, South Tukoganj near the High Court, and Vijay Nagar further out on Ring Road. The market mixes Kota-founded national chains (Aakash, ALLEN, Resonance, Narayana, FIITJEE, PACE IIT & Medical) with Indore-built specialists (CatalyseR, IIT-PULSE, MGCI, Best Solution Coaching). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-ahmedabad": {
+      "intro": "<p>Ahmedabad is Gujarat's largest NEET coaching hub, drawing aspirants from across the state to a market split mainly between the western coaching belt — Bodakdev, Vastrapur and Satellite, all linked by Sindhu Bhavan Marg and Drive-In Road — and a growing South Bopal cluster further along SG Highway, with a smaller pocket of local institutes serving eastern localities like Nikol. The market mixes Kota- and Delhi-origin national chains (Aakash, ALLEN, Resonance, Narayana, Unacademy) with Ahmedabad-built specialists (OM Coaching, Masters60, Keystone Universe of Education, Cube Tutorials, Brainquest Science Academy). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
