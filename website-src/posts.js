@@ -2,6 +2,107 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "csab-special-2026-round1-result-round2-schedule-update",
+title: "CSAB Special & DASA 2026: Round 1 Result Declared, Round 2 Due August 12",
+category: "IIT JEE",
+date: "07 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=jee", text: "Compare verified JEE coaching institutes" },
+excerpt: "CSAB declared the DASA & CSAB Special Counselling 2026 Round-I seat allotment result on 6 August, with Round-II results due 12 August. Here's the confirmed schedule for NIT+ system seats left vacant after JoSAA.",
+image: "assets/blog/csab-special-2026-round1-result-round2-update.png",
+imageAlt: "CSAB Special and DASA 2026 Round 1 result update graphic",
+html: `
+<p><strong>Last updated: 7 August 2026.</strong></p>
+<p>The Central Seat Allocation Board declared the DASA and CSAB Special Counselling 2026 Round-I seat allotment result on Thursday, 6 August at 5 PM, and Round-II results are scheduled for Wednesday, 12 August, also at 5 PM, per the official schedule published on <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">csab.nic.in</a>.</p>
+
+<h2>What's actually confirmed</h2>
+<p>CSAB's own DASA & CSAB-Special 2026 page lists the Round-I result under "Latest News" as declared, matching the official Schedule for DASA (UG) and CSAB Special Rounds 2026 Activities. That schedule shows registration, document upload and fee payment closed on 3 August (10 AM), choice filling and locking closed on 5 August (2 PM), and the Round-I result followed the next day, 6 August (5 PM). Candidates allotted a seat in Round I now have a window from 6 August (5 PM) to 10 August (5 PM) to exercise a willingness option — Freeze, Slide, Float, Surrender, Withdraw or Exit — and, for CSAB Special candidates specifically, to complete online reporting: paying Institute Admission Fee-II and uploading documents. Round II results follow on 12 August (5 PM), with a further reporting window running to 14 August (5 PM). This year's DASA/CSAB-Special cycle runs to just two rounds, not the multi-round process seen in some past years.</p>
+<p>Physical reporting at allotted institutes for candidates who confirm a seat through DASA or CSAB Special is tentatively scheduled for 13-18 August 2026, though CSAB's schedule flags this as provisional and directs candidates to each institute's own website for the confirmed reporting date and fee.</p>
+
+<h2>What this means for students</h2>
+<p>If you were allotted a seat in Round I, the immediate task is choosing a willingness option before the 10 August, 5 PM deadline — Freeze locks your seat, Float or Slide keeps you in the running for Round II, and missing the deadline risks losing the allotment entirely. CSAB Special candidates additionally need to clear online reporting (fee payment and document upload) inside that same window; DASA candidates' document verification, by contrast, happens before allotment rather than after. If Round I didn't work out, Round II on 12 August is your remaining shot this cycle, since only two rounds are planned for 2026. Either way, treat this as a fully separate process from JoSAA: CSAB's own guidance is explicit that registration, choices, seat allotment and fee payment do not carry over from JoSAA, so a JoSAA login or seat has no bearing on your DASA/CSAB-Special status.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[6 Aug 2026, 5 PM]</strong> DASA & CSAB Special Round-I seat allotment result declared, per <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">csab.nic.in</a>.</li>
+<li><strong>[6-10 Aug 2026, till 5 PM]</strong> Round-I online reporting window: willingness exercise for all candidates, plus IAF-II payment and document upload for CSAB Special candidates specifically.</li>
+<li><strong>[12 Aug 2026, 5 PM]</strong> Round-II seat allotment result is due, per CSAB's official schedule.</li>
+<li><strong>[Tentative, 13-18 Aug 2026]</strong> Physical reporting at allotted institutes for confirmed DASA/CSAB Special candidates — CSAB directs candidates to check each institute's own site for the confirmed date.</li>
+<li><strong>Myth check:</strong> A JoSAA seat or login does not carry over to DASA/CSAB Special — registration, choice filling, seat allotment and fee payment are entirely separate processes, per CSAB's own guidance.</li>
+</ul>
+
+<p><em>Last updated: 7 August 2026. Sources: <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">csab.nic.in/csab-special</a>, <a href="https://cdnbbsr.s3waas.gov.in/s305a70454516ecd9194c293b0e415777f/uploads/2026/06/20260603805734243.pdf" rel="noopener" target="_blank">official DASA/CSAB Special 2026 schedule (PDF)</a>.</em></p>`
+},
+
+{
+slug: "top-10-jee-coaching-institutes-indore-2026",
+title: "Top 10 JEE Coaching Institutes in Indore (2026)",
+category: "IIT JEE",
+date: "07 Aug 2026",
+minutes: 12,
+cta: { href: "coaching-indore.html", text: "Browse all verified coaching institutes in Indore" },
+excerpt: "Indore is Madhya Pradesh's biggest JEE coaching market, spread across Geeta Bhawan, South Tukoganj and Vijay Nagar. Here's a fact-checked look at ten institutes actually training students for JEE Main and Advanced in the city.",
+image: "assets/blog/top-10-jee-coaching-institutes-indore-2026.png",
+imageAlt: "Top 10 JEE coaching institutes in Indore 2026 graphic",
+faqs: [
+      { q: "Which is the best JEE coaching institute in Indore?", a: "There's no single 'best' — it depends on budget, batch size and format. Aakash, ALLEN, Resonance, Narayana, FIITJEE and PACE IIT & Medical are the national chains with dedicated Indore centres; CatalyseR, IIT-PULSE, MGCI and Best Solution Coaching are Indore-built institutes with smaller batches and more localised fee structures. Compare current fees, faculty and recent results directly with 2-3 shortlisted institutes before deciding." },
+      { q: "Where is JEE coaching concentrated in Indore?", a: "Three pockets host most of Indore's JEE coaching: Geeta Bhawan Square and the AB Road corridor, South Tukoganj near the High Court, and Vijay Nagar further out on Ring Road. Most institutes on this list sit in one of these three clusters." },
+      { q: "What is the average fee for JEE coaching in Indore?", a: "Reported classroom fees for a 1-year JEE course typically range from roughly Rs 70,000 at the more affordable end to Rs 1,25,000-plus for national-chain 2-year tracks, depending on the institute and course format. Always confirm current fees directly with the institute." },
+      { q: "Do Indore institutes also coach for NEET?", a: "Most of the national chains on this list — Aakash, ALLEN, Resonance, Narayana and PACE IIT & Medical — run combined JEE/NEET centres. FIITJEE Indore Palasia and CatalyseR are JEE-focused only. Confirm which exam a specific batch is built for before enrolling." },
+      { q: "Does Online Coaching 4u accept payment for institute rankings?", a: "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform." }
+    ],
+html: `
+<p>Indore has grown into Madhya Pradesh's largest JEE coaching market, drawing aspirants from across the state to three main clusters: Geeta Bhawan Square and the AB Road corridor, South Tukoganj near the High Court, and Vijay Nagar further out along Ring Road. The city mixes Kota-founded national chains that have opened dedicated Indore centres with locally built specialists that compete on smaller batches and closer mentoring. The list below sticks to institutes with a checkable local presence: a real address, and a track record referenced across more than one independent source, as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Indore, Madhya Pradesh</p>
+<p><strong>Exam this list is built for:</strong> JEE Main and JEE Advanced; several institutes below also coach for NEET</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Indore-built specialists</p>
+<p><strong>Why Indore:</strong> Madhya Pradesh's largest JEE/NEET coaching hub, concentrated around Geeta Bhawan Square, South Tukoganj and Vijay Nagar</p>
+<p><strong>CSAB Special/DASA 2026:</strong> Round-I result declared 6 August, Round-II due 12 August, filling seats left vacant after JoSAA — see our <a href="csab-special-2026-round1-result-round2-schedule-update.html">CSAB Special counselling update</a></p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable JEE-coaching presence in Indore: a real local address, a track record we could find independent confirmation of, and coverage across the city's three main coaching clusters rather than a single obscure branch. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Aakash Institute</h3>
+<p>Aakash runs four centres across Indore — Geeta Bhawan (AB Road), Vijay Nagar (Mangal City Mall), Ring Road (Sector C) and Mhow — teaching JEE Main, JEE Advanced, NEET and Foundation batches across offline, online and hybrid formats. Ratings are mixed: 3.9 stars from 544 Collegedunia-linked reviews and 4.2 from 157 Justdial reviews, with students praising faculty and material but flagging high fees and score-based batch segregation.</p>
+
+<h3>2. ALLEN Career Institute</h3>
+<p>ALLEN's South Tukoganj campus, near the High Court and railway station, serves as its Indore head office, with further centres at Geeta Bhawan/AB Road and Mhow. The South Tukoganj campus carries a 4.1-star Google rating from 1,052 reviews, among the largest review bases of any institute on this list, with reviewers citing strong batch mentoring alongside occasional complaints about pacing and result turnaround.</p>
+
+<h3>3. Resonance</h3>
+<p>Resonance, another Kota-founded chain, runs two Indore campuses — South Tukoganj and Annapurna — under its national VIKAAS (2-year), VISHWAAS (1-year, Class 12) and VIJAY (1-year, dropper) course structure, plus its own ResoNET scholarship test offering fee waivers of up to 100% for high scorers. Reported classroom fees run roughly Rs 90,000-1,25,000 a year, with lower-priced online options also available.</p>
+
+<h3>4. PACE IIT & Medical</h3>
+<p>PACE runs a single South Tukoganj centre, part of its 37-centre national network, covering JEE Main, JEE Advanced and NEET. The institute reports Indore students secured AIR 47, AIR 36 and AIR 39 in JEE Advanced 2026, with over 100 PACE students qualifying nationally — a strong claimed result set worth cross-checking against the institute's published rank list before enrolling.</p>
+
+<h3>5. FIITJEE Indore Palasia Centre</h3>
+<p>FIITJEE's Palasia Centre, on AB Road at Palasia Square, is the Indore arm of the national FIITJEE chain and focuses specifically on JEE Main and Advanced rather than splitting attention across NEET. It runs FIITJEE's standard national study material and structured testing cycle locally, with batches for Class 11, 12 and droppers.</p>
+
+<h3>6. Narayana Coaching Centre</h3>
+<p>Narayana's Indore centre on Scheme No. 54 is a local branch of the national Narayana Group, which has coached for JEE and NEET across India since 1979. The Indore centre runs JEE, NEET and a school Foundation track, following Narayana's standard national curriculum rather than an Indore-specific programme.</p>
+
+<h3>7. CatalyseR</h3>
+<p>CatalyseR is an Indore-founded JEE specialist that grew from a small independent batch into its current Geeta Bhawan Square campus; sources differ on the exact founding year (variously cited as 2005, 2008 or 2010), so treat any specific "since" date as approximate. It focuses on JEE Main, JEE Advanced, NTSE, KVPY and olympiad coaching, and cites multiple JEE Indore city toppers and NTSE scholars among past students — self-reported figures worth verifying independently.</p>
+
+<h3>8. IIT-PULSE Institute</h3>
+<p>IIT-PULSE, also at Geeta Bhawan Square, carries a 4.9-star Google rating from roughly 849 reviews — the highest of any institute on this list — for its JEE, NEET and AIIMS-track coaching. Its programme centres on an All India Test Series (AITS), a Grand Masters Package for advanced students, and daily rapid tests with dedicated doubt-clearing sessions.</p>
+
+<h3>9. MGCI (MG Coaching Institute)</h3>
+<p>MGCI has run its Geeta Bhawan campus since 2004, with a second branch at Prestige Tower, Navlakha, and carries a 4.8 rating from 381 reviews on Justdial. It teaches JEE Main, JEE Advanced, NEET and CUET, explicitly positioning itself around balancing Class 12 board preparation alongside entrance-exam coaching, with reported JEE classroom fees of roughly Rs 70,000-1,20,000.</p>
+
+<h3>10. Best Solution Coaching</h3>
+<p>Best Solution Coaching runs a Vijay Nagar centre near Sayaji Square plus a second branch on Geeta Bhawan Road, covering JEE, NEET, NTSE, KVPY and olympiad-level prep alongside CBSE/ICSE/state-board school coaching. It carries 339 ratings on Justdial and is cited at a 4.4 rating on aggregator listings, positioning itself around personal attention in smaller batches rather than a large-chain format.</p>
+
+<h2>How these institutes compare</h2>
+<p>Aakash, ALLEN, Resonance, Narayana, FIITJEE and PACE IIT & Medical bring national-chain infrastructure — larger test-series pools, multi-city faculty resources and long track records — which matters if you want a statistically meaningful percentile benchmark. The Indore-built specialists — CatalyseR, IIT-PULSE, MGCI and Best Solution Coaching — generally run smaller batches with more accessible fee points and, in IIT-PULSE and MGCI's case, notably strong local review ratings. Geeta Bhawan Square hosts the densest single cluster (Aakash, CatalyseR, IIT-PULSE and MGCI all sit within a short distance of each other), while South Tukoganj (ALLEN, Resonance, PACE, FIITJEE) and Vijay Nagar (Aakash, Best Solution) form the other two main pockets.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically who teaches your batch, how many full-length JEE Advanced-pattern mocks are included, and whether NEET coverage is bundled in if that matters to you — these questions cut through marketing copy faster than any ranking can. Compare full details and additional Indore institutes on our <a href="coaching-indore.html">Indore coaching directory</a>.</p>`
+},
+
+{
 slug: "ailet-2027-applications-open-nlu-delhi-update",
 title: "AILET 2027 Applications Open August 7: NLU Delhi Sets Exam for December 13",
 category: "AILET / Law",

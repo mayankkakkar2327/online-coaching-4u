@@ -28,7 +28,8 @@
       "kolkata",
       "lucknow",
       "prayagraj",
-      "patna"
+      "patna",
+      "indore"
     ],
     "certification": [
       "online"
@@ -6253,6 +6254,246 @@
         "Reported fees roughly Rs 75,000 (1-year) to Rs 1,25,000 (2-year)"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-indore",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "indore",
+      "locality": "Vijay Nagar",
+      "address": "Aakash Institute, Mangal City Mall, Vijay Nagar, Indore, Madhya Pradesh 452010 (additional centres at Geeta Bhawan Square/AB Road, Ring Road Sector-C and Mhow)",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Aakash Institute is one of India's largest national coaching chains, part of the Aakash Educational Services group, and runs four centres across Indore covering Geeta Bhawan (AB Road), Vijay Nagar (Mangal City Mall), Ring Road (Sector C) and Mhow. Its Indore centres teach JEE Main, JEE Advanced, NEET and Foundation batches across offline, online and hybrid formats. Ratings are mixed across aggregators: 3.9 stars from 544 Google-linked reviews on Collegedunia and 4.2 from 157 reviews on Justdial, with reviewers citing strong faculty and study material alongside criticism of high fees and batch segregation by score.",
+      "highlights": [
+        "Four Indore centres — Geeta Bhawan, Vijay Nagar, Ring Road and Mhow — under one national chain",
+        "Covers JEE Main, JEE Advanced, NEET and Foundation across offline, online and hybrid formats",
+        "3.9-star Collegedunia rating from 544 reviews; 4.2 stars from 157 Justdial reviews"
+      ],
+      "website": "https://www.aakash.ac.in/indore-city",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "allen-career-institute-indore",
+      "type": "coaching",
+      "name": "ALLEN Career Institute",
+      "city": "indore",
+      "locality": "South Tukoganj",
+      "address": "South Tukoganj Campus (H.O.), Plot No. 2, Nath Mandir Road, opposite Bhoraskar Hospital, behind High Court, South Tukoganj, Indore, Madhya Pradesh 452001 (additional centres at Geeta Bhawan/AB Road and Mhow)",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "ALLEN Career Institute, the Kota-founded national chain, runs its South Tukoganj campus as its Indore head office, close to the railway station and bus stand, with additional centres at Geeta Bhawan/AB Road and Mhow. The South Tukoganj campus carries a 4.1-star Google rating from 1,052 reviews, with students crediting batch mentors and experienced faculty, though some reviews flag uneven syllabus pacing and slower test-result turnaround compared to other Indore institutes. ALLEN's centres teach JEE Main, JEE Advanced and NEET across separate score-based batches.",
+      "highlights": [
+        "South Tukoganj campus is ALLEN's Indore head office, with further centres at Geeta Bhawan and Mhow",
+        "4.1-star Google rating from 1,052 reviews at the South Tukoganj campus",
+        "Separate JEE and NEET batches segmented by student scoring level"
+      ],
+      "website": "https://www.allen.ac.in/indore/",
+      "mode": "offline"
+    },
+    {
+      "slug": "fiitjee-indore-palasia",
+      "type": "coaching",
+      "name": "FIITJEE Indore Palasia Centre",
+      "city": "indore",
+      "locality": "Palasia",
+      "address": "20/2, South Tukoganj, Balaji House, opposite Sanghi Motors, Palasia Square, AB Road, Indore, Madhya Pradesh 452001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "FIITJEE's Palasia Centre is the Indore arm of the national FIITJEE chain, positioned at Palasia Square on AB Road, and focuses specifically on JEE Main and JEE Advanced preparation rather than splitting faculty attention across NEET. Coaching directories describe its programme as built around FIITJEE's standard national study material and structured classroom testing cycle, with batches for Class 11, 12 and droppers.",
+      "highlights": [
+        "Indore centre of the national FIITJEE chain, located at Palasia Square on AB Road",
+        "JEE-only focus (Main and Advanced), not split across NEET",
+        "Runs FIITJEE's standard national study material and testing cycle locally"
+      ],
+      "website": "https://www.fiitjeeindore.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "pace-iit-medical-indore",
+      "type": "coaching",
+      "name": "PACE IIT & Medical",
+      "city": "indore",
+      "locality": "South Tukoganj",
+      "address": "South Tukoganj, Indore, Madhya Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "PACE IIT & Medical runs a single South Tukoganj centre in Indore as part of its 37-centre national network, teaching JEE Main, JEE Advanced and NEET. The institute reports that its Indore students secured AIR 47, AIR 36 and AIR 39 in JEE Advanced 2026, with more than 100 PACE students qualifying JEE Advanced 2026 nationally — a results claim worth verifying against the institute's published rank list before enrolling, as with any coaching institute's self-reported numbers.",
+      "highlights": [
+        "Single South Tukoganj centre, part of PACE's 37-centre national network",
+        "Reports AIR 47, AIR 36 and AIR 39 among Indore students in JEE Advanced 2026",
+        "Covers both JEE (Main + Advanced) and NEET under one roof"
+      ],
+      "website": "https://www.paceiitmedical.com/",
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-indore",
+      "type": "coaching",
+      "name": "Resonance",
+      "city": "indore",
+      "locality": "South Tukoganj",
+      "address": "South Tukoganj, Indore, Madhya Pradesh (second campus: Annapurna Campus, Indore)",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Resonance, the Kota-founded national chain, runs two Indore campuses — South Tukoganj and Annapurna — teaching JEE Main, JEE Advanced and NEET. Its course structure follows Resonance's national naming convention: VIKAAS (2-year track from Class 11), VISHWAAS (1-year, Class 12) and VIJAY (1-year, for repeaters), alongside its own ResoNET scholarship entrance test offering fee waivers of up to 100% for high scorers. Reported classroom fees for JEE range roughly Rs 90,000-1,25,000 a year, with online options priced lower.",
+      "highlights": [
+        "Two Indore campuses — South Tukoganj and Annapurna — under the national Resonance chain",
+        "VIKAAS/VISHWAAS/VIJAY course tracks plus ResoNET scholarship test (up to 100% fee waiver)",
+        "Teaches both JEE (Main + Advanced) and NEET"
+      ],
+      "website": "https://resonanceindore.com/",
+      "mode": "hybrid"
+    },
+    {
+      "slug": "narayana-indore",
+      "type": "coaching",
+      "name": "Narayana Coaching Centre",
+      "city": "indore",
+      "locality": "Scheme No. 54",
+      "address": "Scheme No. 54, Indore, Madhya Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Narayana's Indore centre, on Scheme No. 54, is a local branch of the national Narayana Group, which has run IIT-JEE and NEET coaching across India since 1979. The Indore centre offers JEE and NEET batches alongside a school Foundation track for younger students, following Narayana's standard national curriculum and testing pattern rather than an Indore-specific programme.",
+      "highlights": [
+        "Indore branch of the national Narayana Group (coaching nationally since 1979)",
+        "Covers JEE, NEET and a school Foundation track under one centre",
+        "Follows Narayana's standard national curriculum and test cycle"
+      ],
+      "website": "https://www.narayanacoachingcenters.in/landingpage.php?branch=indore",
+      "mode": "offline"
+    },
+    {
+      "slug": "catalyser-indore",
+      "type": "coaching",
+      "name": "CatalyseR",
+      "city": "indore",
+      "locality": "Geeta Bhawan",
+      "address": "163, Kanchan Bagh, Geeta Bhawan Square, Indore, Madhya Pradesh",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "CatalyseR is an Indore-founded JEE specialist that coaching directories describe as starting from a single small flat with three students before growing into its current Geeta Bhawan Square campus; sources differ on the exact founding year (variously reported as 2005, 2008 or 2010), so treat any 'since' date as approximate. It focuses on JEE Main, JEE Advanced, NTSE, KVPY and olympiad coaching, and its own promotional material cites JEE Indore city toppers and NTSE scholars among its alumni over the years — claims worth verifying independently rather than taking at face value.",
+      "highlights": [
+        "Indore-founded JEE specialist at Geeta Bhawan Square, grown from a small independent batch",
+        "Focus spans JEE Main/Advanced plus NTSE, KVPY and olympiad coaching",
+        "Cites multiple JEE Indore city toppers and NTSE scholars among past students (self-reported)"
+      ],
+      "website": "https://www.catalyser.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "iit-pulse-institute-indore",
+      "type": "coaching",
+      "name": "IIT-PULSE Institute",
+      "city": "indore",
+      "locality": "Geeta Bhawan",
+      "address": "106, TBC Tower, Geeta Bhawan Square, Indore, Madhya Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "IIT-PULSE runs its Geeta Bhawan Square campus with a 4.9-star Google rating from roughly 849 reviews, among the highest of any JEE-coaching institute in Indore on this list. It teaches JEE Main, JEE Advanced, NEET and AIIMS-track preparation, built around its All India Test Series (AITS), a Grand Masters Package for advanced students, and daily rapid tests with dedicated doubt-clearing sessions.",
+      "highlights": [
+        "4.9-star Google rating from around 849 reviews — among the highest of any Indore institute here",
+        "Covers JEE (Main + Advanced), NEET and AIIMS-track preparation",
+        "Structured around All India Test Series (AITS), daily rapid tests and dedicated doubt-clearing sessions"
+      ],
+      "website": "https://www.iitpulse.com/",
+      "mode": "offline",
+      "googleRating": 4.9,
+      "googleReviewCount": 849
+    },
+    {
+      "slug": "mgci-indore",
+      "type": "coaching",
+      "name": "MGCI (MG Coaching Institute)",
+      "city": "indore",
+      "locality": "Geeta Bhawan",
+      "address": "First Floor, Building No. 3-A, Manorama Ganj Society, behind V-One Hospital, Navratan Bagh Road, Geeta Bhawan, Indore, Madhya Pradesh 452001 (second branch: Prestige Tower, Navlakha)",
+      "estd": 2004,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "MGCI (MG Coaching Institute) has run its Geeta Bhawan campus since 2004, with a second branch at Prestige Tower, Navlakha, and carries a 4.8 rating from 381 reviews on Justdial. It teaches JEE Main, JEE Advanced, NEET and CUET, positioning itself around balancing board-exam preparation alongside entrance-exam coaching, with reported JEE classroom fees of roughly Rs 70,000-1,20,000.",
+      "highlights": [
+        "Running since 2004 from Geeta Bhawan, with a second Navlakha branch",
+        "4.8 rating from 381 reviews on Justdial",
+        "Explicitly balances Class 12 board preparation alongside JEE/NEET coaching"
+      ],
+      "website": "https://mgci.co.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "best-solution-coaching-indore",
+      "type": "coaching",
+      "name": "Best Solution Coaching",
+      "city": "indore",
+      "locality": "Vijay Nagar",
+      "address": "Near Malaw Manglik Bhawan, Scheme No. 54, 11/26, Sayaji Square, MR 10 Road, Vijay Nagar, Indore, Madhya Pradesh 452010 (second branch: Ratlam Kothi, Geeta Bhawan Road)",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Best Solution Coaching runs a Vijay Nagar centre near Sayaji Square plus a second branch on Geeta Bhawan Road, teaching JEE, NEET, NTSE, KVPY and olympiad-level preparation alongside CBSE/ICSE/state-board school coaching. It carries 339 ratings on Justdial and is cited on aggregator listings with a 4.4 rating, positioning itself on personal attention in smaller batches rather than a large-chain format.",
+      "highlights": [
+        "Two Indore branches — Vijay Nagar/Sayaji Square and Geeta Bhawan Road",
+        "Covers JEE, NEET, NTSE, KVPY and olympiad prep alongside school-board coaching",
+        "339 ratings on Justdial; cited at a 4.4 rating on aggregator listings"
+      ],
+      "website": "https://bestsolution.ac.in/",
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -6331,6 +6572,9 @@
     },
     "coaching-patna": {
       "intro": "<p>Patna is Bihar's largest coaching hub for CLAT and AILET preparation, with a dense cluster of institutes concentrated around Boring Road and East Boring Canal Road, plus a smaller pocket in Kankarbagh. The market mixes long-established Patna-founded specialists (CLAT Path, Upadhyay Law Gurukul, Chanakya CLAT Classes, CLATians, Legalight, CLAT Gurukul, CLAT Focus Coaching) with national chains that run dedicated local centres (LegalEdge by Toprankers, Law Prep Tutorial, Career Launcher). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-indore": {
+      "intro": "<p>Indore is Madhya Pradesh's largest JEE coaching hub, drawing aspirants from across the state to a coaching cluster concentrated in three pockets: Geeta Bhawan Square and the AB Road corridor, South Tukoganj near the High Court, and Vijay Nagar further out on Ring Road. The market mixes Kota-founded national chains (Aakash, ALLEN, Resonance, Narayana, FIITJEE, PACE IIT & Medical) with Indore-built specialists (CatalyseR, IIT-PULSE, MGCI, Best Solution Coaching). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
