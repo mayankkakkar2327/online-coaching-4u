@@ -87,7 +87,8 @@
     "csir-net": "CSIR NET Maths",
     "iit-jam": "IIT JAM",
     "cuet-pg": "CUET PG",
-    "ailet": "AILET"
+    "ailet": "AILET",
+    "mhtcet": "MHT-CET"
   },
   "listings": [
     {
@@ -6696,6 +6697,150 @@
         "Two Satellite-area centres: near Shyamal and at Titanium City Centre"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "rg-lectures",
+      "type": "coaching",
+      "name": "RG Lectures",
+      "city": "online",
+      "locality": "Online, pan-Maharashtra (HQ Ulhasnagar, Thane)",
+      "address": "Online — live and recorded Physics coaching via rglectures.com and the RG Lectures app; WhatsApp +91-8999979647, contact.rglectures@gmail.com",
+      "estd": 2018,
+      "exams": [
+        "mhtcet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.rglectures.com/",
+      "mode": "online",
+      "about": "RG Lectures is a Physics-only online coaching brand built around a single teacher, Rahul Jewaani — known to students as RG Sir — who started the channel in May 2018 from Ulhasnagar, Maharashtra with the tagline ‘Ab Physics Seekhein Aasan Bhasha Me’ (‘Now learn Physics in simple language’). Jewaani holds a BSc and MSc in Physics and cites additional coursework from ISRO, MIT, IIT and IISc on his own site. The brand covers Class 11–12 HSC Board Physics and MHT-CET Physics exclusively, delivered through live and recorded lectures, question banks and mock tests on rglectures.com and the RG Lectures app (Graphy-hosted, with iOS/Android apps), plus a Telegram community. RG Lectures reports students scoring up to 97/100 in HSC Physics boards and 99.75 percentile in MHT-CET, and its YouTube channel (@RGLECTURES, since 2018) highlights alumni now at IIT BHU and COEP among its testimonials. Unlike multi-subject platforms, RG Lectures’ single-subject focus means the entire timetable, question bank and doubt support are built around Physics alone.",
+      "highlights": [
+        "Single-teacher, Physics-only brand — founder Rahul Jewaani (RG Sir) has taught MHT-CET/HSC Physics since May 2018",
+        "Reports students scoring up to 97/100 in HSC Physics boards and 99.75 percentile in MHT-CET",
+        "Delivered via rglectures.com, the RG Lectures app (iOS/Android) and a Telegram community",
+        "Alumni testimonials include students who went on to IIT BHU and COEP"
+      ]
+    },
+    {
+      "slug": "ganitank",
+      "type": "coaching",
+      "name": "GanitAnk",
+      "city": "online",
+      "locality": "Online, pan-Maharashtra",
+      "address": "Online — live and recorded Maths coaching via ganitank.com and the GanitAnk app; WhatsApp/call +91-78878 28980 / +91-77570 74778",
+      "estd": null,
+      "exams": [
+        "mhtcet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.ganitank.com/",
+      "mode": "online",
+      "about": "GanitAnk is a Maths-focused MHT-CET and Maharashtra board coaching platform founded by Ankush Sir (Ankush Zanwar), a Computer Engineering graduate of VIT Pune with 16+ years of teaching experience. The platform reports 70,000+ students taught, 134,000+ YouTube subscribers and 100,000+ Play Store app downloads, and structures its offering around named batches — the Sigma fast-track course, the fuller Zeta batch, the Alpha test series, and the Right Angle batch, which drills the last five years of MHT-CET PYQs chapter-wise with video solutions across 10,000+ questions. For MHT-CET 2025, GanitAnk reports 129 students at 99+ percentile, 488 at 95+ percentile and 831 at 90+ percentile in Maths. Classes run live with every lecture also saved as a recorded video, and free options (a Pi batch, Mini-CET and past-paper courses) are available in the app before paying. Alongside MHT-CET, GanitAnk supports Class 11–12 board prep and first/second-year engineering maths for Pune University (SPPU) students.",
+      "highlights": [
+        "Founded by Ankush Sir, a VIT Pune Computer Engineering graduate with 16+ years teaching Maths",
+        "Reports 70,000+ students taught, 134,000+ YouTube subscribers and 100,000+ app downloads",
+        "MHT-CET 2025: reports 129 students at 99+ percentile, 488 at 95+ percentile, 831 at 90+ percentile in Maths",
+        "Right Angle batch drills 10,000+ questions from the last 5 years of MHT-CET PYQs with video solutions"
+      ]
+    },
+    {
+      "slug": "dinesh-sir-live-study",
+      "type": "coaching",
+      "name": "Dinesh Sir Live Study",
+      "city": "online",
+      "locality": "Online, pan-Maharashtra (HQ Malad East, Mumbai)",
+      "address": "Malad East, Mumbai, Maharashtra 400097; +91-8355890626 / +91-8355899389, dineshsirteam@gmail.com",
+      "estd": null,
+      "exams": [
+        "mhtcet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.dineshsir.live/",
+      "mode": "online",
+      "about": "Dinesh Sir Live Study is a Maths-focused coaching brand for Maharashtra HSC Board and MHT-CET (Engineering/Pharmacy/Agriculture), run out of Malad East, Mumbai and delivered through the Classplus-hosted dineshsir.live site and app. The platform describes itself as Mumbai’s top online teaching option for MH Board/MHT-CET Maths and structures its catalogue around named batches — including the Toppers Pro course, Shaurya, Brahmastra and Vardaan — alongside e-books and dedicated test series for Class 11 (FYJC) and Class 12 (HSC), plus separate engineering-maths, mechanics and C/Python courses for first-year engineering students. Dinesh Sir highlights individual MHT-CET Maths toppers on its site, including students it reports scoring 99.91, 99.90, 99.88 and 99.84 percentile. The brand is also one of several teachers bundled into the third-party ‘MahaToppers’ app for combined PCM/board prep, alongside Physics Gyaan and All About Chemistry — indicating recognition among peers in the same online-Maharashtra-coaching niche as RG Lectures.",
+      "highlights": [
+        "Maths-only MHT-CET/HSC brand based in Malad East, Mumbai, run on the Classplus platform",
+        "Named batches: Toppers Pro, Shaurya, Brahmastra and Vardaan, plus dedicated MHT-CET/board test series",
+        "Reports individual MHT-CET Maths toppers scoring up to 99.91 percentile",
+        "Bundled with Physics Gyaan and All About Chemistry in the third-party MahaToppers app — the same single-subject-specialist niche as RG Lectures"
+      ]
+    },
+    {
+      "slug": "physics-gyaan-mukesh-nayak",
+      "type": "coaching",
+      "name": "Physics Gyaan (Mukesh Nayak)",
+      "city": "online",
+      "locality": "Online, pan-Maharashtra",
+      "address": "Online — Hindi-medium Physics coaching via the PGMN app and pgmn.live",
+      "estd": 2016,
+      "exams": [
+        "mhtcet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.pgmn.live/",
+      "mode": "online",
+      "about": "Physics Gyaan is a Hindi-medium, Physics-only MHT-CET and HSC Board coaching brand built around teacher Mukesh Nayak (Mukesh Sir), who holds an MSc in Physics and a BEd. His YouTube channel, Physics Gyaan Mukesh Nayak, has run since October 2016 and has grown to 391,000+ subscribers, 74 million+ views and a library of over 4,300 videos, with new uploads averaging about seven per week — chapter-wise MHT-CET synopses, PYQ solutions, formula revision and exam-day strategy sessions. Paid coaching is delivered through the PGMN app (pgmn.live) as live and recorded batches, including a Topper Batch Premium Physics course. Like RG Lectures, Physics Gyaan is a single-subject specialist rather than a multi-subject platform — the direct Physics-to-Physics comparison for MHT-CET aspirants choosing between Hindi-medium (Physics Gyaan) and RG Sir’s teaching style. It is also one of the teachers bundled into the third-party MahaToppers app alongside Dinesh Sir and Sovind Sir.",
+      "highlights": [
+        "Hindi-medium Physics-only MHT-CET/HSC brand — teacher Mukesh Nayak holds an MSc Physics + BEd",
+        "YouTube channel running since Oct 2016: 391,000+ subscribers, 74M+ views, 4,300+ videos, ~7 uploads/week",
+        "Delivered via the PGMN app (pgmn.live) with live/recorded batches including Topper Batch Premium Physics",
+        "Direct Physics-for-Physics alternative to RG Lectures for MHT-CET aspirants"
+      ]
+    },
+    {
+      "slug": "all-about-chemistry-sovind-sir",
+      "type": "coaching",
+      "name": "All About Chemistry (Sovind Sir)",
+      "city": "online",
+      "locality": "Online, pan-Maharashtra",
+      "address": "Online — Chemistry coaching via the All About Chemistry app, efpni.courses.store and allaboutchemistry.live",
+      "estd": 2022,
+      "exams": [
+        "mhtcet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.allaboutchemistry.live/",
+      "mode": "online",
+      "about": "All About Chemistry is a Chemistry-only MHT-CET and HSC Board coaching brand run by teacher Sovind Yadav (Sovind Sir) for students who take up Science after Class 10. Its Android app has been on the Play Store since June 2022 and has passed 170,000+ downloads; courses are also sold through efpni.courses.store and allaboutchemistry.live. Teaching runs as interactive live classes with a ‘raise hand’ feature for individual doubts, backed by course materials, assignments, tests and performance reports covering organic, inorganic and physical chemistry. Sovind Sir’s YouTube channel (@MySovindSir) runs free MHT-CET test series and marathon revision sessions such as ‘Eklavya’ alongside the paid Toppers Batch. Like Physics Gyaan and Dinesh Sir, it is bundled into the third-party MahaToppers app as the Chemistry component of a combined PCM offering — making it the Chemistry counterpart to RG Lectures’ Physics-only model for students assembling a subject-by-subject MHT-CET prep stack.",
+      "highlights": [
+        "Chemistry-only MHT-CET/HSC brand run by teacher Sovind Yadav — 170,000+ Play Store app downloads since June 2022",
+        "Live classes with a ‘raise hand’ doubt feature, plus tests and performance reports across all three Chemistry sections",
+        "Free MHT-CET test series and revision marathons (e.g. ‘Eklavya’) on YouTube (@MySovindSir) ahead of paid batches",
+        "Chemistry component of the MahaToppers bundle alongside Dinesh Sir (Maths) and Physics Gyaan (Physics)"
+      ]
+    },
+    {
+      "slug": "pw-mht-cet",
+      "type": "coaching",
+      "name": "PW MHT CET (Physics Wallah)",
+      "city": "online",
+      "locality": "Online, pan-India (Marathi + Hindi bilingual delivery for Maharashtra students)",
+      "address": "Online via pw.live, with doubt-solving support at PW Vidyapeeth centres",
+      "estd": null,
+      "exams": [
+        "mhtcet"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "website": "https://www.pw.live/state-prep/exams/mht-cet-online-classes",
+      "mode": "online",
+      "about": "PW MHT CET is the Maharashtra state-exam vertical of Physics Wallah (PW), the national ed-tech company founded by Alakh Pandey that grew out of a YouTube physics channel into a large-scale coaching platform. Its flagship Lakshya MHT CET batch covers the full Class 12 syllabus for Physics, Chemistry, Mathematics, Botany and Zoology as mapped to MHT-CET, delivered bilingually in Marathi and Hindi with three live lectures a day (about 1.5 hours each), daily tests and mentorship, with recorded sessions available for later viewing. The Lakshya MHT CET 2027 batch, for example, runs from 26 February to 31 October 2026 with course access open until 31 May 2027, and students can take doubts to PW Vidyapeeth centres in person. Unlike the single-subject specialist brands common in this space (RG Lectures for Physics, GanitAnk for Maths, All About Chemistry for Chemistry), PW MHT CET is a full-syllabus, multi-subject offering backed by a much larger national faculty bench and infrastructure — the scale alternative for students who want one platform covering every MHT-CET subject rather than assembling single-subject specialists.",
+      "highlights": [
+        "Maharashtra vertical of Physics Wallah (PW), the national ed-tech platform founded by Alakh Pandey",
+        "Lakshya MHT CET batch covers full PCM/PCB syllabus, bilingual in Marathi + Hindi, 3 live lectures/day",
+        "Course validity extends well past the exam (e.g. 2027 batch stays accessible until 31 May 2027)",
+        "Full-syllabus, multi-subject alternative to single-subject specialist brands like RG Lectures, GanitAnk and All About Chemistry"
+      ]
     }
   ],
   "cityContent": {
