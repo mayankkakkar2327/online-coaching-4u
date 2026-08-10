@@ -30,7 +30,8 @@
       "prayagraj",
       "patna",
       "indore",
-      "ahmedabad"
+      "ahmedabad",
+      "nagpur"
     ],
     "certification": [
       "online"
@@ -6841,6 +6842,206 @@
         "Course validity extends well past the exam (e.g. 2027 batch stays accessible until 31 May 2027)",
         "Full-syllabus, multi-subject alternative to single-subject specialist brands like RG Lectures, GanitAnk and All About Chemistry"
       ]
+    },
+    {
+      "slug": "career-launcher-nagpur",
+      "type": "coaching",
+      "name": "Career Launcher Nagpur",
+      "city": "nagpur",
+      "locality": "Dharampeth / Medical Square",
+      "address": "Plot No. 281, 2nd Floor, Mata Mandir Road, Above Karnataka Bank, Dharampeth, Nagpur, Maharashtra 440010; second centre near Medical Chowk, Ajni Road, Nagpur 440003",
+      "estd": 1995,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Founded in 1995 by Satya Narayanan R, Career Launcher runs two Nagpur centres in Dharampeth and near Medical Square. The Nagpur centre has been named 'Best CAT centre of the country' for five consecutive years by the national chain's own internal results reporting, and its classroom track runs 450+ hours of coaching with 70-plus All India Mock tests.",
+      "highlights": [
+        "Two Nagpur centres: Dharampeth and Medical Square",
+        "450+ hours classroom coaching with 70+ All India Mocks",
+        "One-on-one mentoring alongside IIM-alumnus and 99-percentiler faculty"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-nagpur",
+      "type": "coaching",
+      "name": "IMS Nagpur",
+      "city": "nagpur",
+      "locality": "Dharampeth",
+      "address": "2nd Floor, Ojas Tower, Besides Batukbhai Jewellers, Dharampeth, Nagpur, Maharashtra 440010",
+      "estd": 1977,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "IMS Learning Resources was founded in Mumbai in 1977 by Prof. N.R. Rane, and its Dharampeth centre gives Nagpur students access to the same nationally benchmarked SimCAT mock series run across the chain's other centres. Batches are capped at roughly 25-30 students, with 13 books and 5,000-plus practice questions provided as part of the course material.",
+      "highlights": [
+        "Founded 1977 by Prof. N.R. Rane; one of India's oldest CAT coaching chains",
+        "Fixed batch size of 25-30 students for closer attention",
+        "13 books and 5,000+ practice questions with video solutions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-nagpur",
+      "type": "coaching",
+      "name": "TIME (Triumphant Institute of Management Education) — Nagpur",
+      "city": "nagpur",
+      "locality": "Bharat Nagar / Medical Square",
+      "address": "5, Sai Complex, SBI Industrial Fin Branch, Amravati Road, Bharat Nagar, Nagpur, Maharashtra 440001; second centre at Ghole Bhavan, Besides Trillium Mall, Bus Stand Road, Medical Square, Nagpur 440018",
+      "estd": 1992,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "TIME was founded in 1992 and its Nagpur centre was rated the city's best CAT coaching centre in a 2017 survey conducted by CRISIL and My FM. Beyond CAT, the centre also preps students for MBA-CET, CRT and Bank PO exams, with a dedicated computer lab and a library stocked with 300-plus titles.",
+      "highlights": [
+        "Nagpur centre rated best CAT coaching centre in a 2017 CRISIL/My FM survey",
+        "Two centres: Bharat Nagar and Medical Square",
+        "Also preps for MBA-CET, CRT and Bank PO alongside CAT"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "supergrads-toprankers-nagpur",
+      "type": "coaching",
+      "name": "SuperGrads by Toprankers — Nagpur",
+      "city": "nagpur",
+      "locality": "Ravi Nagar Square",
+      "address": "2nd Floor, Kate's Galaxy, Hill Road, Next to Ravi Nagar Square, Tilak Nagar, Nagpur, Maharashtra 440010",
+      "estd": 2016,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "SuperGrads, TopRankers' CAT-prep vertical, runs its Nagpur centre on a '3E' pedagogy — Essentials, Empower, Enhance — with two to three full syllabus revision cycles built into the schedule. Students can pick classroom, online or hybrid formats, and the centre reports a zero-class-cancellation policy alongside 24x7 doubt-solving support.",
+      "highlights": [
+        "3E pedagogy with multiple structured syllabus revision cycles",
+        "Classroom, online and hybrid formats available",
+        "24x7 doubt-solving support and AI-based test analytics"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "bulls-eye-hitbullseye-nagpur",
+      "type": "coaching",
+      "name": "Bulls Eye (Hitbullseye) — Nagpur",
+      "city": "nagpur",
+      "locality": "Ravi Nagar Square / Tilak Nagar",
+      "address": "2nd Floor, Thakur Apartment, Amravati Road, Ravi Nagar Square, Tilak Nagar, Nagpur, Maharashtra 440010",
+      "estd": 2013,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Bulls Eye is the Nagpur centre of the pan-India Hitbullseye network (founded 1996) and has run locally for roughly a decade. Teaching leans on technology-enabled doubt-clearing, interactive classrooms and sectional tests, with study material and mocks designed by mentors from IITs and IIMs, and personality-development sessions run alongside core CAT prep.",
+      "highlights": [
+        "Local centre of the pan-India Hitbullseye (est. 1996) network",
+        "Technology-enabled doubt-clearing and sectional practice tests",
+        "Personality-development programme bundled with CAT coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "hr-mentors-nagpur",
+      "type": "coaching",
+      "name": "HR Mentors",
+      "city": "nagpur",
+      "locality": "Nandanvan",
+      "address": "821, Shrawanganga Palace, Near SBI Nandanvan Branch, Nandanvan Road, Mire Layout, Bapu Nagar, Nandanvan, Nagpur, Maharashtra 440024",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "HR Mentors is a Nagpur-origin institute built around individualised mentorship for CAT and other MBA entrance exams. Classes start from fundamentals so students can target specific weak areas, faculty track each student's progress closely, and small batch sizes are used to keep aptitude tests and group-discussion practice genuinely personal rather than lecture-hall scale.",
+      "highlights": [
+        "Nagpur-built institute focused on individualised CAT mentorship",
+        "Small batch sizes with close faculty tracking of progress",
+        "Regular aptitude tests and group-discussion practice built in"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "iquanta-nagpur",
+      "type": "coaching",
+      "name": "iQuanta",
+      "city": "nagpur",
+      "locality": "Online (serving Nagpur students)",
+      "address": "Online-format coaching serving Nagpur CAT aspirants; contact via info@iquanta.in",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "iQuanta runs a dual-pedagogy CAT programme — covering both conceptual and applied problem-solving for each topic — aimed at students who prefer an online-first format over a physical Nagpur centre. The institute pairs topic coverage with live examples and offers round-the-clock doubt-clearing support through mentors during the prep cycle.",
+      "highlights": [
+        "Online-first format for Nagpur students who prefer remote coaching",
+        "Dual pedagogy: conceptual plus applied problem-solving per topic",
+        "24x7 doubt-clearing support from mentors"
+      ],
+      "mode": "online"
+    },
+    {
+      "slug": "manmath-deshpandes-institute-nagpur",
+      "type": "coaching",
+      "name": "Manmath Deshpande's Institute (Aptitude Development Centre)",
+      "city": "nagpur",
+      "locality": "Dhantoli",
+      "address": "Sudeep International Travels, Chitale Marg, Near LIC Quarters, Dhantoli, Nagpur, Maharashtra 440012",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "A locally-run Nagpur institute, Manmath Deshpande's Institute (also known as the Aptitude Development Centre) uses the same academic framework and calendar across all its batches rather than varying it by section. The centre focuses on well-researched study material, interactive doubt sessions and regular tests within a competitive but structured classroom setting.",
+      "highlights": [
+        "Nagpur-run institute using a consistent academic calendar across batches",
+        "Interactive doubt sessions with regular practice tests",
+        "Structured, competitive classroom environment"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "patils-mba-classes-nagpur",
+      "type": "coaching",
+      "name": "Patil's MBA Classes",
+      "city": "nagpur",
+      "locality": "Dharampeth",
+      "address": "Behind Batukbhai Jewellers, Opposite Paranjape High School, Dharampeth, Nagpur, Maharashtra 440010",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Patil's MBA Classes runs a Dharampeth centre covering the full CAT syllabus alongside broader upskilling in communication, leadership and analytical ability, aimed at both the written exam and the GD-PI-WAT rounds that follow it. It's a smaller, locally-run alternative to the national chains clustered in the same neighbourhood.",
+      "highlights": [
+        "Dharampeth centre combining CAT syllabus coverage with GD-PI-WAT prep",
+        "Additional focus on communication and leadership skills",
+        "Smaller, locally-run alternative to nearby national chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vikalp-education-nagpur",
+      "type": "coaching",
+      "name": "Vikalp Education",
+      "city": "nagpur",
+      "locality": "Nandanvan",
+      "address": "Nandanvan Centre, 255, Above Reliance Smart, Jagnade Square, Nandanvan, Nagpur, Maharashtra 440008",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Vikalp Education's Nandanvan centre trains for CAT alongside a wider spread of exams — IPMAT, CUET, MBA-CET and CLAT among them — under experienced academicians. Personalised training and a stated focus on holistic growth make it a fit for students who want an institute covering multiple entrance-exam options as their plans firm up.",
+      "highlights": [
+        "Nandanvan centre covering CAT plus IPMAT, CUET, MBA-CET and CLAT",
+        "Personalised training with experienced academicians",
+        "Useful for students still weighing more than one entrance exam"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -6925,6 +7126,9 @@
     },
     "coaching-ahmedabad": {
       "intro": "<p>Ahmedabad is Gujarat's largest NEET coaching hub, drawing aspirants from across the state to a market split mainly between the western coaching belt — Bodakdev, Vastrapur and Satellite, all linked by Sindhu Bhavan Marg and Drive-In Road — and a growing South Bopal cluster further along SG Highway, with a smaller pocket of local institutes serving eastern localities like Nikol. The market mixes Kota- and Delhi-origin national chains (Aakash, ALLEN, Resonance, Narayana, Unacademy) with Ahmedabad-built specialists (OM Coaching, Masters60, Keystone Universe of Education, Cube Tutorials, Brainquest Science Academy). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-nagpur": {
+      "intro": "<p>Nagpur — Maharashtra's 'winter capital' and home to IIM Nagpur (established 2015), VNIT and RTM Nagpur University — has built a genuine CAT coaching market around Dharampeth, Ravi Nagar Square and Nandanvan. Coaching here mixes long-established national chains (IMS, TIME, Career Launcher, SuperGrads, Bulls Eye) with Nagpur-built specialists (HR Mentors, Manmath Deshpande's Institute, Patil's MBA Classes, Vikalp Education, iQuanta). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
