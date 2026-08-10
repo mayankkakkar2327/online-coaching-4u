@@ -2,6 +2,122 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "nmat-2026-registration-opens-august20-gmac-update",
+title: "NMAT 2026 by GMAC: Registration Opens August 20, Test Window Runs to December 20",
+category: "NMAT / MBA",
+date: "10 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "GMAC has released the full NMAT 2026 testing-cycle schedule: registration and slot booking open 20 August, and the exam delivery window runs 2 November to 20 December 2026.",
+image: "assets/blog/nmat-2026-registration-opens-august20-update.png",
+imageAlt: "NMAT 2026 registration opens August 20 update graphic",
+html: `
+<p><strong>Last updated: 10 August 2026.</strong></p>
+<p>NMAT by GMAC has confirmed its full 2026 testing-cycle schedule, with registration and exam-slot booking opening 20 August 2026 and the exam delivery window running from 2 November to 20 December 2026, per the official schedule table published on <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com</a>.</p>
+
+<h2>What's actually confirmed</h2>
+<p>GMAC's official NMAT page lists registration opening Thursday, 20 August 2026, and closing Saturday, 10 October 2026. Slot scheduling runs on a similar but slightly longer window: it also opens 20 August but stays open until Thursday, 22 October 2026, so candidates can register first and lock in a preferred test date, time and centre afterward. The exam itself is delivered across a 45-day window, from Monday, 2 November to Sunday, 20 December 2026, at test centres spread across 70-plus Indian cities. NMAT remains a computer-adaptive test with no negative marking, equal weightage across sections, and candidates get to choose their own section order on exam day — none of that has changed from prior cycles. Per GMAC, NMAT scores are currently accepted by 58-plus B-schools in India, including NMIMS, SDA Bocconi Asia Center and VIT, among others.</p>
+
+<h2>What this means for aspirants</h2>
+<p>Registration opens in ten days from today, and slot booking works on a first-come, first-served basis — GMAC's own guidance is to schedule as early as possible, since booking early materially improves the odds of getting your preferred test date, time and centre, particularly in high-demand cities. The exam allows up to three attempts to improve a score within the testing window, and candidates get an unofficial score preview immediately after finishing the test, with the full scorecard available for download within 48 hours — useful for anyone weighing whether to reattempt before the window closes on 20 December. Aspirants juggling both CAT and NMAT this cycle should note the two run mostly in parallel: CAT 2026 registration (already open since 3 August) closes 15 September, while NMAT registration opens 20 August and its test window runs well into December, giving more flexibility on exact test dates than CAT's single exam day.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[20 Aug 2026]</strong> NMAT 2026 registration and exam-slot scheduling both open on <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com</a>, per GMAC's official schedule.</li>
+<li><strong>[10 Oct 2026]</strong> NMAT 2026 registration window closes.</li>
+<li><strong>[22 Oct 2026]</strong> Last date to book or reschedule an NMAT 2026 exam slot for this cycle.</li>
+<li><strong>[2 Nov – 20 Dec 2026]</strong> NMAT 2026 exam delivery window — a 45-day period across 70-plus Indian test cities.</li>
+<li><strong>Myth check:</strong> NMAT is not solely "the NMIMS entrance test" — GMAC lists it as accepted by 58-plus B-schools across India, not NMIMS alone.</li>
+</ul>
+
+<p><em>Last updated: 10 August 2026. Source: <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com/exams/nmat</a> (official GMAC schedule and exam format details).</em></p>`
+},
+
+{
+slug: "top-10-cat-coaching-institutes-nagpur-2026",
+title: "Top 10 CAT Coaching Institutes in Nagpur (2026)",
+category: "CAT / MBA",
+date: "10 Aug 2026",
+minutes: 11,
+cta: { href: "coaching-nagpur.html", text: "Browse all verified coaching institutes in Nagpur" },
+excerpt: "Nagpur's CAT coaching market mixes national chains with homegrown specialists clustered around Dharampeth, Ravi Nagar Square and Nandanvan. Here's a fact-checked look at ten institutes actually training students for CAT in the city.",
+image: "assets/blog/top-10-cat-coaching-institutes-nagpur-2026.png",
+imageAlt: "Top 10 CAT coaching institutes in Nagpur 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best CAT coaching institute in Nagpur?",
+    "a": "There's no single 'best' — it depends on whether you want a large national chain's mock-test scale (IMS, TIME, Career Launcher, SuperGrads, Bulls Eye) or a Nagpur-built specialist's smaller batches and closer mentoring (HR Mentors, Manmath Deshpande's Institute, Patil's MBA Classes, Vikalp Education). Compare batch size, faculty and current fees directly with 2-3 shortlisted institutes before deciding."
+  },
+  {
+    "q": "Where are Nagpur's main CAT coaching clusters?",
+    "a": "Dharampeth, Ravi Nagar Square and Nandanvan are the city's three biggest coaching clusters. Most institutes on this list run at least one centre in one of these areas."
+  },
+  {
+    "q": "What is the average fee for CAT coaching in Nagpur?",
+    "a": "Fees typically range from roughly Rs 7,000 for entry-level classroom programmes up to Rs 59,000 for a full national-chain classroom course, depending on the institute and format."
+  },
+  {
+    "q": "Is online CAT coaching available in Nagpur?",
+    "a": "Yes — iQuanta runs an online-first format, and several other institutes on this list, including SuperGrads, offer hybrid options alongside their physical Nagpur centres."
+  },
+  {
+    "q": "Does Online Coaching 4u accept payment for institute rankings?",
+    "a": "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform."
+  }
+],
+html: `
+<p>Nagpur is Maharashtra's 'winter capital' and, since 2015, home to IIM Nagpur itself — alongside VNIT and RTM Nagpur University, which feed a steady stream of engineering and commerce graduates into CAT preparation each year. Coaching activity clusters around Dharampeth, Ravi Nagar Square and Nandanvan, mixing long-established national chains with institutes built specifically in and for the city. The list below sticks to institutes with a genuine, checkable local presence: a real address, a track record we could cross-reference across more than one independent source, and current operations in Nagpur as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Nagpur, Maharashtra</p>
+<p><strong>Exam this list is built for:</strong> CAT (Common Admission Test); most institutes below also coach for XAT, NMAT, CMAT and SNAP</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Nagpur-built specialists</p>
+<p><strong>Why Nagpur:</strong> Home to IIM Nagpur (est. 2015), VNIT and RTM Nagpur University, with CAT coaching clustered mainly around Dharampeth, Ravi Nagar Square and Nandanvan</p>
+<p><strong>CAT 2026 registration:</strong> Open 3 August – 15 September 2026, per the official <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a> schedule</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CAT-coaching presence in Nagpur: a real local address, a track record we could find independent confirmation of (founding year where available, branch locations, years actually operating in the city), and coverage across Nagpur's main coaching clusters rather than a single branch. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Career Launcher Nagpur</h3>
+<p>Founded in 1995 by Satya Narayanan R, Career Launcher runs two Nagpur centres — one in Dharampeth (Mata Mandir Road) and one near Medical Square on Ajni Road. Its Nagpur operation has been flagged internally as the chain's "best CAT centre of the country" for five consecutive years, backed by a classroom track of 450-plus coaching hours and 70-plus All India Mock tests.</p>
+
+<h3>2. IMS Nagpur</h3>
+<p>IMS Learning Resources was founded in Mumbai in 1977 by Prof. N.R. Rane, and its Dharampeth centre (Ojas Tower, near Batukbhai Jewellers) plugs Nagpur students into the same nationally benchmarked SimCAT mock series used across the chain's centres countrywide. Batches are capped around 25-30 students, with 13 books and over 5,000 practice questions included. Classroom fees typically range roughly Rs 7,000-59,000 depending on the programme.</p>
+
+<h3>3. TIME (Triumphant Institute of Management Education)</h3>
+<p>TIME was founded in 1992, and its Nagpur centre was independently rated the city's best CAT coaching centre in a 2017 survey run by CRISIL and My FM. It runs two branches — Bharat Nagar and Medical Square — with a computer lab, a 300-plus-title library, and coverage extending to MBA-CET, CRT and Bank PO alongside core CAT prep.</p>
+
+<h3>4. SuperGrads by Toprankers</h3>
+<p>SuperGrads' Nagpur centre (Kate's Galaxy, Hill Road, near Ravi Nagar Square) runs on a "3E" pedagogy — Essentials, Empower, Enhance — built around two to three full syllabus revision cycles. Classroom, online and hybrid formats are all available, with a reported zero-class-cancellation policy and round-the-clock doubt-solving support; course fees run from roughly Rs 40,000 for the flagship classroom-plus-mentorship track.</p>
+
+<h3>5. Bulls Eye (Hitbullseye)</h3>
+<p>Bulls Eye is the Nagpur centre of the pan-India Hitbullseye network, which was founded in 1996; the Nagpur centre itself (Thakur Apartment, Ravi Nagar Square, Tilak Nagar) has run locally for roughly a decade. Study material and mock tests are designed by mentors with IIT/IIM backgrounds, and the centre bundles personality-development sessions alongside core CAT coaching.</p>
+
+<h3>6. HR Mentors</h3>
+<p>HR Mentors is a Nagpur-built institute (Nandanvan Road, near SBI Nandanvan branch) centred on individualised mentorship rather than large lecture-hall batches. Classes start from fundamentals so students can pinpoint specific weak areas, and small batch sizes let faculty track each student's progress through regular aptitude tests and group-discussion practice.</p>
+
+<h3>7. iQuanta</h3>
+<p>iQuanta runs a dual-pedagogy CAT programme for Nagpur students who prefer an online-first format over a physical centre visit — covering both conceptual understanding and applied problem-solving for each topic, with live examples and round-the-clock doubt-clearing support from mentors.</p>
+
+<h3>8. Manmath Deshpande's Institute (Aptitude Development Centre)</h3>
+<p>Based in Dhantoli (Chitale Marg, near LIC Quarters), this locally-run institute uses a consistent academic framework across every batch rather than varying pace or content by section. The focus stays on well-researched study material, interactive doubt sessions and regular testing within a structured, competitive classroom setting.</p>
+
+<h3>9. Patil's MBA Classes</h3>
+<p>Patil's MBA Classes, based in Dharampeth (behind Batukbhai Jewellers), pairs full CAT syllabus coverage with broader upskilling in communication, leadership and analytical ability — aimed at both the written exam and the GD-PI-WAT rounds that follow. It's a smaller, locally-run alternative sitting in the same neighbourhood as several national chains.</p>
+
+<h3>10. Vikalp Education</h3>
+<p>Vikalp Education's Nandanvan centre (above Reliance Smart, Jagnade Square) trains for CAT alongside IPMAT, CUET, MBA-CET and CLAT under one roof. Personalised training from experienced academicians makes it a reasonable fit for students who haven't fully narrowed down which entrance exam they'll ultimately prioritise.</p>
+
+<h2>How these institutes compare</h2>
+<p>The national chains — IMS, TIME, Career Launcher, SuperGrads and Bulls Eye — bring the largest mock-test pools and multiple physical locations across the city, useful if you want a statistically meaningful percentile benchmark or a centre near home regardless of which part of Nagpur you're in. The Nagpur-built institutes — HR Mentors, Manmath Deshpande's Institute, Patil's MBA Classes and Vikalp Education — generally run smaller batches with closer individual mentoring, which suits students who plateau in large lecture-hall settings, while iQuanta serves students who'd rather prepare online from the outset. Dharampeth, Ravi Nagar Square and Nandanvan are Nagpur's three biggest coaching clusters, so proximity to home or college is worth weighing alongside brand name when you shortlist.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically who teaches your batch (not just who founded the institute), how many full-length mocks are included, and whether GD-PI-WAT preparation is bundled in or a separate add-on — these three questions cut through marketing copy faster than any ranking can. Compare full details and additional Nagpur institutes on our <a href="coaching-nagpur.html">Nagpur coaching directory</a>.</p>`
+},
+
+
+{
 slug: "neet-ug-2026-round1-seat-matrix-result-august17-update",
 title: "NEET UG 2026: MCC Releases Round 1 Seat Matrix, Result Due August 17",
 category: "NEET",
