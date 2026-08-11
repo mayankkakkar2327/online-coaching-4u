@@ -31,7 +31,8 @@
       "patna",
       "indore",
       "ahmedabad",
-      "nagpur"
+      "nagpur",
+      "bhopal"
     ],
     "certification": [
       "online"
@@ -7042,6 +7043,200 @@
         "Useful for students still weighing more than one entrance exam"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "unique-ias-study-circle-bhopal",
+      "type": "coaching",
+      "name": "Unique IAS Study Circle",
+      "city": "bhopal",
+      "locality": "New Market / TT Nagar",
+      "address": "B-5, 4th Floor, Platinum Plaza, besides Atal Path, New Market, TT Nagar, Bhopal, Madhya Pradesh 462003",
+      "estd": 1990,
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "Unique IAS Study Circle has run in Bhopal since 1990 under director Gaurav Marwaha, who received the Dainik Bhaskar Teaching Excellence Award 2019 from Madhya Pradesh's then Chief Minister. The institute cites students securing All India Ranks including 3rd, 7th, 16th, 23rd, 35th, 43rd, 51st, 55th, 91st and 99th across UPSC cycles, and offers GS Foundation, optional-subject and MPPSC batches in small groups of roughly 40-50 students, in both online and offline formats.",
+      "highlights": [
+        "Running since 1990 under director Gaurav Marwaha",
+        "Cites AIR 3rd, 7th, 16th, 23rd and other top ranks across UPSC cycles",
+        "Small batch size (40-50 students), online and offline formats"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "ksg-india-bhopal",
+      "type": "coaching",
+      "name": "KSG India (Khan Study Group)",
+      "city": "bhopal",
+      "locality": "MP Nagar Zone-II",
+      "address": "131/16, Kalpataru Tower, near Pragati Petrol Pump, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "KSG India's Bhopal centre extends the Delhi-founded national chain's 'vertical mapping' approach to the UPSC syllabus into Madhya Pradesh, with faculty shared across KSG's other city centres. The Foundation and Advance Foundation courses are built around a 'Current Connect' method that links static topics to ongoing current affairs.",
+      "highlights": [
+        "National chain with shared faculty across KSG centres",
+        "'Vertical mapping' and 'Current Connect' teaching method",
+        "Foundation, Advance Foundation and weekend batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vision-ias-bhopal",
+      "type": "coaching",
+      "name": "Vision IAS Bhopal",
+      "city": "bhopal",
+      "locality": "Habib Ganj",
+      "address": "Plot No. 8, ISBT, Commercial Scheme Zone, Habib Ganj, Bhopal, Madhya Pradesh 462023",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Vision IAS's Bhopal centre runs the same GS Foundation, PT 365 and Mains 365 programmes used at the chain's flagship Delhi campus. Vision IAS is best known nationally for its test-series scale and 'Value Addition Material', which most Bhopal students use alongside local classroom batches.",
+      "highlights": [
+        "National chain, same curriculum as the Delhi flagship centre",
+        "Known for PT 365 / Mains 365 test series and Value Addition Material",
+        "GS Foundation programmes from 12 to 36 months"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "kalka-ias-academy-bhopal",
+      "type": "coaching",
+      "name": "Kalka IAS Academy",
+      "city": "bhopal",
+      "locality": "MP Nagar Zone-2",
+      "address": "3rd Floor, Laxmi Plaza, near State Bank of India, Zone-2, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Kalka IAS Academy runs UPSC-focused batches from its MP Nagar Zone-2 centre, with subject-specialised trainers, positioning itself as a mid-sized alternative to the larger national chains clustered in the same neighbourhood.",
+      "highlights": [
+        "MP Nagar Zone-2 centre, subject-specialised trainers",
+        "Mid-sized alternative to larger national chains nearby",
+        "UPSC-focused batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dhyeya-ias-bhopal",
+      "type": "coaching",
+      "name": "Dhyeya IAS",
+      "city": "bhopal",
+      "locality": "MP Nagar Zone-1",
+      "address": "165, 3rd Floor, Gayatri Offset Building, Zone 1, MP Nagar, next to Axis Bank, Bhopal, Madhya Pradesh 462025",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Dhyeya IAS is particularly known for strong Hindi-medium batches alongside its English-medium coaching, covering GS Prelims and Mains, CSAT and interview guidance, with faculty drawn from Uttar Pradesh and Delhi's coaching circuit.",
+      "highlights": [
+        "Strong Hindi-medium batches alongside English-medium",
+        "GS Prelims, Mains, CSAT and interview guidance",
+        "Faculty from the UP/Delhi coaching circuit"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chahal-academy-bhopal",
+      "type": "coaching",
+      "name": "Chahal Academy",
+      "city": "bhopal",
+      "locality": "TT Nagar",
+      "address": "41 MLA Qtr, Jawahar Chowk, TT Nagar, Bhopal, Madhya Pradesh 462003",
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "Chahal Academy's Bhopal centre runs a 'Super-50' batch model that caps class sizes for more individualised mentoring than the large lecture-hall format common at bigger chains, offering 1, 2 and 3-year integrated foundation programmes alongside MPPSC-focused tracks.",
+      "highlights": [
+        "'Super-50' capped-batch model for closer mentoring",
+        "1, 2 and 3-year integrated foundation programmes",
+        "Combined UPSC/MPPSC tracks"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "preface-ias-institute-bhopal",
+      "type": "coaching",
+      "name": "Preface IAS Institute",
+      "city": "bhopal",
+      "locality": "Maharana Pratap Nagar Zone-I",
+      "address": "15, near Batra Hospital (above SBI ATM), Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Preface IAS Institute is a smaller Bhopal-built institute running GS Foundation batches for UPSC alongside interview guidance, positioned as a more accessible-fee alternative to the national chains clustered nearby in MP Nagar.",
+      "highlights": [
+        "Bhopal-built, accessible-fee GS Foundation batches",
+        "Interview guidance alongside core coaching",
+        "Located in the MP Nagar coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "avyan-school-of-ias-bhopal",
+      "type": "coaching",
+      "name": "AVYAN School of IAS",
+      "city": "bhopal",
+      "locality": "MP Nagar",
+      "address": "MP Nagar, Bhopal, Madhya Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "AVYAN School of IAS runs UPSC-focused classroom coaching from MP Nagar with a faculty panel it describes as a mix of experienced educators and subject specialists, alongside its own mobile app for reviewing recorded lectures outside class hours.",
+      "highlights": [
+        "Classroom UPSC coaching in MP Nagar",
+        "Own mobile app for recorded-lecture review",
+        "Mix of experienced educators and subject specialists"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "the-administrator-academy-bhopal",
+      "type": "coaching",
+      "name": "The Administrator Academy",
+      "city": "bhopal",
+      "locality": "Bhopal",
+      "address": "Bhopal, Madhya Pradesh",
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "The Administrator Academy is a locally built Bhopal institute centred on direct, officer-led mentorship rather than a large-chain lecture format, covering Prelims, Mains and Interview guidance with particular emphasis on the ethical-reasoning dimension of the GS syllabus.",
+      "highlights": [
+        "Officer-led, direct-mentorship format",
+        "Prelims, Mains and Interview guidance",
+        "Focus on the ethics/GS syllabus dimension"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "als-ias-bhopal",
+      "type": "coaching",
+      "name": "Als IAS",
+      "city": "bhopal",
+      "locality": "Bhopal",
+      "address": "Above Mega Mart, Bhopal, Madhya Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Als IAS is a smaller local Bhopal institute carrying an independent review base on Justdial, offering a lower-cost entry point for students who want in-person UPSC coaching without a national chain's fee structure.",
+      "highlights": [
+        "Locally run, independent Justdial review base",
+        "Lower-cost entry point vs. national chains",
+        "In-person UPSC coaching"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -7129,6 +7324,9 @@
     },
     "coaching-nagpur": {
       "intro": "<p>Nagpur — Maharashtra's 'winter capital' and home to IIM Nagpur (established 2015), VNIT and RTM Nagpur University — has built a genuine CAT coaching market around Dharampeth, Ravi Nagar Square and Nandanvan. Coaching here mixes long-established national chains (IMS, TIME, Career Launcher, SuperGrads, Bulls Eye) with Nagpur-built specialists (HR Mentors, Manmath Deshpande's Institute, Patil's MBA Classes, Vikalp Education, iQuanta). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-bhopal": {
+      "intro": "<p>Bhopal has grown into Madhya Pradesh's largest hub for UPSC Civil Services preparation, pulling in aspirants from across the state with coaching fees that generally undercut Delhi's Rajinder Nagar and Mukherjee Nagar belts while still drawing faculty from the same national circuit. Most coaching activity sits inside MP Nagar — split between Zone-I and Zone-II — with a smaller cluster around TT Nagar/New Market and a newer entrant near Habib Ganj. Coaching here mixes national chains (KSG India, Vision IAS) with Bhopal-built specialists (Unique IAS Study Circle, Kalka IAS, Dhyeya IAS, Chahal Academy). Every listing below shows its verification status and, where available, additional detail on faculty and track record.</p>"
     }
   }
 }
