@@ -2,6 +2,38 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "csab-special-2026-round2-result-reporting-deadline-update",
+title: "CSAB Special 2026: Round-II Seat Allotment Result Declared, Reporting Ends August 18",
+category: "JEE / Engineering",
+date: "13 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=jee", text: "Compare verified JEE coaching institutes" },
+excerpt: "CSAB declared the DASA & CSAB Special Counselling 2026 Round-II seat allotment result on 12 August at 5 PM, with online reporting open until 14 August and physical reporting at allotted NITs, IIITs and GFTIs running 13-18 August.",
+image: "assets/blog/csab-special-2026-round2-result-reporting-deadline-update.png",
+imageAlt: "CSAB Special 2026 Round 2 result and reporting deadline update graphic",
+html: `
+<p><strong>Last updated: 13 August 2026.</strong></p>
+<p>The Central Seat Allocation Board (CSAB) declared the DASA & CSAB Special Counselling 2026 Round-II seat allotment result on 12 August at 5 PM, confirmed directly on the official <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">csab.nic.in/csab-special</a> page. This is the second and final round of CSAB Special counselling, which fills seats left vacant in NITs, IIITs, IIEST Shibpur, SPAs and GFTIs after the five main JoSAA rounds concluded on 16 July.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per CSAB's own published schedule (Annexure 3, Schedule for DASA (UG) and CSAB Special Rounds 2026 Activities), Round-I results were declared on 6 August, and Round-II results followed on 12 August at 5 PM. Candidates allotted a seat in Round-II can exercise FREEZE, SLIDE, FLOAT, SURRENDER, WITHDRAW or EXIT as their willingness option. For CSAB Special Rounds candidates specifically, online reporting — Institute Admission Fee-II payment, document upload, and responding to any document-verification queries — runs from 12 August 5 PM to 14 August 5 PM, with a further deadline of 17 August 5 PM to resolve any pending queries or failed payment attempts. Physical reporting at the allotted institute, along with balance fee payment, is scheduled for 13 to 18 August 2026 (tentative; candidates should confirm exact dates with their allotted institute).</p>
+
+<h2>What this means for aspirants</h2>
+<p>Candidates who received a CSAB Special Round-II allotment need to complete online reporting by 14 August and then report physically at their allotted institute by 18 August to avoid forfeiting the seat — there is no further round scheduled after Round-II this year, so this is effectively the last chance to confirm a seat through the CSAB Special process for 2026. Anyone who chose FLOAT or SLIDE and did not receive an upgrade, or who wants to check institute-wise opening and closing ranks before deciding, can do so via CSAB's own <a href="https://admissions.nic.in/csabspl/Applicant/seatallotmentresult/currentorcr.aspx" rel="noopener" target="_blank">Opening and Closing Ranks</a> page rather than third-party aggregators, since official figures are updated as each round closes.</p>
+
+<h3>Important pointers</h3>
+<ul>
+<li><strong>[6 Aug 2026]</strong> CSAB Special/DASA Round-I seat allotment result was declared, per the official CSAB site.</li>
+<li><strong>[12 Aug 2026, 5 PM]</strong> CSAB Special/DASA Round-II seat allotment result was declared — confirmed directly on csab.nic.in/csab-special.</li>
+<li><strong>[12-14 Aug 2026]</strong> Online reporting window (fee payment, document upload) for Round-II allottees.</li>
+<li><strong>[13-18 Aug 2026]</strong> Tentative physical reporting window at allotted institutes; candidates should verify exact dates with their institute.</li>
+<li><strong>Myth check:</strong> CSAB Special Rounds are separate from JoSAA — a candidate who didn't get a seat in the five JoSAA rounds isn't automatically considered for CSAB Special; fresh registration and choice-filling on the CSAB portal was required by the 3 August deadline.</li>
+</ul>
+
+<p><em>Last updated: 13 August 2026. Source: <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">CSAB — DASA and CSAB-Special official page</a>.</em></p>
+`
+},
+{
 slug: "slat-2027-enquiry-window-opens-symbiosis-law-update",
 title: "SLAT 2027: Symbiosis Law Admission Test Enquiry Window Opens",
 category: "SLAT / Law",
