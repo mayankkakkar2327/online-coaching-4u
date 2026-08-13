@@ -33,7 +33,8 @@
       "ahmedabad",
       "nagpur",
       "bhopal",
-      "guwahati"
+      "guwahati",
+      "vijayawada"
     ],
     "certification": [
       "online"
@@ -7429,6 +7430,196 @@
         "GS Road, Bhangagarh centre with faculty the institute says are drawn from leading South Indian colleges"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "sri-chaitanya-iit-academy-vijayawada",
+      "type": "coaching",
+      "name": "Sri Chaitanya IIT Academy",
+      "city": "vijayawada",
+      "locality": "Gudavalli",
+      "address": "CV Raman Bhavan, Near Model Dairy, Airport Road, Gudavalli, Vijayawada, Andhra Pradesh 521104",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Sri Chaitanya IIT Academy runs an integrated residential campus on Airport Road in Gudavalli, combining Class 11-12 (junior college) board studies with IIT-JEE preparation — the dominant coaching model across Andhra Pradesh and Telangana, where most serious JEE aspirants join a residential or day-scholar integrated campus rather than a standalone coaching institute.",
+      "highlights": [
+        "Integrated junior-college-plus-JEE campus model, the standard format for serious JEE prep in Andhra Pradesh",
+        "Airport Road, Gudavalli campus with residential and day-scholar options",
+        "Part of one of South India's largest integrated-coaching chains, with a long JEE/EAMCET track record"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "narayana-iit-academy-vijayawada",
+      "type": "coaching",
+      "name": "Narayana IIT Academy",
+      "city": "vijayawada",
+      "locality": "Nidamanuru",
+      "address": "Poranki Road, Nidamanuru, Vijayawada, Andhra Pradesh 521104",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Narayana IIT Academy's Vijayawada campus, on Poranki Road in Nidamanuru, runs the same integrated Class 11-12-plus-JEE model as its parent chain, one of the two largest integrated-coaching networks in Andhra Pradesh alongside Sri Chaitanya, with residential and semi-residential batches for JEE Main and Advanced aspirants.",
+      "highlights": [
+        "Integrated junior-college-plus-JEE campus on Poranki Road, Nidamanuru",
+        "Part of the Narayana Group, one of Andhra Pradesh's two largest integrated-coaching chains",
+        "Residential and semi-residential batch options for JEE Main and Advanced"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "fiitjee-vijayawada",
+      "type": "coaching",
+      "name": "FIITJEE Vijayawada",
+      "city": "vijayawada",
+      "locality": "Labbipet",
+      "address": "No. 39-1-57, MG Road, Beside PVP Mall, Opposite Kalanjali, Labbipet, Vijayawada, Andhra Pradesh 520010",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "FIITJEE's Vijayawada centre, on MG Road in Labbipet beside PVP Mall, is the local branch of the Delhi-founded national JEE-coaching chain, running classroom and integrated programmes built around FIITJEE's own study material and All India Test Series, distinct from the AP-style integrated junior-college model most other Vijayawada institutes follow.",
+      "highlights": [
+        "Local centre of the national FIITJEE chain, MG Road, Labbipet",
+        "Runs FIITJEE's own study material and All India Test Series rather than a locally built curriculum",
+        "Offers a non-integrated coaching-only format, an alternative to the AP junior-college-plus-coaching model"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-vijayawada",
+      "type": "coaching",
+      "name": "Aakash Institute, Benz Circle",
+      "city": "vijayawada",
+      "locality": "Benz Circle",
+      "address": "3rd Floor, Noorani Plaza, Near Benz Circle, Vijayawada, Andhra Pradesh 520010",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Aakash Institute's Benz Circle centre is the local branch of the national Aakash chain, offering classroom JEE (Main and Advanced) coaching with Aakash's standardised national curriculum, study material and test-series, positioned as a non-residential alternative for students who want to stay at a regular school while attending coaching.",
+      "highlights": [
+        "Local centre of the national Aakash Institute chain, Benz Circle",
+        "Standardised national JEE curriculum, study material and test series",
+        "Non-residential classroom format for students staying at a regular day school"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-vijayawada",
+      "type": "coaching",
+      "name": "Resonance Vijayawada",
+      "city": "vijayawada",
+      "locality": "Bhavanipuram",
+      "address": "Opposite NTR Health University, Beside Park N Hotel, Vijayawada, Andhra Pradesh 520008",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Resonance's Vijayawada centre extends the Kota-founded chain's JEE-coaching model into Andhra Pradesh, with the institute stating its centres are staffed by faculty trained at its Kota base, offering an alternative to Vijayawada's dominant AP-style integrated junior-college institutes.",
+      "highlights": [
+        "Vijayawada centre of the Kota-founded national Resonance chain",
+        "Faculty trained at Resonance's Kota base, per the institute",
+        "Opposite NTR Health University, near Bhavanipuram"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bvk-group-vijayawada",
+      "type": "coaching",
+      "name": "BVK Group (IIT-JEE & NEET Academy)",
+      "city": "vijayawada",
+      "locality": "Kanuru",
+      "address": "Plot No. 125, Fun Times Club Road, Kanuru, Vijayawada, Andhra Pradesh 520007",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "BVK Group runs a day-scholar campus on Fun Times Club Road in Kanuru alongside separate boys' and girls' residential campuses nearby, offering an integrated Class 11-12-plus-JEE/NEET programme; the group also has branches in Bengaluru, Nellore and Tirupati.",
+      "highlights": [
+        "Day-scholar campus in Kanuru, plus separate boys' and girls' residential campuses nearby",
+        "Integrated Class 11-12-plus-JEE/NEET programme",
+        "Part of a multi-city group with branches in Bengaluru, Nellore and Tirupati"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "winners-academy-vijayawada",
+      "type": "coaching",
+      "name": "Winners Academy",
+      "city": "vijayawada",
+      "locality": "Labbipet",
+      "address": "No. 39-1-57, MG Road, Beside PVP Mall, Opposite Kalanjali, Labbipet, Vijayawada, Andhra Pradesh 520010",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Winners Academy, on MG Road in Labbipet, is a Vijayawada coaching institute offering JEE preparation as part of a broader competitive-exam portfolio, positioned as a locally run alternative to the city's larger national and AP-wide chains.",
+      "highlights": [
+        "Locally run Vijayawada institute on MG Road, Labbipet",
+        "Offers JEE preparation as part of a broader competitive-exam portfolio",
+        "An alternative to Vijayawada's larger national and AP-wide integrated chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "nri-academy-vijayawada",
+      "type": "coaching",
+      "name": "NRI Academy",
+      "city": "vijayawada",
+      "locality": "Benz Circle",
+      "address": "Rama Krupa Apartments, 3rd Floor, Near Benz Circle, Vijayawada, Andhra Pradesh 520010",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "NRI Academy, near Benz Circle, is a Vijayawada-based coaching institute running JEE preparation batches, part of the city's dense Benz Circle coaching cluster that also hosts several national chains.",
+      "highlights": [
+        "Benz Circle coaching centre, in Vijayawada's densest coaching pocket",
+        "Runs dedicated JEE preparation batches",
+        "Locally run institute alongside several national chains in the same cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "erudite-academy-vijayawada",
+      "type": "coaching",
+      "name": "Erudite Academy",
+      "city": "vijayawada",
+      "locality": "Mogalrajpuram",
+      "address": "32-13-53/1, Journalist Colony, Mogalrajpuram, Beside Good Morning Hotel, Vijayawada, Andhra Pradesh 520010",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Erudite Academy, in Journalist Colony, Mogalrajpuram, is a Vijayawada coaching institute offering JEE preparation, serving a catchment slightly removed from the denser MG Road and Benz Circle coaching pockets.",
+      "highlights": [
+        "Mogalrajpuram centre, in Journalist Colony",
+        "Runs dedicated JEE preparation batches",
+        "Serves a catchment distinct from the MG Road and Benz Circle coaching clusters"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vedantu-learning-centre-vijayawada",
+      "type": "coaching",
+      "name": "Vedantu Learning Centre, Benz Circle",
+      "city": "vijayawada",
+      "locality": "Benz Circle",
+      "address": "40-1-139, Jagirdar Mall-One, MG Road, Chandramoulipuram, Near Benz Circle, Vijayawada, Andhra Pradesh 520010",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Vedantu's Benz Circle learning centre is the ed-tech company's offline JEE/NEET/foundation coaching centre in Vijayawada, combining in-person classroom teaching with Vedantu's online platform and recorded-lecture library — a hybrid format distinct from the city's purely offline institutes.",
+      "highlights": [
+        "Offline classroom centre run by the Vedantu ed-tech platform, near Benz Circle",
+        "Hybrid model combining in-person classes with Vedantu's online platform and recorded lectures",
+        "Covers JEE, NEET and foundation (Class 9-10) coaching"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -7522,6 +7713,9 @@
     },
     "coaching-guwahati": {
       "intro": "<p>Guwahati is the Northeast's largest hub for CLAT and AILET preparation, anchored by the National Law University and Judicial Academy, Assam (NLUJAA) in nearby Amingaon — the region's only National Law University. Most coaching activity sits around Chandmari and the RG Baruah Road corridor, with additional institutes spread across Zoo Road, Ulubari, Silpukhuri, Garchuk and Bhangagarh. The market mixes national chains (IMS, Career Launcher, T.I.M.E.) with Guwahati-built specialists (Career Flite, The OPUS Way, Tapasyaaa Coaching Institute). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-vijayawada": {
+      "intro": "<p>Vijayawada is one of Andhra Pradesh's largest hubs for JEE preparation, shaped by the state's distinctive integrated model where most serious aspirants join a residential or semi-residential junior college that combines Class 11-12 board studies with IIT-JEE coaching, rather than attending a standalone coaching centre alongside a separate school. The city's two dominant integrated chains, Sri Chaitanya and Narayana, sit alongside national coaching-only brands (FIITJEE, Aakash, Resonance) concentrated around MG Road, Labbipet and Benz Circle, plus locally run institutes and hybrid online-offline options. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
