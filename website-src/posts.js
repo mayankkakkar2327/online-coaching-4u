@@ -2,6 +2,99 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "slat-2027-enquiry-window-opens-symbiosis-law-update",
+title: "SLAT 2027: Symbiosis Law Admission Test Enquiry Window Opens",
+category: "SLAT / Law",
+date: "12 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT / AILET coaching institutes" },
+excerpt: "Symbiosis International's official SLAT website is now showing \"SLAT 2027 enquiries open\" on its homepage — the first public signal of the next admission cycle, even though a full registration date hasn't been announced yet.",
+image: "assets/blog/slat-2027-enquiry-window-opens-update.png",
+imageAlt: "SLAT 2027 enquiry window opens update graphic",
+html: `
+<p><strong>Last updated: 12 August 2026.</strong></p>
+<p>Symbiosis International (Deemed University)'s official SLAT test website is now displaying "SLAT 2027 enquiries open" on its homepage — the first public signal that the next admission cycle for the Symbiosis Law Admission Test has begun, even though full registration dates have not yet been announced.</p>
+
+<h2>What's actually confirmed</h2>
+<p>A direct check of the official site, <a href="https://www.slat-test.org/" rel="noopener" target="_blank">slat-test.org</a>, on 12 August shows the SLAT 2026 cycle (for the 2026-27 academic year) is fully closed — its two test dates (20 and 28 December 2025) and result date (15 January 2026) have already passed, and the homepage now carries an "Applications Closed" banner for SLAT 2026 alongside a new "SLAT 2027 enquiries open" prompt for the next cycle. No SLAT 2027 registration opening date, test date or fee schedule has been published yet; the site's own "Important Dates" page still lists only SLAT 2026 information. Symbiosis Law Schools admit students for B.A. LL.B. (Hons.), B.B.A. LL.B. (Hons.), B.A. LL.B. and B.B.A. LL.B. programmes across four campuses — Pune, Noida, Hyderabad and Nagpur — through SLAT.</p>
+
+<h2>What this means for aspirants</h2>
+<p>Students planning to sit SLAT 2027 alongside CLAT and AILET should treat this as an early heads-up rather than a call to register: the enquiry window lets prospective candidates join Symbiosis's update list ahead of the formal notification, but paying a fee or submitting a full application isn't possible yet. Past cycles opened full registration several months before the test date and closed it roughly three weeks before it, so a similar pattern this year would put registration opening sometime in the September-October window, ahead of a test likely to fall in December 2026 — though this is only a pattern-based expectation, not a confirmed date. Aspirants should track slat-test.org directly rather than rely on third-party estimates once the real date is announced.</p>
+
+<h3>Important pointers</h3>
+<ul>
+<li><strong>[15 Jan 2026]</strong> SLAT 2026 results were declared, closing that admission cycle, per the official SLAT test site.</li>
+<li><strong>[12 Aug 2026]</strong> The official SLAT test website began displaying "SLAT 2027 enquiries open," confirmed via a direct site check.</li>
+<li><strong>[Ongoing]</strong> No SLAT 2027 registration date, test date or fee schedule has been officially announced yet — the site's own Important Dates page still shows only SLAT 2026 information.</li>
+<li><strong>Four campuses:</strong> SLAT admits to Symbiosis Law Schools in Pune, Noida, Hyderabad and Nagpur, across B.A. LL.B. (Hons.), B.B.A. LL.B. (Hons.), B.A. LL.B. and B.B.A. LL.B. programmes.</li>
+<li><strong>Myth check:</strong> "Enquiries open" is not the same as "registration open" — submitting the enquiry form only adds you to Symbiosis's update list, it does not create an application or reserve a test slot.</li>
+</ul>
+
+<p><em>Last updated: 12 August 2026. Source: <a href="https://www.slat-test.org/" rel="noopener" target="_blank">SLAT — Official Symbiosis Law Admission Test website</a>.</em></p>
+`
+},
+{
+slug: "top-10-clat-coaching-institutes-guwahati-2026",
+title: "Top 10 CLAT Coaching Institutes in Guwahati (2026)",
+category: "CLAT / Law",
+date: "12 Aug 2026",
+minutes: 11,
+cta: { href: "coaching-guwahati.html", text: "Browse all verified coaching institutes in Guwahati" },
+excerpt: "Guwahati has grown into the Northeast's main CLAT-coaching hub, anchored by NLUJAA nearby. Here's a fact-checked look at ten institutes actually training students for the Common Law Admission Test in the city.",
+image: "assets/blog/top-10-clat-coaching-institutes-guwahati-2026.png",
+imageAlt: "Top 10 CLAT coaching institutes in Guwahati 2026 graphic",
+html: `
+<p>Guwahati has grown into the Northeast's main hub for CLAT and AILET preparation, anchored by the presence of the National Law University and Judicial Academy, Assam (NLUJAA) in nearby Amingaon — the region's only National Law University and a steady source of local demand for serious CLAT coaching. Most of the city's institutes cluster around Chandmari and the RG Baruah Road corridor, with newer entrants spreading toward Zoo Road, Ulubari and Garchuk. The list below sticks to institutes with a genuine, checkable local presence: a real address, and a track record referenced across more than one independent source, as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Guwahati, Assam</p>
+<p><strong>Exam this list is built for:</strong> CLAT (Common Law Admission Test); most institutes below also coach for AILET</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Guwahati-built specialists</p>
+<p><strong>Why Guwahati:</strong> Home to NLUJAA (National Law University and Judicial Academy, Assam), the Northeast's only NLU, and the region's largest CLAT-coaching market</p>
+<p><strong>CLAT 2027:</strong> Registration opened 3 August 2026, exam on 6 December 2026 — see the Consortium of NLUs' official <a href="https://consortiumofnlus.ac.in/clat-2027" rel="noopener" target="_blank">CLAT 2027 notification</a></p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CLAT-coaching presence in Guwahati: a real local address, a track record we could find independent confirmation of across more than one source, and current operations in the city as of 2026. Several purely online, pan-India CLAT platforms also serve Guwahati students well and appear separately on our <a href="coaching-guwahati.html">Guwahati coaching directory</a>; this list focuses on institutes with a physical Guwahati classroom. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. IMS Guwahati</h3>
+<p>IMS Guwahati, on GNB Road near Hotel Paradise in Chandmari, is the local centre of one of India's oldest test-prep chains, running CLAT preparation alongside its longer-established management-entrance coaching. The centre offers structured classroom sessions with study material designed for concept-building and application skills, aligned to IMS's national CLAT curriculum.</p>
+
+<h3>2. Career Launcher — Guwahati</h3>
+<p>Career Launcher's Guwahati centre, on the 2nd floor of Building No. 6 off RG Baruah Road near Guwahati Commerce College, is part of the national CL Educate network. It runs CLAT-focused batches with the same teaching methods the chain applies across its 200+ centres nationally, alongside regular performance feedback.</p>
+
+<h3>3. T.I.M.E. Guwahati</h3>
+<p>T.I.M.E. (Triumphant Institute of Management Education) runs its Guwahati centre from Chitraban Enclave on Zoo Road, opposite the Nexa car showroom near Guwahati Commerce College. Best known nationally for CAT coaching, T.I.M.E. also runs a CLAT-preparation track locally, drawing on the same test-series and time-management-focused teaching approach it applies across its other exam verticals.</p>
+
+<h3>4. Career Flite</h3>
+<p>Career Flite, operating since 2003 near the Chandmari flyover U-turn above Bimal Auto Agency, is a Guwahati-founded institute covering CLAT alongside banking, SSC, APSC and other competitive-exam coaching under one roof. Its CLAT batches use the institute's own study material built specifically for Assam's aspirant base.</p>
+
+<h3>5. The OPUS Way</h3>
+<p>The OPUS Way, on Rajgarh Road, is a Guwahati-built institute specialising in CLAT alongside NIFT and NID entrance coaching. The institute reports a 68% success rate placing students into National Law Universities and a near-100% (95.5%) success rate for its NIFT batches, with both offline and online course options.</p>
+
+<h3>6. Bright Life Classes</h3>
+<p>Bright Life Classes, at Bora Service Station Complex in Ulubari, is a multi-exam institute — covering IIT-JEE, NEET, NDA, spoken English and UGC-NET/CSIR alongside a dedicated Law-entrance track — positioned as one of Guwahati's broader competitive-exam options for families comparing several exam paths for one child.</p>
+
+<h3>7. Tapasyaaa Coaching Institute</h3>
+<p>Tapasyaaa Coaching Institute, based in Silver Arcade near Police Point in Garchuk, is a locally run multi-exam centre offering CLAT alongside Bank PO/Clerk, SSC, Railway, NDA, CDS and MCA-entrance coaching, serving Guwahati's southern Garchuk-Kahilipara catchment away from the denser Chandmari cluster.</p>
+
+<h3>8. VisionQ</h3>
+<p>VisionQ, on Nabagraha Road in Silpukhuri, primarily coaches for APSC, SSC, banking and railway exams but includes Law-entrance preparation in its portfolio, positioning itself as a mentor-driven institute for students who want guidance beyond just the syllabus.</p>
+
+<h3>9. Difference Coaching Institute</h3>
+<p>Difference Coaching Institute, on the 3rd floor of a Rajgarh Road building in Bhangagarh, runs Law-entrance coaching as part of a broader competitive-exam portfolio, serving students in the Bhangagarh-Rajgarh pocket of the city.</p>
+
+<h3>10. Chaitanya Bharathi Academy</h3>
+<p>Chaitanya Bharathi Academy, at Sethi Trust Building opposite Big Bazar on GS Road in Bhangagarh, runs an integrated schooling-plus-coaching model that combines Class 11-12 board studies with entrance-exam preparation for JEE, NEET, CA Foundation, UPSC Foundation and CLAT under one roof, with faculty the institute says are drawn from leading South Indian colleges.</p>
+
+<h2>How these institutes compare</h2>
+<p>IMS, Career Launcher and T.I.M.E. bring national-chain infrastructure — shared faculty pools, established CLAT-specific curricula and a longer track record elsewhere in India — which matters if you want a benchmark against aspirants preparing in bigger CLAT markets like Delhi or Patna. The OPUS Way and Career Flite are Guwahati-built specialists with their own reported placement numbers, while Bright Life Classes, Tapasyaaa, VisionQ, Difference Coaching and Chaitanya Bharathi Academy run CLAT as one track within a wider multi-exam portfolio rather than as a dedicated law-entrance specialism — worth knowing if you want an institute whose full attention is on CLAT specifically versus one juggling several entrance exams under one roof. Chandmari (IMS, Career Launcher, T.I.M.E., Career Flite) is Guwahati's densest coaching pocket, while Ulubari, Silpukhuri, Garchuk and Bhangagarh host the remaining institutes further from the centre.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically whether CLAT is taught by dedicated law-entrance faculty or by general competitive-exam trainers, how many full-length CLAT-pattern mocks are included, and whether the institute tracks and shares its own NLU-admission numbers rather than only general "success rate" claims — these questions cut through marketing copy faster than any ranking can. Compare full details and additional Guwahati institutes on our <a href="coaching-guwahati.html">Guwahati coaching directory</a>.</p>
+`
+},
+{
 slug: "upsc-cse-mains-2026-admit-card-awaited-august11-update",
 title: "UPSC CSE Mains 2026: E-Admit Card Still Awaited With 10 Days To Go",
 category: "IAS / UPSC",
