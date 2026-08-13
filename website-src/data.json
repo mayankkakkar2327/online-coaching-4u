@@ -32,7 +32,8 @@
       "indore",
       "ahmedabad",
       "nagpur",
-      "bhopal"
+      "bhopal",
+      "guwahati"
     ],
     "certification": [
       "online"
@@ -7237,6 +7238,197 @@
         "In-person UPSC coaching"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "ims-guwahati",
+      "type": "coaching",
+      "name": "IMS Guwahati",
+      "city": "guwahati",
+      "locality": "Chandmari",
+      "address": "1st Floor, GNB Road, opp. Goswami Service, near Hotel Paradise, Chandmari, Guwahati, Assam 781003",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "IMS Guwahati is the local centre of one of India's oldest test-prep chains, running CLAT preparation alongside its longer-established management-entrance coaching from GNB Road in Chandmari. The centre offers structured classroom sessions with study material designed for concept-building and application skills, aligned to IMS's national CLAT curriculum.",
+      "highlights": [
+        "Local centre of the national IMS test-prep network, active in CLAT coaching since the chain expanded into law-entrance prep",
+        "GNB Road, Chandmari address, in Guwahati's densest coaching cluster",
+        "Structured classroom sessions plus IMS's national CLAT study material and mock series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-guwahati",
+      "type": "coaching",
+      "name": "Career Launcher - Guwahati",
+      "city": "guwahati",
+      "locality": "RG Baruah Road",
+      "address": "Building No. 6, 2nd Floor, 1st Bylane, RG Baruah Road, near Guwahati Commerce College, Guwahati, Assam 781021",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Career Launcher's Guwahati centre, off RG Baruah Road near Guwahati Commerce College, is part of the national CL Educate network. It runs CLAT-focused batches with the same teaching methods the chain applies across its 200+ centres nationally, alongside regular performance feedback.",
+      "highlights": [
+        "Part of the national Career Launcher (CL Educate) network, with a dedicated Guwahati centre",
+        "RG Baruah Road location near Guwahati Commerce College",
+        "CLAT-focused batches with regular performance feedback and mock tests"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-guwahati",
+      "type": "coaching",
+      "name": "T.I.M.E. Guwahati",
+      "city": "guwahati",
+      "locality": "Zoo Road",
+      "address": "6th Floor, Chitraban Enclave, Zoo Road, opposite Nexa Car Showroom, near Guwahati Commerce College, Guwahati, Assam 781024",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "T.I.M.E. (Triumphant Institute of Management Education) runs its Guwahati centre from Chitraban Enclave on Zoo Road. Best known nationally for CAT coaching, T.I.M.E. also runs a CLAT-preparation track locally, drawing on the same test-series and time-management-focused teaching approach it applies across its other exam verticals.",
+      "highlights": [
+        "Zoo Road centre of the national T.I.M.E. network, primarily known for CAT coaching",
+        "Runs a dedicated CLAT-preparation track alongside its management-entrance courses",
+        "Test-series and time-management-focused teaching approach shared across T.I.M.E.'s national curriculum"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-flite-guwahati",
+      "type": "coaching",
+      "name": "Career Flite",
+      "city": "guwahati",
+      "locality": "Chandmari",
+      "address": "Near Chandmari Fly Over U-turn, opp. All India Radio, above Bimal Auto Agency, Guwahati, Assam 781003",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Career Flite, operating since 2003 near the Chandmari flyover U-turn, is a Guwahati-founded institute covering CLAT alongside banking, SSC, APSC and other competitive-exam coaching under one roof. Its CLAT batches use the institute's own study material built specifically for Assam's aspirant base.",
+      "highlights": [
+        "Guwahati-founded institute operating since 2003",
+        "Covers CLAT alongside banking, SSC, APSC and railway coaching under one roof",
+        "Chandmari centre, in-house study material built for Assam's aspirant base"
+      ],
+      "estd": 2003,
+      "mode": "offline"
+    },
+    {
+      "slug": "the-opus-way-guwahati",
+      "type": "coaching",
+      "name": "The OPUS Way",
+      "city": "guwahati",
+      "locality": "Rajgarh Road",
+      "address": "House No. 235, Rajgarh By Lane 8, Rajgarh Road, Guwahati, Assam 781003",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "The OPUS Way is a Guwahati-built institute specialising in CLAT alongside NIFT and NID entrance coaching. The institute reports a 68% success rate placing students into National Law Universities and a near-100% (95.5%) success rate for its NIFT batches, with both offline and online course options.",
+      "highlights": [
+        "Guwahati-built specialist covering CLAT, NIFT and NID entrance coaching",
+        "Reports a 68% success rate placing students into National Law Universities",
+        "Offers both offline and online course formats"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bright-life-classes-guwahati",
+      "type": "coaching",
+      "name": "Bright Life Classes",
+      "city": "guwahati",
+      "locality": "Ulubari",
+      "address": "1st Floor, Bora Service Station Complex, Ulubari, Guwahati, Assam 781007",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Bright Life Classes, in Ulubari, is a multi-exam institute covering IIT-JEE, NEET, NDA, spoken English and UGC-NET/CSIR alongside a dedicated Law-entrance track, positioned as one of Guwahati's broader competitive-exam options for families comparing several exam paths for one child.",
+      "highlights": [
+        "Multi-exam institute covering IIT-JEE, NEET, NDA and Law-entrance coaching under one roof",
+        "Ulubari centre, serving a different catchment from the Chandmari cluster",
+        "Dedicated Law-entrance track alongside its broader competitive-exam portfolio"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "tapasyaaa-coaching-institute-guwahati",
+      "type": "coaching",
+      "name": "Tapasyaaa Coaching Institute",
+      "city": "guwahati",
+      "locality": "Garchuk",
+      "address": "1st Floor, Silver Arcade, Police Point, AK Dev Road, Garchuk Chariali, Garchuk, Guwahati, Assam 781035",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Tapasyaaa Coaching Institute, based in Silver Arcade near Police Point in Garchuk, is a locally run multi-exam centre offering CLAT alongside Bank PO/Clerk, SSC, Railway, NDA, CDS and MCA-entrance coaching, serving Guwahati's southern Garchuk-Kahilipara catchment away from the denser Chandmari cluster.",
+      "highlights": [
+        "Locally run multi-exam centre in Garchuk, south Guwahati",
+        "Covers CLAT alongside Bank PO/Clerk, SSC, Railway, NDA and CDS coaching",
+        "Serves the Garchuk-Kahilipara catchment, distinct from the Chandmari coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "visionq-guwahati",
+      "type": "coaching",
+      "name": "VisionQ",
+      "city": "guwahati",
+      "locality": "Silpukhuri",
+      "address": "Triyambak, 1st Floor, House No. 11, Nabagraha Road, Silpukhuri, Guwahati, Assam 781003",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "VisionQ, on Nabagraha Road in Silpukhuri, primarily coaches for APSC, SSC, banking and railway exams but includes Law-entrance preparation in its portfolio, positioning itself as a mentor-driven institute for students who want guidance beyond just the syllabus.",
+      "highlights": [
+        "Silpukhuri centre primarily focused on APSC, SSC, banking and railway coaching",
+        "Includes Law-entrance (CLAT) preparation within its broader exam portfolio",
+        "Positions itself around mentorship and guidance alongside classroom teaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "difference-coaching-institute-guwahati",
+      "type": "coaching",
+      "name": "Difference Coaching Institute",
+      "city": "guwahati",
+      "locality": "Bhangagarh",
+      "address": "House No. 157, 3rd Floor, Rajgarh Road, above Sight First Eye Clinic, Rajgarh, Bhangagarh, Guwahati, Assam 781007",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Difference Coaching Institute, on Rajgarh Road in Bhangagarh, runs Law-entrance coaching as part of a broader competitive-exam portfolio, serving students in the Bhangagarh-Rajgarh pocket of the city.",
+      "highlights": [
+        "Bhangagarh/Rajgarh Road centre covering Law-entrance exams within a wider portfolio",
+        "Serves the Bhangagarh pocket of Guwahati, distinct from the Chandmari cluster",
+        "Locally run, multi-exam competitive coaching institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chaitanya-bharathi-academy-guwahati",
+      "type": "coaching",
+      "name": "Chaitanya Bharathi Academy",
+      "city": "guwahati",
+      "locality": "Bhangagarh",
+      "address": "Sethi Trust Building, opposite Big Bazar, GS Road, Bhangagarh, Guwahati, Assam 781005",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Chaitanya Bharathi Academy, on GS Road in Bhangagarh, runs an integrated schooling-plus-coaching model that combines Class 11-12 board studies with entrance-exam preparation for JEE, NEET, CA Foundation, UPSC Foundation and CLAT under one roof, with faculty the institute says are drawn from leading South Indian colleges.",
+      "highlights": [
+        "Integrated schooling-plus-coaching model combining Class 11-12 boards with entrance-exam prep",
+        "Covers JEE, NEET, CA Foundation, UPSC Foundation and CLAT under one roof",
+        "GS Road, Bhangagarh centre with faculty the institute says are drawn from leading South Indian colleges"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -7327,6 +7519,9 @@
     },
     "coaching-bhopal": {
       "intro": "<p>Bhopal has grown into Madhya Pradesh's largest hub for UPSC Civil Services preparation, pulling in aspirants from across the state with coaching fees that generally undercut Delhi's Rajinder Nagar and Mukherjee Nagar belts while still drawing faculty from the same national circuit. Most coaching activity sits inside MP Nagar — split between Zone-I and Zone-II — with a smaller cluster around TT Nagar/New Market and a newer entrant near Habib Ganj. Coaching here mixes national chains (KSG India, Vision IAS) with Bhopal-built specialists (Unique IAS Study Circle, Kalka IAS, Dhyeya IAS, Chahal Academy). Every listing below shows its verification status and, where available, additional detail on faculty and track record.</p>"
+    },
+    "coaching-guwahati": {
+      "intro": "<p>Guwahati is the Northeast's largest hub for CLAT and AILET preparation, anchored by the National Law University and Judicial Academy, Assam (NLUJAA) in nearby Amingaon — the region's only National Law University. Most coaching activity sits around Chandmari and the RG Baruah Road corridor, with additional institutes spread across Zoo Road, Ulubari, Silpukhuri, Garchuk and Bhangagarh. The market mixes national chains (IMS, Career Launcher, T.I.M.E.) with Guwahati-built specialists (Career Flite, The OPUS Way, Tapasyaaa Coaching Institute). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
