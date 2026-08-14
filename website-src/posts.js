@@ -2,6 +2,91 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "top-10-neet-coaching-institutes-jodhpur-2026",
+title: "Top 10 NEET Coaching Institutes in Jodhpur (2026)",
+category: "NEET / Medical",
+date: "14 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-jodhpur.html", text: "Browse all verified coaching institutes in Jodhpur" },
+excerpt: "Jodhpur has built a genuine NEET-coaching ecosystem of its own, distinct from nearby Kota and Sikar. Here\u2019s a fact-checked look at ten institutes actually training NEET aspirants in the city, from national chains to local specialists.",
+image: "assets/blog/top-10-neet-coaching-institutes-jodhpur-2026.png",
+imageAlt: "Top 10 NEET coaching institutes in Jodhpur 2026 graphic",
+html: `
+<p>Jodhpur sits barely three hours from Kota and Sikar, Rajasthan&rsquo;s two dominant coaching hubs, but the city has built a genuine NEET-preparation ecosystem of its own rather than simply feeding students north. National chains &mdash; Allen, Aakash, Resonance, Motion Education, Sri Chaitanya &mdash; run full local campuses here alongside home-grown institutes like Gurukripa, Deeksha Classes and Nirvaan Career Institute that have trained NEET aspirants from Jodhpur and western Rajasthan for close to two decades. For families who&rsquo;d rather not send a 16-year-old away from home for two years, that local depth matters. Here&rsquo;s a fact-checked look at ten institutes actually coaching for NEET in the city as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Jodhpur, Rajasthan</p>
+<p><strong>Exam this list is built for:</strong> NEET (UG)</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains, Rajasthan-origin coaching brands and local Jodhpur institutes</p>
+<p><strong>Why Jodhpur:</strong> A self-contained NEET-coaching market close to Kota/Sikar, letting local students prepare without relocating</p>
+<p><strong>NEET UG 2027:</strong> NTA&rsquo;s official notification is expected around February 2027 &mdash; check <a href="https://neet.nta.nic.in/" rel="noopener" target="_blank">neet.nta.nic.in</a> directly for the confirmed date</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable NEET-coaching presence in Jodhpur: a real local address, confirmation across more than one independent source, and current operations in the city as of 2026. The list mixes national chains, Rajasthan-based coaching brands with a Jodhpur branch, and locally run institutes, so families can compare all three formats side by side. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Allen Career Institute</h3>
+<p>Allen Career Institute&rsquo;s Jodhpur campus offers classroom coaching for NEET-UG alongside JEE Main/Advanced, NTSE, board and Olympiad prep, run by India&rsquo;s largest Kota-origin coaching chain using Allen&rsquo;s own study material and All India Test Series.</p>
+
+<h3>2. Aakash Institute</h3>
+<p>Aakash runs two centres in Jodhpur &mdash; on PWD Road and at Paota (Manji Ka Hattha) &mdash; offering NEET and IIT-JEE classroom coaching plus its Aakash Digital Learning Program (ADLP) for students who want recorded-lecture backup alongside live classes.</p>
+
+<h3>3. Resonance</h3>
+<p>Resonance&rsquo;s Jodhpur centre, at Mahaveer Colony in Ratanada, is the local branch of the Kota-headquartered national chain, with a second Kamla Nehru Nagar location rated 4.3 out of 5 from 344 reviews on Justdial.</p>
+
+<h3>4. Motion Education</h3>
+<p>Motion Education runs a single Jodhpur centre in Sardarpura, bringing the Kota-founded chain&rsquo;s NEET and JEE classroom programme, structured test series and doubt-resolution system to the city.</p>
+
+<h3>5. Sri Chaitanya Academy</h3>
+<p>Sri Chaitanya Academy&rsquo;s Jodhpur centre extends the Andhra Pradesh-founded chain&rsquo;s NEET and JEE coaching model, known nationally for its structured, high-intensity test-driven teaching format, to western Rajasthan.</p>
+
+<h3>6. Gurukripa Career Institute</h3>
+<p>Gurukripa, a NEET and JEE coaching brand running since 2007 with a strong result record out of Sikar, operates a dedicated Jodhpur branch that reported 14 students selected to AIIMS Delhi and 4 female students among AIIMS Delhi selections in its 2025 results.</p>
+
+<h3>7. Deeksha Classes</h3>
+<p>Deeksha Classes, based in Shastri Nagar since 2003, is one of Jodhpur&rsquo;s older local institutes for NEET, JEE and foundation coaching, rated 3.7 out of 5 from 36 reviews on Justdial.</p>
+
+<h3>8. Paathshala</h3>
+<p>Paathshala, on Saras Dairy Road near ITI, runs NEET/AIIMS entrance coaching alongside JEE Main and Advanced programmes, and publishes its year-wise result posters going back to 2016 on its own website.</p>
+
+<h3>9. Nirvaan Career Institute</h3>
+<p>Nirvaan Career Institute, in Manji Ka Hatha (Bhadwasiya, Paota), offers NEET, JEE and AIIMS coaching for Class 11-12 and foundation-level students, with hostel and transport facilities and a 4.3-star Justdial rating from 32 reviews.</p>
+
+<h3>10. Cerebrum Biology Academy</h3>
+<p>Cerebrum Biology Academy, founded in 2015 by AIIMS alumnus Dr Chandra Shekhar Singh, is an online NEET-biology specialist that runs a dedicated Jodhpur-focused programme aimed partly at AIIMS Jodhpur&rsquo;s Rajasthan state-quota seats &mdash; a useful supplementary option for students who want a biology-only push alongside offline physics/chemistry coaching.</p>
+
+<h2>Comparing your options</h2>
+<p>If you want a full residential or day-scholar programme under one roof, Allen, Aakash, Resonance, Motion Education and Sri Chaitanya are the national chains with the deepest test-series infrastructure. If you&rsquo;re looking for a Rajasthan-origin institute with a track record built specifically on NEET results, Gurukripa&rsquo;s Jodhpur branch is worth a direct visit given its recent AIIMS Delhi numbers. Deeksha Classes, Paathshala and Nirvaan Career Institute are longer-standing local options worth comparing on fees and batch size, especially for students who want smaller classrooms. And if biology is your weak subject rather than physics or chemistry, Cerebrum&rsquo;s online-only format is a reasonable add-on rather than a replacement for offline coaching. Compare full details and additional Jodhpur institutes on our <a href="coaching-jodhpur.html">Jodhpur coaching directory</a>.</p>
+`
+},
+{
+slug: "neet-ug-2026-round1-schedule-revised-result-august19-update",
+title: "NEET UG 2026: MCC Revises Round 1 Counselling Schedule, Result Now 19 August",
+category: "NEET / Medical",
+date: "14 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=neet", text: "Compare verified NEET coaching institutes" },
+excerpt: "MCC revised the NEET UG 2026 Round 1 counselling schedule on 13 August, extending registration and choice locking and pushing the Round 1 seat allotment result to 19 August, two days later than earlier announced.",
+image: "assets/blog/neet-ug-2026-round1-schedule-revised-result-august19-update.png",
+imageAlt: "NEET UG 2026 Round 1 schedule revised update graphic",
+html: `
+<p><strong>Last updated: 14 August 2026.</strong></p>
+<p>The Medical Counselling Committee (MCC) revised the Round 1 schedule for NEET UG 2026 counselling on 13 August 2026, extending the registration and choice-locking windows and pushing the Round 1 seat allotment result back to 19 August &mdash; two days later than the schedule published on 1 August.</p>
+<p>Per MCC&rsquo;s official Notice No. 08 (dated 13.08.2026) and the <a href="https://mcc.nic.in/current-events-ug/" rel="noopener" target="_blank">Current Events UG</a> page, the revised Round 1 timeline for the 15% All India Quota and 100% deemed/central university seats now runs as follows: registration and fee payment from 5 to 15 August (payment accepted until 5 PM on 15 August), choice filling and locking from 6 to 17 August (locking open 10 AM to 6 PM on 17 August), processing of seat allotment on 18 August, result on 19 August, reporting/joining from 20 to 25 August, and verification of joined-candidate data by institutes on 26 August.</p>
+<p>For students, the extra days mean more time to complete registration, payment and choice locking without rushing &mdash; but also a later result date, which pushes back when Round 1-allotted candidates can report to their institute and, in turn, when MCC is likely to open Round 2. Candidates should keep checking <a href="https://mcc.nic.in/" rel="noopener" target="_blank">mcc.nic.in</a> directly rather than relying on the earlier 17 August result date still circulating on some unofficial sources.</p>
+<h3>Important pointers</h3>
+<ul>
+<li><strong>[13 Aug 2026]</strong> MCC extended NEET UG 2026 Round 1 registration and fee payment to 15 August, from the earlier 12 August deadline, per official Notice No. 08.</li>
+<li><strong>[13 Aug 2026]</strong> Round 1 choice filling and locking now closes at 6 PM on 17 August 2026, four days later than the original 13 August deadline.</li>
+<li><strong>[13 Aug 2026]</strong> The Round 1 seat allotment result will be declared on 19 August 2026, not 17 August as earlier scheduled &mdash; confirmed directly on mcc.nic.in&rsquo;s Current Events UG page.</li>
+<li><strong>[20&ndash;25 Aug 2026]</strong> Reporting and joining for Round 1-allotted seats runs across this window, per the revised schedule.</li>
+<li><strong>Myth check:</strong> candidates who already registered for Round 1 and remain eligible do not need to register again for Round 2 &mdash; fresh registration is only required for candidates joining the counselling process for the first time.</li>
+</ul>
+<p>Read the full revised schedule directly on MCC&rsquo;s <a href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/202608131187512522.pdf" rel="noopener" target="_blank">official notice (PDF)</a>. Compare NEET coaching institutes with verified listings on our <a href="coaching.html?exam=neet">NEET coaching directory</a>.</p>
+<p><strong>Last updated: 14 August 2026.</strong></p>
+`
+},
+{
 slug: "top-10-jee-coaching-institutes-vijayawada-2026",
 title: "Top 10 JEE Coaching Institutes in Vijayawada (2026)",
 category: "JEE / Engineering",
