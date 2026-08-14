@@ -34,7 +34,8 @@
       "nagpur",
       "bhopal",
       "guwahati",
-      "vijayawada"
+      "vijayawada",
+      "jodhpur"
     ],
     "certification": [
       "online"
@@ -7620,6 +7621,221 @@
         "Covers JEE, NEET and foundation (Class 9-10) coaching"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-jodhpur",
+      "type": "coaching",
+      "name": "Allen Career Institute",
+      "city": "jodhpur",
+      "locality": "Jodhpur",
+      "address": "Jodhpur, Rajasthan",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Allen Career Institute's Jodhpur campus offers classroom coaching for NEET-UG, JEE Main/Advanced, NTSE, board exams and Olympiads, extending India's largest Kota-founded coaching chain's programme, study material and All India Test Series to western Rajasthan.",
+      "highlights": [
+        "Full NEET-UG and JEE Main/Advanced classroom programme",
+        "Uses Allen's own study material and All India Test Series",
+        "Part of India's largest Kota-founded coaching chain"
+      ],
+      "website": "https://www.allen.ac.in/jodhpur/",
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-jodhpur",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "jodhpur",
+      "locality": "Paota / PWD Road",
+      "address": "PWD Road & Paota (Manji Ka Hattha), Jodhpur, Rajasthan",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Aakash runs two centres in Jodhpur, on PWD Road and at Paota, offering NEET and IIT-JEE classroom coaching plus its Aakash Digital Learning Program (ADLP) for students who want recorded-lecture backup alongside live classes.",
+      "highlights": [
+        "Two centres in the city: PWD Road and Paota",
+        "Combines classroom coaching with Aakash Digital Learning Program (ADLP)",
+        "National chain with a long NEET/JEE track record"
+      ],
+      "website": "https://centers.aakash.ac.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-jodhpur",
+      "type": "coaching",
+      "name": "Resonance",
+      "city": "jodhpur",
+      "locality": "Ratanada",
+      "address": "Plot No. C-5, Near Shivam Hospital, Mahaveer Colony, Ratanada, Jodhpur, Rajasthan 342001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Resonance's Jodhpur centre in Ratanada is the local branch of the Kota-headquartered national coaching chain, running classroom NEET and JEE programmes, with a second Kamla Nehru Nagar location in the city.",
+      "highlights": [
+        "Kota-headquartered national chain with a Ratanada campus",
+        "Second branch in Kamla Nehru Nagar rated 4.3/5 from 344 Justdial reviews",
+        "Covers NEET-UG, AIIMS-pattern prep and JEE"
+      ],
+      "website": "https://www.resonance.ac.in/sc/Jodhpur",
+      "mode": "offline",
+      "googleRating": 4.3,
+      "googleReviewCount": 344
+    },
+    {
+      "slug": "motion-education-jodhpur",
+      "type": "coaching",
+      "name": "Motion Education",
+      "city": "jodhpur",
+      "locality": "Sardarpura",
+      "address": "Sardarpura, Jodhpur, Rajasthan",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Motion Education runs a single Jodhpur centre in Sardarpura, bringing the Kota-founded chain's NEET and JEE classroom programme, structured test series and doubt-resolution system to the city.",
+      "highlights": [
+        "Kota-founded chain with one Sardarpura campus in Jodhpur",
+        "Structured NEET/JEE test series and doubt-resolution system",
+        "18+ years of JEE/NEET coaching legacy"
+      ],
+      "website": "https://jodhpur.motion.ac.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "sri-chaitanya-academy-jodhpur",
+      "type": "coaching",
+      "name": "Sri Chaitanya Academy",
+      "city": "jodhpur",
+      "locality": "Jodhpur",
+      "address": "Jodhpur, Rajasthan",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Sri Chaitanya Academy's Jodhpur centre extends the Andhra Pradesh-founded chain's structured, test-driven NEET and JEE coaching model to western Rajasthan.",
+      "highlights": [
+        "Andhra Pradesh-founded chain known for a high-intensity test-driven format",
+        "Offers both NEET-UG and JEE coaching in Jodhpur",
+        "Part of one of India's largest integrated coaching networks"
+      ],
+      "website": "https://srichaitanyaacademy.net/centres/sri-chaitanya-jodhpur-coaching-centre",
+      "mode": "offline"
+    },
+    {
+      "slug": "gurukripa-career-institute-jodhpur",
+      "type": "coaching",
+      "name": "Gurukripa Career Institute (Jodhpur)",
+      "city": "jodhpur",
+      "locality": "Jodhpur",
+      "address": "Jodhpur, Rajasthan",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Gurukripa Career Institute, a NEET and JEE coaching brand running since 2007 with a strong Sikar result record, operates a dedicated Jodhpur branch that reported 14 students selected to AIIMS Delhi and 4 female students among its AIIMS Delhi selections in 2025.",
+      "highlights": [
+        "Running since 2007, with a strong NEET result record out of Sikar",
+        "Jodhpur branch reported 14 AIIMS Delhi selections in 2025",
+        "4 female students among its 2025 AIIMS Delhi selections"
+      ],
+      "website": "https://gurukripa.ac.in/branch/jodhpur",
+      "mode": "offline"
+    },
+    {
+      "slug": "deeksha-classes-jodhpur",
+      "type": "coaching",
+      "name": "Deeksha Classes",
+      "city": "jodhpur",
+      "locality": "Shastri Nagar",
+      "address": "Deeksha Tower, New Power House Road, Section 7, Shastri Nagar, Jodhpur, Rajasthan 342003",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Deeksha Classes, established in 2003 in Shastri Nagar, is one of Jodhpur's older local institutes offering NEET, JEE and foundation coaching alongside language training.",
+      "highlights": [
+        "Established 2003, one of Jodhpur's longer-running local institutes",
+        "Covers NEET, JEE and foundation-level (pre-foundation) coaching",
+        "Rated 3.7/5 from 36 reviews on Justdial"
+      ],
+      "website": "https://deekshaclasses.com/",
+      "mode": "offline",
+      "googleRating": 3.7,
+      "googleReviewCount": 36
+    },
+    {
+      "slug": "paathshala-jodhpur",
+      "type": "coaching",
+      "name": "Paathshala",
+      "city": "jodhpur",
+      "locality": "Saras Dairy Road",
+      "address": "12 A-3, Paathshala Tower, Heavy Industrial Area, Near ITI, Saras Dairy Road, Jodhpur, Rajasthan 342001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Paathshala, on Saras Dairy Road near ITI, runs NEET/AIIMS entrance coaching alongside JEE Main and Advanced programmes, and publishes its year-wise toppers' results going back to 2016 on its own website.",
+      "highlights": [
+        "Runs both NEET/AIIMS and JEE Main+Advanced programmes",
+        "Publishes year-wise result posters back to 2016",
+        "Local Jodhpur institute with a Saras Dairy Road campus"
+      ],
+      "website": "https://paathshala4u.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "nirvaan-career-institute-jodhpur",
+      "type": "coaching",
+      "name": "Nirvaan Career Institute",
+      "city": "jodhpur",
+      "locality": "Paota (Manji Ka Hatha)",
+      "address": "Plot No. 84-87, Bank of Baroda Building, Manji Ka Hatha, Bhadwasiya, Paota, Jodhpur, Rajasthan 342006",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Nirvaan Career Institute, in Manji Ka Hatha near Paota, offers NEET, JEE and AIIMS coaching for Class 11-12 and foundation-level students, with hostel and transport facilities for outstation students.",
+      "highlights": [
+        "Covers NEET, JEE/AIIMS and pre-foundation (Class 6-10) batches",
+        "Offers hostel and transport facilities for outstation students",
+        "Rated 4.3/5 from 32 reviews on Justdial"
+      ],
+      "website": "https://www.justdial.com/Jodhpur/Nirvaan-Career-Institute-Paota/0291PX291-X291-190319175453-L2J9_BZDET",
+      "mode": "offline",
+      "googleRating": 4.3,
+      "googleReviewCount": 32
+    },
+    {
+      "slug": "cerebrum-biology-academy-jodhpur",
+      "type": "coaching",
+      "name": "Cerebrum Biology Academy (Jodhpur)",
+      "city": "jodhpur",
+      "locality": "Online, Jodhpur-focused",
+      "address": "Online (live classes), serving Jodhpur NEET aspirants",
+      "exams": [
+        "neet"
+      ],
+      "verified": false,
+      "about": "Cerebrum Biology Academy, founded in 2015 by AIIMS alumnus Dr Chandra Shekhar Singh, is an online NEET-biology specialist running a Jodhpur-focused programme aimed partly at AIIMS Jodhpur's Rajasthan state-quota seats, for students who want a dedicated biology push alongside offline physics/chemistry coaching.",
+      "highlights": [
+        "Founded 2015 by an AIIMS-alumnus biology specialist",
+        "Live online classes with a Jodhpur-focused NEET-biology track",
+        "Targets AIIMS Jodhpur's Rajasthan state-quota seats specifically"
+      ],
+      "website": "https://cerebrumbiologyacademy.com/best-neet-coaching-jodhpur",
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -7716,6 +7932,9 @@
     },
     "coaching-vijayawada": {
       "intro": "<p>Vijayawada is one of Andhra Pradesh's largest hubs for JEE preparation, shaped by the state's distinctive integrated model where most serious aspirants join a residential or semi-residential junior college that combines Class 11-12 board studies with IIT-JEE coaching, rather than attending a standalone coaching centre alongside a separate school. The city's two dominant integrated chains, Sri Chaitanya and Narayana, sit alongside national coaching-only brands (FIITJEE, Aakash, Resonance) concentrated around MG Road, Labbipet and Benz Circle, plus locally run institutes and hybrid online-offline options. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-jodhpur": {
+      "intro": "<p>Jodhpur is one of Rajasthan's self-contained NEET-coaching markets, distinct from nearby Kota and Sikar even though all three cities sit within a few hours of each other. National chains (Allen, Aakash, Resonance, Motion Education, Sri Chaitanya) run full local campuses here, alongside Rajasthan-origin and Jodhpur-founded institutes &mdash; Gurukripa, Deeksha Classes, Paathshala and Nirvaan Career Institute &mdash; that have built independent NEET-coaching track records over the past one to two decades. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
