@@ -35,7 +35,8 @@
       "bhopal",
       "guwahati",
       "vijayawada",
-      "jodhpur"
+      "jodhpur",
+      "surat"
     ],
     "certification": [
       "online"
@@ -7836,6 +7837,206 @@
       ],
       "website": "https://cerebrumbiologyacademy.com/best-neet-coaching-jodhpur",
       "mode": "online"
+    },
+    {
+      "slug": "career-launcher-surat",
+      "type": "coaching",
+      "name": "Career Launcher Surat",
+      "city": "surat",
+      "locality": "Vesu / New City Light Road",
+      "address": "310, Astha Corporates Capital, Near VIP Plaza, VIP Road, Vesu, Surat, Gujarat 395009; second centre at G-12, Central Plaza, New City Light Road, Surat",
+      "estd": 1995,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Career Launcher, the national coaching chain founded in 1995 by Satya Narayanan R, runs two Surat centres — Astha Corporates Capital on VIP Road in Vesu, and a New City Light Road branch. Both offer CAT classroom coaching built on the chain's CL Smart online platform, national test series and mentoring from IIM-alumnus faculty.",
+      "highlights": [
+        "Two Surat centres: Vesu (VIP Road) and New City Light Road",
+        "National chain founded 1995, with CL Smart online mock and video-solution platform",
+        "Classroom coaching plus personalised mentoring track"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-surat",
+      "type": "coaching",
+      "name": "IMS Surat",
+      "city": "surat",
+      "locality": "Athwalines",
+      "address": "UL/45-48, Pooja Abhishek Complex, Opp. SPB College, Athwalines, Surat, Gujarat 395001",
+      "estd": 1977,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "IMS Learning Resources was founded in Mumbai in 1977 by Prof. N.R. Rane, and its Athwalines centre — opposite SPB College — gives Surat students access to the same nationally benchmarked SimCAT mock series and 'IMS CATcracker' workbooks used across the chain's other centres, with a particular focus on verbal ability and logical reasoning.",
+      "highlights": [
+        "Part of a CAT-coaching chain founded in 1977, one of India's oldest",
+        "Centre located opposite SPB College on Athwalines",
+        "Access to the pan-India SimCAT proctored mock-test series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-surat",
+      "type": "coaching",
+      "name": "TIME Surat",
+      "city": "surat",
+      "locality": "Adajan",
+      "address": "109, 1st Floor, Green Plaza, L P Savani Circle, Adajan, Surat, Gujarat 395009; second centre on City Light Road, Surat 395008",
+      "estd": 1992,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "TIME (Triumphant Institute of Management Education), founded in 1992, runs its main Surat centre at Green Plaza on L P Savani Circle in Adajan, with a second branch on City Light Road. The chain is known nationally for its exhaustive question-bank-driven test series, delivered through both classroom sessions and the TIME4Education online platform.",
+      "highlights": [
+        "Two Surat centres: Adajan (L P Savani Circle) and City Light Road",
+        "National chain founded 1992, known for high-volume practice-test approach",
+        "Classroom plus TIME4Education online test series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "endeavor-careers-surat",
+      "type": "coaching",
+      "name": "Endeavor Careers",
+      "city": "surat",
+      "locality": "Athwalines",
+      "address": "Platinum Plaza, Shop No. 3, Lower Ground Floor, Parle Point Flyover, Opp. SPB College, Athwalines, Athwa, Surat, Gujarat 395007",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Endeavor Careers runs its Surat centre at Platinum Plaza near the Parle Point flyover on Athwalines, positioning itself as a selective, premium CAT-coaching option with smaller batches and closer mentoring aimed at students targeting the top IIMs.",
+      "highlights": [
+        "Centre near Parle Point flyover, Athwalines",
+        "Smaller, selective batches aimed at top-IIM aspirants",
+        "Personalised mentoring alongside classroom coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "stalwart-career-institute-surat",
+      "type": "coaching",
+      "name": "Stalwart Career Institute",
+      "city": "surat",
+      "locality": "Pankaj Nagar",
+      "address": "Aadinath Arcade, 501-504, Honey Park Road, Near L P Savani Circle, Honey Park Area, Pankaj Nagar, Surat, Gujarat 395009",
+      "estd": 2016,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Stalwart Career Institute is a CAT, CMAT, IPMAT and CUET coaching chain that has operated since 2016 across cities including Indore, Lucknow, Ghaziabad and Agra. Its Surat centre, at Aadinath Arcade on Honey Park Road, offers classroom coaching alongside the chain's AI-based mock-analysis platform.",
+      "highlights": [
+        "Part of a multi-city coaching chain operating since 2016",
+        "Small-batch, concept-focused CAT and CMAT/IPMAT coaching",
+        "AI-based mock-test analysis platform alongside classroom sessions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pt-education-surat",
+      "type": "coaching",
+      "name": "PT Education",
+      "city": "surat",
+      "locality": "Ghod Dod Road",
+      "address": "M-401, Shiv Shakti Shopping Complex, Near Ram Chowk, Ghod Dod Road, Surat, Gujarat 395007; nodal centre at J-2, Japan Market, Opp. Linear Bus Stand, Delhi Gate, Surat",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "PT Education's Surat operation spans two locations — a main branch on Ghod Dod Road at Shiv Shakti Shopping Complex, and a nodal centre in Japan Market near Delhi Gate — extending the Delhi-founded chain's CAT and MBA-entrance coaching, along with other competitive-exam programmes, to the city.",
+      "highlights": [
+        "Two Surat locations: Ghod Dod Road (main) and Japan Market/Delhi Gate (nodal)",
+        "Part of a multi-city, multi-exam coaching chain",
+        "CAT coaching alongside other competitive-exam programmes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chahal-academy-surat",
+      "type": "coaching",
+      "name": "Chahal Academy",
+      "city": "surat",
+      "locality": "New Civil Road",
+      "address": "1-2, Gangotri, New Civil Road, Opp. Kapadia Health Club, Surat, Gujarat 395001",
+      "estd": 2011,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Chahal Academy, on New Civil Road opposite Kapadia Health Club, has run in Surat for roughly 14 years per its local business listing. Better known for UPSC coaching, its Surat centre also offers preparation for CAT, CLAT, CMAT and SNAP, both offline and online.",
+      "highlights": [
+        "Operating in Surat for roughly 14 years",
+        "Multi-exam centre: CAT, CLAT, CMAT and SNAP alongside UPSC coaching",
+        "Offline and online instruction available"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "lk-academy-surat",
+      "type": "coaching",
+      "name": "LK Academy",
+      "city": "surat",
+      "locality": "Vidyabharti / Atop Nagar",
+      "address": "50AB, Atop Nagar Society, Behind ICICI Bank, Beside Vidyabharti School, Surat, Gujarat 395017",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "LK Academy, at Atop Nagar Society behind an ICICI Bank branch near Vidyabharti School, is a Surat-based institute offering CAT preparation in both online and offline formats, built around a consistent core faculty team through the full course.",
+      "highlights": [
+        "Locally run Surat institute near Vidyabharti School",
+        "Both online and offline CAT coaching formats",
+        "Consistent core faculty team through the course"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "protalent-surat",
+      "type": "coaching",
+      "name": "ProTalent",
+      "city": "surat",
+      "locality": "New City Light",
+      "address": "Om Terrace, S-10, Central Plaza, Near New City Light, Surat, Gujarat 395007",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "ProTalent, at Om Terrace in Central Plaza near New City Light, runs online, offline and hybrid CAT coaching for Surat students, combining recorded video lectures with regular practice tests and mock exams.",
+      "highlights": [
+        "Online, offline and hybrid CAT coaching formats",
+        "Centre near New City Light, Central Plaza",
+        "Recorded video lectures plus regular mock tests"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "intelligent-classes-surat",
+      "type": "coaching",
+      "name": "Intelligent Classes",
+      "city": "surat",
+      "locality": "City Light Road",
+      "address": "L/14, Citylight Complex, City Light Road, Surat, Gujarat 395007",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Intelligent Classes, at Citylight Complex on City Light Road, offers a broader management-entrance portfolio spanning CAT, MAT, XAT and NMAT alongside BBA-entrance coaching — a reasonable option for students who haven't fixed on a single MBA-entrance exam yet.",
+      "highlights": [
+        "Multi-exam coverage: CAT, MAT, XAT, NMAT and BBA entrance",
+        "Centre on City Light Road",
+        "Suits students preparing for more than one MBA-entrance exam"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -7935,6 +8136,9 @@
     },
     "coaching-jodhpur": {
       "intro": "<p>Jodhpur is one of Rajasthan's self-contained NEET-coaching markets, distinct from nearby Kota and Sikar even though all three cities sit within a few hours of each other. National chains (Allen, Aakash, Resonance, Motion Education, Sri Chaitanya) run full local campuses here, alongside Rajasthan-origin and Jodhpur-founded institutes &mdash; Gurukripa, Deeksha Classes, Paathshala and Nirvaan Career Institute &mdash; that have built independent NEET-coaching track records over the past one to two decades. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "surat": {
+      "intro": "<p>Surat, Gujarat&rsquo;s largest city and India&rsquo;s diamond and textile hub, has grown into a genuine CAT-coaching market of its own over the past decade rather than staying a feeder city sending aspirants to Ahmedabad or Vadodara. National chains &mdash; Career Launcher, IMS, TIME and Endeavor Careers &mdash; run full local centres clustered around Vesu, Adajan and Athwalines, alongside Surat-based and multi-exam institutes such as Chahal Academy, LK Academy and Intelligent Classes that coach for CAT alongside CLAT, CMAT, XAT, SNAP and NMAT. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
