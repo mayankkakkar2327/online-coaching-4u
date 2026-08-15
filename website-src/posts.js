@@ -2,6 +2,121 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "mat-2026-september-session-registration-open-aima-update",
+title: "MAT 2026 September Session: AIMA Opens Registration for PBT and CBT",
+category: "MAT / MBA",
+date: "15 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "AIMA has opened registration for the September 2026 session of MAT, with the Paper-Based Test on 13 September and the Computer-Based Test on 20 September — the third of MAT's four annual sessions.",
+image: "assets/blog/mat-2026-september-session-registration-open-update.png",
+imageAlt: "MAT 2026 September session registration open update graphic",
+html: `
+<p><strong>Last updated: 15 August 2026.</strong></p>
+<p>The All India Management Association (AIMA) has opened registration for the September 2026 session of the Management Aptitude Test (MAT), confirmed directly on the official <a href="https://mat.aima.in/" rel="noopener" target="_blank">mat.aima.in</a> portal, with a Paper-Based Test (PBT) on 13 September and a Computer-Based Test (CBT) on 20 September 2026.</p>
+
+<h2>What's actually confirmed</h2>
+<p>AIMA's official site lists separate timelines for the two test modes. For the PBT, registration closes 7 September, admit cards go live 10 September, and the test itself is held 13 September 2026. For the CBT, registration closes 14 September, admit cards go live 17 September, and the test is held 20 September 2026. The exam fee is Rs 2,300 for either mode alone, or Rs 4,000 for candidates who register for both PBT and CBT — a concession AIMA offers to encourage attempting both formats. MAT's pattern is unchanged this cycle: 150 questions across five sections (Language Comprehension, Intelligence &amp; Critical Reasoning, Mathematical Skills, Data Analysis &amp; Sufficiency, and Economic &amp; Business Environment), 30 questions per section, to be attempted in 120 minutes, with 0.25 marks deducted per wrong answer. AIMA runs MAT across 54 test cities this session.</p>
+
+<h2>What this means for aspirants</h2>
+<p>September is the third of MAT's four annual sessions (February, May, September, December), and a MAT score stays valid for one year, so candidates already holding a February or May 2026 score can weigh whether attempting September again is worth it purely to try for a higher percentile. Candidates who haven't attempted MAT yet this cycle, or want a second official score on record before the December session, should register early — PBT slots and centres are typically allocated on a first-come basis, and the concession for registering both PBT and CBT together works out cheaper than paying for both separately later if you're likely to attempt both anyway. AIMA states MAT scores are accepted by 600-plus B-schools nationally, so a September score can still be used for institutes admitting after this session's results are out.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[15 Aug 2026]</strong> AIMA confirms MAT September 2026 registration is open in both Paper-Based (PBT) and Computer-Based (CBT) modes, per the official <a href="https://mat.aima.in/" rel="noopener" target="_blank">mat.aima.in</a> portal.</li>
+<li><strong>[7 Sept 2026]</strong> PBT registration closes; the PBT admit card is released 10 September and the test is held 13 September 2026.</li>
+<li><strong>[14 Sept 2026]</strong> CBT registration closes; the CBT admit card is released 17 September and the test is held 20 September 2026.</li>
+<li><strong>[Fee]</strong> Rs 2,300 for one test mode (PBT or CBT); Rs 4,000 for both, per AIMA's official fee table.</li>
+<li><strong>Myth check:</strong> MAT is not a single once-a-year exam like CAT — AIMA conducts it four times annually (February, May, September, December), and a MAT score remains valid for one year across institutes that accept it.</li>
+</ul>
+
+<p><em>Last updated: 15 August 2026. Source: <a href="https://mat.aima.in/" rel="noopener" target="_blank">mat.aima.in</a> (official AIMA registration and schedule details).</em></p>`
+},
+
+{
+slug: "top-10-cat-coaching-institutes-surat-2026",
+title: "Top 10 CAT Coaching Institutes in Surat (2026)",
+category: "CAT / MBA",
+date: "15 Aug 2026",
+minutes: 11,
+cta: { href: "coaching-surat.html", text: "Browse all verified coaching institutes in Surat" },
+excerpt: "Surat has quietly become one of western India's more active CAT-coaching markets, clustered around Vesu, Adajan, Athwalines and City Light Road. Here's a fact-checked look at ten institutes actually training students for CAT in the city.",
+image: "assets/blog/top-10-cat-coaching-institutes-surat-2026.png",
+imageAlt: "Top 10 CAT coaching institutes in Surat 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best CAT coaching institute in Surat?",
+    "a": "There's no single 'best' — it depends on whether you want a large national chain's mock-test scale and multi-decade track record (Career Launcher, IMS, TIME, Endeavor Careers) or a Surat-based institute's more flexible batches and multi-exam coverage (Stalwart, PT Education, Chahal Academy, LK Academy, ProTalent, Intelligent Classes). Compare batch size, faculty and current fees directly with 2-3 shortlisted institutes before deciding."
+  },
+  {
+    "q": "Where are Surat's main CAT coaching clusters?",
+    "a": "Vesu, Adajan, Athwalines and City Light Road are Surat's four biggest coaching clusters. Most institutes on this list run at least one centre in one of these areas."
+  },
+  {
+    "q": "What is the average fee for CAT coaching in Surat?",
+    "a": "Fees vary widely by institute and format, roughly from the mid-tens-of-thousands for local institutes to over a lakh for premium classroom programmes at national chains. Confirm current fees directly with each institute, since they change often."
+  },
+  {
+    "q": "Is online CAT coaching available in Surat?",
+    "a": "Yes — most institutes on this list, including TIME, IMS, Career Launcher, Stalwart and ProTalent, offer online or hybrid options alongside their physical Surat centres."
+  },
+  {
+    "q": "Does Online Coaching 4u accept payment for institute rankings?",
+    "a": "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform."
+  }
+],
+html: `
+<p>Surat is Gujarat's largest city and India's diamond and textile capital, but it has also quietly built one of western India's more active CAT-coaching markets over the past decade. Coaching activity clusters around four pockets — Vesu, Adajan, Athwalines and City Light Road — mixing long-established national chains with institutes built specifically for Surat and Gujarat's aspirants. The list below sticks to institutes with a genuine, checkable local presence: a real address, a track record we could cross-reference across more than one independent source, and current operations in the city as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Surat, Gujarat</p>
+<p><strong>Exam this list is built for:</strong> CAT (Common Admission Test); most institutes below also coach for XAT, CMAT, SNAP and NMAT</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Surat-based specialists</p>
+<p><strong>Why Surat:</strong> Gujarat's largest city, with CAT coaching clustered mainly around Vesu, Adajan, Athwalines and City Light Road</p>
+<p><strong>CAT 2026 registration:</strong> Open 3 August – 15 September 2026, per the official <a href="https://iimcat.ac.in" rel="noopener" target="_blank">iimcat.ac.in</a> schedule</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CAT-coaching presence in Surat: a real local address, a track record we could find independent confirmation of (founding year where available, branch locations, years actually operating in the city), and coverage across Surat's main coaching clusters rather than a single branch. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Career Launcher Surat</h3>
+<p>Career Launcher, the national coaching chain founded in 1995 by Satya Narayanan R, runs two Surat centres — Astha Corporates Capital on VIP Road in Vesu, and a New City Light Road branch. Both offer CAT classroom coaching built on the chain's CL Smart online platform, national test series and mentoring from IIM-alumnus faculty.</p>
+
+<h3>2. IMS Surat</h3>
+<p>IMS Learning Resources was founded in Mumbai in 1977 by Prof. N.R. Rane, and its Athwalines centre — opposite SPB College — gives Surat students access to the same nationally benchmarked SimCAT mock series and "IMS CATcracker" workbooks used across the chain's other centres, with a particular focus on verbal ability and logical reasoning.</p>
+
+<h3>3. TIME Surat</h3>
+<p>TIME (Triumphant Institute of Management Education), founded in 1992, runs its main Surat centre at Green Plaza on L P Savani Circle in Adajan, with a second branch on City Light Road. The chain is known nationally for its exhaustive question-bank-driven test series, delivered through both classroom sessions and the TIME4Education online platform.</p>
+
+<h3>4. Endeavor Careers</h3>
+<p>Endeavor Careers runs its Surat centre at Platinum Plaza near the Parle Point flyover on Athwalines, positioning itself as a selective, premium CAT-coaching option with smaller batches and closer mentoring aimed at students targeting the top IIMs.</p>
+
+<h3>5. Stalwart Career Institute</h3>
+<p>Stalwart Career Institute is a CAT, CMAT, IPMAT and CUET coaching chain that has operated since 2016 across cities including Indore, Lucknow, Ghaziabad and Agra. Its Surat centre, at Aadinath Arcade on Honey Park Road, offers classroom coaching alongside the chain's AI-based mock-analysis platform.</p>
+
+<h3>6. PT Education</h3>
+<p>PT Education's Surat operation spans two locations — a main branch on Ghod Dod Road at Shiv Shakti Shopping Complex, and a nodal centre in Japan Market near Delhi Gate — extending the Delhi-founded chain's CAT and MBA-entrance coaching, along with other competitive-exam programmes, to the city.</p>
+
+<h3>7. Chahal Academy</h3>
+<p>Chahal Academy, on New Civil Road opposite Kapadia Health Club, has run in Surat for roughly 14 years per its local business listing. Better known for UPSC coaching, its Surat centre also offers preparation for CAT, CLAT, CMAT and SNAP, both offline and online.</p>
+
+<h3>8. LK Academy</h3>
+<p>LK Academy, at Atop Nagar Society behind an ICICI Bank branch near Vidyabharti School, is a Surat-based institute offering CAT preparation in both online and offline formats, built around a consistent core faculty team through the full course.</p>
+
+<h3>9. ProTalent</h3>
+<p>ProTalent, at Om Terrace in Central Plaza near New City Light, runs online, offline and hybrid CAT coaching for Surat students, combining recorded video lectures with regular practice tests and mock exams.</p>
+
+<h3>10. Intelligent Classes</h3>
+<p>Intelligent Classes, at Citylight Complex on City Light Road, offers a broader management-entrance portfolio spanning CAT, MAT, XAT and NMAT alongside BBA-entrance coaching — a reasonable option for students who haven't fixed on a single MBA-entrance exam yet.</p>
+
+<h2>How these institutes compare</h2>
+<p>The national chains — Career Launcher, IMS, TIME and Endeavor Careers — bring the largest mock-test pools, multi-decade track records and multiple physical locations across Vesu, Adajan and Athwalines, useful if you want a statistically meaningful percentile benchmark. Surat-based institutes — Stalwart, PT Education, Chahal Academy, LK Academy, ProTalent and Intelligent Classes — generally offer more flexible batch timings, broader multi-exam portfolios (several also coach for XAT, CMAT, SNAP and NMAT alongside CAT), and a more locally rooted fee structure. Vesu, Adajan, Athwalines and City Light Road are Surat's four biggest coaching clusters, so proximity to home or college is worth weighing alongside brand name when you shortlist.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch timings and faculty assignments change often enough that this list shouldn't replace a direct visit or call to your shortlisted institutes. Ask specifically who teaches your batch (not just who founded the institute), how many full-length mocks are included, and whether GD-PI-WAT preparation is bundled in or a separate add-on — these three questions cut through marketing copy faster than any ranking can. Compare full details and additional Surat institutes on our <a href="coaching-surat.html">Surat coaching directory</a>.</p>`
+},
+
+{
 slug: "top-10-neet-coaching-institutes-jodhpur-2026",
 title: "Top 10 NEET Coaching Institutes in Jodhpur (2026)",
 category: "NEET / Medical",
