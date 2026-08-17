@@ -1,6 +1,122 @@
 /* Original content for Online Coaching 4u.
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
+
+{
+slug: "upsc-cse-2026-mains-e-admit-card-released-update",
+title: "UPSC CSE 2026 Mains: e-Admit Card Released Ahead of 21 August Exam",
+category: "IAS / UPSC",
+date: "17 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=ias", text: "Compare verified IAS/UPSC coaching institutes" },
+excerpt: "UPSC released e-Admit Cards for the Civil Services (Main) Examination 2026 on its official website, with the five-day Mains exam scheduled for 21, 22, 23, 29 and 30 August 2026.",
+image: "assets/blog/upsc-cse-2026-mains-e-admit-card-released-update.png",
+imageAlt: "UPSC CSE 2026 Mains e-Admit Card released update graphic",
+html: `
+<p><strong>Last updated: 17 August 2026.</strong></p>
+<p>The Union Public Service Commission has released e-Admit Cards for the Civil Services (Main) Examination 2026, confirmed directly on the official <a href="https://upsc.gov.in" rel="noopener" target="_blank">upsc.gov.in</a> "What's New" notice board, which lists the update with a last-updated date of 14 August 2026 — about a week ahead of the exam's first day.</p>
+
+<h2>What's actually confirmed</h2>
+<p>UPSC's notice titled "e - Admit Card: Civil Services (Main) Examination, 2026" routes candidates to the official application portal, <a href="https://upsconline.nic.in/" rel="noopener" target="_blank">upsconline.nic.in</a>, where candidates who cleared the CSE Prelims 2026 screening round can log in with their registration credentials to download the card. The Mains exam itself runs across five days — 21, 22 and 23 August, a weekend gap, then 29 and 30 August 2026 — with the Essay and General Studies I-IV papers in the first block, the qualifying Indian Language and English papers on 29 August, and the Optional Subject papers on 30 August, in two sessions on each exam day.</p>
+
+<h2>What this means for aspirants</h2>
+<p>With cards live and the exam roughly a week out, candidates should check their allotted centre, session timing and the photograph/signature printed on the card immediately, since UPSC's window to flag errors closes well before exam day. UPSC has also flagged, as a standing notice on its homepage, that all candidates will undergo Face Authentication at the venue this cycle — aspirants should carry the same photo ID used at the time of registration, not just the admit card, to avoid last-minute entry issues.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[14 Aug 2026]</strong> UPSC's official "What's New" board lists the e-Admit Card for Civil Services (Main) Examination, 2026 as released, per <a href="https://www.upsc.gov.in/whats-new/Civil%20Services%20%28Main%29%20Examination%2C%202026/e%20-%20Admit%20Card" rel="noopener" target="_blank">upsc.gov.in</a>.</li>
+<li><strong>[Download]</strong> Admit cards are issued only through the official application portal, <a href="https://upsconline.nic.in/" rel="noopener" target="_blank">upsconline.nic.in</a>, using registration login credentials — UPSC does not email admit cards.</li>
+<li><strong>[21–30 Aug 2026]</strong> CSE (Main) 2026 runs across five days: 21, 22 and 23 August, then 29 and 30 August, in two sessions per day.</li>
+<li><strong>[Venue rule]</strong> UPSC has confirmed Face Authentication is mandatory for every candidate at the exam venue this cycle — carry the same photo ID used at registration.</li>
+<li><strong>Myth check:</strong> A released admit card is not final proof of eligibility — UPSC's provisional-admission note still allows the Commission to withdraw candidature later if eligibility documents don't check out, so keep original certificates ready regardless.</li>
+</ul>
+
+<p><em>Last updated: 17 August 2026. Source: <a href="https://www.upsc.gov.in/whats-new/Civil%20Services%20%28Main%29%20Examination%2C%202026/e%20-%20Admit%20Card" rel="noopener" target="_blank">upsc.gov.in</a> (official UPSC notice board).</em></p>`
+},
+
+{
+slug: "top-10-ias-coaching-institutes-varanasi-2026",
+title: "Top 10 IAS Coaching Institutes in Varanasi (2026)",
+category: "IAS / UPSC",
+date: "17 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-varanasi.html", text: "Browse all verified coaching institutes in Varanasi" },
+excerpt: "Varanasi's UPSC-coaching scene has grown well beyond a feeder city for Prayagraj and Delhi, anchored by clusters in Lanka, Sigra and Durgakund. Here's a fact-checked look at ten institutes actually training IAS aspirants in the city.",
+image: "assets/blog/top-10-ias-coaching-institutes-varanasi-2026.png",
+imageAlt: "Top 10 IAS coaching institutes in Varanasi 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best IAS coaching institute in Varanasi?",
+    "a": "There's no single 'best' — RAO IAS and History IAS Academy stand out on sheer review volume (4.8/5 from 1,000+ and 100+ Justdial ratings respectively), Dhyeya IAS and Ashoka (CSAT) IAS cite specific, checkable track records, and Kautilya Success Centre is the clearest small-batch option. Compare batch size, faculty and current fees directly with 2-3 shortlisted institutes before deciding."
+  },
+  {
+    "q": "Where are Varanasi's main UPSC-coaching clusters?",
+    "a": "Lanka (anchored by BHU's main gate), Sigra, Durgakund and Pandeypur are Varanasi's primary coaching pockets. Most institutes on this list run at least one centre in one of these areas."
+  },
+  {
+    "q": "Do Varanasi institutes also coach for UP state PCS (UPPSC)?",
+    "a": "Yes — most institutes on this list, including RAO IAS, Dhyeya IAS and History IAS Academy, run combined UPSC-UPPSC batches alongside dedicated IAS courses, since many Varanasi aspirants target both exams together."
+  },
+  {
+    "q": "Is online IAS coaching available in Varanasi?",
+    "a": "Yes — Dhyeya IAS and PT Education, among others on this list, offer online or hybrid options alongside their physical Varanasi centres."
+  },
+  {
+    "q": "Does Online Coaching 4u accept payment for institute rankings?",
+    "a": "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform."
+  }
+],
+html: `
+<p>Varanasi's UPSC-coaching scene has grown well past its old reputation as a feeder city quietly sending its sharpest students off to Prayagraj or Delhi. Anchored by Banaras Hindu University and clustered mainly around Lanka, Sigra, Durgakund and Pandeypur, the city now runs a full IAS-preparation ecosystem of its own — from institutes that have trained Purvanchal's civil-service aspirants for close to two decades to newer, focused academies built around small batch sizes. Most institutes here run combined UPSC-UPPSC batches too, since a large share of Varanasi's aspirants are preparing for the state PCS alongside the national exam. The list below sticks to institutes with a genuine, checkable local presence: a real address, confirmation across more than one independent source, and current operations in the city as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Varanasi, Uttar Pradesh</p>
+<p><strong>Exam this list is built for:</strong> UPSC Civil Services (IAS/IPS/IRS); most institutes below also coach for UPPSC (UP state PCS)</p>
+<p><strong>Institutes compared:</strong> 10, spanning Varanasi-founded academies and long-running local coaching brands</p>
+<p><strong>Main coaching clusters:</strong> Lanka (near BHU), Sigra, Durgakund and Pandeypur</p>
+<p><strong>UPSC CSE 2026 Mains:</strong> 21, 22, 23, 29 and 30 August 2026, per the official <a href="https://upsc.gov.in" rel="noopener" target="_blank">upsc.gov.in</a> notice board</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable IAS-coaching presence in Varanasi: a real local address, confirmation across more than one independent source (institute websites, business directories, review platforms), and current operations in the city as of 2026. Two brands that came up repeatedly in generic "best of Varanasi" round-ups — both large coaching chains headquartered in Delhi with no confirmed physical Varanasi branch on their own official centre listings — were left off this list for exactly that reason. None of the ten below have paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. RAO IAS</h3>
+<p>RAO IAS runs its Varanasi centre on the Kashi Vidyapith campus, opposite Gate No. 1 on Sigra Road — the most-reviewed IAS coaching institute in the city on local directories, rated 4.8 out of 5 across more than 1,100 Justdial ratings. It offers classroom coaching for the UPSC Civil Services Examination alongside UP-PCS preparation.</p>
+
+<h3>2. Dhyeya IAS</h3>
+<p>Dhyeya IAS, founded by Vinay Singh in 2003, has run its Varanasi branch in Nagwa near Lanka since 2012, and cites more than 90 candidates selected into the IAS, IPS and PCS cadres from that branch alone. It runs classroom, online and distance-learning formats, with dedicated UPPSC-focused batches alongside its UPSC coaching.</p>
+
+<h3>3. History IAS Academy</h3>
+<p>History IAS Academy, on Durgakund Road since 2007, publishes a transparent fee table — around Rs 55,000 for a 14-month combined Prelims-and-Mains course and Rs 65,000 for an 18-month Prelims-to-Interview track — alongside a separate PCS Judiciary programme, and holds a 4.8-star rating from over 100 Justdial reviews.</p>
+
+<h3>4. The Civil Way</h3>
+<p>The Civil Way, near Sudhakar Mahila College in Pandeypur, is a newer entrant that has quickly built a strong local reputation for its IAS coaching, rated 4.8 out of 5 from more than 90 Justdial reviews, with students specifically citing course quality.</p>
+
+<h3>5. PT Education</h3>
+<p>PT Education, founded in a family garage in Indore in 1993 and now operating in more than 35 cities, runs its Varanasi centre in Malviya Kunj, Lanka, offering UPSC coaching alongside its broader banking, CAT and other competitive-exam portfolio.</p>
+
+<h3>6. Kautilya Success Centre</h3>
+<p>Kautilya Success Centre, in Gandhi Nagar, Naria near Sunderpur, runs IAS and NDA batches built around smaller group sizes and closer faculty attention, a different format from the multi-city chains also active in the city.</p>
+
+<h3>7. ETEN IAS</h3>
+<p>ETEN IAS, in Lanka near the HDFC Bank ATM, was originally built as Pearson's civil-services test-preparation vertical before CL Educate — the company behind Career Launcher — acquired the business in 2017; its Varanasi centre now runs under that ownership, offering classroom UPSC coaching.</p>
+
+<h3>8. Ashoka (CSAT) IAS</h3>
+<p>Ashoka (CSAT) IAS, at Super Plaza Complex on Englishiya Line, was founded on 25 August 2012 and has run continuously since, offering IAS/PCS coaching alongside CDS and NDA batches for defence-exam aspirants.</p>
+
+<h3>9. Krishna IAS Academy</h3>
+<p>Krishna IAS Academy, behind Ashoka Hotel in Sigra's Ashok Nagar, was established in 2008 and builds its teaching around combining foundational subject knowledge with focused current-curriculum updates for IAS, PCS and NDA aspirants.</p>
+
+<h3>10. Aryan Civil Academy</h3>
+<p>Aryan Civil Academy, behind the Nagar Nigam office in Sigra, is a decade-plus-old institute founded by Dr Umesh Kumar Verma, running UPSC coaching alongside SSC, banking and defence-exam batches from the same campus.</p>
+
+<h2>How these institutes compare</h2>
+<p>Lanka — anchored by BHU's main gate — is Varanasi's biggest coaching cluster, home to Dhyeya IAS, PT Education and ETEN IAS, while Sigra hosts RAO IAS, Krishna IAS Academy and Aryan Civil Academy. RAO IAS and History IAS Academy stand out on sheer review volume; Dhyeya IAS and Ashoka (CSAT) IAS both cite specific, checkable track records (selections since 2012, and continuous operation since a named founding date, respectively); and Kautilya Success Centre is the clearest small-batch option among the ten. Nearly every institute on this list runs combined UPSC-UPPSC batches, reflecting how much of Varanasi's aspirant pool is preparing for both the national and state civil-service exams at once.</p>
+
+<h2>A note on choosing between them</h2>
+<p>Fees, batch strength and which faculty member actually teaches your batch change often enough that this list shouldn't replace a direct visit. Ask whether current-affairs coverage is bundled into the base fee or billed separately, how many full-length Mains answer-writing evaluations are included, and whether the UPPSC-specific material is a genuine parallel track or just a UPSC syllabus with a UP-affairs pamphlet stapled on — that last question in particular separates institutes that have actually built out state-PCS coaching from ones that haven't. Compare full details and additional Varanasi institutes on our <a href="coaching-varanasi.html">Varanasi coaching directory</a>.</p>`
+},
+
 {
 slug: "mat-2026-september-session-registration-open-aima-update",
 title: "MAT 2026 September Session: AIMA Opens Registration for PBT and CBT",
