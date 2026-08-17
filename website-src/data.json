@@ -36,7 +36,8 @@
       "guwahati",
       "vijayawada",
       "jodhpur",
-      "surat"
+      "surat",
+      "varanasi"
     ],
     "certification": [
       "online"
@@ -8037,6 +8038,210 @@
         "Suits students preparing for more than one MBA-entrance exam"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "rao-ias-varanasi",
+      "type": "coaching",
+      "name": "RAO IAS",
+      "city": "varanasi",
+      "locality": "Sigra",
+      "address": "Kashi Vidyapith Campus, Gate No. 1, Sigra Road, Varanasi, Uttar Pradesh 221002",
+      "exams": [
+        "ias",
+        "uppsc"
+      ],
+      "verified": false,
+      "about": "RAO IAS runs its Varanasi centre on the Kashi Vidyapith campus, opposite Gate No. 1 on Sigra Road, and is the most-reviewed IAS coaching institute in the city on local directories, rated 4.8 out of 5 across more than 1,100 Justdial ratings. It offers classroom coaching for the UPSC Civil Services Examination alongside UP-PCS preparation.",
+      "highlights": [
+        "Most-reviewed IAS institute in Varanasi: 4.8/5 across 1,100+ Justdial ratings",
+        "Kashi Vidyapith campus location, opposite Gate No. 1, Sigra Road",
+        "Combined UPSC CSE and UPPSC classroom batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dhyeya-ias-varanasi",
+      "type": "coaching",
+      "name": "Dhyeya IAS",
+      "city": "varanasi",
+      "locality": "Nagwa / Lanka",
+      "address": "N-1/71, AB-R Madhav Market, Nagwa, Lanka, Varanasi, Uttar Pradesh 221005",
+      "estd": 2003,
+      "exams": [
+        "ias",
+        "uppsc"
+      ],
+      "verified": false,
+      "about": "Dhyeya IAS, founded by Vinay Singh in 2003, has run its Varanasi branch in Nagwa near Lanka since 2012, and cites more than 90 candidates selected into the IAS, IPS and PCS cadres from that branch alone. It runs classroom, online and distance-learning formats, with dedicated UPPSC-focused batches alongside its UPSC coaching.",
+      "highlights": [
+        "90+ IAS/IPS/PCS selections cited from the Varanasi branch since 2012",
+        "Founded 2003 by Vinay Singh; national UPSC/PCS coaching chain",
+        "Classroom, online and distance-learning formats"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "history-ias-academy-varanasi",
+      "type": "coaching",
+      "name": "History IAS Academy",
+      "city": "varanasi",
+      "locality": "Durgakund",
+      "address": "Durgakund Road, Durgakund, Varanasi, Uttar Pradesh",
+      "estd": 2007,
+      "exams": [
+        "ias",
+        "uppsc"
+      ],
+      "verified": false,
+      "about": "History IAS Academy, running on Durgakund Road since 2007, publishes a transparent fee table — around Rs 55,000 for a 14-month combined Prelims-and-Mains course and Rs 65,000 for an 18-month Prelims-to-Interview track — alongside a separate PCS Judiciary programme, and holds a 4.8-star rating from over 100 Justdial reviews.",
+      "highlights": [
+        "4.8/5 rating from 100+ Justdial reviews",
+        "Transparent published fees: ~Rs 55,000 (14-month) to Rs 65,000 (18-month) tracks",
+        "Separate PCS Judiciary programme alongside IAS/UPPSC coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "the-civil-way-varanasi",
+      "type": "coaching",
+      "name": "The Civil Way",
+      "city": "varanasi",
+      "locality": "Pandeypur",
+      "address": "Near Sudhakar Mahila College, Pandeypur, Varanasi, Uttar Pradesh",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "The Civil Way, near Sudhakar Mahila College in Pandeypur, is a newer entrant that has quickly built a strong local reputation for its IAS coaching, rated 4.8 out of 5 from more than 90 Justdial reviews, with students specifically citing course quality.",
+      "highlights": [
+        "4.8/5 rating from 90+ Justdial reviews",
+        "Pandeypur location, near Sudhakar Mahila College",
+        "Focused UPSC CSE coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pt-education-varanasi",
+      "type": "coaching",
+      "name": "PT Education",
+      "city": "varanasi",
+      "locality": "Lanka",
+      "address": "B 31/13-3, Malviya Kunj, Opposite Narayanam Guest House, Lanka, Varanasi, Uttar Pradesh 221005",
+      "estd": 1993,
+      "exams": [
+        "ias",
+        "cat"
+      ],
+      "verified": false,
+      "about": "PT Education, founded in a family garage in Indore in 1993 and now operating in more than 35 cities, runs its Varanasi centre in Malviya Kunj, Lanka, offering UPSC coaching alongside its broader banking, CAT and other competitive-exam portfolio.",
+      "highlights": [
+        "National chain founded 1993, present in 35+ cities",
+        "Multi-exam portfolio: UPSC, banking, CAT and more from one Lanka centre",
+        "Classroom and online formats"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "kautilya-success-centre-varanasi",
+      "type": "coaching",
+      "name": "Kautilya Success Centre",
+      "city": "varanasi",
+      "locality": "Sunderpur / Naria",
+      "address": "15, Gandhi Nagar, Naria, Post Office Sunderpur, Varanasi, Uttar Pradesh",
+      "exams": [
+        "ias",
+        "nda"
+      ],
+      "verified": false,
+      "about": "Kautilya Success Centre, in Gandhi Nagar, Naria near Sunderpur, runs IAS and NDA batches built around smaller group sizes and closer faculty attention, a different format from the multi-city chains also active in the city.",
+      "highlights": [
+        "Small-batch IAS and NDA coaching",
+        "Sunderpur/Naria location, near Jasper Public School",
+        "Focus on individual faculty attention"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "eten-ias-varanasi",
+      "type": "coaching",
+      "name": "ETEN IAS",
+      "city": "varanasi",
+      "locality": "Lanka",
+      "address": "B-30/2-C-5, Second Floor, Near HDFC Bank ATM, Lanka, Varanasi, Uttar Pradesh 221005",
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "ETEN IAS, in Lanka near the HDFC Bank ATM, was originally built as Pearson's civil-services test-preparation vertical before CL Educate — the company behind Career Launcher — acquired the business in 2017; its Varanasi centre now runs under that ownership, offering classroom UPSC coaching.",
+      "highlights": [
+        "Originally Pearson's IAS test-prep vertical; acquired by CL Educate (Career Launcher) in 2017",
+        "Lanka location, near HDFC Bank ATM",
+        "Classroom UPSC CSE coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ashoka-csat-ias-varanasi",
+      "type": "coaching",
+      "name": "Ashoka (CSAT) IAS",
+      "city": "varanasi",
+      "locality": "Englishiya Line",
+      "address": "Super Plaza Complex, Englishiya Line, Beside Allahabad Bank, Varanasi, Uttar Pradesh",
+      "estd": 2012,
+      "exams": [
+        "ias",
+        "cds",
+        "nda"
+      ],
+      "verified": false,
+      "about": "Ashoka (CSAT) IAS, at Super Plaza Complex on Englishiya Line, was founded on 25 August 2012 and has run continuously since, offering IAS/PCS coaching alongside CDS and NDA batches for defence-exam aspirants.",
+      "highlights": [
+        "Founded 25 August 2012, running continuously since",
+        "IAS/PCS coaching plus CDS and NDA defence-exam batches",
+        "Englishiya Line location, beside Allahabad Bank"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "krishna-ias-academy-varanasi",
+      "type": "coaching",
+      "name": "Krishna IAS Academy",
+      "city": "varanasi",
+      "locality": "Sigra",
+      "address": "Plot No. 6, Ashok Nagar, Behind Ashoka Hotel, Sigra, Varanasi, Uttar Pradesh",
+      "estd": 2008,
+      "exams": [
+        "ias",
+        "nda"
+      ],
+      "verified": false,
+      "about": "Krishna IAS Academy, behind Ashoka Hotel in Sigra's Ashok Nagar, was established in 2008 and builds its teaching around combining foundational subject knowledge with focused current-curriculum updates for IAS, PCS and NDA aspirants.",
+      "highlights": [
+        "Established 2008, running for close to two decades",
+        "Sigra location, behind Ashoka Hotel",
+        "IAS, PCS and NDA coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aryan-civil-academy-varanasi",
+      "type": "coaching",
+      "name": "Aryan Civil Academy",
+      "city": "varanasi",
+      "locality": "Sigra",
+      "address": "Behind Nagar Nigam, Near JMKD Office, Madho Pur, Sigra, Varanasi, Uttar Pradesh",
+      "exams": [
+        "ias",
+        "ssc"
+      ],
+      "verified": false,
+      "about": "Aryan Civil Academy, behind the Nagar Nigam office in Sigra, is a decade-plus-old institute founded by Dr Umesh Kumar Verma, running UPSC coaching alongside SSC, banking and defence-exam batches from the same campus.",
+      "highlights": [
+        "Decade-plus-old institute founded by Dr Umesh Kumar Verma",
+        "Sigra location, behind Nagar Nigam office",
+        "Multi-exam coverage: UPSC, SSC, banking, defence exams"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -8137,8 +8342,11 @@
     "coaching-jodhpur": {
       "intro": "<p>Jodhpur is one of Rajasthan's self-contained NEET-coaching markets, distinct from nearby Kota and Sikar even though all three cities sit within a few hours of each other. National chains (Allen, Aakash, Resonance, Motion Education, Sri Chaitanya) run full local campuses here, alongside Rajasthan-origin and Jodhpur-founded institutes &mdash; Gurukripa, Deeksha Classes, Paathshala and Nirvaan Career Institute &mdash; that have built independent NEET-coaching track records over the past one to two decades. Every listing below shows its verification status and, where available, student ratings.</p>"
     },
-    "surat": {
+    "coaching-surat": {
       "intro": "<p>Surat, Gujarat&rsquo;s largest city and India&rsquo;s diamond and textile hub, has grown into a genuine CAT-coaching market of its own over the past decade rather than staying a feeder city sending aspirants to Ahmedabad or Vadodara. National chains &mdash; Career Launcher, IMS, TIME and Endeavor Careers &mdash; run full local centres clustered around Vesu, Adajan and Athwalines, alongside Surat-based and multi-exam institutes such as Chahal Academy, LK Academy and Intelligent Classes that coach for CAT alongside CLAT, CMAT, XAT, SNAP and NMAT. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-varanasi": {
+      "intro": "<p>Varanasi, one of the world's oldest continuously inhabited cities and home to Banaras Hindu University, has built a genuine UPSC/IAS-coaching market of its own rather than staying purely a feeder city to Prayagraj or Delhi. Coaching activity clusters mainly around Lanka (anchored by BHU's main gate), Sigra, Durgakund and Pandeypur, mixing long-running local academies with a handful of national-chain branches. Most institutes here run combined UPSC-UPPSC batches, reflecting how many of the city's aspirants are preparing for both the national civil services exam and the Uttar Pradesh state PCS at once. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
