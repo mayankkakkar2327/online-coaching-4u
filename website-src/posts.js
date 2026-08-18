@@ -3,6 +3,128 @@
 module.exports = [
 
 {
+slug: "clat-2027-expert-committee-report-feedback-window-closes-august31-update",
+title: "CLAT 2027: No Syllabus Changes, Public Feedback on Reform Report Closes 31 August",
+category: "CLAT / Law",
+date: "18 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT/AILET coaching institutes" },
+excerpt: "The Consortium of NLUs has confirmed CLAT 2027's syllabus and pattern stay unchanged, and has opened its Expert Committee reform report for public feedback until 31 August 2026 - any structural changes are deferred to CLAT 2028.",
+image: "assets/blog/clat-2027-expert-committee-report-feedback-window-closes-august31-update.png",
+imageAlt: "CLAT 2027 Expert Committee Report public feedback update graphic",
+html: `
+<p><strong>Last updated: 18 August 2026.</strong></p>
+<p>The Consortium of National Law Universities has confirmed there will be no changes to the syllabus or pattern of CLAT 2027, and has opened its Expert Committee Report on CLAT reforms for public feedback until 31 August 2026.</p>
+<p>The decision came out of the Consortium's Annual Governing Body meeting on 18 July 2026, confirmed in an official press release on <a href="https://consortiumofnlus.ac.in/documents/Expert_Committee_Report_2026_Press_Release.pdf" rel="noopener" target="_blank">consortiumofnlus.ac.in</a>. The Governing Body resolved that the CLAT 2027 Convenor and paper-setters will only adopt the Committee's suggestions on question format and quality "in a feasible manner" - meaning the exam's overall structure stays exactly as CLAT 2027 aspirants have been preparing for it.</p>
+
+<h2>What the Expert Committee looked at</h2>
+<p>The Committee was formed following the Consortium's 4th Advisory Board meeting, chaired by former Supreme Court judge Justice Indu Malhotra, with independent academic members from the University of Oxford, the London School of Economics, Columbia Law School, the University of Cambridge and BML Munjal University. Its brief covered question quality, paper structure, syllabus, and benchmarking CLAT against international entrance tests such as the US LSAT and UK LNAT.</p>
+
+<h2>What this means for CLAT 2027 aspirants</h2>
+<p>Students preparing for CLAT 2027 - set for 6 December 2026, 2-4 PM, in offline mode - can continue with their existing pattern of study; nothing about sections, marking or format changes for this cycle. Registration, open since 3 August 2026, continues on the Consortium's official portal until 31 October 2026. The Governing Body has explicitly deferred any structural reform to CLAT 2028, "after further consultation," so any format changes are at least a year away, not part of this year's exam.</p>
+<p>Students, teachers and members of the public who want to weigh in on the reform proposals before they're considered for CLAT 2028 can submit comments through the feedback form linked on the Consortium's official website, before the 31 August 2026 deadline.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Governing Body decision:</strong> No change to CLAT 2027 syllabus or pattern, resolved 18 July 2026</p>
+<p><strong>Public feedback deadline:</strong> 31 August 2026</p>
+<p><strong>CLAT 2027 exam date:</strong> 6 December 2026, 2-4 PM, offline mode</p>
+<p><strong>CLAT 2027 registration closes:</strong> 31 October 2026</p>
+<p><strong>Committee chair:</strong> Justice Indu Malhotra (retd.), Supreme Court of India</p>
+<p><strong>Earliest any reform applies:</strong> CLAT 2028</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[18 Jul 2026]</strong> Consortium of NLUs Governing Body resolved no changes to CLAT 2027 syllabus or pattern, per its official press release.</li>
+<li><strong>[Deadline: 31 Aug 2026]</strong> Public feedback on the CLAT Expert Committee Report closes 31 August 2026, via the form linked on consortiumofnlus.ac.in.</li>
+<li><strong>[6 Dec 2026]</strong> CLAT 2027 will be held offline, 2-4 PM, per the Consortium's official notification.</li>
+<li><strong>[Deadline: 31 Oct 2026]</strong> Last date to register for CLAT 2027 on the Consortium's official portal.</li>
+<li><strong>Myth check:</strong> The Expert Committee Report does not change CLAT 2027 - any reforms it recommends, if adopted, apply from CLAT 2028 onward at the earliest.</li>
+</ul>
+<p><em>Sources: <a href="https://consortiumofnlus.ac.in/documents/Expert_Committee_Report_2026_Press_Release.pdf" rel="noopener" target="_blank">Consortium of NLUs official press release</a> (consortiumofnlus.ac.in); <a href="https://www.barandbench.com/Law-School/no-reforms-for-clat-2027-as-nlu-consortium-releases-expert-committee-report-5-months-after-submission" rel="noopener" target="_blank">Bar and Bench</a>.</em></p>
+<p><strong>Last updated: 18 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-clat-coaching-institutes-bhubaneswar-2026",
+title: "Top 10 CLAT Coaching Institutes in Bhubaneswar (2026)",
+category: "CLAT / Law",
+date: "18 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-bhubaneswar.html", text: "Browse all verified coaching institutes in Bhubaneswar" },
+excerpt: "Bhubaneswar has grown into Odisha's biggest CLAT and AILET coaching hub, clustered around Saheed Nagar and Nayapalli and feeding into National Law University Odisha in nearby Cuttack. Here's a fact-checked look at ten institutes training CLAT aspirants in the city.",
+image: "assets/blog/top-10-clat-coaching-institutes-bhubaneswar-2026.png",
+imageAlt: "Top 10 CLAT coaching institutes in Bhubaneswar 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best CLAT coaching institute in Bhubaneswar?",
+    "a": "There's no single 'best' - Prajna Prep carries the highest Justdial rating among the centres compared here (4.8/5 from 433 ratings) and is CLAT-only, while Career Launcher, IMS and T.I.M.E. offer the reach and resources of national chains. The right choice depends on whether you want CLAT-only intensity or a broader test-prep programme."
+  },
+  {
+    "q": "Is there a National Law University near Bhubaneswar?",
+    "a": "Yes - National Law University Odisha (NLUO) is in Cuttack, about 30 km from Bhubaneswar, and is the closest NLU that accepts CLAT scores."
+  },
+  {
+    "q": "Can I prepare for CLAT online instead of joining a Bhubaneswar coaching centre?",
+    "a": "Yes. Kautilya IAS's law-entrance vertical and the Kolkata-headquartered Clatapult both teach Bhubaneswar-based CLAT aspirants entirely online, alongside institutes such as Career Launcher, IMS, LegalEdge and Nrupad Law Classes that offer hybrid classroom-plus-online formats."
+  },
+  {
+    "q": "What does CLAT coaching cost in Bhubaneswar?",
+    "a": "Published fee ranges for the institutes covered here run roughly Rs 45,000 to Rs 1,00,000 for a full CLAT preparation programme, depending on the institute, format and batch size - always confirm current fees directly with the institute before enrolling."
+  }
+],
+html: `
+<p>Bhubaneswar is Odisha's largest coaching hub for CLAT and AILET, feeding students into National Law University Odisha (NLUO) in nearby Cuttack - about 30 km away - as well as NLUs across the country. Coaching activity clusters mainly around Saheed Nagar and the NH-16 stretch through Nayapalli, with more institutes spread across Patia, Acharya Vihar and Chandrasekharpur. The market mixes national test-prep chains (Career Launcher, IMS, T.I.M.E., LegalEdge) with Odisha-built specialists (Prajna Prep, Bidyasagar Classes, Nrupad Law Classes), plus a couple of online-only options for students outside the city's coaching belts.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Bhubaneswar, Odisha</p>
+<p><strong>Exam this list is built for:</strong> CLAT (Common Law Admission Test); most institutes below also coach for AILET and other law-entrance exams</p>
+<p><strong>Institutes compared:</strong> 10, spanning national test-prep chains, Odisha-built specialists and online-only options</p>
+<p><strong>Main coaching clusters:</strong> Saheed Nagar and Nayapalli (NH-16), with more centres in Patia, Acharya Vihar and Chandrasekharpur</p>
+<p><strong>Nearest NLU:</strong> National Law University Odisha (NLUO), Cuttack - about 30 km from Bhubaneswar</p>
+<p><strong>CLAT 2027 exam date:</strong> 6 December 2026, offline, 2-4 PM, per the Consortium of NLUs</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CLAT-coaching presence serving Bhubaneswar: a real local address or a clearly stated online-only model, confirmation across more than one independent source (institute websites, business directories, Justdial), and a coaching focus that actually includes CLAT rather than a passing mention. Verification status and ratings, where available, are shown for every institute below - none of them paid Online Coaching 4u for placement; ranking is not for sale on this platform.</p>
+
+<h3>1. Prajna Prep</h3>
+<p>Prajna Prep is a CLAT-only coaching centre on Saheed Nagar Road, built specifically around law-entrance preparation rather than running it as a side vertical to another exam. The centre runs more than 120 mock tests through the year alongside daily quizzes, and pairs students with faculty drawn from National Law Universities for one-on-one doubt sessions. It carries the highest Justdial rating among Bhubaneswar's CLAT-focused centres, at 4.8 out of 5 across 433 ratings.</p>
+
+<h3>2. Career Launcher</h3>
+<p>Career Launcher's Bhubaneswar centre runs CLAT batches out of Saheed Nagar as part of the national CL Educate network, alongside the chain's longer-established MBA and banking coaching. Classes stay capped at roughly 35 students, with an accompanying online portal for students who want to supplement classroom hours.</p>
+
+<h3>3. IMS Bhubaneswar</h3>
+<p>IMS runs its Bhubaneswar CLAT programme from N.B. Tower on NH-16 in Nayapalli, applying the same national CLAT curriculum and mock-test series used across the chain's other centres. Batch sizes stay around 30-35, with video-based concept explainers layered onto classroom teaching. It carries a 4.7/5 Justdial rating from 304 reviews.</p>
+
+<h3>4. T.I.M.E. Bhubaneswar</h3>
+<p>T.I.M.E., one of India's oldest large-scale test-prep chains, runs its Bhubaneswar CLAT batches from NB Towers in Nilakantha Nagar, Nayapalli, a short walk from the IMS centre in the same commercial cluster. The centre extended its decades of MBA and banking test-prep experience into CLAT coaching as demand for law-entrance prep grew in the city.</p>
+
+<h3>5. LegalEdge</h3>
+<p>LegalEdge is a CLAT-specialist chain that reaches Bhubaneswar through a Patia-based centre offering both classroom and online formats, with e-books and recorded-lecture access layered onto live teaching. The institute draws faculty from national law schools and structures its mock-test series around CLAT's legal-reasoning and comprehension-heavy pattern.</p>
+
+<h3>6. Aarohan Classes</h3>
+<p>Aarohan Classes runs out of the OSHB Commercial Complex in Acharya Vihar, offering CLAT preparation alongside hostel facilities and counselling sessions aimed at outstation students. It is one of the more established local names on Bhubaneswar's Justdial listings for law-entrance coaching, rated 4.2 out of 5 across 236 ratings.</p>
+
+<h3>7. Bidyasagar Classes</h3>
+<p>Bidyasagar Classes is a long-running Bhubaneswar institute, near Biju Patnaik College Road, that coaches for CLAT alongside AILET, DU LLB and other state law-entrance exams rather than CLAT alone. It runs smaller batches of roughly 20-25 students and includes career-guidance sessions after the exam.</p>
+
+<h3>8. Nrupad Law Classes</h3>
+<p>Nrupad Law Classes teaches its CLAT batches in both English and Odia, a distinction that sets it apart from Bhubaneswar's mostly English-only coaching chains and appeals to students from Odia-medium school backgrounds. The centre runs out of Nayapalli with weekly assessments and a foundation-level track for students starting CLAT prep early.</p>
+
+<h3>9. Kautilya IAS (Law Wing)</h3>
+<p>Kautilya IAS, better known for UPSC coaching, runs a CLAT-preparation vertical that reaches Bhubaneswar students entirely online rather than through a physical branch in the city. The programme draws on the parent brand's civil-services teaching experience, applied to CLAT's legal-reasoning and current-affairs sections.</p>
+
+<h3>10. Clatapult</h3>
+<p>Clatapult is a Kolkata-headquartered, CLAT-only chain - its physical classrooms are in Salt Lake and Gariahat, Kolkata - that reaches Bhubaneswar and the rest of Odisha through its online programme rather than a local centre. It has produced All India Ranks in CLAT over more than nine years, and carries a 4.8-star rating from over 650 reviews on its own site.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No single institute here is the right pick for everyone. Students who want CLAT as the sole focus, with mock-heavy prep, tend to lean toward Prajna Prep, LegalEdge or Clatapult; those who'd rather prepare CLAT alongside a fallback MBA or banking track often go with the national chains - Career Launcher, IMS or T.I.M.E. - since one fee covers overlapping quant and reasoning prep. Students from Odia-medium schools may find Nrupad Law Classes' bilingual teaching an easier starting point, and outstation students weighing hostel access should shortlist Aarohan Classes or Bidyasagar Classes first. Whichever centre you shortlist, sit in on a free or demo class and confirm the batch's actual current size before paying - the fee ranges cited above are indicative, not fixed quotes. Compare full details and additional Bhubaneswar institutes on our <a href="coaching-bhubaneswar.html">Bhubaneswar coaching directory</a>.</p>
+`
+},
+
+{
 slug: "upsc-cse-2026-mains-e-admit-card-released-update",
 title: "UPSC CSE 2026 Mains: e-Admit Card Released Ahead of 21 August Exam",
 category: "IAS / UPSC",
