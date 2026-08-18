@@ -37,7 +37,8 @@
       "vijayawada",
       "jodhpur",
       "surat",
-      "varanasi"
+      "varanasi",
+      "bhubaneswar"
     ],
     "certification": [
       "online"
@@ -8242,6 +8243,196 @@
         "Multi-exam coverage: UPSC, SSC, banking, defence exams"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "prajna-prep-bhubaneswar",
+      "type": "coaching",
+      "name": "Prajna Prep",
+      "city": "bhubaneswar",
+      "locality": "Saheed Nagar",
+      "address": "A/141, Saheed Nagar Road, Saheed Nagar, Bhubaneswar, Odisha 751007",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Prajna Prep is a CLAT-only coaching centre on Saheed Nagar Road, built specifically around law-entrance preparation rather than running it as a side vertical to another exam. The centre runs more than 120 mock tests through the year alongside daily quizzes, and pairs students with faculty drawn from National Law Universities for one-on-one doubt sessions. It carries the highest Justdial rating among Bhubaneswar's CLAT-focused centres, at 4.8 out of 5 across 433 ratings.",
+      "highlights": [
+        "Justdial's highest-rated CLAT centre in Bhubaneswar: 4.8/5 across 433 ratings",
+        "120+ full-length mock tests and daily quizzes through the CLAT 2027 cycle",
+        "Faculty drawn from National Law Universities, with one-on-one mentoring"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-bhubaneswar",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "bhubaneswar",
+      "locality": "Saheed Nagar",
+      "address": "Plot No. B13, near HDFC Bank, Saheed Nagar, Bhubaneswar, Odisha 751007",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Career Launcher's Bhubaneswar centre runs CLAT batches out of Saheed Nagar as part of the national CL Educate network, alongside the chain's longer-established MBA and banking coaching. Classes stay capped at roughly 35 students, with an accompanying online portal for students who want to supplement classroom hours.",
+      "highlights": [
+        "Local centre of the pan-India CL Educate / Career Launcher network",
+        "Saheed Nagar address, Plot No. B13, near HDFC Bank",
+        "Batches capped near 35 students, plus an online study portal"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "ims-bhubaneswar",
+      "type": "coaching",
+      "name": "IMS Bhubaneswar",
+      "city": "bhubaneswar",
+      "locality": "Nayapalli",
+      "address": "4th Floor, N.B. Tower, Plot No. 2260, NH-16, Nilakantha Nagar, Nayapalli, Bhubaneswar, Odisha 751012",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "IMS runs its Bhubaneswar CLAT programme from N.B. Tower on NH-16 in Nayapalli, applying the same national CLAT curriculum and mock-test series used across the chain's other centres. Batch sizes stay around 30-35, with video-based concept explainers layered onto classroom teaching. It carries a 4.7/5 Justdial rating from 304 reviews.",
+      "highlights": [
+        "Justdial rating 4.7/5 from 304 reviews",
+        "4th Floor, N.B. Tower, Plot No. 2260, NH-16, Nilakantha Nagar, Nayapalli",
+        "National IMS CLAT curriculum with video-based doubt clearing"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "time-bhubaneswar",
+      "type": "coaching",
+      "name": "T.I.M.E. Bhubaneswar",
+      "city": "bhubaneswar",
+      "locality": "Nayapalli",
+      "address": "2nd Floor, NB Towers, near Rajdhani Gas, Nilakantha Nagar, Nayapalli, Bhubaneswar, Odisha 751012",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "T.I.M.E., one of India's oldest large-scale test-prep chains, runs its Bhubaneswar CLAT batches from NB Towers in Nilakantha Nagar, Nayapalli, a short walk from the IMS centre in the same commercial cluster. The centre extended its decades of MBA and banking test-prep experience into CLAT coaching as demand for law-entrance prep grew in the city.",
+      "highlights": [
+        "Part of T.I.M.E.'s national test-prep network, in Bhubaneswar's Nayapalli coaching cluster",
+        "2nd Floor, NB Towers, near Rajdhani Gas, Nilakantha Nagar, Nayapalli",
+        "Structured sectional and full-length CLAT practice tests"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "legaledge-bhubaneswar",
+      "type": "coaching",
+      "name": "LegalEdge",
+      "city": "bhubaneswar",
+      "locality": "Patia",
+      "address": "Patia, Bhubaneswar, Odisha",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "LegalEdge is a CLAT-specialist chain that reaches Bhubaneswar through a Patia-based centre offering both classroom and online formats, with e-books and recorded-lecture access layered onto live teaching. The institute draws faculty from national law schools and structures its mock-test series around CLAT's legal-reasoning and comprehension-heavy pattern.",
+      "highlights": [
+        "CLAT-specialist chain with faculty drawn from national law schools",
+        "Patia, Bhubaneswar centre offering both classroom and online formats",
+        "80+ mock tests plus e-book and recorded-lecture access"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "aarohan-classes-bhubaneswar",
+      "type": "coaching",
+      "name": "Aarohan Classes",
+      "city": "bhubaneswar",
+      "locality": "Acharya Vihar",
+      "address": "OSHB Commercial Complex, Acharya Vihar, Bhubaneswar, Odisha",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Aarohan Classes runs out of the OSHB Commercial Complex in Acharya Vihar, offering CLAT preparation alongside hostel facilities and counselling sessions aimed at outstation students. It is one of the more established local names on Bhubaneswar's Justdial listings for law-entrance coaching, rated 4.2 out of 5 across 236 ratings.",
+      "highlights": [
+        "Justdial rating 4.2/5 from 236 reviews",
+        "OSHB Commercial Complex, Acharya Vihar, Bhubaneswar",
+        "Hostel facility and counselling sessions for outstation students"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bidyasagar-classes-bhubaneswar",
+      "type": "coaching",
+      "name": "Bidyasagar Classes",
+      "city": "bhubaneswar",
+      "locality": "near Biju Patnaik College Road",
+      "address": "Near SBI, Biju Patnaik College Road, Bhubaneswar, Odisha",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Bidyasagar Classes is a long-running Bhubaneswar institute, near Biju Patnaik College Road, that coaches for CLAT alongside AILET, DU LLB and other state law-entrance exams rather than CLAT alone. It runs smaller batches of roughly 20-25 students and includes career-guidance sessions after the exam.",
+      "highlights": [
+        "Coaches CLAT alongside AILET, DU LLB and state law-entrance exams",
+        "Near Biju Patnaik College Road, Bhubaneswar",
+        "Smaller batches (20-25 students) with post-exam career guidance"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "nrupad-law-classes-bhubaneswar",
+      "type": "coaching",
+      "name": "Nrupad Law Classes",
+      "city": "bhubaneswar",
+      "locality": "Nayapalli",
+      "address": "Nayapalli, Bhubaneswar, Odisha",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Nrupad Law Classes teaches its CLAT batches in both English and Odia, a distinction that sets it apart from Bhubaneswar's mostly English-only coaching chains and appeals to students from Odia-medium school backgrounds. The centre runs out of Nayapalli with weekly assessments and a foundation-level track for students starting CLAT prep early.",
+      "highlights": [
+        "One of the few Bhubaneswar centres teaching CLAT in both English and Odia",
+        "Nayapalli, Bhubaneswar",
+        "Weekly assessments and a dedicated foundation-level track"
+      ],
+      "mode": "both"
+    },
+    {
+      "slug": "kautilya-ias-law-bhubaneswar",
+      "type": "coaching",
+      "name": "Kautilya IAS (Law Wing)",
+      "city": "bhubaneswar",
+      "locality": "Online",
+      "address": "Online coaching (no confirmed physical branch in Bhubaneswar)",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Kautilya IAS, better known for UPSC coaching, runs a CLAT-preparation vertical that reaches Bhubaneswar students entirely online rather than through a physical branch in the city. The programme draws on the parent brand's civil-services teaching experience, applied to CLAT's legal-reasoning and current-affairs sections.",
+      "highlights": [
+        "CLAT-preparation vertical of the national Kautilya IAS brand",
+        "Online-only for Bhubaneswar; no physical branch confirmed in the city",
+        "Draws on the brand's UPSC-coaching approach for GK and legal reasoning"
+      ],
+      "mode": "online"
+    },
+    {
+      "slug": "clatapult-bhubaneswar",
+      "type": "coaching",
+      "name": "Clatapult",
+      "city": "bhubaneswar",
+      "locality": "Online (Kolkata HQ)",
+      "address": "Online programme; classroom centres in Salt Lake and Gariahat, Kolkata",
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Clatapult is a Kolkata-headquartered, CLAT-only chain — its physical classrooms are in Salt Lake and Gariahat, Kolkata — that reaches Bhubaneswar and the rest of Odisha through its online programme rather than a local centre. It has produced All India Ranks in CLAT over more than nine years, and carries a 4.8-star rating from over 650 reviews on its own site.",
+      "highlights": [
+        "4.8★ rating from 650+ reviews; CLAT All India Ranks over 9+ years",
+        "Kolkata-headquartered (Salt Lake/Gariahat); reaches Odisha students via its online programme",
+        "CLAT-only focus, not a multi-exam chain"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -8347,6 +8538,9 @@
     },
     "coaching-varanasi": {
       "intro": "<p>Varanasi, one of the world's oldest continuously inhabited cities and home to Banaras Hindu University, has built a genuine UPSC/IAS-coaching market of its own rather than staying purely a feeder city to Prayagraj or Delhi. Coaching activity clusters mainly around Lanka (anchored by BHU's main gate), Sigra, Durgakund and Pandeypur, mixing long-running local academies with a handful of national-chain branches. Most institutes here run combined UPSC-UPPSC batches, reflecting how many of the city's aspirants are preparing for both the national civil services exam and the Uttar Pradesh state PCS at once. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-bhubaneswar": {
+      "intro": "<p>Bhubaneswar is Odisha's largest coaching hub for CLAT and AILET, feeding students into National Law University Odisha (NLUO) in nearby Cuttack — about 30 km away — as well as NLUs across the country. Coaching activity clusters mainly around Saheed Nagar and the NH-16 stretch through Nayapalli, with more institutes spread across Patia, Acharya Vihar and Chandrasekharpur. The market mixes national test-prep chains (Career Launcher, IMS, T.I.M.E., LegalEdge) with Odisha-built specialists (Prajna Prep, Bidyasagar Classes, Nrupad Law Classes), plus a couple of online-only options for students outside the city's coaching belts. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
