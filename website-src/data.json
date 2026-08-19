@@ -38,7 +38,8 @@
       "jodhpur",
       "surat",
       "varanasi",
-      "bhubaneswar"
+      "bhubaneswar",
+      "vadodara"
     ],
     "certification": [
       "online"
@@ -8433,6 +8434,196 @@
         "CLAT-only focus, not a multi-exam chain"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "allen-career-institute-vadodara",
+      "type": "coaching",
+      "name": "Allen Career Institute",
+      "city": "vadodara",
+      "locality": "Sama",
+      "address": "Naimisharanya, Beside Bharat Petrol Pump, Opposite Sama Lake, Sama-Savli Road, Vadodara, Gujarat",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Allen Career Institute's Vadodara centre runs on Sama-Savli Road, opposite Sama Lake, as part of the Kota-founded chain's national classroom network for JEE Main and Advanced. Allen's own published 2025-26 fee structure lists courses from roughly Rs 49,000 for shorter online/DLP tracks up to Rs 1,76,000 for full classroom-integrated programmes. The centre also runs Allen's foundation batches for classes 6 to 10 in the same city.",
+      "highlights": [
+        "Published JEE Main + Advanced course fees range Rs 49,000-Rs 1,76,000 across formats (Allen's official 2025-26 fee page)",
+        "Part of Allen's pan-India Kota-founded classroom network",
+        "Also runs foundation batches (classes 6-10) in Vadodara"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-vadodara",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "vadodara",
+      "locality": "Karelibaug",
+      "address": "2nd & 3rd Floor, Bricklane Highrise, Above Croma, Karelibaug, Vadodara, Gujarat",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Aakash Institute operates three JEE and NEET coaching centres across Vadodara - Karelibaug, Nizampura and Manjalpur - under the national Aakash Educational Services network. The Karelibaug centre sits on the 2nd and 3rd floor of Bricklane Highrise, above Croma. All three centres run the same standardised Aakash curriculum and test series used across its centres nationally.",
+      "highlights": [
+        "Three centres in Vadodara: Karelibaug, Nizampura and Manjalpur",
+        "Part of the national Aakash Educational Services network",
+        "Runs combined JEE + NEET batches alongside foundation courses"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-eduventures-vadodara",
+      "type": "coaching",
+      "name": "Resonance Eduventures",
+      "city": "vadodara",
+      "locality": "Fatehgunj",
+      "address": "1st Floor, The Royal Hub Building, Opposite Four Points by Sheraton, Near Seven Seas Mall, Fatehgunj, Vadodara, Gujarat 390002",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Resonance's Vadodara study centre operates out of Fatehgunj, opposite Four Points by Sheraton and near Seven Seas Mall, as part of the Kota-headquartered chain's network of city study centres for JEE Main and Advanced. Being a study centre rather than a full Kota campus, it runs Resonance's centralised curriculum and test series with local faculty support.",
+      "highlights": [
+        "Fatehgunj centre near Seven Seas Mall, opposite Four Points by Sheraton",
+        "Runs Resonance's centralised Kota-designed JEE curriculum and test series locally",
+        "Part of Resonance's pan-India study-centre network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "fiitjee-vadodara",
+      "type": "coaching",
+      "name": "FIITJEE",
+      "city": "vadodara",
+      "locality": "Akota",
+      "address": "Gauri House, 2nd & 3rd Floor, Old Padra Road, Near Manisha Chokri, IOC Nagar, Akota, Vadodara, Gujarat 390021",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "FIITJEE's Vadodara centre runs out of Gauri House on Old Padra Road in Akota, offering the chain's IIT-alumni-designed JEE Main and Advanced programmes alongside integrated school-plus-coaching tracks. Published course fees range from roughly Rs 1,10,000 to Rs 7,00,000 depending on the programme, per FIITJEE's listed fee structure.",
+      "highlights": [
+        "Published course fees span Rs 1,10,000-Rs 7,00,000 depending on programme",
+        "Offers integrated school-plus-JEE-coaching tracks alongside standalone batches",
+        "Part of FIITJEE's national IIT-alumni faculty network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "motion-education-vadodara",
+      "type": "coaching",
+      "name": "Motion Education",
+      "city": "vadodara",
+      "locality": "Akshar Chowk",
+      "address": "Plot No. 30, Darshanam Galleria, Near HCG Cancer Hospital, Opposite Satsang Party, Akshar Chowk, Vadodara, Gujarat 390012",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Motion Education's Vadodara centre operates from Darshanam Galleria near HCG Cancer Hospital at Akshar Chowk, part of the Kota-founded chain's expansion into Gujarat for JEE and NEET coaching. The centre carries a 4.7-out-of-5 rating from 23 customer reviews on Justdial, alongside Motion's standard video-lecture-backed classroom model.",
+      "highlights": [
+        "Rated 4.7/5 from 23 reviews on Justdial",
+        "Runs Motion's Kota-designed JEE + NEET curriculum with recorded lecture backup",
+        "Located at Akshar Chowk, near HCG Cancer Hospital"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sinhal-classes-vadodara",
+      "type": "coaching",
+      "name": "Sinhal Classes",
+      "city": "vadodara",
+      "locality": "Karelibaug",
+      "address": "301/302, Sai Avenue, Karelibaug, Vadodara, Gujarat",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Sinhal Classes runs a JEE Main-focused centre in Karelibaug as part of a roughly 27-centre chain spread across India. The Vadodara centre concentrates specifically on JEE Main-level coaching rather than running combined JEE-NEET batches, positioning it as a narrower, board-plus-JEE-Main option for local students.",
+      "highlights": [
+        "Focused specifically on JEE Main coaching rather than combined JEE-NEET batches",
+        "Part of a roughly 27-centre chain across India",
+        "Karelibaug centre serves Vadodara's eastern residential belt"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "speed-institute-vadodara",
+      "type": "coaching",
+      "name": "Speed Institute",
+      "city": "vadodara",
+      "locality": "Akota",
+      "address": "Akota Road, Vadodara, Gujarat",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Speed Institute's Vadodara centre, on Akota Road, is one of roughly 59 centres the chain runs across India for JEE Main, JEE Advanced and BITSAT coaching. It is positioned as a mid-size classroom alternative to the larger national chains operating in the same Akota coaching cluster.",
+      "highlights": [
+        "One of about 59 Speed Institute centres nationwide",
+        "Coaches for JEE Main, JEE Advanced and BITSAT",
+        "Located in Vadodara's Akota coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "yukti-learning-centre-vadodara",
+      "type": "coaching",
+      "name": "Yukti Learning Centre",
+      "city": "vadodara",
+      "locality": "Fatehgunj",
+      "address": "Fatehgunj, Vadodara, Gujarat",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Yukti Learning Centre runs two Vadodara branches, in Fatehgunj and Manjalpur, offering JEE Main and Advanced coaching as a locally built institute rather than a franchise of a national chain. It carries a 4.8-out-of-5 average rating on Safalta and a 4.6-out-of-5 rating from 15 reviews on Justdial.",
+      "highlights": [
+        "Rated 4.8/5 on Safalta and 4.6/5 from 15 Justdial reviews",
+        "Two Vadodara branches: Fatehgunj and Manjalpur",
+        "Locally built institute, not a national franchise"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "iit-ashram-vadodara",
+      "type": "coaching",
+      "name": "IIT Ashram",
+      "city": "vadodara",
+      "locality": "Alkapuri",
+      "address": "UG-1 & 2, Concorde Complex, Above PNB Bank, R.C. Dutt Road, Alkapuri, Vadodara, Gujarat 390007",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "IIT Ashram has run JEE coaching in Vadodara since 2004 from its Alkapuri centre on R.C. Dutt Road, with a second branch on Makarpura Road. It coaches for JEE Main, JEE Advanced, NTSE, NSEJS, Olympiad programmes and GUJCET, making it one of the longer-running Vadodara-founded institutes in the city.",
+      "highlights": [
+        "Operating in Vadodara since 2004",
+        "Two branches: Alkapuri (R.C. Dutt Road) and Makarpura Road",
+        "Also coaches for GUJCET and school-level Olympiad exams alongside JEE"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "catalyser-vadodara",
+      "type": "coaching",
+      "name": "Catalyser IIT JEE Coaching Institute",
+      "city": "vadodara",
+      "locality": "Akota",
+      "address": "2nd Floor, Platinum Complex, Sheetal Nagar, Opposite HDFC Bank, Near Radhakrishna Square, Old Padra Road, Akota, Vadodara, Gujarat 390020",
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Catalyser IIT JEE Coaching Institute runs from Platinum Complex on Old Padra Road in Akota, near Radhakrishna Square. It carries a 3.7-out-of-5 rating from 160 reviews on Justdial, among the more heavily reviewed local JEE centres in the city, and also coaches for NTSE alongside JEE Main and Advanced.",
+      "highlights": [
+        "Rated 3.7/5 from 160 reviews on Justdial - one of the more heavily reviewed local centres",
+        "Also coaches for NTSE alongside JEE Main and Advanced",
+        "Located in Akota, near Radhakrishna Square"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -8541,6 +8732,9 @@
     },
     "coaching-bhubaneswar": {
       "intro": "<p>Bhubaneswar is Odisha's largest coaching hub for CLAT and AILET, feeding students into National Law University Odisha (NLUO) in nearby Cuttack — about 30 km away — as well as NLUs across the country. Coaching activity clusters mainly around Saheed Nagar and the NH-16 stretch through Nayapalli, with more institutes spread across Patia, Acharya Vihar and Chandrasekharpur. The market mixes national test-prep chains (Career Launcher, IMS, T.I.M.E., LegalEdge) with Odisha-built specialists (Prajna Prep, Bidyasagar Classes, Nrupad Law Classes), plus a couple of online-only options for students outside the city's coaching belts. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-vadodara": {
+      "intro": "<p>Vadodara is home to Gujarat's oldest engineering faculty — the NAAC A+-rated Faculty of Technology and Engineering at The Maharaja Sayajirao University of Baroda, established in 1949 — alongside several GTU-affiliated engineering colleges, which keeps local JEE and GUJCET coaching demand steady through the city's industrial base of petrochemical, engineering and pharma companies. Coaching activity clusters around Akota, Fatehgunj, Karelibaug, Nizampura and Alkapuri, mixing Kota-founded national chains (Allen, Aakash, Resonance, FIITJEE, Motion Education) with institutes built locally in Vadodara (IIT Ashram, Sinhal Classes, Speed Institute, Yukti Learning Centre, Catalyser). Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
