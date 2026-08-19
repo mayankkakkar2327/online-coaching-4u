@@ -3,6 +3,128 @@
 module.exports = [
 
 {
+slug: "csab-special-neut-2026-round2-results-spot-round-august20-update",
+title: "CSAB Special & CSAB-NEUT 2026: Round-II Results Out, NEUT Spot Round Opens 20 August",
+category: "IIT JEE",
+date: "19 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=jee", text: "Compare verified JEE coaching institutes" },
+excerpt: "CSAB has wrapped up Round-II of its post-JoSAA DASA & CSAB-Special counselling and Round 2 of CSAB-NEUT for 2026, with a NEUT spot round due to open 20 August for any seats still vacant in the North-Eastern and Union Territory quota.",
+image: "assets/blog/csab-special-neut-2026-round2-results-spot-round-august20-update.png",
+imageAlt: "CSAB Special and CSAB NEUT 2026 round 2 results and spot round update graphic",
+html: `
+<p><strong>Last updated: 19 August 2026.</strong></p>
+<p>The Central Seat Allocation Board (CSAB) has closed out Round-II of its 2026 DASA & CSAB-Special counselling and Round 2 of CSAB-NEUT counselling, with a NEUT spot round due to open on 20 August 2026 for any Engineering, Architecture and Pharmacy seats still vacant in the North-Eastern states and eligible Union Territories quota.</p>
+
+<h2>CSAB Special: NIT+ vacant seats after JoSAA</h2>
+<p>CSAB-Special fills seats left vacant in NITs, IIITs and GFTIs - collectively the "NIT+" system - once all five rounds of JoSAA counselling conclude; since 2025 it has run as a single combined window with DASA. Round-I results for DASA & CSAB-Special 2026 were declared on 6 August, and Round-II results followed on 12 August, per the official schedule published on <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">csab.nic.in</a>. Candidates allotted seats in Round-II had until 14 August, 17:00 hrs to pay the Institute Admission Fee-II and upload documents, with 17 August as the last date to respond to Document Verifying Officer queries. Physical reporting at allotted institutes runs from 13 to 18 August 2026 (tentative dates, per CSAB), after which candidates should check directly with their allotted institute for reporting deadlines.</p>
+
+<h2>CSAB-NEUT: Round 2 result and a 20 August spot round</h2>
+<p>Separately, CSAB-NEUT - which reserves AICTE-approved Engineering, Architecture and Pharmacy seats for candidates from North-Eastern states and select Union Territories - declared its Round 2 seat allotment result on 9 August 2026, per the official <a href="https://csab.nic.in/csab-neut/" rel="noopener" target="_blank">CSAB-NEUT schedule</a>. Candidates allotted seats in Round 2 had from 10 to 12 August to pay the Rs 5,000 seat-acceptance fee and download their Provisional Admission Letter, followed by a seat-withdrawal window on 13-14 August. Physical reporting at allotted institutes continues through 21 August 2026, and CSAB has scheduled a spot round - to be separately declared and run by each participating state, Union Territory or NERIST - for 20 to 28 August 2026, to fill any seats still lying vacant.</p>
+
+<h2>What this means for JEE aspirants</h2>
+<p>For JEE Main-qualified candidates who did not get a seat through JoSAA’s five rounds, the CSAB-NEUT spot round (open only to candidates eligible for the North-Eastern/UT quota) and any further vacant-seat notices CSAB issues for the NIT+ system remain the last formal counselling routes into a centrally-coordinated engineering seat for the 2026-27 academic session. Because spot-round dates and eligibility are set individually by each state, UT or NERIST, candidates should track csab.nic.in directly rather than third-party trackers for confirmed dates.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>DASA & CSAB-Special Round-II result:</strong> declared 12 August 2026, 17:00 hrs</p>
+<p><strong>CSAB-Special reporting window (tentative):</strong> 13-18 August 2026</p>
+<p><strong>CSAB-NEUT Round 2 result:</strong> declared 9 August 2026, 17:00 hrs</p>
+<p><strong>CSAB-NEUT institute reporting window:</strong> through 21 August 2026</p>
+<p><strong>CSAB-NEUT spot round:</strong> 20-28 August 2026, dates set individually by each state, UT or NERIST</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[12 Aug 2026]</strong> DASA & CSAB-Special Round-II seat allotment result declared for NIT+ System vacant seats, per the official CSAB schedule.</li>
+<li><strong>[Deadline: 17 Aug 2026]</strong> Last day for CSAB-Special Round-II candidates to respond to Document Verifying Officer queries and resolve Institute Admission Fee-II payment issues, per csab.nic.in.</li>
+<li><strong>[9 Aug 2026]</strong> CSAB-NEUT Round 2 seat allotment result declared for Engineering, Architecture and Pharmacy seats reserved for North-Eastern states and eligible Union Territories.</li>
+<li><strong>[20-28 Aug 2026]</strong> CSAB-NEUT spot round window opens, with exact dates to be declared individually by each participating state, UT or NERIST.</li>
+<li><strong>Myth check:</strong> CSAB-Special and CSAB-NEUT are not extensions of JoSAA - both run on separate portals with their own registration, fees and choice-filling, so a JoSAA seat allotment does not carry over automatically into either.</li>
+</ul>
+<p><em>Sources: <a href="https://csab.nic.in/csab-special/" rel="noopener" target="_blank">CSAB DASA & CSAB-Special 2026 official page</a> (csab.nic.in); <a href="https://csab.nic.in/csab-neut/" rel="noopener" target="_blank">CSAB-NEUT 2026 official page</a> (csab.nic.in).</em></p>
+<p><strong>Last updated: 19 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-jee-coaching-institutes-vadodara-2026",
+title: "Top 10 JEE Coaching Institutes in Vadodara (2026)",
+category: "IIT JEE",
+date: "19 Aug 2026",
+minutes: 9,
+cta: { href: "coaching-vadodara.html", text: "Browse all verified coaching institutes in Vadodara" },
+excerpt: "Vadodara's JEE coaching market runs on a mix of Kota-founded national chains and institutes built locally in the city, clustered around Akota, Fatehgunj and Karelibaug, and feeding into the Faculty of Technology and Engineering at MSU Baroda. Here's a fact-checked look at ten institutes training JEE aspirants in the city.",
+image: "assets/blog/top-10-jee-coaching-institutes-vadodara-2026.png",
+imageAlt: "Top 10 JEE coaching institutes in Vadodara 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best JEE coaching institute in Vadodara?",
+    "a": "There's no single 'best' - Motion Education and Yukti Learning Centre carry the highest public ratings among Vadodara's JEE centres (4.7/5 and 4.8/5 respectively), while Allen, Aakash, Resonance and FIITJEE offer the scale, recorded content and Kota-linked faculty of national chains. The right pick depends on whether you want a locally built centre or a national chain's resources."
+  },
+  {
+    "q": "Are there JEE coaching options built specifically in Vadodara, not franchises of national chains?",
+    "a": "Yes - IIT Ashram (running since 2004), Sinhal Classes, Speed Institute, Yukti Learning Centre and Catalyser are all Vadodara-founded institutes rather than branches of Kota-based national chains."
+  },
+  {
+    "q": "Is there a government engineering college in Vadodara itself?",
+    "a": "Yes. The Faculty of Technology and Engineering at The Maharaja Sayajirao University of Baroda, established in 1949 and NAAC A+ accredited, is Vadodara's own government engineering faculty, alongside several GTU-affiliated colleges in and around the city."
+  },
+  {
+    "q": "What does JEE coaching cost in Vadodara?",
+    "a": "Published fees among the institutes covered here range from about Rs 49,000 for Allen's shorter online/DLP tracks up to Rs 7,00,000 for FIITJEE's premium integrated programmes - always confirm current fees directly with the institute, since published rates change by batch and format."
+  }
+],
+html: `
+<p>Vadodara is home to Gujarat's oldest engineering faculty - the Faculty of Technology and Engineering at The Maharaja Sayajirao University of Baroda, a NAAC A+ accredited government institution established in 1949 - alongside several GTU-affiliated engineering colleges around the city. That, plus Vadodara's industrial base of petrochemical, engineering and pharma companies, keeps local demand for JEE Main and JEE Advanced coaching steady even though Gujarat's biggest coaching markets sit in Ahmedabad and Surat. Coaching activity in the city clusters mainly around Akota, Fatehgunj, Karelibaug, Nizampura and Alkapuri.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Vadodara, Gujarat</p>
+<p><strong>Exam this list is built for:</strong> JEE Main and JEE Advanced; most institutes below also coach for BITSAT and GUJCET</p>
+<p><strong>Institutes compared:</strong> 10, spanning national test-prep chains and Vadodara-built specialists</p>
+<p><strong>Main coaching clusters:</strong> Akota, Fatehgunj, Karelibaug, Nizampura and Alkapuri</p>
+<p><strong>Local government engineering faculty:</strong> Faculty of Technology and Engineering, The Maharaja Sayajirao University of Baroda (est. 1949, NAAC A+)</p>
+<p><strong>JEE Main 2026 national registrations:</strong> 16,04,854 unique candidates across both sessions, per NTA-linked exam reporting</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable JEE-coaching presence serving Vadodara: a real local address, confirmation across more than one independent source (institute or chain websites, business directories such as Justdial and Safalta, and published fee pages), and a track record of running JEE-specific or JEE-plus-NEET batches rather than only school tuitions. Institutes we could not verify with a real Vadodara address or centre listing were left out rather than padded in.</p>
+
+<h3>1. Allen Career Institute</h3>
+<p>Allen's Vadodara centre runs out of Sama-Savli Road, opposite Sama Lake, as part of the Kota-founded chain's national classroom network for JEE Main and Advanced. Allen's own published 2025-26 fee structure lists courses from roughly Rs 49,000 for shorter online/DLP tracks up to Rs 1,76,000 for full classroom-integrated programmes. The centre also runs Allen's foundation batches for classes 6 to 10 in the same city, feeding directly into its JEE track.</p>
+
+<h3>2. Aakash Institute</h3>
+<p>Aakash operates three centres across Vadodara - Karelibaug, Nizampura and Manjalpur - under the national Aakash Educational Services network, all running the chain's standardised JEE-plus-NEET curriculum and test series. The Karelibaug centre sits on the 2nd and 3rd floor of Bricklane Highrise, above Croma. Having three separate centres across the city makes Aakash one of the more geographically spread-out chains for Vadodara students.</p>
+
+<h3>3. Resonance Eduventures</h3>
+<p>Resonance's Vadodara study centre sits in Fatehgunj, opposite Four Points by Sheraton and near Seven Seas Mall, run as a city study centre of the Kota-headquartered chain rather than a full Kota-style residential campus. It follows Resonance's centralised JEE Main and Advanced curriculum and test series, with local faculty handling doubt-clearing and classroom delivery.</p>
+
+<h3>4. FIITJEE</h3>
+<p>FIITJEE runs its Vadodara centre from Gauri House on Old Padra Road in Akota, offering JEE Main and Advanced batches designed by the chain's IIT-alumni faculty team, alongside integrated school-plus-coaching tracks. Published course fees on FIITJEE's own fee pages range from about Rs 1,10,000 to Rs 7,00,000 depending on the programme and duration chosen.</p>
+
+<h3>5. Motion Education</h3>
+<p>Motion Education's Vadodara centre operates from Darshanam Galleria near HCG Cancer Hospital at Akshar Chowk, extending the Kota-founded chain's video-lecture-backed classroom model into Gujarat. It carries a 4.7-out-of-5 rating from 23 customer reviews on Justdial, among the higher-rated centres in this list, and runs combined JEE and NEET batches.</p>
+
+<h3>6. Sinhal Classes</h3>
+<p>Sinhal Classes runs a Karelibaug centre as part of a roughly 27-centre chain spread across India, with its Vadodara batch focused specifically on JEE Main-level coaching rather than combined JEE-NEET programmes. That narrower focus makes it a straightforward board-exam-plus-JEE-Main option for students who don't need a NEET track alongside it.</p>
+
+<h3>7. Speed Institute</h3>
+<p>Speed Institute's Akota Road centre is one of about 59 the chain runs nationally, coaching for JEE Main, JEE Advanced and BITSAT from within Vadodara's Akota coaching cluster - the same stretch of the city where FIITJEE and Catalyser also run centres, making it easy for students to compare batches without travelling across town.</p>
+
+<h3>8. Yukti Learning Centre</h3>
+<p>Yukti Learning Centre is a Vadodara-built institute, not a franchise of a national chain, running two branches in the city - Fatehgunj and Manjalpur - for JEE Main and Advanced coaching. It carries a 4.8-out-of-5 average rating on Safalta and a 4.6-out-of-5 rating from 15 reviews on Justdial, among the better-reviewed local options here.</p>
+
+<h3>9. IIT Ashram</h3>
+<p>IIT Ashram has coached JEE aspirants in Vadodara since 2004, longer than most institutes on this list, running from its Alkapuri centre on R.C. Dutt Road with a second branch on Makarpura Road. Alongside JEE Main and Advanced, it coaches for GUJCET and school-level Olympiad and NTSE programmes, positioning it as a broader competitive-exam institute rather than a JEE-only centre.</p>
+
+<h3>10. Catalyser IIT JEE Coaching Institute</h3>
+<p>Catalyser runs from Platinum Complex on Old Padra Road in Akota, near Radhakrishna Square, and carries a 3.7-out-of-5 rating from 160 reviews on Justdial - among the more heavily reviewed local JEE centres in this list, even if not the highest-rated. It coaches for JEE Main and Advanced alongside NTSE.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Those who want the resources, recorded content and Kota-linked faculty of a national chain have five to choose from here - Allen, Aakash, Resonance, FIITJEE and Motion Education - each with a different fee band and campus style. Students who'd rather learn at a Vadodara-built institute with smaller, more local batches have Sinhal Classes, Speed Institute, Yukti Learning Centre, IIT Ashram or Catalyser to compare, several of which carry stronger local review ratings than the national names. Students who also need GUJCET or school-Olympiad coaching alongside JEE might lean toward IIT Ashram's broader syllabus coverage. Published fees among the institutes above range from about Rs 49,000 (Allen's shorter online/DLP tracks) to Rs 7,00,000 (FIITJEE's premium integrated programmes) - treat these as indicative, not fixed quotes, and confirm current fees and batch sizes directly with the institute before enrolling. Compare full details and additional Vadodara institutes on our <a href="coaching-vadodara.html">Vadodara coaching directory</a>.</p>
+`
+},
+
+{
 slug: "clat-2027-expert-committee-report-feedback-window-closes-august31-update",
 title: "CLAT 2027: No Syllabus Changes, Public Feedback on Reform Report Closes 31 August",
 category: "CLAT / Law",
