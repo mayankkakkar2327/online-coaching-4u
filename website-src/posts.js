@@ -3,6 +3,133 @@
 module.exports = [
 
 {
+slug: "neet-ug-2026-round1-schedule-revised-again-august21-update",
+title: "NEET UG 2026: MCC Revises Round 1 Counselling Schedule Again, Window Now Runs to 21 August",
+category: "NEET",
+date: "20 Aug 2026",
+minutes: 4,
+cta: { href: "coaching-hub.html", text: "Browse verified NEET coaching institutes across India" },
+excerpt: "MCC has revised the NEET UG 2026 Round 1 counselling schedule for the second time this month, extending the AIQ/State process to 21 August and setting 31 August as the seat-joining deadline - here is exactly what changed.",
+image: "assets/blog/neet-ug-2026-round1-schedule-revised-again-august21-update.png",
+imageAlt: "NEET UG 2026 Round 1 counselling schedule revised graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 20 August 2026.</strong></p>
+<p>The Medical Counselling Committee (MCC) has issued a revised All India Quota (AIQ) and State schedule for Round 1 of NEET UG 2026 counselling, dated 19 August 2026, extending the Round 1 process window through 21 August 2026 and setting 31 August 2026 as the last date for allotted candidates to join their college.</p>
+
+<h2>What changed</h2>
+<p>This is the second revision to the Round 1 timeline in under a week. An earlier notice, dated 13 August, had extended choice locking to 17 August and projected the Round 1 result for 19 August. MCC's newest schedule, published on its official "eservices/Schedule" notice board on 19 August, now shows the AIQ/Deemed/Central Universities Round 1 process running from 6 August to 21 August 2026, with a parallel State Counselling window of 13 to 27 August 2026.</p>
+
+<h2>Key dates from the revised schedule</h2>
+<ul>
+<li><strong>1st Round of Counselling</strong> (AIQ/Deemed AY 2026-27/Central Universities): 6 August 2026 - 21 August 2026. Verification of Deemed-university candidate data by MCC is due 1 September 2026.</li>
+<li><strong>State Counselling</strong> (Round 1): 13 August 2026 - 27 August 2026. Verification of joined-candidate data by state DME/State Counselling Authorities is due 6 September 2026.</li>
+<li><strong>Last date of joining for Round 1</strong> (AIQ/Deemed/Central Universities): 31 August 2026, with joined-candidate data verification due 9 September 2026.</li>
+</ul>
+
+<h2>What this means for candidates</h2>
+<p>Candidates who locked choices under the earlier 13 August notice do not need to re-lock; the revision changes the processing and reporting timeline, not the choices already submitted. Anyone allotted a Round 1 seat should confirm the exact reporting deadline directly with their allotted college, since the 31 August joining date applies to AIQ/Deemed/Central Universities seats specifically - state-quota seats follow each state counselling authority's own reporting schedule within the 13-27 August window. Candidates should keep checking mcc.nic.in directly rather than relying on third-party trackers, since this schedule has already shifted twice this month.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Exam:</strong> NEET UG 2026 counselling (AIQ / Deemed / Central Universities / State)</p>
+<p><strong>What changed:</strong> Round 1 schedule revised again, notice dated 19 August 2026</p>
+<p><strong>AIQ/Deemed/Central Universities Round 1 window:</strong> 6 Aug - 21 Aug 2026</p>
+<p><strong>State Counselling window:</strong> 13 Aug - 27 Aug 2026</p>
+<p><strong>Last date to join a Round 1 seat:</strong> 31 Aug 2026</p>
+<p><strong>Official source:</strong> mcc.nic.in</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[19 Aug 2026]</strong> MCC published a revised AIQ and State schedule for NEET UG 2026 Round 1 counselling, per the official notice on mcc.nic.in.</li>
+<li><strong>[6 Aug 2026 - 21 Aug 2026]</strong> The AIQ/Deemed/Central Universities Round 1 counselling process window, per the revised schedule.</li>
+<li><strong>[Deadline: 31 Aug 2026]</strong> Last date for candidates allotted an AIQ/Deemed/Central Universities Round 1 seat to complete joining at their allotted college.</li>
+<li><strong>[13 Aug 2026 - 27 Aug 2026]</strong> State Counselling window for Round 1 under the revised schedule.</li>
+<li><strong>Myth check:</strong> A revised counselling schedule does not mean candidates must re-submit or re-lock choices already locked under the earlier notice - only the processing and reporting dates have moved.</li>
+</ul>
+<p><em>Sources: <a href="https://mcc.nic.in/ug-medical-counselling/" rel="noopener" target="_blank">MCC UG Medical Counselling notice board</a> (mcc.nic.in); <a href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/202608191403764226.pdf" rel="noopener" target="_blank">Revised AIQ and State Schedule for Round 1 of UG Counselling 2026 (dated 19.08.2026)</a> (mcc.nic.in).</em></p>
+<p><strong>Last updated: 20 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-neet-coaching-institutes-ranchi-2026",
+title: "Top 10 NEET Coaching Institutes in Ranchi (2026)",
+category: "NEET",
+date: "20 Aug 2026",
+minutes: 9,
+cta: { href: "coaching-ranchi.html", text: "Browse all verified coaching institutes in Ranchi" },
+excerpt: "Ranchi's NEET coaching market runs on a mix of national test-prep chains and institutes built locally in the city, clustered around Circular Road, Lalpur and Harmu Road, and feeding into Jharkhand's principal government medical college, RIMS Ranchi. Here's a fact-checked look at ten institutes training NEET aspirants in the city.",
+image: "assets/blog/top-10-neet-coaching-institutes-ranchi-2026.png",
+imageAlt: "Top 10 NEET coaching institutes in Ranchi 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best NEET coaching institute in Ranchi?",
+    "a": "There's no single 'best' - Aim Entrance Institute and Motion Education carry the strongest independently-listed review scores among Ranchi's NEET centres (9.6/10 and 9.4/10 respectively, per Collegedunia), while Aakash, Allen, Physics Wallah and Narayana offer the scale and standardised test series of national chains. The right pick depends on whether you want a locally built centre or a national chain's resources."
+  },
+  {
+    "q": "Are there NEET coaching options built specifically in Ranchi, not franchises of national chains?",
+    "a": "Yes - Aim Entrance Institute, Brothers Academy, Newton Tutorials, Savidya Academy and Super-50 are all Ranchi-founded institutes rather than branches of national chains."
+  },
+  {
+    "q": "Is there a government medical college in Ranchi itself?",
+    "a": "Yes. Rajendra Institute of Medical Sciences (RIMS), established in 1960, is Jharkhand's principal government medical college and teaching hospital, with an MBBS intake of 180 and an NIRF medical ranking of 24 in 2024."
+  },
+  {
+    "q": "What does NEET coaching cost in Ranchi?",
+    "a": "Published two-year NEET classroom fees among the institutes covered here range from about Rs 1,33,000 (Allen) up to Rs 3,36,000 (Aakash), per Collegedunia's listed fee pages - always confirm current fees directly with the institute, since published rates change by batch and format."
+  }
+],
+html: `
+<p>Ranchi is Jharkhand's principal NEET-coaching hub, anchored by Rajendra Institute of Medical Sciences (RIMS), the state's main government medical college, established in 1960 with an MBBS intake of 180 and an NIRF medical ranking of 24 in 2024. Coaching activity in the city clusters mainly along Circular Road, Lalpur, Harmu Road and Kutchary, with a mix of national test-prep chains and institutes built and run locally in Ranchi. Below is a fact-checked look at ten institutes training NEET aspirants in the city.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Ranchi, Jharkhand</p>
+<p><strong>Exam this list is built for:</strong> NEET-UG; most institutes below also run JEE Main/Advanced batches</p>
+<p><strong>Institutes compared:</strong> 10, spanning national test-prep chains and Ranchi-built specialists</p>
+<p><strong>Main coaching clusters:</strong> Circular Road, Lalpur, Harmu Road, Kutchary, Bariatu</p>
+<p><strong>Local government medical college:</strong> Rajendra Institute of Medical Sciences (RIMS), Ranchi - est. 1960, 180 MBBS seats, NIRF medical rank 24 (2024)</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable NEET-coaching presence serving Ranchi: a real local address, confirmation across more than one independent source (institute or chain websites, and education directories such as Collegedunia and Our Career Choice), and a track record of running NEET-specific or NEET-plus-JEE batches rather than only school tuitions. Institutes we could not verify with a real Ranchi address or centre listing were left out rather than padded in.</p>
+
+<h3>1. Aakash Institute</h3>
+<p>Aakash Institute's Ranchi centre operates from the 3rd floor of Arya Business Centre on Club Road, running the national chain's standardised NEET-plus-JEE classroom curriculum and All India Test Series. Its published two-year NEET classroom course fee runs to roughly Rs 3,36,000, and the centre carries a 7.6-out-of-10 Google-review score from 665 reviews, per Collegedunia's listing.</p>
+
+<h3>2. Allen Career Institute</h3>
+<p>Allen Career Institute's Ranchi campus runs from Mangal Murti Heights on Harmu Road, beside Vishal Mega Mart, extending the Kota-founded chain's classroom NEET and JEE Main/Advanced programme to Jharkhand. Its published two-year NEET course fee is among the lower-priced national-chain options in the city at roughly Rs 1,33,000, per Collegedunia's fee listing, and it carries an 8.4-out-of-10 Google-review score from 259 reviews.</p>
+
+<h3>3. Motion Education</h3>
+<p>Motion Education's Ranchi centre sits on the 6th floor of Sri Ram Neotia Arcade on Hazaribag Road near Lalpur, bringing the Kota-founded chain's video-lecture-backed classroom model to the city for NEET, JEE and AIIMS aspirants. It carries a 9.4-out-of-10 Google-review score from 463 reviews, among the higher-rated centres in this list, per Collegedunia.</p>
+
+<h3>4. Physics Wallah (PW Vidyapeeth)</h3>
+<p>Physics Wallah's Ranchi centre operates from Shiwam Complex on HB Road in Lalpur, opposite Plaza Cinema, running the low-fee national chain's NEET and JEE classroom-plus-recorded-content model. Its published two-year NEET fee is roughly Rs 1,69,000, and the centre carries a 9-out-of-10 Google-review score from 434 reviews, per Collegedunia.</p>
+
+<h3>5. Narayana IIT/NEET Academy</h3>
+<p>Narayana's Ranchi academy runs from L.N Corporate near Hotel The Pinnacle in Kutchary, offering the national chain's combined IIT and NEET classroom programmes. It is one of five national test-prep chains - alongside Aakash, Allen, Motion Education and Physics Wallah - with a confirmed physical Ranchi centre.</p>
+
+<h3>6. Aim Entrance Institute</h3>
+<p>Aim Entrance Institute is a Ranchi-built institute running from RS Tower on Circular Road near Pantaloons in Lalpur, coaching for NEET and JEE. It carries the highest Google-review score among the institutes surveyed for this list - 9.6 out of 10 from 684 reviews, per Collegedunia - and its published two-year NEET fee is roughly Rs 1,60,000.</p>
+
+<h3>7. Brothers Academy</h3>
+<p>Brothers Academy runs from the 4th floor of Tirupati Tower near Women's College on Circular Road, built around a dedicated Physics-Chemistry-Maths-Biology faculty team for NEET and JEE preparation. It carries an 8.8-out-of-10 Google-review score from 484 reviews, per Collegedunia, and its published two-year NEET fee is roughly Rs 1,94,500.</p>
+
+<h3>8. Newton Tutorials</h3>
+<p>Newton Tutorials operates from Hariom Tower on Circular Road, coaching NEET and JEE aspirants under a locally built brand rather than a national franchise. It carries a 9-out-of-10 Google-review score from 480 reviews, per Collegedunia, and its published two-year NEET fee is roughly Rs 2,53,700.</p>
+
+<h3>9. Savidya Academy</h3>
+<p>Savidya Academy runs from Bariatu Road, opposite the Firing Range in Bariatu, describing itself as a dedicated Pre-Medical/NEET-AIIMS institute that also coaches IIT JEE Main and Advanced. It is one of the few institutes on this list positioned specifically around medical-entrance coaching rather than a combined engineering-first curriculum.</p>
+
+<h3>10. Super-50</h3>
+<p>Super-50 operates from Le-Desire Complex opposite Hariom Tower, coaching across JEE, NEET, NDA and AIIMS - a broader competitive-exam spread than most institutes on this list. That makes it an option for students weighing more than one entrance exam alongside NEET.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Aakash, Allen, Motion Education, Physics Wallah and Narayana bring the scale, recorded content and standardised test series of national chains, each with a different fee band - published two-year NEET fees among them range from about Rs 1,33,000 (Allen) to Rs 3,36,000 (Aakash), per Collegedunia's listed fee pages. Students who'd rather learn at a Ranchi-built institute have Aim Entrance Institute, Brothers Academy, Newton Tutorials, Savidya Academy or Super-50 to compare, several of which carry stronger local review scores than the national names. Treat all fee figures here as indicative, not fixed quotes, and confirm current fees and batch sizes directly with the institute before enrolling. Compare full details and additional Ranchi institutes on our Ranchi coaching directory.</p>
+`
+},
+
+{
 slug: "csab-special-neut-2026-round2-results-spot-round-august20-update",
 title: "CSAB Special & CSAB-NEUT 2026: Round-II Results Out, NEUT Spot Round Opens 20 August",
 category: "IIT JEE",
