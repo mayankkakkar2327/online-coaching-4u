@@ -39,7 +39,8 @@
       "surat",
       "varanasi",
       "bhubaneswar",
-      "vadodara"
+      "vadodara",
+      "ranchi"
     ],
     "certification": [
       "online"
@@ -8624,6 +8625,206 @@
         "Located in Akota, near Radhakrishna Square"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-ranchi",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "ranchi",
+      "locality": "Club Road",
+      "address": "3rd Floor, Arya Business Centre, Club Road, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Aakash Institute's Ranchi centre operates from the 3rd floor of Arya Business Centre on Club Road, running the national chain's standardised NEET-plus-JEE classroom curriculum and All India Test Series. Its published two-year NEET classroom course fee runs to roughly Rs 3,36,000, and the centre carries a 7.6-out-of-10 Google-review score from 665 reviews, per Collegedunia's listing.",
+      "highlights": [
+        "Runs Aakash's standardised NEET-plus-JEE curriculum and All India Test Series",
+        "7.6/10 Google-review score from 665 reviews (per Collegedunia)",
+        "Published two-year NEET classroom fee: approx. Rs 3,36,000"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-ranchi",
+      "type": "coaching",
+      "name": "Allen Career Institute",
+      "city": "ranchi",
+      "locality": "Harmu Road",
+      "address": "205, 2nd Floor, Mangal Murti Heights, Beside Vishal Mega Mart, Harmu Road, Ranchi, Jharkhand",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Allen Career Institute's Ranchi campus runs from Mangal Murti Heights on Harmu Road, extending the Kota-founded chain's classroom NEET and JEE Main/Advanced programme to Jharkhand. Its published two-year NEET course fee is among the lower-priced national-chain options in the city at roughly Rs 1,33,000, per Collegedunia's fee listing.",
+      "highlights": [
+        "Kota-founded national chain's classroom NEET and JEE programme",
+        "Published two-year NEET fee: approx. Rs 1,33,000 (Collegedunia)",
+        "8.4/10 Google-review score from 259 reviews (per Collegedunia)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "motion-education-ranchi",
+      "type": "coaching",
+      "name": "Motion Education",
+      "city": "ranchi",
+      "locality": "Hazaribag Road, Lalpur",
+      "address": "6th Floor, Sri Ram Neotia Arcade, Hazaribag Road, Chowk, near Lalpur, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Motion Education's Ranchi centre sits on the 6th floor of Sri Ram Neotia Arcade on Hazaribag Road near Lalpur, bringing the Kota-founded chain's video-lecture-backed classroom model to the city for NEET, JEE and AIIMS aspirants. It carries a 9.4-out-of-10 Google-review score from 463 reviews, among the higher-rated centres in the city, per Collegedunia.",
+      "highlights": [
+        "Kota-founded chain's video-lecture-backed classroom model, for NEET, JEE and AIIMS",
+        "9.4/10 Google-review score from 463 reviews (per Collegedunia)",
+        "Official Ranchi centre site: ranchi.motion.ac.in"
+      ],
+      "website": "https://ranchi.motion.ac.in/",
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-ranchi",
+      "type": "coaching",
+      "name": "Physics Wallah (PW Vidyapeeth)",
+      "city": "ranchi",
+      "locality": "HB Road, Lalpur",
+      "address": "2nd Floor, Shiwam Complex, Opposite Plaza Cinema, HB Road, Lalpur, Ranchi, Jharkhand",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Physics Wallah's Ranchi centre operates from Shiwam Complex on HB Road in Lalpur, opposite Plaza Cinema, running the low-fee national chain's NEET and JEE classroom-plus-recorded-content model. Its published two-year NEET fee is roughly Rs 1,69,000, and the centre carries a 9-out-of-10 Google-review score from 434 reviews, per Collegedunia.",
+      "highlights": [
+        "Low-fee national chain's classroom-plus-recorded-content NEET and JEE model",
+        "Published two-year NEET fee: approx. Rs 1,69,000 (Collegedunia)",
+        "9/10 Google-review score from 434 reviews (per Collegedunia)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "narayana-ranchi",
+      "type": "coaching",
+      "name": "Narayana IIT/NEET Academy",
+      "city": "ranchi",
+      "locality": "Kutchary",
+      "address": "2nd & 3rd Floor, L.N Corporate, Next to Hotel The Pinnacle, Jagatpal Sahay Lane, Kutchary, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Narayana's Ranchi academy runs from L.N Corporate near Hotel The Pinnacle in Kutchary, offering the national chain's combined IIT and NEET classroom programmes. It is one of five national test-prep chains -- alongside Aakash, Allen, Motion Education and Physics Wallah -- with a confirmed physical Ranchi centre.",
+      "highlights": [
+        "National chain's combined IIT and NEET classroom programme",
+        "One of five national chains with a confirmed physical Ranchi centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aim-entrance-institute-ranchi",
+      "type": "coaching",
+      "name": "Aim Entrance Institute",
+      "city": "ranchi",
+      "locality": "Circular Road, Lalpur",
+      "address": "Ground Floor, RS Tower, Circular Road, Near Pantaloons, Lalpur, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Aim Entrance Institute is a Ranchi-built institute running from RS Tower on Circular Road near Pantaloons in Lalpur, coaching for NEET and JEE. It carries the highest Google-review score among Ranchi NEET institutes surveyed for this list -- 9.6 out of 10 from 684 reviews, per Collegedunia -- and its published two-year NEET fee is roughly Rs 1,60,000.",
+      "highlights": [
+        "Ranchi-founded institute, not a national-chain franchise",
+        "9.6/10 Google-review score from 684 reviews -- the highest surveyed (per Collegedunia)",
+        "Published two-year NEET fee: approx. Rs 1,60,000 (Collegedunia)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "brothers-academy-ranchi",
+      "type": "coaching",
+      "name": "Brothers Academy",
+      "city": "ranchi",
+      "locality": "Circular Road",
+      "address": "4th Floor, Tirupati Tower, Near Women's College, Circular Road, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Brothers Academy runs from the 4th floor of Tirupati Tower near Women's College on Circular Road, built around a dedicated Physics-Chemistry-Maths-Biology faculty team for NEET and JEE preparation. It carries an 8.8-out-of-10 Google-review score from 484 reviews, per Collegedunia, and its published two-year NEET fee is roughly Rs 1,94,500.",
+      "highlights": [
+        "Ranchi-founded institute with a dedicated PCMB faculty team",
+        "8.8/10 Google-review score from 484 reviews (per Collegedunia)",
+        "Published two-year NEET fee: approx. Rs 1,94,500 (Collegedunia)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "newton-tutorials-ranchi",
+      "type": "coaching",
+      "name": "Newton Tutorials",
+      "city": "ranchi",
+      "locality": "Circular Road",
+      "address": "505, 5th Floor, Hariom Tower, Circular Road, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Newton Tutorials operates from Hariom Tower on Circular Road, coaching NEET and JEE aspirants under a locally built brand rather than a national franchise. It carries a 9-out-of-10 Google-review score from 480 reviews, per Collegedunia, and its published two-year NEET fee is roughly Rs 2,53,700.",
+      "highlights": [
+        "Ranchi-founded institute, not a national-chain franchise",
+        "9/10 Google-review score from 480 reviews (per Collegedunia)",
+        "Published two-year NEET fee: approx. Rs 2,53,700 (Collegedunia)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "savidya-academy-ranchi",
+      "type": "coaching",
+      "name": "Savidya Academy",
+      "city": "ranchi",
+      "locality": "Bariatu",
+      "address": "Bariatu Road, Opposite Firing Range, Bariatu, Ranchi, Jharkhand 834009",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Savidya Academy runs from Bariatu Road, opposite the Firing Range in Bariatu, describing itself as a dedicated Pre-Medical/NEET-AIIMS institute that also coaches IIT JEE Main and Advanced. It is one of the few institutes on this list positioned specifically around medical-entrance coaching rather than a combined engineering-first curriculum.",
+      "highlights": [
+        "Positioned specifically as a Pre-Medical/NEET-AIIMS institute",
+        "Also coaches IIT JEE Main and Advanced",
+        "Ranchi-founded institute, not a national-chain franchise"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "super-50-ranchi",
+      "type": "coaching",
+      "name": "Super-50",
+      "city": "ranchi",
+      "locality": "Hariom Tower area",
+      "address": "1st Floor, Le-Desire Complex, Opposite Hariom Tower, Ranchi, Jharkhand 834001",
+      "exams": [
+        "neet",
+        "jee",
+        "nda"
+      ],
+      "verified": false,
+      "about": "Super-50 operates from Le-Desire Complex opposite Hariom Tower, coaching across JEE, NEET, NDA and AIIMS -- a broader competitive-exam spread than most institutes on this list. That makes it an option for students weighing more than one entrance exam alongside NEET.",
+      "highlights": [
+        "Coaches across JEE, NEET, NDA and AIIMS -- a broader exam spread than most on this list",
+        "Ranchi-founded institute, not a national-chain franchise"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -8735,6 +8936,9 @@
     },
     "coaching-vadodara": {
       "intro": "<p>Vadodara is home to Gujarat's oldest engineering faculty — the NAAC A+-rated Faculty of Technology and Engineering at The Maharaja Sayajirao University of Baroda, established in 1949 — alongside several GTU-affiliated engineering colleges, which keeps local JEE and GUJCET coaching demand steady through the city's industrial base of petrochemical, engineering and pharma companies. Coaching activity clusters around Akota, Fatehgunj, Karelibaug, Nizampura and Alkapuri, mixing Kota-founded national chains (Allen, Aakash, Resonance, FIITJEE, Motion Education) with institutes built locally in Vadodara (IIT Ashram, Sinhal Classes, Speed Institute, Yukti Learning Centre, Catalyser). Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-ranchi": {
+      "intro": "<p>Ranchi is Jharkhand's principal NEET-coaching hub, anchored by Rajendra Institute of Medical Sciences (RIMS), the state's main government medical college. National chains &mdash; Aakash, Allen, Motion Education, Physics Wallah and Narayana &mdash; run full local campuses here, alongside Ranchi-founded institutes such as Aim Entrance Institute, Brothers Academy, Newton Tutorials, Savidya Academy and Super-50 that have built independent NEET-coaching track records in the city. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
