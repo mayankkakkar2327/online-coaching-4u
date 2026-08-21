@@ -4425,5 +4425,70 @@ html: `
 <p>None of the six institutes above have paid Online Coaching 4u for placement, inclusion, or a higher position in this article. Our lead recommendation for SBTechMath is based on a specific, checkable fact, its founder's individually verifiable CSIR-NET AIR-11 and the structure of its teaching model, not a sponsorship arrangement. If that ever changes for any institute on this page, we will disclose it plainly rather than let a ranking quietly shift.</p>
 
 <p>Compare full details, ratings and contact options for every institute mentioned here on our <a href="coaching-online.html?exam=csir-net">pure-mathematics coaching listings page</a>.</p>`
-  }
+  },
+
+{
+slug: "xat-2027-mock-test-august30-registration-update",
+title: "XAT 2027: Free Mock Test Set for August 30, Apply by August 27 to Qualify",
+category: "XAT / MBA",
+date: "21 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "XLRI's official XAT 2027 portal has confirmed a free mock test on 30 August 2026, open only to candidates who complete their application by 27 August — a near-term deadline for anyone who registered since the exam opened on 15 July.",
+image: "assets/blog/xat-2027-mock-test-august30-registration-update.png",
+imageAlt: "XAT 2027 mock test August 30 registration update graphic",
+html: `
+<p><strong>Last updated: 21 August 2026.</strong></p>
+<p>XAT 2027 registration has been open since 15 July 2026, and XLRI's official portal, <a href="https://xatonline.in/" rel="noopener" target="_blank">xatonline.in</a>, has confirmed a free mock test on 30 August 2026 — but only candidates who complete their application by 27 August are eligible to sit it, which puts a firm deadline this week in front of anyone who has registered but not yet finished the process.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per XLRI's official schedule, XAT 2027 registration runs from 15 July to 6 December 2026, with the exam itself set for Saturday, 3 January 2027, from 2:00 PM to 5:00 PM. The base application fee is Rs 2,300, plus Rs 200 for each additional XLRI programme applied for; candidates applying through GMAT/GRE pay Rs 2,600, and NRI/Foreign/PIO/OCI candidates pay Rs 5,000. The exam format is unchanged from prior cycles: 95 questions across four sections — Verbal Ability & Logical Reasoning (26 questions), Decision Making, Quantitative Aptitude & Data Interpretation, and General Knowledge (20 questions, 10 minutes) — in a 180-minute paper with no fixed section-wise time limits outside GK. Wrong answers cost -0.25 marks, and skipping more than eight questions overall costs -0.1 per additional skip; the GK section carries no negative marking and doesn't count toward the overall percentile. Over 250 B-schools, including XLRI and the XAMI group of institutes, accept XAT scores for admission.</p>
+
+<h2>What this means for aspirants</h2>
+<p>The mock test is the practical news here: it's free, run on XLRI's own platform, and restricted to candidates who have completed their application — so registering (or finishing an in-progress registration) by 27 August is the only way to get access before the 30 August sitting. For anyone who has already registered, this is the first chance this cycle to sit a full-length paper under something closer to real exam conditions, including the Decision Making section that trips up candidates coming from a pure CAT-prep background, since it's unique to XAT and not covered by most generic aptitude practice. With registration open until 6 December and the exam itself not until 3 January, there's no urgency to register early purely for the exam date — but the mock test creates a real, near-term reason to lock in registration this week rather than waiting.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[27 Aug 2026]</strong> Deadline to complete XAT 2027 registration in order to qualify for the free mock test.</li>
+<li><strong>[30 Aug 2026]</strong> XAT 2027 free mock test, run on XLRI's official platform, open only to candidates who registered by 27 August.</li>
+<li><strong>[6 Dec 2026]</strong> XAT 2027 registration window closes.</li>
+<li><strong>[3 Jan 2027, 2–5 PM]</strong> XAT 2027 exam day — 95 questions, 180 minutes, four sections.</li>
+<li><strong>Myth check:</strong> The General Knowledge section carries no negative marking and is excluded from the overall XAT percentile — it's scored and reported separately, so a weak GK score alone won't sink an otherwise strong attempt.</li>
+</ul>
+
+<p><em>Last updated: 21 August 2026. Source: <a href="https://xatonline.in/" rel="noopener" target="_blank">xatonline.in</a> (official XLRI XAT 2027 schedule, fees and exam pattern).</em></p>`
+},
+
+{
+slug: "nmat-2026-registration-now-open-slot-booking-live-update",
+title: "NMAT 2026: Registration Is Officially Live, Slot Booking Now Open",
+category: "NMAT / MBA",
+date: "21 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "NMAT 2026 registration and exam-slot booking went live on schedule on 20 August at mba.com — here's what the Rs 2,800 test fee actually covers, how retakes and rescheduling are priced, and why booking a slot early still matters.",
+image: "assets/blog/nmat-2026-registration-now-open-slot-booking-live-update.png",
+imageAlt: "NMAT 2026 registration now open slot booking live update graphic",
+html: `
+<p><strong>Last updated: 21 August 2026.</strong></p>
+<p>NMAT 2026 registration and exam-slot booking went live as scheduled on 20 August 2026 at <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com</a>, confirming the testing-cycle dates GMAC had previously announced. With the application window now actually open, the details that matter most are the fee structure and how the slot-booking process works — both of which GMAC has published in full.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Registration is open now and closes 10 October 2026; exam-slot booking runs slightly longer, staying open until 22 October 2026. The test-registration fee is Rs 2,800 plus applicable taxes, and a retake costs the same, Rs 2,800 plus taxes. Rescheduling an already-booked slot costs Rs 1,200 plus taxes, and each additional official score report beyond the first five sent automatically costs Rs 300. Candidates get up to three attempts total during the testing window — one initial attempt plus two retakes — and a no-show still counts as a used attempt, so a booked slot that isn't taken still consumes one of the three. The exam delivery window itself runs 2 November to 20 December 2026 across 70-plus Indian test cities, and NMAT remains a computer-adaptive test with no negative marking and candidate-chosen section order on exam day.</p>
+
+<h2>What this means for aspirants</h2>
+<p>Registering and booking a slot are two separate steps on mba.com — creating an account and completing the application form comes first, followed by choosing a preferred test date, time and centre once payment clears. GMAC's own guidance is to book a slot as early as possible after registering rather than waiting, since popular cities and preferred time slots fill on a first-come, first-served basis as the window progresses toward its 22 October close. Because a no-show still burns an attempt, it's worth booking a slot only once a test date is realistic, rather than reserving a placeholder far in advance. Anyone also sitting CAT 2026 should note the overlap: CAT registration closes 15 September, well before NMAT's own 10 October cutoff, so there's no scheduling conflict in registering for both, and NMAT's much longer 45-day test window gives more flexibility on picking an exact date than CAT's single exam day.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[20 Aug 2026]</strong> NMAT 2026 registration and slot booking both went live on <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com</a>, on schedule.</li>
+<li><strong>[10 Oct 2026]</strong> NMAT 2026 registration window closes.</li>
+<li><strong>[22 Oct 2026]</strong> Last date to book or reschedule an NMAT 2026 exam slot.</li>
+<li><strong>[2 Nov – 20 Dec 2026]</strong> NMAT 2026 exam delivery window across 70-plus Indian test cities.</li>
+<li><strong>Fee check:</strong> Registration and each retake cost Rs 2,800 plus taxes; rescheduling a slot costs Rs 1,200 plus taxes — a no-show still counts as one of the three total attempts allowed.</li>
+</ul>
+
+<p><em>Last updated: 21 August 2026. Source: <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com/exams/nmat</a> (official GMAC registration, fee and scheduling details).</em></p>`
+},
+
 ];
