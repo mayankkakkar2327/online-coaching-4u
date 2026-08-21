@@ -665,7 +665,7 @@ function toISODate(d) {
 const POSTS_BY_DATE = [...POSTS].sort((a, b) => new Date(toISODate(b.date)) - new Date(toISODate(a.date)));
 function postCard(p) {
   return `<a class="card post-card" href="${p.slug}.html">
-<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(p.category)}</span></div>
+<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(p.category)}</span></div>
 <div class="card-body">
 <span class="muted">${p.date} · ${p.minutes} min read</span>
 <h3>${esc(p.title)}</h3>
@@ -764,7 +764,7 @@ function postPage(p) {
 <h1>${esc(p.title)}</h1>
 <div class="post-meta-row"><span>${p.date}</span><span>${p.minutes} min read</span></div>
 </div>
-${p.image ? `<div class="post-hero-media"><img src="${p.image}" alt="${esc(p.imageAlt || p.title)}" loading="lazy"></div>` : ""}
+${p.image ? `<div class="post-hero-media"><img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy"></div>` : ""}
 </div>
 </section>
 <section class="section container post-layout">
