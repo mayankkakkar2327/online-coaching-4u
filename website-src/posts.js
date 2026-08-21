@@ -2,6 +2,126 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 
+
+{
+slug: "snap-2026-registration-opens-august21-update",
+title: "SNAP 2026: Symbiosis MBA Entrance Registration Opens August 21, Test Set for December",
+category: "SNAP / MBA",
+date: "21 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "Symbiosis International (Deemed University) has opened SNAP 2026 registration on the official portal, snaptest.org, with the window live from 21 August 2026 - here is the full dated schedule for the entrance test covering 29 MBA programmes across 17 Symbiosis institutes.",
+image: "assets/blog/snap-2026-registration-opens-august21-update.png",
+imageAlt: "SNAP 2026 registration open notification graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 21 August 2026.</strong></p>
+<p>Symbiosis International (Deemed University) has opened registration for SNAP 2026 - the mandatory entrance test for 29 MBA and PGDM programmes across 17 Symbiosis institutes - on the official portal, <a href="https://www.snaptest.org" rel="noopener" target="_blank">snaptest.org</a>, with the window live from 21 August 2026.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per the official "Important Dates" page on snaptest.org, SNAP 2026 registration and payment closes on 25 November 2026. The test will be conducted as a Computer Based Test (CBT) of 60 minutes' duration, held across three separate sessions so that a candidate's best score counts: SNAP 01 on 13 December 2026 (Sunday), SNAP 02 on 19 December 2026 (Saturday), and SNAP 03 on 26 December 2026 (Saturday). Admit cards for each session go live shortly before the respective test date - 7, 11 and 18 December respectively - and the consolidated result is scheduled for 12 January 2027. The test fee is Rs 2,550 per attempt, plus a separate Rs 1,000 registration fee for each MBA programme a candidate applies to; government taxes apply extra and both fees are non-refundable.</p>
+
+<h2>What this means for MBA aspirants</h2>
+<p>SNAP is the entrance gateway for Symbiosis's 17 constituent institutes spread across six cities - Pune, Bengaluru, Hyderabad, Nagpur, Nashik and Noida - covering flagship programmes such as SIBM Pune, SCMHRD, SIIB and SIBM Bengaluru. Because the test runs in three separate windows and only the best of the three attempted scores counts, candidates who register early get the practical benefit of treating SNAP 01 in December as a lower-stakes first attempt while still holding two further chances before the cycle closes. Eligibility remains a graduation degree in any discipline with a minimum of 50% marks (45% for SC/ST candidates); some specialised programmes, including Business Analytics and dual-degree options, carry additional criteria worth checking on each institute's own page before applying. Paying the SNAP test fee alone does not secure a seat in any programme - candidates must separately register and pay for every individual MBA programme they wish to be considered for.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Exam:</strong> SNAP 2026 (Symbiosis National Aptitude Test)</p>
+<p><strong>Registration opened:</strong> 21 August 2026</p>
+<p><strong>Registration closes:</strong> 25 November 2026</p>
+<p><strong>Test dates:</strong> SNAP 01 - 13 Dec 2026; SNAP 02 - 19 Dec 2026; SNAP 03 - 26 Dec 2026</p>
+<p><strong>Result:</strong> 12 January 2027</p>
+<p><strong>Official source:</strong> snaptest.org</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[21 Aug 2026]</strong> SNAP 2026 registration opened on the official portal, snaptest.org, for 29 MBA/PGDM programmes across 17 Symbiosis institutes.</li>
+<li><strong>[Deadline: 25 Nov 2026]</strong> Last date to complete SNAP 2026 registration and fee payment, per the official Important Dates page.</li>
+<li><strong>[13 Dec / 19 Dec / 26 Dec 2026]</strong> The three SNAP 2026 CBT session dates - a candidate's best score across all attempted sessions counts toward admission.</li>
+<li><strong>[12 Jan 2027]</strong> SNAP 2026 result announcement date, per the official schedule.</li>
+<li><strong>Myth check:</strong> Paying the Rs 2,550 SNAP test fee does not by itself register a candidate for any MBA programme - a separate Rs 1,000 programme-registration fee is required for each institute/programme applied to.</li>
+</ul>
+<p><em>Sources: <a href="https://www.snaptest.org/" rel="noopener" target="_blank">SNAP 2026 official website</a> (snaptest.org); <a href="https://www.snaptest.org/snap-important-dates" rel="noopener" target="_blank">SNAP 2026 Important Dates</a> (snaptest.org).</em></p>
+<p><strong>Last updated: 21 August 2026.</strong></p>
+`
+},
+{
+slug: "top-10-cat-coaching-institutes-nashik-2026",
+title: "Top 10 CAT Coaching Institutes in Nashik (2026)",
+category: "CAT / MBA",
+date: "21 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-nashik.html", text: "Browse all verified coaching institutes in Nashik" },
+excerpt: "Nashik's CAT coaching market clusters along College Road, mixing national chains with institutes built locally in the city - and it's also home to Symbiosis Institute of Operations Management (SIOM), one of the six Symbiosis campuses covered by SNAP. Here's a fact-checked look at ten institutes training MBA aspirants in the city.",
+image: "assets/blog/top-10-cat-coaching-institutes-nashik-2026.png",
+imageAlt: "Top 10 CAT coaching institutes in Nashik 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best CAT coaching institute in Nashik?",
+    "a": "There's no single 'best' - T.I.M.E., IMS, Career Launcher and Bulls Eye are the longest-running national-chain options on College Road, each with a multi-decade track record, while Excellence Learning Centre is the largest Nashik-headquartered specialist, running since 2010 and covering CAT alongside CMAT, SNAP and NMAT. The right pick depends on whether you want a national chain's standardised material or a locally built institute's personal attention."
+  },
+  {
+    "q": "Are there CAT coaching options built specifically in Nashik, not franchises of national chains?",
+    "a": "Yes - Excellence Learning Centre, PT Education, Dataishwar Academy, Rays Academy, Spectrum Academy and Joshi's Classes are all Nashik-based institutes rather than branches of national chains, though several of them (Dataishwar, Spectrum and Joshi's) coach CAT/MBA-CET alongside a broader roster of government or engineering-entrance exams rather than as a single specialty."
+  },
+  {
+    "q": "Is there a Symbiosis MBA campus in Nashik itself?",
+    "a": "Yes. Symbiosis Institute of Operations Management (SIOM) is based in Nashik and is one of the 17 Symbiosis institutes across six cities for which SNAP is the mandatory entrance test - SNAP 2026 registration opened on 21 August 2026."
+  },
+  {
+    "q": "Where are most CAT coaching institutes in Nashik located?",
+    "a": "The large majority cluster along College Road, near BYK College - T.I.M.E., IMS, Career Launcher, Bulls Eye and PT Education are all within a short walk of each other there. A smaller number of institutes operate out of Mahatma Nagar, Gangapur Road, Ashok Stambh and Nashik Road."
+  }
+],
+html: `
+<p>Nashik - Maharashtra's "Wine Capital" and home to two state universities alongside a growing private-education base - has built a genuine CAT-coaching market centred on College Road over the past decade. The city is also directly relevant to this MBA season: Symbiosis Institute of Operations Management (SIOM), one of the 17 Symbiosis institutes covered by SNAP, is based in Nashik, and SNAP 2026 registration opened on 21 August 2026. Coaching activity here mixes long-running national chains with institutes built and run locally. Below is a fact-checked look at ten institutes training CAT and MBA-entrance aspirants in the city.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Nashik, Maharashtra</p>
+<p><strong>Exam this list is built for:</strong> CAT; most institutes below also coach CMAT, XAT, SNAP, NMAT or MBA-CET</p>
+<p><strong>Institutes compared:</strong> 10, spanning national test-prep chains and Nashik-built specialists</p>
+<p><strong>Main coaching cluster:</strong> College Road, near BYK College</p>
+<p><strong>Local Symbiosis campus:</strong> Symbiosis Institute of Operations Management (SIOM), Nashik - one of 17 SNAP-affiliated institutes nationally</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CAT-coaching presence serving Nashik: a real local address, confirmation across more than one independent source (institute or chain websites, and education directories such as Hitbullseye, Chunocollege, Collegedunia, Sulekha and UrbanPro), and an actual CAT or MBA-entrance batch on offer rather than just a passing mention. Where an institute's main business is a different exam and CAT is a secondary offering, we've said so plainly rather than presenting it as a CAT specialist. Institutes we could not verify with a real Nashik address or centre listing - including a couple of well-known national names with no confirmed Nashik branch - were left out rather than padded in.</p>
+
+<h3>1. T.I.M.E. (Triumphant Institute of Management Education)</h3>
+<p>T.I.M.E.'s main Nashik centre runs from Rohan Heights on College Road, with a second centre at Yash Arcade near Bytco Point on Nashik Road. The chain's local batches cover classroom CAT training plus GD/PI/WAT preparation, and the College Road centre also runs a CLAT-track batch for law aspirants alongside its MBA-entrance programme.</p>
+
+<h3>2. IMS (IMS Learning Resources)</h3>
+<p>IMS opened its Nashik centre - on College Road, above Durga Cafe - in 2020, extending a national network the company says spans roughly 90 centres across 44 cities, built on a management-entrance coaching business that traces back to a Mumbai correspondence course roughly four decades ago. The Nashik centre coaches CAT alongside CMAT, XAT, MAT and law-entrance exams including CLAT and AILET.</p>
+
+<h3>3. Career Launcher</h3>
+<p>Career Launcher has run CAT-focused coaching in Nashik since 2015 from its College Road centre, offering both classroom and online batch formats with faculty drawn from IIT/IIM backgrounds. Beyond CAT, it also coaches for XAT, CLAT, BBA/IPM entrance tests and banking exams from the same location.</p>
+
+<h3>4. Excellence Learning Centre (ELC)</h3>
+<p>Excellence Learning Centre is headquartered in Nashik, off College Road, and has run weekend CAT batches for working professionals and students since 2010. Alongside CAT, it coaches CMAT, SNAP and NMAT - directly relevant given SNAP 2026 registration just opened - and runs annual pre-exam "Speed Technique" workshops that extend to Pune, Mumbai, Aurangabad and Nagpur.</p>
+
+<h3>5. Bulls Eye Classes</h3>
+<p>Bulls Eye has taught CAT and MBA-entrance batches since 1996, and its College Road Nashik centre is headed by Vinay Wagh, who has more than 20 years of teaching experience and has personally cleared CAT with interview calls from nine IIMs. The institute's own published student list credits past Nashik-centre candidates with admits at IIM Ahmedabad, IIM Indore, IIM Kozhikode, SIBM Pune and SCMHRD, among others.</p>
+
+<h3>6. PT Education</h3>
+<p>PT Education runs a College Road centre in Nashik offering classroom CAT coaching, listed consistently across independent education directories alongside the city's other College Road institutes. As with any centre, confirm current batch timings and faculty directly before enrolling.</p>
+
+<h3>7. Dataishwar Academy</h3>
+<p>Dataishwar Academy is primarily a multi-exam competitive coaching centre near Ashok Stambh, running batches for UPSC, MPSC, GATE, banking/IBPS and other government exams alongside a CAT and MBA-CET preparation offering that includes printed notes, test series and doubt-clearing sessions. It suits students who want CAT prep bundled with broader competitive-exam coaching rather than a specialist MBA-entrance institute.</p>
+
+<h3>8. Rays Academy</h3>
+<p>Rays Academy runs a CAT coaching batch from Mahatma Nagar, offering printed notes, test series and doubt-clearing sessions. It's a smaller, locally run alternative to the College Road cluster for students based on the Mahatma Nagar/Gangapur Road side of the city.</p>
+
+<h3>9. Spectrum Academy</h3>
+<p>Spectrum Academy is primarily known in Nashik for UPSC, MPSC, banking and SSC coaching, and also runs MBA-CET/CAT batches from its Gangapur Road centre near Ashok Stambh. It carries a 4.3-out-of-5 rating across aggregator listings, though most of its published track record is in the government-exam space rather than CAT specifically.</p>
+
+<h3>10. Joshi's Classes</h3>
+<p>Joshi's Classes is primarily an engineering-entrance institute, founded and still taught by Swapnil Joshi with more than 25 years of teaching experience, and it has expanded into GATE and MBA-entrance (CAT/MBA-CET) batches from its Nashik Road centre. It's an option for students in that part of the city who want CAT prep from a long-running local teaching team rather than a national chain.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. T.I.M.E., IMS, Career Launcher and Bulls Eye bring the standardised material, test series and multi-decade track records of national or long-established chains, all clustered on or near College Road for easy comparison in person. Excellence Learning Centre stands out among Nashik-headquartered institutes for covering CAT, CMAT, SNAP and NMAT together under one roof - useful this season with SNAP 2026 registration now open. Students who'd rather combine CAT prep with other competitive-exam coaching, or who are based outside the College Road cluster, have Dataishwar Academy, Rays Academy, Spectrum Academy, PT Education and Joshi's Classes to compare. Treat every fee, rating and claim here as a starting point, not a fixed quote, and confirm current batch details, faculty and fees directly with the institute before enrolling. Compare full details and additional Nashik institutes on our <a href="coaching-nashik.html">Nashik coaching directory</a>.</p>
+`
+},
+
 {
 slug: "neet-ug-2026-round1-schedule-revised-again-august21-update",
 title: "NEET UG 2026: MCC Revises Round 1 Counselling Schedule Again, Window Now Runs to 21 August",
