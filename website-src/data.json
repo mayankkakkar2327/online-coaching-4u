@@ -40,7 +40,8 @@
       "varanasi",
       "bhubaneswar",
       "vadodara",
-      "ranchi"
+      "ranchi",
+      "nashik"
     ],
     "certification": [
       "online"
@@ -8825,6 +8826,196 @@
         "Ranchi-founded institute, not a national-chain franchise"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "time-nashik",
+      "type": "coaching",
+      "name": "T.I.M.E. (Triumphant Institute of Management Education)",
+      "city": "nashik",
+      "locality": "College Road",
+      "address": "203, Rohan Heights, Opp. Domino's Pizza, D'Souza Colony, College Road, Nashik, Maharashtra 422005",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "T.I.M.E.'s main Nashik centre runs from Rohan Heights on College Road, with a second centre at Yash Arcade near Bytco Point, Nashik Road. The pan-India chain's local batches cover CAT classroom training plus GD/PI/WAT preparation, and the centre also runs a CLAT-track batch for law aspirants alongside its MBA-entrance programme.",
+      "highlights": [
+        "Two Nashik centres - College Road and Nashik Road (Bytco Point)",
+        "Runs GD/PI/WAT preparation alongside classroom CAT training",
+        "Also offers a CLAT-track batch from the same College Road centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-nashik",
+      "type": "coaching",
+      "name": "IMS (IMS Learning Resources)",
+      "city": "nashik",
+      "locality": "College Road",
+      "address": "Office No. 301, 3rd Floor, Cuboid Business Park, Above Durga Cafe, College Road, Nashik, Maharashtra 422005",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "IMS Learning Resources opened its Nashik centre in 2020, extending a national network the company says now spans roughly 90 centres across 44 cities, built on a management-entrance coaching business that traces back to a Mumbai correspondence course roughly four decades ago. The Nashik centre coaches CAT alongside CMAT, XAT, MAT and law-entrance exams including CLAT and AILET.",
+      "highlights": [
+        "Nashik centre opened in 2020, part of IMS's ~90-centre, 44-city national network",
+        "Coaches CAT, CMAT, XAT and MAT under one roof",
+        "Also runs CLAT/AILET law-entrance batches from the same centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-nashik",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "nashik",
+      "locality": "College Road",
+      "address": "4th Floor, Archit Icon, Above Jashn Showroom, Opp. Nashik Merchant Co-operative Bank, Near Big Bazaar, College Road, Nashik, Maharashtra 422005",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Career Launcher has run CAT-focused coaching in Nashik since 2015, offering both classroom and online batch formats. The centre draws faculty with IIT/IIM backgrounds and, beyond CAT, also coaches for XAT, CLAT, BBA/IPM entrance tests and banking exams from the same College Road location.",
+      "highlights": [
+        "CAT coaching presence in Nashik since 2015",
+        "Classroom and online batch options with IIT/IIM-background faculty",
+        "Also coaches XAT, CLAT, BBA/IPM and banking-exam batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "excellence-learning-centre-nashik",
+      "type": "coaching",
+      "name": "Excellence Learning Centre (ELC)",
+      "city": "nashik",
+      "locality": "College Road",
+      "address": "Above SBI, Opp. KFC, Near BYK College, Off College Road, Thatte Nagar, Nashik, Maharashtra 422005",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Excellence Learning Centre is headquartered in Nashik and has run weekend CAT batches for working professionals and students since 2010. Alongside CAT, it coaches CMAT, SNAP and NMAT - directly relevant given SNAP 2026 registration opened on 21 August 2026 - and it runs pre-exam \"Speed Technique\" workshops that extend to Pune, Mumbai, Aurangabad and Nagpur each year.",
+      "highlights": [
+        "Nashik-headquartered institute running since 2010, with dedicated weekend batches",
+        "Coaches CAT, CMAT, SNAP and NMAT together",
+        "Runs annual pre-exam Speed Technique workshops across Pune, Mumbai, Aurangabad and Nagpur"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bulls-eye-classes-nashik",
+      "type": "coaching",
+      "name": "Bulls Eye Classes",
+      "city": "nashik",
+      "locality": "College Road",
+      "address": "208, United Arcade, Opp. Main Gate of BYK College, College Road, Nashik, Maharashtra 422005",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Bulls Eye has taught CAT and MBA-entrance batches since 1996, and its Nashik centre is headed by Vinay Wagh, who has more than 20 years of teaching experience and has personally cleared CAT with interview calls from nine IIMs. The institute's own published student list credits past Nashik-centre candidates with admits at IIM Ahmedabad, IIM Indore, IIM Kozhikode, SIBM Pune and SCMHRD, among others.",
+      "highlights": [
+        "Part of the Bulls Eye chain, coaching CAT/MBA entrances since 1996",
+        "Nashik centre head has personally cleared CAT with calls from nine IIMs",
+        "Institute-published student results cite admits at IIM Ahmedabad, IIM Indore and SIBM Pune"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pt-education-nashik",
+      "type": "coaching",
+      "name": "PT Education",
+      "city": "nashik",
+      "locality": "College Road",
+      "address": "103, Rohan Heights, Opp. Hotel Farmaish, D'Souza Colony, College Road, Nashik, Maharashtra 422005",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "PT Education runs a College Road centre in Nashik offering classroom CAT coaching, listed consistently across independent education directories alongside the city's other College Road institutes. As with any centre, confirm current batch timings and faculty directly before enrolling.",
+      "highlights": [
+        "College Road centre offering classroom CAT preparation",
+        "Located in the same College Road coaching cluster as T.I.M.E. and Bulls Eye",
+        "Confirm current batch and faculty details directly with the centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dataishwar-academy-nashik",
+      "type": "coaching",
+      "name": "Dataishwar Academy",
+      "city": "nashik",
+      "locality": "Ashok Stambh",
+      "address": "2nd Floor, Sagar Classes Building, Opp. Ashok Stambh Bus Stop, Ashok Stambh, Nashik, Maharashtra 422002",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Dataishwar Academy is primarily a multi-exam competitive coaching centre near Ashok Stambh, running batches for UPSC, MPSC, GATE, banking/IBPS and other government exams alongside its CAT and MBA-CET preparation offering. It is a fit for students who want CAT prep bundled with broader competitive-exam coaching rather than a specialist MBA-entrance institute.",
+      "highlights": [
+        "Multi-exam institute near Ashok Stambh covering CAT/MBA-CET alongside UPSC, MPSC and banking exams",
+        "CAT batches include printed notes, test series and doubt-clearing sessions",
+        "Better suited to students wanting combined competitive-exam coaching under one roof"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rays-academy-nashik",
+      "type": "coaching",
+      "name": "Rays Academy",
+      "city": "nashik",
+      "locality": "Mahatma Nagar",
+      "address": "1, Sumit Apartments, Mahatma Nagar, Nashik, Maharashtra 422007",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Rays Academy runs a CAT coaching batch from Mahatma Nagar, offering printed notes, test series and doubt-clearing sessions as part of its programme. It is a smaller, locally run alternative to the College Road cluster of national chains for students based on the Mahatma Nagar/Gangapur Road side of the city.",
+      "highlights": [
+        "Locally run CAT coaching centre based in Mahatma Nagar",
+        "Programme includes printed notes, test series and doubt-clearing sessions",
+        "Alternative to the College Road coaching cluster for students on that side of the city"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "spectrum-academy-nashik",
+      "type": "coaching",
+      "name": "Spectrum Academy",
+      "city": "nashik",
+      "locality": "Gangapur Road",
+      "address": "First Floor, Vittal Park, Near Ashok Stambh, Gangapur Road, Nashik, Maharashtra 422002",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Spectrum Academy is primarily known in Nashik for UPSC, MPSC, banking and SSC coaching, and also runs MBA-CET/CAT batches from its Gangapur Road centre. It carries a 4.3-out-of-5 rating across aggregator listings, among the higher-rated smaller institutes covered here, though most of its published track record is in the government-exam space rather than CAT specifically.",
+      "highlights": [
+        "4.3/5 aggregator rating (Collegedunia/UrbanPro listings)",
+        "Primarily a UPSC/MPSC/banking institute that also runs MBA-CET and CAT batches",
+        "Gangapur Road location, near Ashok Stambh"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "joshis-classes-nashik",
+      "type": "coaching",
+      "name": "Joshi's Classes",
+      "city": "nashik",
+      "locality": "Nashik Road",
+      "address": "3rd Floor, Hari Amantran, Dutta Mandir Road, Nashik Road, Nashik, Maharashtra 422009",
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Joshi's Classes is primarily an engineering-entrance institute founded and still taught by Swapnil Joshi, with more than 25 years of teaching experience, and it has expanded into GATE and MBA-entrance (CAT/MBA-CET) batches alongside its core JEE/engineering coaching. It suits students in the Nashik Road area who want CAT prep from a long-running local teaching team rather than a national chain.",
+      "highlights": [
+        "Founder-led institute with 25+ years of teaching experience, primarily engineering-focused",
+        "Has expanded into GATE and CAT/MBA-CET batches",
+        "Based in Nashik Road, an option outside the College Road coaching cluster"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -8939,6 +9130,9 @@
     },
     "coaching-ranchi": {
       "intro": "<p>Ranchi is Jharkhand's principal NEET-coaching hub, anchored by Rajendra Institute of Medical Sciences (RIMS), the state's main government medical college. National chains &mdash; Aakash, Allen, Motion Education, Physics Wallah and Narayana &mdash; run full local campuses here, alongside Ranchi-founded institutes such as Aim Entrance Institute, Brothers Academy, Newton Tutorials, Savidya Academy and Super-50 that have built independent NEET-coaching track records in the city. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-nashik": {
+      "intro": "<p>Nashik — Maharashtra’s “Wine Capital” and home to two state universities alongside a growing private-education base — has built a genuine CAT-coaching market centred on College Road over the past decade. The city also hosts Symbiosis Institute of Operations Management (SIOM), one of the 17 Symbiosis institutes for which SNAP is the mandatory entrance test. National chains — T.I.M.E., IMS, Career Launcher and Bulls Eye — run centres clustered on College Road, alongside Nashik-built institutes such as Excellence Learning Centre, PT Education, Dataishwar Academy, Rays Academy, Spectrum Academy and Joshi’s Classes. Every listing below shows its verification status and, where available, student ratings.</p>"
     }
   }
 }
