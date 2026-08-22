@@ -41,7 +41,8 @@
       "bhubaneswar",
       "vadodara",
       "ranchi",
-      "nashik"
+      "nashik",
+      "dehradun"
     ],
     "certification": [
       "online"
@@ -9016,6 +9017,208 @@
         "Based in Nashik Road, an option outside the College Road coaching cluster"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "rawats-ias-academy-dehradun",
+      "type": "coaching",
+      "name": "Rawat's IAS Academy",
+      "city": "dehradun",
+      "locality": "Race Course",
+      "address": "Near Rinko Medicos, Race Course, Dehradun, Uttarakhand 248001",
+      "estd": 1986,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Rawat's IAS Academy (RIA) has run out of Race Course, Dehradun since 1986, making it one of the oldest civil-services coaching operations in the city, per local business directory records. The institute states its stated aim is to produce not just IAS officers but \"good, ethical IAS officers,\" and runs classroom batches for UPSC Civil Services alongside state PCS preparation.",
+      "highlights": [
+        "Running from Race Course, Dehradun since 1986 - among the city's longest-established IAS institutes",
+        "Classroom coaching for UPSC Civil Services and state PCS together",
+        "Small, locally-run operation rather than a national chain franchise"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "inspiration-study-circle-dehradun",
+      "type": "coaching",
+      "name": "Inspiration Study Circle (ISC)",
+      "city": "dehradun",
+      "locality": "Kandholi, DL Road",
+      "address": "182, DL Road, near Math Mandir, Kandholi, Chironwali, Dehradun, Uttarakhand 248001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Inspiration Study Circle, led by mentor Nisheeth Saxena, has coached UPSC, state PCS and UKPCS aspirants from its DL Road centre in Dehradun for more than 14 years. The institute reports nine successful UPSC Civil Services selections in the 2025-26 result cycle on its own site, alongside a dedicated Mentorship & Interview Guidance Programme (ISC-MIGP) and small classroom batch sizes.",
+      "highlights": [
+        "14+ years coaching UPSC, PCS and UKPCS aspirants from its DL Road centre",
+        "Reports 9 UPSC Civil Services selections in the 2025-26 cycle (institute's own figures)",
+        "Runs a dedicated Mentorship & Interview Guidance Programme (ISC-MIGP) alongside small batch sizes"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "radiance-institute-dehradun",
+      "type": "coaching",
+      "name": "Radiance Institute",
+      "city": "dehradun",
+      "locality": "Mohit Nagar, GMS Road",
+      "address": "GMS Road, opp. Wadia Institute, Mohit Nagar, Dehradun, Uttarakhand 248001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Radiance Institute runs UPSC, UKPCS (Lower and Upper PCS) and allied competitive-exam batches from its GMS Road centre opposite Wadia Institute in Dehradun. It carries a 4.9-out-of-5 Google rating from 182 reviews as of this listing - among the strongest independently visible ratings of any Dehradun civil-services institute - with students citing structured study material and personalised strategy planning.",
+      "highlights": [
+        "4.9/5 Google rating across 182 reviews - the strongest publicly visible score among Dehradun's civil-services institutes",
+        "Covers UPSC alongside UKPCS Lower and Upper PCS from one centre",
+        "Offers guidance sessions from retired IAS/IPS officers alongside regular faculty"
+      ],
+      "mode": "hybrid",
+      "googleRating": 4.9,
+      "googleReviewCount": 182
+    },
+    {
+      "slug": "equations-ias-academy-dehradun",
+      "type": "coaching",
+      "name": "Equations IAS Academy",
+      "city": "dehradun",
+      "locality": "Ballupur Chowk",
+      "address": "Ambika Complex, Ballupur Chowk, Dehradun, Uttarakhand",
+      "estd": 2009,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Equations IAS Academy has coached UPSC, state PCS, NDA and CDS aspirants from Ballupur Chowk, Dehradun since 2009, under founder Deepak Dutt Mamgain, a former Ministry of Science & Technology officer. The institute reports more than 1,100 selections across these services since founding, and runs an 8 AM-8 PM study library alongside daily answer-writing labs.",
+      "highlights": [
+        "Coaching UPSC, PCS, NDA and CDS from Ballupur Chowk since 2009",
+        "Reports 1,100+ selections across these services since founding (institute's own figures)",
+        "Runs an 8 AM-8 PM study library and daily answer-writing labs"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "bureaucrats-ias-academy-dehradun",
+      "type": "coaching",
+      "name": "Bureaucrats IAS Academy",
+      "city": "dehradun",
+      "locality": "Ballupur",
+      "address": "Ballupur, Dehradun, Uttarakhand 248006",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Bureaucrats IAS Academy runs classroom UPSC and state PCS coaching from Ballupur, Dehradun, with a faculty team the institute describes as focused on structured General Studies and answer-writing preparation. It is cross-listed consistently across independent local directories, including UrbanPro and Sulekha.",
+      "highlights": [
+        "Classroom UPSC and state PCS coaching based in Ballupur, Dehradun",
+        "Cross-listed on multiple independent local directories (UrbanPro, Sulekha)",
+        "Faculty-led General Studies and answer-writing focus"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chahal-academy-dehradun",
+      "type": "coaching",
+      "name": "Chahal Academy",
+      "city": "dehradun",
+      "locality": "Araghar",
+      "address": "Araghar, Dehradun, Uttarakhand",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Chahal Academy's Dehradun centre in Araghar is part of a pan-India civil-services coaching brand with branches across several North Indian cities. It runs a standardised UPSC preparation format at its Dehradun location, covering General Studies, CSAT and optional-subject batches.",
+      "highlights": [
+        "Dehradun branch of a pan-India civil-services coaching chain",
+        "Standardised UPSC preparation format replicated across its branch network",
+        "Covers GS, CSAT and optional-subject batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vedanta-ias-academy-dehradun",
+      "type": "coaching",
+      "name": "Vedanta IAS Academy",
+      "city": "dehradun",
+      "locality": "Govindgarh",
+      "address": "Govindgarh, Dehradun, Uttarakhand",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Vedanta IAS Academy, based in Govindgarh, Dehradun, is a locally run civil-services institute that highlights alumna Neha Nautiyal's UPSC rank of 185 as its flagship result, which the institute describes as the highest ever achieved by a candidate from Uttarakhand. We could not independently verify this specific claim against an official UPSC merit list, so it is presented here as the institute's own stated track record rather than a confirmed fact.",
+      "highlights": [
+        "Locally run Govindgarh-based institute focused on UPSC and state PCS",
+        "Cites a UPSC rank-185 selection as its flagship result (institute's own claim, not independently confirmed)",
+        "Smaller-scale alternative to Dehradun's national-chain institutes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "doon-ias-academy-dehradun",
+      "type": "coaching",
+      "name": "Doon IAS Academy",
+      "city": "dehradun",
+      "locality": "Rajpur Road",
+      "address": "In front of St. Joseph's Academy, Rajpur Road, Dehradun, Uttarakhand 248001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Doon IAS Academy runs a civil-services coaching centre on Rajpur Road, Dehradun, near St. Joseph's Academy, and has appeared in local business directory listings under this address across several years, suggesting an established, ongoing operation. It offers UPSC and state PCS preparation batches from this single centre.",
+      "highlights": [
+        "Rajpur Road centre, Dehradun, with a multi-year local directory listing history",
+        "Offers UPSC and state PCS preparation from a single, established location",
+        "Smaller, city-based alternative to national coaching chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "samveg-ias-dehradun",
+      "type": "coaching",
+      "name": "Samveg IAS",
+      "city": "dehradun",
+      "locality": "Araghar",
+      "address": "Araghar, Dehradun, Uttarakhand",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Samveg IAS runs regular classroom batches in General Studies, CSAT and Essay for UPSC Civil Services, state PCS and Assistant Commandant (CAPF) aspirants from Araghar, Dehradun, with separate Hindi and English medium sections.",
+      "highlights": [
+        "Separate Hindi and English medium batches for UPSC and PCS",
+        "Covers GS, CSAT and Essay together with CAPF Assistant Commandant preparation",
+        "Araghar-based, within Dehradun's established coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "equator-academy-dehradun",
+      "type": "coaching",
+      "name": "Equator Academy",
+      "city": "dehradun",
+      "locality": "Araghar",
+      "address": "Araghar, Dehradun, Uttarakhand",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Equator Academy coaches IAS, Indian Forest Service (IFoS) and state PCS aspirants from Araghar, Dehradun, across all three stages of the process - Preliminary examination, Main examination and the Personality Test/interview.",
+      "highlights": [
+        "Covers IAS, IFoS and state PCS together from one Araghar-based centre",
+        "Structured across all three exam stages: Prelims, Mains and Personality Test",
+        "Compact, locally run alternative within Dehradun's Araghar coaching cluster"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -9133,6 +9336,9 @@
     },
     "coaching-nashik": {
       "intro": "<p>Nashik — Maharashtra’s “Wine Capital” and home to two state universities alongside a growing private-education base — has built a genuine CAT-coaching market centred on College Road over the past decade. The city also hosts Symbiosis Institute of Operations Management (SIOM), one of the 17 Symbiosis institutes for which SNAP is the mandatory entrance test. National chains — T.I.M.E., IMS, Career Launcher and Bulls Eye — run centres clustered on College Road, alongside Nashik-built institutes such as Excellence Learning Centre, PT Education, Dataishwar Academy, Rays Academy, Spectrum Academy and Joshi’s Classes. Every listing below shows its verification status and, where available, student ratings.</p>"
+    },
+    "coaching-dehradun": {
+      "intro": "<p>Dehradun - Uttarakhand's capital, long known for its boarding schools and defence academies like the IMA - has quietly built a genuine UPSC and state-PCS coaching market of its own over the past decade, distinct from the defence-exam institutes the city is more traditionally associated with. Coaching activity clusters around a handful of neighbourhoods: Ballupur Chowk and Araghar host the highest concentration of institutes, with further centres on Race Course, Rajpur Road and GMS Road. The market mixes long-running, locally founded institutes - some dating back to the 1980s - with a pan-India brand's branch office. Every listing below shows its verification status and, where available, independently visible ratings.</p>"
     }
   }
 }
