@@ -2,6 +2,126 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 
+{
+slug: "upsc-epfo-apfc-2026-registration-opens-august22-update",
+title: "UPSC EPFO APFC 2026: Registration Opens August 22 for 80 Assistant Provident Fund Commissioner Posts",
+category: "IAS / UPSC",
+date: "22 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=ias", text: "Compare verified IAS/UPSC coaching institutes" },
+excerpt: "UPSC has opened online registration for its detailed EPFO Assistant Provident Fund Commissioner (APFC) 2026 recruitment, with the window running 22 August to 11 September 2026 for 80 posts under the Ministry of Labour & Employment.",
+image: "assets/blog/upsc-epfo-apfc-2026-registration-opens-august22-update.png",
+imageAlt: "UPSC EPFO APFC 2026 registration open notification graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 22 August 2026.</strong></p>
+<p>The Union Public Service Commission has opened online registration for the Employees' Provident Fund Organisation (EPFO) Assistant Provident Fund Commissioner (APFC) recruitment 2026, per the detailed notification (Advertisement No. 52-2026, Special) published on the official <a href="https://upsc.gov.in" rel="noopener" target="_blank">upsc.gov.in</a> Recruitment Advertisements page on 21 August 2026, with the application window itself live from 22 August 2026.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per the official advertisement, UPSC is recruiting for 80 vacancies of Assistant Provident Fund Commissioner in EPFO, under the Ministry of Labour &amp; Employment. Online registration opened 22 August 2026 and closes 11 September 2026. The application fee is Rs 25, with SC/ST, PwBD and women candidates exempt from payment. The upper age limit is 35 years for General/EWS candidates, with standard government age relaxations applying to reserved categories. A written Recruitment Test is scheduled for 20 December 2026, with candidates who clear it called for interview as the next selection stage. Applications must be submitted through the official UPSC Online Recruitment Application (ORA) portal.</p>
+
+<h2>What this means for aspirants</h2>
+<p>This is a UPSC-conducted recruitment separate from the annual Civil Services Examination, so candidates preparing for CSE with a General Studies foundation already have a head start on much of the syllabus, though APFC-specific papers typically include a dedicated paper on Industrial Relations, Labour Laws and General Economics alongside General English and General Studies. Candidates should register early rather than close to the 11 September deadline, since UPSC's ORA portal has historically seen slowdowns in the final 24-48 hours of high-traffic recruitment windows. Given the roughly four-month gap to the 20 December Recruitment Test, aspirants have a defined runway to prepare specifically for the labour-law and economics components rather than relying solely on generic GS preparation.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Recruitment:</strong> UPSC EPFO Assistant Provident Fund Commissioner (APFC) 2026</p>
+<p><strong>Vacancies:</strong> 80 posts</p>
+<p><strong>Registration window:</strong> 22 August - 11 September 2026</p>
+<p><strong>Application fee:</strong> Rs 25 (SC/ST/PwBD/women exempt)</p>
+<p><strong>Age limit:</strong> 35 years (General/EWS), category relaxations apply</p>
+<p><strong>Recruitment Test:</strong> 20 December 2026</p>
+<p><strong>Official source:</strong> upsc.gov.in</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[22 Aug 2026]</strong> UPSC EPFO APFC 2026 online registration opened today on the official ORA portal, per Advertisement No. 52-2026 (Special) dated 21 August 2026 on upsc.gov.in.</li>
+<li><strong>[Deadline: 11 Sep 2026]</strong> Last date to complete online registration and fee payment for UPSC EPFO APFC 2026, per the official advertisement.</li>
+<li><strong>[20 Dec 2026]</strong> Date of the UPSC EPFO APFC 2026 Recruitment Test, per the official notification.</li>
+<li><strong>[Fee: Rs 25]</strong> Application fee for UPSC EPFO APFC 2026; SC/ST, PwBD and women candidates are exempt from payment, per the official advertisement.</li>
+<li><strong>Myth check:</strong> UPSC EPFO APFC recruitment is a separate, standalone process from the annual Civil Services Examination - clearing CSE Prelims or Mains does not carry over to this recruitment, and a separate application is required.</li>
+</ul>
+<p><em>Sources: <a href="https://www.upsc.gov.in/recruitment/recruitment-advertisement" rel="noopener" target="_blank">UPSC Recruitment Advertisements page</a> (upsc.gov.in); <a href="https://www.upsc.gov.in/sites/default/files/AdvtNo-52-2026-Special-Engl-210826.pdf" rel="noopener" target="_blank">Advertisement No. 52-2026 (Special)</a> (upsc.gov.in).</em></p>
+<p><strong>Last updated: 22 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-ias-coaching-institutes-dehradun-2026",
+title: "Top 10 IAS Coaching Institutes in Dehradun (2026)",
+category: "IAS / UPSC",
+date: "22 Aug 2026",
+minutes: 9,
+cta: { href: "coaching-dehradun.html", text: "Browse all verified coaching institutes in Dehradun" },
+excerpt: "Dehradun's UPSC and state-PCS coaching market clusters around Ballupur Chowk and Araghar, mixing institutes running since the 1980s with newer, locally built centres - a distinct market from the defence-exam institutes the city is better known for. Here's a fact-checked look at ten institutes training civil-services aspirants in the city.",
+image: "assets/blog/top-10-ias-coaching-institutes-dehradun-2026.png",
+imageAlt: "Top 10 IAS coaching institutes in Dehradun 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best IAS coaching institute in Dehradun?",
+    "a": "There's no single 'best' - Rawat's IAS Academy has run since 1986, making it the city's longest-established option, while Radiance Institute carries the strongest independently visible rating (4.9/5 across 182 Google reviews) and Inspiration Study Circle reports the most recent selections (nine in the 2025-26 cycle). The right pick depends on whether you weight longevity, independent ratings or recent results most heavily."
+  },
+  {
+    "q": "Are there IAS coaching options built specifically in Dehradun, not franchises of national chains?",
+    "a": "Yes - Rawat's IAS Academy, Inspiration Study Circle, Radiance Institute, Equations IAS Academy, Bureaucrats IAS Academy, Vedanta IAS Academy, Doon IAS Academy, Samveg IAS and Equator Academy are all Dehradun-founded institutes. Chahal Academy is the one branch of a pan-India chain on this list."
+  },
+  {
+    "q": "Is Dehradun a recognised hub for UPSC preparation, or mainly for defence exams?",
+    "a": "Dehradun is more widely known for its defence academies and NDA/CDS coaching given its proximity to the Indian Military Academy, but it has also built a genuine, separate UPSC and state-PCS (UKPCS) coaching market over roughly the last decade, concentrated around Ballupur Chowk and Araghar."
+  },
+  {
+    "q": "Where are most IAS coaching institutes in Dehradun located?",
+    "a": "Ballupur Chowk and Araghar host the largest concentration of institutes on this list. Further centres operate on Race Course, Rajpur Road and GMS Road, so the market isn't confined to a single street the way some cities' coaching clusters are."
+  }
+],
+html: `
+<p>Dehradun - Uttarakhand's capital, long associated with its boarding schools and defence academies given its proximity to the Indian Military Academy - has quietly built a genuine UPSC and state-PCS coaching market of its own over roughly the last decade, distinct from the defence-exam institutes the city is more traditionally known for. Coaching activity here clusters around a handful of neighbourhoods rather than one street: Ballupur Chowk and Araghar host the highest concentration of institutes, with further centres on Race Course, Rajpur Road and GMS Road. Below is a fact-checked look at ten institutes training UPSC and state-PCS (UKPCS) aspirants in the city.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Dehradun, Uttarakhand</p>
+<p><strong>Exam this list is built for:</strong> UPSC Civil Services (IAS); most institutes below also coach UKPCS Upper/Lower PCS</p>
+<p><strong>Institutes compared:</strong> 10, spanning a 1986-founded institute to newer, locally built centres</p>
+<p><strong>Main coaching clusters:</strong> Ballupur Chowk and Araghar</p>
+<p><strong>Longest-running institute on this list:</strong> Rawat's IAS Academy, operating from Race Course since 1986</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable UPSC/PCS-coaching presence serving Dehradun: a real local address, confirmation across more than one independent source where possible (institute websites and local directories such as UrbanPro, Sulekha and Justdial), and an actual IAS/UPSC or state-PCS batch on offer. Where an institute's own marketing makes a specific claim we could not independently confirm against an official source - such as a named topper's exact rank - we've said so plainly rather than presenting it as verified fact. National test-prep brands that appear in generic, templated "top 10" listicles without any confirmable local Dehradun address were left out rather than padded in.</p>
+
+<h3>1. Rawat's IAS Academy</h3>
+<p>Rawat's IAS Academy (RIA) has run out of Race Course, Dehradun since 1986, per local business directory records, making it one of the oldest civil-services coaching operations in the city. The institute states its aim is to produce not just IAS officers but "good, ethical IAS officers," and runs classroom batches for UPSC Civil Services alongside state PCS preparation.</p>
+
+<h3>2. Inspiration Study Circle (ISC)</h3>
+<p>Inspiration Study Circle, led by mentor Nisheeth Saxena, has coached UPSC, state PCS and UKPCS aspirants from its DL Road centre in Dehradun for more than 14 years. The institute reports nine successful UPSC Civil Services selections in the 2025-26 result cycle on its own site, alongside a dedicated Mentorship &amp; Interview Guidance Programme (ISC-MIGP) and small classroom batch sizes.</p>
+
+<h3>3. Radiance Institute</h3>
+<p>Radiance Institute runs UPSC, UKPCS (Lower and Upper PCS) and allied competitive-exam batches from its GMS Road centre opposite Wadia Institute in Dehradun. It carries a 4.9-out-of-5 Google rating from 182 reviews as of this listing - among the strongest independently visible ratings of any Dehradun civil-services institute - with students citing structured study material and personalised strategy planning.</p>
+
+<h3>4. Equations IAS Academy</h3>
+<p>Equations IAS Academy has coached UPSC, state PCS, NDA and CDS aspirants from Ballupur Chowk, Dehradun since 2009, under founder Deepak Dutt Mamgain, a former Ministry of Science &amp; Technology officer. The institute reports more than 1,100 selections across these services since founding, and runs an 8 AM-8 PM study library alongside daily answer-writing labs.</p>
+
+<h3>5. Bureaucrats IAS Academy</h3>
+<p>Bureaucrats IAS Academy runs classroom UPSC and state PCS coaching from Ballupur, Dehradun, with a faculty team the institute describes as focused on structured General Studies and answer-writing preparation. It is cross-listed consistently across independent local directories, including UrbanPro and Sulekha.</p>
+
+<h3>6. Chahal Academy</h3>
+<p>Chahal Academy's Dehradun centre in Araghar is part of a pan-India civil-services coaching brand with branches across several North Indian cities. It runs a standardised UPSC preparation format at its Dehradun location, covering General Studies, CSAT and optional-subject batches.</p>
+
+<h3>7. Vedanta IAS Academy</h3>
+<p>Vedanta IAS Academy, based in Govindgarh, Dehradun, is a locally run civil-services institute that highlights alumna Neha Nautiyal's UPSC rank of 185 as its flagship result, which the institute describes as the highest ever achieved by a candidate from Uttarakhand. We could not independently verify this specific claim against an official UPSC merit list, so it's presented here as the institute's own stated track record rather than a confirmed fact.</p>
+
+<h3>8. Doon IAS Academy</h3>
+<p>Doon IAS Academy runs a civil-services coaching centre on Rajpur Road, Dehradun, near St. Joseph's Academy, and has appeared in local business directory listings under this address across several years, suggesting an established, ongoing operation. It offers UPSC and state PCS preparation batches from this single centre.</p>
+
+<h3>9. Samveg IAS</h3>
+<p>Samveg IAS runs regular classroom batches in General Studies, CSAT and Essay for UPSC Civil Services, state PCS and Assistant Commandant (CAPF) aspirants from Araghar, Dehradun, with separate Hindi and English medium sections.</p>
+
+<h3>10. Equator Academy</h3>
+<p>Equator Academy coaches IAS, Indian Forest Service (IFoS) and state PCS aspirants from Araghar, Dehradun, across all three stages of the process - Preliminary examination, Main examination and the Personality Test/interview.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Rawat's IAS Academy and Equations IAS Academy bring four decades and one and a half decades respectively of continuous local operation; Radiance Institute and Inspiration Study Circle stand out on independently visible signals - a 4.9/5 Google rating and a reported nine-selection 2025-26 cycle respectively. Students who want a pan-India brand's standardised material have Chahal Academy, while Bureaucrats IAS Academy, Vedanta IAS Academy, Doon IAS Academy, Samveg IAS and Equator Academy offer smaller, locally run alternatives clustered mainly around Araghar. Treat every fee, rating and claim here as a starting point, not a fixed quote, and confirm current batch details, faculty and fees directly with the institute before enrolling. Compare full details and additional Dehradun institutes on our <a href="coaching-dehradun.html">Dehradun coaching directory</a>.</p>
+`
+},
 
 {
 slug: "snap-2026-registration-opens-august21-update",
