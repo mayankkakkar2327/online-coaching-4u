@@ -101,7 +101,8 @@
     "iit-jam": "IIT JAM",
     "cuet-pg": "CUET PG",
     "ailet": "AILET",
-    "mhtcet": "MHT-CET"
+    "mhtcet": "MHT-CET",
+    "judiciary": "Judiciary"
   },
   "listings": [
     {
@@ -9220,8 +9221,7 @@
         "Compact, locally run alternative within Dehradun's Araghar coaching cluster"
       ],
       "mode": "offline"
-    }
-,
+    },
     {
       "slug": "legaledge-toprankers-raipur",
       "type": "coaching",
@@ -9230,7 +9230,10 @@
       "locality": "Shankar Nagar",
       "address": "Gomti Tower, In Front of Olympus Gym, Shankar Nagar, Station Road, Raipur, Chhattisgarh 492001",
       "estd": 2019,
-      "exams": ["clat", "ailet"],
+      "exams": [
+        "clat",
+        "ailet"
+      ],
       "verified": false,
       "about": "LegalEdge by Toprankers runs CLAT and AILET-focused classroom and online coaching from Station Road, Shankar Nagar, Raipur, since 2019. It carries a 4.8-out-of-5 rating across 84 reviews on its own listing, among the highest independently visible scores of any Raipur law-coaching centre, with a curriculum built around detailed exam analysis after every mock test.",
       "highlights": [
@@ -9248,7 +9251,10 @@
       "locality": "Shankar Nagar",
       "address": "Bilasa Blood Bank, A10, Shankar Nagar, Sector 1, Opposite Housing Board Complex, Raipur, Chhattisgarh 492001",
       "estd": 2005,
-      "exams": ["clat", "cat"],
+      "exams": [
+        "clat",
+        "cat"
+      ],
       "verified": false,
       "about": "Career Launcher's Raipur centre has run from Shankar Nagar since 2005, coaching CLAT alongside CAT/MBA, banking and SSC entrance exams as part of the national Career Launcher network founded in 1995. The centre reports small batches of 30-35 students and cites past Raipur students' selections including CLAT All India Ranks in double and triple digits, though these individual results could not be independently verified against official merit lists.",
       "highlights": [
@@ -9266,7 +9272,10 @@
       "locality": "Pandri",
       "address": "Textile Market Road, Opp. LIC Building, Besides Raymond Showroom, Pandri, Raipur, Chhattisgarh 492001",
       "estd": 2014,
-      "exams": ["clat", "cat"],
+      "exams": [
+        "clat",
+        "cat"
+      ],
       "verified": false,
       "about": "IMS Raipur, part of IMS Learning Resources - one of India's oldest entrance-exam coaching networks, founded in Mumbai in 1977 - has operated its Pandri centre for roughly a decade, offering CLAT alongside CAT/MBA and other entrance coaching. The centre offers air-conditioned classrooms and a library, and both online and offline delivery.",
       "highlights": [
@@ -9284,7 +9293,9 @@
       "locality": "Anupam Nagar",
       "address": "H-8, Anupam Nagar, Near TV Tower, In Front of Priya Provision Store, Raipur, Chhattisgarh 492001",
       "estd": 2010,
-      "exams": ["clat"],
+      "exams": [
+        "clat"
+      ],
       "verified": false,
       "about": "Sai Kripa Law Academy was founded in Anupam Nagar, Raipur, in 2010 by Rajesh Singh, and coaches CLAT alongside judicial-service exams such as Civil Judge, ADJ and APO - making it more of a broad legal-career coaching centre than a CLAT specialist. It offers unlimited class access, topic-wise progress reports and live doubt-solving sessions.",
       "highlights": [
@@ -9302,7 +9313,9 @@
       "locality": "Near MATS University",
       "address": "Pagariya Complex, Arihant Tower, 1st Floor, Near MATS University, Raipur, Chhattisgarh 492001",
       "estd": 2010,
-      "exams": ["clat"],
+      "exams": [
+        "clat"
+      ],
       "verified": false,
       "about": "Page Academy has run from Arihant Tower, near MATS University in Raipur, since 2010, offering CLAT weekend batches, a foundation course and test series alongside its wider roster of Banking, SSC, VYAPAM and CGPSC coaching. The institute emphasises a low teacher-student ratio and provides instruction in both Hindi and English.",
       "highlights": [
@@ -9320,7 +9333,11 @@
       "locality": "Tatyapara Chowk",
       "address": "1st Floor, Mishra Bhawan, Tatyapara Chowk, Near Shivaji Statue, Raipur, Chhattisgarh 492001",
       "estd": 2011,
-      "exams": ["clat", "ailet", "cat"],
+      "exams": [
+        "clat",
+        "ailet",
+        "cat"
+      ],
       "verified": false,
       "about": "T.I.M.E.'s Raipur centre, operating under the ClatPrep brand for law entrance coaching, has run from Tatyapara Chowk since 2011. ClatPrep is now part of T.I.M.E., the national test-prep chain established in 1992 with 188 offices across 96 cities. The centre offers roughly 1,800 pages of study material, 70 mock tests on the CLAT/AILET/SLAT pattern and subject delivery by faculty the institute describes as NLU, IIT and IIM alumni.",
       "highlights": [
@@ -9337,7 +9354,10 @@
       "city": "raipur",
       "locality": "Tatyapara Chowk",
       "address": "2nd Floor, Raj Tower, Tatyapara Chowk, Raipur, Chhattisgarh",
-      "exams": ["clat", "cat"],
+      "exams": [
+        "clat",
+        "cat"
+      ],
       "verified": false,
       "about": "Miracles & CLAT Forum, formerly known as PT Education, is one of Chhattisgarh's older entrance-coaching institutions, preparing students for CLAT alongside CAT/MBA, IPM and hotel-management entrances from its Tatyapara Chowk centre. The institute cites past student results including a reported CLAT All India Rank of 38 and an AILET AIR of 9, which could not be independently verified against official merit lists.",
       "highlights": [
@@ -9354,7 +9374,9 @@
       "city": "raipur",
       "locality": "Near Vivekanand Eye Hospital",
       "address": "1st Floor, N Rathi Tower, Main Road, Near Vivekanand Eye Hospital, Raipur, Chhattisgarh 492001",
-      "exams": ["clat"],
+      "exams": [
+        "clat"
+      ],
       "verified": false,
       "about": "The Chanakya Law Academy runs full-time CLAT preparation from a centre near Vivekanand Eye Hospital in Raipur, alongside seminars and workshops built around exam strategy. The academy conducts weekly oral and online tests and doubt-solving sessions as part of its regular teaching routine.",
       "highlights": [
@@ -9371,7 +9393,10 @@
       "city": "raipur",
       "locality": "Telibandha",
       "address": "28/1 Chanakya Tower, Anand Nagar Main Road, In Front of Marine Drive, Telibandha, Raipur, Chhattisgarh 492001",
-      "exams": ["clat", "ailet"],
+      "exams": [
+        "clat",
+        "ailet"
+      ],
       "verified": false,
       "about": "CLAT Possible's Raipur centre in Telibandha is one of roughly 13 centres the CLAT-focused chain runs nationally. The institute structures its preparation around a learning-management system alongside mentor-led classes, and offers both online and offline formats for CLAT and AILET preparation.",
       "highlights": [
@@ -9388,7 +9413,9 @@
       "city": "raipur",
       "locality": "Mahaveer Nagar",
       "address": "Mahaveer Nagar, Raipur, Chhattisgarh",
-      "exams": ["clat"],
+      "exams": [
+        "clat"
+      ],
       "verified": false,
       "about": "Pariksha Mantra Academy, founded by Samarth Nair, is a Raipur-founded institute based in Mahaveer Nagar offering CLAT coaching alongside school-level tuition. It positions itself around a performance-focused teaching approach for law-entrance aspirants in the city.",
       "highlights": [
@@ -9397,6 +9424,30 @@
         "Smaller, newer addition to Raipur's CLAT-coaching market"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "judex-tutorials-patna",
+      "type": "coaching",
+      "name": "Judex Tutorials",
+      "city": "patna",
+      "locality": "Anandpuri",
+      "address": "Dadijee Ln, Anandpuri, Patna, Bihar 800001",
+      "estd": 2018,
+      "exams": [
+        "judiciary"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": true,
+      "thumb": "https://unavatar.io/judextutorials.com",
+      "about": "Judex Tutorials is a Patna-based coaching institute dedicated entirely to Bihar's judicial services examinations — the Bihar Civil Judge (Junior Division) exam and the Bihar APO (Assistant Prosecution Officer) exam — rather than a general law-entrance syllabus. Founded in 2018 by Sudhakar Mishra, it runs from Dadijee Lane in Anandpuri and teaches through a hybrid model: offline classroom batches in Patna plus recorded lectures and live sessions on its own JUDEX app for students across Bihar. Its programme emphasises bare Act discipline, case-law application and evaluated answer writing across all three stages — Prelims, Mains and Interview — updated for the newer BNS, BNSS and BSA codes. The institute reports 51 selections in the 32nd Bihar Judicial Services Examination, including ranks 2, 8 and 29, on top of 31 selections the previous year and 34 APO selections, with small batches of 15–20 students kept deliberately to preserve individual attention.",
+      "highlights": [
+        "Judiciary-only focus — Bihar Civil Judge (Jr. Division) and Bihar APO, not a general law-entrance syllabus",
+        "Reports 51 selections in the 32nd Bihar Judicial Services Examination, including ranks 2, 8 and 29",
+        "Hybrid model: offline classes in Patna plus the JUDEX app for recorded lectures and live batches across Bihar"
+      ],
+      "website": "https://judextutorials.com",
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
