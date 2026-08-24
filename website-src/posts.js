@@ -1,6 +1,129 @@
 /* Original content for Online Coaching 4u.
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
+{
+slug: "slat-2027-registration-open-test-dates-december-update",
+title: "SLAT 2027: Registration Now Open, Test Dates Set for December 19 and 26",
+category: "SLAT / Law",
+date: "24 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT / AILET coaching institutes" },
+excerpt: "Symbiosis International's official SLAT 2027 website now shows registration open, with the two-attempt Computer Based Test scheduled for 19 and 26 December 2026 across 62 cities and four Symbiosis Law Schools - a firm timeline that follows the enquiry-only window this site flagged on 12 August.",
+image: "assets/blog/slat-2027-registration-open-test-dates-december-update.png",
+imageAlt: "SLAT 2027 registration open notification graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 24 August 2026.</strong></p>
+<p>Symbiosis International (Deemed University)'s official SLAT test website, <a href="https://www.slat-test.org/" rel="noopener" target="_blank">slat-test.org</a>, now shows registration open for SLAT 2027, with the Computer Based Test scheduled across two attempts - 19 December and 26 December 2026 - a firm timeline that follows the "enquiries open" holding page this site flagged on 12 August 2026.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per a direct check of slat-test.org and its published SLAT 2027 bulletin on 24 August 2026, the site's banner reads "Applications Open Now," and the Important Dates page lists registration and payment closing on 4 December 2026. Admit cards go live in two batches - SLAT 01 on 11 December, SLAT 02 on 18 December - ahead of the actual tests on 19 and 26 December 2026, both Saturdays. A candidate who sits both gets the higher of the two scores counted, with no penalty for attempting only one. Results are scheduled for 12 January 2027. The registration fee is Rs 2,550 per test attempt plus Rs 1,000 per programme applied to, both plus applicable taxes, per the site's registration-steps page. SLAT is a 60-minute, 60-question Computer Based Test held across 62 test cities, and is the entrance gateway to four Symbiosis Law Schools - Pune, Noida, Hyderabad and Nagpur - offering BA LLB (Hons.), BBA LLB (Hons.), BA LLB and BBA LLB programmes depending on campus.</p>
+
+<h2>What this means for law aspirants</h2>
+<p>This closes the gap this site flagged on 12 August, when slat-test.org showed only an "enquiries open" prompt with no confirmed dates. Students preparing for CLAT (registration closes 31 October 2026) and AILET (registration closes 10 November 2026) now have SLAT's full schedule to plan around too: SLAT's own registration close (4 December) falls after both, letting aspirants finish CLAT and AILET applications first and still have more than three months of runway to register for SLAT. Because SLAT allows attempts on both test dates with the better score counting, and because the fee structure charges separately per programme, candidates should register early for a test slot but can defer the programme-specific fee decision until they've reviewed each Symbiosis law school's cutoff history and location.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Exam:</strong> SLAT 2027 (Symbiosis Law Admission Test)</p>
+<p><strong>Registration status (checked 24 Aug 2026):</strong> Open, per slat-test.org</p>
+<p><strong>Registration and payment close:</strong> 4 December 2026</p>
+<p><strong>Test dates:</strong> SLAT 01 - 19 Dec 2026; SLAT 02 - 26 Dec 2026 (best of two counted)</p>
+<p><strong>Result:</strong> 12 January 2027</p>
+<p><strong>Fee:</strong> Rs 2,550 per test + Rs 1,000 per programme, plus taxes</p>
+<p><strong>Campuses:</strong> Symbiosis Law Schools, Pune / Noida / Hyderabad / Nagpur</p>
+<p><strong>Official source:</strong> slat-test.org</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[12 Aug 2026]</strong> slat-test.org first showed "SLAT 2027 enquiries open," with no dates confirmed yet, as reported here at the time.</li>
+<li><strong>[Checked 24 Aug 2026]</strong> The same official site now shows full SLAT 2027 registration open, with test dates, fees and the results date all published.</li>
+<li><strong>[Deadline: 4 Dec 2026]</strong> Last date to complete SLAT 2027 registration and fee payment.</li>
+<li><strong>[19 Dec / 26 Dec 2026]</strong> The two SLAT 2027 test dates - a candidate's higher score across both counts, with no penalty for attempting just one.</li>
+<li><strong>Myth check:</strong> Paying the Rs 2,550 SLAT test fee registers a candidate for the test only - a separate Rs 1,000 per-programme fee applies for each Symbiosis law school/programme combination a candidate wants to be considered for.</li>
+</ul>
+
+<p><em>Sources: <a href="https://www.slat-test.org/important-dates.php" rel="noopener" target="_blank">SLAT 2027 Important Dates</a> (slat-test.org); <a href="https://www.slat-test.org/docs/SLAT%202027%20bulletin.pdf" rel="noopener" target="_blank">SLAT 2027 official bulletin</a> (slat-test.org).</em></p>
+<p><strong>Last updated: 24 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-clat-coaching-institutes-raipur-2026",
+title: "Top 10 CLAT Coaching Institutes in Raipur (2026)",
+category: "CLAT / Law",
+date: "24 Aug 2026",
+minutes: 9,
+cta: { href: "coaching-raipur.html", text: "Browse all verified coaching institutes in Raipur" },
+excerpt: "Raipur - home to Hidayatullah National Law University (HNLU), one of India's earlier NLUs - has built a genuine CLAT-coaching market of its own, clustered around Shankar Nagar and Tatyapara Chowk. Here's a fact-checked look at ten institutes training law-entrance aspirants in the city.",
+image: "assets/blog/top-10-clat-coaching-institutes-raipur-2026.png",
+imageAlt: "Top 10 CLAT coaching institutes in Raipur 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best CLAT coaching institute in Raipur?",
+    "a": "There's no single 'best' - LegalEdge by Toprankers carries the strongest independently visible rating (4.8/5 across 84 reviews), Career Launcher and IMS bring the longest continuous local operation among national chains (2005 and roughly 2014 respectively), and Sai Kripa Law Academy and Page Academy are the longest-running Raipur-founded specialists, both dating to 2010. The right pick depends on whether you weight independent ratings, a national chain's resources, or a locally built institute's personal attention most heavily."
+  },
+  {
+    "q": "Are there CLAT coaching options built specifically in Raipur, not franchises of national chains?",
+    "a": "Yes - Sai Kripa Law Academy, Page Academy, The Chanakya Law Academy and Pariksha Mantra Academy are all Raipur-founded institutes. Career Launcher, IMS, T.I.M.E. (ClatPrep), LegalEdge and CLAT Possible are Raipur branches of national or multi-city chains, while Miracles & CLAT Forum (formerly PT Education) is a long-running Chhattisgarh institution now covering multiple entrance exams."
+  },
+  {
+    "q": "Does Raipur have its own National Law University?",
+    "a": "Yes. Hidayatullah National Law University (HNLU) was established in Raipur in 2003 under a Chhattisgarh state act, making it one of the earlier NLUs in India's CLAT-admission system - a factor that has helped sustain a genuine local CLAT-coaching market."
+  },
+  {
+    "q": "Where are most CLAT coaching institutes in Raipur located?",
+    "a": "Shankar Nagar and Tatyapara Chowk host the largest concentration of institutes on this list - LegalEdge, Career Launcher, T.I.M.E./ClatPrep and Miracles & CLAT Forum are all based in or near these two areas. Further centres operate in Pandri, Anupam Nagar, Telibandha and Mahaveer Nagar."
+  }
+],
+html: `
+<p>Raipur - Chhattisgarh's capital and home to Hidayatullah National Law University (HNLU), established in 2003 as one of India's earlier National Law Universities - has built a genuine CLAT-coaching market of its own, separate from HNLU's role simply as an admission destination. Coaching activity here clusters mainly around two areas: Shankar Nagar and Tatyapara Chowk, with further centres spread across Pandri, Anupam Nagar, Telibandha and Mahaveer Nagar. The market mixes national test-prep chains with institutes founded and run locally. Below is a fact-checked look at ten institutes training CLAT and law-entrance aspirants in the city.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Raipur, Chhattisgarh</p>
+<p><strong>Exam this list is built for:</strong> CLAT; most institutes below also coach AILET, and some cover CAT/MBA or judiciary exams</p>
+<p><strong>Institutes compared:</strong> 10, spanning national chains and Raipur-founded specialists</p>
+<p><strong>Main coaching clusters:</strong> Shankar Nagar and Tatyapara Chowk</p>
+<p><strong>Local NLU:</strong> Hidayatullah National Law University (HNLU), established 2003</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CLAT-coaching presence serving Raipur: a real local address, confirmation across more than one independent source where possible (institute websites and education directories such as ShikshaCoach, UrbanPro, Sulekha and Justdial), and an actual CLAT or law-entrance batch on offer. Fee and rating figures for several institutes trace to a single aggregator source cross-checked against directory listings for name and address - where we could not independently confirm a specific claim, such as an individual student's exact CLAT rank, we've said so plainly rather than presenting it as verified fact. Institutes we could not confirm with a real Raipur address were left out rather than padded in.</p>
+
+<h3>1. LegalEdge by Toprankers</h3>
+<p>LegalEdge by Toprankers has run CLAT and AILET-focused coaching from Station Road, Shankar Nagar, Raipur, since 2019, offering both online and offline batches. It carries a 4.8-out-of-5 rating across 84 reviews on its own listing - the strongest independently visible score of any Raipur CLAT-coaching centre on this list - with a curriculum built around detailed exam analysis after every mock test.</p>
+
+<h3>2. Career Launcher</h3>
+<p>Career Launcher's Raipur centre has operated from Shankar Nagar since 2005, coaching CLAT alongside CAT/MBA, banking and SSC entrance exams as part of the national Career Launcher network founded in 1995. The centre runs small batches of 30-35 students and cites past Raipur students' CLAT selections, though individual rank claims could not be independently verified against official merit lists.</p>
+
+<h3>3. IMS Raipur</h3>
+<p>IMS Raipur, part of the IMS Learning Resources network founded in Mumbai in 1977, has run its Pandri centre for roughly a decade, offering CLAT alongside CAT/MBA and other entrance coaching from air-conditioned classrooms with an attached library.</p>
+
+<h3>4. Sai Kripa Law Academy</h3>
+<p>Sai Kripa Law Academy was founded in Anupam Nagar, Raipur, in 2010 by Rajesh Singh, and coaches CLAT alongside judicial-service exams such as Civil Judge, ADJ and APO - making it more of a broad legal-career coaching centre than a CLAT specialist. It offers unlimited class access, topic-wise progress reports and live doubt-solving sessions.</p>
+
+<h3>5. Page Academy</h3>
+<p>Page Academy has run from a centre near MATS University in Raipur since 2010, offering a dedicated CLAT weekend batch and foundation course alongside its wider roster of Banking, SSC, VYAPAM and CGPSC coaching. Classes are conducted in both Hindi and English.</p>
+
+<h3>6. T.I.M.E. (ClatPrep Raipur)</h3>
+<p>T.I.M.E.'s Raipur centre, operating under the ClatPrep brand for law-entrance coaching, has run from Tatyapara Chowk since 2011. ClatPrep is now part of T.I.M.E., the national test-prep chain established in 1992 with 188 offices across 96 cities, and offers roughly 1,800 pages of study material and 70 mock tests on the CLAT/AILET/SLAT pattern.</p>
+
+<h3>7. Miracles & CLAT Forum</h3>
+<p>Miracles & CLAT Forum, formerly known as PT Education, is one of Chhattisgarh's older entrance-coaching institutions, preparing students for CLAT alongside CAT/MBA, IPM and hotel-management entrances from its Tatyapara Chowk centre, built around what it calls a "Materials, Mocks, Mentor" approach.</p>
+
+<h3>8. The Chanakya Law Academy</h3>
+<p>The Chanakya Law Academy runs full-time CLAT preparation from a centre near Vivekanand Eye Hospital in Raipur, with weekly oral and online tests, regular doubt-solving sessions and periodic guest lectures as part of its routine.</p>
+
+<h3>9. CLAT Possible</h3>
+<p>CLAT Possible's Raipur centre in Telibandha is one of roughly 13 centres this CLAT-focused chain runs nationally, combining a learning-management system with mentor-led classroom teaching for both CLAT and AILET preparation.</p>
+
+<h3>10. Pariksha Mantra Academy</h3>
+<p>Pariksha Mantra Academy, founded by Samarth Nair and based in Mahaveer Nagar, is a Raipur-founded institute offering CLAT coaching distinct from the city's national-chain branches - a smaller, newer addition to the local market.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. LegalEdge stands out on its independently visible 4.8/5 rating, while Career Launcher and IMS bring the resources and standardised material of national chains with the longest continuous Raipur presence among them. Students who want a Raipur-founded institute have Sai Kripa Law Academy, Page Academy, The Chanakya Law Academy and Pariksha Mantra Academy to compare, while T.I.M.E./ClatPrep, Miracles & CLAT Forum and CLAT Possible sit between these two categories - established local centres now operating under wider brands. Treat every fee, rating and claim here as a starting point, not a fixed quote, and confirm current batch details, faculty and fees directly with the institute before enrolling. Compare full details and additional Raipur institutes on our <a href="coaching-raipur.html">Raipur coaching directory</a>.</p>
+`
+},
+
 
 {
 slug: "upsc-epfo-apfc-2026-registration-opens-august22-update",
