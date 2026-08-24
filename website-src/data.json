@@ -42,7 +42,8 @@
       "vadodara",
       "ranchi",
       "nashik",
-      "dehradun"
+      "dehradun",
+      "raipur"
     ],
     "certification": [
       "online"
@@ -9220,6 +9221,183 @@
       ],
       "mode": "offline"
     }
+,
+    {
+      "slug": "legaledge-toprankers-raipur",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers",
+      "city": "raipur",
+      "locality": "Shankar Nagar",
+      "address": "Gomti Tower, In Front of Olympus Gym, Shankar Nagar, Station Road, Raipur, Chhattisgarh 492001",
+      "estd": 2019,
+      "exams": ["clat", "ailet"],
+      "verified": false,
+      "about": "LegalEdge by Toprankers runs CLAT and AILET-focused classroom and online coaching from Station Road, Shankar Nagar, Raipur, since 2019. It carries a 4.8-out-of-5 rating across 84 reviews on its own listing, among the highest independently visible scores of any Raipur law-coaching centre, with a curriculum built around detailed exam analysis after every mock test.",
+      "highlights": [
+        "4.8/5 rating across 84 reviews - among the strongest independently visible scores in Raipur's CLAT-coaching market",
+        "Dedicated CLAT and AILET preparation with both online and offline batches",
+        "Backed by Toprankers' national law-entrance coaching infrastructure"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-raipur",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "raipur",
+      "locality": "Shankar Nagar",
+      "address": "Bilasa Blood Bank, A10, Shankar Nagar, Sector 1, Opposite Housing Board Complex, Raipur, Chhattisgarh 492001",
+      "estd": 2005,
+      "exams": ["clat", "cat"],
+      "verified": false,
+      "about": "Career Launcher's Raipur centre has run from Shankar Nagar since 2005, coaching CLAT alongside CAT/MBA, banking and SSC entrance exams as part of the national Career Launcher network founded in 1995. The centre reports small batches of 30-35 students and cites past Raipur students' selections including CLAT All India Ranks in double and triple digits, though these individual results could not be independently verified against official merit lists.",
+      "highlights": [
+        "Running in Raipur since 2005 as part of the national Career Launcher chain",
+        "Coaches CLAT alongside CAT/MBA, banking and SSC exams from the same centre",
+        "Small classroom batches of 30-35 students, per the institute"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-raipur",
+      "type": "coaching",
+      "name": "IMS Raipur",
+      "city": "raipur",
+      "locality": "Pandri",
+      "address": "Textile Market Road, Opp. LIC Building, Besides Raymond Showroom, Pandri, Raipur, Chhattisgarh 492001",
+      "estd": 2014,
+      "exams": ["clat", "cat"],
+      "verified": false,
+      "about": "IMS Raipur, part of IMS Learning Resources - one of India's oldest entrance-exam coaching networks, founded in Mumbai in 1977 - has operated its Pandri centre for roughly a decade, offering CLAT alongside CAT/MBA and other entrance coaching. The centre offers air-conditioned classrooms and a library, and both online and offline delivery.",
+      "highlights": [
+        "Part of the IMS network (est. 1977), one of India's longest-running entrance-coaching chains",
+        "Coaches CLAT alongside CAT/MBA and other entrance exams from one Pandri centre",
+        "Online and offline batches available"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "sai-kripa-law-academy-raipur",
+      "type": "coaching",
+      "name": "Sai Kripa Law Academy",
+      "city": "raipur",
+      "locality": "Anupam Nagar",
+      "address": "H-8, Anupam Nagar, Near TV Tower, In Front of Priya Provision Store, Raipur, Chhattisgarh 492001",
+      "estd": 2010,
+      "exams": ["clat"],
+      "verified": false,
+      "about": "Sai Kripa Law Academy was founded in Anupam Nagar, Raipur, in 2010 by Rajesh Singh, and coaches CLAT alongside judicial-service exams such as Civil Judge, ADJ and APO - making it more of a broad legal-career coaching centre than a CLAT specialist. It offers unlimited class access, topic-wise progress reports and live doubt-solving sessions.",
+      "highlights": [
+        "Founded 2010 by Rajesh Singh, based in Anupam Nagar near the Raipur TV Tower",
+        "Coaches CLAT alongside Civil Judge, ADJ and APO judicial-service exams",
+        "Offers topic-wise progress tracking and live doubt-solving sessions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "page-academy-raipur",
+      "type": "coaching",
+      "name": "Page Academy",
+      "city": "raipur",
+      "locality": "Near MATS University",
+      "address": "Pagariya Complex, Arihant Tower, 1st Floor, Near MATS University, Raipur, Chhattisgarh 492001",
+      "estd": 2010,
+      "exams": ["clat"],
+      "verified": false,
+      "about": "Page Academy has run from Arihant Tower, near MATS University in Raipur, since 2010, offering CLAT weekend batches, a foundation course and test series alongside its wider roster of Banking, SSC, VYAPAM and CGPSC coaching. The institute emphasises a low teacher-student ratio and provides instruction in both Hindi and English.",
+      "highlights": [
+        "Running since 2010 from a centre near MATS University, Raipur",
+        "Offers a dedicated CLAT weekend batch and foundation course alongside government-exam coaching",
+        "Classes conducted in both Hindi and English mediums"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-clatprep-raipur",
+      "type": "coaching",
+      "name": "T.I.M.E. (ClatPrep Raipur)",
+      "city": "raipur",
+      "locality": "Tatyapara Chowk",
+      "address": "1st Floor, Mishra Bhawan, Tatyapara Chowk, Near Shivaji Statue, Raipur, Chhattisgarh 492001",
+      "estd": 2011,
+      "exams": ["clat", "ailet", "cat"],
+      "verified": false,
+      "about": "T.I.M.E.'s Raipur centre, operating under the ClatPrep brand for law entrance coaching, has run from Tatyapara Chowk since 2011. ClatPrep is now part of T.I.M.E., the national test-prep chain established in 1992 with 188 offices across 96 cities. The centre offers roughly 1,800 pages of study material, 70 mock tests on the CLAT/AILET/SLAT pattern and subject delivery by faculty the institute describes as NLU, IIT and IIM alumni.",
+      "highlights": [
+        "Raipur centre running since 2011, now operating under the national T.I.M.E./ClatPrep brand (T.I.M.E. est. 1992)",
+        "70 mock tests across CLAT, AILET and SLAT patterns with national benchmarking",
+        "Also coaches CAT/MBA entrance from the same Tatyapara Chowk centre"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "miracles-clat-forum-raipur",
+      "type": "coaching",
+      "name": "Miracles & CLAT Forum",
+      "city": "raipur",
+      "locality": "Tatyapara Chowk",
+      "address": "2nd Floor, Raj Tower, Tatyapara Chowk, Raipur, Chhattisgarh",
+      "exams": ["clat", "cat"],
+      "verified": false,
+      "about": "Miracles & CLAT Forum, formerly known as PT Education, is one of Chhattisgarh's older entrance-coaching institutions, preparing students for CLAT alongside CAT/MBA, IPM and hotel-management entrances from its Tatyapara Chowk centre. The institute cites past student results including a reported CLAT All India Rank of 38 and an AILET AIR of 9, which could not be independently verified against official merit lists.",
+      "highlights": [
+        "One of Chhattisgarh's longer-running entrance-coaching institutions, formerly branded PT Education",
+        "Coaches CLAT alongside CAT/MBA, IPM and hotel-management entrance exams",
+        "Structured around a 'Materials, Mocks, Mentor' teaching approach"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chanakya-law-academy-raipur",
+      "type": "coaching",
+      "name": "The Chanakya Law Academy",
+      "city": "raipur",
+      "locality": "Near Vivekanand Eye Hospital",
+      "address": "1st Floor, N Rathi Tower, Main Road, Near Vivekanand Eye Hospital, Raipur, Chhattisgarh 492001",
+      "exams": ["clat"],
+      "verified": false,
+      "about": "The Chanakya Law Academy runs full-time CLAT preparation from a centre near Vivekanand Eye Hospital in Raipur, alongside seminars and workshops built around exam strategy. The academy conducts weekly oral and online tests and doubt-solving sessions as part of its regular teaching routine.",
+      "highlights": [
+        "Dedicated full-time CLAT coaching programme",
+        "Runs weekly oral and online tests plus regular doubt-solving sessions",
+        "Organises guest lectures alongside regular classes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "clat-possible-raipur",
+      "type": "coaching",
+      "name": "CLAT Possible",
+      "city": "raipur",
+      "locality": "Telibandha",
+      "address": "28/1 Chanakya Tower, Anand Nagar Main Road, In Front of Marine Drive, Telibandha, Raipur, Chhattisgarh 492001",
+      "exams": ["clat", "ailet"],
+      "verified": false,
+      "about": "CLAT Possible's Raipur centre in Telibandha is one of roughly 13 centres the CLAT-focused chain runs nationally. The institute structures its preparation around a learning-management system alongside mentor-led classes, and offers both online and offline formats for CLAT and AILET preparation.",
+      "highlights": [
+        "One of about 13 centres nationally for this CLAT-focused coaching chain",
+        "Combines a learning-management system with mentor-led classroom teaching",
+        "Coaches both CLAT and AILET"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "pariksha-mantra-academy-raipur",
+      "type": "coaching",
+      "name": "Pariksha Mantra Academy",
+      "city": "raipur",
+      "locality": "Mahaveer Nagar",
+      "address": "Mahaveer Nagar, Raipur, Chhattisgarh",
+      "exams": ["clat"],
+      "verified": false,
+      "about": "Pariksha Mantra Academy, founded by Samarth Nair, is a Raipur-founded institute based in Mahaveer Nagar offering CLAT coaching alongside school-level tuition. It positions itself around a performance-focused teaching approach for law-entrance aspirants in the city.",
+      "highlights": [
+        "Locally founded by Samarth Nair, based in Mahaveer Nagar",
+        "Offers CLAT coaching distinct from the city's national-chain branches",
+        "Smaller, newer addition to Raipur's CLAT-coaching market"
+      ],
+      "mode": "offline"
+    }
   ],
   "cityContent": {
     "coaching-kolkata": {
@@ -9339,6 +9517,9 @@
     },
     "coaching-dehradun": {
       "intro": "<p>Dehradun - Uttarakhand's capital, long known for its boarding schools and defence academies like the IMA - has quietly built a genuine UPSC and state-PCS coaching market of its own over the past decade, distinct from the defence-exam institutes the city is more traditionally associated with. Coaching activity clusters around a handful of neighbourhoods: Ballupur Chowk and Araghar host the highest concentration of institutes, with further centres on Race Course, Rajpur Road and GMS Road. The market mixes long-running, locally founded institutes - some dating back to the 1980s - with a pan-India brand's branch office. Every listing below shows its verification status and, where available, independently visible ratings.</p>"
+    },
+    "coaching-raipur": {
+      "intro": "<p>Raipur - Chhattisgarh's capital and home to Hidayatullah National Law University (HNLU), one of India's earlier National Law Universities, established in 2003 - has built a genuine CLAT-coaching market of its own, distinct from HNLU's presence as an admission destination. Coaching activity clusters mainly around Shankar Nagar and Tatyapara Chowk, mixing national test-prep chains (Career Launcher, IMS, T.I.M.E., LegalEdge, CLAT Possible) with institutes founded and run locally (Sai Kripa Law Academy, Page Academy, Pariksha Mantra Academy). Every listing below shows its verification status and, where available, independently visible ratings.</p>"
     }
   }
 }
