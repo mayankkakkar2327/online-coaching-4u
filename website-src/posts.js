@@ -2,6 +2,128 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "csab-supernumerary-2026-registration-open-neut-round2-update",
+title: "CSAB Supernumerary 2026: Registration Opens for UT Candidates at NIT Calicut, Durgapur and SVNIT Surat",
+category: "JEE / Engineering",
+date: "25 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=jee", text: "Compare verified JEE coaching institutes" },
+excerpt: "CSAB has opened online registration and choice filling for its 2026 Supernumerary Round, a dedicated counselling window reserved for JEE Main-eligible candidates from Andaman & Nicobar, Lakshadweep, Daman & Diu and Dadra & Nagar Haveli, for seats at NIT Calicut, NIT Durgapur and SVNIT Surat.",
+image: "assets/blog/csab-supernumerary-2026-registration-open-neut-round2-update.png",
+imageAlt: "CSAB Supernumerary 2026 registration open notification graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 25 August 2026.</strong></p>
+<p>The Central Seat Allocation Board (CSAB) has opened online registration and choice filling for the CSAB Supernumerary Round 2026, confirmed directly on the official <a href="https://csab.nic.in/csab-supernumerary/" rel="noopener" target="_blank">csab.nic.in/csab-supernumerary</a> page, which now carries the banner "Online Registration &amp; Choice Filling for 2026 has been started." This is a narrow, separate counselling window that runs after the main CSAB Special Rounds close, and applies to a specific set of candidates and seats.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per the official CSAB Supernumerary page, this round allocates supernumerary seats at three institutes only — NIT Calicut, NIT Durgapur and SVNIT Surat — based on each candidate's JEE (Main) 2026 rank. Eligibility is restricted to candidates domiciled in Union Territories that lack their own AICTE-approved technical institutes: Andaman &amp; Nicobar Islands, Lakshadweep, Daman &amp; Diu, and Dadra &amp; Nagar Haveli. CSAB's site states plainly that "the eligibility criteria and procedural requirements — including registration, choice filling, choice locking, seat allotment, and fee payment — differ from those of JoSAA/CSAB rounds," and directs candidates to review the Business Rules before applying. Two supporting documents, the CSAB Supernumerary Round Schedule 2026 and the Seat Matrix for CSAB Supernumerary 2026, were published on the site on 21 August 2026, alongside a separate homepage notice that CSAB's NEUT (North Eastern States and Union Territories) Round 2 seat allocation result has also been declared. CSAB's site does not display exact registration-closing or seat-allotment dates in plain text on the Supernumerary page itself — candidates should open the official Schedule PDF linked there directly for the day-by-day timeline rather than rely on a secondary source.</p>
+
+<h2>What this means for aspirants</h2>
+<p>This round only concerns candidates from the four listed Union Territories; it is not a general re-opening of counselling for the wider JEE Main candidate pool, and does not require a fresh exam attempt — it draws on each eligible candidate's existing JEE (Main) 2026 rank. Because it commences only after CSAB Special Rounds finish, and this site's 20 August update already confirmed CSAB Special/DASA Round 2 results and reporting were underway, this Supernumerary window is very likely one of the last formal JEE-linked counselling processes still open for the 2026 admission cycle. Eligible candidates should register on the official portal without delay and read the linked Schedule and Seat Matrix PDFs in full, since the process (choice locking, fee structure, reporting) is explicitly different from the JoSAA/CSAB process most JEE candidates already went through.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Counselling round:</strong> CSAB Supernumerary 2026</p>
+<p><strong>Status (checked 25 Aug 2026):</strong> Online registration and choice filling open, per csab.nic.in</p>
+<p><strong>Eligible seats:</strong> Supernumerary seats at NIT Calicut, NIT Durgapur, SVNIT Surat</p>
+<p><strong>Eligible candidates:</strong> Domiciled in Andaman &amp; Nicobar, Lakshadweep, Daman &amp; Diu, or Dadra &amp; Nagar Haveli, with a valid JEE (Main) 2026 rank</p>
+<p><strong>Basis of allotment:</strong> JEE (Main) 2026 rank</p>
+<p><strong>Also declared:</strong> CSAB NEUT Round 2 seat allocation result</p>
+<p><strong>Official source:</strong> csab.nic.in/csab-supernumerary</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[21 Aug 2026]</strong> CSAB published the official CSAB Supernumerary Round Schedule 2026 and Seat Matrix for CSAB Supernumerary 2026 documents on csab.nic.in.</li>
+<li><strong>[Checked 25 Aug 2026]</strong> Online registration and choice filling for CSAB Supernumerary 2026 is confirmed open on the official CSAB Supernumerary page.</li>
+<li><strong>Eligibility fact:</strong> Only candidates domiciled in Andaman &amp; Nicobar, Lakshadweep, Daman &amp; Diu and Dadra &amp; Nagar Haveli can apply for CSAB Supernumerary seats — this round is not open to the general JEE Main candidate pool.</li>
+<li><strong>[Checked 25 Aug 2026]</strong> CSAB's homepage also lists the CSAB NEUT (North Eastern States and Union Territories) Round 2 seat allocation result as declared.</li>
+<li><strong>Myth check:</strong> Applying for CSAB Supernumerary does not require sitting a fresh test — it uses a candidate's existing JEE (Main) 2026 rank, with eligibility determined by home-UT domicile rather than by exam performance alone.</li>
+</ul>
+
+<p><em>Sources: <a href="https://csab.nic.in/csab-supernumerary/" rel="noopener" target="_blank">CSAB Supernumerary official page</a> (csab.nic.in); <a href="https://csab.nic.in/" rel="noopener" target="_blank">CSAB homepage, Latest News</a> (csab.nic.in).</em></p>
+<p><strong>Last updated: 25 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-jee-coaching-institutes-kanpur-2026",
+title: "Top 10 JEE Coaching Institutes in Kanpur (2026)",
+category: "JEE / Engineering",
+date: "25 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-kanpur.html", text: "Browse all verified coaching institutes in Kanpur" },
+excerpt: "Kanpur's JEE-coaching market runs on the strength of being an IIT city, clustered almost entirely around Kakadeo and Civil Lines. Here's a fact-checked look at ten institutes actually training students for JEE in the city, from national chains to Kakadeo's dense field of local, subject-specialist classes.",
+image: "assets/blog/top-10-jee-coaching-institutes-kanpur-2026.png",
+imageAlt: "Top 10 JEE coaching institutes in Kanpur 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best JEE coaching institute in Kanpur?",
+    "a": "There's no single 'best' - Kalrashukla Classes has the longest continuous local operation (founded 1993, now four branches), Allen and Aakash bring the standardised material and national test-series infrastructure of pan-India chains, and RS Institute cites the largest self-reported student base (over 15,000 trained since 2010). The right pick depends on whether you weight an institute's years in Kanpur, a national chain's resources, or a locally built centre's personal attention most heavily."
+  },
+  {
+    "q": "Are there JEE coaching options built specifically in Kanpur, not franchises of national chains?",
+    "a": "Yes - Kalrashukla Classes, GD Verma Classes, RS Institute, Career Crave Education Centre (CCEC), Sanjeev Rathore Classes, INTERFACE Classes and Career Infinity Classes are all Kanpur-founded institutes. Allen, Aakash and Physics Wallah Vidyapeeth are Kanpur branches of national chains."
+  },
+  {
+    "q": "Why does Kanpur have a JEE-coaching market at all, given it's already home to IIT Kanpur?",
+    "a": "IIT Kanpur being local raises the exam's visibility and gives the city a steady base of engineering-minded families, but the institute itself doesn't run coaching for outside students - it runs SATHEE, a free national online-coaching initiative for JEE, NEET and other exams, separate from any of the fee-based institutes on this list. The city's actual coaching industry has built up independently, concentrated in Kakadeo."
+  },
+  {
+    "q": "Where are most JEE coaching institutes in Kanpur located?",
+    "a": "Kakadeo is by far the largest cluster - seven of the ten institutes on this list operate there, several within a few hundred metres of each other on or near Rani Ganj and Navin Nagar. Civil Lines is the other notable pocket, while Kidwai Nagar hosts a smaller, separate cluster."
+  }
+],
+html: `
+<p>Kanpur's JEE-coaching market carries an obvious advantage: it's an IIT city, home to IIT Kanpur since 1959, which keeps engineering entrance exams firmly in the local conversation and gives the city a steady base of JEE aspirants each year. That said, IIT Kanpur itself doesn't coach outside students for the entrance exam - it runs <a href="https://sathee.iitk.ac.in/" rel="noopener" target="_blank">SATHEE</a>, a free national online-coaching initiative for JEE, NEET and other exams, entirely separate from the city's fee-based coaching industry. That industry has built up on its own, concentrated overwhelmingly in one neighbourhood: Kakadeo, where national chains and a dense field of locally founded, often subject-specialist classes sit within walking distance of each other. Below is a fact-checked look at ten institutes training JEE aspirants in the city.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Kanpur, Uttar Pradesh</p>
+<p><strong>Exam this list is built for:</strong> JEE (Main and Advanced); most institutes below also coach NEET and foundation batches</p>
+<p><strong>Institutes compared:</strong> 10, spanning a 1993-founded local chain to national brands</p>
+<p><strong>Main coaching cluster:</strong> Kakadeo, with a further pocket in Civil Lines</p>
+<p><strong>Local landmark:</strong> IIT Kanpur runs SATHEE, a free national JEE/NEET coaching platform, separate from all institutes listed here</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable JEE-coaching presence in Kanpur: a real local address, confirmation across more than one independent source where possible (institute websites and directories such as Collegedunia, Sulekha and Justdial), and an actual JEE Main/Advanced batch on offer as of 2026. Kanpur's market includes several institutes built around a single subject specialism - Chemistry or Physics - rather than a full JEE package; we've noted that distinction plainly rather than presenting them as identical to full-service institutes. Where an institute's marketing cites a founding year or student count we could not independently confirm against an official record, we've said so rather than presenting it as verified fact.</p>
+
+<h3>1. Allen Career Institute</h3>
+<p>Allen's Kanpur branch, in Civil Lines, extends the Kota-founded national chain's classroom JEE and NEET coaching into the city, combining in-person teaching with Allen's hybrid learning platform and AI-driven test analysis - the standardised format familiar from Allen's centres nationwide.</p>
+
+<h3>2. Aakash Institute</h3>
+<p>Aakash Institute runs a Kakadeo centre, near IDBI Bank, as part of its wider Kanpur presence that also includes a Phoolbagh branch, offering classroom JEE and NEET coaching under Aakash's standardised national curriculum and test series.</p>
+
+<h3>3. Physics Wallah Vidyapeeth</h3>
+<p>Physics Wallah's Vidyapeeth centre in Kakadeo, established in 2016, offers JEE (Main and Advanced) and NEET batches from Class 8 foundation through dropper-year programmes, backed by PW's national study material, round-the-clock doubt-solving and on-site hostel facilities for outstation students.</p>
+
+<h3>4. Kalrashukla Classes</h3>
+<p>Kalrashukla Classes, founded in 1993 by Prof. R.D. Shukla and Prof. M.H. Kalra, is Kanpur's longest-running institute on this list, now operating four branches across Saket Nagar, Civil Lines, Kakadeo and Nirala Nagar. The institute reports 76 JEE Advanced clears and 248 JEE Main clears among its students since 2022, alongside NEET selections - figures drawn from the institute's own published record rather than an independently audited source.</p>
+
+<h3>5. GD Verma Classes (GD Classes)</h3>
+<p>GD Verma Classes, known locally as GD Classes, has run from Kakadeo since the late 1990s, offering dedicated IIT-JEE, NEET and Foundation coaching under founder G.D. Verma - one of the older Kanpur-founded names still operating in the city's core coaching cluster.</p>
+
+<h3>6. RS Institute</h3>
+<p>RS Institute, established in 2010 under Shobhit Sir and based in Kakadeo's Avon Market, runs JEE Main and Advanced, NEET and Class 9-10 Foundation batches, and cites more than 15,000 students trained since founding as its main track-record claim.</p>
+
+<h3>7. Career Crave Education Centre (CCEC)</h3>
+<p>Career Crave Education Centre, founded in Kakadeo in 2010 by Er. Shravan Katiyar, is best known locally for Physics coaching within its JEE and NEET programmes rather than as a full multi-subject institute - worth knowing before enrolling if you need all subjects covered under one roof.</p>
+
+<h3>8. Sanjeev Rathore Classes (SR Classes)</h3>
+<p>Sanjeev Rathore Classes, run by Chemistry faculty Sanjeev Rathore from Kakadeo, is primarily a Chemistry-specialist coaching centre serving JEE and NEET aspirants - commonly combined by Kanpur students with a separate institute for Physics and Maths rather than used as a stand-alone, full-subject JEE programme.</p>
+
+<h3>9. INTERFACE Classes</h3>
+<p>INTERFACE Classes, based in Kidwai Nagar, positions itself as run by IIT-alumni faculty with capped batch sizes of around 30 students, offering JEE and NEET coaching for students across Kanpur from outside the main Kakadeo cluster.</p>
+
+<h3>10. Career Infinity Classes</h3>
+<p>Career Infinity Classes runs from Raniganj, Kakadeo, offering JEE and NEET coaching built around small batches, regular testing and doubt-resolution support - a newer, smaller addition to Kakadeo's dense coaching field.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Allen, Aakash and Physics Wallah Vidyapeeth bring national-chain resources and standardised test series; Kalrashukla Classes and GD Verma Classes offer the longest continuous Kanpur track records, each dating to the 1990s. RS Institute and Career Infinity Classes are newer, Kakadeo-founded centres built specifically around JEE and NEET, while Career Crave and Sanjeev Rathore Classes are worth a closer look specifically for their Physics and Chemistry specialisations - many Kanpur students mix and match subject-specialist classes rather than relying on one institute for everything. INTERFACE Classes is the one option on this list outside the Kakadeo-Civil Lines core, useful if that commute matters. Treat every fee, founding-year and student-count claim here as a starting point, not a fixed quote, and confirm current batch details, faculty and fees directly with the institute before enrolling. Compare full details and additional Kanpur institutes on our <a href="coaching-kanpur.html">Kanpur coaching directory</a>.</p>
+`
+},
+
+{
 slug: "slat-2027-registration-open-test-dates-december-update",
 title: "SLAT 2027: Registration Now Open, Test Dates Set for December 19 and 26",
 category: "SLAT / Law",
