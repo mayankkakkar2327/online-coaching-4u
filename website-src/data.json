@@ -43,7 +43,8 @@
       "ranchi",
       "nashik",
       "dehradun",
-      "raipur"
+      "raipur",
+      "kanpur"
     ],
     "certification": [
       "online"
@@ -9448,6 +9449,216 @@
       ],
       "website": "https://judextutorials.com",
       "mode": "hybrid"
+    },
+    {
+      "slug": "allen-career-institute-kanpur",
+      "type": "coaching",
+      "name": "Allen Career Institute",
+      "city": "kanpur",
+      "locality": "Civil Lines",
+      "address": "Civil Lines, Kanpur, Uttar Pradesh 208001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Allen Career Institute's Kanpur branch, in Civil Lines, extends the Kota-founded national chain's classroom JEE and NEET coaching into the city, combining in-person teaching with Allen's hybrid learning platform and AI-driven test analysis - the standardised format familiar from Allen's centres nationwide.",
+      "highlights": [
+        "Branch of Allen Career Institute, the national Kota-founded JEE/NEET chain",
+        "Hybrid classroom-plus-digital format with AI-driven test analysis",
+        "Located in Civil Lines, Kanpur's other main coaching pocket outside Kakadeo"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-kanpur",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "No 117/N/1, Near IDBI Bank, Kakadeo, Kanpur, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Aakash Institute runs a Kakadeo centre, near IDBI Bank, as part of its wider Kanpur presence that also includes a Phoolbagh branch, offering classroom JEE and NEET coaching under Aakash's standardised national curriculum and test series.",
+      "highlights": [
+        "Branch of the national Aakash Institute chain",
+        "Standardised JEE/NEET curriculum and test series shared across Aakash centres",
+        "Second Kanpur branch at Phoolbagh in addition to this Kakadeo centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "physics-wallah-vidyapeeth-kanpur",
+      "type": "coaching",
+      "name": "Physics Wallah Vidyapeeth",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "Near JS Tower, Kakadeo, Kanpur, Uttar Pradesh",
+      "estd": 2016,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Physics Wallah's Vidyapeeth centre in Kakadeo, established in 2016, offers JEE (Main and Advanced) and NEET batches from Class 8 foundation through dropper-year programmes, backed by PW's national study material, round-the-clock doubt-solving and on-site hostel facilities for outstation students.",
+      "highlights": [
+        "Established 2016, part of the national Physics Wallah (PW) network",
+        "Offers boys' and girls' hostel facilities for outstation students",
+        "24/7 doubt-solving support alongside frequent tests, per the institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "kalrashukla-classes-kanpur",
+      "type": "coaching",
+      "name": "Kalrashukla Classes",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "Near Deep Cinema, Saket Nagar, Kanpur, Uttar Pradesh (branches also in Civil Lines, Kakadeo and Nirala Nagar)",
+      "estd": 1993,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Kalrashukla Classes, founded in 1993 by Prof. R.D. Shukla and Prof. M.H. Kalra, is one of Kanpur's longest-running coaching institutes, now operating four branches across Saket Nagar, Civil Lines, Kakadeo and Nirala Nagar. The institute reports 76 JEE Advanced clears and 248 JEE Main clears among its students since 2022, alongside NEET selections - figures from the institute's own published record.",
+      "highlights": [
+        "Founded 1993 - one of the longest continuously operating institutes in Kanpur",
+        "Four branches across the city: Saket Nagar, Civil Lines, Kakadeo, Nirala Nagar",
+        "Reports 76 JEE Advanced and 248 JEE Main clears among students since 2022 (institute's own figures)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gd-verma-classes-kanpur",
+      "type": "coaching",
+      "name": "GD Verma Classes (GD Classes)",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "Near Deoki Cinema, Kakadeo, Kanpur, Uttar Pradesh 208025",
+      "estd": 1998,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "GD Verma Classes, known locally as GD Classes, has run from Kakadeo since the late 1990s under founder G.D. Verma, offering dedicated IIT-JEE, NEET and Foundation coaching - one of the older Kanpur-founded names still operating in the city's core coaching cluster.",
+      "highlights": [
+        "Operating from Kakadeo since the late 1990s",
+        "Dedicated IIT-JEE, NEET and Class 9-10 Foundation batches",
+        "One of the longer-established Kanpur-founded institutes still active"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rs-institute-kanpur",
+      "type": "coaching",
+      "name": "RS Institute",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "117/N/79, Avon Market, Kakadeo (Near Bhadauria Petrol Pump), Kanpur, Uttar Pradesh",
+      "estd": 2010,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "RS Institute, established in 2010 under Shobhit Sir and based in Kakadeo's Avon Market, runs JEE Main and Advanced, NEET and Class 9-10 Foundation batches, and cites more than 15,000 students trained since founding as its main track-record claim.",
+      "highlights": [
+        "Founded 2010; cites 15,000+ students trained since inception (institute's own figure)",
+        "Covers JEE Main/Advanced, NEET and Foundation (classes 9-10)",
+        "Based in Kakadeo's Avon Market coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-crave-education-centre-kanpur",
+      "type": "coaching",
+      "name": "Career Crave Education Centre (CCEC)",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "117/N/8, Kakadeo, Kanpur Nagar, Uttar Pradesh",
+      "estd": 2010,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Career Crave Education Centre, founded in Kakadeo in 2010 by Er. Shravan Katiyar, is best known locally for Physics coaching within its JEE and NEET programmes rather than as a full multi-subject institute - worth confirming before enrolling if you need every subject covered under one roof.",
+      "highlights": [
+        "Founded 2010 by Er. Shravan Katiyar",
+        "Known primarily for Physics-focused JEE/NEET coaching",
+        "Grown from a small Kakadeo centre into one of the area's established names"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sanjeev-rathore-classes-kanpur",
+      "type": "coaching",
+      "name": "Sanjeev Rathore Classes (SR Classes)",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "117/N/256, Rani Ganj, Ambedkar Nagar, Navin Nagar, Kakadeo, Kanpur, Uttar Pradesh 208005",
+      "estd": 2000,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Sanjeev Rathore Classes, run by Chemistry faculty Sanjeev Rathore from Kakadeo, is primarily a Chemistry-specialist coaching centre serving JEE and NEET aspirants - commonly combined by Kanpur students with a separate institute for Physics and Maths rather than used as a stand-alone, full-subject JEE programme.",
+      "highlights": [
+        "Chemistry-specialist coaching, run by founder Sanjeev Rathore",
+        "Serves both JEE and NEET aspirants",
+        "Commonly paired with another institute for Physics/Maths by Kanpur students"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "interface-classes-kanpur",
+      "type": "coaching",
+      "name": "INTERFACE Classes",
+      "city": "kanpur",
+      "locality": "Kidwai Nagar",
+      "address": "Kidwai Nagar, Kanpur, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "INTERFACE Classes, based in Kidwai Nagar, positions itself as run by IIT-alumni faculty with capped batch sizes of around 30 students, offering JEE and NEET coaching for students across Kanpur from outside the main Kakadeo cluster.",
+      "highlights": [
+        "Based in Kidwai Nagar, outside Kanpur's main Kakadeo coaching cluster",
+        "States capped batch sizes of around 30 students",
+        "Faculty described by the institute as IIT alumni"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-infinity-classes-kanpur",
+      "type": "coaching",
+      "name": "Career Infinity Classes",
+      "city": "kanpur",
+      "locality": "Kakadeo",
+      "address": "Career Infinity Complex, Chandel Chouraha, Tulsi Nagar, Raniganj, Kakadeo, Kanpur, Uttar Pradesh 208025",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Career Infinity Classes runs from Raniganj, Kakadeo, offering JEE and NEET coaching built around small batches, regular testing and doubt-resolution support - a newer, smaller addition to Kakadeo's dense coaching field.",
+      "highlights": [
+        "Small-batch JEE and NEET coaching from Raniganj, Kakadeo",
+        "Regular testing and doubt-resolution support, per the institute",
+        "Newer entrant in Kanpur's dense Kakadeo coaching cluster"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -9571,6 +9782,9 @@
     },
     "coaching-raipur": {
       "intro": "<p>Raipur - Chhattisgarh's capital and home to Hidayatullah National Law University (HNLU), one of India's earlier National Law Universities, established in 2003 - has built a genuine CLAT-coaching market of its own, distinct from HNLU's presence as an admission destination. Coaching activity clusters mainly around Shankar Nagar and Tatyapara Chowk, mixing national test-prep chains (Career Launcher, IMS, T.I.M.E., LegalEdge, CLAT Possible) with institutes founded and run locally (Sai Kripa Law Academy, Page Academy, Pariksha Mantra Academy). Every listing below shows its verification status and, where available, independently visible ratings.</p>"
+    },
+    "coaching-kanpur": {
+      "intro": "<p>Kanpur - Uttar Pradesh's largest industrial city and home to IIT Kanpur since 1959 - has a JEE-coaching market shaped by that IIT presence, even though IIT Kanpur itself does not coach outside students (its free SATHEE platform is a separate, national online initiative). Coaching activity clusters overwhelmingly in Kakadeo, with a further pocket in Civil Lines and a smaller one in Kidwai Nagar. The market mixes national chains with a dense field of Kanpur-founded institutes, including some built around a single subject specialism such as Physics or Chemistry. Every listing below shows its verification status.</p>"
     }
   }
 }
