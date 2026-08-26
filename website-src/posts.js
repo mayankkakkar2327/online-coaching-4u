@@ -1,6 +1,122 @@
 /* Original content for Online Coaching 4u.
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
+  {
+slug: "neet-ug-2026-round1-final-result-reporting-deadline-31aug-update",
+title: "NEET UG 2026: MCC Declares Round 1 Final Result, Reporting Deadline Set for 31 August",
+category: "NEET",
+date: "26 Aug 2026",
+minutes: 5,
+cta: { href: "coaching-hub.html", text: "Browse verified NEET coaching institutes across India" },
+excerpt: "The Medical Counselling Committee declared the Final Seat Allotment Result for Round 1 of NEET UG 2026 counselling on 24 August via Notice No. 14, and candidates allotted a seat must now report to their college and complete admission formalities by 31 August.",
+image: "assets/blog/neet-ug-2026-round1-final-result-reporting-deadline-31aug-update.png",
+imageAlt: "NEET UG 2026 Round 1 final result declared notification graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 26 August 2026.</strong></p>
+<p>The Medical Counselling Committee (MCC) declared the Final Seat Allotment Result for Round 1 of NEET UG 2026 counselling on 24 August 2026, via Notice No. 14 on <a href="https://mcc.nic.in/ug-medical-counselling/" rel="noopener" target="_blank">mcc.nic.in</a>. The notice tells all Round 1 participating candidates to proceed to report to their allotted college, and to read Chapter 2 of the UG Information Bulletin, which covers Freeze, Float, Upgradation and Withdrawal of an allotted seat, before starting the admission process.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per the official schedule revised on 19 August 2026, the All India Quota/Deemed/Central Universities Round 1 process (registration through result) ran from 4 to 21 August 2026, while participating states ran their own Round 1 counselling from 13 to 27 August 2026. The last date for a candidate allotted a seat in Round 1 to complete joining is <strong>31 August 2026</strong>, with MCC's own verification of joined-candidate data following on 1 September and state DMEs/counselling authorities completing theirs by 5-6 September. This cycle also introduces "Freeze" and "Float" options for allotted candidates for the first time, per MCC's notice, intended to make moving between an allotted seat and a possible upgrade in a later round more convenient - the exact mechanics are laid out in Chapter 2 of the Information Bulletin rather than summarised in the notice itself, so candidates should read that chapter directly rather than assume how it works.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Counselling round:</strong> NEET UG 2026 Round 1 (AIQ/Deemed/Central Universities + State Quota)</p>
+<p><strong>Status (checked 26 Aug 2026):</strong> Final seat allotment result declared 24 Aug 2026, via MCC Notice No. 14</p>
+<p><strong>Action required:</strong> Report to allotted college; read Chapter 2 (Freeze/Float/Upgradation/Withdrawal) before proceeding</p>
+<p><strong>Round 1 joining deadline (AIQ/Deemed/Central):</strong> 31 August 2026</p>
+<p><strong>State counselling Round 1 window:</strong> 13-27 August 2026</p>
+<p><strong>Official source:</strong> mcc.nic.in</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[24 Aug 2026]</strong> MCC's Notice No. 14 confirmed the Round 1 Final Seat Allotment Result for UG Counselling 2026 is out and directed allotted candidates to report to their college.</li>
+<li><strong>[Deadline: 31 Aug 2026]</strong> Last date for AIQ/Deemed/Central Universities Round 1 candidates to complete joining at their allotted college, per the schedule revised 19 Aug 2026.</li>
+<li><strong>[13-27 Aug 2026]</strong> State counselling authorities ran their own Round 1 process in this window, in parallel with the AIQ process.</li>
+<li><strong>New this cycle:</strong> MCC has introduced "Freeze" and "Float" options for allotted seats - read Chapter 2 of the UG Information Bulletin carefully, since it determines what happens to a seat if a candidate opts to be considered for an upgrade.</li>
+<li><strong>Not yet official:</strong> Several exam-prep portals report Round 2 registration is expected in the first week of September, but MCC's own site had not published a Round 2 schedule as of 26 August 2026 - rely only on mcc.nic.in for the confirmed date.</li>
+</ul>
+
+<p><em>Sources: <a href="https://mcc.nic.in/ug-medical-counselling/" rel="noopener" target="_blank">MCC UG Medical Counselling - Notice No. 14</a> (mcc.nic.in); <a href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/20260824240501293.pdf" rel="noopener" target="_blank">Official Notice No. 14, dated 24.08.2026</a> (mcc.nic.in); <a href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/20260823414136482.pdf" rel="noopener" target="_blank">NEET-UG 2026 Schedule (Round 1 dates)</a> (mcc.nic.in).</em></p>
+<p><strong>Last updated: 26 August 2026.</strong></p>
+`
+  },
+
+  {
+slug: "top-10-neet-coaching-institutes-agra-2026",
+title: "Top 10 NEET Coaching Institutes in Agra (2026)",
+category: "NEET",
+date: "26 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-agra.html", text: "Browse all verified coaching institutes in Agra" },
+excerpt: "Agra's NEET-coaching market splits mainly across two hubs, Sikandra and Khandari, with national chains sitting alongside institutes founded and run locally for two decades or more. Here's a fact-checked look at ten institutes actually training NEET aspirants in the city.",
+image: "assets/blog/top-10-neet-coaching-institutes-agra-2026.png",
+imageAlt: "Top 10 NEET coaching institutes in Agra 2026 graphic",
+faqs: [
+  {
+    "q": "Which is the best NEET coaching institute in Agra?",
+    "a": "There's no single 'best' - Baluni Classes has the longest continuous local track record (founded 1999), Allen, Aakash, Resonance and PW Vidyapeeth bring standardised national material and test series, while Aarvee Academy and Career Point Agra offer smaller batches built around closer faculty attention. The right choice depends on whether you want a national chain's infrastructure or a smaller institute's individual focus."
+  },
+  {
+    "q": "Where in Agra are most NEET coaching institutes located?",
+    "a": "Sikandra and Khandari are Agra's two main coaching pockets, home to Aakash, Gurukripa and Career Point Agra (Sikandra) plus Vidyamandir Classes and Aarvee Academy (Khandari). Allen, Resonance, PW Vidyapeeth, Motion Academy and Baluni Classes run from other localities across the city, including Agra-Mathura Road, Kailash Vihar, Nirbhay Nagar, MG Road and Sanjay Place."
+  },
+  {
+    "q": "Do national coaching chains like Allen and Physics Wallah offer scholarships in Agra?",
+    "a": "Yes - Allen's Agra branch admits students through the Allen Sharp scholarship test with waivers reported up to 90%, and Physics Wallah Vidyapeeth's Agra centre uses a similar PWSAT scholarship-admission test. Confirm current scholarship terms directly with each centre before enrolling, since criteria and waiver percentages can change between test cycles."
+  },
+  {
+    "q": "Is NEET coaching in Agra reliable for droppers (repeat candidates)?",
+    "a": "Several institutes on this list, including Allen, Aakash, PW Vidyapeeth and Resonance, run dedicated 12th-pass/dropper-year batches alongside their main programmes. As with any dropper decision, verify a specific batch's teacher continuity and past results directly with the institute rather than relying on general marketing claims."
+  }
+],
+html: `
+<p>Agra draws a large NEET aspirant base every year, both from the city itself and the wider Braj region of western Uttar Pradesh, anchored partly by S.N. Medical College, one of Uttar Pradesh's older government medical colleges. That demand has built a genuine coaching market rather than a handful of token centres: national chains including Allen, Aakash, Resonance and Physics Wallah's Vidyapeeth all run dedicated Agra branches, sitting alongside institutes founded and run locally for two decades or more, such as Baluni Classes. Coaching activity concentrates mainly in two pockets, Sikandra and Khandari, with a further spread of centres across Agra-Mathura Road, Kailash Vihar, Nirbhay Nagar, MG Road and Sanjay Place. Below is a fact-checked look at ten institutes actually training NEET aspirants in the city, each checked against at least one official or independently verifiable source.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Agra, Uttar Pradesh</p>
+<p><strong>Main exam covered:</strong> NEET-UG</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked as of 26 Aug 2026</p>
+<p><strong>Main coaching hubs:</strong> Sikandra and Khandari, with further centres on Agra-Mathura Road, Kailash Vihar, Nirbhay Nagar, MG Road and Sanjay Place</p>
+<p><strong>Mix:</strong> 5 national chains (Allen, Aakash, Resonance, PW Vidyapeeth, Vidyamandir Classes) and 5 Agra-founded institutes (Motion Academy, Baluni Classes, Gurukripa Career Institute, Aarvee Academy, Career Point Agra)</p>
+</div>
+
+<h3>1. Allen Career Institute</h3>
+<p>Allen Career Institute's Agra branch, on Agra-Mathura Road (NH-2), extends the Kota-founded national chain's JEE and NEET-UG coaching into the city, running batches from Class 8 foundation through 12th-pass dropper programmes. Admission runs through Allen's own Sharp scholarship test, with fee waivers reported up to 90% for high scorers.</p>
+
+<h3>2. Aakash Institute</h3>
+<p>Aakash Institute runs multiple Agra centres - Sikandra, Taj Nagri (Sector E3) and Nagla Padi - offering classroom NEET and JEE coaching under Aakash's standardised national curriculum, study material and test series, alongside foundation courses for Class 8-10 students.</p>
+
+<h3>3. Resonance</h3>
+<p>Resonance's Agra centre, part of the Kota-founded chain's national network, offers classroom coaching for JEE (Main and Advanced) and NEET-UG (Pre-Medical) alongside NTSE preparation for classes 6 to 10, run under Resonance's standard curriculum and test-series system.</p>
+
+<h3>4. Physics Wallah Vidyapeeth</h3>
+<p>Physics Wallah's Vidyapeeth centre in Nirbhay Nagar offers JEE and NEET batches from Class 8 foundation through dropper-year programmes, backed by PW's national study material and its PWSAT scholarship-admission test, which offers fee waivers of up to 90% for qualifying students.</p>
+
+<h3>5. Vidyamandir Classes (VMC)</h3>
+<p>Vidyamandir Classes' Agra centre, part of the Delhi-founded VMC network, runs JEE and NEET coaching plus foundation and pre-foundation batches for classes 9 and 10, keeping batch sizes to roughly 35-40 students for closer attention.</p>
+
+<h3>6. Motion Academy</h3>
+<p>Motion Academy runs IIT-JEE, NEET and AIIMS-entrance coaching from two centres in Agra, on MG Road and in Taj Nagari/Rajpur, offering its own study material and batches from foundation level through dropper-year programmes.</p>
+
+<h3>7. Baluni Classes</h3>
+<p>Baluni Classes, founded in 1999 by Dr. Navin Baluni of S.N. Medical College, Agra, is one of the city's longest-running NEET and IIT-JEE institutes, teaching from its Sanjay Place centre with a faculty team the institute describes as including IITians and doctors.</p>
+
+<h3>8. Gurukripa Career Institute</h3>
+<p>Gurukripa Career Institute's Agra branch, in Sikandra, is part of a 22-campus national network, offering classroom NEET and JEE coaching under the group's shared curriculum and testing structure.</p>
+
+<h3>9. Aarvee Academy</h3>
+<p>Aarvee Academy is a locally founded Khandari institute for NEET and IIT-JEE (Main and Advanced) preparation, led by Dr. Vaibhav Sharma and Raghvendra Sinha, keeping batches to around 30 students with a five-teacher faculty team the institute says averages 20 years of experience.</p>
+
+<h3>10. Career Point Agra</h3>
+<p>Career Point Agra is a Sikandra-based institute for NEET and JEE preparation, built around NCERT-focused concept teaching, daily practice problems and dedicated doubt-clearing sessions, with faculty including a Chemistry teacher the institute credits with an All India Rank 1 in NET.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Allen, Aakash, Resonance and PW Vidyapeeth bring national-chain resources, standardised study material and large test series; Baluni Classes offers the longest continuous Agra track record, dating to 1999; Gurukripa and Vidyamandir Classes bring a wider group network's shared systems into a single local centre; and Aarvee Academy and Career Point Agra offer smaller batches with closer faculty attention, useful for students who want more individual feedback than a large chain typically gives. Motion Academy sits between these two poles, a locally run institute of its own with two centres in the city. Treat every fee, founding-year and batch-size claim here as a starting point, not a fixed quote, and confirm current details directly with the institute, especially scholarship-test terms, before enrolling.</p>
+
+<p>Compare full details and additional Agra institutes on our <a href="coaching-agra.html">Agra coaching page</a>.</p>
+`
+  },
 {
 slug: "csab-supernumerary-2026-registration-open-neut-round2-update",
 title: "CSAB Supernumerary 2026: Registration Opens for UT Candidates at NIT Calicut, Durgapur and SVNIT Surat",
