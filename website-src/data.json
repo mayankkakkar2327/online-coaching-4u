@@ -44,7 +44,8 @@
       "nashik",
       "dehradun",
       "raipur",
-      "kanpur"
+      "kanpur",
+      "agra"
     ],
     "certification": [
       "online"
@@ -9659,6 +9660,216 @@
         "Newer entrant in Kanpur's dense Kakadeo coaching cluster"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-agra",
+      "type": "coaching",
+      "name": "Allen Career Institute",
+      "city": "agra",
+      "locality": "Agra-Mathura Road",
+      "address": "43/499, Suraj Bhan Ki Bagichi, Opposite Cygnus Rainbow Hospital, Agra-Mathura Road (NH-2), Agra, Uttar Pradesh 282007",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Allen Career Institute's Agra branch, on Agra-Mathura Road (NH-2), extends the Kota-founded national chain's JEE and NEET-UG coaching into the city, running batches from Class 8 foundation through 12th-pass dropper programmes. Admission runs through Allen's own Sharp scholarship test, with fee waivers reported up to 90% for high scorers.",
+      "highlights": [
+        "Branch of Allen Career Institute, the national Kota-founded JEE/NEET chain",
+        "Offers NEET-UG batches from Class 8 foundation through 12th-pass dropper programmes",
+        "Admission via Allen Sharp scholarship test, with fee waivers reported up to 90%"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-agra",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "agra",
+      "locality": "Sikandra",
+      "address": "1st Floor, Anupam Centerio, Near Synergy Hospital, Sikandra, Agra, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Aakash Institute runs multiple Agra centres - Sikandra, Taj Nagri (Sector E3) and Nagla Padi - offering classroom NEET and JEE coaching under Aakash's standardised national curriculum, study material and test series, alongside foundation courses for Class 8-10 students.",
+      "highlights": [
+        "Multiple Agra branches: Sikandra, Taj Nagri Sector E3 and Nagla Padi",
+        "Standardised national curriculum and test series across all Aakash centres",
+        "Offers foundation courses (Class 8-10) alongside NEET/JEE batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-agra",
+      "type": "coaching",
+      "name": "Resonance",
+      "city": "agra",
+      "locality": "Kailash Vihar",
+      "address": "Kailash Vihar, Agra, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Resonance's Agra centre, part of the Kota-founded chain's national network, offers classroom coaching for JEE (Main and Advanced) and NEET-UG (Pre-Medical) alongside NTSE preparation for classes 6 to 10, run under Resonance's standard curriculum and test-series system.",
+      "highlights": [
+        "Branch of Resonance, the Kota-founded JEE/NEET/NTSE chain",
+        "Covers NEET-UG (Pre-Medical), JEE Main+Advanced and NTSE under one roof",
+        "Uses Resonance's national test-series and study-material system"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "physics-wallah-vidyapeeth-agra",
+      "type": "coaching",
+      "name": "Physics Wallah Vidyapeeth",
+      "city": "agra",
+      "locality": "Nirbhay Nagar",
+      "address": "C-5, Gailana Road, Nirbhay Nagar, Agra, Uttar Pradesh 282007",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Physics Wallah's Vidyapeeth centre in Nirbhay Nagar offers JEE and NEET batches from Class 8 foundation through dropper-year programmes, backed by PW's national study material and its PWSAT scholarship-admission test, which offers fee waivers of up to 90% for qualifying students.",
+      "highlights": [
+        "Part of the national Physics Wallah (PW) Vidyapeeth network",
+        "PWSAT scholarship test offers fee waivers of up to 90% for qualifying students",
+        "Offers hybrid batches combining classroom teaching with PW's digital test-and-doubt platform"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vidyamandir-classes-agra",
+      "type": "coaching",
+      "name": "Vidyamandir Classes (VMC)",
+      "city": "agra",
+      "locality": "Khandari",
+      "address": "27, Bypass Road, Dev Nagar, Khandari, Agra, Uttar Pradesh 282005",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Vidyamandir Classes' Agra centre, part of the Delhi-founded VMC network, runs JEE and NEET coaching plus foundation and pre-foundation batches for classes 9 and 10, keeping batch sizes to roughly 35-40 students for closer attention.",
+      "highlights": [
+        "Branch of Vidyamandir Classes (VMC), a Delhi-founded national JEE/NEET chain",
+        "Batch sizes kept to roughly 35-40 students",
+        "Runs foundation and pre-foundation batches for classes 9 and 10 alongside NEET/JEE"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "motion-academy-agra",
+      "type": "coaching",
+      "name": "Motion Academy",
+      "city": "agra",
+      "locality": "MG Road",
+      "address": "2/209A/7, M.G. Road, Near Dr. R.S. Gill, Opposite Anjana Cinema, Agra, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Motion Academy runs IIT-JEE, NEET and AIIMS-entrance coaching from two centres in Agra, on MG Road and in Taj Nagari/Rajpur, offering its own study material and batches from foundation level through dropper-year programmes.",
+      "highlights": [
+        "Two Agra centres: MG Road and Taj Nagari/Rajpur",
+        "Covers IIT-JEE, NEET and AIIMS-entrance preparation under one institute",
+        "Runs foundation-level batches alongside its main JEE/NEET programmes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "baluni-classes-agra",
+      "type": "coaching",
+      "name": "Baluni Classes",
+      "city": "agra",
+      "locality": "Sanjay Place",
+      "address": "41/4A, Friends Tower, Sanjay Place, Agra, Uttar Pradesh 282002",
+      "estd": 1999,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Baluni Classes, founded in 1999 by Dr. Navin Baluni of S.N. Medical College, Agra, is one of the city's longest-running NEET and IIT-JEE institutes, teaching from its Sanjay Place centre with a faculty team the institute describes as including IITians and doctors.",
+      "highlights": [
+        "Founded 1999 by Dr. Navin Baluni, S.N. Medical College, Agra",
+        "One of Agra's longest-running NEET/IIT-JEE institutes",
+        "Faculty includes IITians and doctors, per the institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gurukripa-career-institute-agra",
+      "type": "coaching",
+      "name": "Gurukripa Career Institute",
+      "city": "agra",
+      "locality": "Sikandra",
+      "address": "Plot No. 7, Sector-7, Awas Vikas Colony, Sikandra, Agra, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Gurukripa Career Institute's Agra branch, in Sikandra, is part of a 22-campus national network, offering classroom NEET and JEE coaching under the group's shared curriculum and testing structure.",
+      "highlights": [
+        "Branch of the 22-campus Gurukripa network",
+        "Located in Sikandra, offering NEET and JEE classroom coaching",
+        "Shares curriculum and test series across the wider Gurukripa group"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aarvee-academy-agra",
+      "type": "coaching",
+      "name": "Aarvee Academy",
+      "city": "agra",
+      "locality": "Khandari",
+      "address": "21A, Dev Nagar, Khandari, Agra, Uttar Pradesh 282005",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Aarvee Academy is a locally founded Khandari institute for NEET and IIT-JEE (Main and Advanced) preparation, led by Dr. Vaibhav Sharma and Raghvendra Sinha, keeping batches to around 30 students with a five-teacher faculty team the institute says averages 20 years of experience.",
+      "highlights": [
+        "Small batch size of around 30 students per section",
+        "Five-teacher faculty team averaging 20 years of experience, per the institute",
+        "Led by Dr. Vaibhav Sharma and Raghvendra Sinha"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-point-agra",
+      "type": "coaching",
+      "name": "Career Point Agra",
+      "city": "agra",
+      "locality": "Sikandra",
+      "address": "First Floor, Om Complex, Shastri Puram Road, Paschim Puri, Suruchipuram Colony, Sikandra, Agra, Uttar Pradesh",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Career Point Agra is a Sikandra-based institute for NEET and JEE preparation, built around NCERT-focused concept teaching, daily practice problems and dedicated doubt-clearing sessions, with faculty including a Chemistry teacher the institute credits with an All India Rank 1 in NET.",
+      "highlights": [
+        "NCERT-focused concept building with daily practice problems (DPPs)",
+        "Dedicated doubt-clearing sessions alongside regular testing",
+        "Chemistry faculty credited with NET AIR-1 and 20+ years' teaching experience, per the institute"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -9785,6 +9996,9 @@
     },
     "coaching-kanpur": {
       "intro": "<p>Kanpur - Uttar Pradesh's largest industrial city and home to IIT Kanpur since 1959 - has a JEE-coaching market shaped by that IIT presence, even though IIT Kanpur itself does not coach outside students (its free SATHEE platform is a separate, national online initiative). Coaching activity clusters overwhelmingly in Kakadeo, with a further pocket in Civil Lines and a smaller one in Kidwai Nagar. The market mixes national chains with a dense field of Kanpur-founded institutes, including some built around a single subject specialism such as Physics or Chemistry. Every listing below shows its verification status.</p>"
+    },
+    "coaching-agra": {
+      "intro": "<p>Agra draws a large NEET aspirant base each year, both from the city itself and the wider Braj region of western Uttar Pradesh, anchored partly by S.N. Medical College, one of Uttar Pradesh's older government medical colleges. Coaching activity concentrates in two main pockets, Sikandra and Khandari, with further centres spread across Agra-Mathura Road, Kailash Vihar, Nirbhay Nagar, MG Road and Sanjay Place. The market mixes national chains with institutes founded and run locally for two decades or more. Every listing below shows its verification status.</p>"
     }
   }
 }
