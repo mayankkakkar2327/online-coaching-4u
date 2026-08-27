@@ -45,7 +45,8 @@
       "dehradun",
       "raipur",
       "kanpur",
-      "agra"
+      "agra",
+      "rajkot"
     ],
     "certification": [
       "online"
@@ -9870,6 +9871,206 @@
         "Chemistry faculty credited with NET AIR-1 and 20+ years' teaching experience, per the institute"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-rajkot",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "rajkot",
+      "locality": "University Road",
+      "address": "1st Floor, Manan Plaza, University Road, Behind Nakalang Tea Stall, Near Bhagatsinhji Garden, Rajkot, Gujarat 360005",
+      "estd": 2015,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Career Launcher Rajkot has run CAT, CLAT, IPMAT and CMAT coaching from its University Road centre since 2015, led by director Javed Malek, a verbal-ability faculty member with over 16 years of experience. The centre offers personalised mentoring, national-level mock tests and a Student Information System dashboard for practice and doubt resolution.",
+      "highlights": [
+        "Branch of the national Career Launcher network (225+ centres across 175+ cities)",
+        "Led by director Javed Malek, verbal faculty with 16+ years of experience",
+        "National-level mock tests with topic-wise, section-wise performance analysis"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-rajkot",
+      "type": "coaching",
+      "name": "IMS (IMS Learning Resources)",
+      "city": "rajkot",
+      "locality": "Sadhu Vaswani Road",
+      "address": "Jayavardhini Commercial, 3rd Floor, Sadhu Vaswani Road, Opposite Shilpan Tower, Rajkot, Gujarat 360005",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "IMS's Rajkot centre, on Sadhu Vaswani Road, extends a national management-entrance coaching network with over 42 years of history. The centre is led by Chief Mentor Rakesh Nathwani and covers CAT alongside GMAT, CMAT, XAT, NMAT, GRE and IELTS, backed by IMS's standardised test series and study material.",
+      "highlights": [
+        "Part of IMS Learning Resources, a 42+ year national test-prep network",
+        "Led by Chief Mentor Rakesh Nathwani, 25 years in business/operations background",
+        "Coaches CAT alongside CMAT, XAT, NMAT, GMAT, GRE and IELTS under one roof"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "endeavor-careers-rajkot",
+      "type": "coaching",
+      "name": "Endeavor Careers",
+      "city": "rajkot",
+      "locality": "Kalawad Road",
+      "address": "3rd Floor, Kings Building, Opposite Punjab Honda, Near G.T. Sheth School, Kalawad Road, Rajkot, Gujarat 360001",
+      "estd": 2009,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Endeavor Careers' Rajkot branch, on Kalawad Road, has run since 2009 and has grown into one of the region's larger entrance-test hubs, coaching CAT, CMAT, CLAT, GRE and other management and law-entrance exams from a single Kalawad Road centre.",
+      "highlights": [
+        "Operating in Rajkot since 2009",
+        "Coaches CAT, CMAT, CLAT and GRE from one Kalawad Road centre",
+        "Part of the wider Endeavor Careers network with centres across India"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-rajkot",
+      "type": "coaching",
+      "name": "T.I.M.E. (Triumphant Institute of Management Education)",
+      "city": "rajkot",
+      "locality": "Sardarnagar",
+      "address": "2nd & 3rd Floor, Old Landmark, Above Dr. Janak Mehta's Hospital, Sardar Nagar Main Road, Rajkot, Gujarat 360001",
+      "estd": 1992,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "T.I.M.E., a national chain set up in 1992, runs its Rajkot centre near Sardarnagar Main Road, offering classroom CAT coaching alongside CLAT, SSC, banking and other competitive-exam batches, backed by the chain's standardised national test series.",
+      "highlights": [
+        "Part of T.I.M.E., a national test-prep chain founded in 1992",
+        "Classroom CAT coaching backed by a standardised national test series",
+        "Also coaches CLAT, SSC and banking-exam batches from the same centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pt-education-rajkot",
+      "type": "coaching",
+      "name": "PT Education",
+      "city": "rajkot",
+      "locality": "University Road",
+      "address": "\"GuruKrupa\", Beside Ashwamegh Apartment, Near Modern Fast Food, University Road, Rajkot, Gujarat 360005",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "PT Education's Rajkot centre on University Road offers CAT and CMAT coaching with printed notes, structured test series and dedicated doubt-clearing sessions, serving students in the University Road coaching cluster.",
+      "highlights": [
+        "Located in Rajkot's University Road coaching cluster",
+        "Offers printed notes, structured test series and doubt-clearing sessions",
+        "Coaches CAT alongside CMAT"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "focus-edu-care-rajkot",
+      "type": "coaching",
+      "name": "Focus Edu Care",
+      "city": "rajkot",
+      "locality": "Hanuman Madhi Chowk",
+      "address": "2nd Floor, Dr. Sandip Pala Hospital, Nirmala Road, Hanuman Madhi Chowk, Rajkot, Gujarat 360005",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Focus Edu Care runs a CAT-coaching centre near Hanuman Madhi Chowk, offering printed study material, test series and doubt-clearing sessions as part of its MBA-entrance preparation offering.",
+      "highlights": [
+        "CAT-focused coaching near Hanuman Madhi Chowk",
+        "Printed study material, test series and doubt-clearing sessions",
+        "Part of Rajkot's MBA-entrance coaching cluster outside University Road"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ekoching-rajkot",
+      "type": "coaching",
+      "name": "Ekoching",
+      "city": "rajkot",
+      "locality": "Jyotinagar",
+      "address": "Crystal Mall, Jyotinagar Main Road, Rajkot, Gujarat",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Ekoching, headquartered in Ahmedabad, runs a Rajkot centre in Jyotinagar (Crystal Mall) offering offline and online CAT, CMAT, CLAT and IPMAT coaching, with small batch sizes, an in-house study-material team and a dedicated student app for sectional tests and recorded lectures.",
+      "highlights": [
+        "Rajkot branch of the Ahmedabad-headquartered Ekoching network",
+        "Small batch sizes (reported max ~20 students) for personalised attention",
+        "Offers both offline classroom and online hybrid formats via its own app"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "empower-rajkot",
+      "type": "coaching",
+      "name": "Empower",
+      "city": "rajkot",
+      "locality": "University Road",
+      "address": "2nd Floor, \"Vinayak\" Complex, Sadhu Vaswani School Road, Off University Road, Rajkot, Gujarat 360005",
+      "estd": 1999,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Empower, founded in 1999 by Mayank Batavia, was the first coaching centre in the Saurashtra region built exclusively for CAT and MBA/MCA entrance exams, and continues to run from its University Road-area centre with 100+ hours of classroom training and structured mock-test series.",
+      "highlights": [
+        "Founded 1999 by Mayank Batavia - first dedicated CAT/MBA institute in Saurashtra",
+        "100+ hours of classroom training with structured mock-test series",
+        "Longest continuously-running CAT-focused institute in Rajkot"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vision-institute-of-professional-studies-rajkot",
+      "type": "coaching",
+      "name": "Vision Institute of Professional Studies (VIPS)",
+      "city": "rajkot",
+      "locality": "University Road",
+      "address": "2nd Floor, Near HP Petroleum Pump, University Road, Rajkot, Gujarat 360005",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Vision Institute of Professional Studies, on University Road, was founded by Vyomesh Parsana and Jasmin Mehta with the specific aim of giving Saurashtra-region students access to MBA-entrance training locally. Alongside CAT and other MBA-entrance exams, it also coaches for MCA, UPSC, banking, NDA/CDS and GRE/GMAT/IELTS.",
+      "highlights": [
+        "Founded by Vyomesh Parsana and Jasmin Mehta specifically for Saurashtra MBA aspirants",
+        "Coaches CAT/MBA alongside UPSC, banking, NDA/CDS and study-abroad tests (GRE/GMAT/IELTS)",
+        "Intensive classroom training with structured, formal teaching modules"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "jj-tutorials-rajkot",
+      "type": "coaching",
+      "name": "J.J. Tutorials",
+      "city": "rajkot",
+      "locality": "Sardarnagar",
+      "address": "312, Unique 4, Astron Chowk, Sardarnagar Main Road, Rajkot, Gujarat 360001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "J.J. Tutorials, based in Sardarnagar, coaches CAT alongside CMAT, XAT, SNAP, MAT and banking-exam batches (SBI PO, IBPS), and is particularly well known locally for its CMAT coaching. It's a single-centre institute with printed notes and test series among its core offerings.",
+      "highlights": [
+        "Coaches CAT alongside CMAT, XAT, SNAP, MAT and banking-exam batches",
+        "Locally noted for strong CMAT-specific coaching in Rajkot",
+        "Single-centre institute (Sardarnagar) rather than a national franchise"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -9999,6 +10200,9 @@
     },
     "coaching-agra": {
       "intro": "<p>Agra draws a large NEET aspirant base each year, both from the city itself and the wider Braj region of western Uttar Pradesh, anchored partly by S.N. Medical College, one of Uttar Pradesh's older government medical colleges. Coaching activity concentrates in two main pockets, Sikandra and Khandari, with further centres spread across Agra-Mathura Road, Kailash Vihar, Nirbhay Nagar, MG Road and Sanjay Place. The market mixes national chains with institutes founded and run locally for two decades or more. Every listing below shows its verification status.</p>"
+    },
+    "coaching-rajkot": {
+      "intro": "<p>Rajkot - Saurashtra's largest commercial hub and home to Saurashtra University and Marwadi University - has a CAT-coaching market anchored by University Road, the city's main coaching corridor. National chains sit alongside institutes founded and run locally, led by Empower, which opened in 1999 as the first coaching centre in the wider Saurashtra region built exclusively for CAT and MBA/MCA entrance exams. Every listing below shows its verification status.</p>"
     }
   }
 }
