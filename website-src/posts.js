@@ -1,6 +1,132 @@
 /* Original content for Online Coaching 4u.
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
+{
+slug: "mba-entrance-exams-status-check-27aug-update",
+title: "MBA Entrance Exams: No Fresh Notification Today, Here's Exactly What's Live (27 August 2026)",
+category: "MBA",
+date: "27 Aug 2026",
+minutes: 5,
+cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+excerpt: "No single MBA-entrance exam released a new notification on 27 August 2026 - CAT, XAT and SNAP registrations already opened earlier this month and remain open, while CMAT, MICAT and IIFT notifications are still pending. Here is exactly what's live right now, sourced from each exam's own official site.",
+image: "assets/blog/mba-entrance-exams-status-check-27aug-update.png",
+imageAlt: "MBA entrance exams status check 27 August 2026 graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 27 August 2026.</strong></p>
+<p>No major Indian MBA-entrance exam issued a fresh notification on 27 August 2026. Rather than force a story where there isn't one, here is a straight status check on every live MBA-entrance registration window right now, checked directly against each exam's own official site, plus what's still pending for later this year.</p>
+
+<h2>What's actually live today</h2>
+<p><strong>CAT 2026</strong> (conducted by IIM Indore): registration opened 3 August 2026 and stays open until 15 September 2026, 5:00 PM, at <a href="https://iimcat.ac.in/" rel="noopener" target="_blank">iimcat.ac.in</a>. The exam is set for Sunday, 29 November 2026, across roughly 170 test cities in three sessions. Application fee is Rs 2,700 for general candidates and Rs 1,350 for SC/ST/PwD candidates.</p>
+<p><strong>XAT 2027</strong> (XLRI Jamshedpur): registration has been open since 15 July 2026 and closes 6 December 2026, at <a href="https://xatonline.in/" rel="noopener" target="_blank">xatonline.in</a>. The exam is 3 January 2027. XLRI's site is currently running a free mock test on 30 August 2026, open only to candidates who complete their application by 27 August - today - so anyone mid-registration should finish before end of day to qualify.</p>
+<p><strong>SNAP 2026</strong> (Symbiosis International): registration opened 21 August 2026 and closes 25 November 2026, at <a href="https://www.snaptest.org/" rel="noopener" target="_blank">snaptest.org</a>. The test runs across three sessions - 13, 19 and 26 December 2026 - with a candidate's best score counting.</p>
+<p><strong>NMAT 2026</strong> (GMAC): registration and slot booking have been live since 20 August 2026 at <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">mba.com</a>, with registration closing 10 October and slot booking open until 22 October. The test-delivery window runs 2 November to 20 December 2026.</p>
+
+<h2>What's still pending</h2>
+<p><strong>CMAT 2027</strong> (NTA): no notification yet. Based on NTA's past cycles, it's expected around October-November 2026, at <a href="https://cmat.nta.nic.in/" rel="noopener" target="_blank">cmat.nta.nic.in</a>.</p>
+<p><strong>MICAT 2027</strong> (MICA): no notification yet. MICA's own past-cycle pattern points to a September 2026 release, at <a href="https://www.mica.ac.in/" rel="noopener" target="_blank">mica.ac.in</a>.</p>
+<p><strong>IIFT 2027</strong> (NTA, for IIFT Delhi/Kolkata): admission for the 2027-29 batch runs through the CAT 2026 score rather than a separate IIFT test this cycle, so candidates targeting IIFT should register for CAT 2026 directly rather than wait on a standalone IIFT notification.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Checked:</strong> 27 August 2026</p>
+<p><strong>Open now:</strong> CAT 2026 (closes 15 Sep), XAT 2027 (closes 6 Dec), SNAP 2026 (closes 25 Nov), NMAT 2026 (closes 10 Oct)</p>
+<p><strong>Not yet released:</strong> CMAT 2027, MICAT 2027</p>
+<p><strong>Today's specific deadline:</strong> Complete XAT 2027 registration by 27 Aug to qualify for the 30 Aug free mock test</p>
+<p><strong>Sources:</strong> iimcat.ac.in, xatonline.in, snaptest.org, mba.com</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[3 Aug – 15 Sep 2026]</strong> CAT 2026 registration window, per IIM Indore's official notification on iimcat.ac.in.</li>
+<li><strong>[27 Aug 2026]</strong> Last day to complete XAT 2027 registration in order to sit XLRI's free mock test on 30 August.</li>
+<li><strong>[25 Nov 2026]</strong> SNAP 2026 registration and payment closes, per snaptest.org's official Important Dates page.</li>
+<li><strong>[10 Oct 2026]</strong> NMAT 2026 registration closes; slot booking stays open four days longer, until 22 October.</li>
+<li><strong>Myth check:</strong> IIFT no longer runs its own separate entrance test for the 2027-29 MBA(IB) batch - admission is routed through the CAT 2026 score, so there is no standalone IIFT notification to wait for this cycle.</li>
+</ul>
+
+<p><em>Sources: <a href="https://iimcat.ac.in/" rel="noopener" target="_blank">CAT 2026 official site</a> (iimcat.ac.in); <a href="https://xatonline.in/" rel="noopener" target="_blank">XAT 2027 official site</a> (xatonline.in); <a href="https://www.snaptest.org/" rel="noopener" target="_blank">SNAP 2026 official site</a> (snaptest.org); <a href="https://www.mba.com/exams/nmat" rel="noopener" target="_blank">NMAT 2026 official page</a> (mba.com).</em></p>
+<p><strong>Last updated: 27 August 2026.</strong></p>
+`
+},
+
+{
+slug: "top-10-cat-coaching-institutes-rajkot-2026",
+title: "Top 10 CAT Coaching Institutes in Rajkot (2026)",
+category: "CAT / MBA",
+date: "27 Aug 2026",
+minutes: 10,
+cta: { href: "coaching-rajkot.html", text: "Browse all verified coaching institutes in Rajkot" },
+excerpt: "Rajkot's CAT-coaching market clusters mainly along University Road, mixing national chains with institutes built and run locally in Saurashtra for two decades or more. Here's a fact-checked look at ten institutes actually training CAT and MBA-entrance aspirants in the city.",
+image: "assets/blog/top-10-cat-coaching-institutes-rajkot-2026.png",
+imageAlt: "Top 10 CAT coaching institutes in Rajkot 2026 graphic",
+faqs: [
+{
+"q": "Which is the best CAT coaching institute in Rajkot?",
+"a": "There's no single 'best' - Empower has the longest continuous local track record (founded 1999, the first dedicated CAT/MBA institute in Saurashtra), while Career Launcher, IMS, TIME and Endeavor Careers bring national-chain infrastructure, standardised material and large test series. Vision Institute of Professional Studies and J.J. Tutorials suit students who want CAT prep alongside a wider spread of competitive exams. The right choice depends on whether you want a national chain's systems or a locally founded institute's closer attention."
+},
+{
+"q": "Where in Rajkot are most CAT coaching institutes located?",
+"a": "University Road is Rajkot's main coaching cluster, home to Career Launcher, PT Education, Empower and Vision Institute of Professional Studies. Endeavor Careers and Focus Edu Care operate from Kalawad Road-area localities, IMS and TIME are based near Sadhu Vaswani Road and Sardarnagar respectively, Ekoching runs from Jyotinagar, and J.J. Tutorials is in Sardarnagar."
+},
+{
+"q": "Do these institutes prepare for exams other than CAT?",
+"a": "Yes - most cover the full MBA-entrance spread. IMS, TIME, Endeavor Careers, Career Launcher and J.J. Tutorials all coach CMAT and XAT alongside CAT, and several also prepare students for CLAT, IPMAT and GRE/GMAT. J.J. Tutorials additionally runs banking and government-exam batches, so confirm a given institute's CAT-specific batch size and faculty directly before enrolling."
+},
+{
+"q": "Is Rajkot a good base for CAT preparation compared to a bigger city?",
+"a": "Rajkot's coaching market is smaller than Ahmedabad's or Surat's, but it has a genuine two-decade history: Empower opened in 1999 specifically to give Saurashtra region students CAT/MBA coaching without having to relocate. Combined with national chains that have since opened branches, Rajkot aspirants can now access the same test series and study material as bigger-city students without leaving the region."
+}
+],
+html: `
+<p>Rajkot - Saurashtra's largest commercial hub and home to Saurashtra University and Marwadi University - has built a genuine CAT-coaching market over the past two decades, anchored by University Road as the city's main coaching corridor. The market mixes long-running national chains with institutes founded and run locally, led by Empower, which opened in 1999 as the first coaching centre in the wider Saurashtra region built exclusively around CAT and MBA/MCA entrance exams. Below is a fact-checked look at ten institutes actually training CAT and MBA-entrance aspirants in the city, each checked against at least one official or independently verifiable source.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Rajkot, Gujarat</p>
+<p><strong>Main exam covered:</strong> CAT, alongside CMAT, XAT, SNAP and NMAT at most institutes</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked as of 27 Aug 2026</p>
+<p><strong>Main coaching hub:</strong> University Road, with further centres on Kalawad Road, Sadhu Vaswani Road, Sardarnagar and Jyotinagar</p>
+<p><strong>Mix:</strong> 4 national chains (Career Launcher, IMS, TIME, Endeavor Careers) and 6 Rajkot-founded institutes (Empower, PT Education, Focus Edu Care, Ekoching, Vision Institute of Professional Studies, J.J. Tutorials)</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable CAT-coaching presence in Rajkot: a real local address, confirmation across more than one independent source (institute or chain websites, plus education directories such as Hitbullseye and Chunocollege), and an actual CAT or MBA-entrance batch on offer rather than a passing mention. A couple of names that surface in generic "best coaching" round-ups for Rajkot, including one institute that is primarily an IAS/UPSC academy and another that is primarily an English-speaking class, were left off this list because CAT coaching is not genuinely their focus - we'd rather list nine solidly-verified institutes than pad to ten with a weak fit, but in Rajkot's case ten institutes did clear that bar.</p>
+
+<h3>1. Career Launcher</h3>
+<p>Career Launcher Rajkot has run CAT, CLAT, IPMAT and CMAT coaching from its University Road centre since 2015, led by director Javed Malek, a verbal-ability faculty member with over 16 years of experience. The centre offers personalised mentoring, national-level mock tests with topic-wise analysis, and a Student Information System dashboard for practice and doubt resolution, as part of Career Launcher's 225+-centre national network.</p>
+
+<h3>2. IMS (IMS Learning Resources)</h3>
+<p>IMS's Rajkot centre, on Sadhu Vaswani Road, extends a national management-entrance coaching network the company says has more than 42 years of history. The centre is led by Chief Mentor Rakesh Nathwani and covers CAT alongside GMAT, CMAT, XAT, NMAT, GRE and IELTS, backed by IMS's standardised test series and study material.</p>
+
+<h3>3. Endeavor Careers</h3>
+<p>Endeavor Careers' Rajkot branch, on Kalawad Road, has run since 2009 and has grown into one of the region's larger entrance-test hubs, coaching CAT, CMAT, CLAT, GRE and other management and law-entrance exams from a single Kalawad Road centre.</p>
+
+<h3>4. T.I.M.E. (Triumphant Institute of Management Education)</h3>
+<p>T.I.M.E., a national chain set up in 1992, runs its Rajkot centre near Sardarnagar Main Road, offering classroom CAT coaching alongside CLAT, SSC, banking and other competitive-exam batches, backed by the chain's standardised national test series.</p>
+
+<h3>5. PT Education</h3>
+<p>PT Education's Rajkot centre on University Road offers CAT and CMAT coaching with printed notes, structured test series and dedicated doubt-clearing sessions, serving students in the University Road coaching cluster alongside Career Launcher and Empower.</p>
+
+<h3>6. Focus Edu Care</h3>
+<p>Focus Edu Care runs a CAT-coaching centre near Hanuman Madhi Chowk, offering printed study material, test series and doubt-clearing sessions as part of its MBA-entrance preparation offering.</p>
+
+<h3>7. Ekoching</h3>
+<p>Ekoching, headquartered in Ahmedabad, runs a Rajkot centre in Jyotinagar (Crystal Mall) offering offline and online CAT, CMAT, CLAT and IPMAT coaching, with small batch sizes, an in-house study-material team and a dedicated student app for sectional tests and recorded lectures.</p>
+
+<h3>8. Empower</h3>
+<p>Empower, founded in 1999 by Mayank Batavia, was the first coaching centre in the Saurashtra region built exclusively for CAT and MBA/MCA entrance exams, and continues to run from its University Road-area centre with 100+ hours of classroom training and structured mock-test series.</p>
+
+<h3>9. Vision Institute of Professional Studies (VIPS)</h3>
+<p>Vision Institute of Professional Studies, on University Road, was founded by Vyomesh Parsana and Jasmin Mehta with the specific aim of giving Saurashtra-region students access to MBA-entrance training locally. Alongside CAT and other MBA-entrance exams, it also coaches for MCA, UPSC, banking, NDA/CDS and GRE/GMAT/IELTS for students planning to study abroad.</p>
+
+<h3>10. J.J. Tutorials</h3>
+<p>J.J. Tutorials, based in Sardarnagar, coaches CAT alongside CMAT, XAT, SNAP, MAT and banking-exam batches (SBI PO, IBPS), and is particularly well known locally for its CMAT coaching. It's a single-centre institute rather than part of a national chain, with printed notes and test series among its core offerings.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Career Launcher, IMS, TIME and Endeavor Careers bring national-chain resources, standardised study material and large test series built over decades; Empower and Vision Institute of Professional Studies offer the longest continuous Rajkot/Saurashtra track records, both built specifically for the region's MBA aspirants; and PT Education, Focus Edu Care, Ekoching and J.J. Tutorials round out the market with locally run alternatives across different parts of the city. Treat every fee, founding-year and batch-size claim here as a starting point, not a fixed quote, and confirm current details directly with the institute before enrolling.</p>
+
+<p>Compare full details and additional Rajkot institutes on our <a href="coaching-rajkot.html">Rajkot coaching page</a>.</p>
+`
+},
   {
 slug: "neet-ug-2026-round1-final-result-reporting-deadline-31aug-update",
 title: "NEET UG 2026: MCC Declares Round 1 Final Result, Reporting Deadline Set for 31 August",
