@@ -519,7 +519,7 @@ ${x.priceRange ? `<div class="fact"><span>Room plans</span><b>${x.priceRange}</b
 <h2>About ${esc(x.name)}</h2>
 <p class="dropcap">${describe(x)}</p>
 ${highlights ? `<h2>Highlights</h2><ul class="hl-list">${highlights}</ul>` : ""}
-${x.ecosystem ? `<h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list eco-list">${x.ecosystem.map(p => `<li><div><a href="${p.url}" rel="noopener"><strong>${esc(p.name)}</strong></a> — ${esc(p.desc)}</div></li>`).join("")}</ul>` : ""}
+${x.ecosystem ? `<h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list eco-list">${x.ecosystem.map(p => `<li><div><a href="${p.url}" rel="noopener"><strong>${esc(p.name)}</strong></a> — ${esc(p.desc)}${p.guideSlug ? ` <a href="${p.guideSlug}.html">Read our full guide →</a>` : ""}</div></li>`).join("")}</ul>` : ""}
 <h2>Fees &amp; batches</h2>
 <p>We don't publish fee tables unless the institute has confirmed them — outdated fee data misleads more than it helps. Use the enquiry card and you'll get current fees, batch timings and any scholarship tests directly.</p>
 <div class="callout">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee — material and test series included — in writing.</div>

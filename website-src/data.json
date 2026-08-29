@@ -1500,7 +1500,8 @@
         {
           "name": "Rodha Buddy",
           "url": "https://buddy.rodha.co.in/",
-          "desc": "Rodha's community app — quick doubt-solving, peer groups and daily accountability, integrated with every course."
+          "desc": "Rodha's community app — quick doubt-solving, peer groups and daily accountability, integrated with every course.",
+          "guideSlug": "rodha-buddy-app"
         }
       ],
       "googleRating": 4.2,

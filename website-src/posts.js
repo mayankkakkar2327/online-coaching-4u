@@ -2,6 +2,130 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+    slug: "rodha-buddy-app",
+    title: "Rodha Buddy App: Features, Eligibility and Doubt Solving",
+    category: "CAT / MBA",
+    date: "29 Aug 2026",
+    minutes: 6,
+    cta: { href: "institute-rodha.html", text: "See Rodha's full profile and course options" },
+    excerpt: "Learn how the Rodha Buddy App works, who can use it, supported exams, response timelines, mentor support, access options and key features.",
+    faqs: [
+      { q: "What is the Rodha Buddy App?", a: "Rodha Buddy is a web and mobile academic doubt-resolution platform for Rodha students enrolled in eligible courses. Students submit questions using text or images and receive support from faculty, subject mentors or teaching assistants." },
+      { q: "Is Rodha Buddy free?", a: "Buddy is included with eligible Rodha courses. It is not presented as a separately paid public subscription." },
+      { q: "Can anyone download and use Rodha Buddy?", a: "The applications can be downloaded publicly, but academic access is intended for Rodha students whose eligible course includes Buddy." },
+      { q: "Which exams are supported?", a: "Buddy currently supports CAT, XAT, other management entrance tests and IPMAT." },
+      { q: "Can CAT students ask questions from all three sections?", a: "Yes. CAT support covers Quantitative Aptitude, LRDI and VARC." },
+      { q: "Can doubts be submitted 24/7?", a: "Yes. Students can submit doubts at any time. This does not mean an individual mentor is online continuously." },
+      { q: "How quickly does Rodha Buddy respond?", a: "Rodha reports an average response time of less than 10 hours and aims to resolve doubts within 24 hours." },
+      { q: "What is counted as a resolved doubt?", a: "A doubt is resolved when the student marks it solved. It may also be closed if the student does not reply within 48 hours after the mentor's last response." },
+      { q: "Can students reopen a resolved doubt?", a: "Yes. Reopened doubts return to the mentor-allocation workflow under the rules active at that time." },
+      { q: "Can students ask follow-up questions?", a: "Yes. Follow-up questions are allowed within the discussion workflow." },
+      { q: "Can students upload audio, video or PDF files?", a: "The currently verified submission formats are text and images." },
+      { q: "Is there a daily doubt limit?", a: "No fixed submission limit applies, but students must agree to fair-use conditions on each unique login." },
+      { q: "Does Buddy support Hinglish?", a: "The platform is currently English-first, but students may ask doubts in Hinglish." },
+      { q: "Where can students access Buddy?", a: "Buddy is available on the web, Android, and iPhone/iPad." }
+    ],
+    html: `
+<p>Competitive-exam preparation rarely moves in a straight line. A student may understand a concept during class but get stuck while applying it to a new question later that night. If the doubt remains unresolved, the problem is not limited to one question: it can interrupt practice, create a backlog and weaken confidence in the underlying topic.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick answer</p>
+<p>Rodha Buddy is a doubt-solving platform for <a href="institute-rodha.html">Rodha</a> students enrolled in eligible courses. It currently supports CAT, XAT and other management entrance tests, and IPMAT. Doubts can be submitted 24/7, and Rodha aims to resolve them within 24 hours.</p>
+</div>
+
+<h2>What is the Rodha Buddy App?</h2>
+<p>The <a href="https://buddy.rodha.co.in/" rel="noopener" target="_blank">Rodha Buddy App</a> is Rodha's dedicated academic doubt-resolution platform for students enrolled in eligible Rodha courses. It brings doubt submission, mentor allocation, follow-up discussion and resolution tracking into one system that can be accessed on the web, Android devices and iPhone or iPad.</p>
+<p>Students can submit questions at any time using text or images. The platform routes the question to a combination of Rodha faculty members, dedicated subject mentors and teaching assistants, depending on the subject and the allocation rules in effect. Students can then continue the discussion, ask follow-up questions and reopen a doubt if they need further clarification.</p>
+
+<h2>Rodha Buddy at a glance</h2>
+<table>
+<thead><tr><th>Area</th><th>Verified detail</th></tr></thead>
+<tbody>
+<tr><td>Eligibility</td><td>Rodha students enrolled in eligible courses</td></tr>
+<tr><td>Cost</td><td>Included with eligible courses; not separately priced</td></tr>
+<tr><td>Current exam coverage</td><td>CAT, XAT, other management entrance tests (OMETs) and IPMAT</td></tr>
+<tr><td>Submission formats</td><td>Text and images</td></tr>
+<tr><td>Availability</td><td>Web, Android and iPhone/iPad</td></tr>
+<tr><td>Submission window</td><td>Doubts may be submitted 24 hours a day, seven days a week</td></tr>
+<tr><td>Resolution commitment</td><td>Resolution within 24 hours</td></tr>
+<tr><td>Mentor network</td><td>14+ mentors</td></tr>
+<tr><td>Registered users</td><td>9,000+</td></tr>
+<tr><td>Doubts resolved</td><td>2,000+</td></tr>
+<tr><td>Languages</td><td>English interface/support; students may ask questions in Hinglish</td></tr>
+</tbody>
+</table>
+
+<h3>Who can use Rodha Buddy?</h3>
+<p>Rodha Buddy is intended for Rodha students. Access is included with eligible paid courses rather than sold as a separate doubt-solving subscription. Because eligibility depends on the student's enrollment, learners should check the relevant course description or confirm access through Rodha's official support channels before purchasing.</p>
+<p>Students comparing available programs can review the current options on the <a href="https://www.rodha.co.in/" rel="noopener" target="_blank">official Rodha website</a>. Once Buddy access is enabled, students can use the same support system across the subjects covered by their respective examination.</p>
+
+<h3>Which exams and subjects does Rodha Buddy support?</h3>
+<p>The platform currently supports CAT, XAT, other management entrance tests and IPMAT preparation. Subject coverage follows the structure of the relevant exam. For CAT, this includes Quantitative Aptitude (QA), Logical Reasoning and Data Interpretation (LRDI), and Verbal Ability and Reading Comprehension (VARC). Comparable subject-level support is available for the other examinations currently covered by the platform.</p>
+<p>This exam-based subject routing matters because the best person to resolve a Quant question may not be the right person for an RC inference doubt. Buddy is designed to allocate questions according to subject expertise rather than placing every query in one undifferentiated support queue.</p>
+
+<h3>How Rodha Buddy works</h3>
+<ol>
+<li>Sign in using the supported email OTP and password process.</li>
+<li>Select the relevant exam and subject for the doubt.</li>
+<li>Type the question or upload an image that clearly shows the problem.</li>
+<li>Submit the doubt at any time; submissions are accepted 24/7.</li>
+<li>The platform allocates the query to a suitable faculty member, mentor or teaching assistant.</li>
+<li>Review the response and ask follow-up questions if any step remains unclear.</li>
+<li>Mark the doubt as solved when the explanation resolves the issue, or reopen it later if further clarification is required.</li>
+</ol>
+
+<h3>What does "resolution within 24 hours" mean?</h3>
+<p>Rodha defines a response as the first reply provided to a submitted doubt. Resolution is a separate status. A doubt is marked as solved when the student confirms that it has been resolved. It may also be closed when the student does not respond within 48 hours of the mentor's last reply.</p>
+<p>Rodha reports a 100% doubt-resolution rate under this operating definition and commits to resolving doubts within 24 hours mostly. Its verified average response time is less than 10 hours. Students should therefore distinguish among three different ideas: the ability to submit a doubt at any time, the time to receive the first response and the time taken to complete the resolution cycle.</p>
+
+<h3>Can students ask follow-up questions?</h3>
+<p>Yes. Buddy is designed as a discussion workflow rather than a single-answer inbox. Students can ask follow-up questions when an explanation is incomplete or when they need help understanding a particular step. They can also reopen a resolved doubt.</p>
+<p>When a doubt is reopened, it is allocated according to the platform's current assignment rules. This means the query returns to the mentor workflow, although it may not necessarily go back to the same person who handled the earlier exchange.</p>
+
+<h3>Can students search previously asked doubts?</h3>
+<p>Buddy includes a global search option. Students can use this feature to find relevant questions that have already entered the shared searchable system. Outside the global search experience, the platform does not operate as an unrestricted feed for browsing every other student's doubts.</p>
+<p>For learners, search can reduce repetition and shorten the path to an explanation when a similar question has already been discussed. It can also turn individual doubt resolution into a reusable learning resource.</p>
+
+<h3>Are there limits on the number of doubts?</h3>
+<p>There is no fixed submission limit. However, students must accept the platform's fair-use conditions on each unique login. The absence of a numeric cap should therefore be understood as reasonable academic use, not permission to submit abusive, duplicate or unrelated requests.</p>
+
+<h3>Who answers doubts on Rodha Buddy?</h3>
+<p>Doubts are resolved by a combination of Rodha faculty, dedicated subject mentors and teaching assistants. The network currently includes more than 14 mentors. This blended model allows routine questions to move through a structured support workflow while still drawing on subject expertise.</p>
+
+<h3>Where is Rodha Buddy available?</h3>
+<p>Rodha Buddy is available across the web and major mobile platforms:</p>
+<ul>
+<li>Use <a href="https://buddy.rodha.co.in/" rel="noopener" target="_blank">Rodha Buddy on the web</a> through a compatible browser.</li>
+<li>Download Rodha Buddy for Android from <a href="https://play.google.com/store/apps/details?id=com.rodha.rodhabuddy" rel="noopener" target="_blank">Google Play</a>.</li>
+<li>Download Rodha Buddy for iPhone or iPad from the <a href="https://apps.apple.com/in/app/rodha-buddy/id6764226160" rel="noopener" target="_blank">Apple App Store</a>.</li>
+</ul>
+
+<h3>Language support</h3>
+<p>The platform currently operates in English. Students may nevertheless submit doubts in Hinglish, giving learners some flexibility when a mixed Hindi-English explanation feels more natural. Students seeking support in another language should check current availability directly with Rodha.</p>
+
+<h3>What makes Buddy different from an ordinary class doubt session?</h3>
+<p>A live class doubt session is tied to a timetable and the context of that class. Buddy is asynchronous: a student can submit a question when the problem actually arises, attach the relevant image, wait for the routed response and continue the thread afterward.</p>
+<p>It is also different from Rodha Panchayat. Buddy is primarily for academic question resolution. Panchayat is a live small-group mentoring format focused on preparation strategy, mock analysis, backlog planning, motivation and course guidance.</p>
+
+<h3>Who is Rodha Buddy best suited for?</h3>
+<ul>
+<li>Students who regularly discover doubts during independent practice.</li>
+<li>Working aspirants who cannot wait for the next live class to ask a question.</li>
+<li>Learners who prefer submitting a screenshot or photograph instead of rewriting a long question.</li>
+<li>Students who need a searchable record of past doubts and mentor replies.</li>
+<li>Aspirants who value follow-up discussion rather than a one-line answer.</li>
+<li>Students preparing across multiple subjects who benefit from subject-based mentor allocation.</li>
+</ul>
+
+<h3>What to know before relying on the platform</h3>
+<p>Buddy should be viewed as an academic support layer within Rodha's wider learning system. It does not replace concept learning, sustained practice, test analysis or a student's responsibility to explain the point of confusion clearly. Better submissions usually include a readable image, the attempted approach and the precise step where the student became stuck.</p>
+<p>Students should also remember that 24/7 submission does not mean an individual mentor is continuously online. The verified service commitment concerns the response and resolution workflow, with an average response time below 10 hours and resolution targeted within 24 hours.</p>
+
+<h2>Final assessment</h2>
+<p>Rodha Buddy addresses a practical problem in online exam preparation: doubts occur during practice, not only while a live teacher is available. By combining 24/7 submission, subject-based routing, follow-up conversations, reopening and cross-platform access, it creates a structured path from question to resolution.</p>
+<p>Eligible Rodha students can access the service through the <a href="https://buddy.rodha.co.in/" rel="noopener" target="_blank">Rodha Buddy web platform</a> or install the official <a href="https://play.google.com/store/apps/details?id=com.rodha.rodhabuddy" rel="noopener" target="_blank">Android app</a> or <a href="https://apps.apple.com/in/app/rodha-buddy/id6764226160" rel="noopener" target="_blank">iOS app</a>. Prospective learners should check the <a href="https://www.rodha.co.in/" rel="noopener" target="_blank">Rodha website</a> to confirm which current courses include access.</p>
+`
+  },
+{
 slug: "upsc-cse-mains-2026-question-paper-representation-portal-opens-31aug-update",
 title: "UPSC Civil Services (Main) 2026: Question Paper Representation Window Opens 31 August as Exam Concludes",
 category: "IAS / UPSC",
