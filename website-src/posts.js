@@ -2,6 +2,156 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+    slug: "rodha-panchayat",
+    title: "Rodha Panchayat: Mentoring Sessions, Format and Benefits",
+    category: "CAT / MBA",
+    date: "29 Aug 2026",
+    minutes: 7,
+    cta: { href: "institute-rodha.html", text: "See Rodha's full profile and course options" },
+    excerpt: "Understand how Rodha Panchayat works, including session size, faculty access, booking, mock analysis, strategy guidance and eligibility for CAT students.",
+    faqs: [
+      { q: "What is Rodha Panchayat?", a: "Rodha Panchayat is a live mentoring format for eligible CAT students. It focuses on preparation strategy, mock analysis, backlog planning, motivation, accountability and course guidance." },
+      { q: "Is every Panchayat session one-to-one?", a: "No. The usual format is a small group of six to nine students, although the structure may vary according to the situation." },
+      { q: "How much individual time does a student receive?", a: "A typical participant receives approximately 10 dedicated minutes during a 60–90 minute small-group session." },
+      { q: "How many Panchayat sessions are held each week?", a: "Rodha conducts around 12 to 15 sessions per week." },
+      { q: "Where do the sessions take place?", a: "Sessions are currently conducted through Google Meet." },
+      { q: "How do students book a session?", a: "A Google Form is circulated in the relevant Telegram group. Students use it to register for available faculty-led slots." },
+      { q: "Can students choose the faculty member?", a: "Yes, subject to the availability of places in that faculty member's session." },
+      { q: "Is Panchayat included in every Rodha CAT course?", a: "It is included in Rodha's paid CAT courses and remains available throughout the applicable course validity." },
+      { q: "Can students attend multiple sessions?", a: "Yes, but a cooldown period applies before a subsequent booking so other eligible students can participate." },
+      { q: "Are Panchayat sessions recorded?", a: "No. Sessions are not recorded for student playback, although Rodha may sometimes take internal training notes." },
+      { q: "Does Panchayat solve academic doubts?", a: "Not primarily. Separate doubt-solving sessions and Rodha Buddy are intended for question-level academic doubts." },
+      { q: "Does Panchayat include mock analysis?", a: "Yes. Mock analysis is one of its uses, and Rodha is also introducing mock-specific Panchayat sessions." },
+      { q: "Are sessions conducted in English or Hinglish?", a: "Both English and Hinglish are supported." },
+      { q: "Is Panchayat available for IPMAT?", a: "The CAT offering is called Rodha Panchayat. IPMAT has a similar format called Rodha After-Class." }
+    ],
+    html: `
+<p>CAT preparation problems are not always academic. A student may know the formulas and still be unsure which topics to prioritize, how to analyze a mock, whether to change an attempt strategy or how to recover from an expanding backlog. These questions require a conversation about the student's preparation, not merely another recorded lecture.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick answer</p>
+<p>Rodha Panchayat usually consists of 60–90 minute Google Meet sessions with 6–9 students. Each student receives roughly 10 dedicated minutes. Rodha conducts approximately 12–15 sessions each week, and eligible students can select a faculty-led session subject to slot availability and booking rules.</p>
+</div>
+
+<h2>What is Rodha Panchayat?</h2>
+<p><a href="institute-rodha.html">Rodha</a> Panchayat is a live faculty-interaction and mentoring format created for these broader preparation decisions. It gives eligible CAT students time to discuss strategy, mock performance, backlog management, motivation, accountability and course navigation directly with Rodha educators through Google Meet.</p>
+<p>It sits alongside, but is distinct from, <a href="rodha-buddy-app.html">Rodha Buddy</a>, Rodha's asynchronous academic doubt-resolution app. Panchayat is about how a student prepares; Buddy is about resolving a specific question.</p>
+
+<h2>Rodha Panchayat at a glance</h2>
+<table>
+<thead><tr><th>Area</th><th>Verified detail</th></tr></thead>
+<tbody>
+<tr><td>Primary format</td><td>Usually a small-group mentoring session; format may vary by situation</td></tr>
+<tr><td>Typical group size</td><td>6–9 students</td></tr>
+<tr><td>Typical duration</td><td>60–90 minutes</td></tr>
+<tr><td>Dedicated student time</td><td>Approximately 10 minutes per student</td></tr>
+<tr><td>Frequency</td><td>Around 12–15 sessions each week</td></tr>
+<tr><td>Platform</td><td>Google Meet</td></tr>
+<tr><td>Booking</td><td>Google Form circulated in the eligible Telegram group</td></tr>
+<tr><td>Faculty choice</td><td>Students may select a faculty-led session, subject to slot availability</td></tr>
+<tr><td>Core focus</td><td>Strategy, mock analysis, backlog planning, motivation, accountability and course guidance</td></tr>
+<tr><td>Eligibility</td><td>Students enrolled in paid CAT courses</td></tr>
+<tr><td>Access period</td><td>Throughout the student's course validity</td></tr>
+<tr><td>Languages</td><td>English and Hinglish</td></tr>
+</tbody>
+</table>
+
+<h3>Is Rodha Panchayat a one-to-one mentorship program?</h3>
+<p>Not every Panchayat session is a private one-to-one meeting. The format can vary according to the situation, but the standard model is a small group of approximately six to nine students in a 60–90 minute session. Within that group, each participant receives around 10 minutes of focused attention.</p>
+<p>This distinction is important. Panchayat provides personalized faculty interaction, but "personalized" should not automatically be interpreted as an exclusively private meeting. The small-group format allows students to discuss their own preparation while also learning from the challenges, decisions and feedback relevant to other aspirants.</p>
+
+<h3>What happens in a Rodha Panchayat session?</h3>
+<p>Panchayat is designed for preparation guidance rather than routine academic doubt solving. Typical discussion areas include:</p>
+<ul>
+<li><strong>Preparation strategy:</strong> deciding what to study, what to deprioritize and how to structure the next phase of preparation.</li>
+<li><strong>Mock analysis:</strong> identifying patterns in accuracy, selection, pacing and decision-making rather than looking only at the percentile.</li>
+<li><strong>Backlog planning:</strong> deciding how to recover missed topics or recordings without derailing current preparation.</li>
+<li><strong>Motivation and accountability:</strong> converting intentions into realistic weekly actions and addressing inconsistency.</li>
+<li><strong>Course guidance:</strong> understanding which available resources or sessions are most relevant to the student's current stage.</li>
+<li><strong>Other individual concerns:</strong> discussing broader preparation barriers that require faculty judgment rather than a standard answer.</li>
+</ul>
+<p>Rodha is also introducing mock-specific Panchayat sessions. These are intended to focus more closely on how students interpret and act on their mock performance.</p>
+
+<h3>What Panchayat is not designed for</h3>
+<p>Panchayat is not primarily a class for solving individual Quant, LRDI or VARC questions. Rodha conducts separate academic doubt-solving sessions, while the <a href="rodha-buddy-app.html">Rodha Buddy</a> platform handles asynchronous academic doubts. Panchayat sits at a different level: it helps a student decide how to prepare, diagnose performance patterns and stay accountable.</p>
+
+<h3>How to book a Rodha Panchayat session</h3>
+<ol>
+<li>Check the Telegram group associated with the eligible Rodha CAT enrollment.</li>
+<li>Open the Google Form circulated for upcoming Panchayat sessions.</li>
+<li>Review the available faculty-led sessions and time slots.</li>
+<li>Select the preferred faculty member, subject to available capacity.</li>
+<li>Submit the registration form and follow the joining information provided for the Google Meet session.</li>
+</ol>
+
+<h3>Can students choose the faculty member?</h3>
+<p>Yes. Students can register for a Panchayat session led by a faculty member of their choice when slots are available. This allows a learner to seek guidance from an educator whose subject expertise or mentoring approach is relevant to the issue being discussed.</p>
+<p>Choice is subject to availability. Because sessions are intentionally kept small and provide dedicated time to each participant, not every preferred slot can remain open to every student.</p>
+
+<h3>How often are sessions conducted?</h3>
+<p>Rodha conducts approximately 12 to 15 Panchayat sessions every week. A typical session lasts between 60 and 90 minutes. At six to nine participants per meeting, the format is designed to provide around 10 focused minutes to each student while preserving the advantages of group learning.</p>
+
+<h3>Who is eligible for Rodha Panchayat?</h3>
+<p>Panchayat is included across Rodha's paid CAT courses and remains available to eligible students throughout their course validity. It is currently a CAT-focused offering.</p>
+<p>Prospective students can review the current <a href="https://www.rodha.co.in/s/store/courses" rel="noopener" target="_blank">Rodha course catalogue</a> for program details. Eligibility and the booking process should be confirmed from the description and official communication connected with the selected course.</p>
+
+<h3>Is there a limit on how often a student can attend?</h3>
+<p>Students may attend more than one Panchayat session, but a cooldown period applies before the next booking. The purpose is to distribute limited faculty time fairly and give other students an opportunity to participate. Because the precise cooldown interval may depend on current operations, students should follow the booking instructions circulated with each form.</p>
+
+<h3>Are Panchayat sessions recorded?</h3>
+<p>No. Panchayat sessions are not recorded for student playback. Rodha may sometimes take internal notes for training purposes, but these notes are not a substitute for a participant-facing recording or formal action-plan document.</p>
+<p>Students may therefore benefit from entering the session with a clearly framed issue and writing down the faculty member's recommendations during or immediately after the conversation.</p>
+
+<h3>Are sessions available in English or Hinglish?</h3>
+<p>Panchayat sessions are available in both English and Hinglish. The conversational format allows faculty and students to use the language that makes strategic discussion clearer and more natural.</p>
+
+<h2>Rodha Panchayat vs Rodha Buddy</h2>
+<table>
+<thead><tr><th>Dimension</th><th>Rodha Panchayat</th><th>Rodha Buddy</th></tr></thead>
+<tbody>
+<tr><td>Primary purpose</td><td>Live preparation guidance and mentorship</td><td>Academic doubt resolution</td></tr>
+<tr><td>Format</td><td>Usually a small-group Google Meet session</td><td>Asynchronous web and mobile workflow</td></tr>
+<tr><td>Typical use</td><td>Strategy, mock analysis, backlog and accountability</td><td>Questions from concepts, practice or tests</td></tr>
+<tr><td>Interaction</td><td>Live conversation with faculty and other participants</td><td>Threaded response with mentors/support team</td></tr>
+<tr><td>Timing</td><td>Scheduled sessions and available slots</td><td>Doubts may be submitted 24/7</td></tr>
+<tr><td>Input</td><td>Student explains preparation context and challenge</td><td>Student submits text or an image of the doubt</td></tr>
+<tr><td>Best outcome</td><td>A clearer action plan or preparation decision</td><td>A resolved academic question</td></tr>
+</tbody>
+</table>
+<p>Read more in our full guide to the <a href="rodha-buddy-app.html">Rodha Buddy App</a>.</p>
+
+<h3>Why the small-group model can be useful</h3>
+<p>A small-group format creates a middle ground between a large webinar and a private mentoring call. Each student receives focused time, while the other participants hear questions they may not have thought to ask. One student's backlog problem may reveal a planning method useful to the whole group; another student's mock-analysis question may highlight a common decision error.</p>
+<p>The model can also make faculty access more scalable. Instead of reducing mentorship to generic advice, Rodha can discuss several students' individual contexts within a structured session while protecting a dedicated window for each participant.</p>
+
+<h3>How students can prepare for a Panchayat session</h3>
+<ul>
+<li>Choose one primary problem rather than bringing a long list of unrelated questions.</li>
+<li>Bring recent evidence such as mock scores, section-wise attempts, accuracy or a backlog list.</li>
+<li>Explain what has already been tried and why it did not work.</li>
+<li>Ask for a decision or action plan, not only reassurance.</li>
+<li>Write down the agreed priorities and the next review point.</li>
+<li>Use <a href="rodha-buddy-app.html">Rodha Buddy</a> or academic doubt sessions for question-level concept doubts so the Panchayat time remains focused on strategy.</li>
+</ul>
+
+<h3>Who may benefit most from Rodha Panchayat?</h3>
+<ul>
+<li>Students whose mock scores have stalled despite continued practice.</li>
+<li>Working professionals who need a realistic plan around variable schedules.</li>
+<li>Learners carrying a large backlog and unsure what to complete or skip.</li>
+<li>Students frequently changing resources, teachers or preparation strategies.</li>
+<li>Aspirants who need accountability and a clear set of weekly priorities.</li>
+<li>Students who want direct faculty context rather than generic online advice.</li>
+</ul>
+
+<h3>Rodha After-Class for IPMAT students</h3>
+<p>Panchayat is currently positioned as the CAT mentoring offering. For IPMAT students, Rodha provides a similar faculty-interaction format called Rodha After-Class. Students should use the name relevant to their exam rather than assuming the CAT Panchayat booking process applies to IPMAT.</p>
+
+<h2>Final assessment</h2>
+<p>Rodha Panchayat fills a gap that course videos and academic doubt systems cannot address on their own. It creates scheduled space for a student to explain the context behind a preparation problem and receive direct faculty guidance. Its value lies in personalized attention within a small-group setting — not in promising a private one-to-one call for every participant.</p>
+<p>Students considering Rodha can review the <a href="https://www.rodha.co.in/" rel="noopener" target="_blank">official Rodha website</a> and current <a href="https://www.rodha.co.in/s/store/courses" rel="noopener" target="_blank">course catalogue</a>. Eligible enrolled students should follow the Google Form and Telegram communication provided for available Panchayat sessions.</p>
+`
+  },
+{
     slug: "rodha-buddy-app",
     title: "Rodha Buddy App: Features, Eligibility and Doubt Solving",
     category: "CAT / MBA",

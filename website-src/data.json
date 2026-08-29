@@ -1498,10 +1498,15 @@
           "desc": "Pre-MBA and AI-for-managers programs built and taught by IIM Ahmedabad graduates, including ex-McKinsey, ex-Bain and ex-BCG mentors."
         },
         {
-          "name": "Rodha Buddy",
+          "name": "Rodha Buddy App",
           "url": "https://buddy.rodha.co.in/",
           "desc": "Rodha's community app — quick doubt-solving, peer groups and daily accountability, integrated with every course.",
           "guideSlug": "rodha-buddy-app"
+        },
+        {
+          "name": "Rodha Panchayat",
+          "url": "rodha-panchayat.html",
+          "desc": "Live small-group mentoring for CAT students — 60–90 minute Google Meet sessions on strategy, mock analysis, backlog planning and accountability, included with paid CAT courses."
         }
       ],
       "googleRating": 4.2,
