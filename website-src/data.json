@@ -106,7 +106,9 @@
     "cuet-pg": "CUET PG",
     "ailet": "AILET",
     "mhtcet": "MHT-CET",
-    "judiciary": "Judiciary"
+    "judiciary": "Judiciary",
+    "azure-data-engineering": "Azure Data Engineering",
+    "genai": "Gen AI"
   },
   "listings": [
     {
@@ -10280,6 +10282,30 @@
         "Running since 2012, with Prelims and Mains test series",
         "Positioned as an alternative to relocating to Delhi or other coaching hubs"
       ],
+      "mode": "online"
+    },
+    {
+      "slug": "vision-board-edtech",
+      "type": "certification",
+      "name": "Vision Board EdTech",
+      "city": "online",
+      "locality": "Online (Bengaluru-based)",
+      "address": "Bengaluru, Karnataka — online delivery worldwide",
+      "estd": null,
+      "exams": [
+        "azure-data-engineering",
+        "genai"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Vision Board EdTech is a Bengaluru-based ed-tech brand focused on helping IT professionals move into Azure Data Engineering and Generative AI careers. It's led by instructor Devikrishna R, who brings prior EY and Wipro experience, alongside co-founder Vimal Shaji. The flagship Azure Data Engineering + Gen AI program is a 4-month, mentor-led track covering 40+ topics — including DP-900 fundamentals, Azure Data Factory, Python, Databricks, SQL, PySpark, Azure Fabric and Generative AI — plus three real-time projects, with a free 3-day bootcamp for anyone who wants to try the teaching style first. The brand has published alumni outcomes publicly since 2022, including a 56-video YouTube testimonial archive and a Success Stories page documenting offer letters at companies including Infosys, Wipro, IBM, HCL, PwC and Knight Frank, across batches 7 through the current Batch 11.",
+      "highlights": [
+        "4-month Azure Data Engineering + Gen AI program covering 40+ topics and 3 real-time projects, led by instructor Devikrishna R (ex-EY, ex-Wipro)",
+        "Publicly documented alumni outcomes since 2022 — a 56-video YouTube archive and a Success Stories page with named placements at Infosys, Wipro, IBM, HCL and more",
+        "Free 3-day bootcamp to try the teaching style before enrolling in a paid batch"
+      ],
+      "website": "https://www.visionboardedtech.com/",
       "mode": "online"
     }
   ],

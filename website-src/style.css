@@ -423,3 +423,14 @@ body.nav-open .main-nav{display:flex}
   .searchbox{flex-direction:column;align-items:stretch}
   .sec-head{flex-direction:column;align-items:flex-start}
 }
+
+/* ---------- long-form "brand review" pages (skill-training platforms) ---------- */
+.verdict-box{display:flex;gap:22px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px 28px;margin:22px 0}
+.verdict-score{display:flex;align-items:baseline;gap:4px;font-family:var(--serif);color:var(--brand-deep);flex-shrink:0}
+.verdict-num{font-size:2.6rem;font-weight:700;line-height:1}
+.verdict-of{font-size:1.1rem;color:var(--ink-3)}
+.verdict-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-3);font-weight:700;margin:0 0 6px}
+.verdict-box p:last-child{margin-bottom:0}
+.brand-quote{margin-bottom:14px}
+.quote-author{display:block;font-size:.8rem;font-weight:600;color:var(--ink-3);margin-top:6px}
+@media (max-width:640px){.verdict-box{flex-direction:column;align-items:flex-start;gap:10px}}

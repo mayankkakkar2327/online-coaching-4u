@@ -6,6 +6,7 @@ const path = require("path");
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf8"));
 const POSTS = require("./posts.js");
 const REVIEWS = require("./reviews.js");
+const BRAND_REVIEWS = require("./brand-reviews.js");
 const OUT = path.join(__dirname, "..", "website");
 
 /* wipe previous build output so removed/renamed pages don't linger as stale files */
@@ -525,6 +526,7 @@ ${x.ecosystem ? `<h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list eco-lis
 <h2>Student reviews</h2>
 ${x.ratingCount ? `<div class="review-box"><div><div class="review-score">${x.rating ? x.rating.toFixed(1) : "–"}</div><div class="of">out of 5 · ${x.ratingCount} review${x.ratingCount === 1 ? "" : "s"}</div></div><p>Ratings are collected from students and published unedited — positive or negative.</p></div>` : `<p>No reviews yet.</p>`}
 ${x.googleRating ? `<div class="review-box review-box-google"><div><div class="review-score">${x.googleRating.toFixed(1)}</div><div class="of">out of 5 · ${x.googleReviewCount} reviews</div></div><p>As rated on Google, checked ${new Date().toLocaleString("en-IN", { month: "long", year: "numeric" })}. Separate from our own student ratings above.${x.city !== "online" ? ` <a href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">View on Google Maps →</a>` : ""}</p></div>` : ""}
+${BRAND_REVIEWS.some(r => r.slug === x.slug) ? `<div class="callout">Read our full, in-depth review of ${esc(x.name)} — verdict, pricing and alumni outcomes. <a href="review-${x.slug}.html">Read the review →</a></div>` : ""}
 <script type="application/ld+json">${JSON.stringify(Object.assign({
   "@context": "https://schema.org", "@type": "EducationalOrganization",
   "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
@@ -715,6 +717,20 @@ ${redditBlock}
 <div class="rhc-links">${links}</div>
 </article>`;
   }).join("");
+  const brandCards = BRAND_REVIEWS.map(rv => {
+    const x = L.find(o => o.slug === rv.slug);
+    if (!x) return "";
+    const cityL = cityLabel(x.city);
+    return `<article class="card review-hub-card">
+<div class="rhc-head">
+<span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
+<div><h2><a href="review-${x.slug}.html">${esc(x.name)}</a></h2><div class="muted">${x.city === "online" ? "Online" : cityL} · Full editorial review</div></div>
+</div>
+<div class="rhc-ratings"><span class="rating-chip"><span class="star">★</span> ${rv.verdictRating.toFixed(1)} <span class="muted">our rating</span></span></div>
+<div class="rhc-platform"><p class="rhc-empty" style="font-style:normal;color:var(--ink-2)">${esc(rv.verdictSummary)}</p></div>
+<div class="rhc-links"><a class="link-arrow" href="review-${x.slug}.html">Read the full review →</a></div>
+</article>`;
+  }).join("");
   return `
 <section class="hero hero-sm"><div class="container"><h1>Coaching Reviews — Google, Reddit &amp; More, in One Place</h1>
 <p class="hero-sub">One page per institute, pulling together what students actually say across the web — so you don't have to hunt through five tabs before choosing a coaching. Starting with the 10 most-searched CAT coaching institutes; more exam categories are coming soon.</p></div></section>
@@ -722,12 +738,112 @@ ${redditBlock}
 <p>Every quote below links straight back to its original public post so you can read it in full context — nothing here is edited, summarised out of context, or paid for. Where we couldn't verify a genuine public review on a platform, we've said so rather than guess.</p>
 </section>
 <section class="section container">
-<div class="review-hub-list">${cards}</div>
+<div class="review-hub-list">${cards}${brandCards}</div>
 </section>
 <section class="section container cta-band">
 <h2>Studied at one of these institutes?</h2>
 <p>Reviews here are unedited and can't be bought or removed. <a href="list-your-institute.html">Tell us what's missing</a> or use the review form on any institute's page.</p>
 </section>`;
+}
+
+/* Long-form editorial review page (review-<slug>.html) for online
+   skill-training platforms — a full independent write-up (verdict score,
+   ratings breakdown, pricing table, testimonials, FAQ), separate from the
+   short Reddit/Instagram quote cards on the /reviews hub above. Content
+   lives in brand-reviews.js; x is the matching data.json listing (name,
+   website, ratings, enquiry form). Only called for slugs present in both
+   files — see the write loop near the bottom of this file. */
+function starLine(n) {
+  return `<span class="star">★</span> ${Number(n).toFixed(1)}`;
+}
+function brandReviewPage(rv, x) {
+  const cityL = cityLabel(x.city);
+  const ownChip = x.ratingCount
+    ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"} on ${esc(B.name)}</span></span>`
+    : `<span class="rating-chip"><span class="muted">No student reviews yet on ${esc(B.name)}</span></span>`;
+  const ratingsRows = rv.ratingsBreakdown.map(r => `<tr><td>${esc(r.factor)}</td><td>${starLine(r.rating)}</td><td>${esc(r.why)}</td></tr>`).join("");
+  const whyChooseHtml = rv.whyChoose.map(sec => {
+    const list = sec.list ? `<ul>${sec.list.map(li => `<li>${esc(li)}</li>`).join("")}</ul>` : "";
+    const after = sec.after ? `<p>${esc(sec.after)}</p>` : "";
+    return `<p><strong>${esc(sec.title)}</strong> ${esc(sec.body)}</p>${list}${after}`;
+  }).join("");
+  const pricingRows = rv.pricingTable.map(p => `<tr><td>${esc(p.program)}</td><td>${esc(p.included)}</td><td>${esc(p.investment)}</td></tr>`).join("");
+  const testimonialsHtml = rv.testimonials.map(t => `<div class="rhc-quote brand-quote">“${esc(t.quote)}”<span class="quote-author">— ${esc(t.author)}</span></div>`).join("");
+  const faqHtml = rv.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("");
+  const inlineBacklinks = rv.backlinks.map(b => `<a href="${b.url}" rel="noopener nofollow"><span class="ic">${b.icon || "↗"}</span> ${esc(b.label)}</a>`).join("");
+  const sideBacklinks = rv.backlinks.map(b => `<a class="action" href="${b.url}" rel="noopener nofollow"><span class="ic">${b.icon || "↗"}</span> ${esc(b.label)} <span class="arr">→</span></a>`).join("");
+  const faqLd = {
+    "@context": "https://schema.org", "@type": "FAQPage",
+    mainEntity: rv.faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } }))
+  };
+  const reviewLd = Object.assign({
+    "@context": "https://schema.org", "@type": "Review",
+    itemReviewed: Object.assign({ "@type": "EducationalOrganization", name: x.name }, x.website ? { url: x.website } : {}),
+    reviewRating: { "@type": "Rating", ratingValue: rv.verdictRating, bestRating: 5 },
+    author: { "@type": "Organization", name: B.name },
+    publisher: { "@type": "Organization", name: B.name }
+  }, {});
+  return head(rv.metaTitle, rv.metaDescription) + header("reviews.html") + `
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="reviews.html">Reviews</a> / <span>${esc(x.name)}</span></div>
+<section class="container detail-hero">
+<div class="identity">
+<span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
+<div>
+<h1>${esc(rv.headline)}</h1>
+<div class="sub">${esc(rv.subheadline)}</div>
+</div>
+</div>
+</section>
+<section class="container detail-body">
+<div class="detail-main prose">
+<div class="verdict-box">
+<div class="verdict-score"><span class="verdict-num">${rv.verdictRating.toFixed(1)}</span><span class="verdict-of">/ 5</span></div>
+<div><p class="verdict-label">Overall rating</p><p>${esc(rv.verdictSummary)}</p></div>
+</div>
+<table class="ratings-table"><thead><tr><th>Factor</th><th>Rating</th><th>Why</th></tr></thead><tbody>${ratingsRows}</tbody></table>
+<div class="callout"><strong>Best for:</strong> ${esc(rv.bestFor)}</div>
+<h2>What Is ${esc(x.name)}?</h2>
+${rv.whatIs.map(p => `<p>${esc(p)}</p>`).join("")}
+<h2>Why Learners Choose ${esc(x.name)}</h2>
+${whyChooseHtml}
+<h2>Pricing</h2>
+<table><thead><tr><th>Program</th><th>What's included</th><th>Investment</th></tr></thead><tbody>${pricingRows}</tbody></table>
+<p>${esc(rv.placementNote)}</p>
+<h2>What Alumni Are Saying</h2>
+${testimonialsHtml}
+<p>${esc(rv.archiveNote)}</p>
+<div class="rhc-links">${inlineBacklinks}</div>
+<h2>FAQ</h2>
+${faqHtml}
+<h2>Bottom Line</h2>
+<p class="dropcap">${esc(rv.bottomLine)}</p>
+<div class="rhc-ratings" style="margin-top:22px">${ownChip}</div>
+<script type="application/ld+json">${JSON.stringify(reviewLd)}</script>
+<script type="application/ld+json">${JSON.stringify(faqLd)}</script>
+</div>
+<aside class="detail-side">
+<div class="side-card">
+<h3>Talk to ${esc(x.name)}</h3>
+<p class="muted">Free callback via our counselling team — no spam, ever.</p>
+<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
+<input type="hidden" name="_subject" value="New enquiry — ${esc(x.name)} — via review page">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="institute" value="${esc(x.name)}">
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
+<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
+<button class="btn btn-gold" type="submit">Request a callback</button>
+</form>
+</div>
+<div class="side-actions">
+${sideBacklinks}
+<a class="action" href="institute-${x.slug}.html"><span class="ic">≡</span> Full profile <span class="arr">→</span></a>
+<a class="action" href="reviews.html"><span class="ic">≡</span> All review pages <span class="arr">→</span></a>
+</div>
+</aside>
+</section>` + footer();
 }
 
 function postPage(p) {
@@ -821,10 +937,13 @@ function sitemapBody() {
     });
   });
   const inst = L.map(x => `<li><a href="institute-${x.slug}.html">${esc(x.name)} — ${cityLabel(x.city)}</a></li>`).join("");
+  const brandReviewPages = BRAND_REVIEWS.filter(r => L.some(x => x.slug === r.slug))
+    .map(r => { const x = L.find(o => o.slug === r.slug); return `<li><a href="review-${x.slug}.html">${esc(x.name)} — ${x.city === "online" ? "Online" : cityLabel(x.city)}</a></li>`; }).join("");
   return `<section class="hero hero-sm"><div class="container"><h1>Sitemap</h1></div></section>
 <section class="section container prose">
 <h2>Pages</h2><ul>${links.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join("")}</ul>
 <h2>All listings (${L.length})</h2><ul>${inst}</ul>
+${brandReviewPages ? `<h2>Brand review pages (${BRAND_REVIEWS.length})</h2><ul>${brandReviewPages}</ul>` : ""}
 </section>`;
 }
 
@@ -898,6 +1017,10 @@ w("certification.html", hubPage("certification", "Compare Professional Certifica
 DATA.cities.certification.forEach(c => w(`certification-${c}.html`, listingPage("certification", c)));
 
 L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
+BRAND_REVIEWS.forEach(rv => {
+  const x = L.find(o => o.slug === rv.slug);
+  if (x) w(`review-${rv.slug}.html`, brandReviewPage(rv, x));
+});
 
 w("about.html", simplePage("about.html", "About Us", `Who we are and how ${B.name} keeps listings honest.`, aboutBody, "about.html"));
 w("contact.html", simplePage("contact.html", "Contact Us", `Get in touch with the ${B.name} team.`, contactBody));
