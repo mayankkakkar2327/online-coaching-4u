@@ -46,7 +46,8 @@
       "raipur",
       "kanpur",
       "agra",
-      "rajkot"
+      "rajkot",
+      "gwalior"
     ],
     "certification": [
       "online"
@@ -10071,6 +10072,215 @@
         "Single-centre institute (Sardarnagar) rather than a national franchise"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "parth-ias-academy-gwalior",
+      "type": "coaching",
+      "name": "Parth IAS Academy",
+      "city": "gwalior",
+      "locality": "Phool Bagh, Lashkar",
+      "address": "2nd Floor, Nandgiri Tower, Kila Gate Road, Phool Bagh, Lashkar, Gwalior, Madhya Pradesh 474002",
+      "estd": null,
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "Parth IAS Academy runs UPSC and MPPSC coaching from Phool Bagh, Lashkar, under Pankaj Sir, a 2004-batch civil services exam qualifier. The institute covers daily current affairs, editorial analysis, structured test series and answer-writing guidance across Prelims, Mains and interview stages.",
+      "highlights": [
+        "Led by a 2004-batch civil services exam qualifier (Pankaj Sir)",
+        "Covers UPSC and MPPSC together from one Lashkar centre",
+        "Daily current affairs and editorial analysis alongside test series and answer-writing guidance"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ravindras-ias-gwalior",
+      "type": "coaching",
+      "name": "Ravindra's IAS",
+      "city": "gwalior",
+      "locality": "Phool Bagh Chauraha",
+      "address": "First Floor, Krishan Tower, Phool Bagh Chauraha, Gwalior, Madhya Pradesh",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Ravindra's IAS runs classroom UPSC Civil Services coaching from Krishan Tower, Phool Bagh Chauraha - one of Gwalior's more established local institutes, cross-listed consistently across independent local directories including Justdial.",
+      "highlights": [
+        "Phool Bagh Chauraha centre, part of Gwalior's main coaching cluster",
+        "Cross-listed on independent local directories (Justdial)",
+        "Classroom-format UPSC Civil Services preparation"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "lakshya-institute-gwalior",
+      "type": "coaching",
+      "name": "Lakshya Institute",
+      "city": "gwalior",
+      "locality": "Kampoo, Lashkar",
+      "address": "Near Lakkadkhana Pul, Kampoo, Lashkar, Gwalior, Madhya Pradesh 474001",
+      "estd": null,
+      "exams": [
+        "ias",
+        "mppsc",
+        "ssc",
+        "bank",
+        "railway"
+      ],
+      "verified": false,
+      "about": "Lakshya Institute coaches IAS, MPPSC, SSC CGL, Banking, Railway, NDA and other defence and government-exam aspirants from its Kampoo, Lashkar centre, with faculty the institute describes as including former civil servants, plus online mock-test series and study material.",
+      "highlights": [
+        "Covers IAS/MPPSC together with SSC, Banking, Railway and NDA from one centre",
+        "Faculty team the institute says includes former civil servants",
+        "Kampoo, Lashkar location, cross-listed on multiple independent directories"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "samiksha-institute-gwalior",
+      "type": "coaching",
+      "name": "Samiksha Institute",
+      "city": "gwalior",
+      "locality": "Phool Bagh, Lashkar",
+      "address": "Near Bank of India, Phool Bagh Chauraha, MLB Road, Lashkar, Gwalior, Madhya Pradesh 474002",
+      "estd": null,
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "Samiksha Institute runs UPSC and MPPSC-focused civil-services coaching from MLB Road, Phool Bagh, with a public-administration mentorship track and sessions on personality and strategic development alongside regular General Studies classes.",
+      "highlights": [
+        "MLB Road, Phool Bagh centre in Gwalior's main coaching cluster",
+        "Runs a dedicated mentorship programme alongside regular GS classes",
+        "Covers both UPSC and MPPSC preparation"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "nirman-ias-gwalior",
+      "type": "coaching",
+      "name": "Nirman IAS",
+      "city": "gwalior",
+      "locality": "Phool Bagh",
+      "address": "2/3, Aziz Complex, Opposite GDA Office, New Khedapati Colony, Phool Bagh, Gwalior, Madhya Pradesh 474002",
+      "estd": null,
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "Nirman IAS is a dedicated MPPSC and civil-services institute opposite the GDA Office in Phool Bagh, open seven days a week, with an active presence on YouTube and Instagram alongside its classroom batches.",
+      "highlights": [
+        "Opposite GDA Office, Phool Bagh - within Gwalior's main coaching cluster",
+        "Open seven days a week for classroom batches",
+        "Dedicated MPPSC and civil-services focus"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gta-ias-gwalior",
+      "type": "coaching",
+      "name": "GTA IAS",
+      "city": "gwalior",
+      "locality": "Govindpuri",
+      "address": "A-65, Near Millennium Plaza, Govindpuri, Gwalior, Madhya Pradesh 474011",
+      "estd": null,
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "GTA IAS runs UPSC and MPPSC coaching from its Govindpuri centre near Millennium Plaza, with a course structure the institute describes as built around regular test series and performance analysis.",
+      "highlights": [
+        "Govindpuri centre, near Millennium Plaza",
+        "Regular test series with performance analysis",
+        "Covers both UPSC and MPPSC preparation"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "jadons-ias-psc-gwalior",
+      "type": "coaching",
+      "name": "Jadon's IAS/PSC",
+      "city": "gwalior",
+      "locality": "Thatipur",
+      "address": "3rd Floor, Midland Plaza, Jhavar Estate, Thatipur, Gwalior, Madhya Pradesh",
+      "estd": null,
+      "exams": [
+        "ias",
+        "mppsc"
+      ],
+      "verified": false,
+      "about": "Jadon's IAS/PSC, part of Jadon's Group of Studies, runs civil-services coaching from Jhavar Estate, Thatipur, and carries one of the larger independently visible review counts among Gwalior's IAS institutes on local directories.",
+      "highlights": [
+        "Thatipur centre, part of the wider Jadon's Group of Studies",
+        "One of Gwalior's larger review counts on independent local directories",
+        "Covers UPSC and MPPSC preparation"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "kautilya-academy-gwalior",
+      "type": "coaching",
+      "name": "Kautilya Academy (Gwalior Branch)",
+      "city": "gwalior",
+      "locality": "Phool Bagh Chauraha, Lashkar",
+      "address": "63, Khushi Tower, Maharani Laxmi Bai Colony, Padav, Gwalior, Madhya Pradesh 474002",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Kautilya Academy's Gwalior branch is a confirmed local centre of the pan-India civil-services coaching chain, operating from Maharani Laxmi Bai Colony, Padav, with its own independent listing and reviews distinct from the brand's other-city branches.",
+      "highlights": [
+        "Confirmed physical branch of a pan-India civil-services coaching chain",
+        "Padav-area centre with its own independent local listing and reviews",
+        "Standardised UPSC preparation format shared across the chain's branch network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "byjus-ias-gwalior",
+      "type": "coaching",
+      "name": "BYJU'S IAS",
+      "city": "gwalior",
+      "locality": "City Centre",
+      "address": "3rd Floor, Athena, Block A, Behind SP Office, City Centre, Gwalior, Madhya Pradesh 474011",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "BYJU'S runs a confirmed offline IAS-coaching office in Gwalior's City Centre area, offering the brand's standard UPSC classroom and hybrid programme with CSAT and General Studies test series, as an alternative to Gwalior's independently run local institutes.",
+      "highlights": [
+        "Confirmed physical office in Gwalior's City Centre locality",
+        "Part of a large national brand's standardised UPSC programme",
+        "CSAT and General Studies test series included"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "clearias-gwalior",
+      "type": "coaching",
+      "name": "ClearIAS (Online)",
+      "city": "gwalior",
+      "locality": "Online",
+      "address": "Online coaching, serving Gwalior aspirants (Kerala-headquartered)",
+      "estd": 2012,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "ClearIAS is a pan-India online-only UPSC coaching platform, running since 2012, that markets itself directly to Gwalior aspirants as an alternative to relocating for classroom coaching, offering live and recorded classes plus Prelims and Mains test series.",
+      "highlights": [
+        "Online-only platform with no physical Gwalior centre - live and recorded classes",
+        "Running since 2012, with Prelims and Mains test series",
+        "Positioned as an alternative to relocating to Delhi or other coaching hubs"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -10203,6 +10413,9 @@
     },
     "coaching-rajkot": {
       "intro": "<p>Rajkot - Saurashtra's largest commercial hub and home to Saurashtra University and Marwadi University - has a CAT-coaching market anchored by University Road, the city's main coaching corridor. National chains sit alongside institutes founded and run locally, led by Empower, which opened in 1999 as the first coaching centre in the wider Saurashtra region built exclusively for CAT and MBA/MCA entrance exams. Every listing below shows its verification status.</p>"
+    },
+    "coaching-gwalior": {
+      "intro": "<p>Gwalior - a former princely-state capital in Madhya Pradesh, still known for its fort and its role as an educational centre for the Chambal-Gwalior region - has built a genuine UPSC and MPPSC coaching market of its own, distinct from the bigger hubs of Bhopal and Indore. Coaching activity clusters tightly around Lashkar: Phool Bagh Chauraha alone hosts several institutes within a few hundred metres of each other, with further centres in Thatipur, Padav, Govindpuri and City Centre. The market mixes long-running, locally founded institutes with a couple of pan-India brands' branch offices and one online-only option. Every listing below shows its verification status and, where available, independently visible ratings.</p>"
     }
   }
 }
