@@ -2,6 +2,115 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+slug: "upsc-cse-mains-2026-question-paper-representation-portal-opens-31aug-update",
+title: "UPSC Civil Services (Main) 2026: Question Paper Representation Window Opens 31 August as Exam Concludes",
+category: "IAS / UPSC",
+date: "29 Aug 2026",
+minutes: 4,
+cta: { href: "coaching.html?exam=ias", text: "Compare verified IAS/UPSC coaching institutes" },
+excerpt: "The Civil Services (Main) Examination 2026 concludes on 30 August, and UPSC has confirmed that its Question Paper Representation Portal (QPRoP) opens the very next day, 31 August, for a strict five-day window through 4 September - the only channel candidates can use to flag any issue with a question paper.",
+image: "assets/blog/upsc-cse-mains-2026-qprop-portal-opens-31aug-update.png",
+imageAlt: "UPSC Civil Services Main 2026 Question Paper Representation Portal graphic",
+faqs: [],
+html: `
+<p><strong>Last updated: 29 August 2026.</strong></p>
+<p>The Union Public Service Commission's Civil Services (Main) Examination, 2026 is running across five exam days - 21, 22 and 23 August, then 29 and 30 August - and concludes tomorrow. Per an official Press Note dated 19 August 2026 on <a href="https://upsc.gov.in" rel="noopener" target="_blank">upsc.gov.in</a>, UPSC will open its Question Paper Representation Portal (QPRoP) immediately after the exam ends, giving candidates a five-day window to formally flag any concern with a question or paper.</p>
+
+<h2>What's actually confirmed</h2>
+<p>Per the official Press Note (Civil Services (Main) Examination, 2026), the QPRoP portal will be made available on the Commission's website for exactly five days, from 31 August to 4 September 2026, for candidates to submit representations on question(s)/paper(s) of the Main Examination, if any. The notice is explicit that no representation will be accepted through any other means or mode, and none will be accepted after the 4 September deadline. This follows the exam's official Time Table (uploaded 10 July 2026) confirming two sessions each exam day, 9:00 AM-12:00 Noon and 2:30-5:30 PM, covering Essay, General Studies Papers I-IV, the qualifying Indian Language and English papers, and the candidate's chosen Optional Subject Papers I and II. e-Admit cards for the exam were released on 14 August 2026.</p>
+<p>This year's Mains follows the Civil Services (Preliminary) Examination, 2026 result declared 15 June 2026, which shortlisted 13,343 candidates for Mains against 1,016 notified vacancies - a slightly smaller shortlist than 2025's 14,161 candidates for 1,087 vacancies, per UPSC's official written result list.</p>
+
+<h2>What this means for aspirants</h2>
+<p>For candidates who sat the exam, the QPRoP window is narrow and unforgiving on process: representations must go through the portal itself, submitted between 31 August and 4 September, with no email, letter or in-person alternative accepted and no late window after the deadline. Aspirants who spot a genuine ambiguity, error or translation issue in any paper should draft their representation with the specific question number and paper clearly identified rather than waiting to see if others raise it - QPRoP is an individual submission process, not a public review. For those not yet at the Mains stage, the shrinking gap between Prelims shortlist and Mains vacancy count (roughly 13 candidates per post this cycle) is a reminder that consistent Mains-stage practice, not just Prelims clearance, is what the numbers reward.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Exam:</strong> Civil Services (Main) Examination, 2026</p>
+<p><strong>Exam dates:</strong> 21-23 Aug and 29-30 Aug 2026 (concludes tomorrow)</p>
+<p><strong>QPRoP window:</strong> 31 Aug - 4 Sep 2026 (5 days, portal-only)</p>
+<p><strong>Mains shortlist:</strong> 13,343 candidates against 1,016 vacancies</p>
+<p><strong>e-Admit card released:</strong> 14 Aug 2026</p>
+<p><strong>Official source:</strong> upsc.gov.in</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[19 Aug 2026]</strong> UPSC's official Press Note confirmed the Question Paper Representation Portal (QPRoP) for Civil Services (Main) Examination, 2026 will open 31 August, per upsc.gov.in.</li>
+<li><strong>[31 Aug - 4 Sep 2026]</strong> The only window in which QPRoP representations on Mains question papers can be submitted - a fixed five-day period, per the official Press Note.</li>
+<li><strong>[15 Jun 2026]</strong> UPSC declared Civil Services (Preliminary) Examination, 2026 results; 13,343 candidates were shortlisted for Mains against 1,016 notified vacancies, per the official written result.</li>
+<li><strong>[14 Aug 2026]</strong> e-Admit Cards for Civil Services (Main) Examination, 2026 were released via the official examination page on upsc.gov.in.</li>
+<li><strong>Myth check:</strong> QPRoP representations cannot be emailed, posted or submitted in person - UPSC's press note explicitly states no representation via any other means or mode will be accepted, and none after 4 September.</li>
+</ul>
+<p><em>Sources: <a href="https://www.upsc.gov.in/examinations/Civil%20Services%20%28Main%29%20Examination%2C%202026" rel="noopener" target="_blank">Civil Services (Main) Examination, 2026 official page</a> (upsc.gov.in); <a href="https://www.upsc.gov.in/sites/default/files/PressNote-CSM-2026-Engl-190826.pdf" rel="noopener" target="_blank">Press Note dated 19 Aug 2026</a> (upsc.gov.in); <a href="https://www.upsc.gov.in/examinations/Civil%20Services%20%28Preliminary%29%20Examination%2C%202026" rel="noopener" target="_blank">Civil Services (Preliminary) Examination, 2026 official page</a> (upsc.gov.in).</em></p>
+<p><strong>Last updated: 29 August 2026.</strong></p>
+`
+},
+{
+slug: "top-10-ias-coaching-institutes-gwalior-2026",
+title: "Top 10 IAS Coaching Institutes in Gwalior (2026)",
+category: "IAS / UPSC",
+date: "29 Aug 2026",
+minutes: 9,
+cta: { href: "coaching-gwalior.html", text: "Browse all verified coaching institutes in Gwalior" },
+excerpt: "Gwalior's IAS-coaching market clusters tightly around Phool Bagh Chauraha in Lashkar, mixing long-running local institutes with a couple of pan-India brands' confirmed branches. Here's a fact-checked look at ten institutes actually training UPSC and MPPSC aspirants in the city.",
+image: "assets/blog/top-10-ias-coaching-institutes-gwalior-2026.png",
+imageAlt: "Top 10 IAS coaching institutes in Gwalior 2026 graphic",
+faqs: [
+  { q: "Which is the best IAS coaching institute in Gwalior?", a: "There's no single 'best' - Parth IAS Academy has the strongest local reputation, led by a 2004-batch civil services exam qualifier, while Ravindra's IAS, Samiksha Institute and Nirman IAS are all well-established Phool Bagh-cluster institutes with their own independent track records. Kautilya Academy and BYJU'S bring national-chain resources through a confirmed local branch. The right choice depends on whether you want a closely-run local institute or a national chain's standardised systems." },
+  { q: "Where in Gwalior are most IAS coaching institutes located?", a: "Phool Bagh Chauraha in Lashkar is Gwalior's main civil-services coaching hub, home to Parth IAS Academy, Ravindra's IAS, Samiksha Institute, Nirman IAS and Kautilya Academy's Gwalior branch. Lakshya Institute is based in nearby Kampoo, Jadon's IAS/PSC operates from Thatipur, GTA IAS from Govindpuri, and BYJU'S from the City Centre area." },
+  { q: "Do these institutes prepare for exams other than UPSC?", a: "Yes - most cover MPPSC alongside UPSC, since the two exams share a large part of their General Studies syllabus. Lakshya Institute additionally coaches SSC CGL, Banking, Railway and NDA aspirants from the same centre, making it a broader competitive-exam institute rather than a pure civil-services specialist. Confirm a given institute's UPSC-specific batch size and faculty directly before enrolling." },
+  { q: "Is Gwalior a good base for UPSC preparation compared to a bigger city?", a: "Gwalior's coaching market is smaller than Bhopal's or Indore's, but it has a real, multi-institute local ecosystem clustered around Lashkar, built up over years rather than being a single recent arrival. Combined with a confirmed branch each of Kautilya Academy and BYJU'S, Gwalior aspirants can access both closely-run local coaching and some national-chain infrastructure without relocating - though the biggest national brands (Plutus IAS, Yojna IAS) currently reach the city only through online-coaching pages, not a physical centre." }
+],
+html: `
+<p>Gwalior - a former princely-state capital in Madhya Pradesh known for its fort and its long-standing role as an education hub for the wider Chambal-Gwalior region - has quietly built a genuine UPSC and MPPSC coaching market of its own, distinct from the bigger neighbouring hubs of Bhopal and Indore. Coaching activity clusters tightly around Lashkar, with Phool Bagh Chauraha alone hosting several institutes within a few hundred metres of each other, and further centres spread across Thatipur, Padav, Govindpuri and City Centre. Below is a fact-checked look at ten institutes actually training IAS and MPPSC aspirants in the city, each checked against at least one official or independently verifiable source.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Gwalior, Madhya Pradesh</p>
+<p><strong>Main exam covered:</strong> UPSC Civil Services (IAS), alongside MPPSC at most institutes</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked as of 29 Aug 2026</p>
+<p><strong>Main coaching hub:</strong> Phool Bagh Chauraha, Lashkar, with further centres in Thatipur, Padav, Govindpuri and City Centre</p>
+<p><strong>Mix:</strong> 7 Gwalior-founded local institutes, 2 pan-India brands with a confirmed Gwalior branch (Kautilya Academy, BYJU'S), and 1 online-only option (ClearIAS)</p>
+</div>
+
+<h2>How we picked this list</h2>
+<p>We looked for institutes with a genuine, checkable IAS/MPPSC-coaching presence in Gwalior: a real local address confirmed across more than one independent source (institute sites, plus directories such as Justdial, Sulekha and Collegedunia), and an actual civil-services batch on offer rather than a passing mention. Several large national UPSC brands that appear repeatedly in generic "best of Gwalior" round-ups - including Plutus IAS, Yojna IAS and Chahal Academy - were checked directly and found to have no confirmed physical Gwalior branch of their own, only online-coaching landing pages targeting the city; they were left off this list rather than guessed at. One genuinely online-only brand, ClearIAS, is included and clearly labelled as such, since it markets specifically to Gwalior aspirants as an alternative to relocating.</p>
+
+<h3>1. Parth IAS Academy</h3>
+<p>Parth IAS Academy runs UPSC and MPPSC coaching from Phool Bagh, Lashkar, under Pankaj Sir, a 2004-batch civil services exam qualifier. The institute is widely described locally as Gwalior's most established Civil Services preparation centre, covering daily current affairs, editorial analysis, structured test series and answer-writing guidance across Prelims, Mains and interview stages.</p>
+
+<h3>2. Ravindra's IAS</h3>
+<p>Ravindra's IAS operates from Krishan Tower, Phool Bagh Chauraha, running classroom UPSC Civil Services batches. It is one of the more consistently cross-listed institutes in the city across independent local directories, with its own dedicated Gwalior-focused course page.</p>
+
+<h3>3. Lakshya Institute</h3>
+<p>Lakshya Institute, based in Kampoo, Lashkar, coaches IAS and MPPSC alongside SSC CGL, Banking, Railway, NDA and other competitive exams from a single centre, with faculty the institute describes as including former civil servants, plus online mock-test series and study material.</p>
+
+<h3>4. Samiksha Institute</h3>
+<p>Samiksha Institute runs UPSC and MPPSC-focused coaching from MLB Road, Phool Bagh, and stands out for running a dedicated mentorship track covering personality development and exam strategy alongside its regular General Studies classes.</p>
+
+<h3>5. Nirman IAS</h3>
+<p>Nirman IAS, located opposite the GDA Office in Phool Bagh, is a dedicated MPPSC and civil-services institute open seven days a week, with an active YouTube and Instagram presence supplementing its classroom batches.</p>
+
+<h3>6. GTA IAS</h3>
+<p>GTA IAS runs from a Govindpuri centre near Millennium Plaza, offering UPSC and MPPSC coaching built around regular test series and performance analysis for enrolled students.</p>
+
+<h3>7. Jadon's IAS/PSC</h3>
+<p>Jadon's IAS/PSC, part of the wider Jadon's Group of Studies, operates from Jhavar Estate, Thatipur, and carries one of the larger independently visible review counts among Gwalior's civil-services institutes on local directories.</p>
+
+<h3>8. Kautilya Academy (Gwalior Branch)</h3>
+<p>Kautilya Academy's Gwalior branch, in Maharani Laxmi Bai Colony, Padav, is a confirmed local centre of the pan-India civil-services coaching chain, with its own independent listing and student reviews distinct from the brand's branches in other cities.</p>
+
+<h3>9. BYJU'S IAS</h3>
+<p>BYJU'S runs a confirmed offline IAS-coaching office in Gwalior's City Centre locality, offering the brand's standard hybrid classroom-plus-digital UPSC programme with CSAT and General Studies test series, as a national-chain alternative to Gwalior's independently run institutes.</p>
+
+<h3>10. ClearIAS (Online)</h3>
+<p>ClearIAS is a Kerala-headquartered, online-only UPSC coaching platform running since 2012 that markets directly to Gwalior aspirants as an alternative to relocating for classroom coaching, offering live and recorded classes plus Prelims and Mains test series. It has no physical Gwalior centre and is listed here as an online option, not a local institute.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically the right pick for every student. Parth IAS, Ravindra's IAS, Samiksha Institute and Nirman IAS have the closest, most Gwalior-specific track records and are all clustered around Lashkar's Phool Bagh coaching hub; Lakshya Institute, GTA IAS and Jadon's IAS/PSC suit students who want civil-services prep alongside a wider spread of competitive exams under one roof; and Kautilya Academy and BYJU'S bring national-chain infrastructure and standardised material to a genuine local branch. ClearIAS is worth considering only if a physical classroom isn't a priority. Treat every fee, founding-year and batch-size claim here as a starting point, not a fixed quote, and confirm current details directly with the institute before enrolling.</p>
+
+<p>Compare full details and additional Gwalior institutes on our <a href="coaching-gwalior.html">Gwalior coaching page</a>.</p>
+`
+},
+{
 slug: "mba-entrance-exams-status-check-27aug-update",
 title: "MBA Entrance Exams: No Fresh Notification Today, Here's Exactly What's Live (27 August 2026)",
 category: "MBA",
