@@ -2,6 +2,113 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+  slug: "clat-ailet-2027-law-exam-update-30aug-no-new-notification",
+  title: "CLAT & AILET 2027: No New Notification Today — Here's What's Coming Next",
+  category: "CLAT / Law",
+  date: "30 Aug 2026",
+  minutes: 4,
+  cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT/AILET coaching institutes" },
+  excerpt: "No new official CLAT, AILET or state judicial-services notification was issued today, 30 August 2026 — a checked status update on what's currently open, what closes tomorrow, and what to expect next from the Consortium of NLUs, NLU Delhi and state High Courts.",
+  image: "assets/blog/clat-ailet-2027-law-exam-update-30aug-no-new-notification.png",
+  imageAlt: "CLAT AILET 2027 law exam update graphic",
+  faqs: [],
+  html: `
+<p><strong>Last updated: 30 August 2026.</strong></p>
+<p>As of 30 August 2026, no new official notification has been issued for CLAT 2027, AILET 2027 or the major state judicial-services exams, based on checks of the Consortium of NLUs, National Law University Delhi and relevant state High Court recruitment portals.</p>
+
+<h2>What's currently open</h2>
+<p>CLAT 2027 online registration, open since 3 August 2026, continues to run until 31 October 2026, with the exam scheduled for 6 December 2026, per the Consortium of NLUs' official notification. AILET 2027 registration at National Law University Delhi, open since 7 August 2026, runs until 10 November 2026, ahead of the exam on 13 December 2026. Neither window has seen any date change or correction-window announcement since our last check.</p>
+<p>Separately, the Consortium's public feedback window on the CLAT Expert Committee Report 2026 — which recommends reforms under review for CLAT 2028, not CLAT 2027 — closes tomorrow, 31 August 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Category checked:</strong> Law &amp; Other (CLAT, AILET, state judiciary)</p>
+<p><strong>New notification today:</strong> None found</p>
+<p><strong>CLAT 2027 registration:</strong> open till 31 Oct 2026</p>
+<p><strong>AILET 2027 registration:</strong> open till 10 Nov 2026</p>
+<p><strong>CLAT feedback window:</strong> closes 31 Aug 2026</p>
+<p><strong>Official sources checked:</strong> consortiumofnlus.ac.in, nationallawuniversitydelhi.in, hc-ojas.gujarat.gov.in</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[31 Aug 2026]</strong> Last day to submit public feedback on the CLAT Expert Committee Report 2026 through the Consortium's online form — after this, recommendations move into review for CLAT 2028 only.</li>
+<li><strong>[31 Oct 2026]</strong> Last date for CLAT 2027 UG/PG online applications, per the Consortium of NLUs' official notification.</li>
+<li><strong>[10 Nov 2026]</strong> Last date for AILET 2027 applications at NLU Delhi, per the university's official notification PDF.</li>
+<li><strong>[24 Apr 2026]</strong> Gujarat High Court notified roughly 237 Civil Judge (GJS) vacancies; the detailed application-window notification with dates was still pending on the HC-OJAS portal as of this week.</li>
+<li><strong>Myth check:</strong> no changes have been made to CLAT 2027's syllabus or exam pattern — the Expert Committee's reform recommendations apply, if adopted at all, only from CLAT 2028.</li>
+</ul>
+<p><em>Sources: <a href="https://consortiumofnlus.ac.in/clat-2027/" rel="noopener" target="_blank">CLAT 2027 official notifications page</a> (consortiumofnlus.ac.in); <a href="https://consortiumofnlus.ac.in/documents/Expert_Committee_Report_2026_Press_Release.pdf" rel="noopener" target="_blank">CLAT Expert Committee Report 2026 — official Press Release</a> (consortiumofnlus.ac.in); <a href="https://nationallawuniversitydelhi.in/notification/AILET_2027.pdf" rel="noopener" target="_blank">AILET 2027 official notification</a> (nationallawuniversitydelhi.in); <a href="https://hc-ojas.gujarat.gov.in/" rel="noopener" target="_blank">Gujarat High Court recruitment portal</a> (hc-ojas.gujarat.gov.in).</em></p>
+<p><strong>Last updated: 30 August 2026.</strong></p>
+`
+},
+{
+  slug: "top-10-clat-coaching-institutes-jammu-2026",
+  title: "Top 10 CLAT Coaching Institutes in Jammu (2026)",
+  category: "CLAT / Law",
+  date: "30 Aug 2026",
+  minutes: 9,
+  cta: { href: "coaching-jammu.html", text: "Browse all verified coaching institutes in Jammu" },
+  excerpt: "Jammu's CLAT-coaching market has grown fast around Trikuta Nagar, Gandhi Nagar and Kacchi Chawni, mixing national brands with law-only local academies. Here's a fact-checked look at ten institutes actually training CLAT aspirants in the city.",
+  image: "assets/blog/top-10-clat-coaching-institutes-jammu-2026.png",
+  imageAlt: "Top 10 CLAT coaching institutes in Jammu 2026 graphic",
+  faqs: [
+    { q: "Which is the best CLAT coaching institute in Jammu?", a: "There's no single 'best' — Law Prep Tutorial brings a national CLAT/AILET-topper track record (AIR 1 in CLAT 2026) to its Gandhi Nagar centre, Bulls Eye has run in the city since 2004, and Elite Law Institute and Juris Law Institute are dedicated law-only academies with small batches. National chains Career Launcher and T.I.M.E. (CLATPREP) bring standardised systems and test-series networks. The right pick depends on whether you want a closely-run local institute or a national brand's infrastructure." },
+    { q: "Where in Jammu are most CLAT coaching institutes located?", a: "Trikuta Nagar and Gandhi Nagar are Jammu's main CLAT-coaching hubs, home to Career Launcher, Elite Law Institute, Law Prep Tutorial and one of CLATPREP's three centres. Kacchi Chawni/Ambphalla hosts Bulls Eye and The Pioneers Academy, while Juris Law Institute operates from Bahu Plaza and Career Success from Canal Road." },
+    { q: "What does CLAT coaching cost in Jammu?", a: "Classroom CLAT coaching in Jammu typically runs from about ₹45,000 to ₹90,000 per year depending on the institute, batch type and course duration, per fee data compiled by Shiksha. Exact current fees should be confirmed directly with each institute." },
+    { q: "Is online CLAT coaching available for Jammu students?", a: "Yes. Most Jammu institutes now run hybrid classroom-plus-online batches, and national online-only platforms such as Hitbullseye also market directly to Jammu aspirants as an alternative to relocating for coaching." }
+  ],
+  html: `
+<p>Jammu's CLAT-coaching market has grown quickly over the past few years as more Jammu and Kashmir region students choose to prepare locally instead of relocating to Delhi or Chandigarh. Coaching activity clusters mainly around Trikuta Nagar and Gandhi Nagar, with a second hub in Kacchi Chawni/Ambphalla along Exchange Road and a smaller cluster on Canal Road. Local demand is anchored partly by the University of Jammu's own Jammu University Entrance Test (JUET) for its five-year B.A. LL.B. programme, and by law colleges such as KC Law College Jammu that admit through CLAT or JUET — alongside the national pull of CLAT and AILET for the 26 NLUs and NLU Delhi. Below is a fact-checked look at ten institutes actually training CLAT aspirants in the city, each checked against at least one independent or official source.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Jammu, Jammu &amp; Kashmir (UT)</p>
+<p><strong>Main exam covered:</strong> CLAT, alongside AILET and judiciary prep at some institutes</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked</p>
+<p><strong>Main coaching hubs:</strong> Trikuta Nagar, Gandhi Nagar, Kacchi Chawni/Ambphalla, Canal Road</p>
+<p><strong>Typical annual fee range:</strong> ₹45,000 – ₹90,000 (classroom programmes)</p>
+<p><strong>Local law entrance:</strong> University of Jammu's JUET, alongside national CLAT/AILET</p>
+</div>
+
+<p>CLAT itself has stayed a fixed target this year: the Consortium of NLUs confirmed there will be no changes to CLAT 2027's syllabus or exam pattern, so Jammu aspirants are preparing for the same 120-question, five-section format — English, Current Affairs including GK, Legal Reasoning, Logical Reasoning and Quantitative Techniques — that recent batches trained on. That stability is part of why local institutes can run structured, multi-month batches rather than constantly reworking their material, and it's one reason more Jammu students now choose to prepare at home instead of moving to Delhi, Chandigarh or Kota for a full year.</p>
+
+<h3>1. Law Prep Tutorial</h3>
+<p>Law Prep Tutorial, headquartered nationally with a proven CLAT/AILET-topper track record, opened its Jammu centre at Green Belt Park, Gandhi Nagar, in 2024. Its CLAT 2027 Target and Finisher batches run on 800-plus hours of classroom instruction, and the brand produced CLAT 2026's AIR 1 (Geetali Gupta) alongside 1,600-plus NLU selections nationally.</p>
+
+<h3>2. Career Launcher</h3>
+<p>Career Launcher's Jammu branch, in Sector 1 Extension, Trikuta Nagar, runs LST Express, LST Plus, LST Span and CLAT Plus Classroom programmes, giving local students access to the brand's national test-series network alongside in-person teaching.</p>
+
+<h3>3. Bulls Eye</h3>
+<p>Bulls Eye has operated in Jammu since 2004 — one of the city's longest-running law-entrance institutes — from Exchange Road, Kacchi Chawni, Ambphalla. Its dedicated LAW CLAT course covers classroom, online and self-study formats with regular CLAT and AILET mocks.</p>
+
+<h3>4. CLATPREP (T.I.M.E.)</h3>
+<p>CLATPREP, T.I.M.E.'s dedicated CLAT vertical, runs three Jammu locations — Krishna Nagar, Exchange Road and Gandhi Nagar — offering class tests, sectional tests, doubt-solving sessions and full-length mocks with strategy sessions under a national multi-exam brand.</p>
+
+<h3>5. Elite Law Institute</h3>
+<p>Elite Law Institute, based in Trikuta Nagar's Sector 1 Extension, focuses on CLAT alongside Judiciary and other law-entrance courses, running small batches with tailored study plans and post-result counselling for NLU applications.</p>
+
+<h3>6. Juris Law Institute</h3>
+<p>Juris Law Institute operates from Bahu Plaza, South Block, running small, personalised batches focused solely on CLAT and law-entrance preparation, with topic-wise tests and individual doubt-solving sessions.</p>
+
+<h3>7. Career Success</h3>
+<p>Career Success, on Canal Road, runs a combined MAT/CAT/CLAT programme alongside its other competitive-exam courses, with classroom teaching, weekly and online tests, doubt support and dedicated current-affairs preparation for CLAT's General Knowledge section.</p>
+
+<h3>8. The Pioneers Academy</h3>
+<p>The Pioneers Academy, in Kacchi Chawni/Ambphalla, positions itself as an affordable, foundation-focused CLAT option with frequent assessments and mentoring — a newer entrant building a following among cost-conscious local aspirants.</p>
+
+<h3>9. Manu Law Classes Private Limited</h3>
+<p>Manu Law Classes is a Jammu-based law-entrance institute with a consistent run of independently posted five-star student reviews praising its faculty and affordability; it has not yet published a standalone locality address, so confirm its current centre directly before enrolling.</p>
+
+<h3>10. Hitbullseye (Online)</h3>
+<p>Hitbullseye is a pan-India, online-only CLAT platform with over two decades of test-prep experience, running Master Classes, a national test series and video counselling. It has no physical Jammu centre and is listed here as an online option for students who don't need in-person classes.</p>
+
+<h2>A note on choosing between them</h2>
+<p>No institute on this list is automatically right for every student. Bulls Eye, Elite Law Institute, Juris Law Institute and The Pioneers Academy suit students who want a closely-run, law-only institute with small batches; Career Launcher and CLATPREP (T.I.M.E.) bring national-chain infrastructure and test-series networks through confirmed local branches; Law Prep Tutorial pairs a national topper track record with a dedicated Jammu centre; and Career Success suits students weighing CLAT alongside CAT or MAT. Manu Law Classes is worth a direct enquiry if you want a smaller, community-recommended option, though you should confirm its current address before visiting. Hitbullseye is worth considering only if a physical classroom isn't a priority — its national test series can also work as a supplement alongside any of the classroom institutes above rather than as a replacement.</p>
+<p>Whichever institute you shortlist, ask the same questions: how many hours of classroom or live instruction the fee actually buys, how recent the faculty's own CLAT or AILET results are, how large the batch will be, and whether the mock-test series is calibrated to CLAT's current 120-question format rather than an older pattern. Treat every fee, founding-year and batch-size claim in this article as a starting point, not a fixed quote, and confirm current details directly with the institute before enrolling.</p>
+
+<p>Compare full details and additional Jammu institutes on our <a href="coaching-jammu.html">Jammu coaching page</a>.</p>
+`
+},
+{
     slug: "rodha-panchayat",
     title: "Rodha Panchayat: Mentoring Sessions, Format and Benefits",
     category: "CAT / MBA",
