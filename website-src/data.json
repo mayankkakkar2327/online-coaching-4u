@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "jammu",
       "sikar",
       "delhi",
       "jaipur",
@@ -111,6 +112,210 @@
     "genai": "Gen AI"
   },
   "listings": [
+    {
+      "slug": "law-prep-tutorial-jammu",
+      "type": "coaching",
+      "name": "Law Prep Tutorial",
+      "city": "jammu",
+      "locality": "Gandhi Nagar",
+      "address": "Green Belt Park, 14 B/C, Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
+      "estd": 2024,
+      "exams": [
+        "clat",
+        "ailet"
+      ],
+      "verified": true,
+      "about": "Law Prep Tutorial, India's premier CLAT/AILET coaching chain, opened its Jammu centre at Green Belt Park, Gandhi Nagar in 2024. It runs CLAT 2027 Target, CLAT 2027 Finisher and CLAT 2028 Foundation batches with 800-plus hours of classroom instruction, and the brand's CLAT 2026 results included AIR 1 (Geetali Gupta) and 1,600-plus NLU selections nationally.",
+      "highlights": [
+        "National CLAT/AILET-topper track record, including CLAT 2026's AIR 1",
+        "800+ classroom hours across Target and Finisher batches",
+        "Jammu centre opened 2024 at Green Belt Park, Gandhi Nagar"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-jammu",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "jammu",
+      "locality": "Trikuta Nagar",
+      "address": "House No. 1, near Master Mind Classes, Sector 1 Extension, Trikuta Nagar, Jammu, Jammu and Kashmir 180012",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Career Launcher's Jammu centre in Trikuta Nagar runs LST Express, LST Plus, LST Span and CLAT Plus Classroom programmes, giving students access to the brand's national CLAT test-series network alongside local classroom teaching, practice papers and workshops.",
+      "highlights": [
+        "National LST (Legal Study Tutorial) brand with a Jammu classroom centre",
+        "Multiple batch formats: LST Express, LST Plus, LST Span, CLAT Plus",
+        "Access to Career Launcher's national test-series network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bulls-eye-jammu",
+      "type": "coaching",
+      "name": "Bulls Eye",
+      "city": "jammu",
+      "locality": "Kacchi Chawni",
+      "address": "Exchange Road, opposite Telephone Exchange, Kacchi Chawni, Ambphalla, Jammu, Jammu and Kashmir 180001",
+      "estd": 2004,
+      "exams": [
+        "clat",
+        "ailet"
+      ],
+      "verified": true,
+      "about": "Bulls Eye has run its Jammu centre since 2004 under a dedicated LAW CLAT course — one of the city's longest-established law-entrance institutes. It offers classroom, online and self-study formats, with regular mock tests for both CLAT and AILET and technology-supported performance analysis.",
+      "highlights": [
+        "Operating in Jammu since 2004",
+        "Dedicated LAW CLAT course with CLAT and AILET mocks",
+        "Classroom, online and self-study formats available"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "clatprep-time-jammu",
+      "type": "coaching",
+      "name": "CLATPREP (T.I.M.E.)",
+      "city": "jammu",
+      "locality": "Gandhi Nagar",
+      "address": "Guru Ravi Das Lane, opposite Science College, Krishna Nagar, Jammu; Raghbir Enclave, Exchange Road, Jammu; Gole Market, Gandhi Nagar, Jammu 180004",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "CLATPREP, run under the national T.I.M.E. brand, operates three Jammu locations across Krishna Nagar, Exchange Road and Gandhi Nagar. The programme includes class tests, sectional tests, doubt-solving sessions and full-length mocks with strategy sessions.",
+      "highlights": [
+        "Three Jammu locations under the national T.I.M.E. brand",
+        "Class tests, sectional tests and full-length mocks with strategy sessions",
+        "Part of T.I.M.E.'s established multi-exam coaching network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "elite-law-institute-jammu",
+      "type": "coaching",
+      "name": "Elite Law Institute",
+      "city": "jammu",
+      "locality": "Trikuta Nagar",
+      "address": "No. 1, Sector 1 Extension, near Master Mind Classes, Trikuta Nagar, Jammu, Jammu and Kashmir 180020",
+      "estd": null,
+      "exams": [
+        "clat",
+        "judiciary"
+      ],
+      "verified": true,
+      "about": "Elite Law Institute in Trikuta Nagar focuses on CLAT preparation alongside Judiciary and other law-entrance courses, running small batches for individualised attention plus post-exam counselling and college-application guidance.",
+      "highlights": [
+        "Focused on CLAT plus Judiciary and other law-entrance exams",
+        "Small batch sizes for individualised attention",
+        "Post-exam counselling and NLU application guidance"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "juris-law-institute-jammu",
+      "type": "coaching",
+      "name": "Juris Law Institute",
+      "city": "jammu",
+      "locality": "Bahu Plaza",
+      "address": "Bahu Plaza, South Block, Hall 116, A2, Jammu, Jammu and Kashmir 180012",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Juris Law Institute runs small, personalised batches from Bahu Plaza dedicated solely to CLAT and law-entrance preparation, with topic-wise tests, individual doubt-solving sessions and structured study material.",
+      "highlights": [
+        "Law-entrance-only focus, not a multi-exam brand",
+        "Small batches for individualised attention",
+        "Topic-wise tests and individual doubt-solving sessions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-success-jammu",
+      "type": "coaching",
+      "name": "Career Success",
+      "city": "jammu",
+      "locality": "Canal Road",
+      "address": "Above Creations, Canal Road, Jammu, Jammu and Kashmir 180016",
+      "estd": null,
+      "exams": [
+        "clat",
+        "cat"
+      ],
+      "verified": true,
+      "about": "Career Success on Canal Road runs a combined MAT/CAT/CLAT programme alongside its other competitive-exam courses, including classroom teaching, weekly and online tests, doubt support and dedicated current-affairs preparation.",
+      "highlights": [
+        "Combined CLAT alongside CAT/MAT coaching under one roof",
+        "Weekly and online tests with doubt support",
+        "Dedicated current-affairs preparation track"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "the-pioneers-academy-jammu",
+      "type": "coaching",
+      "name": "The Pioneers Academy",
+      "city": "jammu",
+      "locality": "Kacchi Chawni",
+      "address": "2nd Floor, Sahitya Sangam Lane, opposite BJP Office, Ambphalla, Kacchi Chawni, Jammu, Jammu and Kashmir 180001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "The Pioneers Academy positions itself as an affordable, foundation-focused CLAT option in Kacchi Chawni, with a curriculum aligned to the latest exam pattern, frequent assessments and weekly feedback sessions.",
+      "highlights": [
+        "Affordable, foundation-focused CLAT coaching",
+        "Frequent assessments with weekly feedback",
+        "Newer entrant gaining a local following"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "manu-law-classes-jammu",
+      "type": "coaching",
+      "name": "Manu Law Classes Private Limited",
+      "city": "jammu",
+      "locality": "Jammu",
+      "address": "Jammu, Jammu and Kashmir",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Manu Law Classes is a Jammu-based law-entrance institute with a consistent run of independently posted five-star student reviews praising its faculty and affordability. It has not published a standalone locality address online — confirm its current centre directly before enrolling.",
+      "highlights": [
+        "Multiple independent five-star student reviews",
+        "Noted for affordability among local aspirants",
+        "Address not independently confirmed — verify directly"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "hitbullseye-clat-online",
+      "type": "coaching",
+      "name": "Hitbullseye",
+      "city": "jammu",
+      "locality": "Online",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Hitbullseye is a pan-India, online-only CLAT platform with over two decades of test-prep experience, offering Master Classes, a National Test Series, study material and audio/video counselling. It has no physical Jammu centre and markets directly to Jammu aspirants as an alternative to relocating for classroom coaching.",
+      "highlights": [
+        "Online-only, pan-India CLAT platform",
+        "20+ years of test-prep experience",
+        "No physical Jammu centre — pure online alternative"
+      ],
+      "mode": "online"
+    },
     {
       "slug": "navjeevan-neet-academy-sikar",
       "type": "coaching",
@@ -10316,6 +10521,9 @@
     }
   ],
   "cityContent": {
+    "coaching-jammu": {
+      "intro": "<p>Jammu, Jammu and Kashmir's winter capital, has built a genuine CLAT-coaching market of its own over the past decade, distinct from nearby Chandigarh and Delhi. Coaching activity clusters mainly around Trikuta Nagar and Gandhi Nagar, with a second hub in Kacchi Chawni/Ambphalla along Exchange Road and a smaller cluster on Canal Road. Local demand is anchored partly by the University of Jammu's own Jammu University Entrance Test (JUET) for its five-year B.A. LL.B. programme, alongside the national pull of CLAT and AILET for the 26 NLUs and NLU Delhi. The market mixes national chains (Career Launcher, T.I.M.E./CLATPREP, Law Prep Tutorial, Bulls Eye) with Jammu-founded specialists (Elite Law Institute, Juris Law Institute, Career Success, The Pioneers Academy, Manu Law Classes). Every listing below shows its verification status and, where available, additional detail on faculty and track record.</p>"
+    },
     "coaching-kolkata": {
       "intro": "<p>Kolkata is West Bengal's coaching hub for NEET preparation, feeding the state's roughly 40 government and private medical colleges and their combined MBBS seat count in the thousands, alongside AIQ seats across India. The city's institutes cluster around three zones: the CIT Road/Kankurgachi/Phool Bagan belt in the east, Salt Lake and New Town further out, and Gariahat/Rash Behari/Sarat Bose Road in the south, all well connected by the Blue and Green Line metro. The market mixes Kota- and Mumbai-origin national chains (Aakash, Allen, Resonance, Career Point, PACE IIT & Medical, Vidyamandir Classes, Narayana) with Kolkata-built specialists (Rana Sir Classes, Ignescent Gurukul, Career & Courses). Every listing below shows its verification status and, where available, student ratings.</p>"
     },
