@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "noida",
       "jammu",
       "sikar",
       "delhi",
@@ -112,6 +113,215 @@
     "genai": "Gen AI"
   },
   "listings": [
+    {
+      "slug": "fiitjee-noida",
+      "type": "coaching",
+      "name": "FIITJEE",
+      "city": "noida",
+      "locality": "Sector 62",
+      "address": "D-56A/26, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201307",
+      "estd": 1992,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "FIITJEE, founded in Delhi in 1992, runs its Noida centre from a dedicated FIITJEE Tower in the Sector 62 industrial belt. It is one of India's older IIT-JEE-focused chains, offering Two-Year, One-Year and repeater classroom programmes built around its own study material and internal ranking tests.",
+      "highlights": [
+        "National chain founded 1992, IIT-JEE-focused since inception",
+        "Dedicated FIITJEE Tower campus in Sector 62 industrial belt",
+        "Two-Year, One-Year and repeater batch structures"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-noida",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "noida",
+      "locality": "Sector 18",
+      "address": "K-4, 4th Floor, Ocean Heights, Sector 18, Noida, Uttar Pradesh 201301",
+      "estd": 1988,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Aakash Institute, founded in Delhi in 1988 and now part of the Aakash Educational Services network, runs its Noida centre from Ocean Heights in Sector 18. It offers integrated school-plus-JEE/NEET programmes alongside dedicated JEE batches, backed by centrally produced study material and a pan-India test-series network.",
+      "highlights": [
+        "National network founded 1988, dual JEE/NEET focus",
+        "Integrated (school + competitive exam) and dedicated JEE tracks",
+        "Centralised study material and pan-India test series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-noida",
+      "type": "coaching",
+      "name": "ALLEN Career Institute",
+      "city": "noida",
+      "locality": "Sector 62",
+      "address": "C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309",
+      "estd": 1988,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "ALLEN Career Institute, founded in Kota in 1988 by Rajesh Maheshwari, runs a Sector 62 centre in Noida as part of its national expansion. ALLEN's Kota campus is one of India's largest single JEE/NEET coaching operations, and its NCR centre extends the same Foundation, Two-Year and Dropper batch structure to students who'd rather not relocate.",
+      "highlights": [
+        "Kota-origin chain founded 1988, large-scale JEE/NEET operation",
+        "Foundation, Two-Year and Dropper (repeater) batches",
+        "NCR expansion centre in Sector 62"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "narayana-iit-academy-noida",
+      "type": "coaching",
+      "name": "Narayana IIT Academy",
+      "city": "noida",
+      "locality": "Sector 62",
+      "address": "C-56/43, 2nd Floor, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309",
+      "estd": 1979,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Narayana, founded in Andhra Pradesh in 1979, is one of India's largest integrated-schooling and competitive-exam chains, with its Noida operation based in the Sector 62 industrial belt. The centre runs JEE Main and Advanced batches alongside school-integrated programmes, following Narayana's standardised, test-heavy curriculum.",
+      "highlights": [
+        "Large national chain founded 1979 in Andhra Pradesh",
+        "Sector 62 centre offers integrated-school and JEE-only tracks",
+        "Standardised curriculum with frequent internal testing"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vidyamandir-classes-noida",
+      "type": "coaching",
+      "name": "Vidyamandir Classes (VMC)",
+      "city": "noida",
+      "locality": "Sector 4",
+      "address": "2nd & 3rd Floor, B-3, Amaltash Marg, Opposite Telephone Exchange, Block B, Sector 4, Noida, Uttar Pradesh 201301",
+      "estd": 1986,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Vidyamandir Classes, founded in Delhi in 1986 by IIT alumni, is a JEE-Advanced-focused chain with a Noida centre on Amaltash Marg in Sector 4. VMC runs Regular, Weekend and correspondence courses built around its own test-series network, and has historically kept batch sizes smaller than the largest national chains.",
+      "highlights": [
+        "Founded 1986 by IIT alumni, JEE-Advanced-focused",
+        "Regular, Weekend and correspondence course formats",
+        "Sector 4 centre with VMC's national test-series network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-noida",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "noida",
+      "locality": "Sector 62",
+      "address": "1st Floor, C-30/3, Opposite Indian Oil Apartment, Sector 62, Noida, Uttar Pradesh 201301",
+      "estd": 1995,
+      "exams": [
+        "jee",
+        "cat"
+      ],
+      "verified": true,
+      "about": "Career Launcher, founded in Delhi in 1995 by IIT-IIM alumni, is better known nationally for CAT/MBA coaching but also runs JEE Main and Advanced batches, including a pre-foundation track, from its Sector 62 centre in Noida, with an emphasis on mock-test analysis and one-on-one doubt-clearing.",
+      "highlights": [
+        "Founded 1995 by IIT-IIM alumni; also a major CAT/MBA brand",
+        "JEE Main, Advanced and pre-foundation batches in Sector 62",
+        "Mock-test analysis and one-on-one doubt sessions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-noida",
+      "type": "coaching",
+      "name": "PW Vidyapeeth (Physics Wallah)",
+      "city": "noida",
+      "locality": "Sector 62",
+      "address": "C-56/4, Edward Lane, C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309",
+      "estd": 2020,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "PW Vidyapeeth is the offline-classroom arm of Physics Wallah, the edtech company that grew from a YouTube channel into a formal coaching brand from 2020 onward. Its Sector 62 centre in Noida runs JEE, NEET and school-foundation batches, and admission includes PWSAT, PW's own scholarship-linked entrance test that can cut tuition fees for qualifying students.",
+      "highlights": [
+        "Offline arm of Physics Wallah, formalised as a company in 2020",
+        "JEE, NEET and Class 8-10 foundation batches in Sector 62",
+        "PWSAT scholarship test can reduce tuition for qualifiers"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "resonance-eduventures-noida",
+      "type": "coaching",
+      "name": "Resonance Eduventures",
+      "city": "noida",
+      "locality": "Sector 60",
+      "address": "Resonance Eduventures, Sector 60, Noida, Uttar Pradesh",
+      "estd": 2001,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Resonance, founded in Kota in 2001, is one of the larger Kota-origin JEE/NEET chains, with a Sector 60 centre serving Noida and Greater Noida students who want its structured, test-heavy pedagogy without relocating. The Noida centre runs the same core JEE Main/Advanced batch structure used at the Kota campus.",
+      "highlights": [
+        "Kota-origin chain founded 2001",
+        "Sector 60 centre serves Noida/Greater Noida catchment",
+        "Same core JEE Main/Advanced batch structure as Kota campus"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rao-iit-academy-noida",
+      "type": "coaching",
+      "name": "Rao IIT Academy",
+      "city": "noida",
+      "locality": "Sector 62",
+      "address": "Rao IIT Academy, Sector 62, Noida, Uttar Pradesh",
+      "estd": 2000,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Rao IIT Academy, founded in Kota around 2000 by Dr. B.V. Rao before expanding into Mumbai in 2008, runs a Sector 62 centre in Noida as part of its wider network. The institute focuses on JEE Advanced and NEET/AIIMS preparation, built around a smaller, more test-intensive batch model than the largest chains.",
+      "highlights": [
+        "Founded in Kota c.2000 by Dr. B.V. Rao",
+        "Expanded into Mumbai in 2008; now has a Noida (Sector 62) centre",
+        "JEE Advanced and NEET/AIIMS-focused curriculum"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "beacon-classes-noida",
+      "type": "coaching",
+      "name": "Beacon Classes",
+      "city": "noida",
+      "locality": "Sector 41",
+      "address": "Block C Market, Shop No. 10, I & II, Near Evergreen Sweet Shop, Sector 41, Noida, Uttar Pradesh 201301",
+      "estd": 2012,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Beacon Classes, a Noida-founded institute running since 2012, is a smaller local alternative to the national chains, based in Sector 41's Block C Market. It runs Integrated and Excel-track JEE/NEET batches in one-, two- and three-year formats with intentionally small batch sizes, positioning itself as a lower-cost option than the larger brands.",
+      "highlights": [
+        "Noida-local institute running since 2012",
+        "Smaller batch sizes than national chains, Sector 41 location",
+        "One-, two- and three-year Integrated/Excel JEE-NEET tracks"
+      ],
+      "mode": "offline"
+    },
     {
       "slug": "law-prep-tutorial-jammu",
       "type": "coaching",
@@ -10521,6 +10731,9 @@
     }
   ],
   "cityContent": {
+    "coaching-noida": {
+      "intro": "<p>Noida, part of the Delhi-NCR industrial belt, has grown into one of north India's busiest JEE-coaching markets over the past decade, anchored by the FIITJEE Tower and a dense cluster of national-chain centres along the Sector 62 Industrial Area. A second hub sits around Sector 18's commercial core, with smaller clusters in Sector 4, Sector 41 and Sector 60. Local demand is driven almost entirely by JEE Main and Advanced — Noida has no state-specific engineering entrance exam of its own — alongside a growing NEET-coaching overlap at several of the same institutes. The market mixes long-running national brands (FIITJEE, Aakash, ALLEN, Narayana, Vidyamandir Classes, Career Launcher, Resonance Eduventures, Rao IIT Academy) with a newer entrant (PW Vidyapeeth) and a Noida-founded local institute (Beacon Classes). Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
+    },
     "coaching-jammu": {
       "intro": "<p>Jammu, Jammu and Kashmir's winter capital, has built a genuine CLAT-coaching market of its own over the past decade, distinct from nearby Chandigarh and Delhi. Coaching activity clusters mainly around Trikuta Nagar and Gandhi Nagar, with a second hub in Kacchi Chawni/Ambphalla along Exchange Road and a smaller cluster on Canal Road. Local demand is anchored partly by the University of Jammu's own Jammu University Entrance Test (JUET) for its five-year B.A. LL.B. programme, alongside the national pull of CLAT and AILET for the 26 NLUs and NLU Delhi. The market mixes national chains (Career Launcher, T.I.M.E./CLATPREP, Law Prep Tutorial, Bulls Eye) with Jammu-founded specialists (Elite Law Institute, Juris Law Institute, Career Success, The Pioneers Academy, Manu Law Classes). Every listing below shows its verification status and, where available, additional detail on faculty and track record.</p>"
     },
