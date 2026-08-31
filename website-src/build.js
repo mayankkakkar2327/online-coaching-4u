@@ -188,6 +188,7 @@ function footer() {
 <li><a href="certification.html">Certifications</a></li>
 <li><a href="list-your-institute.html">List Your Institute</a></li>
 <li><a href="/sitemap.xml">Sitemap</a></li>
+<li><a href="https://www.onlinecoaching4u.in/feed">Feed</a></li>
 </ul>
 </div>
 <div>
