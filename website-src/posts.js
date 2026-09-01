@@ -2,6 +2,120 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+  slug: "neet-ug-2026-round2-aiq-counselling-schedule-update",
+  title: "NEET UG 2026: Round 2 AIQ Counselling Registration Opens 3 September",
+  category: "NEET",
+  date: "01 Sep 2026",
+  minutes: 4,
+  cta: { href: "coaching.html?exam=neet", text: "Browse verified NEET coaching institutes" },
+  excerpt: "MCC has released the Round 2 schedule for NEET UG 2026 counselling under the 15% All India Quota and Deemed/Central university seats: registration opens 3 September 2026 and the seat allotment result is due 11 September.",
+  image: "assets/blog/neet-ug-2026-round2-aiq-counselling-schedule-update.png",
+  imageAlt: "NEET UG 2026 Round 2 counselling schedule update graphic",
+  faqs: [
+    { q: "When does NEET UG 2026 Round 2 AIQ registration open", a: "Registration opens 3 September 2026 and closes 8 September 2026 (payment accepted up to 6 PM); choice filling runs 3 to 9 September, with choice locking from 4 PM on 8 September to 10 AM on 9 September — all per MCC's official Round 2 schedule dated 27 August 2026." },
+    { q: "When will the NEET UG 2026 Round 2 seat allotment result be declared", a: "MCC has scheduled the Round 2 result for 11 September 2026, with reporting and joining at allotted institutes running from 12 to 18 September 2026." },
+    { q: "Can Round 1 candidates who already joined a seat resign before Round 2", a: "Yes — MCC opened a resignation/seat-withdrawal window for Round 1 'freeze' candidates from 2 PM on 31 August to 1 PM on 2 September 2026. Candidates must resign in person at their allotted institute; resigning within this window does not forfeit the security deposit." }
+  ],
+  html: `
+<p><strong>Last updated: 1 September 2026.</strong></p>
+<p>The Medical Counselling Committee (MCC) has released the official Round 2 counselling schedule for NEET UG 2026 admissions under the 15% All India Quota (AIQ) and 100% Deemed/Central University seats — registration opens 3 September 2026 and runs through 8 September, with the seat allotment result due 11 September.</p>
+
+<h2>What changed</h2>
+<p>MCC published the Round 2 AIQ schedule on 27 August 2026, covering admission to MBBS, BDS and BSc Nursing seats under the 15% All India Quota as well as 100% seats in Deemed/Central Universities, ESIC colleges, AFMC Pune, AIIMS and JIPMER (Puducherry and Karaikal). Participating institutes verify their tentative seat matrix on 1 and 2 September, after which registration and payment open for candidates from 3 September to 8 September 2026 (payment accepted up to 6 PM on the 8th). Choice filling runs from 3 September up to 10 AM on 9 September, and choice locking is a shorter window — from 4 PM on 8 September to 10 AM on 9 September.</p>
+<p>Separately, MCC opened a resignation window on 31 August for Round 1 "freeze" candidates who joined a seat but now want to withdraw — this closes 1 PM on 2 September 2026, and candidates must report in person at their allotted institute; resigning inside this window does not cost the security deposit.</p>
+
+<h2>What it means for candidates</h2>
+<p>Round 2 seat processing runs 9-10 September, with results declared 11 September 2026 and reporting/joining at allotted colleges scheduled 12-18 September. Candidates who registered for Round 1 but weren't allotted a seat, and those who want to try for a better seat via fresh choices, need to register again for Round 2 — MCC does not automatically carry forward Round 1 choices. It's also worth checking the seat matrix verified on 1-2 September before choice-filling, since it will reflect any seats vacated through the Round 1 resignation window rather than Round 1's original seat list.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>Category checked:</strong> Medical (NEET UG counselling)</p>
+<p><strong>Round 2 registration:</strong> 3-8 September 2026</p>
+<p><strong>Choice filling / locking:</strong> 3-9 September / 8-9 September</p>
+<p><strong>Result date:</strong> 11 September 2026</p>
+<p><strong>Reporting window:</strong> 12-18 September 2026</p>
+<p><strong>Round 1 resignation window:</strong> 31 Aug (2 PM) - 2 Sept (1 PM), no security-deposit forfeiture</p>
+<p><strong>Official source checked:</strong> mcc.nic.in</p>
+</div>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[1 Sep 2026]</strong> NEET UG 2026 Round 2 AIQ registration opens 3 September and closes 8 September 2026 — Source: mcc.nic.in</li>
+<li><strong>[1 Sep 2026]</strong> Round 2 seat allotment result is scheduled for 11 September 2026 — Source: mcc.nic.in</li>
+<li><strong>[1 Sep 2026]</strong> Round 1 "freeze" candidates can resign their joined seat without losing their security deposit only until 1 PM on 2 September 2026, and must do so in person at the allotted institute — Source: mcc.nic.in</li>
+<li><strong>[1 Sep 2026]</strong> Round 2 covers 15% AIQ plus 100% seats in Deemed/Central Universities, ESIC colleges, AFMC Pune, AIIMS and JIPMER (Puducherry & Karaikal) for MBBS, BDS and BSc Nursing — Source: mcc.nic.in</li>
+<li><strong>[1 Sep 2026]</strong> Candidates must register afresh for Round 2 — MCC does not automatically carry forward Round 1 choices — Source: mcc.nic.in</li>
+</ul>
+
+<p>Compare full details and browse verified coaching options on our <a href="coaching.html?exam=neet">NEET coaching page</a>.</p>
+`
+},
+{
+  slug: "top-10-neet-coaching-institutes-meerut-2026",
+  title: "Top 10 NEET Coaching Institutes in Meerut (2026)",
+  category: "NEET",
+  date: "01 Sep 2026",
+  minutes: 9,
+  cta: { href: "coaching-meerut.html", text: "Browse all verified coaching institutes in Meerut" },
+  excerpt: "Meerut's NEET-coaching market runs along Garh Road and around Meerut College, mixing national chains like Aakash, Allen and PW Vidyapeeth with long-running local specialists. Here's a fact-checked look at ten institutes actually training NEET aspirants in the city.",
+  image: "assets/blog/top-10-neet-coaching-institutes-meerut-2026.png",
+  imageAlt: "Top 10 NEET coaching institutes in Meerut 2026 graphic",
+  faqs: [
+    { q: "Which is the best NEET coaching institute in Meerut", a: "There's no single 'best' — Aakash and Allen bring national-chain scale and standardised test series to their Garh Road and Kanker Khera centres, PW Vidyapeeth offers a lower-cost national-brand option, and local specialists like Adhikaansh Academy, Allele Institute for Medical Entrance and Three Dots Coaching Center focus specifically on medical entrance with smaller batches. The right choice depends on batch size, budget and whether you want a large-chain test-series network or closer individual attention." },
+    { q: "Where in Meerut are most NEET coaching institutes located", a: "Garh Road is Meerut's main coaching corridor, home to Aakash Institute, PW Vidyapeeth and Adhikaansh Academy. A second cluster sits around Meerut College and Kutchery Pul (Allele Institute for Medical Entrance, Three Dots Coaching Center), with further institutes along Begum Bridge Road, Civil Lines, Western Kutchery Road and Meerut Cantt." },
+    { q: "Is there a Uttar Pradesh-specific medical entrance exam, or is NEET the only route", a: "NEET UG is the sole entrance exam for MBBS/BDS admission across India, including Uttar Pradesh — there is no separate state-level medical entrance test. Meerut's coaching institutes are built entirely around NEET UG preparation." }
+  ],
+  html: `
+<p><strong>Last updated: 1 September 2026.</strong></p>
+<p>Meerut has grown into one of western Uttar Pradesh's busier NEET-coaching hubs, with a Garh Road corridor anchoring several national chains and a second, older cluster of local institutes built up around Meerut College and the Kutchery Pul area.</p>
+<p>Unlike engineering entrance exams, NEET UG has no state-specific alternative — every MBBS and BDS aspirant in Uttar Pradesh prepares for the same national exam, which has kept Meerut's coaching market focused and comparatively stable year to year. The city mixes large national brands (Aakash, Allen, PW Vidyapeeth) with medical-entrance specialists (Allele Institute for Medical Entrance, Delhi Academy of Medical Sciences) and several long-running local institutes that predate most of the national chains' arrival in the city. This article lists ten institutes actually training NEET aspirants in Meerut, each checked against at least one independent or official source.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Meerut, Uttar Pradesh</p>
+<p><strong>Main exam covered:</strong> NEET UG (MBBS/BDS/BSc Nursing)</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked</p>
+<p><strong>Main coaching hub:</strong> Garh Road, with a second cluster around Meerut College and Kutchery Pul</p>
+<p><strong>Typical annual fee range:</strong> approx. ₹60,000 – ₹1,80,000 for two-year classroom NEET programmes (varies by institute and batch)</p>
+<p><strong>State-specific medical entrance:</strong> None — Uttar Pradesh uses NEET UG exclusively</p>
+</div>
+
+<p>NEET UG's format has stayed largely unchanged in recent cycles — a single national exam conducted by NTA, followed by counselling run by MCC for All India Quota seats and by the state authority for Uttar Pradesh's own state-quota and private-college seats. That stability is part of why Meerut's institutes can run standardised two-year, one-year and repeater batch structures rather than reworking their programmes annually.</p>
+
+<h3>1. Aakash Institute</h3>
+<p>Aakash Institute, founded in Delhi in 1988 and now part of the Aakash Educational Services network, runs a Meerut centre from Pinnacle Tower on Garh Road, with additional centres at Mangal Pandey Nagar and Modipuram. It offers NEET-focused classroom programmes backed by centrally produced study material and Aakash's pan-India test-series network, alongside its ANTHE scholarship-linked entrance test.</p>
+
+<h3>2. Allen Career Institute</h3>
+<p>Allen Career Institute, founded in Kota in 1988 by Rajesh Maheshwari, runs a Meerut centre in Kanker Khera, behind Ashok Academy. Allen's Kota campus remains one of India's largest single NEET/JEE coaching operations, and its Meerut unit extends the same Two-Year, One-Year and repeater batch structure with regular All-India test series.</p>
+
+<h3>3. PW Vidyapeeth</h3>
+<p>PW Vidyapeeth, the offline coaching arm of Physics Wallah (founded by Alakh Pandey), runs a Meerut centre on Garh Road near Mangal Pandey Nagar. It offers NEET coaching at a lower price point than most legacy national chains, built around Physics Wallah's scholarship-linked entrance test and combined online-offline study material.</p>
+
+<h3>4. Adhikaansh Academy</h3>
+<p>Adhikaansh Academy is a Meerut-founded institute on Garh Road (Nai Sarak), offering NEET, JEE and CUET coaching with faculty drawn from Resonance Kota and Aakash Mumbai backgrounds. It carries a 4.8-star rating across roughly 185 reviews, among the higher-rated local institutes in the city, and runs both online and offline batches.</p>
+
+<h3>5. Allele Institute for Medical Entrance (AIME)</h3>
+<p>Allele Institute for Medical Entrance operates from Meerut College Complex, near Kutchery Pul, and — as its name signals — focuses exclusively on medical entrance preparation rather than running combined NEET/JEE batches. It offers both in-person and online course delivery.</p>
+
+<h3>6. Delhi Academy of Medical Sciences (DAMS)</h3>
+<p>DAMS, a national brand better known for NEET-PG and FMGE coaching, runs a Meerut centre at Manohar Bhawan in Civil Lines that also serves NEET UG aspirants, giving students access to a faculty network built around exam-pattern-specific medical test series.</p>
+
+<h3>7. Matrix Academy</h3>
+<p>Matrix Academy's Meerut Cantt centre, opposite Adharshila School, is a local institute offering NEET and JEE coaching with smaller batch sizes than the national chains, positioned as a value-for-money option within the Cantonment area.</p>
+
+<h3>8. Three Dots Coaching Center</h3>
+<p>Three Dots Coaching Center, run for over three decades by R.P. Singh (a postgraduate in Physics and Mathematics who teaches personally), operates from Meerut College Complex with a second branch in Ganganagar. It keeps batches deliberately small and revises the full syllabus three times across a session, alongside regular tests.</p>
+
+<h3>9. Bansal Classes (Meerut)</h3>
+<p>Bansal Classes' Meerut centre, on Begum Bridge Road near Agra Public School, is a locally run coaching institute offering NEET and other competitive-exam preparation — students should note this Meerut centre operates independently of the well-known Bansal Classes chain headquartered in Kota, and confirm affiliation directly with the centre before enrolling.</p>
+
+<h3>10. Guru Dronacharya</h3>
+<p>Guru Dronacharya, on Western Kutchery Road near the HDFC Bank branch, is one of Meerut's longer-standing local coaching institutes for medical entrance preparation, with a straightforward classroom-based teaching model.</p>
+
+<p>Meerut's NEET coaching scene splits fairly clearly into two tiers: national chains offering large-scale test series and standardised material, and local specialists offering smaller batches and, in cases like Adhikaansh Academy and Three Dots Coaching Center, direct access to senior faculty. Given the fee gap between the two — roughly ₹60,000 for a leaner local programme versus ₹1,80,000 for a flagship national two-year course — it's worth attending a demo class or two before committing, rather than choosing on brand name alone.</p>
+
+<p>Compare full details and browse verified coaching options on our <a href="coaching-meerut.html">Meerut coaching page</a>.</p>
+`
+},
+{
   slug: "gate-2027-registration-live-postponed-update",
   title: "GATE 2027 Registration Opens on GOAPS After Two-Week Delay",
   category: "GATE",
