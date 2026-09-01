@@ -170,8 +170,11 @@ ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-curr
 }
 
 function footer() {
+  const footerCityCounts = DATA.cities.coaching.filter(c => c !== "online").map(c => ({ c, n: byCity("coaching", c).length }));
+  const topFooterCities = [...footerCityCounts].sort((a, b) => b.n - a.n).slice(0, 10);
   const coachingCities = `<li><a href="coaching-online.html">Online Coaching</a></li>` +
-    DATA.cities.coaching.map(c => `<li><a href="coaching-${c}.html">Coaching in ${cityLabel(c)}</a></li>`).join("");
+    topFooterCities.map(({ c }) => `<li><a href="coaching-${c}.html">Coaching in ${cityLabel(c)}</a></li>`).join("") +
+    `<li><a href="coaching.html">Browse all ${footerCityCounts.length} cities →</a></li>`;
   return `<footer class="site-footer">
 <div class="container footer-grid">
 <div>
@@ -242,16 +245,34 @@ function searchBox() {
 }
 
 function homePage() {
-  const glyphs = { ias: "§", jee: "∆", neet: "✚", cat: "◆", ssc: "¶", clat: "⚖", nda: "✦", bank: "₹", cuet: "◎" };
+  /* custom stroke icons, one per exam — replaces the old generic unicode glyphs
+     (§ ∆ ✚ ◆ ¶ ⚖ ✦ ₹ ◎), which read as dated placeholder symbols */
+  const icons = {
+    ias: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-7h6v7"/><path d="M4 9h16"/></svg>`,
+    jee: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.4"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/></svg>`,
+    neet: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 16v6M9 8h6l3 6a6 6 0 0 1-12 0l3-6Z"/></svg>`,
+    cat: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>`,
+    ssc: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11.5 11 13.5 15.5 8.5"/><rect x="3.5" y="4" width="17" height="16" rx="3"/></svg>`,
+    clat: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l-3 6a3.5 3.5 0 0 0 7 0l-3-6ZM19 7l-3 6a3.5 3.5 0 0 0 7 0l-3-6ZM5 7h14M9 21h6"/></svg>`,
+    nda: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v5c0 5 4 8.5 9 11 5-2.5 9-6 9-11V6l-9-4Z"/></svg>`,
+    bank: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="10" width="18" height="9" rx="1.5"/><path d="M3 10 12 4l9 6M7 10v9M12 10v9M17 10v9"/></svg>`,
+    cuet: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="M6 10.5V15c0 1.5 2.5 3 6 3s6-1.5 6-3v-4.5"/></svg>`,
+  };
   /* each tile links straight to whichever city has the most listings for that exam —
      deterministic and always has results, unlike the old last-visited-city guess,
      which could land a visitor on a city with zero matches for a niche exam */
   const examCards = ["ias", "jee", "neet", "cat", "ssc", "clat", "nda", "bank", "cuet"]
-    .map((e) => `<a class="tile" href="coaching-${bestCityForExam(e)}.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${glyphs[e]}</span><strong>${examLabel(e)}</strong><span class="muted">${e === "cat" ? "Classroom &amp; online" : "Find coaching"}</span></a>`).join("");
-  const cityCards = DATA.cities.coaching.filter(c => c !== "online").map(c => {
-    const n = byCity("coaching", c).length;
-    return `<a class="tile tile-city" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} institutes listed</span></a>`;
-  }).join("");
+    .map((e) => `<a class="tile tile-h" href="coaching-${bestCityForExam(e)}.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${icons[e]}</span><span class="tile-text"><strong>${examLabel(e)}</strong><span class="muted">${e === "cat" ? "Classroom &amp; online" : "Find coaching"}</span></span></a>`).join("");
+  /* "Browse by city" — a tight grid of the busiest cities plus the long tail as a
+     compact chip list, instead of one full-size card per city (was ~40 identical
+     cards in a row, the single biggest source of homepage clutter) */
+  const cityCounts = DATA.cities.coaching.filter(c => c !== "online").map(c => ({ c, n: byCity("coaching", c).length }));
+  const sortedCityCounts = [...cityCounts].sort((a, b) => b.n - a.n);
+  const topCityCounts = sortedCityCounts.slice(0, 12);
+  const moreCityCounts = sortedCityCounts.slice(12);
+  const topCityCards = topCityCounts.map(({ c, n }) => `<a class="city-mini" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} listed</span></a>`).join("");
+  const moreCityChips = moreCityCounts.map(({ c }) => `<a class="city-chip" href="coaching-${c}.html">${cityLabel(c)}</a>`).join("") +
+    `<a class="city-chip city-chip-cta" href="coaching.html">View all cities →</a>`;
   const onlineCount = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid").length;
   const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1));
   const featured = topRated.slice(0, 6).map(card).join("");
@@ -332,7 +353,8 @@ ${minis}
 </section>
 <section class="section container" style="padding-top:16px">
 <div class="sec-head"><div><div class="eyebrow">Explore</div><h2>Browse by city</h2></div></div>
-<div class="tile-grid">${cityCards}</div>
+<div class="city-mini-grid">${topCityCards}</div>
+<div class="city-more-card"><div class="city-more-label">More cities</div><div class="city-chip-row">${moreCityChips}</div></div>
 </section>
 <section class="section container" style="padding-top:16px">
 <div class="sec-head">
