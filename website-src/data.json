@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "meerut",
       "noida",
       "jammu",
       "sikar",
@@ -10728,6 +10729,208 @@
       ],
       "website": "https://www.visionboardedtech.com/",
       "mode": "online"
+    },
+    {
+      "slug": "aakash-institute-meerut",
+      "type": "coaching",
+      "name": "Aakash Institute",
+      "city": "meerut",
+      "locality": "Garh Road",
+      "address": "2nd Floor, Pinnacle Tower, Near Vaishali Colony, Garh Road, Meerut, Uttar Pradesh",
+      "estd": 1988,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Aakash Institute, founded in Delhi in 1988 and now part of the Aakash Educational Services network, runs a Meerut centre from Pinnacle Tower on Garh Road, with additional centres at Mangal Pandey Nagar and Modipuram. It offers NEET-focused classroom programmes backed by centrally produced study material and Aakash's pan-India test-series network.",
+      "highlights": [
+        "National chain founded 1988, multiple Meerut centres (Garh Road, Mangal Pandey Nagar, Modipuram)",
+        "ANTHE scholarship-linked entrance test",
+        "Pan-India test-series and centrally produced NCERT-aligned material"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-meerut",
+      "type": "coaching",
+      "name": "Allen Career Institute",
+      "city": "meerut",
+      "locality": "Kanker Khera",
+      "address": "Satish Chowk, Lala Mohammadpur Road, Behind Ashok Academy, Kanker Khera, Meerut, Uttar Pradesh 250002",
+      "estd": 1988,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Allen Career Institute, founded in Kota in 1988 by Rajesh Maheshwari, runs a Meerut centre in Kanker Khera, behind Ashok Academy. Allen's Kota campus remains one of India's largest single NEET/JEE coaching operations, and its Meerut unit extends the same Two-Year, One-Year and repeater batch structure with regular All-India test series.",
+      "highlights": [
+        "Kota-origin national chain, founded 1988",
+        "Kanker Khera centre with Two-Year, One-Year and repeater batches",
+        "Regular All-India test series shared across Allen's national network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-meerut",
+      "type": "coaching",
+      "name": "PW Vidyapeeth",
+      "city": "meerut",
+      "locality": "Garh Road",
+      "address": "471/1, Mangal Pandey Nagar, Garh Road, Meerut, Uttar Pradesh 250001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "PW Vidyapeeth, the offline coaching arm of Physics Wallah (founded by Alakh Pandey), runs a Meerut centre on Garh Road near Mangal Pandey Nagar. It offers NEET coaching at a lower price point than most legacy national chains, built around Physics Wallah's scholarship-linked entrance test and combined online-offline study material.",
+      "highlights": [
+        "Offline arm of the Physics Wallah ed-tech brand",
+        "Garh Road centre near Mangal Pandey Nagar",
+        "Lower-cost national-brand option with online-offline hybrid material"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "adhikaansh-academy-meerut",
+      "type": "coaching",
+      "name": "Adhikaansh Academy",
+      "city": "meerut",
+      "locality": "Garh Road",
+      "address": "47, Agarsain Plaza, Nai Sarak, Garh Road, Near Hotel Harmony Inn, Meerut, Uttar Pradesh 250004",
+      "exams": [
+        "neet",
+        "jee",
+        "cuet"
+      ],
+      "verified": true,
+      "googleRating": 4.8,
+      "googleReviewCount": 185,
+      "about": "Adhikaansh Academy is a Meerut-founded institute on Garh Road (Nai Sarak), offering NEET, JEE and CUET coaching with faculty drawn from Resonance Kota and Aakash Mumbai backgrounds. It runs both online and offline batches and carries a 4.8-star rating across roughly 185 reviews.",
+      "highlights": [
+        "Locally founded, Garh Road (Nai Sarak) centre",
+        "Faculty with Resonance Kota and Aakash Mumbai backgrounds",
+        "4.8-star rating across approx. 185 reviews"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "allele-institute-medical-entrance-meerut",
+      "type": "coaching",
+      "name": "Allele Institute for Medical Entrance (AIME)",
+      "city": "meerut",
+      "locality": "Meerut College Complex",
+      "address": "25, First Floor, Meerut College Complex, Near Kutchery Pul, Meerut, Uttar Pradesh",
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "about": "Allele Institute for Medical Entrance operates from Meerut College Complex, near Kutchery Pul, and focuses exclusively on medical entrance preparation rather than running combined NEET/JEE batches. It offers both in-person and online course delivery.",
+      "highlights": [
+        "Medical-entrance-only focus (no combined JEE batches)",
+        "Meerut College Complex centre, near Kutchery Pul",
+        "In-person and online course delivery"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "dams-meerut",
+      "type": "coaching",
+      "name": "Delhi Academy of Medical Sciences (DAMS)",
+      "city": "meerut",
+      "locality": "Civil Lines",
+      "address": "163 Civil Line, Manohar Bhawan, Opposite Jain Eye, Meerut, Uttar Pradesh",
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "about": "DAMS, a national brand better known for NEET-PG and FMGE coaching, runs a Meerut centre at Manohar Bhawan in Civil Lines that also serves NEET UG aspirants, giving students access to a faculty network built around exam-pattern-specific medical test series.",
+      "highlights": [
+        "National medical-coaching brand, primarily known for NEET-PG/FMGE",
+        "Civil Lines (Manohar Bhawan) centre also covers NEET UG",
+        "Exam-pattern-specific medical test series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "matrix-academy-meerut",
+      "type": "coaching",
+      "name": "Matrix Academy",
+      "city": "meerut",
+      "locality": "Meerut Cantt",
+      "address": "Mes Colony, Police Street, Western Road, Opposite Adharshila School, Meerut Cantt, Meerut, Uttar Pradesh 250001",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Matrix Academy's Meerut Cantt centre, opposite Adharshila School, is a local institute offering NEET and JEE coaching with smaller batch sizes than the national chains, positioned as a value-for-money option within the Cantonment area.",
+      "highlights": [
+        "Meerut Cantt centre, opposite Adharshila School",
+        "Smaller batch sizes than national chains",
+        "Value-for-money positioning"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "three-dots-coaching-center-meerut",
+      "type": "coaching",
+      "name": "Three Dots Coaching Center",
+      "city": "meerut",
+      "locality": "Meerut College Complex",
+      "address": "Meerut College Complex, Near Kutchery Pul, Meerut, Uttar Pradesh (second branch in Ganganagar)",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Three Dots Coaching Center, run for over three decades by R.P. Singh (a postgraduate in Physics and Mathematics who teaches personally), operates from Meerut College Complex with a second branch in Ganganagar. It keeps batches deliberately small and revises the full syllabus three times across a session, alongside regular tests.",
+      "highlights": [
+        "Over 30 years running, led personally by founder R.P. Singh",
+        "Two branches: Meerut College Complex and Ganganagar",
+        "Small batches, syllabus revised three times per session"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bansal-classes-meerut",
+      "type": "coaching",
+      "name": "Bansal Classes (Meerut)",
+      "city": "meerut",
+      "locality": "Begum Bridge Road",
+      "address": "1, Old Vijay Nagar Colony, Near Agra Public School, Begum Bridge Road, Meerut, Uttar Pradesh",
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Bansal Classes' Meerut centre, on Begum Bridge Road near Agra Public School, is a locally run coaching institute offering NEET and other competitive-exam preparation. This Meerut centre operates independently of the well-known Bansal Classes chain headquartered in Kota; students should confirm affiliation directly with the centre before enrolling.",
+      "highlights": [
+        "Local Meerut institute on Begum Bridge Road",
+        "Operates independently of the Kota-based Bansal Classes chain",
+        "Combined NEET and competitive-exam preparation"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "guru-dronacharya-meerut",
+      "type": "coaching",
+      "name": "Guru Dronacharya",
+      "city": "meerut",
+      "locality": "Western Kutchery Road",
+      "address": "Western Kutchery Road, Near HDFC Bank, Meerut, Uttar Pradesh",
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "about": "Guru Dronacharya, on Western Kutchery Road near the HDFC Bank branch, is one of Meerut's longer-standing local coaching institutes for medical entrance preparation, with a straightforward classroom-based teaching model.",
+      "highlights": [
+        "Long-standing local institute for medical entrance prep",
+        "Western Kutchery Road location",
+        "Classroom-based teaching model"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -10869,6 +11072,9 @@
     },
     "coaching-gwalior": {
       "intro": "<p>Gwalior - a former princely-state capital in Madhya Pradesh, still known for its fort and its role as an educational centre for the Chambal-Gwalior region - has built a genuine UPSC and MPPSC coaching market of its own, distinct from the bigger hubs of Bhopal and Indore. Coaching activity clusters tightly around Lashkar: Phool Bagh Chauraha alone hosts several institutes within a few hundred metres of each other, with further centres in Thatipur, Padav, Govindpuri and City Centre. The market mixes long-running, locally founded institutes with a couple of pan-India brands' branch offices and one online-only option. Every listing below shows its verification status and, where available, independently visible ratings.</p>"
+    },
+    "coaching-meerut": {
+      "intro": "<p>Meerut, in western Uttar Pradesh's NCR-adjacent belt, has built a steady NEET-coaching market over the past decade, anchored by a Garh Road corridor and a second, older cluster of institutes around Meerut College and Kutchery Pul. Because NEET UG is India's only medical entrance exam — Uttar Pradesh runs no state-specific alternative — demand here is concentrated entirely on one exam, which has let both national chains and local institutes run standardised, non-improvised batch structures. The market mixes long-running national brands (Aakash Institute, Allen Career Institute) with a lower-cost newer entrant (PW Vidyapeeth) and several established local institutes, including a handful — Adhikaansh Academy, Allele Institute for Medical Entrance, Three Dots Coaching Center — that specialise specifically in medical-entrance preparation. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
     }
   }
 }
