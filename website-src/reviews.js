@@ -5,15 +5,6 @@
    platform is simply omitted for that institute rather than filled in. */
 module.exports = [
   {
-    slug: "rodha",
-    reddit: [
-      { quote: "Almost 2000 questions in CAT Quant all in all that ensure you find atleast 13 familiar questions on D Day.", sub: "r/CATPrep", url: "https://www.reddit.com/r/CATPrep/s/6Urh4BFbm6" },
-      { quote: "All the faculty of Rodha are amazing.", sub: "r/CATPrep", url: "https://www.reddit.com/r/CATPrep/s/pFsaHcds3R" }
-    ],
-    youtube: "https://www.youtube.com/c/Rodha",
-    instagram: "https://www.instagram.com/rodhaplanet/?hl=en"
-  },
-  {
     slug: "time-education",
     reddit: [
       { quote: "For tests and mocks, I will pick TIME and for the coaching, I will pick edushastra.", sub: "r/CAT2026Help", url: "https://www.reddit.com/r/CAT2026Help/comments/1ue3scj/which_coaching_institute_is_the_best_for_cat_2026/" },

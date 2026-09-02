@@ -785,11 +785,17 @@ function brandReviewPage(rv, x) {
     ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"} on ${esc(B.name)}</span></span>`
     : `<span class="rating-chip"><span class="muted">No student reviews yet on ${esc(B.name)}</span></span>`;
   const ratingsRows = rv.ratingsBreakdown.map(r => `<tr><td>${esc(r.factor)}</td><td>${starLine(r.rating)}</td><td>${esc(r.why)}</td></tr>`).join("");
-  const whyChooseHtml = rv.whyChoose.map(sec => {
+  const whyChooseHtml = (rv.whyChoose || []).map(sec => {
     const list = sec.list ? `<ul>${sec.list.map(li => `<li>${esc(li)}</li>`).join("")}</ul>` : "";
     const after = sec.after ? `<p>${esc(sec.after)}</p>` : "";
     return `<p><strong>${esc(sec.title)}</strong> ${esc(sec.body)}</p>${list}${after}`;
   }).join("");
+  const resultsHtml = rv.resultsSection ? `<h2>${esc(rv.resultsSection.heading)}</h2>
+<p>${esc(rv.resultsSection.intro)}</p>
+<ul>${rv.resultsSection.bullets.map(li => `<li>${esc(li)}</li>`).join("")}</ul>
+<p>${esc(rv.resultsSection.tableIntro)}</p>
+<table><thead><tr>${rv.resultsSection.tableHeaders.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rv.resultsSection.tableRows.map(row => `<tr>${row.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>
+<p>${esc(rv.resultsSection.closingNote)}</p>` : "";
   const pricingRows = rv.pricingTable.map(p => `<tr><td>${esc(p.program)}</td><td>${esc(p.included)}</td><td>${esc(p.investment)}</td></tr>`).join("");
   const testimonialsHtml = rv.testimonials.map(t => `<div class="rhc-quote brand-quote">“${esc(t.quote)}”<span class="quote-author">— ${esc(t.author)}</span></div>`).join("");
   const faqHtml = rv.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("");
@@ -827,8 +833,8 @@ function brandReviewPage(rv, x) {
 <div class="callout"><strong>Best for:</strong> ${esc(rv.bestFor)}</div>
 <h2>What Is ${esc(x.name)}?</h2>
 ${rv.whatIs.map(p => `<p>${esc(p)}</p>`).join("")}
-<h2>Why Learners Choose ${esc(x.name)}</h2>
-${whyChooseHtml}
+${whyChooseHtml ? `<h2>Why Learners Choose ${esc(x.name)}</h2>${whyChooseHtml}` : ""}
+${resultsHtml}
 <h2>Pricing</h2>
 <table><thead><tr><th>Program</th><th>What's included</th><th>Investment</th></tr></thead><tbody>${pricingRows}</tbody></table>
 <p>${esc(rv.placementNote)}</p>
