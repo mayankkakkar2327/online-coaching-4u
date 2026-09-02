@@ -2,6 +2,111 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+  slug: "cat-2026-registration-closes-15-september-update",
+  title: "CAT 2026 Registration Closes September 15 — Here's What's Confirmed",
+  category: "CAT / MBA",
+  date: "02 Sep 2026",
+  minutes: 4,
+  cta: { href: "coaching.html?exam=cat", text: "Compare verified CAT / MBA coaching institutes" },
+  excerpt: "CAT 2026 registration on iimcat.ac.in closes 15 September 2026 at 5:00 PM IST, with admit cards releasing 4 November and the single-day exam set for 29 November 2026 across roughly 170 cities.",
+  image: "assets/blog/cat-2026-registration-closes-15-september-update.png",
+  imageAlt: "CAT 2026 registration deadline update graphic",
+  faqs: [
+    { q: "When does CAT 2026 registration close", a: "CAT 2026 registration closes on 15 September 2026 at 5:00 PM IST on iimcat.ac.in, the official portal run by IIM Indore, this year's conducting institute; registration opened on 3 August 2026 at 10:00 AM IST." },
+    { q: "When is the CAT 2026 admit card and exam date", a: "The CAT 2026 admit card becomes available for download from 4 November 2026, and the exam is held on a single day, 29 November 2026, in three sessions across roughly 170 test cities nationwide." },
+    { q: "Is there more than one official CAT website", a: "No. IIM Indore states on its official portal that iimcat.ac.in is the only official CAT website and has asked candidates to be cautious of any other site requesting personal information or payment." }
+  ],
+  html: `
+<p><strong>Last updated: 2 September 2026.</strong></p>
+<p>CAT 2026 registration, open since 3 August on iimcat.ac.in, closes on 15 September 2026 at 5:00 PM IST — leaving candidates a little under two weeks to complete and submit their application before the window shuts.</p>
+
+<h2>What's confirmed</h2>
+<p>According to the official CAT 2026 website run by IIM Indore, this year's conducting institute, registration opened on 3 August 2026 at 10:00 AM IST and closes on 15 September 2026 at 5:00 PM IST. Admit cards go live for download from 4 November 2026, and the exam itself is held on a single day, 29 November 2026, in three sessions across roughly 170 test cities nationwide. IIM Indore has also stated plainly on its site that iimcat.ac.in is the only official CAT website, warning candidates to be wary of any other site asking for personal details or payment.</p>
+
+<h2>What this means for aspirants</h2>
+<p>With the window down to about two weeks from today, anyone who hasn't registered should treat it as the immediate priority rather than something to fit in around admit-card or exam-day planning. CAT has not offered a late-fee grace period beyond its published deadline in recent cycles, so leaving the form to the final day carries real risk if the payment gateway is under heavy load, as it typically is close to closing time. It's also worth registering carefully rather than quickly: test-city preferences are locked in at the time of registration, not at the admit-card stage, so a rushed submission can mean travelling further than necessary on exam day.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[3 Aug 2026]</strong> CAT 2026 registration opened on iimcat.ac.in at 10:00 AM IST.</li>
+<li><strong>[15 Sep 2026]</strong> Registration closes at 5:00 PM IST, with no extension announced as of this update.</li>
+<li><strong>[4 Nov 2026]</strong> CAT 2026 admit card download begins.</li>
+<li><strong>[29 Nov 2026]</strong> CAT 2026 exam day — a single day, three sessions, across roughly 170 test cities.</li>
+<li><strong>Official source check:</strong> IIM Indore is the CAT 2026 conducting institute; iimcat.ac.in is the only official CAT website.</li>
+</ul>
+
+<p><em>Last updated: 2 September 2026. Source: <a href="https://iimcat.ac.in/" rel="noopener" target="_blank">iimcat.ac.in</a> (official CAT 2026 website, IIM Indore).</em></p>
+`
+},
+
+{
+  slug: "top-10-cat-coaching-institutes-amritsar-2026",
+  title: "Top 10 CAT Coaching Institutes in Amritsar (2026)",
+  category: "CAT / MBA",
+  date: "02 Sep 2026",
+  minutes: 9,
+  cta: { href: "coaching-amritsar.html", text: "Browse all verified coaching institutes in Amritsar" },
+  excerpt: "Amritsar's CAT-coaching market is smaller and more mixed than Punjab's bigger metros, pairing one national chain with banking-and-government-exam institutes that extended their aptitude faculty to MBA aspirants. Here's a fact-checked look at ten institutes actually coaching CAT in the city.",
+  image: "assets/blog/top-10-cat-coaching-institutes-amritsar-2026.png",
+  imageAlt: "Top 10 CAT coaching institutes in Amritsar 2026 graphic",
+  faqs: [
+    { q: "Which is the best CAT coaching institute in Amritsar", a: "There's no single 'best' — Career Launcher is the city's main national-chain option with a standardised CAT curriculum, while PBI Institute has a locally built track record citing 23 IIM call-getters from its 14-month programme. Institutes such as IBT and Veron Institute built their core faculty around banking and government-exam coaching and later extended it to CAT, which is worth knowing before enrolling if you want faculty focused solely on MBA-entrance content." },
+    { q: "Where in Amritsar are most CAT coaching institutes located", a: "Rani Ka Bagh, especially around Kachehri Chowk, is home to several institutes including IBT and Veron Institute. A second cluster sits near Rattan Singh Chowk and Maqbool Road (Career Launcher, Aptitude Training Academy), with further options on Lawrence Road, GT Road and Ranjit Avenue." },
+    { q: "Do Amritsar's CAT institutes also prepare students for other MBA entrance exams", a: "Most do. Institutes such as PBI Institute and Talent Hub Education explicitly coach for CMAT, MAT and other MBA-entrance tests alongside CAT, rather than running CAT-only batches." }
+  ],
+  html: `
+<p><strong>Last updated: 2 September 2026.</strong></p>
+<p>Amritsar's CAT-coaching scene looks different from what you'd find in Chandigarh or Delhi — instead of a cluster of MBA-specialist chains, the city runs on one established national brand plus a set of institutes that built their aptitude-teaching bench for banking and government-exam coaching before extending it to CAT and other MBA-entrance tests.</p>
+<p>That mixed history matters for students comparing options: an institute's reputation for SSC or bank PO coaching doesn't automatically tell you how strong its CAT-specific faculty is. This article lists ten institutes actually offering CAT coaching in Amritsar today, each checked against at least one independent directory or the institute's own listing, along with their addresses and what they're known for.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Amritsar, Punjab</p>
+<p><strong>Main exam covered:</strong> CAT (most institutes also cover CMAT, MAT and other MBA-entrance tests)</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked</p>
+<p><strong>Main coaching hubs:</strong> Rani Ka Bagh / Kachehri Chowk, and Rattan Singh Chowk / Maqbool Road</p>
+<p><strong>Published full-course fees (where disclosed):</strong> approx. ₹70,000 – ₹94,000; most local institutes don't publish fees and require a direct enquiry</p>
+</div>
+
+<p>Unlike NEET or JEE, CAT has no state-specific alternative in Punjab, and most Amritsar institutes bundle CAT preparation with other national MBA-entrance exams — CMAT, MAT and similar — rather than running CAT-only batches. That's worth asking about directly, since a shared batch isn't necessarily a downside but does affect how much class time is CAT-specific.</p>
+
+<h3>1. Career Launcher</h3>
+<p>Career Launcher, one of India's longer-running national CAT/MBA coaching chains, runs its Amritsar centre from Maqbool Road near Rattan Singh Chowk. The centre offers both classroom and online CAT batches as part of Career Launcher's standard national programme — around 130–150 sessions and 100-plus mock tests — with a published full-course fee of approximately ₹93,770.</p>
+
+<h3>2. PBI Institute</h3>
+<p>PBI Institute, on Lawrence Road (Canara Bank Building, Dayanand Nagar), runs a 14-month classroom track covering CAT, CMAT, MAT and MET. The institute cites 23 IIM call-getters among its past students — a locally built track record independent of any national chain's brand.</p>
+
+<h3>3. IBT (Institute of Banking Training)</h3>
+<p>IBT is better known regionally for bank PO and clerical-exam coaching, but its Rani Ka Bagh centre, near Kachehri Chowk opposite a State Bank branch, also runs CAT and MBA-entrance batches, drawing on the same aptitude-and-reasoning faculty pool as its banking programmes.</p>
+
+<h3>4. Veron Institute</h3>
+<p>Veron Institute sits a short walk from IBT, also near Kachehri Chowk in Rani Ka Bagh. Primarily built around banking and government-exam coaching, it extends the same test-series infrastructure and faculty to CAT and MBA-entrance aspirants.</p>
+
+<h3>5. Talent Hub Education</h3>
+<p>Talent Hub Education, based in Medical Enclave near Trillium Mall, positions itself as a multi-exam institute covering CAT, MBA, MCA, law and BBA entrance tests plus campus recruitment training. It caps batches at roughly 35–40 students and says it has trained more than 10,000 students across its programmes to date.</p>
+
+<h3>6. PT Education</h3>
+<p>PT Education's Amritsar branch, on GT Road (New Dashmesh Avenue, opposite the Khalsa College B.Ed block), is part of a pan-India network better known for banking and SSC coaching, but it lists CAT and MBA-entrance preparation among its Amritsar offerings; the published full-course fee is approximately ₹70,000.</p>
+
+<h3>7. Prof. Sodhi's Academy</h3>
+<p>Prof. Sodhi's Academy, on Railway Link Road, is a locally run, single-branch institute offering CAT and other MBA-entrance coaching. Being a smaller operation without a national brand behind it, prospective students should confirm current batch schedules and faculty directly before enrolling.</p>
+
+<h3>8. Dashmesh Academy</h3>
+<p>Dashmesh Academy, opposite Khalsa College for Women on Phatak Road, is a local institute offering CAT and MBA-entrance preparation alongside its other competitive-exam batches.</p>
+
+<h3>9. Aptitude Training Academy</h3>
+<p>Aptitude Training Academy operates from Circular Road near Rattan Singh Chowk. It markets itself partly on infrastructure — basement parking, an in-house computer lab for online mock tests and form-filling, and one-to-one doubt-clearing sessions — alongside its standard CAT-prep batches.</p>
+
+<h3>10. Knowledge Icon</h3>
+<p>Knowledge Icon is based in the Twin Towers commercial complex on Ranjit Avenue (A-Block Market), offering CAT and MBA-entrance coaching in one of the city's newer commercial districts, away from the older Kachehri Chowk and Maqbool Road clusters.</p>
+
+<p>Amritsar's CAT scene splits fairly clearly into one national chain (Career Launcher) and a set of local and cross-over institutes that built their aptitude-teaching strength on banking or government-exam coaching first. Given the fee gap on institutes that do publish numbers — roughly ₹70,000 to ₹94,000 for a full programme — and the fact that most local institutes don't publish fees at all, it's worth calling ahead for a current fee card and asking specifically how much of the batch's teaching time is CAT-focused versus shared with banking or SSC batches.</p>
+
+<p>Compare full details and browse verified coaching options on our <a href="coaching-amritsar.html">Amritsar coaching page</a>.</p>
+`
+},
+
+
+{
   slug: "neet-ug-2026-round2-aiq-counselling-schedule-update",
   title: "NEET UG 2026: Round 2 AIQ Counselling Registration Opens 3 September",
   category: "NEET",
