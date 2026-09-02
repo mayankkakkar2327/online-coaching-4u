@@ -295,5 +295,63 @@ module.exports = [
     backlinks: [
       { label: "Official website", url: "https://www.rglectures.com/", icon: "↗" }
     ]
+  },
+  {
+    slug: "augment-consultancy",
+    metaTitle: "Augment Consultancy Review: PgMP & PfMP Training with a 98% First-Attempt Pass Rate",
+    metaDescription: "Augment Consultancy has helped 6,000+ professionals across 50+ countries pass PgMP and PfMP on their first attempt. Here's what makes Sanjeev Kumar's mentoring work.",
+    headline: "Augment Consultancy Review: A 98% First-Attempt Pass Rate, Backed by Real Stories",
+    subheadline: "From a mentor who calls students 7,000 km away the day after their exam to a referral from a legend in PM training — here's what makes Augment Consultancy's PgMP & PfMP mentoring work.",
+    verdictRating: 4.8,
+    verdictSummary: "Augment Consultancy operates in one of the most demanding corners of professional certification — PMI's Program (PgMP) and Portfolio (PfMP) Management Professional credentials, aimed at senior practitioners, not beginners. It backs its results with a specific, verifiable success rate and a genuinely large volume of detailed, named client testimonials spanning dozens of countries.",
+    ratingsBreakdown: [
+      { factor: "Mentoring quality", rating: 4.9, why: "Personal, 4-step mentoring from a 20+ year program/portfolio management veteran, not a generic video course" },
+      { factor: "Track record", rating: 4.9, why: "98.5% first-attempt success rate across 6,000+ learners, 1,000+ programs conducted, in 50+ countries" },
+      { factor: "Value for money", rating: 4.6, why: "Fast Track programs at ₹40,000 (down from ₹60,000) with flexible payment plans — modest against the career upside of a PgMP/PfMP credential" },
+      { factor: "Client satisfaction", rating: 4.8, why: "99% Happy Clients, with dozens of detailed, named testimonials rather than a handful of curated quotes" }
+    ],
+    bestFor: "Experienced project, program, and portfolio managers pursuing PMI's PgMP or PfMP certification who want personal mentoring and application-writing support, not just a self-paced video library.",
+    whatIs: [
+      "Augment Consultancy (augmentconsultancy.com) is a specialized training and mentoring practice focused entirely on PMI's two most advanced certifications: PgMP® (Program Management Professional) and PfMP® (Portfolio Management Professional). It's led by founder Sanjeev Kumar, whose career in project, program, and portfolio management spans over 20 years. Rather than a generic course library, Augment Consultancy is built around what it calls a \"unique 4-step mentoring approach\" — live sessions, structured content, application support, and personal exam-readiness coaching.",
+      "The brand's reach is genuinely global: 6,000+ learners enabled across 50+ countries, with 1,000+ programs conducted and a social following of 1M+ views and 15K+ followers."
+    ],
+    resultsSection: {
+      heading: "Results That Back It Up",
+      intro: "This is where Augment Consultancy stands out even among strong performers: a 98.5% success rate on the first attempt — a specific, verifiable figure prominently stated site-wide, not a vague \"high pass rate\" claim, for exams that are notoriously difficult even for experienced practitioners. Beyond the headline number, client testimonials repeatedly cite the same outcome in their own words:",
+      bullets: [
+        "Marc Roussel passed on his first try within two months, with above-average scores on all topics",
+        "Amanda Lowe, with only a week left before her exam, used the mock exams and exam-tip content and passed on her first try",
+        "Linda Rehor credits Sanjeev's instruction and support as \"instrumental in passing the PgMP exam on the first try\"",
+        "Rafa Pagán's story stands out for its personal touch: the day after his exam, Sanjeev connected via video call 7,000 km away to hear about his experience and congratulate him in person — a level of individual investment that's rare at this scale"
+      ],
+      closingNote: "One particularly notable credibility signal: client Tom Lyttleton was referred to Sanjeev by Lee Lambert — a widely recognized, longtime figure in the global project management training community — a genuine peer endorsement rather than a marketing claim."
+    },
+    pricingTable: [
+      { program: "PgMP® Fast Track Program", included: "Live online mentoring, 2-weekend format", investment: "₹60,000 → ₹40,000 (flexible pricing available)" },
+      { program: "PfMP® Fast Track Program", included: "Live online mentoring, 2-weekend format", investment: "₹60,000 → ₹40,000 (flexible pricing available)" },
+      { program: "PgMP® Self-Paced Learning", included: "Full self-paced video program with Sanjeev Kumar", investment: "₹40,000 → ₹25,000" },
+      { program: "PfMP® Self-Paced Learning", included: "Full self-paced video program with Sanjeev Kumar", investment: "₹45,000 → ₹25,000" },
+      { program: "PgMP® / PfMP® Application Writing Support", included: "Dedicated help with the PMI application — a critical, easy-to-fail step before the exam itself", investment: "Available separately" }
+    ],
+    placementNote: "Every live cohort includes exclusive bonuses: 1 year of session recording access, a gap assessment session with a mentor, and program templates & case studies. The broader program package includes 60+ hours of learning content, 1,000+ exam-like questions, 100+ training videos, 150+ training slides, and a training certificate worth 24 PDUs.",
+    testimonials: [
+      { quote: "Thanks to Sanjeev's support I was able to pass the exam on the 1st try within a two month's time with above average score on all topics. I recommend this high quality training program to anyone who is serious about achieving PgMP certification. It's money well spent.", author: "Marc Roussel" },
+      { quote: "I had the very good fortune to be referred to Sanjeev for training by Lee Lambert... His study materials are priceless when it comes to clarifying PgMP & PfMP concepts.", author: "Tom Lyttleton" },
+      { quote: "I took my PgMP prep training with Sanjeev and he was terrific... Sanjeev's instruction and support were instrumental in my passing the PgMP exam on the first try! I have already recommended his training course to colleagues.", author: "Linda Rehor" },
+      { quote: "Attending the PfMP training with Augment Consultancy was a game-changer for me. Their comprehensive approach and expert mentoring truly set them apart.", author: "Mutaz Muhammad Said" },
+      { quote: "I was introduced to Sanjeev... with only a week remaining until my PgMP test date... I felt well-prepared going into my exam and passed on my first try.", author: "Amanda Lowe" }
+    ],
+    archiveNote: "The volume and consistency here is notable — testimonials from clients across North America, Europe, India, and Southeast Asia, all independently describing the same pattern: personal mentoring, strong exam-like practice material, and first-attempt passes.",
+    faqs: [
+      { q: "Is Augment Consultancy good for PgMP certification?", a: "Yes — it reports a 98.5% first-attempt success rate across 6,000+ learners in 50+ countries, and named client testimonials consistently describe first-try passes credited directly to Sanjeev Kumar's mentoring." },
+      { q: "Does Augment Consultancy also help with PfMP?", a: "Yes — PfMP (Portfolio Management Professional) is covered with the same Fast Track and Self-Paced program structure as PgMP, including dedicated application writing support." },
+      { q: "How much does training cost?", a: "Live Fast Track programs are ₹40,000 (down from ₹60,000), and self-paced programs run ₹25,000, with flexible payment plans available. Application writing/review support is available as a separate service." },
+      { q: "Who leads the training?", a: "Sanjeev Kumar, founder of Augment Consultancy, whose career in project, program, and portfolio management spans 20+ years, personally leads the mentoring." },
+      { q: "What makes this different from a generic exam-prep course?", a: "Clients consistently point to the personal element — live sessions, a gap-assessment mentoring call, and hands-on application review — rather than just a video library. One client's mentor even followed up personally by video call after the exam." }
+    ],
+    bottomLine: "Augment Consultancy earns its strong rating by combining a specific, credible headline number — a 98.5% first-attempt success rate across 6,000+ learners in 50+ countries — with an unusually deep bench of detailed, named client testimonials rather than a handful of curated quotes. For experienced professionals pursuing PMI's PgMP or PfMP certification, where personal mentoring and application quality often matter as much as content, Augment Consultancy's track record makes a strong, well-documented case.",
+    backlinks: [
+      { label: "Official website", url: "https://augmentconsultancy.com/", icon: "↗" }
+    ]
   }
 ];
