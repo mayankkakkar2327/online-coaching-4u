@@ -158,5 +158,79 @@ module.exports = [
       { label: "YouTube channel", url: "https://www.youtube.com/c/Rodha", icon: "▶" },
       { label: "Instagram", url: "https://www.instagram.com/rodhaplanet/?hl=en", icon: "◎" }
     ]
+  },
+  {
+    slug: "sbtechmath-academy",
+    metaTitle: "SBTechMath Review 2026: Why It's a Top Choice for CSIR-NET, GATE & IIT-JAM Maths",
+    metaDescription: "SBTechMath has helped 800+ students qualify CSIR-NET and score big in GATE Mathematics. Here's what makes SB Sir's concept-first teaching work.",
+    headline: "SBTechMath Review: Deep Concepts, Real Results",
+    subheadline: "800+ selections, a 4.9-star app, and students topping out at AIR 14 in CSIR-NET — here's what makes SB Sir's teaching work.",
+    verdictRating: 4.8,
+    verdictSummary: "SBTechMath has built its reputation the hard way — on concept-first teaching of genuinely difficult subjects (Real Analysis, Linear Algebra, Complex Analysis) rather than shortcut tricks, and it backs that up with named students, real AIR ranks, and real GATE scores rather than vague claims.",
+    ratingsBreakdown: [
+      { factor: "Teaching quality", rating: 4.8, why: "Concept-driven instruction from an AIR-11 CSIR-NET qualifier with 10+ years of specialized teaching in pure mathematics" },
+      { factor: "Track record", rating: 4.9, why: "800+ total selections, multiple AIR holders, and named students citing AIR 14, AIR 33, AIR 84, and GATE scores up to 500" },
+      { factor: "Value for money", rating: 4.8, why: "Comprehensive live batches from ₹11,999–₹15,999, with focused single-subject courses starting around ₹1,499–₹2,499" },
+      { factor: "Platform & support", rating: 4.6, why: "A 4.9-star rated app with performance analytics, daily practice sheets, and a 24-hour doubt resolution guarantee" }
+    ],
+    bestFor: "CSIR-NET, GATE Mathematics, and IIT-JAM aspirants who want deep, proof-first understanding of Real Analysis, Linear Algebra, and Complex Analysis rather than formula memorization.",
+    whatIs: [
+      "SBTechMath (learn.sbtechmath.com) is a Jaipur-based online coaching platform focused squarely on pure mathematics for competitive exams — CSIR-NET, GATE Mathematics, IIT-JAM, and CUET PG Maths. It's built entirely around one instructor: Sunil Bansal (\"SB Sir\"), an AIR-11 CSIR-NET qualifier with over 10 years of teaching experience specializing in Real Analysis, Linear Algebra, and Complex Analysis.",
+      "The brand's philosophy is summed up in SB Sir's own words: \"Question ko solve karne se mera purpose sahi answer nikalna nahi, sahi process pata karna hai\" — my purpose in solving a question isn't to get the right answer, but to find the right process. That concept-first approach has built a genuinely large following: 57K+ YouTube subscribers, 15K+ hours of live classes delivered, and a platform SBTechMath says has reached 50,000+ students overall."
+    ],
+    whyChoose: [
+      { title: "The App & Support.", body: "SBTechMath's app (rated 4.9★) bundles the full learning experience: live classes, a performance analytics dashboard tracking syllabus completion and weak areas after every test, daily DPP (Daily Practice Problem) assignments calibrated to the student's level with video solutions, and a stated 24-hour doubt resolution commitment — a concrete, specific support SLA rather than an open-ended promise." }
+    ],
+    resultsSection: {
+      heading: "Results That Back It Up",
+      intro: "Rather than vague marketing claims, SBTechMath's numbers are specific and the platform names real students against real outcomes:",
+      bullets: [
+        "800+ total selections — students who've qualified CSIR-NET, GATE, or IIT-JAM after training with SBTechMath",
+        "10,000+ students mentored directly through courses and live classes",
+        "Multiple AIR holders, including the founder's own AIR-11 CSIR-NET result",
+        "4.9★ app rating, reflecting consistent day-to-day student satisfaction, not just exam-day outcomes"
+      ],
+      tableIntro: "Named student testimonials, each with a verifiable rank or score:",
+      tableHeaders: ["Student", "Result", "Exam Session"],
+      tableRows: [
+        ["Khushi Garg", "CSIR-NET, AIR 14", "Dec 2024"],
+        ["Amrita Garai", "CSIR-NET, AIR 33", "June 2025"],
+        ["Somnath Ghosh", "CSIR-NET JRF, AIR 84 (first attempt)", "June 2026"],
+        ["Sahiba Khatoon", "GATE Mathematics, Score 500", "GATE 2026"],
+        ["Ankur Jyoti Kalita", "GATE Mathematics, Score 367", "GATE 2026"],
+        ["Mrinal", "GATE Mathematics, Rank 263", "GATE 2026"]
+      ],
+      closingNote: "That's a genuinely strong spread — top-14 CSIR-NET ranks alongside strong GATE scores — and notably, one student (Somnath Ghosh) specifically credits the program with a first-attempt clear on the notoriously difficult CSIR-NET JRF."
+    },
+    pricingTable: [
+      { program: "CSIR-NET Dec 2026 (Live Batch)", included: "12 courses, full syllabus", investment: "₹14,999 → ₹11,999 (5.0★, 3 ratings)" },
+      { program: "GATE & CSIR-NET June 27 (Live Batch)", included: "12 courses, combined prep", investment: "₹19,999 → ₹15,999" },
+      { program: "Pure Combo Live — Dec 2026", included: "6 courses", investment: "₹7,999 → ₹6,999" },
+      { program: "CSIR-NET June 2027 (Recorded Batch)", included: "9 courses", investment: "₹11,999 → ₹9,999" },
+      { program: "Linear Algebra & Real Analysis (Dec 2026 Live)", included: "4 courses", investment: "₹5,999 → ₹4,999" },
+      { program: "Master Course — Complex Analysis", included: "Single-subject deep dive", investment: "₹2,999 → ₹2,499 (5.0★, 1 rating)" },
+      { program: "Linear Algebra — Master Course", included: "Single-subject deep dive", investment: "₹2,999 → ₹2,499" },
+      { program: "Numerical Analysis (GATE-2027)", included: "Focused GATE topic course", investment: "₹1,999 → ₹1,499" }
+    ],
+    placementNote: "Beyond paid courses, SBTechMath offers a genuinely useful free tier: chapter-wise notes across Real Analysis, Linear Algebra, Complex Analysis and Topology, 15 years of CSIR-NET/GATE/IIT-JAM previous year questions with video solutions, exam-ready formula sheets, and free demo classes — a solid way to evaluate SB Sir's teaching style before paying.",
+    testimonials: [
+      { quote: "SBTechMath gave me the conceptual clarity I needed. SB Sir's approach to Real Analysis is truly unmatched.", author: "Amrita Garai, CSIR-NET AIR 33" },
+      { quote: "The depth of teaching at SBTechMath is unparalleled. Every lecture pushed me to think deeper — and that made all the difference.", author: "Khushi Garg, CSIR-NET AIR 14" },
+      { quote: "SB Sir's structured approach to Complex Analysis helped me handle the toughest questions with confidence. First attempt clear.", author: "Somnath Ghosh, CSIR-NET JRF AIR 84" },
+      { quote: "I tried multiple platforms before SBTechMath. None matched the depth SB Sir brings. Scoring 500 in GATE was a direct result of that foundation.", author: "Sahiba Khatoon, GATE Mathematics, Score 500" },
+      { quote: "The test series at SBTechMath was the real game-changer. Questions were harder than the actual exam — which made the exam feel easy.", author: "Ankur Jyoti Kalita, GATE Mathematics, Score 367" }
+    ],
+    archiveNote: "A consistent theme across these testimonials: students specifically credit conceptual depth and difficulty-calibrated practice (test series and DPPs harder than the real exam) rather than shortcut tricks — exactly the positioning SBTechMath leads with.",
+    faqs: [
+      { q: "Is SBTechMath good for CSIR-NET preparation?", a: "Yes — it's built specifically around CSIR-NET Mathematics, with 800+ total selections and named students achieving ranks as strong as AIR 14, taught by an AIR-11 CSIR-NET qualifier with 10+ years of specialized experience." },
+      { q: "Does SBTechMath also cover GATE and IIT-JAM?", a: "Yes — alongside CSIR-NET, SBTechMath runs dedicated GATE Mathematics and IIT-JAM prep, with student results including GATE scores of 500 and 367 and a rank of 263." },
+      { q: "How much do SBTechMath courses cost?", a: "Comprehensive live batches run ₹11,999–₹15,999, with focused single-subject master courses (Complex Analysis, Linear Algebra, Numerical Analysis) available from ₹1,499–₹2,499. Free notes, PYQs, and demo classes are available to try first." },
+      { q: "Who teaches at SBTechMath?", a: "Sunil Bansal (\"SB Sir\"), an AIR-11 CSIR-NET qualifier with 10+ years of teaching experience in Real Analysis, Linear Algebra, and Complex Analysis, teaches all core content personally." },
+      { q: "Is there a way to try before paying?", a: "Yes — free chapter-wise notes, 15 years of previous year questions with video solutions, formula sheets, and free demo classes are all available on the site before committing to a paid batch." }
+    ],
+    bottomLine: "SBTechMath earns its strong rating by doing something relatively rare among competitive-exam coaching platforms: staying focused on one subject area, taught by one deeply credentialed instructor, with results that are specific and named rather than vague. 800+ selections, a 4.9-star app, and testimonials citing real AIR ranks (down to AIR 14) and GATE scores (up to 500) make a solid case for aspirants who want conceptual depth in Real Analysis, Linear Algebra, and Complex Analysis rather than formula shortcuts.",
+    backlinks: [
+      { label: "Official website", url: "https://learn.sbtechmath.com", icon: "↗" }
+    ]
   }
 ];
