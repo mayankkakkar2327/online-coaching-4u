@@ -796,7 +796,7 @@ function brandReviewPage(rv, x) {
 ${rv.resultsSection.tableRows ? `<p>${esc(rv.resultsSection.tableIntro)}</p>
 <table><thead><tr>${rv.resultsSection.tableHeaders.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rv.resultsSection.tableRows.map(row => `<tr>${row.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
 <p>${esc(rv.resultsSection.closingNote)}</p>` : "";
-  const pricingRows = rv.pricingTable.map(p => `<tr><td>${esc(p.program)}</td><td>${esc(p.included)}</td><td>${esc(p.investment)}</td></tr>`).join("");
+  const pricingRows = (rv.pricingTable || []).map(p => `<tr><td>${esc(p.program)}</td><td>${esc(p.included)}</td><td>${esc(p.investment)}</td></tr>`).join("");
   const testimonialsHtml = rv.testimonials.map(t => `<div class="rhc-quote brand-quote">“${esc(t.quote)}”<span class="quote-author">— ${esc(t.author)}</span></div>`).join("");
   const faqHtml = rv.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("");
   const inlineBacklinks = rv.backlinks.map(b => `<a href="${b.url}" rel="noopener nofollow"><span class="ic">${b.icon || "↗"}</span> ${esc(b.label)}</a>`).join("");
@@ -836,7 +836,7 @@ ${rv.whatIs.map(p => `<p>${esc(p)}</p>`).join("")}
 ${whyChooseHtml ? `<h2>Why Learners Choose ${esc(x.name)}</h2>${whyChooseHtml}` : ""}
 ${resultsHtml}
 <h2>Pricing</h2>
-<table><thead><tr><th>Program</th><th>What's included</th><th>Investment</th></tr></thead><tbody>${pricingRows}</tbody></table>
+${rv.pricingTable ? `<table><thead><tr><th>Program</th><th>What's included</th><th>Investment</th></tr></thead><tbody>${pricingRows}</tbody></table>` : ""}
 <p>${esc(rv.placementNote)}</p>
 <h2>What Alumni Are Saying</h2>
 ${testimonialsHtml}

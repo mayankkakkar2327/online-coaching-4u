@@ -353,5 +353,121 @@ module.exports = [
     backlinks: [
       { label: "Official website", url: "https://augmentconsultancy.com/", icon: "↗" }
     ]
+  },
+  {
+    slug: "iproledge-academy-bengaluru",
+    metaTitle: "iProledge Review 2026: Bengaluru's CA, CS, CMA & ACCA Coaching with Real First-Attempt Results",
+    metaDescription: "iProledge has guided 15,000+ students through CA, CS, CMA, CMA USA and ACCA, with a wall of named first-attempt clears and a 4.8-star Google rating. Here's what makes it work.",
+    headline: "iProledge Review: A Bengaluru Coaching Institute With a Genuine First-Attempt Track Record",
+    subheadline: "From a \"Hall of Excellence\" wall naming 13 first-attempt clears to a 4.8-star Google rating built on named, verifiable reviews — here's what makes iProledge's CA, CS, CMA and ACCA coaching work.",
+    verdictRating: 4.6,
+    verdictSummary: "iProledge is a Bengaluru-based professional coaching institute covering the full commerce certification stack — CA, CS, CMA (India and USA), ACCA, and the US Enrolled Agent (EA) credential. What stands out is how the brand backs its claims: a dedicated \"Hall of Excellence\" names 13 real students by exam and result, its Google Reviews are a live, verifiable 4.8-star widget rather than static quotes, and its faculty carousel and reviews cross-reference the very same instructors by name — a level of internal consistency that's reassuring to see.",
+    ratingsBreakdown: [
+      { factor: "Teaching quality", rating: 4.6, why: "A 10-strong named faculty team across CA, CS, CMA, ACCA and law, with credentials (CA, CMA, CPA, BA LLB) listed for each" },
+      { factor: "Track record", rating: 4.6, why: "15,000+ students trained, 215+ global & national ranks, an 86% pass rate, and a named \"First Attempt\" wall spanning CA, CMA and CS" },
+      { factor: "Value for money", rating: 4.5, why: "Flexible payment via UPI/cards/net banking/EMI, with free demo classes and free career counselling before you commit" },
+      { factor: "Student satisfaction", rating: 4.7, why: "A live, embedded Google Reviews widget at 4.8★ with specific, named reviews crediting specific faculty by name" }
+    ],
+    bestFor: "Aspirants in and around Bengaluru pursuing CA, CS, CMA (India or USA), ACCA, or the US EA credential who want a structured institute with in-person branches (Jayanagar, Malleshwaram, Banashankari, Kengeri), named faculty, and a documented first-attempt track record.",
+    whatIs: [
+      "iProledge (iproledge.com), operated by Successedge Academy LLP, is a Bengaluru-headquartered coaching institute founded in 2021 by Naveen J D, a CMA USA-qualified strategic business consultant. In a relatively short time, it has built out branches across Jayanagar, Malleshwaram, Banashankari, and Kengeri, and expanded its course lineup to cover Chartered Accountancy (CA), Company Secretary (CS), Cost & Management Accountant — both CMA India and CMA USA, ACCA, the US Enrolled Agent (EA) course, and a B.Com integrated program.",
+      "The brand's own framing is direct: \"iProledge Academy isn't just another coaching institute — it's where your professional journey transforms from a dream into reality.\" Its stated mission is to bridge textbook learning with real business practice, and its reach now includes students who've gone on to work at firms like KPMG, EY, Deloitte, Wipro, J.P. Morgan, Tata Steel, IBM, Infosys, and TCS — all featured by name on the site's \"iProledge Students Work Here\" section."
+    ],
+    whyChoose: [
+      {
+        title: "Meet the Faculty.",
+        body: "iProledge's teaching team spans 10 named faculty members across its course range:",
+        list: [
+          "Naveen J D — CMA USA, BCom — Founder & CEO",
+          "CA Veeraj — CA, CMA — 5,000+ students taught, 50+ batches, 7+ years' experience",
+          "CA Varshith Gowda — CA, BCom",
+          "CA Niveditha Karanth — CA, BCom",
+          "Harshitha — CA, BCom",
+          "Nagendra — CPA, MCom",
+          "Manasa — BCom, FCA, pursuing LLB",
+          "Advocate Tejas Sudhakar K — BA LLB",
+          "Niveditha Gowda — MSc, B.Ed.",
+          "Vijay Murthy — CA Final, MCom, NET, KSET"
+        ],
+        after: "This is a genuinely credentialed bench — practicing CAs, a CPA, and a qualifying advocate for the law papers — rather than a single instructor covering every subject, which matters given how broad iProledge's course range is."
+      },
+      {
+        title: "Courses Offered.",
+        body: "iProledge runs live batches (both online and offline) across:",
+        list: [
+          "Chartered Accountancy (CA) — CA Foundation, CA Intermediate",
+          "Company Secretary (CS) — CSEET, CS Executive",
+          "Cost & Management Accountant (CMA India) — CMA Foundation, CMA Intermediate",
+          "CMA USA — a globally recognised certification track with placement support included",
+          "ACCA — the international qualification, backed by the platform's 215+ global & national ranks",
+          "EA Course (Enrolled Agent) — a US tax specialisation aimed at a high-demand career path",
+          "B.Com with Integrated Course — a combined degree-plus-certification track"
+        ],
+        after: "Upcoming batches are published with specific start dates and timings (for example, a CA Foundation batch starting April 10th, 8 AM–3 PM, and a CS Executive batch starting June 10th) — a level of scheduling transparency that makes it easy to plan around."
+      },
+      {
+        title: "Why Students Choose iProledge.",
+        body: "Beyond faculty and results, iProledge lists a set of concrete support features rather than vague promises:",
+        list: [
+          "Handmade study notes",
+          "A personalized study planner",
+          "An extensive question bank",
+          "24/7 support",
+          "Personal mentorship",
+          "Webinars and meetups",
+          "Corporate grooming sessions (professional-behaviour training for students heading into corporate roles)",
+          "Placement assistance"
+        ],
+        after: "The FAQ backs this with specifics: recorded classes for anyone who misses a live session, free demo classes before enrolling, and a 24–48 hour admission confirmation turnaround."
+      }
+    ],
+    resultsSection: {
+      heading: "Results That Back It Up",
+      intro: "Rather than a single headline number, iProledge backs its results with a genuinely large, named group of recent first-attempt clears — its \"Hall of Excellence\" wall celebrates students who cleared their professional exams on the very first try, alongside platform-wide numbers that back the pattern up:",
+      bullets: [
+        "15,000+ students trained since the institute's founding in 2021",
+        "215+ global and national ranks across its CA, CMA and CS programs",
+        "An 86% overall pass rate, with 7,000+ students specifically guided through its five professional programs"
+      ],
+      tableIntro: "A sample of iProledge's named \"Hall of Excellence\" first-attempt clears:",
+      tableHeaders: ["Student", "Exam", "Result"],
+      tableRows: [
+        ["Bhumika Bhat", "Chartered Accountancy", "First Attempt"],
+        ["Manya S N", "Chartered Accountancy", "First Attempt"],
+        ["Shreyank S", "Chartered Accountancy", "First Attempt"],
+        ["Rishab", "Cost & Management Accountant", "First Attempt"],
+        ["Lakshmi H.G.", "Cost & Management Accountant", "First Attempt"],
+        ["Vikas R", "Cost & Management Accountant", "First Attempt"],
+        ["Sriraksha KS", "Cost & Management Accountant", "First Attempt"],
+        ["G Bhamnath", "Cost & Management Accountant", "First Attempt"],
+        ["Sri Harish K P", "Cost & Management Accountant", "First Attempt"],
+        ["Rajath M P", "Cost & Management Accountant", "First Attempt"],
+        ["Mahmad Moshin", "Cost & Management Accountant", "First Attempt"],
+        ["Chandana Lakshmi N", "Company Secretary", "First Attempt"],
+        ["Aishwarya Balaji", "Company Secretary", "First Attempt"]
+      ],
+      closingNote: "Several of these first-attempt CA clears are echoed independently in the site's live Google Reviews — for example, reviewer Deeksha Yogesh writes that she \"cleared CA foundation in 1st attempt itself,\" a real, checkable review rather than a curated quote."
+    },
+    placementNote: "Course fees aren't published on the iProledge website — pricing is handled through a free counselling call, along with free demo classes, with payment accepted via UPI, cards, net banking, or EMI once you enroll.",
+    testimonials: [
+      { quote: "The faculty is truly great, especially CA Varshith sir — one of the best teachers I've come across, not only because of his teaching but also because of the knowledge he has. He always had answers to every doubt I had... He gave us energy and motivation when we lacked it.", author: "Manasa, 2 Google reviews" },
+      { quote: "Best institute for CS executive — the quality of teaching is next level, especially Tejas Sudhakar sir's teaching... Best institute for competitive exams.", author: "Mohanaprabha P, 7 Google reviews" },
+      { quote: "CA Veeraj sir teaches us law. I basically have a problem with theoretical subjects but the way sir explains everything, it's become easier to understand the chapters. He also cracks jokes between lectures so that students don't get bored... I personally enjoy the classes and understand everything clearly.", author: "Ankita Das" },
+      { quote: "Very good and knowledgeable faculties with precise study material and concept clarity. Was able to clear CA foundation in 1st attempt itself.", author: "Deeksha Yogesh" },
+      { quote: "Mr. Varshith Gowda sir takes FM and Accounts classes for CA Inter. He is one of the best faculty members in this academy. His way of explaining concepts to students is outstanding. He is friendly, highly knowledgeable, and truly impressive.", author: "Ramya L" }
+    ],
+    archiveNote: "What makes these especially credible is that the named instructors — CA Varshith Gowda, Advocate Tejas Sudhakar K, and CA Veeraj — are the same people iProledge features on its own faculty page, with matching subject specialisms (Varshith Gowda for FM/Accounts, Tejas Sudhakar for law, Veeraj for law and business economics). That kind of cross-consistency between independent reviews and the brand's own team page is a good sign the reviews are genuine.",
+    faqs: [
+      { q: "Is iProledge good for CA coaching?", a: "Yes — it has a named CA-specific first-attempt success wall, a dedicated CA faculty team (including CA Veeraj, CA Varshith Gowda, and CA Niveditha Karanth), and independently checkable Google reviews specifically praising its CA Foundation and Intermediate teaching." },
+      { q: "Does iProledge also cover CS, CMA, ACCA, and US credentials?", a: "Yes — alongside CA, iProledge runs CSEET/CS Executive, CMA Foundation/Intermediate (India), a separate CMA USA track, ACCA, and a US Enrolled Agent (EA) course, plus a B.Com integrated program." },
+      { q: "How much do iProledge courses cost?", a: "Course fees aren't published on the website; iProledge offers free career counselling and demo classes, with fees confirmed by phone and flexible payment via UPI, cards, net banking, or EMI." },
+      { q: "Who founded iProledge, and who teaches there?", a: "Naveen J D, a CMA USA professional and strategic business consultant, founded iProledge in 2021. The teaching team includes 10 named faculty members with credentials spanning CA, CMA, CPA, and law." },
+      { q: "Is there placement support?", a: "Yes — iProledge's FAQ states it provides placement support including resume building and interview preparation, and its site features students now working at firms including KPMG, EY, Deloitte, Wipro, J.P. Morgan, Tata Steel, IBM, Infosys, and TCS." },
+      { q: "Can I try a class before enrolling?", a: "Yes — free demo classes and free career counselling calls are available before committing to a batch." }
+    ],
+    bottomLine: "iProledge earns its strong rating through a combination that's genuinely hard to fake: a named, verifiable \"Hall of Excellence\" of first-attempt clears across CA, CMA and CS; a live, embedded Google Reviews widget at 4.8 stars where reviewers independently name the same instructors the brand features on its own faculty page; and a credentialed, 10-person faculty bench covering a genuinely broad course range. For CA, CS, CMA, CMA USA, ACCA or EA aspirants in the Bengaluru area who want an in-person-capable institute with real accountability behind its claims, iProledge is a well-documented, credible choice.",
+    backlinks: [
+      { label: "Official website", url: "https://www.iproledge.com", icon: "↗" }
+    ]
   }
 ];
