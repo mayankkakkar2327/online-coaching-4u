@@ -793,8 +793,8 @@ function brandReviewPage(rv, x) {
   const resultsHtml = rv.resultsSection ? `<h2>${esc(rv.resultsSection.heading)}</h2>
 <p>${esc(rv.resultsSection.intro)}</p>
 <ul>${rv.resultsSection.bullets.map(li => `<li>${esc(li)}</li>`).join("")}</ul>
-<p>${esc(rv.resultsSection.tableIntro)}</p>
-<table><thead><tr>${rv.resultsSection.tableHeaders.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rv.resultsSection.tableRows.map(row => `<tr>${row.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>
+${rv.resultsSection.tableRows ? `<p>${esc(rv.resultsSection.tableIntro)}</p>
+<table><thead><tr>${rv.resultsSection.tableHeaders.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rv.resultsSection.tableRows.map(row => `<tr>${row.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
 <p>${esc(rv.resultsSection.closingNote)}</p>` : "";
   const pricingRows = rv.pricingTable.map(p => `<tr><td>${esc(p.program)}</td><td>${esc(p.included)}</td><td>${esc(p.investment)}</td></tr>`).join("");
   const testimonialsHtml = rv.testimonials.map(t => `<div class="rhc-quote brand-quote">“${esc(t.quote)}”<span class="quote-author">— ${esc(t.author)}</span></div>`).join("");

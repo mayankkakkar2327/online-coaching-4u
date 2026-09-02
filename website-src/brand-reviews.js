@@ -232,5 +232,68 @@ module.exports = [
     backlinks: [
       { label: "Official website", url: "https://learn.sbtechmath.com", icon: "↗" }
     ]
+  },
+  {
+    slug: "rg-lectures",
+    metaTitle: "RG Lectures Review 2026: Why It's a Top Choice for MHT-CET & Engineering Physics",
+    metaDescription: "RG Lectures has helped students crack MHT-CET, board Physics, and even JEE Advanced. Here's what makes RG Sir's teaching work.",
+    headline: "RG Lectures Review: Physics Padhna Aasaan Hai — Seriously",
+    subheadline: "From an 8th-percentile comeback to 93rd, to a student now at IIT BHU — RG Sir's Physics coaching has the results to back its promise.",
+    verdictRating: 4.6,
+    verdictSummary: "RG Lectures has built a large, engaged following around a simple idea: Physics taught conceptually, in Hinglish, without shortcuts. With 5,00,000+ students reached, a free notes resource rated 4.9★ across nearly 500 ratings, and specific, named student turnaround stories, it backs that promise up with real evidence.",
+    ratingsBreakdown: [
+      { factor: "Teaching quality", rating: 4.6, why: "Concept-first Physics instruction in Hinglish from an MSc Physics graduate teaching online since 2018" },
+      { factor: "Track record", rating: 4.7, why: "Students citing board scores of 99/100, percentile jumps from 8th to 93rd, and admits to IIT BHU and COEP Pune" },
+      { factor: "Value for money", rating: 4.6, why: "MHT-CET batches from ₹1,459–₹2,121 and engineering combos from ₹1,299–₹3,456 — with free notes rated 4.9★ from 492 ratings" },
+      { factor: "Student satisfaction", rating: 4.6, why: "Consistent 5-star course ratings and a free resource with one of the largest, most reassuring rating counts in this category" }
+    ],
+    bestFor: "MHT-CET aspirants and First Year Engineering students (Mumbai University, Pune University/SPPU) who want Physics genuinely explained rather than crammed, in a Hinglish teaching style built for exam-day confidence.",
+    whatIs: [
+      "RG Lectures (rglectures.com) is an online Physics coaching platform built entirely around one educator: Rahul Jewaani (\"RG Sir\"), who holds a BSc and MSc in Physics and has been teaching online since 2018 — one of Maharashtra's earliest online Physics educators. The platform focuses on two clear tracks: MHT-CET Physics & Chemistry for Class 11–12 students, and First Year Engineering Physics/Mechanics for Mumbai University, Pune University (SPPU), and other university students.",
+      "RG Sir's own framing captures the brand's approach: \"Physics mein, passion hi asli formula hai\" — in Physics, passion is the real formula. That philosophy has built real reach: 5,00,000+ students, delivered through 8+ years of consistent online teaching."
+    ],
+    whyChoose: [
+      { title: "The App & Support.", body: "RG Lectures offers a dedicated mobile app (iOS and Android) for offline lecture downloads, MCQ practice, and progress tracking — useful for students with inconsistent internet access, a real practical concern for this audience. Support runs through email and WhatsApp/phone, with a stated 24-hour response time, plus active YouTube, Instagram, and LinkedIn channels for free content and updates." }
+    ],
+    resultsSection: {
+      heading: "Results That Back It Up",
+      intro: "Rather than abstract claims, RG Lectures points to specific, named student outcomes:",
+      bullets: [
+        "99/100 — the board Physics score cited by student Rohit Chaure, who went on to secure admission at COEP Pune",
+        "99.99 percentile — the platform's cited top MHT-CET result",
+        "8th percentile to 93rd percentile — the turnaround achieved by repeat aspirant Aakansha Survana on her next attempt",
+        "Students tracing admission to IIT BHU and COEP Pune directly back to RG Sir's teaching"
+      ],
+      closingNote: "And beyond exam scores, the free MHT-CET Notes resource carries a 4.9★ rating from 492 ratings — a genuinely large sample size that's harder to dismiss than a handful of curated testimonials, and a strong signal of consistent, everyday value to students who aren't even paying customers yet."
+    },
+    pricingTable: [
+      { program: "MHTCET 2027 — Long Term Batch", included: "Full-year Physics coverage, PYQs, integrated test series", investment: "₹1,999 → ₹1,632 (5.0★, 6 ratings)" },
+      { program: "MHTCET Chemistry 2027 — Long Term Batch", included: "Full-year Chemistry coverage", investment: "₹1,999 → ₹1,459" },
+      { program: "MHTCET 2027 — Droppers/Advance Batch", included: "2 courses, built for repeat aspirants", investment: "₹2,499 → ₹2,121" },
+      { program: "MHTCET Notes", included: "Chapter notes", investment: "Free (4.9★, 492 ratings)" },
+      { program: "Engineering Combo (3 Subjects)", included: "Full first-year Physics + Mechanics + Graphics combo", investment: "₹4,399 → ₹3,456" },
+      { program: "Engineering Two Subject Combo", included: "2-course combo", investment: "₹2,799 → ₹2,429" },
+      { program: "Engineering Mechanics (2026-27)", included: "Single subject, Mumbai or Pune University", investment: "₹1,999 → ₹1,699" },
+      { program: "Engineering Physics (2026-27)", included: "Single subject, Mumbai or Pune University", investment: "₹1,599 → ₹1,299" }
+    ],
+    placementNote: "All courses are led personally by Rahul Jewaani, with content built for Class 11–12 MHT-CET aspirants through First Year Engineering students at SPPU and Mumbai University.",
+    testimonials: [
+      { quote: "Sir ki wajah se maine real Physics se pyaar kiya — hate se love ki journey thi. JEE Advanced crack kiya. IIT BHU mein hun aaj. (Because of Sir, I fell in love with real Physics — it was a journey from hate to love. Cracked JEE Advanced. I'm at IIT BHU today.)", author: "Abhinandan Gaikwad, IIT BHU, MHT-CET Batch 2022" },
+      { quote: "99/100 Physics Board mein aaya. Sir ke MCQs — seriously best quality I've ever seen anywhere. COEP mein admission mila. (Scored 99/100 in the Physics board exam. Sir's MCQs are seriously the best quality I've ever seen anywhere. Got admission at COEP.)", author: "Rohit Chaure, COEP Pune, Board Score 99/100" },
+      { quote: "8 percentile dekh ke toot gayi thi. Sir ki har video mujhe hope deti thi. Next attempt mein 93 percentile. Believe karo. (Seeing an 8th percentile broke me. Every one of Sir's videos gave me hope. Next attempt: 93rd percentile. Believe it.)", author: "Aakansha Survana, repeat aspirant, percentile jump" },
+      { quote: "Sir ka pehla online student main tha 2019 mein. 4th year mein hun aaj, placement bhi aayi — phir bhi sir ki lectures yaad aati hain. (I was Sir's first online student, back in 2019. I'm in my 4th year now, and even got placed — but I still remember Sir's lectures.)", author: "Jay Bhanushali, 4th Year Engineering, placed" }
+    ],
+    archiveNote: "What stands out is the range: a top-percentile IIT admit, a board-topping engineering admit, a genuine comeback story from a struggling repeat aspirant, and a loyal long-term student who's stayed connected since RG Sir's very first online batch in 2019 — a spread that speaks to consistency over several years, not just a highlight reel from one good batch.",
+    faqs: [
+      { q: "Is RG Lectures good for MHT-CET preparation?", a: "Yes — its results include a student board score of 99/100, a documented jump from 8th to 93rd percentile on a repeat attempt, and a free notes resource rated 4.9★ across 492 ratings, a strong sign of consistent day-to-day value." },
+      { q: "Does RG Lectures also help with Engineering Physics?", a: "Yes — alongside MHT-CET, RG Lectures runs dedicated First Year Engineering Physics and Mechanics courses for both Mumbai University and Pune University (SPPU) students." },
+      { q: "How much do RG Lectures courses cost?", a: "MHT-CET batches run ₹1,459–₹2,121, with free chapter notes available at no cost. Engineering combo courses run ₹1,299–₹3,456 depending on subject count and university." },
+      { q: "Who teaches at RG Lectures?", a: "Rahul Jewaani (\"RG Sir\"), who holds a BSc and MSc in Physics and has taught online since 2018, personally teaches all core content." },
+      { q: "Is there a free way to try RG Lectures before paying?", a: "Yes — free MHT-CET Notes (rated 4.9★ from 492 ratings) are available, along with free lectures and revision content on RG Sir's YouTube channel." }
+    ],
+    bottomLine: "RG Lectures earns its strong rating through a combination that's hard to fake: a large, engaged following (5,00,000+ students), a free resource with nearly 500 ratings at 4.9 stars, and named student stories spanning a top-percentile IIT admit, a board-topping engineering admit, and a genuine percentile turnaround. For MHT-CET or First Year Engineering Physics students looking for concept-first teaching in a Hinglish style built for exam-day confidence, RG Lectures is a well-documented, credible choice.",
+    backlinks: [
+      { label: "Official website", url: "https://www.rglectures.com/", icon: "↗" }
+    ]
   }
 ];
