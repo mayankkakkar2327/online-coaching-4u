@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "amritsar",
       "meerut",
       "noida",
       "jammu",
@@ -114,6 +115,206 @@
     "genai": "Gen AI"
   },
   "listings": [
+    {
+      "slug": "career-launcher-amritsar",
+      "type": "coaching",
+      "name": "Career Launcher",
+      "city": "amritsar",
+      "locality": "Maqbool Road",
+      "address": "96-C, First Floor, Maqbool Road, Near Rattan Singh Chowk, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Career Launcher, one of India's longer-running national CAT/MBA coaching chains, runs its Amritsar centre from Maqbool Road near Rattan Singh Chowk. It offers both classroom and online CAT batches as part of Career Launcher's standard national programme, built around roughly 130-150 sessions and 100-plus mock tests.",
+      "highlights": [
+        "National CAT/MBA coaching chain with a standardised curriculum",
+        "Classroom and online batches available at the Amritsar centre",
+        "Full-course fee published at approximately Rs 93,770"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pbi-institute-amritsar",
+      "type": "coaching",
+      "name": "PBI Institute",
+      "city": "amritsar",
+      "locality": "Lawrence Road",
+      "address": "63, Dayanand Nagar, Canara Bank Building, Lawrence Road, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "PBI Institute runs a 14-month classroom track on Lawrence Road covering CAT, CMAT, MAT and MET. The institute cites 23 IIM call-getters among its past students, a locally built track record independent of any national chain's brand.",
+      "highlights": [
+        "14-month classroom programme covering CAT, CMAT, MAT and MET",
+        "Cites 23 IIM call-getters among past students",
+        "Independent, locally run institute on Lawrence Road"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ibt-institute-of-banking-training-amritsar",
+      "type": "coaching",
+      "name": "IBT - Institute of Banking Training",
+      "city": "amritsar",
+      "locality": "Rani Ka Bagh",
+      "address": "Opp. State Bank, Near Kachehri Chowk, Rani Ka Bagh, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "IBT is better known regionally for bank PO and clerical-exam coaching, but its Rani Ka Bagh centre near Kachehri Chowk also runs CAT and MBA-entrance batches, drawing on the same aptitude-and-reasoning faculty pool as its banking programmes.",
+      "highlights": [
+        "Primarily a banking and government-exam coaching chain",
+        "Rani Ka Bagh centre also runs CAT/MBA-entrance batches",
+        "Shared aptitude-and-reasoning faculty across programmes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "veron-institute-amritsar",
+      "type": "coaching",
+      "name": "Veron Institute",
+      "city": "amritsar",
+      "locality": "Rani Ka Bagh",
+      "address": "3rd Floor, Near State Bank of India, Kachehri Chowk, Rani Ka Bagh, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Veron Institute sits a short walk from IBT, also near Kachehri Chowk in Rani Ka Bagh. Primarily built around banking and government-exam coaching, it extends the same test-series infrastructure and faculty to CAT and MBA-entrance aspirants.",
+      "highlights": [
+        "Banking and government-exam coaching institute",
+        "Also runs CAT and MBA-entrance batches",
+        "Located in the Kachehri Chowk / Rani Ka Bagh coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "talent-hub-education-amritsar",
+      "type": "coaching",
+      "name": "Talent Hub Education",
+      "city": "amritsar",
+      "locality": "Medical Enclave",
+      "address": "86, Near Trillium Mall, Medical Enclave, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Talent Hub Education positions itself as a multi-exam institute covering CAT, MBA, MCA, law and BBA entrance tests plus campus recruitment training. It caps batches at roughly 35-40 students and says it has trained more than 10,000 students across its programmes to date.",
+      "highlights": [
+        "Covers CAT, MBA, MCA, law and BBA entrance exams",
+        "Batch size capped at roughly 35-40 students",
+        "Claims 10,000-plus students trained across programmes"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pt-education-amritsar",
+      "type": "coaching",
+      "name": "PT Education",
+      "city": "amritsar",
+      "locality": "GT Road",
+      "address": "52, New Dashmesh Avenue, GT Road, Opp. Khalsa College (B.Ed), Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "PT Education's Amritsar branch is part of a pan-India network better known for banking and SSC coaching, but it lists CAT and MBA-entrance preparation among its Amritsar offerings, with a published full-course fee of approximately Rs 70,000.",
+      "highlights": [
+        "Pan-India chain, primarily known for banking/SSC coaching",
+        "Also offers CAT and MBA-entrance preparation in Amritsar",
+        "Full-course fee published at approximately Rs 70,000"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "prof-sodhis-academy-amritsar",
+      "type": "coaching",
+      "name": "Prof. Sodhi's Academy",
+      "city": "amritsar",
+      "locality": "Railway Link Road",
+      "address": "92, Railway Link Road, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Prof. Sodhi's Academy is a locally run, single-branch institute on Railway Link Road offering CAT and other MBA-entrance coaching. Being a smaller operation without a national brand behind it, prospective students should confirm current batch schedules and faculty directly before enrolling.",
+      "highlights": [
+        "Locally run, single-branch CAT/MBA-entrance institute",
+        "Based on Railway Link Road",
+        "Independent of any national coaching chain"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dashmesh-academy-amritsar",
+      "type": "coaching",
+      "name": "Dashmesh Academy",
+      "city": "amritsar",
+      "locality": "Phatak Road",
+      "address": "Opposite Khalsa College for Women, No. 22 Phatak Road, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Dashmesh Academy, opposite Khalsa College for Women on Phatak Road, is a local institute offering CAT and MBA-entrance preparation alongside its other competitive-exam batches.",
+      "highlights": [
+        "Local institute on Phatak Road",
+        "Covers CAT and MBA-entrance preparation",
+        "Also runs other competitive-exam batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aptitude-training-academy-amritsar",
+      "type": "coaching",
+      "name": "Aptitude Training Academy",
+      "city": "amritsar",
+      "locality": "Circular Road",
+      "address": "2nd Floor, T.I.M.E. Tower, Rattan Singh Chowk, Circular Road, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Aptitude Training Academy operates from Circular Road near Rattan Singh Chowk and markets itself partly on infrastructure - basement parking, an in-house computer lab for online mock tests and form-filling, and one-to-one doubt-clearing sessions - alongside its standard CAT-prep batches.",
+      "highlights": [
+        "CAT-prep batches near Rattan Singh Chowk",
+        "In-house computer lab for online mock tests and form-filling",
+        "One-to-one doubt-clearing sessions offered"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "knowledge-icon-amritsar",
+      "type": "coaching",
+      "name": "Knowledge Icon",
+      "city": "amritsar",
+      "locality": "Ranjit Avenue",
+      "address": "SCF 12-13, 2nd Floor, Twin Towers, A-Block Market, Ranjit Avenue, Amritsar, Punjab 143001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Knowledge Icon is based in the Twin Towers commercial complex on Ranjit Avenue, offering CAT and MBA-entrance coaching in one of the city's newer commercial districts, away from the older Kachehri Chowk and Maqbool Road clusters.",
+      "highlights": [
+        "Based in the Twin Towers complex, Ranjit Avenue",
+        "Offers CAT and MBA-entrance coaching",
+        "Located in a newer Amritsar commercial district"
+      ],
+      "mode": "offline"
+    },
     {
       "slug": "fiitjee-noida",
       "type": "coaching",
