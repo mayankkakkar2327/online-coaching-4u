@@ -2,6 +2,102 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+  slug: "upsc-cse-2026-mains-question-papers-released-update",
+  title: "UPSC CSE 2026 Mains: Official Question Papers Now Live on upsc.gov.in",
+  category: "IAS / UPSC",
+  date: "03 Sep 2026",
+  minutes: 4,
+  cta: { href: "coaching.html?exam=ias", text: "Compare verified IAS/UPSC coaching institutes" },
+  excerpt: "UPSC has uploaded the complete Civil Services (Main) Examination 2026 question paper set - every compulsory language paper and all optional-subject papers - to its official Active Examinations page, dated 1 September 2026.",
+  image: "assets/blog/upsc-cse-2026-mains-question-papers-released-update.png",
+  imageAlt: "UPSC CSE 2026 Mains question papers released update graphic",
+  html: `
+<p><strong>Last updated: 3 September 2026.</strong></p>
+<p>The Union Public Service Commission has uploaded the full question paper set for the Civil Services (Main) Examination 2026 to its official website, confirmed directly against the "Civil Services (Main) Examination, 2026" page on <a href="https://www.upsc.gov.in/examinations/Civil%20Services%20%28Main%29%20Examination%2C%202026" rel="noopener" target="_blank">upsc.gov.in</a>, where every paper carries an upload date of 1 September 2026.</p>
+
+<h2>What's actually confirmed</h2>
+<p>UPSC's Active Examinations listing for CSE (Main) 2026 now includes a full "Question Paper" row alongside the exam's existing Important Notice, Press Note, e-Admit Card and Examination Time Table entries. The uploaded set covers all compulsory Indian-language papers plus English and the Essay paper, and every optional-subject paper offered this cycle - from Agriculture and Anthropology through to Public Administration and Zoology - each filed as a separate PDF dated 010926 (1 September 2026) in UPSC's own file-naming convention. This follows the Mains exam itself, which ran across five days - 21, 22 and 23 August, then 29 and 30 August 2026 - after e-Admit Cards were released on 14 August, as OC4u reported at the time.</p>
+
+<h2>What this means for aspirants</h2>
+<p>With official papers now public, candidates and coaching institutes can run genuine post-exam answer-writing reviews instead of relying on memory-based paper reconstructions circulated on forums and Telegram groups in the days after each exam - a common source of inaccuracies in past cycles. This is also the point where aspirants gearing up for CSE 2027 typically start using the previous year's actual Mains papers for optional-subject practice, since UPSC's own archive is the only fully reliable source for exact wording and marks distribution. It's worth noting that publishing question papers is a routine, scheduled administrative step and has no bearing on the Mains result timeline - UPSC has historically taken two to three months or longer between the last Mains paper and declaring the written result, so treat any "result leaked" claim circulating before an official notice with scepticism.</p>
+
+<h2>Important pointers</h2>
+<ul>
+<li><strong>[14 Aug 2026]</strong> UPSC released e-Admit Cards for CSE (Main) 2026 via upsconline.nic.in.</li>
+<li><strong>[21, 22, 23, 29 &amp; 30 Aug 2026]</strong> CSE (Main) 2026 was conducted across five days, two sessions each day.</li>
+<li><strong>[1 Sep 2026]</strong> UPSC uploaded the complete CSE (Main) 2026 question paper set - all language and optional-subject papers - to its official Active Examinations page.</li>
+<li><strong>[Where to check]</strong> Papers are posted only on upsc.gov.in's Active Examinations section; UPSC does not distribute them by email or through any third-party portal.</li>
+<li><strong>Myth check:</strong> A published question paper set is a routine administrative step, not a signal that results are imminent - UPSC's Mains written result typically follows two to three months (or more) after the exam, announced only through an official press note.</li>
+</ul>
+
+<p><em>Last updated: 3 September 2026. Source: <a href="https://www.upsc.gov.in/examinations/Civil%20Services%20%28Main%29%20Examination%2C%202026" rel="noopener" target="_blank">upsc.gov.in</a> (official Active Examinations page, Civil Services (Main) Examination 2026).</em></p>`
+},
+
+{
+  slug: "top-10-ias-coaching-institutes-gurugram-2026",
+  title: "Top 10 IAS Coaching Institutes in Gurugram (2026)",
+  category: "IAS / UPSC",
+  date: "03 Sep 2026",
+  minutes: 9,
+  cta: { href: "coaching-gurugram.html", text: "Browse all verified coaching institutes in Gurugram" },
+  excerpt: "Gurugram's UPSC-coaching scene runs almost entirely out of one compact stretch of Old DLF Colony, Sector 14 - a Rajinder-Nagar-style cluster serving Haryana's NCR aspirants without the Delhi commute. Here's a fact-checked look at ten institutes actually training IAS candidates in the city.",
+  image: "assets/blog/top-10-ias-coaching-institutes-gurugram-2026.png",
+  imageAlt: "Top 10 IAS coaching institutes in Gurugram 2026 graphic",
+  faqs: [
+    { q: "Which is the best IAS coaching institute in Gurugram?", a: "There's no single 'best' - FIRST IAS Institute and Vajirao IAS Academy are the most established names by fee tier and course breadth, while Ram IAS Gurgaon and Sage IAS Academy suit students wanting smaller, more affordable options. Compare 2-3 institutes directly, including a demo class, before deciding." },
+    { q: "Where are Gurugram's main UPSC-coaching clusters?", a: "Old DLF Colony, Sector 14 hosts eight of the ten institutes on this list. A second cluster sits near the Sector 53-54 Rapid Metro station on Golf Course Road (Chanakya IAS Academy), and Palam Vihar hosts one further institute (Shaan Foundation IAS Academy)." },
+    { q: "Do Gurugram's IAS institutes also coach for Haryana state PSC (HPSC)?", a: "Some do, alongside their core UPSC batches, but course offerings change between admission cycles - always confirm directly with a shortlisted institute whether it currently runs an HPSC-specific track before enrolling." },
+    { q: "Does Online Coaching 4u accept payment for institute rankings?", a: "No. None of the institutes in this list have paid Online Coaching 4u for placement, and ranking is not for sale on this platform." }
+  ],
+  html: `
+<p>Gurugram (formerly Gurgaon) - Haryana's corporate and NCR hub, sitting just across the Delhi border - has built its own UPSC/IAS coaching cluster rather than simply feeding aspirants into Delhi's Old Rajinder Nagar or Mukherjee Nagar belts. Nearly the entire market is concentrated in a few hundred metres of Old DLF Colony, Sector 14, with a second pocket near the Sector 53-54 Rapid Metro corridor on Golf Course Road and a smaller outpost in Palam Vihar.</p>
+<p>This list sticks to institutes with a genuine, checkable local presence: a real address, confirmation across more than one independent source, and current operations in the city as of 2026.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Gurugram, Haryana</p>
+<p><strong>Main exam covered:</strong> UPSC Civil Services (IAS/IPS/IRS); some institutes also run Haryana state-PSC (HPSC) batches</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked</p>
+<p><strong>Main coaching hub:</strong> Old DLF Colony, Sector 14, with a second cluster near Sector 53-54 (Golf Course Road) and one Palam Vihar outpost</p>
+<p><strong>Published full-course fees (where disclosed):</strong> approx. Rs 65,000 - Rs 2,87,500; several institutes require a direct enquiry for current fees</p>
+</div>
+
+<h3>1. FIRST IAS Institute</h3>
+<p>FIRST IAS Institute runs 1, 2 and 3-year classroom programmes - GS with CSAT, Essay and Optional Subject combinations - from Old DLF Colony, Sector 14, one of Gurugram's more established UPSC-coaching addresses. Published full-course fees range from roughly Rs 1,47,500 to Rs 2,87,500, among the higher end of the city's disclosed fee ranges.</p>
+
+<h3>2. Vajirao IAS Academy</h3>
+<p>Vajirao IAS Academy, on the same Sector 14 stretch, offers both online and offline formats with a wide course spread - standalone modules such as an Essay-only course through to comprehensive GS programmes. Published fees range from roughly Rs 10,000 for individual modules up to Rs 2,25,000 for full-length courses.</p>
+
+<h3>3. Chanakya IAS Academy</h3>
+<p>Chanakya IAS Academy's Gurugram centre, on Golf Course Road next to the Sector 53-54 Rapid Metro station, is a branch of the pan-India chain founded in 1993 that reports more than 3,000 selections to civil services across its national network. It runs short-term, 10-month, 1-year and 3-year courses, with published fees from roughly Rs 45,000 to Rs 3,25,000.</p>
+
+<h3>4. Gurgaon IAS Academy</h3>
+<p>Gurgaon IAS Academy operates from Old DLF Colony, Sector 14, offering short-term, optional-subject-only and complete GS preparation tracks, with published fees ranging from about Rs 65,000 to Rs 1,50,000.</p>
+
+<h3>5. Analytics IAS Academy</h3>
+<p>Analytics IAS Academy runs its Gurugram centre from the same Sector 14 stretch, offering basic-orientation and complete-preparation courses across all exam phases, with published fees between roughly Rs 10,000 and Rs 1,40,000.</p>
+
+<h3>6. Ram IAS Gurgaon</h3>
+<p>Founded by Ram Chandra in 2015, Ram IAS Gurgaon sits opposite a State Bank of India branch in Old DLF Colony, Sector 14, and runs test-series-only, optional-only, GS-regular and combined GS-and-optional courses, with fees from roughly Rs 15,000 to Rs 1,15,000 - among the more affordable options in the cluster.</p>
+
+<h3>7. Sage IAS Academy</h3>
+<p>Sage IAS Academy, also based in Old DLF Colony, Sector 14, is built around a gurukul-style study library alongside its optional, test-series and complete-preparation courses. Published fees run from about Rs 30,000 to Rs 1,15,000.</p>
+
+<h3>8. Shaan Foundation IAS Academy</h3>
+<p>Shaan Foundation IAS Academy is the one institute on this list outside the Sector 14 cluster, running instead from Palam Vihar. It structures teaching around four tracks - dedicated personal mentoring, an integrated syllabus approach, skills-building and an individual-centric format - offered as classroom, weekend, online and correspondence courses, plus separate interview guidance, at fees up to roughly Rs 2,00,000.</p>
+
+<h3>9. Margus IAS Institute</h3>
+<p>Margus IAS Institute, opposite an SBI branch in Old DLF Colony, Sector 14, offers test-series and complete-preparation courses, with a published indicative fee of roughly Rs 1,50,000 for its full programme.</p>
+
+<h3>10. Tagore IAS Classes</h3>
+<p>Tagore IAS Classes runs from the same Sector 14 stretch as most of this list, offering test-series and preparation courses at fees from roughly Rs 15,000 to Rs 1,24,000.</p>
+
+<p>Nine of these ten institutes sit within easy walking distance of each other in Old DLF Colony, Sector 14 - practically a mini Rajinder Nagar transplanted onto Gurugram's side of the Delhi border, which makes comparing options in person unusually convenient for a single afternoon. Published fees vary widely, from roughly Rs 10,000 standalone modules up to nearly Rs 2,90,000 full programmes, so it's worth asking directly what a quoted fee actually includes - GS alone, GS with optional, or a full package with test series and interview guidance - before comparing across institutes. As with any coaching decision, sit in on a demo class and confirm current batch size and faculty before enrolling.</p>
+
+<p>Compare full details and browse verified coaching options on our <a href="coaching-gurugram.html">Gurugram coaching page</a>.</p>
+`
+},
+
+{
   slug: "cat-2026-registration-closes-15-september-update",
   title: "CAT 2026 Registration Closes September 15 — Here's What's Confirmed",
   category: "CAT / MBA",
