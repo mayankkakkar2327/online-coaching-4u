@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "gurugram",
       "amritsar",
       "meerut",
       "noida",
@@ -11130,6 +11131,206 @@
         "Classroom-based teaching model"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "first-ias-institute-gurugram",
+      "type": "coaching",
+      "name": "FIRST IAS Institute",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "M26, Ground Floor, Old DLF Colony, Sector 14, Gurugram, Haryana 122001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "FIRST IAS Institute runs 1, 2 and 3-year classroom programmes - GS with CSAT, Essay and Optional Subject combinations - from Old DLF Colony, Sector 14, one of Gurugram's more established UPSC-coaching addresses. Published full-course fees range from roughly Rs 1,47,500 to Rs 2,87,500, among the higher end of the city's disclosed fee ranges.",
+      "highlights": [
+        "1, 2 and 3-year GS+CSAT+Essay+Optional programmes",
+        "Published fees roughly Rs 1,47,500 - Rs 2,87,500, among the city's higher disclosed ranges",
+        "Based in Old DLF Colony, Sector 14 - Gurugram's main UPSC-coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vajirao-ias-academy-gurugram",
+      "type": "coaching",
+      "name": "Vajirao IAS Academy",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "NM 22, Block 22, First Floor, Old DLF Colony, Sector 14, Gurugram, Haryana 122001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Vajirao IAS Academy offers both online and offline UPSC preparation from Old DLF Colony, Sector 14, with a wide course spread - standalone modules such as an Essay-only course through to comprehensive GS programmes. Published fees range from roughly Rs 10,000 for individual modules up to Rs 2,25,000 for full-length courses, giving aspirants room to target a specific weak area rather than committing to a complete package.",
+      "highlights": [
+        "Offers both online and offline UPSC preparation formats",
+        "Standalone modules (e.g. Essay-only) alongside full GS programmes, Rs 10,000 - Rs 2,25,000",
+        "Based in Old DLF Colony, Sector 14"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "chanakya-ias-academy-gurugram",
+      "type": "coaching",
+      "name": "Chanakya IAS Academy",
+      "city": "gurugram",
+      "locality": "Sector 53-54, Golf Course Road",
+      "address": "Palm Spring Plaza, next to Sector 53-54 Rapid Metro Station, Gurugram, Haryana 122002",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Chanakya IAS Academy's Gurugram centre, on Golf Course Road next to the Sector 53-54 Rapid Metro station, is a branch of the pan-India UPSC-coaching chain founded in 1993, which reports more than 3,000 selections to civil services across its national network since founding. The Gurugram branch runs short-term, 10-month, 1-year and 3-year courses, with published fees from roughly Rs 45,000 to Rs 3,25,000.",
+      "highlights": [
+        "Gurugram branch of a pan-India chain founded in 1993, citing 3,000+ selections nationally",
+        "Short-term, 10-month, 1-year and 3-year course options",
+        "Located on Golf Course Road, next to the Sector 53-54 Rapid Metro station - Gurugram's second coaching pocket"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gurgaon-ias-academy-gurugram",
+      "type": "coaching",
+      "name": "Gurgaon IAS Academy",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "M-24, Block M, Old DLF Colony, Sector 14, Gurugram, Haryana 122001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Gurgaon IAS Academy runs short-term, optional-subject-only and complete GS preparation tracks from Old DLF Colony, Sector 14. Published fees range from roughly Rs 65,000 to Rs 1,50,000 depending on course length and coverage.",
+      "highlights": [
+        "Short-term, optional-only and complete GS preparation tracks",
+        "Published fees roughly Rs 65,000 - Rs 1,50,000",
+        "Based in Old DLF Colony, Sector 14"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "analytics-ias-academy-gurugram",
+      "type": "coaching",
+      "name": "Analytics IAS Academy",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "M-2, Ground Floor, Old DLF Colony, Sector 14, Gurugram, Haryana 122007",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Analytics IAS Academy, based in Old DLF Colony, Sector 14, offers basic-orientation and complete-preparation courses spanning all phases of UPSC preparation. Published fees range from roughly Rs 10,000 to Rs 1,40,000.",
+      "highlights": [
+        "Basic-orientation and complete-preparation courses across all UPSC exam phases",
+        "Published fees roughly Rs 10,000 - Rs 1,40,000",
+        "Based in Old DLF Colony, Sector 14"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ram-ias-gurugram",
+      "type": "coaching",
+      "name": "Ram IAS Gurgaon",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "M-28, Second Floor, opposite State Bank of India, Old DLF Colony, Sector 14, Gurugram, Haryana 122001",
+      "estd": 2015,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Ram IAS Gurgaon, founded by Ram Chandra in 2015, runs test-series-only, optional-only, GS-regular and combined GS-and-optional courses from Old DLF Colony, Sector 14, opposite a State Bank of India branch. Published fees range from roughly Rs 15,000 to Rs 1,15,000, among the more affordable options in the city's main coaching cluster.",
+      "highlights": [
+        "Founded 2015 by Ram Chandra",
+        "Test-series-only, optional-only, GS-regular and combined course formats",
+        "Published fees roughly Rs 15,000 - Rs 1,15,000, among the cluster's more affordable options"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sage-ias-academy-gurugram",
+      "type": "coaching",
+      "name": "Sage IAS Academy",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "M-24, Ground Floor, Old DLF Colony, Sector 14, Gurugram, Haryana 122001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Sage IAS Academy runs from Old DLF Colony, Sector 14, built around a gurukul-style study library alongside optional-subject, test-series and complete-preparation courses. Published fees range from roughly Rs 30,000 to Rs 1,15,000.",
+      "highlights": [
+        "Gurukul-style study library alongside regular coursework",
+        "Optional-subject, test-series and complete-preparation courses",
+        "Published fees roughly Rs 30,000 - Rs 1,15,000"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "shaan-foundation-ias-academy-gurugram",
+      "type": "coaching",
+      "name": "Shaan Foundation IAS Academy",
+      "city": "gurugram",
+      "locality": "Palam Vihar",
+      "address": "Second Floor, Plot No. 521A, C Block, Palam Vihar, Gurugram, Haryana 122017",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Shaan Foundation IAS Academy is the one institute on this list outside Gurugram's Sector 14 cluster, running instead from Palam Vihar. It structures teaching around four tracks - dedicated personal mentoring, an integrated syllabus approach, skills-building and an individual-centric format - offered as classroom, weekend, online and correspondence courses, plus separate interview guidance, at fees up to roughly Rs 2,00,000.",
+      "highlights": [
+        "Based in Palam Vihar - the one institute on this list outside the Sector 14 cluster",
+        "Four distinct teaching tracks including dedicated personal mentoring",
+        "Classroom, weekend, online, correspondence and interview-guidance formats"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "margus-ias-institute-gurugram",
+      "type": "coaching",
+      "name": "Margus IAS Institute",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "C-4, opposite State Bank of India, Block M, Old DLF Colony, Sector 14, Gurugram, Haryana 122007",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Margus IAS Institute, opposite a State Bank of India branch in Old DLF Colony, Sector 14, offers test-series and complete UPSC-preparation courses, with an indicative published fee of roughly Rs 1,50,000 for its full programme.",
+      "highlights": [
+        "Test-series and complete UPSC-preparation courses",
+        "Indicative full-programme fee of roughly Rs 1,50,000",
+        "Based in Old DLF Colony, Sector 14"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "tagore-ias-classes-gurugram",
+      "type": "coaching",
+      "name": "Tagore IAS Classes",
+      "city": "gurugram",
+      "locality": "Old DLF Colony, Sector 14",
+      "address": "NM-23, Old DLF Colony, Sector 14, Gurugram, Haryana 122001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Tagore IAS Classes runs test-series and preparation courses from Old DLF Colony, Sector 14, at published fees ranging from roughly Rs 15,000 to Rs 1,24,000.",
+      "highlights": [
+        "Test-series and preparation courses",
+        "Published fees roughly Rs 15,000 - Rs 1,24,000",
+        "Based in Old DLF Colony, Sector 14"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -11274,6 +11475,9 @@
     },
     "coaching-meerut": {
       "intro": "<p>Meerut, in western Uttar Pradesh's NCR-adjacent belt, has built a steady NEET-coaching market over the past decade, anchored by a Garh Road corridor and a second, older cluster of institutes around Meerut College and Kutchery Pul. Because NEET UG is India's only medical entrance exam — Uttar Pradesh runs no state-specific alternative — demand here is concentrated entirely on one exam, which has let both national chains and local institutes run standardised, non-improvised batch structures. The market mixes long-running national brands (Aakash Institute, Allen Career Institute) with a lower-cost newer entrant (PW Vidyapeeth) and several established local institutes, including a handful — Adhikaansh Academy, Allele Institute for Medical Entrance, Three Dots Coaching Center — that specialise specifically in medical-entrance preparation. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
+    },
+    "coaching-gurugram": {
+      "intro": "<p>Gurugram (formerly Gurgaon) - Haryana's corporate and NCR hub, sitting just across the Delhi border - has built its own UPSC/IAS coaching cluster rather than simply feeding aspirants into Delhi's Old Rajinder Nagar or Mukherjee Nagar belts. Nearly the entire market is concentrated in a few hundred metres of Old DLF Colony, Sector 14, with a second pocket near the Sector 53-54 Rapid Metro corridor on Golf Course Road and a smaller outpost in Palam Vihar. The market mixes a pan-India chain branch (Chanakya IAS Academy) with institutes founded and run specifically in Gurugram (FIRST IAS Institute, Vajirao IAS Academy, Gurgaon IAS Academy, Analytics IAS Academy, Ram IAS Gurgaon, Sage IAS Academy, Shaan Foundation IAS Academy, Margus IAS Institute, Tagore IAS Classes). Every listing below shows its verification status and, where available, additional detail on address, fees and course structure.</p>"
     }
   }
 }
