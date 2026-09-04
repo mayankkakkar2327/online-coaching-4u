@@ -37,9 +37,9 @@ function buildToc(html) {
   });
   return { html: withIds, tocItems };
 }
-const typeLabel = { coaching: "Coaching", certification: "Certification" };
-const typePlural = { coaching: "Coaching Institutes", certification: "Professional Certifications" };
-const typePage = { coaching: "coaching", certification: "certification" };
+const typeLabel = { coaching: "Coaching", certification: "Certification", coach: "Individual Coach" };
+const typePlural = { coaching: "Coaching Institutes", certification: "Professional Certifications", coach: "Individual Coaches" };
+const typePage = { coaching: "coaching", certification: "certification", coach: "coach" };
 
 /* copy used specifically for the "online" (no fixed city) listing/detail pages —
    keyed by type so each vertical gets accurate, non-generic wording */
@@ -56,6 +56,13 @@ const ONLINE_COPY = {
     title: (n) => `Best Online Professional Certification Training (${n} compared)`,
     metaDesc: (n) => `Compare ${n} online professional certification training providers — including PMI PgMP®, PfMP®, PMP® and related credentials. Verified facts, no paid rankings.`,
     subNote: (n) => `${n} providers compared — facts only: founders/instructors, formats and track record. No paid rankings — nobody pays for placement.`,
+    availability: "Worldwide"
+  },
+  coach: {
+    h1: "Individual Coaches & Mentors",
+    title: (n) => `Best Individual Coaches & Mentors (${n} compared)`,
+    metaDesc: (n) => `Compare ${n} individual coaches and mentors — verified facts, real client outcomes, no paid rankings.`,
+    subNote: (n) => `${n} coaches compared — facts only: credentials, offerings and client outcomes. No paid rankings — nobody pays for placement.`,
     availability: "Worldwide"
   }
 };
@@ -156,7 +163,7 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["coaching-online.html", "Online Coaching"], ["coaching.html", "Offline Coaching"], ["certification.html", "Certifications"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"], ["about.html", "About"]];
+  const nav = [["coaching-online.html", "Online Coaching"], ["coaching.html", "Offline Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"], ["about.html", "About"]];
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
@@ -189,6 +196,7 @@ function footer() {
 <li><a href="contact.html">Contact Us</a></li>
 <li><a href="blog.html">Guides</a></li>
 <li><a href="certification.html">Certifications</a></li>
+<li><a href="coach.html">Coaches</a></li>
 <li><a href="list-your-institute.html">List Your Institute</a></li>
 <li><a href="/sitemap.xml">Sitemap</a></li>
 <li><a href="https://www.onlinecoaching4u.in/feed">Feed</a></li>
@@ -958,7 +966,7 @@ const termsBody = `
 
 function sitemapBody() {
   const links = [];
-  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
+  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
   Object.keys(DATA.cities).forEach(t => {
     DATA.cities[t].forEach(c => {
       const lbl = t === "coaching" ? `Coaching in ${cityLabel(c)}` : `${typeLabel[t]} — ${cityLabel(c)}`;
@@ -1044,6 +1052,9 @@ w("coaching-online.html", onlineCoachingPage());
 w("certification.html", hubPage("certification", "Compare Professional Certification Training Providers",
   "Compare online professional certification training providers — including PMI PgMP®, PfMP® and PMP® programs — with verified facts, real track records and no paid rankings."));
 DATA.cities.certification.forEach(c => w(`certification-${c}.html`, listingPage("certification", c)));
+w("coach.html", hubPage("coach", "Find an Individual Coach",
+  "Compare verified individual coaches and mentors — with real client outcomes, verified facts and no paid rankings."));
+DATA.cities.coach.forEach(c => w(`coach-${c}.html`, listingPage("coach", c)));
 
 L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
 BRAND_REVIEWS.forEach(rv => {
@@ -1088,10 +1099,10 @@ POSTS.forEach(p => {
   postDateBySlug[p.slug] = /^\d{4}-\d{2}-\d{2}$/.test(iso) ? iso : today;
 });
 const hubPages = new Set([
-  "coaching.html", "coaching-online.html", "certification.html",
+  "coaching.html", "coaching-online.html", "certification.html", "coach.html",
   "blog.html", "about.html", "contact.html", "list-your-institute.html"
 ]);
-const cityPageRe = /^(coaching|certification)-[a-z-]+\.html$/;
+const cityPageRe = /^(coaching|certification|coach)-[a-z-]+\.html$/;
 const sitemapMeta = (f) => {
   if (f === "index.html") return { priority: "1.0", changefreq: "daily" };
   if (hubPages.has(f) || cityPageRe.test(f)) return { priority: "0.8", changefreq: "daily" };

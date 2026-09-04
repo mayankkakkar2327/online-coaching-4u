@@ -469,5 +469,85 @@ module.exports = [
     backlinks: [
       { label: "Official website", url: "https://www.iproledge.com", icon: "↗" }
     ]
+  },
+  {
+    slug: "rohini-mundra",
+    metaTitle: "Rohini Mundra Review: The TEDx Speaker and Author Behind The 1% Club",
+    metaDescription: "Rohini Mundra is a TEDx speaker, author, and business coach who has worked with 100,000+ people across 5,000+ entrepreneurs and 7 countries. Here's what makes her coaching work.",
+    headline: "Rohini Mundra Review: The Business Strategist Who Coaches From the Inside Out",
+    subheadline: "A TEDx stage, a published book, and a client list spanning 5,000+ entrepreneurs across 7 countries — here's what makes Rohini Mundra's blend of mindset coaching and business strategy genuinely work.",
+    verdictRating: 4.7,
+    verdictSummary: "Rohini Mundra has built something genuinely rare in the coaching space: a practice that treats inner clarity and business results as the same problem, not two separate ones. She's delivered a TEDx talk, written a published book on turning personal growth into real-world results, and built a client base that now spans 100,000+ people, 5,000+ entrepreneurs, and 7 countries — all while keeping her entry point accessible through live workshops anyone can join.",
+    ratingsBreakdown: [
+      { factor: "Credibility", rating: 4.9, why: "A genuine TEDx talk (TEDxDSCE) and a published book, backed by repeat speaking engagements at industry events" },
+      { factor: "Breadth of impact", rating: 4.6, why: "Private coaching, group programs, an annual live event, personal branding, and a growing AI-and-marketing coaching-business program — she meets people wherever they are in their journey" },
+      { factor: "Accessibility", rating: 4.7, why: "A ₹199 entry-level live workshop makes her teaching style available to anyone, not just clients who can afford private coaching" },
+      { factor: "Client impact", rating: 4.6, why: "Real client stories spanning career transitions, revenue growth, and personal transformation, told in their own words" }
+    ],
+    bestFor: "Entrepreneurs, aspiring coaches, and professionals who want a coach who addresses mindset and business strategy together — someone who can help with clarity and confidence just as much as with marketing and growth tactics.",
+    whatIs: [
+      "Rohini Mundra (rohinimundra.com) is a TEDx speaker, published author, and business-mindset coach built around one core mission: helping people find their purpose, passion, and profit, and become what she calls \"XtraOrdinary.\" Her TEDx talk, \"Power of Rituals,\" was delivered at TEDxDSCE, and she is the author of \"The 1% Club: 7 Hacks to an XtraOrdinary Life.\" Her reach now spans 100,000+ people, including 5,000+ entrepreneurs, across 7 countries.",
+      "What makes her practice distinctive is its range: a deep, structured three-month coaching arc sits alongside hands-on teaching in AI-for-business skills, giving clients a coach equally comfortable with inner clarity and practical growth tactics. As she puts it on her site, \"I am committed to helping you achieve your highest potential and becoming XtraOrdinary.\""
+    ],
+    whyChoose: [
+      {
+        title: "How She Works With Clients.",
+        body: "Rohini's core offering is Private Coaching, a structured three-month arc — Inner Awareness, then Soul and Karma, then Living the Wisdom — moving clients from self-understanding to practical, everyday change. Alongside it sits The Heart of Business, a group coaching program available as single sessions or full packages, plus a wider slate of offerings:",
+        list: [
+          "Workshops & Seminars",
+          "An Annual Mega Event",
+          "\"Brand New Brand You\" — a personal-branding masterclass",
+          "A Digital Transformation program",
+          "Custom web development for coaches and entrepreneurs building their own online presence"
+        ],
+        after: "That range means clients can start wherever they are — a single workshop, a group program, or a full private coaching arc — and go as deep as they need."
+      },
+      {
+        title: "The Xtraordinary Speakers Academy.",
+        body: "For anyone who wants to try her teaching style before committing to private coaching, Rohini runs the Xtraordinary Speakers Academy: a ₹199, 3-day live workshop covering:",
+        list: [
+          "Day 1: Launch Your Coaching Business",
+          "Day 2: Leverage AI to Work Smarter",
+          "Day 3: Automate and Scale Your Business"
+        ],
+        after: "It also includes two bonuses — a Secret Social Media module and a downloadable tool-kit — and past participants have rated it 9.4/10, a strong result for a workshop priced to be accessible to anyone."
+      }
+    ],
+    resultsSection: {
+      heading: "Real Client Stories",
+      intro: "Rather than a single kind of outcome, Rohini's client stories span three different starting points — proof her coaching adapts to where someone actually is, not a one-size-fits-all program:",
+      bullets: [
+        "Khushi Jain wrote and published her own book, \"Happiness Is You,\" while growing her coaching business alongside it.",
+        "Santosh Modi launched his first successful marketing campaign and went on to build a genuine reputation as a sought-after coach.",
+        "Navneet transitioned from a full-time job into running her own coaching business — keeping the security of full-time work until she was ready to make the leap."
+      ],
+      closingNote: "Her homepage carries a rotating library of client video testimonials plus footage from her Annual Mega Event and other speaking engagements, so these stories aren't presented in isolation — they sit alongside a genuinely large archive anyone can watch."
+    },
+    pricingTable: [
+      { program: "Private Coaching (1:1, 3-Month Program)", included: "Inner Awareness → Soul and Karma → Living the Wisdom", investment: "Tailored via consultation call" },
+      { program: "The Heart of Business (Group Coaching)", included: "Single sessions or full packages", investment: "Tailored via consultation call" },
+      { program: "Xtraordinary Speakers Academy (3-Day Live Workshop)", included: "Launch, AI skills and automation/scaling training, plus 2 bonus modules", investment: "₹199" }
+    ],
+    placementNote: "Beyond these three core paths, Rohini also runs Workshops & Seminars, an Annual Mega Event, the \"Brand New Brand You\" personal-branding masterclass, a Digital Transformation program, and custom web development for coaches and entrepreneurs — giving clients room to keep working with her as their needs evolve, rather than a single fixed engagement.",
+    testimonials: [
+      { quote: "Working with Rohini gave me the clarity and confidence to write and publish my own book, Happiness Is You — and to grow my coaching business alongside it.", author: "Khushi Jain, author of \"Happiness Is You\"" },
+      { quote: "Rohini's coaching helped me launch my first successful marketing campaign, and from there, build a genuine reputation as a coach in my own right.", author: "Santosh Modi" },
+      { quote: "I was able to build my own coaching business step by step, without giving up the security of my full-time job until I was ready to make the leap.", author: "Navneet" }
+    ],
+    archiveNote: "What stands out across these stories is the range — a published author, a marketer-turned-coach, and a full-time professional building a business on the side — proof Rohini's coaching meets people at genuinely different starting points rather than pushing one path for everyone.",
+    faqs: [
+      { q: "Is Rohini Mundra a real TEDx speaker?", a: "Yes — she delivered \"Power of Rituals\" at TEDxDSCE." },
+      { q: "Has she published a book?", a: "Yes — \"The 1% Club: 7 Hacks to an XtraOrdinary Life,\" available on Amazon." },
+      { q: "Who is this coaching for?", a: "Entrepreneurs, aspiring coaches, and professionals who want to work on mindset and business strategy together, rather than treating them as separate problems." },
+      { q: "Is her coaching suitable for beginners?", a: "Yes — the ₹199 Xtraordinary Speakers Academy is built as an accessible entry point, while Private Coaching and The Heart of Business suit clients ready for a deeper, more structured engagement." },
+      { q: "Will working with her help grow my income or career?", a: "Client outcomes span book publication, a successful marketing campaign, and a full transition into running an independent coaching business — the kind of range that suggests real applicability across different goals." },
+      { q: "How much does coaching cost?", a: "Private coaching and group coaching through The Heart of Business are tailored via a consultation call. The Xtraordinary Speakers Academy is a flat ₹199 for the full 3-day workshop." },
+      { q: "What's different about her approach?", a: "She treats inner clarity and business results as one connected problem rather than two separate tracks — pairing a structured three-month private coaching arc with hands-on teaching in AI-for-business skills." }
+    ],
+    bottomLine: "Rohini Mundra brings something genuinely differentiated to the coaching space: real, independently verifiable credibility — a TEDx talk, a published book — combined with a practice that has demonstrably reached 100,000+ people across 5,000+ entrepreneurs and 7 countries. Her range, from deep three-month private coaching to a ₹199 live workshop on building an AI-powered coaching business, means there's a genuinely accessible entry point whatever stage you're at. For anyone looking for a coach who can address both the inner and outer sides of building a meaningful career or business, Rohini Mundra is a strong, well-documented choice.",
+    backlinks: [
+      { label: "Official website", url: "https://rohinimundra.com/", icon: "↗" },
+      { label: "Xtraordinary Speakers Academy", url: "https://superchargeskills.com/", icon: "★" }
+    ]
   }
 ];

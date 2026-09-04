@@ -56,6 +56,9 @@
     ],
     "certification": [
       "online"
+    ],
+    "coach": [
+      "online"
     ]
   },
   "examLabels": {
@@ -113,7 +116,9 @@
     "mhtcet": "MHT-CET",
     "judiciary": "Judiciary",
     "azure-data-engineering": "Azure Data Engineering",
-    "genai": "Gen AI"
+    "genai": "Gen AI",
+    "business-coaching": "Business Coaching",
+    "mindset-coaching": "Mindset Coaching"
   },
   "listings": [
     {
@@ -10928,6 +10933,30 @@
         "Free 3-day bootcamp to try the teaching style before enrolling in a paid batch"
       ],
       "website": "https://www.visionboardedtech.com/",
+      "mode": "online"
+    },
+    {
+      "slug": "rohini-mundra",
+      "type": "coach",
+      "name": "Rohini Mundra",
+      "city": "online",
+      "locality": "Online (India-based)",
+      "address": "India — online private coaching, group coaching and live workshops, available worldwide",
+      "estd": null,
+      "exams": [
+        "business-coaching",
+        "mindset-coaching"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": false,
+      "about": "Rohini Mundra is a TEDx speaker, published author and business-mindset coach who has worked with 100,000+ people across 5,000+ entrepreneurs and 7 countries. She delivered a TEDx talk, \"Power of Rituals,\" at TEDxDSCE, and is the author of \"The 1% Club: 7 Hacks to an XtraOrdinary Life.\" Her practice spans private three-month coaching, group programs through The Heart of Business, an annual live event, personal-branding and AI-for-business coaching — plus the accessible \u20b9199 Xtraordinary Speakers Academy, a three-day live workshop rated 9.4/10 by past participants.",
+      "highlights": [
+        "TEDx speaker (\"Power of Rituals,\" TEDxDSCE) and published author of \"The 1% Club: 7 Hacks to an XtraOrdinary Life\"",
+        "Reached 100,000+ people across 5,000+ entrepreneurs and 7 countries through private coaching, group programs and live events",
+        "\u20b9199 Xtraordinary Speakers Academy — a 3-day live workshop on launching and scaling a coaching business, rated 9.4/10 by participants"
+      ],
+      "website": "https://rohinimundra.com/",
       "mode": "online"
     },
     {
