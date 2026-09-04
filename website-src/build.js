@@ -163,11 +163,19 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["coaching-online.html", "Online Coaching"], ["coaching.html", "Offline Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"], ["about.html", "About"]];
+  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"]];
+  const academicActive = active === "coaching-online.html" || active === "coaching.html";
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
 <a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
 <nav class="main-nav" aria-label="Main navigation">
+<div class="nav-item nav-has-dropdown">
+<button type="button" class="nav-drop-btn${academicActive ? " active" : ""}" aria-haspopup="true" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">Academic Coaching <span class="nav-caret" aria-hidden="true">▾</span></button>
+<div class="nav-dropdown">
+<a href="coaching-online.html"${active === "coaching-online.html" ? ' class="active" aria-current="page"' : ""}>Online Coaching</a>
+<a href="coaching.html"${active === "coaching.html" ? ' class="active" aria-current="page"' : ""}>Offline Coaching</a>
+</div>
+</div>
 ${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-current="page"' : ""}>${t}</a>`).join("\n")}
 </nav>
 <a class="btn ${dark ? "btn-primary" : "btn-dark"} btn-sm" href="contact.html">Contact us</a>

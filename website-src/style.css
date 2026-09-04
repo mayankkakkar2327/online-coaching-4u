@@ -27,16 +27,32 @@ h1,h2,h3{letter-spacing:-.01em}
 .logo{display:flex;align-items:center;gap:11px;font-weight:700;font-size:1.05rem;color:var(--ink)}
 .logo:hover{text-decoration:none}
 .logo-mark{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,#6c6ce0,#4646c6);display:grid;place-items:center;flex-shrink:0;box-shadow:0 8px 18px -8px rgba(91,91,214,.55)}
-.main-nav{display:flex;gap:4px;margin-left:auto}
+.main-nav{display:flex;gap:4px;margin-left:auto;align-items:center}
 .main-nav a{padding:8px 15px;border-radius:99px;color:var(--ink-2);font-weight:500;font-size:.93rem}
 .main-nav a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
 .main-nav a.active{color:var(--brand-deep);background:var(--brand-soft);font-weight:600}
+.nav-item{position:relative;display:flex}
+.nav-drop-btn{display:flex;align-items:center;gap:4px;padding:8px 15px;border-radius:99px;color:var(--ink-2);font-weight:500;font-size:.93rem;background:none;border:none;font-family:inherit;cursor:pointer}
+.nav-drop-btn:hover{background:var(--brand-soft);color:var(--brand-deep)}
+.nav-drop-btn.active{color:var(--brand-deep);background:var(--brand-soft);font-weight:600}
+.nav-caret{font-size:.7em;transition:transform .15s}
+.nav-item:hover .nav-caret,.nav-item.open .nav-caret{transform:rotate(180deg)}
+.nav-dropdown{position:absolute;top:100%;left:0;display:none;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:14px;padding:6px;min-width:190px;box-shadow:0 12px 28px rgba(0,0,0,.12);z-index:70}
+.nav-dropdown a{padding:8px 12px;border-radius:10px;color:var(--ink-2);font-weight:500;font-size:.93rem;white-space:nowrap}
+.nav-dropdown a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+.nav-dropdown a.active{color:var(--brand-deep);background:var(--brand-soft);font-weight:600}
+.nav-item.nav-has-dropdown:hover .nav-dropdown,.nav-item.nav-has-dropdown.open .nav-dropdown{display:flex}
 .nav-toggle{display:none;background:none;border:1px solid var(--line);border-radius:10px;font-size:1.2rem;padding:4px 11px;cursor:pointer;color:var(--ink)}
 /* dark header (homepage hero) */
 .header-dark{background:transparent;border-bottom:1px solid rgba(255,255,255,.08);position:absolute;top:0;left:0;right:0;backdrop-filter:none}
 .header-dark .logo{color:#fff}
 .header-dark .main-nav a{color:rgba(255,255,255,.72)}
 .header-dark .main-nav a:hover,.header-dark .main-nav a.active{color:#fff;background:rgba(255,255,255,.09)}
+.header-dark .nav-drop-btn{color:rgba(255,255,255,.72)}
+.header-dark .nav-drop-btn:hover,.header-dark .nav-drop-btn.active{color:#fff;background:rgba(255,255,255,.09)}
+.header-dark .nav-dropdown a{color:var(--ink-2)}
+.header-dark .nav-dropdown a:hover{background:var(--brand-soft);color:var(--brand-deep)}
+.header-dark .nav-dropdown a.active{color:var(--brand-deep);background:var(--brand-soft);font-weight:600}
 .header-dark .nav-toggle{color:#fff;border-color:rgba(255,255,255,.25)}
 body.nav-open .main-nav{display:flex}
 
@@ -434,6 +450,12 @@ body.nav-open .main-nav{display:flex}
   .main-nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:14px;border-bottom:1px solid var(--line);z-index:60}
   body.nav-open .main-nav{display:flex}
   body.nav-open .main-nav a{color:var(--ink-2)}
+  body.nav-open .nav-drop-btn{color:var(--ink-2)}
+  .nav-item{display:flex;flex-direction:column}
+  .nav-drop-btn{width:100%;pointer-events:none}
+  .nav-caret{display:none}
+  .nav-dropdown{position:static;display:flex !important;box-shadow:none;border:none;padding:0 0 0 14px;background:none;min-width:0}
+  .nav-dropdown a{color:var(--ink-2)}
   .nav-toggle{display:block;margin-left:auto}
   .header-inner>.btn{display:none}
   .searchbox{flex-direction:column;align-items:stretch}
