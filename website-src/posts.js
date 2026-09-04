@@ -2,6 +2,126 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
 {
+  slug: "clat-ailet-2027-law-exam-update-04sep-no-new-notification",
+  title: "CLAT, AILET & SLAT 2027: No New Notification Today — Here's Exactly What's Live",
+  category: "CLAT / Law",
+  date: "04 Sep 2026",
+  minutes: 4,
+  cta: { href: "coaching.html?exam=clat", text: "Compare verified CLAT/law coaching institutes" },
+  excerpt: "No fresh notification was issued today by the Consortium of NLUs, NLU Delhi or Symbiosis International — CLAT 2027 registration stays open through 31 October 2026, AILET 2027 through 10 November, and SLAT 2027 through 4 December.",
+  image: "assets/blog/clat-ailet-2027-law-exam-update-04sep-no-new-notification.png",
+  imageAlt: "CLAT AILET SLAT 2027 law exam update graphic, no new notification",
+  faqs: [
+    { q: "Is CLAT 2027 registration still open?", a: "Yes. The Consortium of NLUs opened CLAT 2027 registration on 3 August 2026 and the window stays open through 31 October 2026, with the test scheduled for 6 December 2026, per the official consortiumofnlus.ac.in CLAT 2027 page." },
+    { q: "What is the last date to apply for AILET 2027?", a: "10 November 2026, per National Law University, Delhi's official AILET 2027 portal. Admit cards are due 30 November 2026 and the test itself is on 13 December 2026." },
+    { q: "How many attempts does SLAT 2027 offer, and which score counts?", a: "Two — 19 December and 26 December 2026. A candidate may sit for both; if they do, the higher of the two percentile scores is used for the final result, per the official slat-test.org important-dates page." }
+  ],
+  html: `
+<p><strong>Last updated: 4 September 2026.</strong></p>
+<p>No new notification, date change or result was published today across India's three main law-entrance exams — CLAT 2027 (Consortium of NLUs), AILET 2027 (National Law University, Delhi) or SLAT 2027 (Symbiosis International) — after a direct check of each exam's official website this morning.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>CLAT 2027:</strong> registration open till 31 October 2026; test on 6 December 2026</p>
+<p><strong>AILET 2027:</strong> registration open till 10 November 2026; test on 13 December 2026</p>
+<p><strong>SLAT 2027:</strong> registration open till 4 December 2026; two test dates, 19 and 26 December 2026</p>
+<p><strong>Checked today against:</strong> consortiumofnlus.ac.in, nationallawuniversitydelhi.in, slat-test.org</p>
+</div>
+
+<p>Here's what's actually confirmed for each exam, and what's coming next.</p>
+
+<h2>CLAT 2027: registration open, nothing new today</h2>
+<p>The Consortium of NLUs opened <a href="https://consortiumofnlus.ac.in/clat-2027/" rel="noopener" target="_blank">CLAT 2027 registration</a> on 3 August 2026. The application window runs through 31 October 2026, and the test itself — for admission to the 5-year integrated LL.B. and 1-year LL.M. programmes at the 26 participating National Law Universities — is set for 6 December 2026, 2 pm to 4 pm, in offline mode. The consortium's notifications panel showed no dated update as of this morning.</p>
+
+<h2>AILET 2027: last date November 10</h2>
+<p>National Law University, Delhi runs AILET independently of the CLAT consortium — a CLAT application does not cover NLU Delhi admission. Per the official <a href="https://nationallawuniversitydelhi.in/" rel="noopener" target="_blank">AILET 2027 portal</a>, applications opened 7 August 2026 and close 10 November 2026. Admit cards are due 30 November 2026, and the test is scheduled for 13 December 2026. The portal's most recent dated notice ("AILET 2027 Admission Notice") is timestamped 7 August 2026, with nothing newer posted as of today.</p>
+
+<h2>SLAT 2027: two attempts, higher score counted</h2>
+<p>Symbiosis International's <a href="https://www.slat-test.org/important-dates.php" rel="noopener" target="_blank">SLAT 2027 official page</a> confirms registration opened 21 August 2026 and closes 4 December 2026. Candidates get two computer-based test dates — 19 December and 26 December 2026 — and may sit for both; if they do, the higher percentile score is used for the final result, with no cross-test normalisation penalty. Results are due 12 January 2027. SLAT covers admission to the four Symbiosis Law Schools (Pune, Noida, Hyderabad and Nagpur).</p>
+
+<h2>What this means for students</h2>
+<p>If you're targeting CLAT, the priority right now is steady mock-test practice rather than waiting on notifications — the next real checkpoint is the admit card, typically released a few weeks before the 6 December test. AILET applicants have a slightly longer runway (10 November) but a tighter post-application timeline into the 13 December test. SLAT aspirants should note the two-attempt structure is a genuine advantage — a mock or slip-up on 19 December doesn't cost you if 26 December goes better.</p>
+
+<h2>Important pointers</h2>
+<p class="tldr-label">Dated, sourced, standalone facts — 4 September 2026</p>
+<ul>
+<li>CLAT 2027 registration closes 31 October 2026 and the test is on 6 December 2026, per the <a href="https://consortiumofnlus.ac.in/clat-2027/" rel="noopener" target="_blank">Consortium of NLUs' official CLAT 2027 page</a> (checked 4 September 2026).</li>
+<li>AILET 2027 applications close 10 November 2026, with admit cards due 30 November 2026, per <a href="https://nationallawuniversitydelhi.in/" rel="noopener" target="_blank">nationallawuniversitydelhi.in</a> (checked 4 September 2026).</li>
+<li>SLAT 2027 offers two test dates — 19 and 26 December 2026 — with the higher of the two scores counted toward the final percentile, per the <a href="https://www.slat-test.org/important-dates.php" rel="noopener" target="_blank">official SLAT 2027 dates page</a>.</li>
+<li>SLAT 2027 registration closes 4 December 2026, and results are scheduled for 12 January 2027, per slat-test.org.</li>
+<li>CLAT and AILET are separate applications run by separate bodies — clearing CLAT does not register you for AILET, and NLU Delhi is not part of the CLAT consortium.</li>
+</ul>
+
+<p><em>Last updated: 4 September 2026.</em></p>
+`
+},
+{
+  slug: "top-10-clat-coaching-institutes-ludhiana-2026",
+  title: "Top 10 CLAT Coaching Institutes in Ludhiana (2026)",
+  category: "CLAT / Law",
+  date: "04 Sep 2026",
+  minutes: 9,
+  cta: { href: "coaching-ludhiana.html", text: "Browse all verified coaching institutes in Ludhiana" },
+  excerpt: "Ludhiana's CLAT-coaching market mixes Model Town Extension-based national chains — IMS, Hitbullseye, Career Launcher — with Punjab-founded law-only specialists such as Rajindera Law Academy and Chawla Tutorials. Here's a fact-checked look at ten institutes actually coaching CLAT in the city.",
+  image: "assets/blog/top-10-clat-coaching-institutes-ludhiana-2026.png",
+  imageAlt: "Top 10 CLAT coaching institutes in Ludhiana 2026 graphic",
+  faqs: [
+    { q: "Which is the best CLAT coaching institute in Ludhiana", a: "There's no single 'best' — it depends on what you need. Hitbullseye and IMS run company-owned, tech-driven centres in Model Town Extension with national mock-test benchmarking, while Rajindera Law Academy and Chawla Tutorials are Punjab-founded, law-only specialists with a longer local track record (Chawla Tutorials has operated in Civil Lines since 2004)." },
+    { q: "Where in Ludhiana are most CLAT coaching institutes located", a: "Model Town Extension is the main cluster, home to Hitbullseye and IMS. Other institutes are spread across Civil Lines (Chawla Tutorials), Sarabha Nagar (Career Launcher), Bhai Wala Chowk (T.I.M.E.) and Ferozepur Road / Circuit House Road (Panacea Bharti Institute)." },
+    { q: "Do Ludhiana's CLAT institutes also coach other law entrance exams", a: "Most do. Institutes such as Rajindera Law Academy, Chawla Tutorials, Hitbullseye and LegalEdge explicitly coach for AILET and SLAT alongside CLAT, and several — Chawla Tutorials and Panacea Bharti Institute among them — also run judicial-service (PCS-J/HCS-J) or other government-exam batches." }
+  ],
+  html: `
+<p><strong>Last updated: 4 September 2026.</strong></p>
+<p>Ludhiana's CLAT-coaching scene splits fairly evenly between two kinds of institutes: national test-prep chains that run company-owned or franchise centres in the city, and Punjab-founded institutes that built their reputation specifically on law-entrance and judicial-service coaching. That's worth knowing before you enrol — a national brand gets you a standardised curriculum and a large mock-test pool to benchmark against, while a local specialist tends to have deeper Punjab-specific placement history but a smaller peer group.</p>
+<p>This article lists ten institutes actually offering CLAT coaching in Ludhiana today, each checked against the institute's own website or at least one independent education directory, along with their location and what they're known for.</p>
+
+<div class="tldr-box"><p class="tldr-label">Quick facts</p>
+<p><strong>City:</strong> Ludhiana, Punjab</p>
+<p><strong>Main exam covered:</strong> CLAT (most institutes also cover AILET and/or SLAT)</p>
+<p><strong>Institutes listed:</strong> 10, fact-checked</p>
+<p><strong>Main coaching hub:/<strong> Model Town Extension, with smaller clusters in Civil Lines, Sarabha Nagar and Ferozepur Road</p>
+<p><strong>Fees:</strong> mostly disclosed only on direct enquiry; treat any online-quoted figure as indicative, not final</p>
+</div>
+
+<h2>The 10 institutes</h2>
+
+<h3>1. Hitbullseye Ludhiana</h3>
+<p>Hitbullseye runs its Ludhiana centre — SCO 20, A-Block, Model Town Extension, near Krishna Mandir — as a company-owned office rather than a franchise, covering CLAT, AILET, SLAT and NLAT alongside CUET and CAT programmes. The centre publishes named yearly toppers with admits to NLUs including Nagpur, Jodhpur and RGNLU.</p>
+
+<h3>2. IMS Ludhiana</h3>
+<p>IMS Learning Resources' Ludhiana centre sits at SCO 25, Model Town Extension. It runs CLAT batches under IMS's national law-entrance programme, with access to the brand's countrywide mock-CLAT series for percentile benchmarking alongside classroom and online hybrid options.</p>
+
+<h3>3. Career Launcher (LST) Ludhiana</h3>
+<p>Career Launcher's law-coaching vertical, LST (Law School Tutorials), runs a Sarabha Nagar centre offering CLAT and AILET batches on the brand's national curriculum, with its SIS system tracking each student's mock-test performance against the countrywide applicant pool.</p>
+
+<h3>4. T.I.M.E. Ludhiana</h3>
+<p>T.I.M.E. — better known locally for CAT and other aptitude-based coaching — runs a Bhai Wala Chowk centre that also offers a CLAT-track batch, leaning on the brand's long-standing strength in logical reasoning and verbal ability for the exam's non-legal sections.</p>
+
+<h3>5. Law Prep Tutorial (LPT)</h3>
+<p>Law Prep Tutorial is a law-entrance-only national brand — it doesn't run parallel CAT or banking-exam batches — offering a Ludhiana batch structured into Foundation, Target and Dropper tracks, with mentors focused solely on CLAT and related law-entrance exams.</p>
+
+<h3>6. Rajindera Law Academy</h3>
+<p>A Model Town-based institute set up specifically for law-entrance and judiciary coaching, Rajindera Law Academy covers CLAT, AILET and state judicial-service exams under one advocate-led faculty, with a Punjab-specific reputation built around RGNUL and local law-college placements.</p>
+
+<h3>7. Chawla Tutorials</h3>
+<p>Founded by Dr Archana Chawla in 2004, Chawla Tutorials runs from Civil Lines and is one of Ludhiana's longest-operating law-coaching institutes, covering everything from CLAT and B.A. LL.B entrance through to LL.M tuitions and judicial-service exams (PCS-J, HCS-J) in small, advocate-led batches.</p>
+
+<h3>8. Panacea Bharti Institute</h3>
+<p>Primarily known in Ludhiana for IAS/PCS and SSC coaching, Panacea Bharti Institute also runs a CLAT batch from its Ferozepur Road centre near PAU Gate (with a second location on Circuit House Road), sitting alongside its CUET and UGC NET programmes.</p>
+
+<h3>9. Edu Academy</h3>
+<p>Edu Academy runs CLAT and other law-entrance coaching in Ludhiana alongside its CAT/MBA-entrance programmes, having extended its original classroom teaching into a structured online portal that tracks students' section-wise mistakes.</p>
+
+<h3>10. LegalEdge by Toprankers</h3>
+<p>LegalEdge, Toprankers' dedicated law-entrance vertical, runs a Ludhiana centre offering CLAT and AILET classroom coaching, backed by the brand's national network of NLU-alumni mentors and a large mock-CLAT test series.</p>
+
+<h2>How these institutes compare</h2>
+<p>If you want a large national peer group to benchmark your mock-test percentile against, Hitbullseye, IMS, Career Launcher and LegalEdge are the four institutes here running countrywide test series. If you'd rather train with faculty who work on nothing but law entrance and judicial-service exams, Law Prep Tutorial, Rajindera Law Academy and Chawla Tutorials are the city's law-only specialists — Chawla Tutorials in particular has the longest continuous track record, operating in Civil Lines since 2004. T.I.M.E., Panacea Bharti Institute and Edu Academy are multi-exam institutes that added CLAT to an existing aptitude or government-exam programme, which is worth factoring in if you specifically want faculty whose sole focus is legal reasoning and current affairs for law entrances.</p>
+<p>None of the above is a substitute for visiting a centre, sitting in on a demo class and asking directly about current batch size and fees — published fee figures for Ludhiana's CLAT institutes change often and are rarely listed publicly.</p>
+
+<p><em>Last updated: 4 September 2026.</em></p>
+`
+},
+{
   slug: "upsc-cse-2026-mains-question-papers-released-update",
   title: "UPSC CSE 2026 Mains: Official Question Papers Now Live on upsc.gov.in",
   category: "IAS / UPSC",
