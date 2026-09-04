@@ -771,16 +771,16 @@ ${redditBlock}
 </article>`;
   }).join("");
   return `
-<section class="hero hero-sm"><div class="container"><h1>Coaching Reviews — Google, Reddit &amp; More, in One Place</h1>
-<p class="hero-sub">One page per institute, pulling together what students actually say across the web — so you don't have to hunt through five tabs before choosing a coaching. Starting with the 10 most-searched CAT coaching institutes; more exam categories are coming soon.</p></div></section>
+<section class="hero hero-sm"><div class="container"><h1>Reviews</h1>
+<p class="hero-sub">Independent, in-depth reviews of coaching institutes, professional certifications and individual coaches — built from our own research and verified facts, not paid placements.</p></div></section>
 <section class="section container prose">
-<p>Every quote below links straight back to its original public post so you can read it in full context — nothing here is edited, summarised out of context, or paid for. Where we couldn't verify a genuine public review on a platform, we've said so rather than guess.</p>
+<p>Some reviews below link straight back to real, public quotes from students on Reddit and Google — nothing edited, summarised out of context, or paid for. Others are full, in-depth write-ups based on our own research into an institute, certification provider or coach, covering the same ground: credentials, offerings, results and client feedback, checked as thoroughly as we can against public information.</p>
 </section>
 <section class="section container">
 <div class="review-hub-list">${cards}${brandCards}</div>
 </section>
 <section class="section container cta-band">
-<h2>Studied at one of these institutes?</h2>
+<h2>Know one of these institutes, coaches or programs personally?</h2>
 <p>Reviews here are unedited and can't be bought or removed. <a href="list-your-institute.html">Tell us what's missing</a> or use the review form on any institute's page.</p>
 </section>`;
 }
@@ -1074,7 +1074,7 @@ w("about.html", simplePage("about.html", "About Us", `Who we are and how ${B.nam
 w("contact.html", simplePage("contact.html", "Contact Us", `Get in touch with the ${B.name} team.`, contactBody));
 w("list-your-institute.html", simplePage("list-your-institute.html", "List Your Institute Free", `Register your coaching institute on ${B.name} for free.`, listBody));
 w("blog.html", simplePage("blog.html", "Guides & Articles", "Original research-backed articles on coaching, exam preparation and student life.", blogIndex(), "blog.html"));
-w("reviews.html", simplePage("reviews.html", "Coaching Reviews — Google, Reddit & More", "Real, linked reviews of top CAT coaching institutes pulled from Google, Reddit and other platforms in one place.", reviewsIndex(), "reviews.html"));
+w("reviews.html", simplePage("reviews.html", "Reviews", "Independent reviews of coaching institutes, professional certifications and individual coaches — verified facts and our own research, with no paid rankings.", reviewsIndex(), "reviews.html"));
 POSTS.forEach(p => w(`${p.slug}.html`, postPage(p) + footer()));
 w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privacy policy.`, privacyBody));
 w("terms.html", simplePage("terms.html", "Terms & Conditions", `${B.name} terms and conditions.`, termsBody));
