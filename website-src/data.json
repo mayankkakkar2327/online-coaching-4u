@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "ludhiana",
       "gurugram",
       "amritsar",
       "meerut",
@@ -121,6 +122,206 @@
     "mindset-coaching": "Mindset Coaching"
   },
   "listings": [
+    {
+      "slug": "hitbullseye-ludhiana",
+      "type": "coaching",
+      "name": "Hitbullseye Ludhiana",
+      "city": "ludhiana",
+      "locality": "Model Town Extension",
+      "address": "SCO 20, A-Block, Model Town Extension, Near Krishna Mandir, Ludhiana, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Hitbullseye runs its Ludhiana centre as a company-owned office rather than a franchise, covering CLAT, AILET, SLAT and NLAT alongside CUET and CAT programmes. The centre publishes named yearly toppers with admits to NLUs including Nagpur, Jodhpur and RGNLU.",
+      "highlights": [
+        "Company-owned centre (not a franchise) with national mock-test analytics",
+        "Named CLAT/AILET toppers published every year, including NLU Nagpur and NLU Jodhpur admits",
+        "Also covers AILET, SLAT, NLAT and PU-UILS alongside CLAT"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-ludhiana",
+      "type": "coaching",
+      "name": "IMS Ludhiana",
+      "city": "ludhiana",
+      "locality": "Model Town Extension",
+      "address": "SCO 25, Model Town Extension, Ludhiana, Punjab 141002",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "IMS Learning Resources' Ludhiana centre offers CLAT coaching under IMS's national law-entrance programme, with access to the brand's countrywide mock-CLAT series for percentile benchmarking alongside classroom and online hybrid batches.",
+      "highlights": [
+        "Part of IMS's national CLAT/law-entrance test-prep network",
+        "Structured classroom and online hybrid batches",
+        "Access to IMS's national mock-CLAT series for percentile benchmarking"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-lst-ludhiana",
+      "type": "coaching",
+      "name": "Career Launcher (LST) Ludhiana",
+      "city": "ludhiana",
+      "locality": "Sarabha Nagar",
+      "address": "Sarabha Nagar, Ludhiana, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Career Launcher's law-coaching vertical, LST (Law School Tutorials), runs a Sarabha Nagar centre in Ludhiana offering CLAT and AILET batches built on the brand's national student-performance tracking system.",
+      "highlights": [
+        "National LST (Law School Tutorials) curriculum and SIS performance tracking",
+        "1-year, 2-year and crash-course batch options",
+        "Benchmarks students against Career Launcher's national CLAT test-taker pool"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-ludhiana-clat",
+      "type": "coaching",
+      "name": "T.I.M.E. Ludhiana",
+      "city": "ludhiana",
+      "locality": "Bhai Wala Chowk",
+      "address": "Bhai Wala Chowk, Ludhiana, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "T.I.M.E. is better known locally for CAT and other aptitude-based coaching, but its Bhai Wala Chowk centre also runs a CLAT-track batch that leans on the brand's long-standing strength in logical reasoning and verbal ability.",
+      "highlights": [
+        "National aptitude-training brand with decades of test-prep experience",
+        "Strong logical reasoning and verbal-ability modules, useful for CLAT's non-legal sections",
+        "Classroom and correspondence course options"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "law-prep-tutorial-ludhiana",
+      "type": "coaching",
+      "name": "Law Prep Tutorial (LPT)",
+      "city": "ludhiana",
+      "locality": "Ludhiana",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Law Prep Tutorial is a law-entrance-only national brand, running a dedicated Ludhiana batch under its Foundation, Target and Dropper batch structure, with mentors focused exclusively on CLAT and other law-entrance exams.",
+      "highlights": [
+        "Exclusively focused on law-entrance exams, with no multi-subject dilution",
+        "Separate Foundation, Target and Dropper batch tracks",
+        "Part of a national CLAT-only coaching network with its own test series"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rajindera-law-academy-ludhiana",
+      "type": "coaching",
+      "name": "Rajindera Law Academy",
+      "city": "ludhiana",
+      "locality": "Model Town",
+      "address": "Model Town, Ludhiana, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Rajindera Law Academy is a Ludhiana-based institute set up specifically for law-entrance and judiciary exam coaching, covering CLAT, AILET and state judicial-service exams under advocate-led faculty, with a local reputation built around RGNUL and Punjab-focused placements.",
+      "highlights": [
+        "Law-entrance-only local institute, not a multi-subject chain",
+        "Covers CLAT, AILET and state judicial-service exams under one roof",
+        "Reputation built specifically around Punjab and RGNUL-focused results"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chawla-tutorials-ludhiana",
+      "type": "coaching",
+      "name": "Chawla Tutorials",
+      "city": "ludhiana",
+      "locality": "Civil Lines",
+      "address": "662/1, Street No. 1, Guru Nanak Pura, Upkar Nagar, Civil Lines, Ludhiana, Punjab 141001",
+      "estd": 2004,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Founded by Dr Archana Chawla in 2004, Chawla Tutorials is one of Ludhiana's longest-running law-coaching institutes, covering CLAT, B.A. LL.B, LL.M and judicial-service exams (PCS-J/HCS-J) from a Civil Lines centre with more than two decades in the city.",
+      "highlights": [
+        "Over 20 years in continuous operation, one of Ludhiana's oldest law-coaching institutes",
+        "Covers CLAT through to judicial-service exams (PCS-J, HCS-J) under one faculty",
+        "Small-batch, advocate-led teaching model"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "panacea-bharti-institute-ludhiana",
+      "type": "coaching",
+      "name": "Panacea Bharti Institute",
+      "city": "ludhiana",
+      "locality": "Ferozepur Road",
+      "address": "Maharaj Nagar, Ferozepur Road, Near PAU Gate 2, Ludhiana, Punjab 141001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Panacea Bharti Institute is a Punjab-founded multi-exam institute, primarily known for IAS/PCS and SSC coaching, that runs CLAT and CUET batches from its Ferozepur Road centre near PAU Gate, with a second location on Circuit House Road.",
+      "highlights": [
+        "Established multi-exam institute with a long Punjab track record in government-exam coaching",
+        "CLAT batch sits alongside CUET, UGC NET and other competitive-exam programmes",
+        "Two Ludhiana locations (Ferozepur Road and Circuit House Road)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "edu-academy-ludhiana",
+      "type": "coaching",
+      "name": "Edu Academy",
+      "city": "ludhiana",
+      "locality": "Ludhiana",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Edu Academy runs CLAT and other law-entrance coaching in Ludhiana alongside CAT/MBA-entrance programmes, having extended its original classroom teaching into a structured online portal that tracks students' section-wise mistakes.",
+      "highlights": [
+        "Covers both CLAT/law-entrance and MBA-entrance (CAT, XAT, SNAP) coaching",
+        "Own analytics portal tracking student-level mistakes and progress",
+        "Classroom programme extended into a structured online option"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "legaledge-toprankers-ludhiana",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers",
+      "city": "ludhiana",
+      "locality": "Ludhiana",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "LegalEdge, Toprankers' dedicated law-entrance vertical, runs a Ludhiana centre offering CLAT and AILET classroom coaching backed by the brand's national network of NLU-alumni mentors and a large mock-CLAT test series.",
+      "highlights": [
+        "Part of Toprankers' national LegalEdge law-coaching network",
+        "NLU-alumni mentorship and a large national mock-CLAT series",
+        "Classroom coaching with online-support access"
+      ],
+      "mode": "hybrid"
+    },
     {
       "slug": "career-launcher-amritsar",
       "type": "coaching",
@@ -11363,6 +11564,9 @@
     }
   ],
   "cityContent": {
+    "coaching-ludhiana": {
+      "intro": "<p>Ludhiana, Punjab\u0027s largest city and its industrial hub, has built a CLAT-coaching market that mixes national test-prep chains with Punjab-founded law-only specialists. The main cluster sits in Model Town Extension, home to company-owned centres of national brands such as Hitbullseye and IMS, while a second, older cluster of law-specific institutes \u2014 including Rajindera Law Academy and Chawla Tutorials, which has run continuously from Civil Lines since 2004 \u2014 is spread across Civil Lines, Sarabha Nagar and Ferozepur Road. Because CLAT has no Punjab-specific state-level alternative, most institutes here also extend their teaching to AILET and SLAT rather than running CLAT-only batches. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
+    },
     "coaching-noida": {
       "intro": "<p>Noida, part of the Delhi-NCR industrial belt, has grown into one of north India's busiest JEE-coaching markets over the past decade, anchored by the FIITJEE Tower and a dense cluster of national-chain centres along the Sector 62 Industrial Area. A second hub sits around Sector 18's commercial core, with smaller clusters in Sector 4, Sector 41 and Sector 60. Local demand is driven almost entirely by JEE Main and Advanced — Noida has no state-specific engineering entrance exam of its own — alongside a growing NEET-coaching overlap at several of the same institutes. The market mixes long-running national brands (FIITJEE, Aakash, ALLEN, Narayana, Vidyamandir Classes, Career Launcher, Resonance Eduventures, Rao IIT Academy) with a newer entrant (PW Vidyapeeth) and a Noida-founded local institute (Beacon Classes). Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
     },
