@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "jabalpur",
       "ludhiana",
       "gurugram",
       "amritsar",
@@ -122,6 +123,209 @@
     "mindset-coaching": "Mindset Coaching"
   },
   "listings": [
+    {
+      "slug": "radiance-jabalpur",
+      "type": "coaching",
+      "name": "Radiance",
+      "city": "jabalpur",
+      "locality": "Jabalpur",
+      "address": null,
+      "estd": 2002,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Radiance is a JEE Main and Advanced specialist founded in Jabalpur in 2002 by Dinesh Mishra, Anil Kushwaha and later Amit Tyagi. It runs dedicated Class 11-12 batches for JEE alongside a foundation track for Class 9-10, and says it has produced 700-plus IITians and 2,000-plus NIT/IIIT admits from its Jabalpur classrooms over two decades.",
+      "highlights": [
+        "Jabalpur-founded in 2002, one of the city's longest-running JEE-only institutes",
+        "700+ IITians and 2,000+ NIT/IIIT admits claimed from Jabalpur classrooms",
+        "Dedicated JEE Main+Advanced track alongside a Class 9-10 foundation programme"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-jabalpur",
+      "type": "coaching",
+      "name": "Aakash Institute Jabalpur",
+      "city": "jabalpur",
+      "locality": "Napier Town",
+      "address": "Police Station, Plot No 211 & 211A, Madan Mahal, Napier Town, Jabalpur, MP 482001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Aakash Institute's Jabalpur centre, part of a national chain with 200-plus branches, covers JEE Main, JEE Advanced, NEET, NTSE and Olympiad preparation from its Napier Town campus, with a second branch in Bilhari. It carries an independently inspected 4.9/5 rating from ThreeBestRated's Jabalpur review.",
+      "highlights": [
+        "Part of a 200+ branch national chain (AESL)",
+        "Independently rated 4.9/5 by ThreeBestRated's Jabalpur inspection",
+        "Second Jabalpur branch in Bilhari"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "narayana-iit-jee-neet-jabalpur",
+      "type": "coaching",
+      "name": "Narayana IIT-JEE & NEET Academy",
+      "city": "jabalpur",
+      "locality": "Wright Town",
+      "address": "Rail Sourabh Colony, Wright Town, Jabalpur, MP 482002",
+      "estd": 1979,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Narayana's Jabalpur centre teaches JEE, NEET and foundation courses from Wright Town. The national chain traces its coaching roots to 1979 and, per its own figures, teaches more than six lakh students across 23 Indian states. Its Jabalpur branch holds an independently verified 4.8/5 rating.",
+      "highlights": [
+        "National chain teaching since 1979, per company figures",
+        "Independently rated 4.8/5 by ThreeBestRated's Jabalpur inspection",
+        "Covers JEE, NEET and foundation (Class 8-10) courses"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "physics-wallah-vidyapeeth-jabalpur",
+      "type": "coaching",
+      "name": "Physics Wallah Vidyapeeth Jabalpur",
+      "city": "jabalpur",
+      "locality": "Napier Town",
+      "address": "1620, MLB School Road, opposite Aditya Hospital, Napier Town, Jabalpur, MP 482001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "PW Vidyapeeth's offline Jabalpur centre offers JEE, NEET and foundation classroom batches from Napier Town, backed by Physics Wallah's national study-material and test-series network. The centre has drawn over 200 ratings on Justdial.",
+      "highlights": [
+        "Offline arm of the Physics Wallah national brand",
+        "200+ ratings on Justdial",
+        "JEE, NEET and foundation batches under one roof"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "momentum-academy-jabalpur",
+      "type": "coaching",
+      "name": "Momentum Academy",
+      "city": "jabalpur",
+      "locality": "Napier Town",
+      "address": "1501-03, Home Science College Road, near Madan Mahal police station, Napier Town, Jabalpur, MP 482002",
+      "estd": 2003,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Momentum Academy is a Jabalpur-founded institute running since 2003, now with eight-plus study centres across the city. It coaches JEE Main, JEE Advanced, NEET and BITSAT, and positions itself as one of the region's IITian-led local institutes with a long local selection record.",
+      "highlights": [
+        "Jabalpur-founded in 2003 with 8+ study centres citywide",
+        "Covers JEE Main, JEE Advanced, NEET and BITSAT",
+        "IITian-led faculty, per the institute's own claim"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sky-classes-jabalpur",
+      "type": "coaching",
+      "name": "Sky Classes",
+      "city": "jabalpur",
+      "locality": "Napier Town",
+      "address": "JCCC College premises, 1101, beside Bank of Baroda, near Shastri Bridge, Captainganj, Napier Town, Jabalpur, MP 482002",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet",
+        "pat"
+      ],
+      "verified": true,
+      "about": "Sky Classes coaches JEE, NEET, Madhya Pradesh's own PAT and nursing-entrance exams from Napier Town. It's independently rated 4.8/5 by ThreeBestRated and carries 300-plus ratings on Justdial, among the highest review counts of any institute in the city.",
+      "highlights": [
+        "Covers JEE, NEET and MP's own PAT under one roof",
+        "Independently rated 4.8/5 by ThreeBestRated's Jabalpur inspection",
+        "300+ ratings on Justdial"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "galaxy-pat-institute-jabalpur",
+      "type": "coaching",
+      "name": "Galaxy PAT Institute",
+      "city": "jabalpur",
+      "locality": "Napier Town",
+      "address": "Opposite Madan Mahal Thana, Napier Town, Jabalpur",
+      "estd": null,
+      "exams": [
+        "jee",
+        "pat"
+      ],
+      "verified": false,
+      "about": "Galaxy PAT Institute focuses on Madhya Pradesh's own Pre-Engineering Test (PAT) alongside JEE, giving Jabalpur students a state-level backup option alongside their main JEE attempt.",
+      "highlights": [
+        "Specialises in MP's own PAT alongside JEE",
+        "Located in Napier Town, opposite Madan Mahal police station"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "eminent-career-institute-jabalpur",
+      "type": "coaching",
+      "name": "Eminent Career Institute",
+      "city": "jabalpur",
+      "locality": "Yadav Colony",
+      "address": "202, Jai Nagar Road, Labour Chowk, Yadav Colony, Jabalpur",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Eminent Career Institute runs from Jabalpur's Yadav Colony coaching cluster, a hub of smaller, locally run institutes distinct from the Napier Town cluster. It's listed specifically under the city's IIT-JEE/NEET/PAT coaching directory category.",
+      "highlights": [
+        "Based in the Yadav Colony coaching cluster",
+        "Listed under Jabalpur's IIT-JEE/NEET/PAT coaching directory category"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "alchemist-academia-jabalpur",
+      "type": "coaching",
+      "name": "Alchemist Academia",
+      "city": "jabalpur",
+      "locality": "Wright Town",
+      "address": "Bhavani Prasad Tiwari Ward, 1295, near Maharashtra School, Wright Town, Jabalpur, MP 482002",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Alchemist Academia is a Jabalpur-based institute in Wright Town, in the same pocket as Narayana's centre, listed under the city's IIT-JEE/NEET/PAT coaching directory category as an alternative to the larger national chains nearby.",
+      "highlights": [
+        "Based in Wright Town, near Maharashtra High School",
+        "Listed under Jabalpur's IIT-JEE/NEET/PAT coaching directory category"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "awanish-gupta-classes-jabalpur",
+      "type": "coaching",
+      "name": "Awanish Gupta Classes",
+      "city": "jabalpur",
+      "locality": "Jabalpur",
+      "address": "1006, Gajanan Society, MR-4 Road, Jabalpur, MP",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Awanish Gupta Classes is a locally run coaching institute listed under Jabalpur's competitive-exam directory, offering a smaller-batch alternative to the city's franchise-run JEE centres.",
+      "highlights": [
+        "Locally run, smaller-batch alternative to franchise centres",
+        "Listed on Jabalpur's local coaching directory"
+      ],
+      "mode": "offline"
+    },
     {
       "slug": "hitbullseye-ludhiana",
       "type": "coaching",
@@ -11151,11 +11355,11 @@
       "rating": null,
       "ratingCount": 0,
       "verified": false,
-      "about": "Rohini Mundra is a TEDx speaker, published author and business-mindset coach who has worked with 100,000+ people across 5,000+ entrepreneurs and 7 countries. She delivered a TEDx talk, \"Power of Rituals,\" at TEDxDSCE, and is the author of \"The 1% Club: 7 Hacks to an XtraOrdinary Life.\" Her practice spans private three-month coaching, group programs through The Heart of Business, an annual live event, personal-branding and AI-for-business coaching — plus the accessible \u20b9199 Xtraordinary Speakers Academy, a three-day live workshop rated 9.4/10 by past participants.",
+      "about": "Rohini Mundra is a TEDx speaker, published author and business-mindset coach who has worked with 100,000+ people across 5,000+ entrepreneurs and 7 countries. She delivered a TEDx talk, \"Power of Rituals,\" at TEDxDSCE, and is the author of \"The 1% Club: 7 Hacks to an XtraOrdinary Life.\" Her practice spans private three-month coaching, group programs through The Heart of Business, an annual live event, personal-branding and AI-for-business coaching — plus the accessible ₹199 Xtraordinary Speakers Academy, a three-day live workshop rated 9.4/10 by past participants.",
       "highlights": [
         "TEDx speaker (\"Power of Rituals,\" TEDxDSCE) and published author of \"The 1% Club: 7 Hacks to an XtraOrdinary Life\"",
         "Reached 100,000+ people across 5,000+ entrepreneurs and 7 countries through private coaching, group programs and live events",
-        "\u20b9199 Xtraordinary Speakers Academy — a 3-day live workshop on launching and scaling a coaching business, rated 9.4/10 by participants"
+        "₹199 Xtraordinary Speakers Academy — a 3-day live workshop on launching and scaling a coaching business, rated 9.4/10 by participants"
       ],
       "website": "https://rohinimundra.com/",
       "mode": "online"
@@ -11565,7 +11769,7 @@
   ],
   "cityContent": {
     "coaching-ludhiana": {
-      "intro": "<p>Ludhiana, Punjab\u0027s largest city and its industrial hub, has built a CLAT-coaching market that mixes national test-prep chains with Punjab-founded law-only specialists. The main cluster sits in Model Town Extension, home to company-owned centres of national brands such as Hitbullseye and IMS, while a second, older cluster of law-specific institutes \u2014 including Rajindera Law Academy and Chawla Tutorials, which has run continuously from Civil Lines since 2004 \u2014 is spread across Civil Lines, Sarabha Nagar and Ferozepur Road. Because CLAT has no Punjab-specific state-level alternative, most institutes here also extend their teaching to AILET and SLAT rather than running CLAT-only batches. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
+      "intro": "<p>Ludhiana, Punjab's largest city and its industrial hub, has built a CLAT-coaching market that mixes national test-prep chains with Punjab-founded law-only specialists. The main cluster sits in Model Town Extension, home to company-owned centres of national brands such as Hitbullseye and IMS, while a second, older cluster of law-specific institutes — including Rajindera Law Academy and Chawla Tutorials, which has run continuously from Civil Lines since 2004 — is spread across Civil Lines, Sarabha Nagar and Ferozepur Road. Because CLAT has no Punjab-specific state-level alternative, most institutes here also extend their teaching to AILET and SLAT rather than running CLAT-only batches. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
     },
     "coaching-noida": {
       "intro": "<p>Noida, part of the Delhi-NCR industrial belt, has grown into one of north India's busiest JEE-coaching markets over the past decade, anchored by the FIITJEE Tower and a dense cluster of national-chain centres along the Sector 62 Industrial Area. A second hub sits around Sector 18's commercial core, with smaller clusters in Sector 4, Sector 41 and Sector 60. Local demand is driven almost entirely by JEE Main and Advanced — Noida has no state-specific engineering entrance exam of its own — alongside a growing NEET-coaching overlap at several of the same institutes. The market mixes long-running national brands (FIITJEE, Aakash, ALLEN, Narayana, Vidyamandir Classes, Career Launcher, Resonance Eduventures, Rao IIT Academy) with a newer entrant (PW Vidyapeeth) and a Noida-founded local institute (Beacon Classes). Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
@@ -11711,6 +11915,9 @@
     },
     "coaching-gurugram": {
       "intro": "<p>Gurugram (formerly Gurgaon) - Haryana's corporate and NCR hub, sitting just across the Delhi border - has built its own UPSC/IAS coaching cluster rather than simply feeding aspirants into Delhi's Old Rajinder Nagar or Mukherjee Nagar belts. Nearly the entire market is concentrated in a few hundred metres of Old DLF Colony, Sector 14, with a second pocket near the Sector 53-54 Rapid Metro corridor on Golf Course Road and a smaller outpost in Palam Vihar. The market mixes a pan-India chain branch (Chanakya IAS Academy) with institutes founded and run specifically in Gurugram (FIRST IAS Institute, Vajirao IAS Academy, Gurgaon IAS Academy, Analytics IAS Academy, Ram IAS Gurgaon, Sage IAS Academy, Shaan Foundation IAS Academy, Margus IAS Institute, Tagore IAS Classes). Every listing below shows its verification status and, where available, additional detail on address, fees and course structure.</p>"
+    },
+    "coaching-jabalpur": {
+      "intro": "<p>Jabalpur, the administrative and educational hub of Madhya Pradesh's Mahakoshal region, has built a JEE-coaching market centred on Napier Town, where national chains such as Aakash, Physics Wallah Vidyapeeth and Momentum Academy run centres within walking distance of each other. A second cluster sits in Wright Town, home to Narayana's Jabalpur branch and locally founded Alchemist Academia, while a third, smaller cluster of institutes runs out of Yadav Colony. Because Madhya Pradesh also runs its own engineering entrance test, PAT, several Jabalpur institutes — including Sky Classes and Galaxy PAT Institute — teach it alongside JEE as a state-level backup option. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
     }
   }
 }
