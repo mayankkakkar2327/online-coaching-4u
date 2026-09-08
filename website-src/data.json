@@ -10,6 +10,7 @@
   },
   "cities": {
     "coaching": [
+      "faridabad",
       "jabalpur",
       "ludhiana",
       "gurugram",
@@ -123,6 +124,214 @@
     "mindset-coaching": "Mindset Coaching"
   },
   "listings": [
+    {
+      "slug": "aakash-institute-faridabad",
+      "type": "coaching",
+      "name": "Aakash Institute Faridabad",
+      "city": "faridabad",
+      "locality": "Sector 16",
+      "address": "SCO 87, 1st Floor, Shopping Centre, near Sagar Cinema, Sector 16, Faridabad, Haryana 121002",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Aakash Institute runs two Faridabad centres, in Sector 16 and at NIT, as part of a national chain with 200-plus branches and more than 2.5 lakh students. Both centres cover NEET, JEE Main, JEE Advanced and foundation batches, with scholarships available based on entrance-test performance.",
+      "highlights": [
+        "Two Faridabad centres: Sector 16 and NIT",
+        "Part of a 200+ branch national chain (AESL)",
+        "Scholarships up to 100% on entrance-test performance"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "allen-career-institute-faridabad",
+      "type": "coaching",
+      "name": "Allen Career Institute Faridabad",
+      "city": "faridabad",
+      "locality": "Sector 16",
+      "address": "Sector 16, Faridabad, Haryana 121002",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Allen's Faridabad centre in Sector 16 is part of the Kota-founded chain's expansion into Delhi NCR, offering NEET and JEE coaching alongside foundation courses for Class 6-10 and Olympiad preparation, using Allen's standard structured study-plan and test-series model.",
+      "highlights": [
+        "Kota-founded national chain's Sector 16 NCR centre",
+        "NEET, JEE and Class 6-10 foundation courses",
+        "Standardised study plans and all-India test series"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "cerebrum-biology-academy-faridabad",
+      "type": "coaching",
+      "name": "Cerebrum Biology Academy",
+      "city": "faridabad",
+      "locality": "Sector 17",
+      "address": "Sector 17, Faridabad, Haryana",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "about": "Cerebrum Biology Academy is a NEET-Biology specialist based in Sector 17, run by AIIMS New Delhi alumnus Dr Shekhar C Singh. It keeps batches to 15-20 students and reports a 98% success rate, positioning itself as a focused, lower-cost alternative to full-subject coaching for Biology preparation specifically.",
+      "highlights": [
+        "NEET Biology specialist, not an all-subject institute",
+        "AIIMS-trained faculty (Dr Shekhar C Singh)",
+        "Small batches of 15-20 students; 98% claimed success rate"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "velocity-institute-faridabad",
+      "type": "coaching",
+      "name": "Velocity Institute",
+      "city": "faridabad",
+      "locality": "Sector 16",
+      "address": "Sector 16, Faridabad, Haryana",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Velocity Institute is a Faridabad-founded coaching centre in Sector 16 covering NEET and JEE across all three subjects, with moderate batch sizes of roughly 40-60 students, positioned as a local, mid-fee alternative to the larger national chains.",
+      "highlights": [
+        "Faridabad-founded, Sector 16 based",
+        "All-subject NEET and JEE coverage",
+        "Moderate batch sizes of 40-60 students"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "narayana-iit-jee-neet-faridabad",
+      "type": "coaching",
+      "name": "Narayana IIT-JEE & NEET Academy",
+      "city": "faridabad",
+      "locality": "Sector 15",
+      "address": "Sector 15, Faridabad, Haryana",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Narayana's Faridabad centre, in the Sector 15 area, is part of a national chain that has run IIT-JEE and NEET coaching for over four decades. It offers a structured micro-schedule with personalised teaching plans and access to Narayana's all-India test-series network.",
+      "highlights": [
+        "National chain teaching IIT-JEE and NEET for 40+ years",
+        "Structured micro-schedule and personalised teaching plans",
+        "Access to Narayana's all-India test-series network"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "physics-wallah-vidyapeeth-faridabad",
+      "type": "coaching",
+      "name": "Physics Wallah Vidyapeeth Faridabad",
+      "city": "faridabad",
+      "locality": "Sector 16",
+      "address": "SCO No. 96, beside Om Sweets, HUDA Market, Sector 16, Faridabad, Haryana 121002",
+      "estd": 2016,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "PW Vidyapeeth's offline Faridabad presence includes this Sector 16 centre and a further campus in Sector 105A, offering classroom NEET and JEE batches at fees markedly lower than legacy chains - offline programme fees run roughly Rs 23,580 to Rs 1,73,950 depending on course and duration.",
+      "highlights": [
+        "Two Faridabad campuses: Sector 16 and Sector 105A",
+        "Lower-cost offline NEET and JEE batches",
+        "Backed by Physics Wallah's national study-material network"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "fiitjee-faridabad",
+      "type": "coaching",
+      "name": "FIITJEE Faridabad",
+      "city": "faridabad",
+      "locality": "Sector 15A",
+      "address": "Gahlot Bhawan, Sector 15A, near Vidya Mandir Public School, Faridabad, Haryana",
+      "estd": 1992,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "FIITJEE's Faridabad centre operates from Gahlot Bhawan, Sector 15A. Founded nationally in 1992 by IIT Delhi alumnus D.K. Goel, the centre offers combined IIT-JEE and NEET coaching alongside FIITJEE's traditional JEE-focused programmes.",
+      "highlights": [
+        "National chain founded 1992 by IIT Delhi alumnus D.K. Goel",
+        "Combined IIT-JEE and NEET coaching",
+        "Located in Sector 15A near Vidya Mandir Public School"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vidyamandir-classes-faridabad",
+      "type": "coaching",
+      "name": "Vidyamandir Classes (VMC) Faridabad",
+      "city": "faridabad",
+      "locality": "Sector 16",
+      "address": "1st & 2nd Floor, SCO No. 21, Sector 16, Faridabad, Haryana 121002",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "VMC's Faridabad centre sits in Sector 16, run by the Delhi-founded chain known for its concept-building teaching approach. The branch offers structured classroom batches feeding into VMC's broader test-series and study-material ecosystem.",
+      "highlights": [
+        "Delhi-founded chain's Sector 16 Faridabad branch",
+        "Concept-building teaching approach",
+        "Structured classroom batches with VMC test-series access"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bansal-learning-faridabad",
+      "type": "coaching",
+      "name": "Bansal Learning Faridabad",
+      "city": "faridabad",
+      "locality": "Faridabad",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Bansal Learning, the Kota-linked brand with 50-plus centres nationally, runs a Faridabad centre offering classroom NEET, JEE and CBSE coaching alongside online course access, drawing on faculty trained under Bansal's original Kota teaching model.",
+      "highlights": [
+        "Kota-linked brand with 50+ centres nationally",
+        "Classroom NEET, JEE and CBSE coaching plus online access",
+        "Faculty trained under Bansal's original Kota model"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "yvs-academy-faridabad",
+      "type": "coaching",
+      "name": "YVS Academy",
+      "city": "faridabad",
+      "locality": "Faridabad",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": false,
+      "about": "YVS Academy (YVS India) is a Faridabad-based institute focused specifically on NEET coaching for Class 9 through 12 and NEET dropper batches, positioning itself as a dedicated-NEET alternative to the multi-exam national chains operating in the city.",
+      "highlights": [
+        "Faridabad-based, NEET-only focus",
+        "Covers Class 9-12 and NEET dropper batches",
+        "Positioned as a dedicated-NEET alternative to multi-exam chains"
+      ],
+      "mode": "offline"
+    },
     {
       "slug": "radiance-jabalpur",
       "type": "coaching",
@@ -11918,6 +12127,9 @@
     },
     "coaching-jabalpur": {
       "intro": "<p>Jabalpur, the administrative and educational hub of Madhya Pradesh's Mahakoshal region, has built a JEE-coaching market centred on Napier Town, where national chains such as Aakash, Physics Wallah Vidyapeeth and Momentum Academy run centres within walking distance of each other. A second cluster sits in Wright Town, home to Narayana's Jabalpur branch and locally founded Alchemist Academia, while a third, smaller cluster of institutes runs out of Yadav Colony. Because Madhya Pradesh also runs its own engineering entrance test, PAT, several Jabalpur institutes — including Sky Classes and Galaxy PAT Institute — teach it alongside JEE as a state-level backup option. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
+    },
+    "coaching-faridabad": {
+      "intro": "<p>Faridabad, part of the Delhi-NCR industrial belt in Haryana, has built a NEET-coaching market concentrated along the NH-19 corridor. Sector 16 is the busiest cluster, home to national chains such as Aakash, Allen, Physics Wallah Vidyapeeth and Vidyamandir Classes, alongside the Faridabad-founded Velocity Institute. A second cluster in Sector 15 and 15A hosts Narayana and FIITJEE, while Sector 17 is home to Cerebrum Biology Academy, a NEET-Biology specialist. Because most major national chains now run full Faridabad centres, students increasingly choose local coaching over a daily commute to Delhi. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
     }
   }
 }
