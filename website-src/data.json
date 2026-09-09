@@ -55,7 +55,8 @@
       "kanpur",
       "agra",
       "rajkot",
-      "gwalior"
+      "gwalior",
+      "jalandhar"
     ],
     "certification": [
       "online"
@@ -11974,6 +11975,206 @@
         "Based in Old DLF Colony, Sector 14"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-jalandhar",
+      "type": "coaching",
+      "name": "Career Launcher Jalandhar",
+      "city": "jalandhar",
+      "locality": "Model Town",
+      "address": "212-R, 2nd Floor, Model Town, Near HDFC Bank, Jalandhar, Punjab 144003",
+      "estd": 2003,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Career Launcher has run its Jalandhar centre since 2003, offering classroom and online CAT/MBA batches alongside CLAT, banking and SSC programmes from the same Model Town office.",
+      "highlights": [
+        "Running in Jalandhar since 2003, one of the city's longest-serving national chains",
+        "Classroom and online CAT batches with shared national test-series infrastructure",
+        "Also covers CLAT, banking, SSC and CUET from the same centre"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-jalandhar",
+      "type": "coaching",
+      "name": "T.I.M.E. Jalandhar",
+      "city": "jalandhar",
+      "locality": "BMC Chowk",
+      "address": "1st Floor, Jabble Tower, Next to Grand Mall, BMC Chowk, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "T.I.M.E. runs its Jalandhar centre from BMC Chowk, one of India's largest CAT-coaching chains, with classroom, test-series and correspondence options alongside Bank, GATE and CMAT programmes.",
+      "highlights": [
+        "National chain with a large CAT mock-test network",
+        "Classroom, test-series-only and correspondence options",
+        "Also runs Bank, GATE, CMAT and SSC batches from the same centre"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-jalandhar",
+      "type": "coaching",
+      "name": "IMS Jalandhar",
+      "city": "jalandhar",
+      "locality": "PUDA Complex",
+      "address": "SCO 114, PUDA Pocket 2, Opp. Jalandhar Bus Stand, Gate No. 3, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "IMS Learning Resources' Jalandhar centre, opposite the main bus stand, offers its CATapult and MBA Elite classroom programmes alongside CLAT, BBA-entrance and study-abroad test prep (GRE/SAT).",
+      "highlights": [
+        "Part of IMS's national CATapult/Maximiser CAT programme lineup",
+        "Also coaches CLAT, AILET and BBA-entrance tests (SET, NPAT, IPMAT) from the same centre",
+        "Second Jalandhar location near Bidhipur on GT Road"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "aptiguide-jalandhar",
+      "type": "coaching",
+      "name": "AptiGuide",
+      "city": "jalandhar",
+      "locality": "Choti Baradari",
+      "address": "2nd Floor, Crystal Plaza, SCO, PIMS Market, Choti Baradari Part 1, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "AptiGuide is a Jalandhar-founded CAT-coaching specialist built around personal mentoring, with faculty the institute says have scored 99-plus percentile in CAT and mentored students into IIMs and other top B-schools.",
+      "highlights": [
+        "Local specialist built around one-on-one mentoring rather than large batches",
+        "Faculty includes a Punjab University merit-position holder, per the institute",
+        "Offers mock tests benchmarked at both national and local level"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "knowledge-icon-jalandhar",
+      "type": "coaching",
+      "name": "Knowledge Icon",
+      "city": "jalandhar",
+      "locality": "Near Bus Stand",
+      "address": "SCO 408-410, 4th Floor, AGI Business Centre, Near Bus Stand, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Knowledge Icon runs CAT coaching from AGI Business Centre near the bus stand, alongside GRE, MAT and IELTS programmes aimed at both MBA and study-abroad aspirants.",
+      "highlights": [
+        "Combines CAT coaching with GRE and IELTS under one roof",
+        "Centrally located near Jalandhar's main bus stand",
+        "Smaller batch sizes than the national chains, per its own listing"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pbi-institute-jalandhar",
+      "type": "coaching",
+      "name": "PBI Institute",
+      "city": "jalandhar",
+      "locality": "Jawahar Nagar",
+      "address": "Bedi Paradise, 105, Garha Road, Opposite Hotel Residency, Near Bus Stand, Jawahar Nagar, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "PBI Institute teaches CAT and MAT alongside SSC, banking, PCS and IAS coaching from its Garha Road centre, drawing on faculty experienced across both MBA-entrance and government-exam prep.",
+      "highlights": [
+        "Covers CAT and MAT in the same batch structure",
+        "Also an established SSC/banking/PCS coaching provider in Jalandhar",
+        "Located on Garha Road near Jawahar Nagar market"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ibt-cat-jalandhar",
+      "type": "coaching",
+      "name": "IBT Cat",
+      "city": "jalandhar",
+      "locality": "Near Bus Stand",
+      "address": "Punjab Air Tower, Opp. Bus Stand Gate No. 3, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "IBT Cat is a CAT-focused coaching institute operating from Punjab Air Tower opposite the bus stand, offering dedicated Common Admission Test preparation rather than a multi-exam batch structure.",
+      "highlights": [
+        "CAT-only coaching focus rather than a shared multi-exam batch",
+        "Located directly opposite Jalandhar's main bus stand",
+        "Runs as an independent local institute (ibtcat.com)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "testbag-academy-jalandhar",
+      "type": "coaching",
+      "name": "TestBag Academy Jalandhar",
+      "city": "jalandhar",
+      "locality": "Jawahar Nagar",
+      "address": "SCF-8, New Jawahar Nagar Market, Jalandhar, Punjab 144001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "TestBag Academy's Jalandhar centre teaches CAT and MAT alongside IIT, SSC, banking and defence-exam coaching (NDA/CDS), part of a wider TestBag Academy network.",
+      "highlights": [
+        "Covers CAT/MAT together with IIT-JEE and defence-exam coaching",
+        "Part of the wider TestBag Academy franchise network",
+        "Based in New Jawahar Nagar Market"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "success-seekers-jalandhar",
+      "type": "coaching",
+      "name": "Success Seekers",
+      "city": "jalandhar",
+      "locality": "Milap Chowk",
+      "address": "SCO 2, 3rd Floor, Monica Tower, Milap Chowk, Jalandhar, Punjab",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Success Seekers coaches CAT from its Milap Chowk centre alongside IIT-JEE and other engineering-entrance prep, reflecting its roots as a multi-exam local institute.",
+      "highlights": [
+        "Multi-exam local institute covering CAT alongside engineering-entrance coaching",
+        "Centrally located at Milap Chowk in Monica Tower",
+        "Smaller, locally-run alternative to the national chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "hitbullseye-jalandhar",
+      "type": "coaching",
+      "name": "Hitbullseye (Online)",
+      "city": "jalandhar",
+      "locality": "Online only",
+      "address": "Online programme; no physical centre in Jalandhar",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Hitbullseye doesn't run a physical Jalandhar centre; Jalandhar students access its CAT programme — Master Classes, national test series and IIT/IIM-mentor-designed study material — entirely online.",
+      "highlights": [
+        "No physical Jalandhar centre — CAT coaching delivered fully online",
+        "National test series with performance analytics",
+        "Also covers XAT, CMAT, NMAT and SNAP through the same online programme"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -12130,6 +12331,9 @@
     },
     "coaching-faridabad": {
       "intro": "<p>Faridabad, part of the Delhi-NCR industrial belt in Haryana, has built a NEET-coaching market concentrated along the NH-19 corridor. Sector 16 is the busiest cluster, home to national chains such as Aakash, Allen, Physics Wallah Vidyapeeth and Vidyamandir Classes, alongside the Faridabad-founded Velocity Institute. A second cluster in Sector 15 and 15A hosts Narayana and FIITJEE, while Sector 17 is home to Cerebrum Biology Academy, a NEET-Biology specialist. Because most major national chains now run full Faridabad centres, students increasingly choose local coaching over a daily commute to Delhi. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
+    },
+    "coaching-jalandhar": {
+      "intro": "<p>Jalandhar, one of Punjab's largest cities and a hub for both higher education and NRI migration to Canada and the UK, has a compact but genuine CAT-coaching market built around two clusters: the national test-prep chains — Career Launcher, T.I.M.E. and IMS — anchored around Model Town and BMC Chowk, and a second group of Jalandhar-founded institutes — AptiGuide, Knowledge Icon, PBI Institute, IBT Cat, TestBag Academy and Success Seekers — spread across Jawahar Nagar, Choti Baradari and the area near the city's main bus stand. Because CAT has no Punjab-specific alternative, most institutes here also prepare students for MAT, CMAT and other national MBA-entrance exams in the same batches. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
     }
   }
 }
