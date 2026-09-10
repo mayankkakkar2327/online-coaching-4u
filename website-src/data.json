@@ -56,7 +56,8 @@
       "agra",
       "rajkot",
       "gwalior",
-      "jalandhar"
+      "jalandhar",
+      "gorakhpur"
     ],
     "certification": [
       "online"
@@ -12175,6 +12176,206 @@
         "Also covers XAT, CMAT, NMAT and SNAP through the same online programme"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "saraswati-ias-gorakhpur",
+      "type": "coaching",
+      "name": "Saraswati IAS",
+      "city": "gorakhpur",
+      "locality": "Bilandpur",
+      "address": "Yadav Bhavan, 33 Kasia Road, Bilandpur, Gorakhpur, Uttar Pradesh 273009",
+      "estd": 1998,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Saraswati IAS has run in Gorakhpur since 1998, founded with guidance from two IAS officers according to the institute's own account, making it one of the longest-running civil-services coaching operations in the city. It runs classroom batches covering UPSC prelims, mains and optional-subject preparation.",
+      "highlights": [
+        "Running in Gorakhpur since 1998 - about 27 years of continuous operation",
+        "Classroom coaching across UPSC prelims, mains and optional subjects",
+        "Based in Bilandpur, away from the city's main Golghar coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "momentum-gorakhpur",
+      "type": "coaching",
+      "name": "Momentum",
+      "city": "gorakhpur",
+      "locality": "Betiahata",
+      "address": "Betiahata Chowk, Gorakhpur, Uttar Pradesh 273001",
+      "estd": 2004,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Momentum was founded in Gorakhpur in 2004 by IITians Er. Vikas Agrawal and Er. Arvind Tripathi, and is best known locally for its IIT-JEE and NEET batches; it also runs a separate UPSC and IAS coaching vertical from the same Betiahata Chowk centre. The institute carries a 4.0-star Google rating from more than 750 reviews, among the highest review volumes of any coaching brand in the city, though that reflects its broader test-prep business rather than UPSC coaching alone.",
+      "highlights": [
+        "Founded 2004 by two IITian faculty members",
+        "4.0/5 Google rating from over 750 reviews - high review volume for the city",
+        "Primarily an IIT-JEE/NEET brand that also runs UPSC and IAS batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dhyeya-ias-gorakhpur",
+      "type": "coaching",
+      "name": "Dhyeya IAS",
+      "city": "gorakhpur",
+      "locality": "Golghar",
+      "address": "2nd Floor, Narayan Tower, Gandhi Gali, Golghar, Gorakhpur, Uttar Pradesh 273001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Dhyeya IAS's Gorakhpur centre operates out of Narayan Tower on Gandhi Gali in Golghar, the city's main coaching cluster, as the local branch of the pan-India Dhyeya IAS chain. Aggregator listings put the centre at roughly 9.2 out of 10 from 270-plus reviews and an annual course fee near Rs 80,000, though we could not independently confirm these figures directly with the institute.",
+      "highlights": [
+        "Gorakhpur branch of the pan-India Dhyeya IAS chain",
+        "Located in Golghar's Gandhi Gali coaching cluster",
+        "Reported course fee near Rs 80,000 per aggregator listings - confirm directly before enrolling"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "patriotic-ias-coaching-gorakhpur",
+      "type": "coaching",
+      "name": "Patriotic IAS Coaching",
+      "city": "gorakhpur",
+      "locality": "Paidleganj",
+      "address": "Bansgaon Colony, Paidleganj, near Rajbanshi Neuro Hospital, Gorakhpur, Uttar Pradesh 273009",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Patriotic IAS Coaching runs UPSC foundation courses and a dedicated test series from its Paidleganj centre, near Rajbanshi Neuro Hospital. It carries one of the strongest independent review scores among Gorakhpur's UPSC institutes, rated between 4.9 and 5 out of 5 across directory listings, from a smaller review base than the city's larger multi-exam brands.",
+      "highlights": [
+        "UPSC foundation course and a dedicated test series",
+        "Independently rated 4.9-5/5 across directory listings",
+        "Located in Paidleganj, outside the main Golghar cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rama-ias-classes-gorakhpur",
+      "type": "coaching",
+      "name": "Rama IAS Classes",
+      "city": "gorakhpur",
+      "locality": "Golghar",
+      "address": "Gandhi Gali, in front of Garg Hospital, Golghar, Gorakhpur, Uttar Pradesh 273001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Rama IAS Classes operates from Gandhi Gali in Golghar, opposite Garg Hospital, and holds a 4.7-star Google rating from 131 reviews, one of the better-rated UPSC-focused institutes in the city by independent review volume.",
+      "highlights": [
+        "4.7/5 Google rating from 131 reviews",
+        "Located in Golghar's dense coaching cluster, opposite Garg Hospital",
+        "Focused specifically on UPSC/IAS coaching rather than a multi-exam catalogue"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "als-ias-coaching-gorakhpur",
+      "type": "coaching",
+      "name": "ALS IAS Coaching",
+      "city": "gorakhpur",
+      "locality": "Golghar",
+      "address": "C-118/103A, Gandhi Gali, Golghar, Gorakhpur, Uttar Pradesh 273001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "ALS IAS Coaching is based on Gandhi Gali in Golghar, in the heart of Gorakhpur's main coaching district, offering classroom preparation for UPSC Civil Services alongside state-level exams.",
+      "highlights": [
+        "Located in Golghar's Gandhi Gali coaching cluster",
+        "Dedicated UPSC/IAS classroom coaching",
+        "One of several IAS-specific institutes clustered within a few hundred metres in Golghar"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "prn-educare-gorakhpur",
+      "type": "coaching",
+      "name": "PRN Educare",
+      "city": "gorakhpur",
+      "locality": "Golghar",
+      "address": "Golghar, Gorakhpur, Uttar Pradesh 273001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "PRN Educare, based in Golghar, coaches UPSC alongside state-PCS preparation, with faculty the institute describes as subject specialists across its course areas.",
+      "highlights": [
+        "Based in Golghar, Gorakhpur's main coaching cluster",
+        "Coaches UPSC alongside state-PCS preparation",
+        "Subject-specialist faculty structure per the institute's own description"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "prime-classes-gorakhpur",
+      "type": "coaching",
+      "name": "Prime Classes",
+      "city": "gorakhpur",
+      "locality": "Golghar",
+      "address": "1st Floor, Mangalam Tower, Golghar, Gorakhpur, Uttar Pradesh 273001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Prime Classes, led by director Abhishek Rai, describes itself as one of the older multi-exam coaching operations in Gorakhpur, covering UPSC, state-PCS and banking preparation from its Mangalam Tower centre in Golghar. Its Google rating, 3 out of 5 from 26 reviews, is lower than most other institutes on this list, worth weighing against its longer operating history.",
+      "highlights": [
+        "One of Gorakhpur's older multi-exam coaching brands, per the institute",
+        "Covers UPSC, state-PCS and banking preparation",
+        "3/5 Google rating from 26 reviews - lower than most peers on this list"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "reform-learning-centre-gorakhpur",
+      "type": "coaching",
+      "name": "Reform Learning Centre",
+      "city": "gorakhpur",
+      "locality": "Medical College Road",
+      "address": "Medical College Road, Gorakhpur, Uttar Pradesh 273013",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Reform Learning Centre runs a broad competitive-exam catalogue from Medical College Road, spanning UPSC, state PSC, SSC, railways, UGC NET, teaching exams and defence/police recruitment rather than specialising in civil services alone.",
+      "highlights": [
+        "Broad catalogue spanning UPSC, SSC, Railways, UGC NET, teaching and defence/police exams",
+        "Located on Medical College Road, outside the Golghar cluster",
+        "Suits students preparing for more than one exam type alongside UPSC"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chahal-academy-gorakhpur",
+      "type": "coaching",
+      "name": "Chahal Academy (Gorakhpur)",
+      "city": "gorakhpur",
+      "locality": "Online",
+      "address": "Live online classes for Gorakhpur students; no physical Gorakhpur branch",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": false,
+      "about": "Chahal Academy is a pan-India online UPSC and UPPCS coaching brand with more than 20 offline centres elsewhere in India, but no physical branch in Gorakhpur itself; students in the city access it purely through live online classes.",
+      "highlights": [
+        "Pan-India online chain with 20+ offline centres elsewhere in India",
+        "No physical Gorakhpur branch - accessed entirely through live online classes",
+        "UPSC and UPPCS-focused curriculum"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -12334,6 +12535,9 @@
     },
     "coaching-jalandhar": {
       "intro": "<p>Jalandhar, one of Punjab's largest cities and a hub for both higher education and NRI migration to Canada and the UK, has a compact but genuine CAT-coaching market built around two clusters: the national test-prep chains — Career Launcher, T.I.M.E. and IMS — anchored around Model Town and BMC Chowk, and a second group of Jalandhar-founded institutes — AptiGuide, Knowledge Icon, PBI Institute, IBT Cat, TestBag Academy and Success Seekers — spread across Jawahar Nagar, Choti Baradari and the area near the city's main bus stand. Because CAT has no Punjab-specific alternative, most institutes here also prepare students for MAT, CMAT and other national MBA-entrance exams in the same batches. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
+    },
+    "coaching-gorakhpur": {
+      "intro": "<p>Gorakhpur, eastern Uttar Pradesh's largest city and a major railway and pilgrimage hub, has built a genuine UPSC and state-PCS (UPPCS) coaching market of its own, distinct from the far larger school-tuition and railway/defence-exam coaching scene the city is better known for. Coaching activity clusters most heavily along Gandhi Gali in Golghar, with further centres in Bilandpur, Paidleganj, Betiahata and Medical College Road."
     }
   }
 }
