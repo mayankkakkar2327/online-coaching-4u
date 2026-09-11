@@ -57,7 +57,8 @@
       "rajkot",
       "gwalior",
       "jalandhar",
-      "gorakhpur"
+      "gorakhpur",
+      "patiala"
     ],
     "certification": [
       "online"
@@ -12376,6 +12377,199 @@
         "UPSC and UPPCS-focused curriculum"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "hitbullseye-patiala",
+      "type": "coaching",
+      "name": "Hitbullseye Patiala",
+      "city": "patiala",
+      "locality": "New Leela Bhawan Market",
+      "address": "SCO 48, New Leela Bhawan Market, Adj Nitin Hospital, Patiala, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Hitbullseye runs its Patiala centre as a company-owned office, one of six centres the brand operates across Punjab, Haryana and Chandigarh, covering CLAT, AILET, SLAT, NLAT and PU-UILS alongside CUET, CAT and NPAT. Its published toppers list includes admits to NLU Delhi, NLU Bhopal and RGNLU Patiala itself.",
+      "highlights": [
+        "Company-owned centre (not a franchise), part of a 6-centre Punjab/Haryana/Chandigarh network",
+        "Named toppers with admits to NLU Delhi, NLU Bhopal and RGNLU Patiala itself",
+        "Also covers AILET, SLAT, NLAT and PU-UILS alongside CLAT"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-lst-patiala",
+      "type": "coaching",
+      "name": "Career Launcher (CL-LST) Patiala",
+      "city": "patiala",
+      "locality": "Choti Baradari",
+      "address": "SCO-139, First Floor, Choti Baradari, Patiala, Punjab 147001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Career Launcher's law-coaching vertical, LST (Law School Tutorials), runs from Choti Baradari, Patiala's main coaching cluster, offering CLAT and AILET batches on the brand's national curriculum, with its SIS system tracking each student's mock-test performance against the countrywide applicant pool.",
+      "highlights": [
+        "Located in Choti Baradari, Patiala's main coaching cluster",
+        "Individual SIS account for GK updates, topic exercises and vocabulary building",
+        "National-level mock benchmarking alongside CAT, CUET and other CL programmes"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "success-mantra-patiala",
+      "type": "coaching",
+      "name": "Success Mantra Patiala",
+      "city": "patiala",
+      "locality": "GTB Nagar",
+      "address": "GTB Nagar, Patiala, Punjab",
+      "estd": 2010,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Founded in 2010, Success Mantra is a multi-programme test-prep specialist running on corporate lines, offering CLAT, DU LLB, AILET and LSAT coaching from its GTB Nagar head office alongside hotel-management (NCHM JEE) and other entrance programmes.",
+      "highlights": [
+        "Corporate-run institute (not a franchise), operating since 2010",
+        "Also coaches DU LLB, AILET and LSAT alongside CLAT",
+        "Runs parallel programmes for NCHM JEE and other entrance exams"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "gda-education-patiala",
+      "type": "coaching",
+      "name": "GDA Education Private Limited",
+      "city": "patiala",
+      "locality": "Sector 34C",
+      "address": "Sector 34C, Patiala, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "GDA Education runs from Sector 34C and coaches CLAT alongside a wider spread of competitive-exam programmes -- judicial services, SSC, banking and railway exams -- offering both classroom and online options for law aspirants who want a single institute covering multiple exam tracks.",
+      "highlights": [
+        "Covers CLAT alongside judicial-service, SSC, banking and railway exam coaching",
+        "Online coaching options in addition to classroom batches",
+        "Sector 34C location, away from the Choti Baradari cluster"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ibt-patiala",
+      "type": "coaching",
+      "name": "IBT Patiala",
+      "city": "patiala",
+      "locality": "Choti Baradari",
+      "address": "SCF-98, Choti Baradari, Ground Floor, Near Lakshya Institute, Patiala, Punjab 147001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "IBT's Patiala centre sits on the ground floor in Choti Baradari, near Lakshya Institute, offering CLAT coaching as part of the brand's broader competitive-exam portfolio in the city.",
+      "highlights": [
+        "Ground-floor Choti Baradari location, near Lakshya Institute",
+        "Part of a wider IBT competitive-exam coaching network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gyanm-college-of-competitions-patiala",
+      "type": "coaching",
+      "name": "Gyanm College of Competitions",
+      "city": "patiala",
+      "locality": "Choti Baradari",
+      "address": "SCO 104, Ground Floor, Choti Baradari, Patiala, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Gyanm College of Competitions runs CLAT coaching from Choti Baradari, alongside its wider portfolio of competitive-exam preparation for school-leavers in Patiala.",
+      "highlights": [
+        "Choti Baradari location, ground floor",
+        "Coaches CLAT alongside other competitive exams under one roof"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aaa-bright-academy-patiala",
+      "type": "coaching",
+      "name": "AAA Bright Academy",
+      "city": "patiala",
+      "locality": "Choti Baradari",
+      "address": "SCO 134, First Floor, Choti Baradari, Patiala, Punjab",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "AAA Bright Academy offers CLAT coaching from a first-floor centre in Choti Baradari, one of several smaller institutes clustered in this stretch of the market alongside the larger national chains.",
+      "highlights": [
+        "First-floor Choti Baradari centre",
+        "One of several smaller, locally run institutes in the same coaching cluster as the national chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "brainedge-education-patiala",
+      "type": "coaching",
+      "name": "BrainEdge Education (P) Limited",
+      "city": "patiala",
+      "locality": "City Centre",
+      "address": "SCO-29, City Centre, Near 22 No. Phatak, Patiala, Punjab 147001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "BrainEdge Education runs a CLAT and AILET coaching programme from its City Centre location near 22 No. Phatak, registered as a private limited company rather than an individual-run coaching shop.",
+      "highlights": [
+        "Registered private limited company (not an individual proprietorship)",
+        "City Centre location near 22 No. Phatak"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "third-axis-patiala",
+      "type": "coaching",
+      "name": "Third Axis",
+      "city": "patiala",
+      "locality": "Bank Colony",
+      "address": "Market, Leela Bhawan, Bank Colony, Patiala, Punjab 147001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Third Axis is a Patiala-based law-coaching specialist operating from the Leela Bhawan/Bank Colony area, offering focused CLAT preparation as one of the city's smaller, locally run institutes outside the main Choti Baradari cluster.",
+      "highlights": [
+        "Law-coaching specialist based in Leela Bhawan, Bank Colony",
+        "One of Patiala's locally run institutes outside the main Choti Baradari cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "edugaps-patiala",
+      "type": "coaching",
+      "name": "EduGaps",
+      "city": "patiala",
+      "locality": "21 No. Phatak",
+      "address": "Seetal Complex, Opp. Hira Autos, 21 No. Phatak, Patiala, Punjab 147001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "EduGaps runs CLAT coaching from Seetal Complex near 21 No. Phatak, offering an alternative to the Choti Baradari cluster for law aspirants based in other parts of the city.",
+      "highlights": [
+        "Seetal Complex location near 21 No. Phatak, outside the main Choti Baradari cluster"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -12538,6 +12732,9 @@
     },
     "coaching-gorakhpur": {
       "intro": "<p>Gorakhpur, eastern Uttar Pradesh's largest city and a major railway and pilgrimage hub, has built a genuine UPSC and state-PCS (UPPCS) coaching market of its own, distinct from the far larger school-tuition and railway/defence-exam coaching scene the city is better known for. Coaching activity clusters most heavily along Gandhi Gali in Golghar, with further centres in Bilandpur, Paidleganj, Betiahata and Medical College Road."
+    },
+    "coaching-patiala": {
+      "intro": "<p>Patiala holds a distinctive position in India's CLAT-coaching map: it is home to Rajiv Gandhi National University of Law (RGNLU) itself, one of the 26 NLUs that admit through the exam, alongside a coaching market split between Choti Baradari &mdash; the city's dense coaching cluster, home to Career Launcher's LST centre, IBT, Gyanm College of Competitions and AAA Bright Academy &mdash; and standalone institutes such as Hitbullseye (New Leela Bhawan Market), Success Mantra (GTB Nagar) and GDA Education (Sector 34C). Because Patiala hosts an NLU of its own, several institutes here explicitly track local RGNLU admits alongside the national NLU list. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
     }
   }
 }
