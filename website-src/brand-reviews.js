@@ -22,7 +22,7 @@ module.exports = [
     ],
     bestFor: "Working IT professionals — from freshers to 14-year veterans — who want a structured, affordable, mentor-led route into Azure Data Engineering and Gen AI roles.",
     whatIs: [
-      "Vision Board (visionboardedtech.com) is a Bengaluru-based ed-tech brand built around one focused mission: helping IT professionals break into Azure Data Engineering and Generative AI careers. It's led by instructor Devikrishna R, who brings prior EY/Wipro experience directly into her teaching, alongside co-founder Vimal Shaji.",
+      "Vision Board (visionboardedtech.com) is a Kottayam, Kerala-based ed-tech brand built around one focused mission: helping IT professionals break into Azure Data Engineering and Generative AI careers. It's led by instructor Devikrishna R, who brings prior EY/Wipro experience directly into her teaching, alongside co-founder Vimal Shaji.",
       "What sets Vision Board apart is consistency. The brand has been publishing detailed, dated alumni journeys since 2022 — not a handful of cherry-picked quotes, but a genuinely large body of evidence: a 56-video YouTube testimonial archive and a Success Stories page with dozens of real offer-letter screenshots. In preparing this review, these outcomes were followed up on directly with several featured alumni, who confirmed their stories."
     ],
     whyChoose: [
