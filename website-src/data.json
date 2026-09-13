@@ -58,7 +58,8 @@
       "gwalior",
       "jalandhar",
       "gorakhpur",
-      "patiala"
+      "patiala",
+      "ajmer"
     ],
     "certification": [
       "online"
@@ -12570,6 +12571,202 @@
         "Seetal Complex location near 21 No. Phatak, outside the main Choti Baradari cluster"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-ajmer",
+      "type": "coaching",
+      "name": "Allen Career Institute Ajmer",
+      "city": "ajmer",
+      "locality": "Madak Gate",
+      "address": "Near Govt. College, Madak Gate, Ajmer, Rajasthan 305001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Allen Career Institute's Ajmer centre operates near Government College on Madak Gate, extending the Kota-founded chain's JEE Main and Advanced classroom programme, along with its national test series and study material, to students who don't want to relocate to Kota.",
+      "highlights": [
+        "Near Govt. College, Madak Gate location",
+        "Kota-founded chain's standard JEE Main + Advanced curriculum and test series",
+        "One of two national-chain centres anchoring Ajmer's JEE-coaching market"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-ajmer",
+      "type": "coaching",
+      "name": "Aakash Institute Ajmer",
+      "city": "ajmer",
+      "locality": "Vaishali Nagar",
+      "address": "238, Ana Sagar Circular Road, Ramdev Nagar, Vaishali Nagar, Ajmer, Rajasthan 305001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Aakash's Ajmer centre runs from Ana Sagar Circular Road in Vaishali Nagar, offering the company-owned chain's JEE Main and Advanced batches alongside its AIATS test series and digital-learning app for students across the city.",
+      "highlights": [
+        "Company-owned centre on Ana Sagar Circular Road, Vaishali Nagar",
+        "AIATS all-India test series benchmarking",
+        "Digital app access alongside classroom batches"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "bansal-classes-ajmer",
+      "type": "coaching",
+      "name": "Bansal Classes Ajmer",
+      "city": "ajmer",
+      "locality": "Vaishali Nagar",
+      "address": "92, LIC Colony, Vaishali Nagar, near Hotel Aaram, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Bansal Classes runs its Ajmer branch from LIC Colony in Vaishali Nagar, bringing the Kota-founded brand's JEE-focused teaching model to a city just over three hours from its Kota headquarters.",
+      "highlights": [
+        "LIC Colony, Vaishali Nagar location, near Hotel Aaram",
+        "Branch of the Kota-founded Bansal Classes JEE-coaching brand",
+        "Located in the same Vaishali Nagar cluster as Aakash's Ajmer centre"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "masters-academy-ajmer",
+      "type": "coaching",
+      "name": "Masters Academy",
+      "city": "ajmer",
+      "locality": "Anasagar Chaupati",
+      "address": "1, Anasagar Chaupati, Opposite NCC Office, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Masters Academy coaches JEE and BITSAT from its Anasagar Chaupati centre opposite the NCC office, one of Ajmer's longer-running local institutes covering both major engineering entrance exams under one roof.",
+      "highlights": [
+        "Anasagar Chaupati location, opposite the NCC office",
+        "Covers both JEE and BITSAT in the same programme",
+        "Locally run, Ajmer-founded institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "triumph-academy-ajmer",
+      "type": "coaching",
+      "name": "Triumph Academy",
+      "city": "ajmer",
+      "locality": "Lohagal Road",
+      "address": "81-B/3, Lohagal Road, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Triumph Academy runs a JEE and BITSAT coaching programme from Lohagal Road, on the opposite side of the city from the Vaishali Nagar cluster, giving Ajmer's engineering aspirants a locally run alternative to the national chains.",
+      "highlights": [
+        "Lohagal Road location, away from the Vaishali Nagar cluster",
+        "Covers both JEE and BITSAT",
+        "Locally run Ajmer institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "c-square-plus-ajmer",
+      "type": "coaching",
+      "name": "C-Square Plus (North Campus)",
+      "city": "ajmer",
+      "locality": "Shastri Nagar",
+      "address": "64, Akshar-Gyan Building, Shastri Nagar, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "C-Square Plus's North Campus operates from Akshar-Gyan Building in Shastri Nagar, one of two campuses the institute runs in the city for JEE preparation.",
+      "highlights": [
+        "Shastri Nagar location (North Campus)",
+        "Runs a second, South Campus branch elsewhere in the city",
+        "JEE-focused local institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "cellsius-institute-ajmer",
+      "type": "coaching",
+      "name": "Cellsius Institute",
+      "city": "ajmer",
+      "locality": "Shri Nagar Road",
+      "address": "516/15, Smriti Bhawan, Shri Nagar Road, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Cellsius Institute coaches JEE from its Smriti Bhawan centre on Shri Nagar Road, one of the smaller, locally run institutes serving Ajmer's engineering aspirants outside the main Vaishali Nagar cluster.",
+      "highlights": [
+        "Shri Nagar Road location, Smriti Bhawan building",
+        "Locally run, Ajmer-specific JEE coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rg-academy-ajmer",
+      "type": "coaching",
+      "name": "RG Academy",
+      "city": "ajmer",
+      "locality": "Civil Lines",
+      "address": "36/3, Near Ajmer Hospital, Civil Lines, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "RG Academy runs its JEE coaching centre near Ajmer Hospital in Civil Lines, giving students in the city's older civic core a coaching option away from Vaishali Nagar.",
+      "highlights": [
+        "Civil Lines location, near Ajmer Hospital",
+        "Locally run JEE-coaching institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "the-gurukul-ajmer",
+      "type": "coaching",
+      "name": "The Gurukul",
+      "city": "ajmer",
+      "locality": "Daulat Bagh",
+      "address": "H.No. 21, Parshwanath Colony, Mahaveer Circle, near Daulat Bagh, Ajmer, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "The Gurukul offers JEE coaching from Parshwanath Colony near Mahaveer Circle and Daulat Bagh, one of several small, independently run institutes filling out Ajmer's engineering-coaching market beyond the national chains.",
+      "highlights": [
+        "Parshwanath Colony location, near Mahaveer Circle and Daulat Bagh",
+        "Independently run local institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "positron-education-ajmer",
+      "type": "coaching",
+      "name": "Positron Education",
+      "city": "ajmer",
+      "locality": "Srinagar Road",
+      "address": "1st Floor, Pratap Motors, Srinagar Road, near Martindale Bridge, Ajmer, Rajasthan 305001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Positron Education runs a JEE coaching centre on Srinagar Road near Martindale Bridge, above Pratap Motors, serving students on the eastern side of Ajmer away from the Vaishali Nagar hub.",
+      "highlights": [
+        "Srinagar Road location, near Martindale Bridge",
+        "Serves the eastern side of the city, away from Vaishali Nagar"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -12732,6 +12929,9 @@
     },
     "coaching-gorakhpur": {
       "intro": "<p>Gorakhpur, eastern Uttar Pradesh's largest city and a major railway and pilgrimage hub, has built a genuine UPSC and state-PCS (UPPCS) coaching market of its own, distinct from the far larger school-tuition and railway/defence-exam coaching scene the city is better known for. Coaching activity clusters most heavily along Gandhi Gali in Golghar, with further centres in Bilandpur, Paidleganj, Betiahata and Medical College Road."
+    },
+    "coaching-ajmer": {
+      "intro": "<p>Ajmer, roughly three hours from Kota by road, has built its own JEE-coaching market that runs in parallel to student flow toward Kota rather than in competition with it. The main cluster sits in Vaishali Nagar, home to company-owned centres of national chains such as Aakash Institute and Bansal Classes, plus Allen Career Institute's centre near Government College on Madak Gate. A second layer of Ajmer-founded institutes — including Masters Academy (Anasagar Chaupati), Triumph Academy (Lohagal Road) and C-Square Plus (Shastri Nagar) — cover JEE alongside BITSAT for students who want a single local institute rather than the bigger national brands. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
     },
     "coaching-patiala": {
       "intro": "<p>Patiala holds a distinctive position in India's CLAT-coaching map: it is home to Rajiv Gandhi National University of Law (RGNLU) itself, one of the 26 NLUs that admit through the exam, alongside a coaching market split between Choti Baradari &mdash; the city's dense coaching cluster, home to Career Launcher's LST centre, IBT, Gyanm College of Competitions and AAA Bright Academy &mdash; and standalone institutes such as Hitbullseye (New Leela Bhawan Market), Success Mantra (GTB Nagar) and GDA Education (Sector 34C). Because Patiala hosts an NLU of its own, several institutes here explicitly track local RGNLU admits alongside the national NLU list. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
