@@ -59,7 +59,8 @@
       "jalandhar",
       "gorakhpur",
       "patiala",
-      "ajmer"
+      "ajmer",
+      "muzaffarpur"
     ],
     "certification": [
       "online"
@@ -12767,6 +12768,214 @@
         "Serves the eastern side of the city, away from Vaishali Nagar"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-muzaffarpur",
+      "type": "coaching",
+      "name": "Aakash Institute Muzaffarpur",
+      "city": "muzaffarpur",
+      "locality": "Mithanpura Chowk",
+      "address": "1st Floor, Yamuna Complex, Main Road, in front of Bank of India, Mithanpura Chowk, Muzaffarpur, Bihar",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Aakash Institute's company-owned Muzaffarpur centre sits at Mithanpura Chowk, extending the 200-plus branch AESL chain's NEET and JEE Main/Advanced classroom programme, AIATS all-India test series and digital-learning app to North Bihar students.",
+      "highlights": [
+        "Company-owned centre, part of the national AESL (Aakash) chain",
+        "NEET and JEE Main + Advanced batches with AIATS test series",
+        "Located at Mithanpura Chowk, the city's main coaching corridor"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "allen-career-institute-muzaffarpur",
+      "type": "coaching",
+      "name": "Allen Career Institute Muzaffarpur",
+      "city": "muzaffarpur",
+      "locality": "Naya Tola",
+      "address": "The Grand Mall, Naya Tola, Muzaffarpur, Bihar",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Allen's Muzaffarpur campus, inside The Grand Mall in Naya Tola, brings the Kota-founded chain's three-decade JEE and NEET-UG teaching model, hi-tech classrooms and structured performance tracking to the city without a move to Kota.",
+      "highlights": [
+        "Kota-founded national chain with 30+ years in JEE/NEET coaching",
+        "Hi-tech classrooms with regular tests and performance tracking",
+        "Campus inside The Grand Mall, Naya Tola"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "motion-education-muzaffarpur",
+      "type": "coaching",
+      "name": "Motion Education Muzaffarpur",
+      "city": "muzaffarpur",
+      "locality": "Mithanpura",
+      "address": "Sinha Complex, Miscot Lane, Club Road, near Jubba Sahni Park, Mithanpura, Muzaffarpur, Bihar",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Motion Education's Muzaffarpur centre, on Club Road near Jubba Sahni Park, offers the Kota-origin chain's JEE (Main + Advanced) and NEET-UG classroom programmes with its established test-series and doubt-support model.",
+      "highlights": [
+        "Kota-origin coaching chain with a dedicated Club Road centre",
+        "Covers JEE Main + Advanced and NEET-UG",
+        "Near Jubba Sahni Park, Mithanpura"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "pw-vidyapeeth-muzaffarpur",
+      "type": "coaching",
+      "name": "PW Vidyapeeth Muzaffarpur",
+      "city": "muzaffarpur",
+      "locality": "Church Road",
+      "address": "1st Floor, PNT Chowk, Church Road, near St. Cathedral, Muzaffarpur, Bihar",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Physics Wallah's PW Vidyapeeth Pathshala centre in Muzaffarpur runs JEE, NEET and foundation classroom batches on the brand's two-teacher model, with frequent tests and performance analytics, from its Church Road location.",
+      "highlights": [
+        "Physics Wallah's offline classroom arm (PW Vidyapeeth)",
+        "Two-teacher model: one teaches, one handles doubts",
+        "Located at PNT Chowk, Church Road"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "vedantu-learning-centre-muzaffarpur",
+      "type": "coaching",
+      "name": "Vedantu Learning Centre Muzaffarpur",
+      "city": "muzaffarpur",
+      "locality": "Mithanpura",
+      "address": "2nd Floor, Ugra Tara Complex, Club Road, opposite Grand Mall, Mahammadpur Kazi, Mithanpura, Muzaffarpur, Bihar 842002",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Vedantu's offline Learning Centre in Mithanpura pairs the online platform's recorded and live-class content with an in-person classroom for grades 8-12 students preparing for JEE and NEET.",
+      "highlights": [
+        "Hybrid model: Vedantu's online content plus an in-person centre",
+        "Covers grades 8-12, JEE and NEET foundation through main batches",
+        "On Club Road, opposite Grand Mall"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "parishram-muzaffarpur",
+      "type": "coaching",
+      "name": "Parishram",
+      "city": "muzaffarpur",
+      "locality": "Aghoria Bazar",
+      "address": "Mahammadpur Kazi, Aghoria Bazar, Saadpur, Ramna, Muzaffarpur, Bihar 842002",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Parishram is a Muzaffarpur-founded institute in Aghoria Bazar that says it has worked with more than 10,000 students over eight years on IIT-JEE, AIIMS and NEET preparation, positioning itself as a local alternative to the national chains.",
+      "highlights": [
+        "Locally founded, Aghoria Bazar centre",
+        "Reports 10,000+ students coached over 8 years",
+        "Covers IIT-JEE, AIIMS and NEET"
+      ],
+      "mode": "classroom"
+    },
+    {
+      "slug": "elipse-academy-muzaffarpur",
+      "type": "coaching",
+      "name": "Elipse Academy",
+      "city": "muzaffarpur",
+      "locality": "Sherpur",
+      "address": "Sherpur, Narayanpur Anant, Muzaffarpur, Bihar 842002",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Elipse Academy is a Muzaffarpur-founded institute in Sherpur offering classroom coaching for JEE and NEET, run as a smaller, locally managed alternative to the city's national chains.",
+      "highlights": [
+        "Locally founded institute based in Sherpur",
+        "Covers JEE and NEET classroom batches",
+        "Smaller-batch alternative to national chains"
+      ],
+      "mode": "classroom"
+    },
+    {
+      "slug": "fst-classes-muzaffarpur",
+      "type": "coaching",
+      "name": "FST Classes",
+      "city": "muzaffarpur",
+      "locality": "Saraiyaganj",
+      "address": "Saraiyaganj, Muzaffarpur, Bihar",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "about": "FST Classes is a Saraiyaganj-based institute focused on NEET and other medical-entrance preparation, serving students in the older, central part of Muzaffarpur away from the Club Road/Mithanpura cluster.",
+      "highlights": [
+        "Saraiyaganj-based, focused on NEET preparation",
+        "Serves the central Muzaffarpur student catchment",
+        "Locally run, outside the Mithanpura coaching cluster"
+      ],
+      "mode": "classroom"
+    },
+    {
+      "slug": "catalyseur-muzaffarpur",
+      "type": "coaching",
+      "name": "CatalyseuR",
+      "city": "muzaffarpur",
+      "locality": "Muzaffarpur",
+      "address": "Muzaffarpur, Bihar",
+      "estd": 2012,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "CatalyseuR has run in Muzaffarpur since 2012, positioning itself on combining exam preparation with broader student mentorship for JEE and NEET aspirants in the city.",
+      "highlights": [
+        "Operating in Muzaffarpur since 2012",
+        "Covers JEE and NEET",
+        "Emphasises mentorship alongside exam coaching"
+      ],
+      "mode": "classroom"
+    },
+    {
+      "slug": "darwins-biology-classes-muzaffarpur",
+      "type": "coaching",
+      "name": "Darwin's Biology Classes",
+      "city": "muzaffarpur",
+      "locality": "Bhagwanpur",
+      "address": "near Bhagwanpur, Muzaffarpur, Bihar",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "about": "Darwin's Biology Classes is a Bhagwanpur-based Biology specialist, one of several single-subject NEET institutes in Muzaffarpur that students combine with separate Physics/Chemistry coaching, since Biology carries half of NEET's marks.",
+      "highlights": [
+        "Biology-only specialist for NEET aspirants",
+        "Based near Bhagwanpur",
+        "Commonly paired with separate Physics/Chemistry coaching"
+      ],
+      "mode": "classroom"
     }
   ],
   "cityContent": {
@@ -12935,6 +13144,9 @@
     },
     "coaching-patiala": {
       "intro": "<p>Patiala holds a distinctive position in India's CLAT-coaching map: it is home to Rajiv Gandhi National University of Law (RGNLU) itself, one of the 26 NLUs that admit through the exam, alongside a coaching market split between Choti Baradari &mdash; the city's dense coaching cluster, home to Career Launcher's LST centre, IBT, Gyanm College of Competitions and AAA Bright Academy &mdash; and standalone institutes such as Hitbullseye (New Leela Bhawan Market), Success Mantra (GTB Nagar) and GDA Education (Sector 34C). Because Patiala hosts an NLU of its own, several institutes here explicitly track local RGNLU admits alongside the national NLU list. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
+    },
+    "coaching-muzaffarpur": {
+      "intro": "<p>Muzaffarpur, Bihar's second-largest city and home to Sri Krishna Medical College &amp; Hospital (SKMCH), draws NEET aspirants from across North Bihar &mdash; Sitamarhi, Vaishali, East and West Champaran &mdash; who would otherwise travel to Patna or Kota. Its coaching market clusters along the Club Road / Mithanpura corridor, home to company-run centres of Aakash Institute, Motion Education, Vedantu Learning Centre and Physics Wallah's PW Vidyapeeth, with Allen Career Institute near Naya Tola's Grand Mall. A second layer of Muzaffarpur-founded institutes &mdash; including Parishram (Aghoria Bazar), Elipse Academy (Sherpur) and biology specialist Darwin's Biology Classes (Bhagwanpur) &mdash; rounds out the market for students who want a local, smaller-batch alternative to the national chains. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
     }
   }
 }
