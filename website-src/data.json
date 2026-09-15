@@ -60,7 +60,8 @@
       "gorakhpur",
       "patiala",
       "ajmer",
-      "muzaffarpur"
+      "muzaffarpur",
+      "jamshedpur"
     ],
     "certification": [
       "online"
@@ -12976,6 +12977,203 @@
         "Commonly paired with separate Physics/Chemistry coaching"
       ],
       "mode": "classroom"
+    },
+    {
+      "slug": "time-jamshedpur",
+      "type": "coaching",
+      "name": "TIME (Triumphant Institute of Management Education) — Jamshedpur",
+      "city": "jamshedpur",
+      "locality": "Sakchi / Aambagan",
+      "address": "5/1, Birenu Trade Centre, 67 Pennar Road, Aambagan, Sakchi, Jamshedpur - 831001, Jharkhand",
+      "estd": 1992,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "TIME was founded in 1992 and runs its Jamshedpur centre from Birenu Trade Centre on Pennar Road in Sakchi's Aambagan locality, offering the chain's classroom CAT programme and All-India Mock CAT test series to local students.",
+      "highlights": [
+        "Founded 1992; one of India's largest CAT-coaching networks",
+        "All-India Mock CAT test series replicates the real exam interface",
+        "Sakchi/Aambagan centre on Pennar Road"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-jamshedpur",
+      "type": "coaching",
+      "name": "Career Launcher — Jamshedpur",
+      "city": "jamshedpur",
+      "locality": "Bistupur",
+      "address": "2nd Floor, UTI Mutual Fund Building, Near Hotel Ginger, Ram Mandir Area, Bistupur, Jamshedpur, Jharkhand 831001",
+      "estd": 2000,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Career Launcher has operated in Jamshedpur since 2000 from the UTI Mutual Fund Building in Bistupur's Ram Mandir Area, combining CAT preparation with personality-development sessions for the group discussion and interview stages of B-school admission.",
+      "highlights": [
+        "Operating in India since 2000; mentored 50,000+ students nationally",
+        "Bistupur centre near Hotel Ginger, Ram Mandir Area",
+        "GD/PI personality-development sessions alongside CAT prep"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-jamshedpur",
+      "type": "coaching",
+      "name": "IMS (Institute of Management Studies) — Jamshedpur",
+      "city": "jamshedpur",
+      "locality": "Bistupur",
+      "address": "Flat No. 1/7, First Floor, H.S. Tower, L-Road, Bistupur (above Hyundai showroom), Jamshedpur - 831001, Jharkhand",
+      "estd": 1977,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "IMS Learning Resources was founded in Mumbai in 1977, making it one of India's oldest dedicated management-entrance coaching chains. Its Jamshedpur centre, above a Hyundai showroom on Bistupur's L-Road, gives local students access to the company's nationally benchmarked SimCAT mock-test series.",
+      "highlights": [
+        "Founded 1977; one of India's oldest CAT coaching chains",
+        "Access to IMS's national SimCAT mock series",
+        "Bistupur centre on L-Road"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "iquanta-jamshedpur",
+      "type": "coaching",
+      "name": "iQuanta — Jamshedpur",
+      "city": "jamshedpur",
+      "locality": "Sakchi / Aambagan",
+      "address": "Mahal Plaza, 4th Floor, Near Kumar Pathology, Beside Aambagan Masjid, Aambagan, Sakchi, Jamshedpur - 831001, Jharkhand",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "iQuanta runs both online and classroom CAT coaching for Jamshedpur students from Mahal Plaza in Sakchi's Aambagan locality, built around a faculty team of more than 40 IIT and IIM graduates.",
+      "highlights": [
+        "Faculty team of 40+ IIT/IIM graduates",
+        "Both online and classroom formats available",
+        "Sakchi/Aambagan centre near Kumar Pathology"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "master-minds-jamshedpur",
+      "type": "coaching",
+      "name": "Master Minds",
+      "city": "jamshedpur",
+      "locality": "Samridhi Enclave",
+      "address": "B4, Samridhi Enclave, Jamshedpur, Jharkhand",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Master Minds is a Jamshedpur-founded institute running CAT coaching from Samridhi Enclave, offering local students a smaller-batch alternative to the national chains clustered in Bistupur and Sakchi.",
+      "highlights": [
+        "Jamshedpur-founded, independent institute",
+        "Samridhi Enclave centre",
+        "Smaller-batch classroom coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "avijeet-classes-jamshedpur",
+      "type": "coaching",
+      "name": "Avijeet Classes",
+      "city": "jamshedpur",
+      "locality": "Haludbani",
+      "address": "Haludbani Main Road, Jamshedpur, Jharkhand",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Avijeet Classes runs CAT coaching from Haludbani Main Road, giving Jamshedpur students on that side of the city a locally run option away from the Bistupur and Sakchi clusters.",
+      "highlights": [
+        "Jamshedpur-founded, independent institute",
+        "Haludbani Main Road centre",
+        "Local alternative to Bistupur/Sakchi national chains"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "hitbullseye-cat-online-jamshedpur",
+      "type": "coaching",
+      "name": "Hitbullseye",
+      "city": "jamshedpur",
+      "locality": "Online",
+      "address": null,
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Hitbullseye is a pan-India, online-only CAT platform offering Master Classes, a National Test Series, study material and audio/video counselling, built by a faculty team with more than 20 years of test-prep experience. It has no physical Jamshedpur centre and markets directly to the city's CAT aspirants as an alternative to relocating for classroom coaching.",
+      "highlights": [
+        "Online-only, pan-India CAT platform",
+        "20+ years of test-prep experience",
+        "No physical Jamshedpur centre — pure online alternative"
+      ],
+      "mode": "online"
+    },
+    {
+      "slug": "the-guardian-classes-jamshedpur",
+      "type": "coaching",
+      "name": "The Guardian Classes",
+      "city": "jamshedpur",
+      "locality": "Sakchi",
+      "address": "15, Aambagan, Sakchi, Jamshedpur - 831001, Near Indralok Hotel, Jharkhand",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "The Guardian Classes runs CAT coaching from Aambagan in Sakchi, near Indralok Hotel, giving students in that cluster another option alongside TIME and iQuanta.",
+      "highlights": [
+        "Sakchi/Aambagan centre near Indralok Hotel",
+        "Local, independently run institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "bharat-education-council-jamshedpur",
+      "type": "coaching",
+      "name": "Bharat Education Council",
+      "city": "jamshedpur",
+      "locality": "Mango",
+      "address": "Dimna Road, Subhas Colony No. 4, Mango, Jamshedpur - 831012, Beside Nidaan Clinic, Opposite Dainik Jagran, Jharkhand",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Bharat Education Council coaches CAT from Subhas Colony on Dimna Road in Mango, giving students in that part of Jamshedpur a local option away from Bistupur and Sakchi.",
+      "highlights": [
+        "Mango-area centre on Dimna Road",
+        "Local, independently run institute"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "its-india-jamshedpur",
+      "type": "coaching",
+      "name": "Its India",
+      "city": "jamshedpur",
+      "locality": "Sonari",
+      "address": "Holding Number 4, Road Number 1, Sonari West Layout, Sonari, Jamshedpur - 831001, Jharkhand",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Its India runs a CAT-coaching centre in Sonari West Layout, rounding out Jamshedpur's coaching map with an option on the city's Sonari side.",
+      "highlights": [
+        "Sonari West Layout centre",
+        "Local, independently run institute"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -13147,6 +13345,9 @@
     },
     "coaching-muzaffarpur": {
       "intro": "<p>Muzaffarpur, Bihar's second-largest city and home to Sri Krishna Medical College &amp; Hospital (SKMCH), draws NEET aspirants from across North Bihar &mdash; Sitamarhi, Vaishali, East and West Champaran &mdash; who would otherwise travel to Patna or Kota. Its coaching market clusters along the Club Road / Mithanpura corridor, home to company-run centres of Aakash Institute, Motion Education, Vedantu Learning Centre and Physics Wallah's PW Vidyapeeth, with Allen Career Institute near Naya Tola's Grand Mall. A second layer of Muzaffarpur-founded institutes &mdash; including Parishram (Aghoria Bazar), Elipse Academy (Sherpur) and biology specialist Darwin's Biology Classes (Bhagwanpur) &mdash; rounds out the market for students who want a local, smaller-batch alternative to the national chains. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
+    },
+    "coaching-jamshedpur": {
+      "intro": "<p>Jamshedpur, Jharkhand's largest industrial city and home to XLRI Xavier School of Management — one of India's oldest and most selective business schools — has built a genuine local CAT-coaching market of its own. Coaching runs through two main hubs: Bistupur, home to Career Launcher and IMS, and Sakchi's Aambagan locality, home to TIME, iQuanta and The Guardian Classes. A second layer of Jamshedpur-founded institutes — including Master Minds (Samridhi Enclave), Avijeet Classes (Haludbani), Bharat Education Council (Mango) and Its India (Sonari) — cover CAT preparation across the rest of the city, alongside Hitbullseye's online-only option. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
     }
   }
 }
