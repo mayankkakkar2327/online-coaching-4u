@@ -61,7 +61,8 @@
       "patiala",
       "ajmer",
       "muzaffarpur",
-      "jamshedpur"
+      "jamshedpur",
+      "ghaziabad"
     ],
     "certification": [
       "online"
@@ -13174,9 +13175,217 @@
         "Local, independently run institute"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "achievers-ias-academy-ghaziabad",
+      "type": "coaching",
+      "name": "Achievers IAS Academy",
+      "city": "ghaziabad",
+      "locality": "Indirapuram",
+      "address": "VPL 20, Shipra Krishna Vista Plaza, Lower Ground Floor, near Sai Chowk, Shakti Khand 3, Indirapuram, Ghaziabad, Uttar Pradesh 201014",
+      "estd": 2012,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "about": "Achievers IAS Academy has run from Indirapuram's Shakti Khand 3 since 2012, founded by Anshu Sharma, offering UPSC (Prelims + Mains), UPPSC, SSC and Banking batches. It carries the highest review volume of any UPSC institute in Ghaziabad on independent directories, a 9.8/10 aggregated rating from over 400 reviews.",
+      "highlights": [
+        "Founded 2012 by Anshu Sharma",
+        "9.8/10 aggregated rating from 400+ reviews — highest review volume in the city",
+        "Also runs UPPSC, SSC and Banking batches alongside UPSC"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dr-surendras-ias-academy-ghaziabad",
+      "type": "coaching",
+      "name": "Dr. Surendra's IAS Academy",
+      "city": "ghaziabad",
+      "locality": "Indirapuram",
+      "address": "Plot No. 367/855, opp. ATS Orange County, Niti Khand I, Indirapuram, Ghaziabad, Uttar Pradesh 201014",
+      "estd": 2002,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "about": "Dr. Surendra's IAS Academy has run from Niti Khand I, Indirapuram since 2002, among Ghaziabad's longest-established civil-services institutes. The academy describes its lead faculty as an ex-civil servant and says it has coached over 5,000 students across its two-plus decades of operation.",
+      "highlights": [
+        "Running since 2002 — over 20 years in Ghaziabad's UPSC-coaching market",
+        "Lead faculty described as an ex-civil servant",
+        "5,000+ students coached, per the academy's own account"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "study-point-ias-ghaziabad",
+      "type": "coaching",
+      "name": "Study Point IAS, PCS Coaching Center",
+      "city": "ghaziabad",
+      "locality": "Raj Nagar (RDC)",
+      "address": "17, Advocate Chamber, near Bikanerwala, RDC, Block 1, P&T Colony, Raj Nagar, Ghaziabad, Uttar Pradesh 201001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "about": "Study Point IAS operates from Raj Nagar's RDC coaching cluster near Bikanerwala, running a 36-month UPSC and state-PCS track covering GS, CSAT, optional subject and interview preparation. It carries a joint-highest aggregated review score among Ghaziabad's UPSC institutes, a full 10/10 from over 200 reviews.",
+      "highlights": [
+        "10/10 aggregated rating from 200+ reviews",
+        "36-month UPSC + state-PCS track covering GS, CSAT, optional and interview stages",
+        "Based in Raj Nagar's RDC coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "leelawati-ias-ghaziabad",
+      "type": "coaching",
+      "name": "Leelawati IAS",
+      "city": "ghaziabad",
+      "locality": "Raj Nagar (RDC)",
+      "address": "16 RDC, Raj Nagar, near Bikanerwala, basement of Apollo Pharmacy, Ghaziabad, Uttar Pradesh 201001 (also Raj Nagar Extension)",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "about": "Leelawati IAS runs UPSC, UPPCS and UPSI batches from Raj Nagar's RDC cluster, with a second centre in Raj Nagar Extension. It carries the single highest review count of any UPSC institute in Ghaziabad on independent directories — over 300 reviews at a 10/10 aggregated score.",
+      "highlights": [
+        "10/10 aggregated rating from 300+ reviews — highest review count in the city",
+        "Runs UPSC, UPPCS and UPSI batches",
+        "Two centres: Raj Nagar (RDC) and Raj Nagar Extension"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ghaziabad-ias-academy",
+      "type": "coaching",
+      "name": "Ghaziabad IAS Academy",
+      "city": "ghaziabad",
+      "locality": "Vaishali",
+      "address": "B-8, Plot No. 330, Sector 4, Vaishali, near Vaishali Metro Station, Ghaziabad, Uttar Pradesh 201012",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "about": "Ghaziabad IAS Academy runs its main centre in Sector 4, Vaishali, right by the Vaishali Metro Station, and also serves students from Vasundhara and Indirapuram. Its one-year GS Foundation Course is priced toward the lower end of the city's UPSC-coaching fee range, and the institute carries a 9.2/10 rating from close to 270 reviews.",
+      "highlights": [
+        "9.2/10 aggregated rating from ~270 reviews",
+        "Centre steps from Vaishali Metro Station",
+        "One-year GS Foundation Course priced toward the lower end of local fees"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "deep-ias-coaching-ghaziabad",
+      "type": "coaching",
+      "name": "Deep IAS Coaching",
+      "city": "ghaziabad",
+      "locality": "Pratap Vihar / Vijay Nagar (NH-24)",
+      "address": "BH-390, 2nd Floor, NH-24, Bhaw Rao Devras Colony, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009",
+      "estd": null,
+      "exams": [
+        "ias",
+        "ssc"
+      ],
+      "verified": true,
+      "about": "Deep IAS Coaching, in the NH-24/Pratap Vihar area, stands out for offering its classroom IAS coaching free of charge — a notable exception in a market where most institutes charge upward of Rs 75,000. It also runs SSC CGL batches and carries a 9.6/10 rating from 230-plus reviews.",
+      "highlights": [
+        "Free-of-charge classroom IAS coaching — unusual in this market",
+        "9.6/10 aggregated rating from 230+ reviews",
+        "Also runs SSC CGL batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rajiv-classes-ghaziabad",
+      "type": "coaching",
+      "name": "Rajiv Classes",
+      "city": "ghaziabad",
+      "locality": "Nehru Nagar",
+      "address": "Nehru Nagar III, Nehru Nagar, Ghaziabad, Uttar Pradesh 201001",
+      "estd": null,
+      "exams": [
+        "ias",
+        "ssc",
+        "nda"
+      ],
+      "verified": true,
+      "about": "Rajiv Classes runs a 24-month UPSC (GS + CSAT) programme alongside SSC, NDA and several other competitive-exam batches from its Nehru Nagar III centre, making it one of the more multi-exam-focused institutes in the city. It carries a 9.6/10 rating from close to 180 reviews.",
+      "highlights": [
+        "24-month UPSC (GS + CSAT) programme",
+        "Also coaches SSC, NDA and other competitive exams from the same centre",
+        "9.6/10 aggregated rating from ~180 reviews"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "defence-forces-academy-ghaziabad",
+      "type": "coaching",
+      "name": "Defence Forces Academy",
+      "city": "ghaziabad",
+      "locality": "Raj Nagar (RDC)",
+      "address": "C-53, 3rd Floor, RDC, Raj Nagar, opp. ICICI Bank, Ghaziabad, Uttar Pradesh 201001",
+      "estd": null,
+      "exams": [
+        "ias",
+        "nda"
+      ],
+      "verified": true,
+      "about": "Defence Forces Academy, opposite an ICICI Bank branch in Raj Nagar's RDC market, pairs a 15-month UPSC Foundation course (GS + CSAT) with NDA and CAPF recruitment coaching under one roof — useful for students weighing both the civil-services and defence-exam routes. It carries a 9.6/10 rating from over 130 reviews.",
+      "highlights": [
+        "Pairs UPSC Foundation coaching with NDA and CAPF preparation",
+        "9.6/10 aggregated rating from 130+ reviews",
+        "Based in Raj Nagar's RDC coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "evoke-education-ghaziabad",
+      "type": "coaching",
+      "name": "Evoke Education",
+      "city": "ghaziabad",
+      "locality": "Pratap Vihar",
+      "address": "C-3, 1st Floor, near Indirapuram Public School, Sector 12, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009",
+      "estd": null,
+      "exams": [
+        "ias",
+        "ssc"
+      ],
+      "verified": true,
+      "about": "Evoke Education, near Indirapuram Public School in Pratap Vihar's Sector 12, runs a lower-cost, largely recorded-lecture UPSC foundation course alongside SSC CGL, SSC CHSL and a wide spread of other competitive-exam content — a budget-conscious option for students who don't need live classroom instruction. It carries a 9.6/10 rating from close to 150 reviews.",
+      "highlights": [
+        "Lower-cost, largely recorded-lecture UPSC foundation course",
+        "9.6/10 aggregated rating from ~150 reviews",
+        "Also covers SSC CGL, SSC CHSL and other competitive exams"
+      ],
+      "mode": "online"
+    },
+    {
+      "slug": "shikhar-ias-academy-ghaziabad",
+      "type": "coaching",
+      "name": "Shikhar IAS Academy",
+      "city": "ghaziabad",
+      "locality": "Shastri Nagar",
+      "address": "E-171, Shastri Nagar, near Nehru World School, Ghaziabad, Uttar Pradesh 201002",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "about": "Shikhar IAS Academy runs from Shastri Nagar, near Nehru World School, offering both a physical Ghaziabad centre and a parallel Shikhar IAS Virtual Academy for students preferring an online GS Prelims-plus-Mains track. It carries an 8.8/10 rating from over 80 reviews, the most modest review volume on this list but still independently cross-listed.",
+      "highlights": [
+        "Runs both a physical Shastri Nagar centre and an online Virtual Academy track",
+        "8.8/10 aggregated rating from 80+ reviews",
+        "GS Prelims + Mains coaching programme"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
+    "coaching-ghaziabad": {
+      "intro": "<p>Ghaziabad, part of the Delhi-NCR industrial belt in western Uttar Pradesh, has built a substantial UPSC and state-PCS coaching market of its own rather than simply feeding every aspirant across the border into Delhi's Old Rajinder Nagar and Mukherjee Nagar coaching belts. Coaching activity clusters mainly around Raj Nagar's RDC market and Indirapuram's Shakti Khand/Niti Khand pockets, with further institutes spread across Vaishali, Nehru Nagar, Shastri Nagar and Pratap Vihar. The market mixes a long-running local institute (Dr. Surendra's IAS Academy, running since 2002) with newer, high-review-volume entrants (Achievers IAS Academy, Study Point IAS, Leelawati IAS) and a few multi-exam academies that pair UPSC with NDA, CAPF or SSC preparation. Every listing below shows its verification status and, where available, independently visible ratings.</p>"
+    },
     "coaching-ludhiana": {
       "intro": "<p>Ludhiana, Punjab's largest city and its industrial hub, has built a CLAT-coaching market that mixes national test-prep chains with Punjab-founded law-only specialists. The main cluster sits in Model Town Extension, home to company-owned centres of national brands such as Hitbullseye and IMS, while a second, older cluster of law-specific institutes — including Rajindera Law Academy and Chawla Tutorials, which has run continuously from Civil Lines since 2004 — is spread across Civil Lines, Sarabha Nagar and Ferozepur Road. Because CLAT has no Punjab-specific state-level alternative, most institutes here also extend their teaching to AILET and SLAT rather than running CLAT-only batches. Every listing below shows its verification status and, where available, additional detail on address, founding year and course structure.</p>"
     },
