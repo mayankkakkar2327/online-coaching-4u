@@ -62,7 +62,8 @@
       "ajmer",
       "muzaffarpur",
       "jamshedpur",
-      "ghaziabad"
+      "ghaziabad",
+      "rohtak"
     ],
     "certification": [
       "online"
@@ -13380,6 +13381,164 @@
         "GS Prelims + Mains coaching programme"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "legaledge-toprankers-rohtak",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers",
+      "city": "rohtak",
+      "locality": "Model Town",
+      "address": "1st & 2nd Floor, 1448 B, Model Town, Near Medical Mor, Rohtak, Haryana 124001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "LegalEdge runs its Rohtak centre as a company-owned office of the national LegalEdge network, which has trained more than 70,000 CLAT/AILET aspirants across India. It covers CLAT, AILET and MHCET Law, backed by the brand's countrywide mock-test series.",
+      "highlights": [
+        "Company-owned centre, part of a national LegalEdge network with 70,000+ aspirants trained",
+        "Covers CLAT, AILET and MHCET Law",
+        "Access to LegalEdge's countrywide mock-test series for national benchmarking"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-clatprep-rohtak",
+      "type": "coaching",
+      "name": "T.I.M.E. / ClatPrep Rohtak",
+      "city": "rohtak",
+      "locality": "Model Town",
+      "address": "Roopalya Complex, 2nd Floor, Plot No. 406-408/28, Above Kotak Mahindra Bank, Model Town, Near D-Park, Delhi Road, Rohtak, Haryana 124001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "ClatPrep is now part of T.I.M.E. (Triumphant Institute of Management Education), established 1992 with 188 offices across 96 cities. The Rohtak centre offers around 1,800 pages of study material and roughly 70 mock tests on the CLAT/AILET/SLAT pattern.",
+      "highlights": [
+        "Part of T.I.M.E., a national chain established in 1992 with 188 offices in 96 cities",
+        "Around 1,800 pages of study material plus roughly 70 mock tests",
+        "Covers CLAT, AILET, SLAT, LSAT and MH-CET Law preparation"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "genius-mentors-rohtak",
+      "type": "coaching",
+      "name": "Genius Mentors",
+      "city": "rohtak",
+      "locality": "Model Town",
+      "address": "2nd Floor, Opposite Vodafone Store, Model Town (Medical Mor), Rohtak, Haryana 124001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Genius Mentors offers entrance-exam coaching in Model Town, Rohtak, that includes CLAT alongside other competitive exams for the city's school-leavers.",
+      "highlights": [
+        "Model Town location near Medical Mor",
+        "Coaches CLAT alongside other competitive entrance exams"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-rohtak",
+      "type": "coaching",
+      "name": "Career Launcher, Rohtak",
+      "city": "rohtak",
+      "locality": "Model Town",
+      "address": "Model Town / Delhi Road area, Rohtak, Haryana 124001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Career Launcher's Rohtak franchise centre runs CLAT and AILET batches on the brand's national curriculum, with its SIS system tracking each student's mock-test performance against the countrywide applicant pool.",
+      "highlights": [
+        "Part of the national Career Launcher law-coaching network",
+        "Covers CLAT and AILET",
+        "SIS system benchmarks mock-test performance nationally"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "kautilya-law-institute-rohtak",
+      "type": "coaching",
+      "name": "Kautilya Law Institute",
+      "city": "rohtak",
+      "locality": "Delhi Road",
+      "address": "Disha Building, 2nd Floor, Opposite C.R. Law College, Delhi Road, Rohtak, Haryana",
+      "estd": null,
+      "exams": [
+        "clat",
+        "judiciary"
+      ],
+      "verified": true,
+      "about": "Kautilya Law Institute is Rohtak's dedicated law-and-judiciary specialist, running CLAT preparation alongside judicial-service (PCS-J) and UGC-NET coaching rather than a broad multi-exam portfolio.",
+      "highlights": [
+        "Law-and-judiciary specialist rather than a multi-exam institute",
+        "Also coaches PCS-J judicial services and UGC-NET",
+        "Located opposite C.R. Law College on Delhi Road"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "lakshya-institute-rohtak",
+      "type": "coaching",
+      "name": "Lakshya Institute",
+      "city": "rohtak",
+      "locality": "D-Park",
+      "address": "Lakshay Tower, D-Park, Rohtak, Haryana",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Lakshya Institute operates from D-Park, Rohtak, offering CLAT and broader law-entrance coaching from a locality slightly outside the main Model Town cluster.",
+      "highlights": [
+        "D-Park location, outside the main Model Town coaching cluster",
+        "Offers CLAT and broader law-entrance coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "excellence-coaching-centre-rohtak",
+      "type": "coaching",
+      "name": "Excellence Coaching Centre",
+      "city": "rohtak",
+      "locality": "Adarsh Nagar",
+      "address": "Adarsh Nagar, Near D-Park, Rohtak, Haryana",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Excellence Coaching Centre runs from Adarsh Nagar, near D-Park, coaching CLAT alongside its wider portfolio of competitive-exam preparation for the area.",
+      "highlights": [
+        "Adarsh Nagar location near D-Park",
+        "Coaches CLAT alongside other competitive exams"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "knowledge-nation-law-centre-rohtak",
+      "type": "coaching",
+      "name": "Knowledge Nation Law Centre (Online)",
+      "city": "rohtak",
+      "locality": "Online (Delhi/Gurgaon faculty)",
+      "address": "No physical Rohtak branch; classrooms at Hauz Khas, Delhi and Sector 14, Gurgaon",
+      "estd": 2008,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "about": "Knowledge Nation Law Centre, established in 2008, has no physical branch in Rohtak but teaches Rohtak-based CLAT, AILET and SLAT aspirants live online from its Delhi and Gurgaon faculty pool, with printed study material couriered to enrolled students.",
+      "highlights": [
+        "No local classroom -- live online coaching only for Rohtak students",
+        "Established 2008, with classrooms in Delhi (Hauz Khas) and Gurgaon (Sector 14)",
+        "Printed study material couriered after enrolment"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -13557,6 +13716,9 @@
     },
     "coaching-jamshedpur": {
       "intro": "<p>Jamshedpur, Jharkhand's largest industrial city and home to XLRI Xavier School of Management — one of India's oldest and most selective business schools — has built a genuine local CAT-coaching market of its own. Coaching runs through two main hubs: Bistupur, home to Career Launcher and IMS, and Sakchi's Aambagan locality, home to TIME, iQuanta and The Guardian Classes. A second layer of Jamshedpur-founded institutes — including Master Minds (Samridhi Enclave), Avijeet Classes (Haludbani), Bharat Education Council (Mango) and Its India (Sonari) — cover CAT preparation across the rest of the city, alongside Hitbullseye's online-only option. Every listing below shows its verification status and, where available, additional detail on address and course structure.</p>"
+    },
+    "coaching-rohtak": {
+      "intro": "<p>Rohtak, on the Delhi Road/NH-9 corridor a little over an hour from Delhi and home to Maharshi Dayanand University (MDU), has a smaller CLAT-coaching market than Punjab or UP's established law-coaching hubs. Coaching activity concentrates almost entirely around Model Town and the Delhi Road corridor near D-Park and Medical Mor, where national test-prep chains (LegalEdge, T.I.M.E./ClatPrep, Career Launcher) sit alongside Rohtak-founded institutes such as Kautilya Law Institute, Lakshya Institute and Excellence Coaching Centre. One notable listing, Knowledge Nation Law Centre, has no physical Rohtak branch and serves the city's aspirants entirely online from Delhi and Gurgaon. Every listing below shows its verification status and location.</p>"
     }
   }
 }
