@@ -63,7 +63,8 @@
       "muzaffarpur",
       "jamshedpur",
       "ghaziabad",
-      "rohtak"
+      "rohtak",
+      "udaipur"
     ],
     "certification": [
       "online"
@@ -13539,6 +13540,206 @@
         "Printed study material couriered after enrolment"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "allen-career-institute-udaipur",
+      "type": "coaching",
+      "name": "Allen Career Institute Udaipur",
+      "city": "udaipur",
+      "locality": "Hiran Magri",
+      "address": "Riddhi Siddhi Prime, 23/25 Tagore Nagar, Hiran Magri Sector 4, Udaipur, Rajasthan 313002",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Allen's Udaipur centre runs from Riddhi Siddhi Prime in Hiran Magri Sector 4, extending the Kota-founded chain's JEE Main and Advanced classroom programme, structured test series and study material to students who don't want to relocate to Kota.",
+      "highlights": [
+        "Hiran Magri Sector 4 location, Riddhi Siddhi Prime",
+        "Kota-founded chain's standard JEE Main + Advanced curriculum and national test series",
+        "One of four national-chain centres anchoring Udaipur's Hiran Magri coaching cluster"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "resonance-udaipur",
+      "type": "coaching",
+      "name": "Resonance Udaipur",
+      "city": "udaipur",
+      "locality": "Ayad / Pahada",
+      "address": "Aakar Complex, University Road, Keshav Nagar, Ayad, Pahada, Udaipur, Rajasthan 313001",
+      "estd": 2001,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Resonance's Udaipur campus, Aakar Complex on University Road, brings the Kota-headquartered chain — founded in 2001 by IIT Madras alumnus R.K. Verma — to the city, running JEE Main, JEE Advanced and NTSE classroom batches with its ResoLive hybrid option for recorded/live online access alongside in-person teaching.",
+      "highlights": [
+        "Aakar Complex, University Road campus",
+        "Chain founded 2001 by IIT Madras alumnus R.K. Verma",
+        "ResoLive hybrid option pairs classroom teaching with recorded/live online content"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-udaipur",
+      "type": "coaching",
+      "name": "Aakash Institute Udaipur",
+      "city": "udaipur",
+      "locality": "Hiran Magri Sector 5",
+      "address": "1st & 2nd Floor, Riddhi Siddhi Complex, Hiran Magri Sector 5, near Jivanta Hospital, Udaipur, Rajasthan 313001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Aakash's company-owned Udaipur centre operates from Riddhi Siddhi Complex in Hiran Magri Sector 5, near Jivanta Hospital, running JEE Main and Advanced batches with the AESL chain's AIATS all-India test series and digital-learning app.",
+      "highlights": [
+        "Riddhi Siddhi Complex, Hiran Magri Sector 5, near Jivanta Hospital",
+        "Company-owned centre — same curriculum as other AESL-chain branches nationwide",
+        "AIATS all-India test series and digital app access"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "pw-vidyapeeth-udaipur",
+      "type": "coaching",
+      "name": "PW Vidyapeeth (Physics Wallah) Udaipur",
+      "city": "udaipur",
+      "locality": "Hiran Magri Sector 5",
+      "address": "1st, 2nd & 3rd Floor, Riddhi Siddhi Complex, Hiran Magri Main Road, opposite P&T Colony, Sector 5, Udaipur, Rajasthan 313002",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Physics Wallah's offline classroom arm runs its Udaipur Vidyapeeth centre from the same Riddhi Siddhi Complex stretch of Hiran Magri Sector 5 as Aakash, using the brand's lower-fee, two-teacher classroom model for JEE Main and Advanced batches.",
+      "highlights": [
+        "Riddhi Siddhi Complex, Hiran Magri Sector 5 — same stretch as Aakash's centre",
+        "Lower-fee positioning relative to older national chains",
+        "Two-teacher Vidyapeeth classroom model plus PW's online content library"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "shree-balaji-institute-udaipur",
+      "type": "coaching",
+      "name": "Shree Balaji Institute",
+      "city": "udaipur",
+      "locality": "Hiran Magri Sector 3",
+      "address": "58, BSNL Road, opposite BSNL Office, Sector 3, Hiran Magri, Udaipur, Rajasthan",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Shree Balaji Institute, opposite the BSNL office in Hiran Magri Sector 3, runs JEE Main, JEE Advanced and NEET classroom batches and carries the highest independently aggregated rating of any Udaipur institute checked for this list — 9.8/10 from over 900 Google reviews via CollegeDunia.",
+      "highlights": [
+        "Opposite BSNL office, Sector 3, Hiran Magri",
+        "9.8/10 aggregated rating from 900+ reviews — highest on this list",
+        "Runs both JEE and NEET classroom batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ascent-career-point-udaipur",
+      "type": "coaching",
+      "name": "Ascent Career Point Udaipur",
+      "city": "udaipur",
+      "locality": "Hiran Magri Sector 3",
+      "address": "SAKSHAM Campus, 64 Roop Nagar, Sector 3, Hiran Magri, Udaipur, Rajasthan 313001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Ascent Career Point, based at SAKSHAM Campus in Hiran Magri Sector 3, runs JEE Main, JEE Advanced, BITSAT and NEET batches alongside board-exam coaching, and carries an 8.2/10 aggregated rating from over 400 reviews via CollegeDunia.",
+      "highlights": [
+        "SAKSHAM Campus, Roop Nagar, Sector 3, Hiran Magri",
+        "8.2/10 aggregated rating from 400+ reviews",
+        "Covers JEE, BITSAT and NEET alongside board-exam coaching under one roof"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "royal-institute-of-competition-udaipur",
+      "type": "coaching",
+      "name": "Royal Institute of Competition",
+      "city": "udaipur",
+      "locality": "University Road",
+      "address": "57, New Arihant Nagar, near Kalka Mata Mandir, University Road, Udaipur, Rajasthan 313001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Royal Institute of Competition, near Kalka Mata Mandir on University Road, is one of Udaipur's older locally-run institutes, covering JEE Main and Advanced alongside NEET, JET, ICAR, BHU and CUCET — and carries by far the largest independently visible review count on this list, a 9.6/10 aggregated rating from over 2,850 Google reviews via CollegeDunia.",
+      "highlights": [
+        "Near Kalka Mata Mandir, University Road",
+        "9.6/10 aggregated rating from 2,850+ reviews — highest review volume on this list",
+        "Pairs JEE/NEET with agriculture-entrance coaching (JET, ICAR, BHU, CUCET)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "mk-jain-classes-udaipur",
+      "type": "coaching",
+      "name": "M.K. Jain Classes",
+      "city": "udaipur",
+      "locality": "Hiran Magri",
+      "address": "79, near Vivek Park, Shanti Nagar, Sector 3, Hiran Magri, Udaipur, Rajasthan 313001 (second branch: Panerion Ki Madri, Sector 5)",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "M.K. Jain Classes runs two Hiran Magri centres — Shanti Nagar (Sector 3) and Panerion Ki Madri (Sector 5) — offering JEE Main, JEE Advanced and NEET coaching for Classes 6–12, and participates in Rajasthan's Mukhyamantri Anuprati free-coaching scheme for eligible students.",
+      "highlights": [
+        "Two Hiran Magri branches: Shanti Nagar (Sector 3) and Panerion Ki Madri (Sector 5)",
+        "Runs both JEE and NEET batches for Classes 6–12",
+        "Participates in the state's Mukhyamantri Anuprati free-coaching scheme"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "rajdhani-founda-udaipur",
+      "type": "coaching",
+      "name": "Rajdhani Founda",
+      "city": "udaipur",
+      "locality": "University Road",
+      "address": "Near Bekani Puliya, University Road, Udaipur, Rajasthan 313001",
+      "estd": 1998,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "Rajdhani Founda, near Bekani Puliya on University Road, has run in Udaipur since 1998, covering JEE Main and Advanced alongside NEET, JET, ICAR agriculture-entrance and CUET coaching — one of the longer-established local institutes on this list.",
+      "highlights": [
+        "Near Bekani Puliya, University Road",
+        "Running in Udaipur since 1998",
+        "Covers JEE/NEET alongside JET, ICAR and CUET agriculture-entrance coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "fiitjee-eschool-udaipur",
+      "type": "coaching",
+      "name": "FIITJEE eSchool Information & Counselling Centre",
+      "city": "udaipur",
+      "locality": "Hiran Magri",
+      "address": "Hiran Magri, Udaipur, Rajasthan (information & counselling centre; live online classes taught by FIITJEE's national faculty)",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "about": "FIITJEE opened an eSchool Information & Counselling Centre in Udaipur's Hiran Magri in August 2022 — not a full physical classroom, but a local point of contact for enrolling in FIITJEE's live, two-way online JEE Main and Advanced classes taught by its national faculty.",
+      "highlights": [
+        "Hiran Magri counselling centre, opened August 2022",
+        "Local enrolment point for FIITJEE's live two-way online JEE classes",
+        "Best fit for students who want FIITJEE's national faculty without relocating"
+      ],
+      "mode": "online"
     }
   ],
   "cityContent": {
@@ -13719,6 +13920,9 @@
     },
     "coaching-rohtak": {
       "intro": "<p>Rohtak, on the Delhi Road/NH-9 corridor a little over an hour from Delhi and home to Maharshi Dayanand University (MDU), has a smaller CLAT-coaching market than Punjab or UP's established law-coaching hubs. Coaching activity concentrates almost entirely around Model Town and the Delhi Road corridor near D-Park and Medical Mor, where national test-prep chains (LegalEdge, T.I.M.E./ClatPrep, Career Launcher) sit alongside Rohtak-founded institutes such as Kautilya Law Institute, Lakshya Institute and Excellence Coaching Centre. One notable listing, Knowledge Nation Law Centre, has no physical Rohtak branch and serves the city's aspirants entirely online from Delhi and Gurgaon. Every listing below shows its verification status and location.</p>"
+    },
+    "coaching-udaipur": {
+      "intro": "<p>Udaipur, Rajasthan's lake city, sits roughly three hours from Kota — close enough that several Kota-founded chains have opened full branches here rather than leaving the city to feed students north for JEE preparation. Coaching activity concentrates heavily in Hiran Magri, especially the Riddhi Siddhi Complex stretch of Sector 5 and the Sector 3/Roop Nagar pocket, with a second cluster along University Road near Bekani Puliya and a further outpost at Ayad/Pahada. The market mixes four national chains (Allen, Resonance, Aakash, Physics Wallah) with well-reviewed local institutes — some running since the late 1990s — plus an online-focused counselling centre for students who want a national faculty without a full local campus. Every listing below shows its verification status and, where available, an independently visible review score.</p>"
     }
   }
 }
