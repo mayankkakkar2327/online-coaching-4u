@@ -141,7 +141,9 @@
     "graphic-design": "Graphic Design",
     "ai-tools": "AI Tools",
     "data-analytics": "Data Analytics",
-    "foundation": "Foundation"
+    "foundation": "Foundation",
+    "cfa": "CFA",
+    "frm": "FRM"
   },
   "listings": [
     {
@@ -13809,6 +13811,33 @@
       ],
       "website": "https://zirconeducation.com/",
       "mode": "offline"
+    },
+    {
+      "slug": "aswini-bajaj-classes",
+      "type": "certification",
+      "name": "Aswini Bajaj Classes",
+      "city": "online",
+      "locality": "Online (Kolkata-based)",
+      "address": "50 Chowringhee Road, rear building, 2nd floor, Kolkata 700071 — online classes worldwide, classroom lessons in Kolkata",
+      "estd": null,
+      "exams": [
+        "cfa",
+        "frm"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": true,
+      "about": "Aswini Bajaj Classes is a Kolkata-based finance education brand led by mentor Aswini Bajaj, focused on the CFA and FRM professional certifications. It is listed as a CFA Institute Prep Provider and runs online courses for CFA Level 1, 2 and 3 and FRM Part 1 and 2, with classroom lessons also available at its Chowringhee Road centre in Kolkata. Alongside the core programmes it offers mock tests, upskilling courses in Excel and MS Office, finance for MBA students, and free resources such as syllabus guides, formula sheets, eligibility and registration tools, a result analyser and a CFA salary calculator. Students also get career guidance, including resume and interview preparation. The institute reports having trained 70,000+ learners across 100+ countries.",
+      "highlights": [
+        "CFA Institute Prep Provider for CFA Levels 1, 2 and 3",
+        "FRM Part 1 and Part 2 courses, plus mock tests",
+        "Online classes worldwide, with classroom lessons in Kolkata",
+        "Upskilling courses in Excel, MS Office and data management",
+        "Free tools: eligibility checker, registration guide, result analyser and CFA salary calculator",
+        "Career guidance with resume and interview preparation"
+      ],
+      "website": "https://aswinibajajclasses.com/",
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
