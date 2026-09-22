@@ -37,9 +37,9 @@ function buildToc(html) {
   });
   return { html: withIds, tocItems };
 }
-const typeLabel = { coaching: "Coaching", certification: "Certification", coach: "Individual Coach" };
-const typePlural = { coaching: "Coaching Institutes", certification: "Professional Certifications", coach: "Individual Coaches" };
-const typePage = { coaching: "coaching", certification: "certification", coach: "coach" };
+const typeLabel = { coaching: "Coaching", certification: "Certification", coach: "Individual Coach", "computer-courses": "Computer Institute" };
+const typePlural = { coaching: "Coaching Institutes", certification: "Professional Certifications", coach: "Individual Coaches", "computer-courses": "Computer Training Institutes" };
+const typePage = { coaching: "coaching", certification: "certification", coach: "coach", "computer-courses": "computer-courses" };
 
 /* copy used specifically for the "online" (no fixed city) listing/detail pages —
    keyed by type so each vertical gets accurate, non-generic wording */
@@ -163,7 +163,7 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"]];
+  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"]];
   const academicActive = active === "coaching-online.html" || active === "coaching.html";
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
@@ -205,6 +205,7 @@ function footer() {
 <li><a href="blog.html">Guides</a></li>
 <li><a href="certification.html">Certifications</a></li>
 <li><a href="coach.html">Coaches</a></li>
+<li><a href="computer-courses.html">Computer Courses</a></li>
 <li><a href="list-your-institute.html">List Your Institute</a></li>
 <li><a href="/sitemap.xml">Sitemap</a></li>
 <li><a href="https://www.onlinecoaching4u.in/feed">Feed</a></li>
@@ -974,7 +975,7 @@ const termsBody = `
 
 function sitemapBody() {
   const links = [];
-  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
+  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
   Object.keys(DATA.cities).forEach(t => {
     DATA.cities[t].forEach(c => {
       const lbl = t === "coaching" ? `Coaching in ${cityLabel(c)}` : `${typeLabel[t]} — ${cityLabel(c)}`;
@@ -1063,6 +1064,9 @@ DATA.cities.certification.forEach(c => w(`certification-${c}.html`, listingPage(
 w("coach.html", hubPage("coach", "Find an Individual Coach",
   "Compare verified individual coaches and mentors — with real client outcomes, verified facts and no paid rankings."));
 DATA.cities.coach.forEach(c => w(`coach-${c}.html`, listingPage("coach", c)));
+w("computer-courses.html", hubPage("computer-courses", "Find a Computer Training Institute",
+  "Compare computer training institutes for DCA, ADCA, Tally, web development, graphic design and AI tools — with verified facts and no paid rankings."));
+DATA.cities["computer-courses"].forEach(c => w(`computer-courses-${c}.html`, listingPage("computer-courses", c)));
 
 L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
 BRAND_REVIEWS.forEach(rv => {
@@ -1107,10 +1111,10 @@ POSTS.forEach(p => {
   postDateBySlug[p.slug] = /^\d{4}-\d{2}-\d{2}$/.test(iso) ? iso : today;
 });
 const hubPages = new Set([
-  "coaching.html", "coaching-online.html", "certification.html", "coach.html",
+  "coaching.html", "coaching-online.html", "certification.html", "coach.html", "computer-courses.html",
   "blog.html", "about.html", "contact.html", "list-your-institute.html"
 ]);
-const cityPageRe = /^(coaching|certification|coach)-[a-z-]+\.html$/;
+const cityPageRe = /^(coaching|certification|coach|computer-courses)-[a-z-]+\.html$/;
 const sitemapMeta = (f) => {
   if (f === "index.html") return { priority: "1.0", changefreq: "daily" };
   if (hubPages.has(f) || cityPageRe.test(f)) return { priority: "0.8", changefreq: "daily" };

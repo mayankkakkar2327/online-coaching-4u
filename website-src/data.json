@@ -71,6 +71,9 @@
     ],
     "coach": [
       "online"
+    ],
+    "computer-courses": [
+      "gurugram"
     ]
   },
   "examLabels": {
@@ -130,7 +133,14 @@
     "azure-data-engineering": "Azure Data Engineering",
     "genai": "Gen AI",
     "business-coaching": "Business Coaching",
-    "mindset-coaching": "Mindset Coaching"
+    "mindset-coaching": "Mindset Coaching",
+    "dca": "DCA",
+    "adca": "ADCA",
+    "tally-gst": "Tally Prime + GST",
+    "web-development": "Web Development",
+    "graphic-design": "Graphic Design",
+    "ai-tools": "AI Tools",
+    "data-analytics": "Data Analytics"
   },
   "listings": [
     {
@@ -13740,6 +13750,37 @@
         "Best fit for students who want FIITJEE's national faculty without relocating"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "vivexa-institute-of-technology-gurugram",
+      "type": "computer-courses",
+      "name": "Vivexa Institute of Technology",
+      "city": "gurugram",
+      "locality": "Ashok Vihar Phase III Extension",
+      "address": "Ekta Tower, Basement, Main Road, Ashok Vihar Phase III Extension, Gurugram, Haryana 122006",
+      "estd": null,
+      "exams": [
+        "dca",
+        "adca",
+        "tally-gst",
+        "web-development",
+        "graphic-design",
+        "ai-tools",
+        "data-analytics"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": true,
+      "about": "Vivexa Institute of Technology is a computer education and digital skills training institute in Ashok Vihar Phase III Extension, Gurugram. It runs 20+ practical, job-oriented courses — from Basic Computers, DCA and ADCA to Tally Prime with GST, Advanced Excel with AI, Web Development, React Native, Programming Basics, Data Analytics, Graphic Design (including CorelDRAW), Generative AI and AI tools training. Teaching is hands-on, built around live projects, assignments and case studies, and is offered both in the classroom and online, with flexible batches for working professionals. The institute reports 500+ students trained, issues certificates that can be verified online through a unique certificate ID, and offers career support including placement assistance, resume building, interview preparation and internship opportunities through its parent company, Vivexa Tech.",
+      "highlights": [
+        "20+ computer and IT courses: DCA, ADCA, Tally Prime + GST, Advanced Excel, Web Development, Graphic Design, Data Analytics and Generative AI",
+        "100% practical training with live projects, assignments and case studies",
+        "Certificates can be verified online with a unique certificate ID",
+        "Placement assistance, resume building, interview prep and internships via parent company Vivexa Tech",
+        "Classroom and online batches, including flexible timings for working professionals"
+      ],
+      "website": "https://vit.vivexatech.in/",
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
