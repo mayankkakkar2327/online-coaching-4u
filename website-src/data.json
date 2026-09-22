@@ -140,7 +140,8 @@
     "web-development": "Web Development",
     "graphic-design": "Graphic Design",
     "ai-tools": "AI Tools",
-    "data-analytics": "Data Analytics"
+    "data-analytics": "Data Analytics",
+    "foundation": "Foundation"
   },
   "listings": [
     {
@@ -13781,6 +13782,33 @@
       ],
       "website": "https://vit.vivexatech.in/",
       "mode": "hybrid"
+    },
+    {
+      "slug": "zircon-program-of-achievement-patna",
+      "type": "coaching",
+      "name": "Zircon Program of Achievement",
+      "city": "patna",
+      "locality": "Sultanganj, Muhammadpur",
+      "address": "Shah Arzan Colony, Sultanganj, Muhammadpur, Patna, Bihar 800006",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee",
+        "foundation"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": true,
+      "about": "Zircon Program of Achievement is a residential NEET and IIT-JEE coaching institute in Sultanganj, Patna. It runs two-year residential programmes for Class 11–12 students preparing for NEET and for JEE Main & Advanced, plus a Foundation batch for Classes 8, 9 and 10. Preparation is built around concept classes, Daily Practice Problem (DPP) sheets, weekly tests with performance analysis, small batches, a doubt counter and one-to-one mentorship, with weekly progress reports sent to parents. The campus includes smart classrooms, a library, a supervised hostel with halal meals, a prayer hall and 24×7 security, and follows a structured, no-phone routine. The institute describes itself as a values-based residential campus designed especially for Muslim students, and draws students from Kishanganj, Purnia, Katihar, Araria and across Bihar. It reports having guided 5,000+ students and offers scholarship support.",
+      "highlights": [
+        "Two-year residential NEET and IIT-JEE programmes for Class 11–12, plus a Foundation batch for Classes 8–10",
+        "Daily DPP sheets, weekly tests with performance analysis and a dedicated doubt counter",
+        "Small batches, one-to-one mentorship and weekly progress reports for parents",
+        "On-campus hostel with halal meals, prayer hall, library and 24×7 security",
+        "Structured, distraction-free routine with a no-phone campus policy"
+      ],
+      "website": "https://zirconeducation.com/",
+      "mode": "offline"
     }
   ],
   "cityContent": {
