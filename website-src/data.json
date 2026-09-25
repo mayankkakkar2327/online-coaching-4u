@@ -64,7 +64,11 @@
       "jamshedpur",
       "ghaziabad",
       "rohtak",
-      "udaipur"
+      "udaipur",
+      "warangal",
+      "madurai",
+      "gaya",
+      "cuttack"
     ],
     "certification": [
       "online"
@@ -13863,6 +13867,487 @@
       ],
       "website": "https://samkalpias.in/",
       "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-warangal",
+      "type": "coaching",
+      "name": "Aakash Institute Warangal",
+      "city": "warangal",
+      "locality": "Hanamkonda",
+      "address": "1st & 2nd Floor, Thirumala Centre, Hanamkonda, Warangal, Telangana 506001",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "about": "Aakash's company-owned Warangal centre runs from Thirumala Centre in Hanamkonda, part of the national AESL chain, offering NEET-UG classroom, crash and repeater courses alongside JEE Main/Advanced and foundation batches for Classes 8-10.",
+      "highlights": [
+        "Thirumala Centre, Hanamkonda location",
+        "Part of the national AESL chain (Aakash)",
+        "AIATS all-India test series and iTutor recorded-lecture library"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "pw-vidyapeeth-warangal",
+      "type": "coaching",
+      "name": "PW Vidyapeeth (Physics Wallah)",
+      "city": "warangal",
+      "locality": "Hanamkonda",
+      "address": "H.No. 1, 8-549, near Chennai Shopping Mall, Nakkala Gutta, Hanamkonda, Warangal, Telangana 506001",
+      "estd": 2020,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "PW Vidyapeeth is the offline-classroom arm of Physics Wallah, the edtech company formalised as a coaching brand from 2020 onward. Its Hanamkonda centre on Nakkala Gutta runs two-year, one-year and dropper-batch NEET and JEE programmes plus Class 8-10 foundation courses, with admission via PWSAT, PW's scholarship-linked entrance test.",
+      "highlights": [
+        "Offline arm of Physics Wallah, formalised as a company in 2020",
+        "NEET, JEE and Class 8-10 foundation batches on Nakkala Gutta",
+        "PWSAT scholarship test can reduce tuition for qualifiers"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vedantu-learning-centre-warangal",
+      "type": "coaching",
+      "name": "Vedantu Learning Centre, Hanamkonda",
+      "city": "warangal",
+      "locality": "Gokul Nagar, Hanamkonda",
+      "address": "H.No. 2-6-1551, Hyder Manikanta Plaza, NGO's Colony Road, Gokul Nagar, Hanamkonda, Warangal, Telangana 506001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "about": "Vedantu's Hanamkonda learning centre is the ed-tech company's offline classroom branch in Warangal, running NEET-11&12, NEET-13 (repeater) and Foundation batches with hi-tech classrooms, smartboards and access to Vedantu's online doubt-solving platform alongside in-person teaching.",
+      "highlights": [
+        "Offline classroom centre run by the Vedantu ed-tech platform, on NGO's Colony Road",
+        "Hybrid model combining in-person classes with Vedantu's online platform and recorded lectures",
+        "Covers NEET, JEE and Foundation (Class 8-10) coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sri-chaitanya-iit-academy-hanamkonda",
+      "type": "coaching",
+      "name": "Sri Chaitanya IIT Academy",
+      "city": "warangal",
+      "locality": "Gopalapuram, Hanamkonda",
+      "address": "2-1-132, 100 Feet Road, Gopalapuram, Saraswathi Nagar, Hanamkonda, Warangal, Telangana 506009",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": false,
+      "about": "Sri Chaitanya, the Hyderabad-headquartered chain with more than 950 branches across 248-plus cities, runs an IIT Academy campus on 100 Feet Road in Gopalapuram, Hanamkonda, offering NEET and JEE classroom coaching under the group's national curriculum, test series and Infinity Meta performance-analysis app.",
+      "highlights": [
+        "100 Feet Road, Gopalapuram campus in Hanamkonda",
+        "Part of a 950+ branch national chain (Sri Chaitanya)",
+        "Infinity Meta app for test-by-test performance analysis"
+      ],
+      "mode": "classroom"
+    },
+    {
+      "slug": "photon-classes-hanamkonda",
+      "type": "coaching",
+      "name": "Photon Classes",
+      "city": "warangal",
+      "locality": "Naimnagar, Hanamkonda",
+      "address": "Naimnagar, Hanamkonda, Warangal, Telangana",
+      "estd": 2015,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Photon Classes, running since 2015 from Naimnagar in Hanamkonda, is a locally founded NEET and JEE institute for Classes 9 to 12, carrying an independently visible 4.8/5 rating from over 260 reviews and citing NEET scorers in the 500-plus range among its past students.",
+      "highlights": [
+        "Locally founded institute running since 2015",
+        "4.8/5 independently aggregated rating from 260+ reviews",
+        "NEET and JEE coaching for Classes 9-12"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gravity-iit-jee-neet-academy-hanamkonda",
+      "type": "coaching",
+      "name": "Gravity IIT-JEE & NEET Academy",
+      "city": "warangal",
+      "locality": "Hanamkonda",
+      "address": "Registration Office Road, near Telangana Chowrastha, Hanamkonda, Warangal, Telangana",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Gravity IIT-JEE & NEET Academy, on Registration Office Road near Telangana Chowrastha in Hanamkonda, runs NEET and JEE batches with well-equipped classrooms, a study-material library, regular doubt-solving sessions and mock tests, carrying 47 independently visible ratings on Justdial.",
+      "highlights": [
+        "Registration Office Road, near Telangana Chowrastha",
+        "47 independently visible ratings on Justdial",
+        "Regular mock tests and doubt-solving sessions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vision-40-iit-jee-neet-academy-hanamkonda",
+      "type": "coaching",
+      "name": "Vision 40 IIT JEE NEET Academy",
+      "city": "warangal",
+      "locality": "Hanamkonda",
+      "address": "NGO's Colony Road, near Ashok Colony, above HDFC Bank, Hanamkonda, Warangal, Telangana",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Vision 40 IIT JEE NEET Academy, near Ashok Colony on NGO's Colony Road in Hanamkonda, offers combined NEET and JEE coaching and carries 42 independently visible ratings on Justdial.",
+      "highlights": [
+        "NGO's Colony Road, near Ashok Colony",
+        "42 independently visible ratings on Justdial",
+        "Combined NEET and JEE batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "dr-srinivas-vengala-iit-jee-neet-academy-girmajipet",
+      "type": "coaching",
+      "name": "Dr. Srinivas Vengala IIT-JEE and NEET Academy",
+      "city": "warangal",
+      "locality": "Girmajipet",
+      "address": "Near Shiva Temple, Girmajipet, Warangal, Telangana",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": false,
+      "about": "Located near the Shiva Temple in Girmajipet, this academy is the one institute on this list outside the Hanamkonda cluster, running NEET and JEE coaching for students on the eastern side of Warangal city.",
+      "highlights": [
+        "Girmajipet location, on the eastern side of Warangal",
+        "NEET and JEE coaching under one roof",
+        "Alternative to the Hanamkonda coaching cluster"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-madurai",
+      "type": "coaching",
+      "name": "T.I.M.E. Madurai",
+      "city": "madurai",
+      "locality": "Chinna Chokkikulam",
+      "address": "9/5, 2nd Floor, Abdul Kabar Khan Road, Chinna Chokkikulam, near Tallakulam BPCL Petrol Bunk, Madurai, Tamil Nadu 625002",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "T.I.M.E. (Triumphant Institute of Management Education) runs its Madurai centre from Chinna Chokkikulam, extending the national chain's structured CAT curriculum, in-house study material and all-India mock-test series to the city's aspirants, alongside its usual bank, SSC and other competitive-exam batches.",
+      "highlights": [
+        "National chain with 188+ offices across 96 cities",
+        "Structured CAT curriculum covering quant, verbal, DILR",
+        "Access to T.I.M.E.'s all-India mock-test series"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-madurai",
+      "type": "coaching",
+      "name": "Career Launcher Madurai",
+      "city": "madurai",
+      "locality": "Madurai Main",
+      "address": "New No. 58, 3rd Floor, Goods Shed Street, Madurai Main, Madurai, Tamil Nadu 625001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Career Launcher's Madurai franchise centre runs CAT batches on the brand's national curriculum, with detailed post-mock analysis to flag each student's weak areas, part of the same countrywide network seen in other cities on this site.",
+      "highlights": [
+        "National franchise network with detailed mock-test analysis",
+        "CAT-focused curriculum with personalised mentoring",
+        "Goods Shed Street location in Madurai Main"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-learning-centre-madurai",
+      "type": "coaching",
+      "name": "IMS Learning Centre Madurai",
+      "city": "madurai",
+      "locality": "Simmakkal",
+      "address": "No. 26, 1st Floor, North Veli Street (opposite Alagendran Automobiles), Madurai, Tamil Nadu 625001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "IMS Learning Centre's Madurai franchise offers CAT classroom coaching alongside GMAT preparation and IELTS/TOEFL training, bringing the Mumbai-founded chain's study material and test-series infrastructure to the city's North Veli Street coaching cluster.",
+      "highlights": [
+        "National IMS network, also offers GMAT, IELTS and TOEFL prep",
+        "North Veli Street location in the Simmakkal coaching cluster",
+        "Access to IMS's countrywide CAT mock-test series"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "mockat-cat-classes-madurai",
+      "type": "coaching",
+      "name": "Mockat CAT Classes",
+      "city": "madurai",
+      "locality": "Anna Nagar",
+      "address": "Anna Nagar, Madurai, Tamil Nadu",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "about": "Mockat, founded by two IIM graduates and headquartered in Chennai, runs a dedicated CAT classroom at Anna Nagar in Madurai alongside its online mock-test and video-lesson platform, confirmed directly on the institute's own official site.",
+      "highlights": [
+        "Founded by two IIM alumni, confirmed on the institute's own site",
+        "Physical CAT classroom at Anna Nagar plus online mocks and video lessons",
+        "10,000+ mock and sectional tests across its platform"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "balsus-success-academy-madurai",
+      "type": "coaching",
+      "name": "Balsu's Success Academy",
+      "city": "madurai",
+      "locality": "Simmakkal",
+      "address": "26, North Veli Street, Simmakkal, Madurai Main, Madurai, Tamil Nadu 625001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Balsu's Success Academy is a Madurai-founded institute in the North Veli Street/Simmakkal coaching cluster, offering CAT preparation with regular mock tests, performance tracking and one-on-one mentoring for local aspirants.",
+      "highlights": [
+        "Madurai-founded, Simmakkal-area institute",
+        "Regular mock tests with performance tracking",
+        "One-on-one mentoring for CAT aspirants"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "annai-career-institute-madurai",
+      "type": "coaching",
+      "name": "Annai Career Institute",
+      "city": "madurai",
+      "locality": "Simmakkal",
+      "address": "96, 1st Floor, North Veli Street, near Apollo Pharmacy, Simmakkal, Madurai, Tamil Nadu 625001",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Annai Career Institute, also based in Madurai's North Veli Street cluster, runs CAT coaching with detailed study material and progress tracking, positioned as a locally run alternative to the national chains a few doors away.",
+      "highlights": [
+        "Locally run institute in the North Veli Street cluster",
+        "Detailed study material with regular progress tracking",
+        "Individual attention in smaller batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "amazing-institute-of-management-madurai",
+      "type": "coaching",
+      "name": "Amazing Institute of Management (AIM)",
+      "city": "madurai",
+      "locality": "Anna Nagar",
+      "address": "393, Indian Bank Complex, near Suguna Store Bus Stop, Anna Nagar, Madurai, Tamil Nadu 625020",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": false,
+      "about": "Amazing Institute of Management (AIM) is an Anna Nagar-based institute covering CAT alongside MAT, banking and SSC coaching, offering printed notes, test series and doubt-clearing sessions for the city's competitive-exam aspirants.",
+      "highlights": [
+        "Anna Nagar location, covers CAT, MAT, banking and SSC",
+        "Printed notes and test series included",
+        "Regular doubt-clearing sessions"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "winners-academy-gaya",
+      "type": "coaching",
+      "name": "Winners Academy",
+      "city": "gaya",
+      "locality": "Jail Road",
+      "address": "Sohara Gali, Jail Road, Gaya, Bihar",
+      "estd": null,
+      "exams": [
+        "ias",
+        "bpsc"
+      ],
+      "rating": 5,
+      "ratingCount": 335,
+      "verified": false,
+      "about": "Winners Academy, on Sohara Gali off Jail Road, is Gaya's most independently reviewed competitive-exam coaching institute, carrying a 5.0 rating from 335 Justdial reviews — the largest review base of any UPSC/BPSC-coaching institute found in the city, suggesting a well-established local presence.",
+      "highlights": [
+        "Largest independently visible review base in Gaya (335 Justdial ratings)",
+        "Sohara Gali, Jail Road location",
+        "Covers UPSC and BPSC competitive-exam coaching"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "afaques-ias-academy-gaya",
+      "type": "coaching",
+      "name": "Afaques IAS Academy",
+      "city": "gaya",
+      "locality": "A.P. Colony",
+      "address": "157, A.P. Colony, Gaya, Bihar 823001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "rating": 4.9,
+      "ratingCount": 144,
+      "verified": false,
+      "about": "Afaques IAS Academy, at 157 A.P. Colony, is a dedicated civil-services coaching institute carrying a 4.9 rating from 144 Justdial reviews, the second-largest review base among Gaya's IAS-focused institutes.",
+      "highlights": [
+        "Dedicated IAS-focused coaching institute",
+        "4.9 rating from 144 Justdial reviews",
+        "A.P. Colony location"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "sarvodaya-ias-gaya",
+      "type": "coaching",
+      "name": "Sarvodaya IAS",
+      "city": "gaya",
+      "locality": "Bisar Talab",
+      "address": "Bisar Talab, Gaya, Bihar",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "rating": 4.9,
+      "ratingCount": 61,
+      "verified": false,
+      "about": "Sarvodaya IAS, based in Bisar Talab, offers doubt-resolution sessions and periodic performance tests for UPSC aspirants, carrying a 4.9 rating from 61 Justdial reviews.",
+      "highlights": [
+        "Doubt-resolution sessions and periodic performance tests",
+        "4.9 rating from 61 Justdial reviews",
+        "Bisar Talab location"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "nirvana-ias-academy-gaya",
+      "type": "coaching",
+      "name": "Nirvana IAS Academy",
+      "city": "gaya",
+      "locality": "Gewal Bigha",
+      "address": "Gewal Bigha, Gaya, Bihar",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "rating": 5,
+      "ratingCount": 4,
+      "verified": false,
+      "about": "Nirvana IAS Academy, in Gewal Bigha, is listed specifically under UPSC tutorials on Justdial with a 5.0 rating, though its review base is small (4 ratings) — likely a newer or smaller operation worth an in-person visit before committing.",
+      "highlights": [
+        "Listed specifically under UPSC tutorials",
+        "Gewal Bigha location",
+        "Small review base — confirm current batch details in person"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "kartar-coaching-centre-gaya",
+      "type": "coaching",
+      "name": "Kartar Coaching Centre Pvt Ltd",
+      "city": "gaya",
+      "locality": "A.P. Colony",
+      "address": "Road No. 1, A.P. Colony, Gaya, Bihar",
+      "estd": null,
+      "exams": [
+        "ias",
+        "bpsc"
+      ],
+      "rating": 4.3,
+      "ratingCount": 14,
+      "verified": false,
+      "about": "Kartar Coaching Centre, on Road No. 1 in A.P. Colony, is a broader competitive-exam tutorial centre (not IAS-exclusive) that appears in Gaya's UPSC-coaching directory listings, carrying a 4.3 rating from 14 Justdial reviews.",
+      "highlights": [
+        "Broader competitive-exam coaching, including UPSC/BPSC tracks",
+        "4.3 rating from 14 Justdial reviews",
+        "Road No. 1, A.P. Colony location"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-cuttack",
+      "type": "coaching",
+      "name": "Career Launcher, Cuttack",
+      "city": "cuttack",
+      "locality": "Link Road",
+      "address": "3rd Floor, Kailash Plaza, Opposite BSNL Office, Link Road, Cuttack, Odisha 753012",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/cuttack/",
+      "about": "Career Launcher's Cuttack centre is a company-run branch with its own official page, confirmed address, phone number and named centre lead (Debasis Patnaik). It runs classroom and live-online batches for CLAT, AILET, SLAT and LSAT alongside CAT/MBA and IPM programmes, sharing a common faculty pool with the brand's larger Bhubaneswar centre. Several NLUO students are named in Career Launcher's own published testimonials as alumni of its Bhubaneswar-Cuttack programme. Independently listed on Justdial as \"CL Educate\" with a 5.0 rating from 230-plus ratings.",
+      "highlights": [
+        "Company-run branch with an official centre page and named lead (Debasis Patnaik)",
+        "Covers CLAT, AILET, SLAT and LSAT, plus CAT/MBA and IPM",
+        "230+ ratings on Justdial (listed as CL Educate), 5.0 rating"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-institute-cuttack",
+      "type": "coaching",
+      "name": "TIME Institute, Cuttack",
+      "city": "cuttack",
+      "locality": "Link Road",
+      "address": "Link Road, Old LIC Colony, Cuttack, Odisha",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "T.I.M.E. (Triumphant Institute of Management Education) runs a Cuttack centre near Old LIC Colony on Link Road, primarily known for CAT/MBA-entrance coaching, with CLAT taught alongside that core business rather than as a standalone law specialism. Features periodic performance tests, a distance-learning programme and AC classrooms. Independently listed on Justdial with a 5.0 rating from 113 ratings; no official Cuttack-specific centre page was found to confirm address details independently.",
+      "highlights": [
+        "National T.I.M.E. chain, primarily CAT/MBA-focused, also covers CLAT",
+        "113 ratings on Justdial, 5.0 rating",
+        "Periodic performance tests and distance-learning programme"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aarohan-classes-cuttack",
+      "type": "coaching",
+      "name": "Aarohan Classes",
+      "city": "cuttack",
+      "locality": "Arunodaya Market",
+      "address": "Arunodaya Market, Cuttack, Odisha",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": false,
+      "about": "Aarohan Classes, based in Arunodaya Market, is a Cuttack-founded institute with faculty the institute describes as IIM and NLU alumni, offering CLAT coaching alongside its language-class portfolio. It's the only institute on Cuttack's CLAT list that isn't a branch of a national chain. Independently listed on Justdial with a 4.0 rating from 117 ratings; no official centre page was found to confirm address details independently.",
+      "highlights": [
+        "Cuttack-founded, not a national-chain branch",
+        "Faculty described by the institute as IIM/NLU alumni",
+        "117 ratings on Justdial, 4.0 rating"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -14046,6 +14531,18 @@
     },
     "coaching-udaipur": {
       "intro": "<p>Udaipur, Rajasthan's lake city, sits roughly three hours from Kota — close enough that several Kota-founded chains have opened full branches here rather than leaving the city to feed students north for JEE preparation. Coaching activity concentrates heavily in Hiran Magri, especially the Riddhi Siddhi Complex stretch of Sector 5 and the Sector 3/Roop Nagar pocket, with a second cluster along University Road near Bekani Puliya and a further outpost at Ayad/Pahada. The market mixes four national chains (Allen, Resonance, Aakash, Physics Wallah) with well-reviewed local institutes — some running since the late 1990s — plus an online-focused counselling centre for students who want a national faculty without a full local campus. Every listing below shows its verification status and, where available, an independently visible review score.</p>"
+    },
+    "coaching-warangal": {
+      "intro": "<p>Warangal, Telangana's second-largest urban centre after the Hyderabad metropolitan region, runs its coaching market almost entirely through its twin city, Hanamkonda — a compact education corridor along Nakkala Gutta, NGO's Colony Road and the Telangana Chowrastha stretch, where national chains (Aakash, Physics Wallah, Vedantu) and a major regional chain (Sri Chaitanya) sit alongside several independently reviewed local academies. A second, smaller institute sits across town in Girmajipet. Every listing below shows its verification status and, where available, an independently visible review score.</p>"
+    },
+    "coaching-madurai": {
+      "intro": "<p>Madurai, home to Madurai Kamaraj University and Thiagarajar School of Management, has a compact but growing CAT-coaching market compared to bigger South Indian hubs like Chennai or Coimbatore. Coaching activity concentrates in two small pockets: North Veli Street in Simmakkal, where IMS Learning Centre, Balsu's Success Academy and Annai Career Institute sit within a few doors of each other, and Anna Nagar, home to Mockat's classroom and Amazing Institute of Management. T.I.M.E. runs separately from Chinna Chokkikulam near Tallakulam, and Career Launcher operates from Madurai Main near the Goods Shed. Every listing below shows its verification status and location.</p>"
+    },
+    "coaching-gaya": {
+      "intro": "<p>Gaya, Bihar's second-largest city, runs a smaller and more locally rooted civil-services coaching market than most cities on this site — none of the major Delhi-based national UPSC chains maintain a confirmed physical branch here. Its five listed institutes cluster around A.P. Colony, Jail Road and Bisar Talab, mostly serving UPSC and BPSC aspirants. Every listing below shows its verification status and, where available, an independently visible review score.</p>"
+    },
+    "coaching-cuttack": {
+      "intro": "<p>Cuttack is home to National Law University Odisha (NLUO), running from its 50-acre Naraj Road campus in Sector 13, CDA, since June 2012 — one of 24 NLUs admitting students through CLAT. Even so, the city's own dedicated CLAT-coaching market stays small: three address-verifiable institutes, clustered around Link Road and Arunodaya Market, with national chains Career Launcher and T.I.M.E. sharing faculty pools with their larger Bhubaneswar centres roughly 30 km away, alongside the locally founded Aarohan Classes. Every listing below shows its verification status and location.</p>"
     }
   }
 }
