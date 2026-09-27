@@ -709,7 +709,7 @@ function toISODate(d) {
 const POSTS_BY_DATE = [...POSTS].sort((a, b) => new Date(toISODate(b.date)) - new Date(toISODate(a.date)));
 function postCard(p) {
   return `<a class="card post-card" href="${p.slug}.html">
-<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(p.category)}</span></div>
+<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(postExam(p).label)}</span></div>
 <div class="card-body">
 <span class="muted">${p.date} · ${p.minutes} min read</span>
 <h3>${esc(p.title)}</h3>
@@ -717,14 +717,97 @@ function postCard(p) {
 <div class="card-foot"><span></span><span class="card-cta">Read article →</span></div>
 </div></a>`;
 }
+/* ---------- blog categorisation: exam groups + content types ----------
+   posts.js keeps its free-text `category`; these maps fold every variant into
+   one clean exam group. A post may also set `examGroup` / `type` explicitly. */
+const BLOG_EXAMS = [
+  { key: "jee", label: "JEE & Engineering", cats: ["IIT JEE", "JEE / Engineering", "JEE"], exam: "jee", intro: "JEE Main and Advanced news, JoSAA/CSAB counselling updates and city-wise guides to JEE coaching institutes." },
+  { key: "neet", label: "NEET & Medical", cats: ["NEET", "NEET / Medical", "NEET PG"], exam: "neet", intro: "NEET UG news, MCC counselling updates and city-wise guides to NEET coaching institutes." },
+  { key: "mba", label: "CAT, IPMAT & MBA", cats: ["CAT / MBA", "MAT / MBA", "NMAT / MBA", "SNAP / MBA", "XAT / MBA", "MBA", "IPMAT", "CAT", "CMAT / MBA"], exam: "cat", intro: "CAT, XAT, NMAT, SNAP, MAT and IPMAT news, preparation strategy and honest comparisons of MBA-entrance coaching." },
+  { key: "upsc", label: "UPSC & Civil Services", cats: ["IAS / UPSC", "UPSC", "State PSC"], exam: "ias", intro: "UPSC Civil Services, ESE and other UPSC exam updates, plus guides to IAS coaching institutes across India." },
+  { key: "law", label: "CLAT & Law", cats: ["CLAT / Law", "SLAT / Law", "AILET / Law", "CLAT", "Judiciary"], exam: "clat", intro: "CLAT, AILET and SLAT news, syllabus and cutoff explainers, and city-wise guides to law-entrance coaching." },
+  { key: "govt-exams", label: "SSC, Defence & Govt Exams", cats: ["SSC", "SSC / Govt Exams", "NDA / CDS", "Banking", "Railways", "Govt Exams"], exam: "ssc", intro: "SSC, NDA/CDS, banking and other government-exam updates, with advice on when coaching actually helps." },
+  { key: "ca", label: "CA & Commerce", cats: ["CA", "CA / Commerce", "CMA", "CS"], exam: "ca", intro: "CA, CS and CMA preparation guides and comparisons of commerce coaching institutes." },
+  { key: "gate", label: "GATE & Science PG", cats: ["GATE", "CSIR NET / IIT JAM / GATE Maths", "CSIR NET", "IIT JAM", "CUET PG"], exam: "gate", intro: "GATE, CSIR-NET and IIT JAM news, exam overviews and coaching comparisons." },
+  { key: "guidance", label: "Guidance & Certifications", cats: ["Guidance", "City Guides", "Certification", "Study Tips"], exam: "", intro: "How to choose a coaching institute, moving to a coaching city, and professional certification comparisons." }
+];
+const BLOG_TYPES = [
+  { key: "exam-news", label: "Exam News & Updates", intro: "Dated, source-checked updates on exam dates, registrations, admit cards, results and counselling." },
+  { key: "coaching-guides", label: "Coaching Guides & Comparisons", intro: "City-wise coaching institute guides and honest side-by-side comparisons to help you choose where to study." },
+  { key: "prep-guides", label: "Preparation Guides", intro: "Syllabus, eligibility, cutoffs and study-strategy explainers written in plain language." }
+];
+const BLOG_EXAM_BY_CAT = {};
+BLOG_EXAMS.forEach(g => { BLOG_EXAM_BY_CAT[g.label.toLowerCase()] = g; g.cats.forEach(c => { BLOG_EXAM_BY_CAT[c.toLowerCase()] = g; }); });
+function postExam(p) {
+  if (p.examGroup) { const g = BLOG_EXAMS.find(x => x.key === p.examGroup); if (g) return g; }
+  const c = String(p.category || "").toLowerCase().trim();
+  if (BLOG_EXAM_BY_CAT[c]) return BLOG_EXAM_BY_CAT[c];
+  const first = c.split("/")[0].trim();
+  const hit = BLOG_EXAMS.find(g => g.cats.some(x => x.toLowerCase().split("/")[0].trim() === first));
+  return hit || BLOG_EXAMS[BLOG_EXAMS.length - 1];
+}
+function postType(p) {
+  if (p.type) { const t = BLOG_TYPES.find(x => x.key === p.type); if (t) return t; }
+  const title = p.title || "";
+  if (/how to prepare|strategy|study plan|eligibility|syllabus and|cutoff|overview|exam pattern|completely free|features|mentoring sessions/i.test(title)) return BLOG_TYPES[2];
+  if (/exam date|registration|admit card|result|counselling|notification|seat|schedule|opens|closes|declared|question paper/i.test(title)) return BLOG_TYPES[0];
+  if (/coaching|\bvs\.?\b|compared|comparison/i.test(title)) return BLOG_TYPES[1];
+  return BLOG_TYPES[0];
+}
+const blogExamFile = (g) => `blog-${g.key}.html`;
+const blogTypeFile = (t) => `blog-${t.key}.html`;
+function blogChipRow(active) {
+  const exams = BLOG_EXAMS.map(g => { const n = POSTS.filter(p => postExam(p) === g).length; return n ? `<a class="blog-chip${active === g ? " active" : ""}" href="${blogExamFile(g)}">${esc(g.label)} <span>${n}</span></a>` : ""; }).join("");
+  const types = BLOG_TYPES.map(t => { const n = POSTS.filter(p => postType(p) === t).length; return `<a class="blog-chip blog-chip-type${active === t ? " active" : ""}" href="${blogTypeFile(t)}">${esc(t.label)} <span>${n}</span></a>`; }).join("");
+  return `<div class="blog-browse">
+<div class="blog-browse-row"><span class="blog-browse-label">By exam</span><div class="blog-chips"><a class="blog-chip${!active ? " active" : ""}" href="blog.html">All <span>${POSTS.length}</span></a>${exams}</div></div>
+<div class="blog-browse-row"><span class="blog-browse-label">By type</span><div class="blog-chips">${types}<a class="blog-chip blog-chip-type" href="ai-tools.html">AI Tools for Study</a></div></div>
+</div>`;
+}
+function blogCard(p) {
+  return `<div data-exams="${postExam(p).key}" data-mode="${postType(p).key}" style="display:contents">${postCard(p)}</div>`;
+}
 function blogIndex() {
   return `
 <section class="hero hero-sm"><div class="container"><h1>Guides &amp; Articles</h1>
-<p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Written by our team — no sponsored content unless clearly labelled.</p></div></section>
-<section class="section container">
-<div class="filterbar"><div class="filterbar-row"><label class="fsel-label" for="examsel">Topic</label><select id="examsel" class="fsel"><option value="">All topics</option>${CATS.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("")}</select><span id="rescount" class="muted"></span></div></div>
-<div class="card-grid" id="cards" style="margin-top:22px">${POSTS_BY_DATE.map(p => `<div data-exams="${esc(p.category)}" style="display:contents">${postCard(p)}</div>`).join("")}</div>
+<p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Pick your exam or the kind of article you need — written by our team, no sponsored content unless clearly labelled.</p></div></section>
+<section class="section container" style="padding-top:36px">
+${blogChipRow(null)}
+<div class="filterbar"><div class="filterbar-row"><label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${BLOG_EXAMS.map(g => `<option value="${g.key}">${esc(g.label)}</option>`).join("")}</select>
+<label class="fsel-label" for="modesel">Type</label><select id="modesel" class="fsel"><option value="">All types</option>${BLOG_TYPES.map(t => `<option value="${t.key}">${esc(t.label)}</option>`).join("")}</select><span id="rescount" class="muted"></span></div></div>
+<div class="card-grid" id="cards" style="margin-top:22px">${POSTS_BY_DATE.map(blogCard).join("")}</div>
+<p id="noresults" class="muted" hidden style="margin-top:20px">No articles match these filters yet — try another exam or type.</p>
 </section>`;
+}
+function blogCategoryPage(item, kind) {
+  const file = kind === "exam" ? blogExamFile(item) : blogTypeFile(item);
+  const list = POSTS_BY_DATE.filter(p => (kind === "exam" ? postExam(p) : postType(p)) === item);
+  const title = kind === "exam" ? `${item.label} Blogs: Exam News, Prep & Coaching Guides` : `${item.label} for Indian Competitive Exams`;
+  const h1 = kind === "exam" ? `${item.label} Articles` : item.label;
+  const desc = `${item.intro} ${list.length} articles, updated regularly by the ${B.name} team.`;
+  const url = `${B.siteUrl}/${file.replace(/\.html$/, "")}`;
+  const sections = kind === "exam"
+    ? BLOG_TYPES.map(t => ({ t, ps: list.filter(p => postType(p) === t) })).filter(s => s.ps.length)
+    : [{ t: null, ps: list }];
+  const ld = [
+    { "@context": "https://schema.org", "@type": "CollectionPage", name: h1, url, description: desc, publisher: { "@type": "Organization", name: B.name, url: B.siteUrl },
+      mainEntity: { "@type": "ItemList", numberOfItems: list.length, itemListElement: list.slice(0, 50).map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${B.siteUrl}/${p.slug}`, name: p.title })) } },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${B.siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: "Blogs", item: `${B.siteUrl}/blog` },
+      { "@type": "ListItem", position: 3, name: item.label, item: url }] }
+  ];
+  const coachLink = kind === "exam" && item.exam ? `<p style="margin-top:18px"><a class="link-arrow" href="coaching.html?exam=${item.exam}">Compare ${esc(item.label.split(/[ ,&]/)[0])} coaching institutes →</a></p>` : "";
+  return head(`${title} | ${B.name}`, desc)
+    .replace("</head>", ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + "\n</head>")
+    + header("blog.html") + `
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Blogs</a> / <span>${esc(item.label)}</span></div>
+<section class="hero hero-sm" style="padding-top:34px"><div class="container"><p class="eyebrow">${kind === "exam" ? "Blogs by exam" : "Blogs by type"}</p><h1>${esc(h1)}</h1>
+<p class="hero-sub">${esc(item.intro)}</p>${coachLink}</div></section>
+<section class="section container" style="padding-top:36px">
+${blogChipRow(item)}
+${sections.map(s => `${s.t ? `<h2 class="blog-sec-h" id="${s.t.key}">${esc(s.t.label)} <span class="muted">(${s.ps.length})</span></h2>` : ""}<div class="card-grid" style="margin-top:18px">${s.ps.map(postCard).join("")}</div>`).join("\n")}
+</section>` + footer();
 }
 /* ---------- reviews hub ---------- */
 function reviewsIndex() {
@@ -1078,7 +1161,7 @@ ${same.map(o => `<a class="action" href="${aiToolFile(o)}"><span class="ic">${es
 function postPage(p) {
   const { html: bodyHtml, tocItems } = buildToc(p.html);
   if (p.faqs) tocItems.push({ text: "Frequently asked questions", id: "faq" });
-  const related = POSTS.filter(o => o.slug !== p.slug && o.category === p.category).slice(0, 4);
+  const related = POSTS_BY_DATE.filter(o => o.slug !== p.slug && postExam(o) === postExam(p)).slice(0, 4);
   const more = related.length >= 4 ? related : [...related, ...POSTS.filter(o => o.slug !== p.slug && !related.includes(o))].slice(0, 4);
   const iso = toISODate(p.date);
   const faqHtml = p.faqs ? `<h2 id="faq">Frequently asked questions</h2>${p.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${f.a}</p>`).join("")}` : "";
@@ -1105,7 +1188,7 @@ function postPage(p) {
 <div class="container post-hero-inner${p.image ? "" : " post-hero-inner-solo"}">
 <div class="post-hero-text">
 <a class="post-back" href="blog.html">← Back to Blogs</a>
-<span class="post-pill">${esc(p.category)}</span>
+<a class="post-pill" href="${blogExamFile(postExam(p))}">${esc(postExam(p).label)}</a> <a class="post-pill" href="${blogTypeFile(postType(p))}">${esc(postType(p).label)}</a>
 <h1>${esc(p.title)}</h1>
 <div class="post-meta-row"><span>${p.date}</span><span>${p.minutes} min read</span></div>
 </div>
@@ -1172,6 +1255,7 @@ function sitemapBody() {
 <section class="section container prose">
 <h2>Pages</h2><ul>${links.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join("")}</ul>
 <h2>All listings (${L.length})</h2><ul>${inst}</ul>
+<h2>Blog categories</h2><ul>${[...BLOG_EXAMS.filter(g => POSTS.some(p => postExam(p) === g)).map(g => `<li><a href="${blogExamFile(g)}">${esc(g.label)} articles</a></li>`), ...BLOG_TYPES.map(t => `<li><a href="${blogTypeFile(t)}">${esc(t.label)}</a></li>`)].join("")}</ul>
 <h2>AI tools (${AI_TOOLS.length})</h2><ul>${AI_TOOLS.map(t => `<li><a href="ai-tools-${t.slug}.html">${esc(t.name)} — ${t.audience === "learners" ? "for learners" : "for institutes"}</a></li>`).join("")}</ul>
 ${brandReviewPages ? `<h2>Brand review pages (${BRAND_REVIEWS.length})</h2><ul>${brandReviewPages}</ul>` : ""}
 </section>`;
@@ -1190,6 +1274,7 @@ const searchIndex = [
     u: `/institute-${x.slug}`
   })),
   ...POSTS.map(p => ({ t: p.title, s: p.category, c: "Guide", u: `/${p.slug}` })),
+  ...BLOG_EXAMS.map(g => ({ t: `${g.label} articles`, s: "Blog category", c: "Blogs", u: `/blog-${g.key}` })),
   { t: "AI Tools for Learners & Institutes", s: "Hand-picked AI tools", c: "AI Tools", u: "/ai-tools" },
   ...AI_TOOLS.map(t => ({ t: t.name, s: t.audience === "learners" ? "AI tool for learners" : "AI tool for institutes", c: "AI Tool", u: `/ai-tools-${t.slug}` }))
 ];
@@ -1266,6 +1351,8 @@ w("list-your-institute.html", simplePage("list-your-institute.html", "List Your 
 w("blog.html", simplePage("blog.html", "Guides & Articles", "Original research-backed articles on coaching, exam preparation and student life.", blogIndex(), "blog.html"));
 w("reviews.html", simplePage("reviews.html", "Reviews", "Independent reviews of coaching institutes, professional certifications and individual coaches — verified facts and our own research, with no paid rankings.", reviewsIndex(), "reviews.html"));
 POSTS.forEach(p => w(`${p.slug}.html`, postPage(p) + footer()));
+BLOG_EXAMS.forEach(g => { if (POSTS.some(p => postExam(p) === g)) w(blogExamFile(g), blogCategoryPage(g, "exam")); });
+BLOG_TYPES.forEach(t => w(blogTypeFile(t), blogCategoryPage(t, "type")));
 w("ai-tools.html", aiToolsHub());
 AI_TOOLS.forEach(t => w(`ai-tools-${t.slug}.html`, aiToolPage(t)));
 w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privacy policy.`, privacyBody));
@@ -1302,6 +1389,7 @@ const hubPages = new Set([
   "coaching.html", "coaching-online.html", "certification.html", "coach.html", "computer-courses.html",
   "blog.html", "about.html", "contact.html", "list-your-institute.html", "ai-tools.html"
 ]);
+BLOG_EXAMS.forEach(g => hubPages.add(blogExamFile(g))); BLOG_TYPES.forEach(t => hubPages.add(blogTypeFile(t)));
 const cityPageRe = /^(coaching|certification|coach|computer-courses)-[a-z-]+\.html$/;
 const sitemapMeta = (f) => {
   if (f === "index.html") return { priority: "1.0", changefreq: "daily" };

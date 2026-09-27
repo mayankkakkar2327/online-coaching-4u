@@ -505,3 +505,20 @@ body.nav-open .main-nav{display:flex}
 .detail-main h3{font-size:1.05rem;margin:20px 0 6px}
 @media (max-width:640px){.identity{align-items:flex-start}.identity .monogram{width:64px;height:64px;font-size:1.8rem;border-radius:18px}.prose thead th{white-space:normal}}
 .side-card a.btn-gold{color:#241a04}
+
+/* ---------- blog categories (exam + type chips, category pages) ---------- */
+.blog-browse{display:grid;gap:12px;margin-bottom:22px}
+.blog-browse-row{display:flex;gap:14px;align-items:flex-start}
+.blog-browse-label{flex:0 0 72px;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);padding-top:9px}
+.blog-chips{display:flex;flex-wrap:wrap;gap:8px}
+.blog-chip{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:7px 14px;font-size:.86rem;font-weight:600;color:var(--ink-2);transition:.2s}
+.blog-chip span{font-size:.74rem;color:var(--ink-3);font-weight:600}
+.blog-chip:hover{border-color:var(--brand-line);background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+.blog-chip.active{background:var(--brand-deep);border-color:var(--brand-deep);color:#fff}
+.blog-chip.active span{color:#dfe1ff}
+.blog-chip-type{border-style:dashed}
+.blog-sec-h{font-family:var(--serif);font-weight:600;font-size:1.5rem;margin-top:38px;scroll-margin-top:84px}
+.blog-sec-h:first-of-type{margin-top:6px}
+a.post-pill:hover{text-decoration:none;background:rgba(255,255,255,.2)}
+@media (max-width:640px){.blog-browse-row{flex-direction:column;gap:6px}.blog-browse-label{padding-top:0;flex-basis:auto}.filterbar-row{flex-wrap:wrap}}
+@media (max-width:980px){.section.container{padding-left:20px;padding-right:20px}}
