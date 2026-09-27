@@ -480,3 +480,28 @@ body.nav-open .main-nav{display:flex}
   .main-nav a,.nav-drop-btn{padding:8px 9px;font-size:.86rem}
   .site-header .logo span{font-size:.95rem}
 }
+
+/* ---------- AI tools vertical (/ai-tools + ai-tools-<slug>) ---------- */
+.table-scroll{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:22px 0 30px}
+.table-scroll table{margin:0}
+.prose td,.prose tbody th{padding:12px 18px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+.prose tbody tr:last-child td,.prose tbody tr:last-child th{border-bottom:none}
+.facts-table tbody th{width:34%;background:var(--paper);color:var(--ink);font-weight:600;font-size:.88rem}
+.ai-jump{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.ai-intro{padding-bottom:0}
+.ai-section{padding-top:56px;padding-bottom:24px;scroll-margin-top:84px}
+.ai-h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,2.6vw,2rem)}
+.ai-card .card-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ai-card-text{color:var(--ink-2);font-size:.93rem;margin:14px 0 18px;flex:1}
+.ai-compare{max-width:none;margin-top:34px}
+.ai-compare h3{font-family:var(--serif);font-size:1.2rem;font-weight:600}
+.ai-compare td a{font-weight:600}
+.ai-hero-cta{margin-top:16px}
+.ai-article{max-width:none}
+.ai-steps{padding-left:22px;color:#3c4258}
+.ai-steps li{margin-bottom:8px;padding-left:4px}
+.ai-visit-row{margin:18px 0 6px}
+.ai-sources{font-size:.9rem}
+.detail-main h3{font-size:1.05rem;margin:20px 0 6px}
+@media (max-width:640px){.identity{align-items:flex-start}.identity .monogram{width:64px;height:64px;font-size:1.8rem;border-radius:18px}.prose thead th{white-space:normal}}
+.side-card a.btn-gold{color:#241a04}

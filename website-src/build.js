@@ -7,6 +7,7 @@ const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf8
 const POSTS = require("./posts.js");
 const REVIEWS = require("./reviews.js");
 const BRAND_REVIEWS = require("./brand-reviews.js");
+const AI_TOOLS = require("./ai-tools.js");
 const OUT = path.join(__dirname, "..", "website");
 
 /* wipe previous build output so removed/renamed pages don't linger as stale files */
@@ -163,7 +164,7 @@ const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 3
 const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
 
 function header(active, dark) {
-  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"]];
+  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["ai-tools.html", "AI Tools"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"]];
   const academicActive = active === "coaching-online.html" || active === "coaching.html";
   return `<header class="site-header${dark ? " header-dark" : ""}">
 <div class="container header-inner">
@@ -206,6 +207,7 @@ function footer() {
 <li><a href="certification.html">Certifications</a></li>
 <li><a href="coach.html">Coaches</a></li>
 <li><a href="computer-courses.html">Computer Courses</a></li>
+<li><a href="ai-tools.html">AI Tools</a></li>
 <li><a href="list-your-institute.html">List Your Institute</a></li>
 <li><a href="/sitemap.xml">Sitemap</a></li>
 <li><a href="https://www.onlinecoaching4u.in/feed">Feed</a></li>
@@ -892,6 +894,187 @@ ${sideBacklinks}
 </section>` + footer();
 }
 
+/* ---------- AI tools vertical (/ai-tools hub + ai-tools-<slug> pages) ---------- */
+const AI_AUD = {
+  learners: { label: "For Learners", plural: "learners", anchor: "for-learners", h2: "Best AI tools for learners", who: "Students" },
+  institutes: { label: "For Institutes", plural: "institutes", anchor: "for-institutes", h2: "Best AI tools for coaching institutes & teachers", who: "Institutes" }
+};
+const aiToolFile = (t) => `ai-tools-${t.slug}.html`;
+const aiShort = (t) => t.shortName || t.name;
+const AI_LAST_CHECKED = "27 September 2026";
+const AI_LAST_CHECKED_ISO = "2026-09-27";
+const tableWrap = (inner) => `<div class="table-scroll"><table>${inner}</table></div>`;
+function aiVisitBtn(t, cls) {
+  return `<a class="btn ${cls || "btn-gold"}" href="${t.url}" target="_blank" rel="noopener nofollow">Visit ${esc(aiShort(t))} ↗</a>`;
+}
+function aiCard(t) {
+  return `<a class="card ai-card" href="${aiToolFile(t)}">
+<div class="card-top"><span class="badge badge-type">${AI_AUD[t.audience].label}</span><span class="chip chip-price">${esc(t.priceChip)}</span></div>
+<div class="card-ident">
+<span class="avatar-md ${grad(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>
+<div><h3>${esc(t.name)}</h3><p class="card-loc">by ${esc(t.maker)}</p></div>
+</div>
+<p class="ai-card-text">${esc(t.tagline)}</p>
+<div class="card-foot"><span class="muted">Full guide</span><span class="card-cta">Read guide →</span></div>
+</a>`;
+}
+function aiCompareTable(list) {
+  const rows = list.map(t => {
+    const best = (t.facts.find(f => f[0] === "Best for") || ["", ""])[1];
+    const lang = (t.facts.find(f => f[0] === "Languages") || ["", "—"])[1];
+    return `<tr><td><a href="${aiToolFile(t)}"><strong>${esc(aiShort(t))}</strong></a></td><td>${esc(best)}</td><td>${esc(t.priceChip)}</td><td>${esc(lang)}</td><td><a href="${t.url}" target="_blank" rel="noopener nofollow">Visit ↗</a></td></tr>`;
+  }).join("");
+  return tableWrap(`<thead><tr><th>Tool</th><th>Best for</th><th>Price</th><th>Languages</th><th>Website</th></tr></thead><tbody>${rows}</tbody>`);
+}
+const AI_HUB_FAQS = [
+  { q: "Which AI tool is best for students in India?", a: "For most students, Google Gemini is the best free starting point: it has step-by-step Guided Learning and free full-length JEE Main mock tests. Gemini Notebook (formerly NotebookLM) is best for revising from NCERT or your own notes, PW AI Guru is best for JEE/NEET doubts in Hinglish, and Perplexity is best for UPSC current affairs with sources." },
+  { q: "Are these AI tools free?", a: "Gemini, Gemini Notebook, ChatGPT and Perplexity all have useful free plans, and PW AI Guru comes at no extra cost for PW students. For institutes, Wayground, MagicSchool AI and Khanmigo for Teachers have free plans; Eklavvya and Interakt are paid, with a free demo or trial." },
+  { q: "Which AI tools can coaching institutes use?", a: "Wayground for quick quizzes and practice tests, Eklavvya for proctored online exams and AI checking of answer sheets, MagicSchool AI and Khanmigo for teacher preparation (lesson plans, worksheets, assessments), and Interakt for WhatsApp admission enquiries and reminders." },
+  { q: "Is it safe for students to study with AI?", a: "Yes, if AI is used to understand concepts and practise rather than to copy answers. All AI tools can make mistakes, so students should verify important facts and formulas with their textbooks, teachers or official sources." },
+  { q: "How did you choose these tools?", a: "We picked tools that are available in India, useful for Indian exams or Indian institutes, and clear about pricing. Each tool was researched from its official website and reputable news coverage. No company paid to be included." }
+];
+function aiToolsHub() {
+  const learners = AI_TOOLS.filter(t => t.audience === "learners");
+  const institutes = AI_TOOLS.filter(t => t.audience === "institutes");
+  const url = `${B.siteUrl}/ai-tools`;
+  const itemList = (list, name) => ({ "@type": "ItemList", name, itemListElement: list.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: `${B.siteUrl}/ai-tools-${t.slug}` })) });
+  const ld = [
+    { "@context": "https://schema.org", "@type": "CollectionPage", name: "AI Tools for Learners & Institutes in India", url, description: "Researched guides to the best AI tools for Indian students and coaching institutes.", dateModified: AI_LAST_CHECKED_ISO, publisher: { "@type": "Organization", name: B.name, url: B.siteUrl }, hasPart: [itemList(learners, "AI tools for learners"), itemList(institutes, "AI tools for institutes")] },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${B.siteUrl}/` }, { "@type": "ListItem", position: 2, name: "AI Tools", item: url }] },
+    { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: AI_HUB_FAQS.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }
+  ];
+  const section = (aud, list, intro) => `<section class="section container ai-section" id="${AI_AUD[aud].anchor}">
+<p class="eyebrow">${AI_AUD[aud].label}</p>
+<h2 class="ai-h2">${AI_AUD[aud].h2}</h2>
+<p class="section-sub">${intro}</p>
+<div class="card-grid">${list.map(aiCard).join("")}</div>
+<div class="prose ai-compare"><h3>Quick comparison</h3>${aiCompareTable(list)}</div>
+</section>`;
+  return head("Best AI Tools for Students & Institutes in India (2026)",
+    "Researched AI tools for Indian students and coaching institutes: Gemini, ChatGPT, PW AI Guru, Wayground, Eklavvya and more. Benefits, ₹ prices, how to use.")
+    .replace("</head>", ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + "\n</head>")
+    + header("ai-tools.html") + `
+<section class="hero hero-sm"><div class="container">
+<p class="eyebrow">AI Tools</p>
+<h1>AI Tools for Learners &amp; Institutes in India</h1>
+<p class="hero-sub">Hand-picked AI tools that genuinely help Indian students prepare for exams and help coaching institutes teach, test and grow — researched from official sources, with honest pros, cons and prices in ₹.</p>
+<div class="ai-jump"><a class="btn btn-primary" href="#for-learners">For Learners</a><a class="btn btn-ghost" href="#for-institutes">For Institutes</a></div>
+</div></section>
+<section class="section container prose ai-intro">
+<div class="tldr-box"><p class="tldr-label">Quick answer</p>
+<p><strong>For students:</strong> start with <a href="ai-tools-google-gemini.html">Google Gemini</a> (free tutor + JEE Main mocks), <a href="ai-tools-gemini-notebook.html">Gemini Notebook</a> (revise from NCERT and your notes), <a href="ai-tools-chatgpt.html">ChatGPT</a> (Study Mode), <a href="ai-tools-pw-ai-guru.html">PW AI Guru</a> (JEE/NEET doubts in Hinglish) and <a href="ai-tools-perplexity.html">Perplexity</a> (current affairs with sources).</p>
+<p><strong>For institutes:</strong> use <a href="ai-tools-wayground.html">Wayground</a> for quizzes, <a href="ai-tools-eklavvya.html">Eklavvya</a> for proctored exams and AI answer checking, <a href="ai-tools-magicschool-ai.html">MagicSchool AI</a> and <a href="ai-tools-khanmigo.html">Khanmigo</a> for teacher preparation, and <a href="ai-tools-interakt.html">Interakt</a> for WhatsApp admissions and reminders.</p>
+</div>
+<p class="muted">Last checked: ${AI_LAST_CHECKED}. Prices and offers change often — always confirm on the tool's official website.</p>
+</section>
+${section("learners", learners, "Free and low-cost AI tools for school students, JEE/NEET aspirants, UPSC and government-exam candidates, and college students.")}
+${section("institutes", institutes, "AI tools that save faculty time, make testing faster and fairer, and help coaching institutes handle admissions and parent communication.")}
+<section class="section container prose">
+<h2>How we choose these tools</h2>
+<ul>
+<li><strong>Available and useful in India</strong> — works for Indian students, exams and institutes today, not just in the US.</li>
+<li><strong>Researched, not copied</strong> — every page is written from the tool's official pages and reputable news coverage, with sources listed.</li>
+<li><strong>Honest about limits and costs</strong> — each guide lists limitations and current prices in ₹ where available.</li>
+<li><strong>No paid rankings</strong> — no company paid to be included. If we ever add affiliate links, we will label them clearly.</li>
+</ul>
+<h2>Frequently asked questions</h2>
+${AI_HUB_FAQS.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}
+</section>
+<section class="section container cta-band">
+<h2>Built an AI tool for Indian education?</h2><p>Tell us about it — we review tools that genuinely help learners and institutes.</p>
+<a class="btn btn-primary" href="contact.html">Contact us</a>
+</section>` + footer();
+}
+function aiToolPage(t) {
+  const aud = AI_AUD[t.audience];
+  const pageUrl = `${B.siteUrl}/ai-tools-${t.slug}`;
+  const same = AI_TOOLS.filter(o => o.audience === t.audience && o.slug !== t.slug);
+  const alts = (t.alternatives || []).map(s => AI_TOOLS.find(o => o.slug === s)).filter(Boolean);
+  const freeOffer = /^free/i.test(t.priceChip) || /Free/.test(t.pricing.rows[0][1]) || t.pricing.rows[0][1] === "₹0" || t.pricing.rows[0][1] === "US$0";
+  const appLd = {
+    "@context": "https://schema.org", "@type": "SoftwareApplication",
+    name: t.name, url: t.url, applicationCategory: "EducationalApplication",
+    operatingSystem: (t.facts.find(f => f[0] === "Works on" || f[0] === "Works with") || ["", "Web"])[1],
+    description: t.quickAnswer.replace(/<[^>]+>/g, ""),
+    author: { "@type": "Organization", name: t.maker },
+    ...(freeOffer ? { offers: { "@type": "Offer", price: "0", priceCurrency: "INR", description: "Free plan or free access available" } } : {})
+  };
+  const pageLd = {
+    "@context": "https://schema.org", "@type": "WebPage", name: t.metaTitle, url: pageUrl, description: t.metaDescription,
+    dateModified: AI_LAST_CHECKED_ISO, inLanguage: "en-IN",
+    about: { "@type": "SoftwareApplication", name: t.name },
+    author: { "@type": "Organization", name: `${B.name} Team`, url: B.siteUrl },
+    publisher: { "@type": "Organization", name: B.name, url: B.siteUrl },
+    speakable: { "@type": "SpeakableSpecification", cssSelector: [".ai-quick-answer"] }
+  };
+  const crumbLd = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${B.siteUrl}/` },
+    { "@type": "ListItem", position: 2, name: "AI Tools", item: `${B.siteUrl}/ai-tools` },
+    { "@type": "ListItem", position: 3, name: aud.label, item: `${B.siteUrl}/ai-tools#${aud.anchor}` },
+    { "@type": "ListItem", position: 4, name: t.name, item: pageUrl }] };
+  const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: t.faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
+  const benefitsH2 = t.audience === "learners" ? `How ${esc(aiShort(t))} helps students` : `How ${esc(aiShort(t))} helps coaching institutes`;
+  const body = `
+<div class="tldr-box ai-quick-answer"><p class="tldr-label">Quick answer</p><p>${esc(t.quickAnswer)}</p></div>
+<h2>Key facts</h2>
+${tableWrap(`<tbody>${t.facts.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join("")}</tbody>`).replace("<table>", '<table class="facts-table">')}
+<h2>What is ${esc(aiShort(t))}?</h2>
+${t.whatIs.map(p => `<p>${p}</p>`).join("")}
+<h2>${benefitsH2}</h2>
+${t.benefits.map(b => `<h3>${esc(b.title)}</h3><p>${esc(b.body)}</p>`).join("")}
+<h2>Key features</h2>
+<ul>${t.features.map(f => `<li>${esc(f)}</li>`).join("")}</ul>
+<h2>${esc(t.howTo.heading)}</h2>
+<ol class="ai-steps">${t.howTo.steps.map(s => `<li>${esc(s)}</li>`).join("")}</ol>
+<h2>${esc(aiShort(t))} pricing in India</h2>
+${tableWrap(`<thead><tr><th>Plan</th><th>Price</th><th>What you get</th></tr></thead><tbody>${t.pricing.rows.map(r => `<tr><td><strong>${esc(r[0])}</strong></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join("")}</tbody>`)}
+<p class="muted">${esc(t.pricing.note)}</p>
+<h2>Limitations to know</h2>
+<ul>${t.limitations.map(l => `<li>${esc(l)}</li>`).join("")}</ul>
+<h2>Our verdict</h2>
+<div class="callout"><strong>Verdict:</strong> ${esc(t.verdict)}</div>
+<p class="ai-visit-row">${aiVisitBtn(t, "btn-primary")}</p>
+${alts.length ? `<h2>Alternatives to ${esc(aiShort(t))}</h2><ul>${alts.map(a => `<li><a href="${aiToolFile(a)}"><strong>${esc(a.name)}</strong></a> — ${esc(a.tagline)}</li>`).join("")}</ul>` : ""}
+<h2>Frequently asked questions</h2>
+${t.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}
+<h2>Sources</h2>
+<ul class="ai-sources">${t.sources.map(s => `<li><a href="${s.url}" target="_blank" rel="noopener nofollow">${esc(s.label)}</a></li>`).join("")}</ul>
+<p class="muted">Last checked: ${AI_LAST_CHECKED}. ${esc(B.name)} is independent and is not paid by ${esc(t.maker)}. Features and prices change — confirm on the official website before you pay.</p>`;
+  const { html: bodyWithIds } = buildToc(body);
+  return head(t.metaTitle, t.metaDescription)
+    .replace("</head>", [appLd, pageLd, crumbLd, faqLd].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + `\n<meta property="article:modified_time" content="${AI_LAST_CHECKED_ISO}">\n</head>`)
+    + header("ai-tools.html") + `
+<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="ai-tools.html">AI Tools</a> / <a href="ai-tools.html#${aud.anchor}">${aud.label}</a> / <span>${esc(aiShort(t))}</span></div>
+<section class="container detail-hero">
+<div class="identity">
+<span class="monogram ${grad(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>
+<div>
+<h1>${esc(t.name)}: ${t.audience === "learners" ? "AI Tool for Students in India" : "AI Tool for Coaching Institutes"}</h1>
+<div class="sub">${esc(t.tagline)}</div>
+<div class="badges"><span class="badge badge-type">${aud.label}</span><span class="chip chip-price">${esc(t.priceChip)}</span><span class="chip">by ${esc(t.maker)}</span></div>
+<div class="ai-hero-cta">${aiVisitBtn(t, "btn-primary")}</div>
+</div>
+</div>
+</section>
+<section class="container detail-body">
+<article class="detail-main prose ai-article">
+${bodyWithIds}
+</article>
+<aside class="detail-side">
+<div class="side-card">
+<h3>Try ${esc(aiShort(t))}</h3>
+<p class="muted">${esc(t.priceChip)} · by ${esc(t.maker)}</p>
+<div style="margin-top:16px">${aiVisitBtn(t)}</div>
+<p class="muted" style="margin-top:12px">Opens the official website in a new tab.</p>
+</div>
+<div class="side-actions">
+<a class="action" href="ai-tools.html#${aud.anchor}"><span class="ic">≡</span> All AI tools ${aud.label.toLowerCase()} <span class="arr">→</span></a>
+${same.map(o => `<a class="action" href="${aiToolFile(o)}"><span class="ic">${esc(o.name[0])}</span> ${esc(aiShort(o))} <span class="arr">→</span></a>`).join("\n")}
+</div>
+</aside>
+</section>` + footer();
+}
+
 function postPage(p) {
   const { html: bodyHtml, tocItems } = buildToc(p.html);
   if (p.faqs) tocItems.push({ text: "Frequently asked questions", id: "faq" });
@@ -975,7 +1158,7 @@ const termsBody = `
 
 function sitemapBody() {
   const links = [];
-  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
+  links.push(["index.html", "Home"], ["coaching.html", "Coaching"], ["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["ai-tools.html", "AI Tools"], ["blog.html", "Guides"], ["about.html", "About"], ["contact.html", "Contact"], ["list-your-institute.html", "List Your Institute"], ["privacy.html", "Privacy"], ["terms.html", "Terms"]);
   Object.keys(DATA.cities).forEach(t => {
     DATA.cities[t].forEach(c => {
       const lbl = t === "coaching" ? `Coaching in ${cityLabel(c)}` : `${typeLabel[t]} — ${cityLabel(c)}`;
@@ -989,6 +1172,7 @@ function sitemapBody() {
 <section class="section container prose">
 <h2>Pages</h2><ul>${links.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join("")}</ul>
 <h2>All listings (${L.length})</h2><ul>${inst}</ul>
+<h2>AI tools (${AI_TOOLS.length})</h2><ul>${AI_TOOLS.map(t => `<li><a href="ai-tools-${t.slug}.html">${esc(t.name)} — ${t.audience === "learners" ? "for learners" : "for institutes"}</a></li>`).join("")}</ul>
 ${brandReviewPages ? `<h2>Brand review pages (${BRAND_REVIEWS.length})</h2><ul>${brandReviewPages}</ul>` : ""}
 </section>`;
 }
@@ -1005,7 +1189,9 @@ const searchIndex = [
     c: typeLabel[x.type],
     u: `/institute-${x.slug}`
   })),
-  ...POSTS.map(p => ({ t: p.title, s: p.category, c: "Guide", u: `/${p.slug}` }))
+  ...POSTS.map(p => ({ t: p.title, s: p.category, c: "Guide", u: `/${p.slug}` })),
+  { t: "AI Tools for Learners & Institutes", s: "Hand-picked AI tools", c: "AI Tools", u: "/ai-tools" },
+  ...AI_TOOLS.map(t => ({ t: t.name, s: t.audience === "learners" ? "AI tool for learners" : "AI tool for institutes", c: "AI Tool", u: `/ai-tools-${t.slug}` }))
 ];
 
 /* ---------- write ---------- */
@@ -1080,6 +1266,8 @@ w("list-your-institute.html", simplePage("list-your-institute.html", "List Your 
 w("blog.html", simplePage("blog.html", "Guides & Articles", "Original research-backed articles on coaching, exam preparation and student life.", blogIndex(), "blog.html"));
 w("reviews.html", simplePage("reviews.html", "Reviews", "Independent reviews of coaching institutes, professional certifications and individual coaches — verified facts and our own research, with no paid rankings.", reviewsIndex(), "reviews.html"));
 POSTS.forEach(p => w(`${p.slug}.html`, postPage(p) + footer()));
+w("ai-tools.html", aiToolsHub());
+AI_TOOLS.forEach(t => w(`ai-tools-${t.slug}.html`, aiToolPage(t)));
 w("privacy.html", simplePage("privacy.html", "Privacy Policy", `${B.name} privacy policy.`, privacyBody));
 w("terms.html", simplePage("terms.html", "Terms & Conditions", `${B.name} terms and conditions.`, termsBody));
 w("sitemap.html", simplePage("sitemap.html", "Sitemap", `All pages on ${B.name}.`, sitemapBody()));
@@ -1112,7 +1300,7 @@ POSTS.forEach(p => {
 });
 const hubPages = new Set([
   "coaching.html", "coaching-online.html", "certification.html", "coach.html", "computer-courses.html",
-  "blog.html", "about.html", "contact.html", "list-your-institute.html"
+  "blog.html", "about.html", "contact.html", "list-your-institute.html", "ai-tools.html"
 ]);
 const cityPageRe = /^(coaching|certification|coach|computer-courses)-[a-z-]+\.html$/;
 const sitemapMeta = (f) => {
@@ -1120,6 +1308,7 @@ const sitemapMeta = (f) => {
   if (hubPages.has(f) || cityPageRe.test(f)) return { priority: "0.8", changefreq: "daily" };
   if (f === "privacy.html" || f === "terms.html" || f === "sitemap.html") return { priority: "0.3", changefreq: "monthly" };
   if (f.startsWith("institute-")) return { priority: "0.6", changefreq: "weekly" };
+  if (f.startsWith("ai-tools-")) return { priority: "0.7", changefreq: "weekly" };
   const slug = f.replace(/\.html$/, "");
   if (postDateBySlug[slug]) return { priority: "0.6", changefreq: "weekly" };
   return { priority: "0.5", changefreq: "monthly" };
