@@ -68,7 +68,8 @@
       "warangal",
       "madurai",
       "gaya",
-      "cuttack"
+      "cuttack",
+      "dhanbad"
     ],
     "certification": [
       "online"
@@ -14348,6 +14349,109 @@
         "117 ratings on Justdial, 4.0 rating"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-dhanbad",
+      "type": "coaching",
+      "name": "Aakash Institute, Dhanbad",
+      "city": "dhanbad",
+      "locality": "Saraidhela",
+      "address": "2nd Floor, Saraidhela Main Road, Dhanbad, Jharkhand 826001",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-saraidhela-dhanbad-coaching-center-saraidhela-main-road-dhanbad-99430/Home",
+      "about": "Aakash's Dhanbad centre, on Saraidhela Main Road, is a company-run branch of India's largest NEET/JEE coaching chain, with its own official centre page confirming the address and contact details. It runs classroom batches for JEE Main and Advanced alongside its core NEET business, and Aakash separately lists a second Dhanbad location at Bank More. Independent listings on Justdial, MouthShut and BookMyPlayer corroborate the Saraidhela address, the last with 11 recorded ratings.",
+      "highlights": [
+        "Company-run branch with an official Aakash centre page (Saraidhela Main Road)",
+        "Covers JEE Main and Advanced alongside NEET",
+        "Second Aakash location listed at Bank More, Dhanbad"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-dhanbad",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Dhanbad",
+      "city": "dhanbad",
+      "locality": "Dhanbad",
+      "address": "Dhanbad, Jharkhand (exact street address not published on the official centre page)",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/dhanbad-jh/dhanbad-vidyapeeth-782797",
+      "about": "Physics Wallah's offline classroom arm, PW Vidyapeeth, runs a dedicated Dhanbad centre with its own listing on the official pw.live centre locator, covering JEE, NEET and Class 8–10 foundation batches. PW's official page confirms the centre exists and takes enquiries for it directly, though it doesn't publish a granular street address the way some other chains do — worth knowing if you plan to visit in person rather than enquire online first.",
+      "highlights": [
+        "Official PW Vidyapeeth centre listing specific to Dhanbad",
+        "Covers JEE, NEET and Class 8–10 foundation batches",
+        "Part of the fast-growing Physics Wallah offline network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "narayana-dhanbad",
+      "type": "coaching",
+      "name": "Narayana IIT-JEE/NEET/Foundation, Dhanbad",
+      "city": "dhanbad",
+      "locality": "Saraidhela",
+      "address": "Dev Kalyani, 3rd & 4th Floor, Main Road, Saraidhela, Dhanbad, Jharkhand 828127",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.narayanacoachingcenters.in/jharkhand/dhanbad-city/dhanbad",
+      "about": "Narayana's Dhanbad centre operates from Dev Kalyani, 3rd & 4th Floor, Main Road, Saraidhela, per its own official centre-locator page, which lists IIT-JEE, NEET and foundation courses alongside repeater batches, crash courses and test series. As a large national chain, its Dhanbad branch shares the group's standard curriculum and test-series network rather than running city-specific programming.",
+      "highlights": [
+        "Official Narayana centre-locator listing with confirmed Saraidhela address",
+        "Covers IIT-JEE, NEET and foundation courses, plus repeater batches",
+        "Part of the national Narayana Group test-series network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "fiitjee-dhanbad",
+      "type": "coaching",
+      "name": "FIITJEE Dhanbad",
+      "city": "dhanbad",
+      "locality": "Saraidhela",
+      "address": "Tara Apartment, Plot No. 2311-2313, Mouza Saraidhela, Dhanbad, Jharkhand 828127",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "FIITJEE Dhanbad, at Tara Apartment on Saraidhela's Mouza Saraidhela stretch, runs its own branded centre website and Facebook page covering JEE Main, JEE Advanced, NTSE, KVPY and Olympiad coaching, and is independently listed on Justdial under the same name and locality. It doesn't, however, appear on FIITJEE's own national centre locator at fiitjee.com, which is typical of several FIITJEE franchise-style centres — worth confirming directly with the centre if the parent-company affiliation matters to your decision.",
+      "highlights": [
+        "Own branded centre website and Facebook page, JEE Main/Advanced plus NTSE, KVPY, Olympiads",
+        "Independently listed on Justdial at the same Saraidhela address",
+        "Not listed on FIITJEE's own national centre locator (fiitjee.com) — confirm affiliation directly"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "gurukul-dhanbad",
+      "type": "coaching",
+      "name": "Gurukul (An Initiative Towards JEE & NEET Aspirants)",
+      "city": "dhanbad",
+      "locality": "Saraidhela",
+      "address": "Subala Enclave, Saraidhela Road, Lohar Kulli, Dhanbad, Jharkhand 828127",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": false,
+      "about": "Gurukul, based in Subala Enclave on Saraidhela Road near the IDBI Bank, is Dhanbad's own locally founded option on this list rather than a branch of a national chain, independently listed on both Justdial and a local best-of directory under the same name and locality. It offers JEE Main and Advanced coaching alongside Olympiad, NTSE, KVPY, NEET and foundation courses, giving Dhanbad students a city-rooted alternative to the national chains above.",
+      "highlights": [
+        "Dhanbad-founded, not a national-chain branch",
+        "Corroborated independently on Justdial and a local best-of directory",
+        "Covers JEE Main/Advanced plus NEET, Olympiads, NTSE and KVPY"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -14543,6 +14647,9 @@
     },
     "coaching-cuttack": {
       "intro": "<p>Cuttack is home to National Law University Odisha (NLUO), running from its 50-acre Naraj Road campus in Sector 13, CDA, since June 2012 — one of 24 NLUs admitting students through CLAT. Even so, the city's own dedicated CLAT-coaching market stays small: three address-verifiable institutes, clustered around Link Road and Arunodaya Market, with national chains Career Launcher and T.I.M.E. sharing faculty pools with their larger Bhubaneswar centres roughly 30 km away, alongside the locally founded Aarohan Classes. Every listing below shows its verification status and location.</p>"
+    },
+    "coaching-dhanbad": {
+      "intro": "<p>Dhanbad is home to IIT (Indian School of Mines) — one of India's oldest engineering institutions, running since 1926 — yet the city's own dedicated JEE-coaching market stays modest, concentrated mainly around Saraidhela on its western side. Five address-verifiable institutes serve the city today: national chains Aakash, PW Vidyapeeth and Narayana, each with their own official Dhanbad centre confirmation, alongside FIITJEE Dhanbad (a franchise-style centre not listed on FIITJEE's own locator) and the locally founded Gurukul. Every listing below shows its verification status and location.</p>"
     }
   }
 }
