@@ -727,6 +727,7 @@ module.exports = [
     slug: "interakt",
     name: "Interakt",
     audience: "institutes",
+    group: "communication",
     maker: "Jio Haptik",
     url: "https://www.interakt.shop/",
     tagline: "WhatsApp automation with AI agents that answer admission enquiries and send fee and class reminders 24/7.",
@@ -803,6 +804,429 @@ module.exports = [
       { label: "Interakt — AI employee on WhatsApp", url: "https://www.interakt.shop/whatsapp-ai-agents/ai-employee-on-whatsapp/" },
       { label: "respond.io — Interakt review 2026", url: "https://respond.io/blog/interakt-review" },
       { label: "Xobito — WATI vs Interakt 2026", url: "https://xobito.com/blog/wati-vs-interakt-complete-comparison-for-2026" }
+    ]
+  }
+  ,
+  /* ============ INSTITUTES — AI business phone & virtual numbers ============ */
+  {
+    slug: "myoperator",
+    name: "MyOperator",
+    audience: "institutes",
+    group: "business-phone",
+    lastChecked: "6 October 2026",
+    lastCheckedIso: "2026-10-06",
+    maker: "MyOperator (VoiceTree Technologies)",
+    url: "https://myoperator.com/education",
+    tagline: "Business number, IVR, WhatsApp and AI voice agents in one dashboard — already used by Aakash, DPS and PrepMed NEET.",
+    priceChip: "From ₹5,000/month",
+    metaTitle: "MyOperator for Coaching Institutes: AI Calls, IVR & Price",
+    metaDescription: "How coaching institutes use MyOperator for admission calls: virtual number, IVR, WhatsApp, AI voice agents in Hindi and 9 Indian languages, and ₹ pricing.",
+    quickAnswer: "MyOperator is an Indian cloud calling and WhatsApp platform used by 12,000+ businesses, including education brands like Aakash, Delhi Public School and PrepMed NEET. It gives an institute one professional number with IVR, call recording, WhatsApp Business API and — on its AI plan — voice agents that answer enquiry calls 24/7 in English, Hindi, Hinglish and 9 other Indian languages. Plans start at ₹5,000 a month (billed yearly, 10 users); AI agents are on custom pricing.",
+    facts: [
+      ["Made by", "MyOperator, India"],
+      ["Best for", "Mid-size and multi-branch institutes that want calls and WhatsApp in one place"],
+      ["Price", "Sedan ₹5,000/month · SUV ₹15,000/month · AI Team custom (all billed yearly, + GST)"],
+      ["AI features", "AI voice and chat agents, smart handover, missed-call-to-WhatsApp"],
+      ["Languages", "English, Hindi, Hinglish + 9 Indian languages (AI voice agent)"],
+      ["Works with", "Web, Android, iPhone · Zoho CRM, LeadSquared, Freshdesk, Bigin, 100+ integrations"]
+    ],
+    whatIs: [
+      "MyOperator is a cloud telephony company from India. Instead of buying phone lines and a call-centre setup, an institute gets a virtual business number that rings on counsellors' mobiles or laptops, with a menu (IVR), call recording and reports in one online dashboard.",
+      "It also includes the <strong>official WhatsApp Business API</strong>, so calls and WhatsApp chats sit together. On its top plan, <strong>AI voice agents</strong> answer calls on their own, qualify the enquiry, and hand over to a human counsellor with the full conversation history. MyOperator has a dedicated education page and lists Aakash, Delhi Public School and PrepMed NEET among its users."
+    ],
+    benefits: [
+      { title: "Every admission call is answered", body: "The AI voice agent picks up calls at any hour, answers questions about courses, batches and fees, and collects the student's details — so late-night and Sunday enquiries are not lost." },
+      { title: "Calls and WhatsApp together", body: "A missed call can automatically trigger a WhatsApp message with your brochure. Counsellors see both calls and chats for the same parent in one place." },
+      { title: "One number, many branches", body: "IVR and smart routing send callers to the right branch, course or counsellor ('Press 1 for JEE, 2 for NEET'), so a growing institute keeps one easy number." },
+      { title: "Counsellors can't take leads with them", body: "Calls happen on the institute's number and are recorded in the dashboard, so the enquiry history stays with the institute even if a counsellor leaves." },
+      { title: "Fee and exam reminders", body: "Use WhatsApp broadcasts and outbound calls for fee-due reminders, test schedules and result announcements." },
+      { title: "Proof from education brands", body: "MyOperator reports that Aakash saw 18% higher conversions after using it — useful reassurance for a large institute choosing a vendor." }
+    ],
+    features: [
+      "Virtual business number and 1800 toll-free number (add-on)",
+      "Multi-level IVR, smart routing, call recording and live dashboards",
+      "Official WhatsApp Business API with broadcasts and templates",
+      "AI voice agents with 24/7 answering and context-aware human handover",
+      "Missed-call recovery through automatic WhatsApp messages",
+      "Mobile app for counsellors; auto-dialer add-on",
+      "CRM integrations: Zoho CRM, LeadSquared, Freshdesk, Bigin and 100+ more"
+    ],
+    howTo: {
+      heading: "How a coaching institute can set up MyOperator",
+      steps: [
+        "Book a demo or start the trial on myoperator.com and complete business KYC for your number.",
+        "Pick a local or toll-free number and add your counsellors as users.",
+        "Build a simple IVR: course or exam choice first, then branch, then counsellor.",
+        "Connect WhatsApp and set a missed-call message with your brochure and fee details.",
+        "Connect your CRM (for example LeadSquared or Zoho) so every call creates or updates a lead.",
+        "Once basic calling works, ask for the AI Team plan to add a voice agent for after-hours enquiries."
+      ]
+    },
+    pricing: {
+      rows: [
+        ["Sedan", "₹5,000/month (billed yearly)", "10 users, IVR, unlimited calling and WhatsApp, call recording, broadcasts, basic reports"],
+        ["SUV", "₹15,000/month (billed yearly)", "Everything in Sedan + smart IVR, after-call automation, CRM and 100+ integrations, API, live dashboards"],
+        ["AI Team", "Custom quote", "Everything in SUV + voice and chat AI agents, AI automations, dedicated onboarding and priority support"],
+        ["Add-ons", "Toll-free from ₹500/month · auto-dialer ₹700/user/month", "WhatsApp messages charged per message (marketing ₹0.95)"]
+      ],
+      note: "Prices are from MyOperator's India pricing page, exclude GST and are billed yearly. Meta's WhatsApp charges are extra."
+    },
+    limitations: [
+      "All plans are billed yearly, so the upfront cost is high for a small single-centre institute.",
+      "AI voice agents are only on the custom-priced AI Team plan.",
+      "WhatsApp messages cost extra per message on top of the plan.",
+      "Setup of IVR, CRM and AI flows takes some planning — use the onboarding support."
+    ],
+    verdict: "MyOperator is the most complete choice for established and multi-branch institutes that want calling, WhatsApp and AI agents from one Indian vendor with education references. Very small institutes may find the yearly billing too heavy to start with.",
+    alternatives: ["exotel", "talkeasy", "interakt"],
+    relatedLinks: [{ lead: "Comparing options?", text: "See our guide to the best AI business phone tools for coaching institutes", href: "best-ai-business-phone-virtual-number-coaching-institutes-india.html" }],
+    faqs: [
+      { q: "What is MyOperator?", a: "MyOperator is an Indian cloud calling and WhatsApp platform that gives businesses a virtual number, IVR, call recording, WhatsApp Business API and AI voice agents in one dashboard." },
+      { q: "How much does MyOperator cost?", a: "The Sedan plan is ₹5,000 a month and SUV is ₹15,000 a month, both for 10 users and billed yearly plus GST. The AI Team plan with AI agents has custom pricing." },
+      { q: "Does MyOperator's AI agent speak Hindi?", a: "Yes. MyOperator's AI voice agent supports English, Hindi, Hinglish and 9 other Indian languages, and can switch language during a call." },
+      { q: "Do coaching institutes use MyOperator?", a: "Yes. MyOperator lists education customers such as Aakash, Delhi Public School and PrepMed NEET on its education page." },
+      { q: "Can MyOperator connect to LeadSquared?", a: "Yes. MyOperator integrates with CRMs including LeadSquared, Zoho CRM, Freshdesk and Bigin." }
+    ],
+    sources: [
+      { label: "MyOperator — Education solutions", url: "https://myoperator.com/education" },
+      { label: "MyOperator — India pricing", url: "https://myoperator.com/india-pricing" },
+      { label: "MyOperator — AI voice agents", url: "https://myoperator.com/ai-voicebot-for-calls" }
+    ]
+  },
+  {
+    slug: "exotel",
+    name: "Exotel",
+    audience: "institutes",
+    group: "business-phone",
+    lastChecked: "6 October 2026",
+    lastCheckedIso: "2026-10-06",
+    maker: "Exotel Techcom",
+    url: "https://exotel.com/",
+    tagline: "Enterprise-grade cloud calling with AI voice agents, 150+ integrations and a 7-day free trial.",
+    priceChip: "From ₹9,999 (5 months)",
+    metaTitle: "Exotel for Coaching Institutes: AI Voice Agents & Pricing",
+    metaDescription: "How coaching institutes use Exotel for admission calls: virtual numbers, IVR, AI voice agents, call analysis, 150+ integrations and ₹ pricing plans.",
+    quickAnswer: "Exotel is one of India's largest cloud communication companies, handling 25 billion+ interactions a year for brands like Flipkart, HDFC Bank and Swiggy. For institutes it offers virtual numbers, multi-level IVR, call recording, an auto-dialer and AI voice agents that can resolve routine calls on their own, plus AI analysis of every call. Business phone plans start at ₹9,999 for 5 months (3 agents), with a 7-day free trial and 500 credits.",
+    facts: [
+      ["Made by", "Exotel, Bengaluru"],
+      ["Best for", "Large institutes and edtechs with a counselling team and a CRM"],
+      ["Price", "Dabbler ₹9,999 (5 months) · Believer ₹19,999 (11 months) · Influencer ₹49,499 (11 months)"],
+      ["AI features", "AI voice and chat agents, AI Assist for counsellors, Conversation Quality Analysis"],
+      ["Languages", "Indian-language support varies by product — confirm yours in the demo"],
+      ["Works with", "Web, mobile · 150+ integrations incl. Zoho, Vtiger, Kapture, WebEngage · voice/SMS APIs"]
+    ],
+    whatIs: [
+      "Exotel is a Bengaluru-founded cloud telephony and contact-centre company. It powers calls for some of India's biggest brands and offers a ready <strong>Business Phone System</strong> for smaller teams: virtual numbers, IVR, call recording, auto-dialer and live dashboards, paid through prepaid credits shared across calls, SMS and WhatsApp.",
+      "On top of calling, Exotel has an AI layer: <strong>AI voice agents</strong> that handle routine calls (Exotel claims up to 75% containment), <strong>AI Assist</strong> that guides human agents during calls, and <strong>Conversation Quality Analysis</strong> that reviews every recorded call for quality and compliance."
+    ],
+    benefits: [
+      { title: "Built for high call volume", body: "During admission season, hundreds of enquiry calls can arrive in a day. Exotel's infrastructure is built for that scale, with routing so no caller hears an endless ring." },
+      { title: "AI answers routine questions", body: "An AI voice agent can answer repeat questions like batch timings, fees and address, and pass serious leads to a counsellor." },
+      { title: "Coach your counsellors", body: "Conversation Quality Analysis checks every call, so a centre head can see which counsellors explain fees well and which miss follow-ups — without listening to hundreds of recordings." },
+      { title: "Fits into your CRM", body: "With 150+ ready integrations and well-documented APIs, calls can log automatically in your CRM or student management system." },
+      { title: "Number masking for privacy", body: "Students, parents and faculty can talk without seeing each other's personal numbers — useful for home tutors and mentor calls." },
+      { title: "Try before you pay", body: "The 7-day free trial with 500 credits lets you test call flows with real calls before committing." }
+    ],
+    features: [
+      "Virtual numbers (local and toll-free) with multi-level IVR",
+      "Call recording, live dashboard, real-time analytics and auto-dialer",
+      "AI voice agents and AI chat agents",
+      "AI Assist (real-time guidance for agents) and Conversation Quality Analysis",
+      "Number masking, SMS and WhatsApp on the same credits",
+      "150+ integrations and voice/SMS APIs"
+    ],
+    howTo: {
+      heading: "How a coaching institute can set up Exotel",
+      steps: [
+        "Start the 7-day free trial on exotel.com and complete KYC for your virtual number.",
+        "Add counsellors as agents and build an IVR by course, exam or branch.",
+        "Connect your CRM so every call creates a lead with its recording.",
+        "Pick a plan by agent count: Dabbler for up to 3 counsellors, Believer for 6, Influencer for larger teams.",
+        "Talk to Exotel's team about AI voice agents for after-hours and peak-season calls.",
+        "Review call analytics weekly to spot missed calls and slow follow-ups."
+      ]
+    },
+    pricing: {
+      rows: [
+        ["Free trial", "₹0 for 7 days", "500 free credits, fully functional"],
+        ["Dabbler", "₹9,999 (5-month validity)", "1 virtual number, 3 agents, 5,000 credits, multi-level IVR"],
+        ["Believer", "₹19,999 (11-month validity)", "2 virtual numbers, 6 agents, 9,500 credits"],
+        ["Influencer", "₹49,499 (11-month validity)", "10 virtual numbers, unlimited agents, 39,000 credits"],
+        ["Enterprise contact centre & AI agents", "Custom quote", "AI voice agents, AI Assist, Conversation Quality Analysis"]
+      ],
+      note: "Business Phone System prices from Exotel's pricing page; they include rental and credits and exclude GST. AI products are quoted separately."
+    },
+    limitations: [
+      "Credit-based billing can be confusing — calls, SMS and WhatsApp all use the same credits.",
+      "AI voice agents and call analysis are enterprise products with custom pricing.",
+      "Some users report slow after-sales support and occasional call-quality issues.",
+      "More than a small single-centre institute usually needs."
+    ],
+    verdict: "Exotel is the strongest pick for large institutes and edtech teams that need scale, deep CRM integration and enterprise AI. Smaller institutes will get a simpler, cheaper start elsewhere.",
+    alternatives: ["myoperator", "tata-tele-smartflo", "knowlarity"],
+    relatedLinks: [{ lead: "Comparing options?", text: "See our guide to the best AI business phone tools for coaching institutes", href: "best-ai-business-phone-virtual-number-coaching-institutes-india.html" }],
+    faqs: [
+      { q: "What is Exotel?", a: "Exotel is an Indian cloud communication company offering virtual numbers, IVR, contact-centre software, AI voice agents and communication APIs." },
+      { q: "How much does Exotel cost?", a: "Exotel's Business Phone System starts at ₹9,999 for 5 months (Dabbler), with Believer at ₹19,999 and Influencer at ₹49,499 for 11 months. AI agents are priced on request." },
+      { q: "Does Exotel have a free trial?", a: "Yes. Exotel offers a 7-day fully functional free trial with 500 credits." },
+      { q: "Can Exotel's AI answer calls by itself?", a: "Yes. Exotel's AI voice agents can handle routine calls and transfer to a human agent when needed; Exotel says they can resolve up to 75% of calls." },
+      { q: "Is Exotel good for small coaching institutes?", a: "It works, but it is built for scale. A small institute with one or two counsellors may find simpler tools such as TalkEasy easier and cheaper." }
+    ],
+    sources: [
+      { label: "Exotel — Official website", url: "https://exotel.com/" },
+      { label: "Exotel — Business phone system pricing", url: "https://exotel.com/pricing/business-phone-system/" },
+      { label: "Prospeo — Exotel pricing, reviews, pros and cons", url: "https://prospeo.io/s/exotel-pricing-reviews-pros-and-cons" }
+    ]
+  },
+  {
+    slug: "knowlarity",
+    name: "Knowlarity",
+    audience: "institutes",
+    group: "business-phone",
+    lastChecked: "6 October 2026",
+    lastCheckedIso: "2026-10-06",
+    maker: "Knowlarity (a Gupshup company)",
+    url: "https://www.knowlarity.com/",
+    tagline: "Veteran Indian cloud telephony with IVR, voice bots, speech analytics and outbound calling to students and parents.",
+    priceChip: "7-day free trial",
+    metaTitle: "Knowlarity for Coaching Institutes: Virtual Number & AI",
+    metaDescription: "How coaching institutes use Knowlarity: virtual numbers, IVR, voice bots, speech analytics, outbound calls to parents, free trial and ₹ pricing guide.",
+    quickAnswer: "Knowlarity is a long-running Indian cloud telephony company, now part of Gupshup, used by 15,000+ organisations in 65 countries. Institutes use it for a virtual business number, IVR with regional-language greetings, call recording, missed-call solutions, automated outbound calls to students and parents, and AI speech analytics. There is a 7-day free trial; paid plans are quoted per agent (roughly ₹1,499–₹3,499 per agent per month) on yearly contracts.",
+    facts: [
+      ["Made by", "Knowlarity, acquired by Gupshup in 2022"],
+      ["Best for", "Institutes with steady inbound calls and outbound calling to parents"],
+      ["Price", "7-day free trial · about ₹1,499–₹3,499 per agent/month (yearly contract) · quote-based"],
+      ["AI features", "Voice bots, AI speech recognition and analytics"],
+      ["Languages", "Regional-language IVR greetings; AI language support on request"],
+      ["Works with", "Web, mobile · CRM integration via API · SMS and WhatsApp through Gupshup"]
+    ],
+    whatIs: [
+      "Knowlarity has offered cloud telephony in India for over a decade. Its products include virtual and toll-free numbers, IVR, call recording and tracking, click-to-call, missed-call services and hosted call-centre software. Its small-business number service is known as SuperReceptionist.",
+      "Since <strong>Gupshup</strong> acquired it in 2022, Knowlarity sits alongside Gupshup's messaging platform, so voice, SMS and WhatsApp can come from one group. Its AI features include <strong>voice bots</strong> and <strong>speech recognition and analytics</strong> on recorded calls, and its education offering highlights automated outbound calls to students and parents."
+    ],
+    benefits: [
+      { title: "Reach parents automatically", body: "Automated outbound calls can remind parents about fee dues, PTMs and exam dates, or run quick surveys — without counsellors dialling one by one." },
+      { title: "Missed-call campaigns", body: "Put a missed-call number on posters and newspaper ads; every caller is captured as a lead and called back." },
+      { title: "Local-language welcome", body: "Personalised IVR greetings can be recorded in the local language, so parents feel comfortable from the first second." },
+      { title: "Insights from call recordings", body: "Speech analytics and keyword rules help spot which calls mention fees, scholarships or complaints, and push them into your CRM." },
+      { title: "Proven at scale", body: "With 15,000+ organisations using it, the core calling system is mature and stable." }
+    ],
+    features: [
+      "Virtual, local and toll-free numbers",
+      "Multi-level IVR with personalised regional-language greetings",
+      "Call recording, tracking and reports",
+      "Missed-call and click-to-call solutions",
+      "Automated outbound calling for students and parents",
+      "Voice bots and AI speech analytics",
+      "CRM integration through transcripts, keywords and APIs"
+    ],
+    howTo: {
+      heading: "How a coaching institute can set up Knowlarity",
+      steps: [
+        "Start the 7-day free trial on knowlarity.com with your mobile number.",
+        "Choose a local, toll-free or missed-call number for admissions.",
+        "Record an IVR greeting in English plus your local language.",
+        "Set up outbound call campaigns for fee and exam reminders to parents.",
+        "Connect your CRM through Knowlarity's API so calls become leads.",
+        "Ask about voice bots and speech analytics once call volumes grow."
+      ]
+    },
+    pricing: {
+      rows: [
+        ["Free trial", "₹0 for 7 days", "Test a virtual number and IVR"],
+        ["Cloud call-centre plans", "About ₹1,499–₹3,499 per agent per month", "Depending on features; yearly commitment, paid quarterly in advance"],
+        ["Toll-free / prepaid number plans", "From about ₹16,800 per year", "Toll-free and prepaid number packages"],
+        ["Voice bots & analytics", "Custom quote", "AI add-ons priced on request"]
+      ],
+      note: "Knowlarity does not publish a price list; figures above are from independent 2026 reviews and may change. Click-to-call outbound minutes may be charged extra."
+    },
+    limitations: [
+      "No public price list, and contracts are usually yearly.",
+      "Fewer ready-made CRM connectors than newer tools; integration often needs developer help.",
+      "AI features are less advanced than AI-first tools.",
+      "Some users mention slow support responses."
+    ],
+    verdict: "Knowlarity is a dependable, mature option for institutes that mainly need solid inbound numbers, missed-call campaigns and automated calls to parents. Institutes wanting the newest AI features should compare it with MyOperator, Exotel or TalkEasy.",
+    alternatives: ["myoperator", "exotel", "talkeasy"],
+    relatedLinks: [{ lead: "Comparing options?", text: "See our guide to the best AI business phone tools for coaching institutes", href: "best-ai-business-phone-virtual-number-coaching-institutes-india.html" }],
+    faqs: [
+      { q: "What is Knowlarity?", a: "Knowlarity is an Indian cloud telephony company, part of Gupshup since 2022, offering virtual numbers, IVR, call-centre software, voice bots and speech analytics." },
+      { q: "Does Knowlarity have a free trial?", a: "Yes. Knowlarity offers a 7-day free trial that you can start with your mobile number." },
+      { q: "How much does Knowlarity cost?", a: "Pricing is quote-based. Independent 2026 reviews report roughly ₹1,499–₹3,499 per agent per month on yearly contracts, with toll-free packages from about ₹16,800 a year." },
+      { q: "How do institutes use Knowlarity?", a: "For admission enquiry numbers, missed-call campaigns, IVR in local languages, and automated outbound calls to students and parents for reminders and surveys." }
+    ],
+    sources: [
+      { label: "Knowlarity — Official website", url: "https://www.knowlarity.com/" },
+      { label: "Prospeo — Knowlarity pricing, reviews, pros and cons", url: "https://prospeo.io/s/knowlarity-pricing-reviews-pros-and-cons" },
+      { label: "Business Wire — Gupshup acquires Knowlarity (2022)", url: "https://www.businesswire.com/news/home/20220202005136/pl" }
+    ]
+  },
+  {
+    slug: "talkeasy",
+    name: "TalkEasy",
+    shortName: "TalkEasy",
+    audience: "institutes",
+    group: "business-phone",
+    lastChecked: "6 October 2026",
+    lastCheckedIso: "2026-10-06",
+    maker: "GrowEasy",
+    url: "https://talk.groweasy.ai/",
+    tagline: "AI-first business phone at ₹999/month: virtual number, AI call answering, summaries, built-in CRM and unlimited team members.",
+    priceChip: "₹999/month + GST",
+    metaTitle: "TalkEasy for Coaching Institutes: AI Business Phone ₹999",
+    metaDescription: "How coaching institutes use TalkEasy by GrowEasy: virtual number, 24/7 AI call answering, AI call summaries, built-in CRM, Zoho integration and ₹999 pricing.",
+    quickAnswer: "TalkEasy, by GrowEasy, is an AI-first business phone for Indian businesses, used by 2,500+ businesses. It gives an institute a virtual business number, AI that answers calls 24/7 and collects the caller's details, automatic call recording and AI summaries, missed-call follow-ups, IVR, WhatsApp, multi-language support and its own built-in CRM, with integrations such as Zoho CRM and LeadSquared. The Pro plan is ₹999 + GST a month with 3 hours of talk time a day and unlimited team members.",
+    facts: [
+      ["Made by", "GrowEasy, India"],
+      ["Best for", "Small and growing institutes that want AI call handling at a low, fixed price"],
+      ["Price", "Pro ₹999/month + GST (3 hrs talk time/day, extra ₹49/hr) · Enterprise custom"],
+      ["AI features", "24/7 AI call answering, AI call summaries and insights, missed-call automation"],
+      ["Languages", "Multiple Indian languages"],
+      ["Works with", "Web, Android, iPhone · built-in CRM · Zoho CRM, LeadSquared, HubSpot, Salesforce, Freshsales and more"]
+    ],
+    whatIs: [
+      "TalkEasy is the business-calling product from GrowEasy, an Indian company that builds AI marketing and sales tools for small businesses. It is designed to be set up in minutes: you get a professional business number that works on your team's phones and on the web, with no hardware.",
+      "What makes it different is that it is <strong>AI-first and simply priced</strong>. AI answers calls when nobody is free, every call is recorded and summarised automatically, missed calls trigger follow-ups, and leads land in TalkEasy's <strong>own CRM</strong> or in tools like <strong>Zoho CRM</strong> and LeadSquared. It also supports IVR, WhatsApp and multiple Indian languages — all on a ₹999-a-month plan with unlimited users."
+    ],
+    benefits: [
+      { title: "No more lost admission calls", body: "When counsellors are busy or the centre is closed, TalkEasy's AI answers the call, captures the student's name, course and city, and the missed-call automation makes sure a callback happens." },
+      { title: "Know what every call was about", body: "AI call summaries tell the centre head what a parent asked and what was promised — without listening to recordings. TalkEasy's customers report saving 10+ hours a week on call reviews." },
+      { title: "Affordable for single-centre institutes", body: "At ₹999 + GST a month with unlimited team members, a small institute can give every counsellor and faculty member the same professional number." },
+      { title: "Leads stay with the institute", body: "Calls run through the institute's number and land in the built-in CRM, so a counsellor leaving doesn't take your enquiries with them." },
+      { title: "Works with your existing CRM", body: "Already on Zoho CRM or LeadSquared? TalkEasy connects to them, so calls and summaries sync to the lead record." },
+      { title: "Set up in minutes", body: "No hardware or long onboarding — TalkEasy says setup takes under 2 minutes, which suits owners who run the institute themselves." }
+    ],
+    features: [
+      "Virtual business number on Android, iPhone and web",
+      "24/7 AI call answering that collects caller details",
+      "Automatic call recording, AI call summaries and insights",
+      "Missed-call automation: callbacks, notifications and follow-ups",
+      "IVR, WhatsApp and multi-language support",
+      "Built-in CRM and shared business inbox",
+      "Integrations: Zoho CRM, LeadSquared, HubSpot, Salesforce, Freshsales, Telecrm, Kylas, Neodove",
+      "Unlimited team members with a central analytics dashboard"
+    ],
+    howTo: {
+      heading: "How a coaching institute can set up TalkEasy",
+      steps: [
+        "Sign up at talk.groweasy.ai and pick a business number for admissions.",
+        "Install the TalkEasy app on each counsellor's phone and add them to your team.",
+        "Set an IVR menu and the AI answering script: courses, batch timings, fee range and centre address.",
+        "Turn on missed-call automation so every missed enquiry gets a callback or message.",
+        "Use the built-in CRM, or connect Zoho CRM or LeadSquared, so every call becomes a lead.",
+        "Read AI call summaries each evening to check follow-ups and coach your team."
+      ]
+    },
+    pricing: {
+      rows: [
+        ["Pro", "₹999/month + GST", "3 hours talk time per day, unlimited users and contacts, AI call assist, recording, analytics, team management"],
+        ["Extra talk time", "₹49/hour + GST", "Beyond the daily 3 hours"],
+        ["Enterprise", "Custom quote", "Unlimited talk time, customisation and CRM integrations"]
+      ],
+      note: "Prices are from TalkEasy's official website and exclude GST."
+    },
+    limitations: [
+      "A newer product than MyOperator, Exotel or Knowlarity, with fewer independent reviews so far.",
+      "The Pro plan's 3 hours of talk time a day may not be enough for a large counselling team in peak season; extra hours or Enterprise cost more.",
+      "Very large institutes needing contact-centre features like skill-based routing may prefer an enterprise platform."
+    ],
+    verdict: "TalkEasy is the best-value AI business phone for small and growing coaching institutes: the core AI features institutes need — answering, summaries, missed-call follow-up and a CRM — at a fixed ₹999 a month with unlimited users. Large multi-branch chains should compare it with MyOperator and Exotel.",
+    alternatives: ["myoperator", "knowlarity", "interakt"],
+    relatedLinks: [
+      { lead: "Want the full picture?", text: "Read our in-depth TalkEasy review", href: "review-talkeasy.html" },
+      { lead: "Comparing options?", text: "See our guide to the best AI business phone tools for coaching institutes", href: "best-ai-business-phone-virtual-number-coaching-institutes-india.html" }
+    ],
+    faqs: [
+      { q: "What is TalkEasy?", a: "TalkEasy is an AI business phone by GrowEasy that gives businesses a virtual number, 24/7 AI call answering, call recording, AI summaries, missed-call automation and a built-in CRM." },
+      { q: "How much does TalkEasy cost?", a: "The Pro plan is ₹999 + GST a month with 3 hours of talk time a day and unlimited team members. Extra talk time is ₹49 + GST an hour, and Enterprise pricing is custom." },
+      { q: "Does TalkEasy have a CRM?", a: "Yes. TalkEasy has its own built-in CRM and also integrates with Zoho CRM, LeadSquared, HubSpot, Salesforce, Freshsales and others." },
+      { q: "Does TalkEasy support IVR and WhatsApp?", a: "Yes. TalkEasy supports IVR, WhatsApp and multiple Indian languages." },
+      { q: "Is TalkEasy good for coaching institutes?", a: "Yes, especially for small and growing institutes. It answers enquiry calls with AI, summarises every call and follows up on missed calls at a fixed low monthly price." }
+    ],
+    sources: [
+      { label: "TalkEasy — Official website", url: "https://talk.groweasy.ai/" },
+      { label: "OffBuddy — Best AI business phone systems in India (2026)", url: "https://www.offbuddy.com/blog/best-ai-business-phone-india/" }
+    ]
+  },
+  {
+    slug: "tata-tele-smartflo",
+    name: "Tata Tele Smartflo",
+    shortName: "Smartflo",
+    audience: "institutes",
+    group: "business-phone",
+    lastChecked: "6 October 2026",
+    lastCheckedIso: "2026-10-06",
+    maker: "Tata Tele Business Services",
+    url: "https://www.tatatelebusiness.com/features/smartflo-call-center-solutions/",
+    tagline: "Tata-backed cloud calling and contact centre with Smartflo AI voice bots for admissions and student support.",
+    priceChip: "Quote-based",
+    metaTitle: "Tata Tele Smartflo for Institutes: AI Voice Bot & Calling",
+    metaDescription: "How coaching institutes and colleges use Tata Tele Smartflo: virtual numbers, IVR, AI voice bot for admissions, WhatsApp, CRM integration and pricing.",
+    quickAnswer: "Smartflo is the cloud communication platform from Tata Tele Business Services (TTBS), part of the Tata group. It gives institutes virtual numbers, multi-level IVR, intelligent call routing, call recording and a full cloud contact centre, plus Smartflo AI voice bots that answer admission enquiries 24/7, qualify leads and work alongside WhatsApp. TTBS has published case studies with colleges, edtechs and training institutes. Pricing is quote-based; contact-centre licences are listed from about ₹950 per user per month.",
+    facts: [
+      ["Made by", "Tata Tele Business Services (Tata group)"],
+      ["Best for", "Multi-campus institutes, colleges and edtechs wanting a telecom-grade provider"],
+      ["Price", "Quote-based · contact-centre licences from about ₹950–₹1,250/user/month"],
+      ["AI features", "Smartflo AI voice bot, lead qualification, intelligent routing"],
+      ["Languages", "Multilingual support for regional engagement"],
+      ["Works with", "Web, desktop, Android, iPhone · CRM integration · WhatsApp"]
+    ],
+    whatIs: [
+      "Smartflo is the cloud telephony and contact-centre suite of <strong>Tata Tele Business Services</strong>, the business arm of Tata Teleservices. Because TTBS is itself a licensed telecom operator, the numbers, network and calling all come from one provider.",
+      "For education, TTBS promotes <strong>Smartflo AI</strong>: voice bots that respond to admission enquiries 24/7, guide applicants on courses and eligibility, send fee and exam reminders, and route serious callers to counsellors with their history. TTBS has published education case studies, including an institution that improved enrolments with the Smartflo AI voice bot and a Pune higher-education institute that built a student helpline."
+    ],
+    benefits: [
+      { title: "Telecom-grade reliability", body: "Numbers and network come from a Tata group telecom operator, which matters to large institutes for whom a calling outage in admission season is costly." },
+      { title: "AI voice bot for admissions", body: "Smartflo AI answers enquiries instantly, qualifies leads and books counselling appointments, so peak-season call spikes don't overwhelm staff." },
+      { title: "Right counsellor, first time", body: "Intelligent call routing sends callers to the right campus, course team or counsellor based on skills or priority, with past interaction history." },
+      { title: "Full contact centre for big teams", body: "Live call monitoring, supervisor dashboards and remote agents let a central admissions team work from anywhere." },
+      { title: "Across the student lifecycle", body: "Beyond admissions, the same system can handle fee reminders, exam notifications, placement updates and alumni outreach." }
+    ],
+    features: [
+      "Virtual and toll-free numbers with multi-level IVR",
+      "Intelligent, skill-based call routing",
+      "Call recording, live monitoring and real-time analytics",
+      "Smartflo AI voice bot for 24/7 enquiries and lead qualification",
+      "Omnichannel: voice, WhatsApp, email and chat",
+      "CRM integration and remote agent access"
+    ],
+    howTo: {
+      heading: "How an institute can set up Tata Tele Smartflo",
+      steps: [
+        "Request a demo and quote from Tata Tele Business Services.",
+        "Choose numbers and agent licences for your admissions and support teams.",
+        "Design IVR and routing by campus, programme and language.",
+        "Integrate Smartflo with your CRM or student information system.",
+        "Add the Smartflo AI voice bot for after-hours and peak-season enquiries.",
+        "Use dashboards and call recordings to train counsellors."
+      ]
+    },
+    pricing: {
+      rows: [
+        ["Contact-centre agent licences", "About ₹950–₹1,250 per user per month", "As listed on TTBS's call-centre page, plus platform fees for larger setups"],
+        ["Smartflo AI voice bot", "Custom quote", "AI voice bot, lead qualification and automation"],
+        ["Business numbers and IVR", "Quote-based", "Virtual and toll-free numbers"]
+      ],
+      note: "TTBS does not publish a complete price list; ask for a quote that includes numbers, licences, minutes and AI."
+    },
+    limitations: [
+      "No self-serve sign-up or published small-business price; you go through a sales process.",
+      "Built for medium and large organisations — heavy for a single small centre.",
+      "AI features and languages need to be confirmed in a demo."
+    ],
+    verdict: "Smartflo suits multi-campus institutes, colleges and edtechs that value a Tata-group telecom provider and want an AI voice bot plus a full contact centre. Small institutes will find TalkEasy or MyOperator faster to start.",
+    alternatives: ["exotel", "myoperator", "knowlarity"],
+    relatedLinks: [{ lead: "Comparing options?", text: "See our guide to the best AI business phone tools for coaching institutes", href: "best-ai-business-phone-virtual-number-coaching-institutes-india.html" }],
+    faqs: [
+      { q: "What is Tata Tele Smartflo?", a: "Smartflo is the cloud telephony and contact-centre platform of Tata Tele Business Services, with virtual numbers, IVR, call routing, analytics and Smartflo AI voice bots." },
+      { q: "Does Smartflo have an AI voice bot for education?", a: "Yes. Tata Tele Business Services offers the Smartflo AI voice bot for admission enquiries and student support, and has published education case studies." },
+      { q: "How much does Smartflo cost?", a: "Pricing is quote-based. TTBS lists contact-centre agent licences from about ₹950–₹1,250 per user per month; AI voice bots are priced on request." },
+      { q: "Is Smartflo suitable for small coaching institutes?", a: "It can work, but it is designed for medium and large organisations. Small institutes usually start faster with simpler tools like TalkEasy." }
+    ],
+    sources: [
+      { label: "TTBS — Smartflo call centre solutions", url: "https://www.tatatelebusiness.com/features/smartflo-call-center-solutions/" },
+      { label: "TTBS — Educational institution improves enrolments with Smartflo AI voice bot", url: "https://www.tatatelebusiness.com/case-studies/educational-institution-improves-enrolments-with-smartflo-ai-voice-bot/" },
+      { label: "TTBS — The intelligent campus: Smartflo AI in education", url: "https://www.tatatelebusiness.com/articles/intelligent-campus-smartflo-ai-student-engagement/" }
     ]
   }
 ];

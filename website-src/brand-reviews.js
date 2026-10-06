@@ -550,4 +550,83 @@ module.exports = [
       { label: "Xtraordinary Speakers Academy", url: "https://superchargeskills.com/", icon: "★" }
     ]
   }
+  ,
+  {
+    slug: "talkeasy",
+    tool: { name: "TalkEasy", url: "https://talk.groweasy.ai/", guideSlug: "talkeasy", category: "AI business phone", priceNote: "Pro plan ₹999/month + GST · by GrowEasy" },
+    whyChooseHeading: "Why Coaching Institutes Choose TalkEasy",
+    testimonialsHeading: "What Customers Are Saying",
+    relatedLinks: [
+      { label: "Best AI business phones for institutes", href: "best-ai-business-phone-virtual-number-coaching-institutes-india.html" },
+      { label: "All AI tools for institutes", href: "ai-tools.html#for-institutes" }
+    ],
+    metaTitle: "TalkEasy Review 2026: AI Business Phone for Institutes",
+    metaDescription: "Our TalkEasy by GrowEasy review: virtual number, 24/7 AI call answering, AI call summaries, built-in CRM, Zoho integration and ₹999/month pricing for institutes.",
+    headline: "TalkEasy Review: An AI Business Phone That Small Institutes Can Actually Afford",
+    subheadline: "A virtual business number, AI that answers and summarises every call, missed-call follow-ups and a built-in CRM — for ₹999 a month with unlimited team members. Here's how it works for coaching institutes.",
+    verdictRating: 4.5,
+    verdictSummary: "TalkEasy, by GrowEasy, packs the features an institute actually needs to stop losing admission calls — a professional number, 24/7 AI call answering, automatic recording and AI summaries, missed-call automation, IVR, WhatsApp and its own CRM — into one simple ₹999-a-month plan with unlimited users. It is the best-value AI business phone we found for small and growing institutes.",
+    ratingsBreakdown: [
+      { factor: "Value for money", rating: 4.8, why: "₹999 + GST a month with 3 hours of daily talk time and unlimited team members, against ₹5,000+ a month for most established platforms" },
+      { factor: "AI features", rating: 4.6, why: "24/7 AI call answering, AI call summaries and insights, and automatic missed-call follow-ups are included, not sold as add-ons" },
+      { factor: "Ease of setup", rating: 4.7, why: "Works on Android, iPhone and web with no hardware; TalkEasy says setup takes under 2 minutes" },
+      { factor: "Integrations", rating: 4.4, why: "Built-in CRM plus Zoho CRM, LeadSquared, HubSpot, Salesforce, Freshsales, Telecrm, Kylas and Neodove" },
+      { factor: "Scale for large chains", rating: 4.0, why: "Newer than the big contact-centre platforms; very large multi-branch teams should test peak-season volumes on the Enterprise plan" }
+    ],
+    bestFor: "Single-centre and growing coaching institutes, tutors and training centres that get most admissions over the phone and want every enquiry answered, recorded and followed up — without enterprise pricing or a long setup.",
+    whatIs: [
+      "TalkEasy (talk.groweasy.ai) is the business-calling product from GrowEasy, an Indian company that builds AI marketing and sales tools for small and growing businesses. It gives a business a professional virtual number that the whole team can use from the TalkEasy app on Android and iPhone, or from the web, with no hardware or phone lines to buy.",
+      "Around that number, TalkEasy adds AI: calls are answered 24/7 when nobody is free, every conversation is recorded and summarised, missed calls trigger automatic callbacks and follow-ups, and every caller lands in TalkEasy's own CRM or in tools like Zoho CRM and LeadSquared. TalkEasy says it is used by 2,500+ businesses and manages 5,000+ business calls a day."
+    ],
+    whyChoose: [
+      {
+        title: "It solves the missed-admission-call problem.",
+        body: "For most coaching institutes, the phone is still where admissions start — and the busiest hours (evenings, weekends, result days) are exactly when counsellors can't pick up. TalkEasy handles this in three ways:",
+        list: [
+          "AI answers the call 24/7 and collects the student's name, course interest and city",
+          "Missed-call automation sends a callback, notification or follow-up every time a call is missed",
+          "The enquiry is saved in the CRM so nobody has to remember to call back"
+        ],
+        after: "As one TalkEasy customer puts it on the company's website, \"We stopped losing leads to missed calls.\""
+      },
+      {
+        title: "Owners can see what happened on every call.",
+        body: "AI call summaries tell the centre head what each parent asked and what was promised, without listening to recordings. A real-time dashboard shows call volume, missed calls, response rates and each counsellor's performance — useful for training new counsellors."
+      },
+      {
+        title: "Your leads stay yours.",
+        body: "Because every call runs through the institute's number and is stored in TalkEasy, a counsellor who leaves doesn't walk away with your enquiry list on their personal phone."
+      },
+      {
+        title: "It fits the tools you already use.",
+        body: "Institutes can start with TalkEasy's built-in CRM, or connect it to the CRM they already run:",
+        list: ["Zoho CRM", "LeadSquared", "HubSpot", "Salesforce", "Freshsales", "Telecrm, Kylas and Neodove"],
+        after: "IVR menus, WhatsApp and multi-language support round out what an institute needs to handle parents across a city."
+      }
+    ],
+    pricingTable: [
+      { program: "Pro", included: "Virtual number, 3 hours talk time per day, unlimited users and contacts, AI call assist and summaries, recording, analytics, team management", investment: "₹999/month + GST" },
+      { program: "Extra talk time", included: "Talk time beyond the daily 3 hours on Pro", investment: "₹49/hour + GST" },
+      { program: "Enterprise", included: "Unlimited talk time, customisation and CRM integrations", investment: "Custom quote" }
+    ],
+    placementNote: "Prices are from TalkEasy's official website at the time of writing and exclude GST. For a typical single-centre institute, the Pro plan's 3 hours of daily talk time covers routine admission calls; large counselling teams in peak season should ask about Enterprise.",
+    testimonials: [
+      { quote: "The AI summaries and analytics help us coach our team better. We save 10+ hours every week on call reviews.", author: "Rohit Sharma, business owner (testimonial on TalkEasy's website)" },
+      { quote: "We stopped losing leads to missed calls. Every enquiry now gets a callback the same day, automatically.", author: "Priya Mehta, business owner (testimonial on TalkEasy's website)" },
+      { quote: "Setting up numbers for the whole sales floor took an afternoon. The shared inbox alone was worth it.", author: "Nidhi Singh, business owner (testimonial on TalkEasy's website)" }
+    ],
+    archiveNote: "Testimonials are quoted from TalkEasy's official website.",
+    faqs: [
+      { q: "What is TalkEasy?", a: "TalkEasy is an AI business phone by GrowEasy. It gives businesses a virtual number, 24/7 AI call answering, call recording, AI call summaries, missed-call automation, IVR, WhatsApp and a built-in CRM." },
+      { q: "How much does TalkEasy cost?", a: "The Pro plan costs ₹999 + GST a month and includes 3 hours of talk time per day and unlimited team members. Extra talk time is ₹49 + GST an hour. Enterprise pricing is custom." },
+      { q: "Is TalkEasy good for coaching institutes?", a: "Yes, especially for small and growing institutes. It answers admission calls with AI when counsellors are busy, summarises every call, follows up on missed calls and stores every enquiry in a CRM at a fixed low price." },
+      { q: "Does TalkEasy integrate with Zoho CRM and LeadSquared?", a: "Yes. TalkEasy has its own CRM and also integrates with Zoho CRM, LeadSquared, HubSpot, Salesforce, Freshsales, Telecrm, Kylas and Neodove." },
+      { q: "Does TalkEasy support IVR, WhatsApp and Indian languages?", a: "Yes. TalkEasy supports IVR menus, WhatsApp and multiple Indian languages." },
+      { q: "How does TalkEasy compare with MyOperator and Exotel?", a: "MyOperator and Exotel are larger platforms built for big teams and contact centres, with plans starting around ₹5,000 a month or more. TalkEasy offers the core AI features — call answering, summaries, missed-call automation and CRM — at ₹999 a month, which suits smaller institutes better." }
+    ],
+    bottomLine: "Most coaching institutes don't need a full contact centre — they need every admission call answered, recorded and followed up. TalkEasy does exactly that with AI, includes a CRM and IVR, works with Zoho and LeadSquared, and costs ₹999 a month for the whole team. For small and growing institutes it is the easiest and best-value way to stop losing admissions on the phone; large multi-branch chains should compare it with MyOperator and Exotel before deciding.",
+    backlinks: [
+      { label: "Official website", url: "https://talk.groweasy.ai/", icon: "↗" }
+    ]
+  }
 ];

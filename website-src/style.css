@@ -496,6 +496,10 @@ body.nav-open .main-nav{display:flex}
 .ai-compare{max-width:none;margin-top:34px}
 .ai-compare h3{font-family:var(--serif);font-size:1.2rem;font-weight:600}
 .ai-compare td a{font-weight:600}
+.ai-compare h4{font-family:var(--serif);font-size:1.1rem;font-weight:600;margin:0 0 10px}
+.ai-group{margin-top:44px;scroll-margin-top:84px}
+.ai-group-h{font-family:var(--serif);font-weight:600;font-size:clamp(1.2rem,2vw,1.45rem);margin:0 0 6px}
+.ai-group-jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
 .ai-hero-cta{margin-top:16px}
 .ai-article{max-width:none}
 .ai-steps{padding-left:22px;color:#3c4258}

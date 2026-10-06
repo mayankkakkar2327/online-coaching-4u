@@ -729,6 +729,7 @@ const BLOG_EXAMS = [
   { key: "govt-exams", label: "SSC, Defence & Govt Exams", cats: ["SSC", "SSC / Govt Exams", "NDA / CDS", "Banking", "Railways", "Govt Exams"], exam: "ssc", intro: "SSC, NDA/CDS, banking and other government-exam updates, with advice on when coaching actually helps." },
   { key: "ca", label: "CA & Commerce", cats: ["CA", "CA / Commerce", "CMA", "CS"], exam: "ca", intro: "CA, CS and CMA preparation guides and comparisons of commerce coaching institutes." },
   { key: "gate", label: "GATE & Science PG", cats: ["GATE", "CSIR NET / IIT JAM / GATE Maths", "CSIR NET", "IIT JAM", "CUET PG"], exam: "gate", intro: "GATE, CSIR-NET and IIT JAM news, exam overviews and coaching comparisons." },
+  { key: "ai-tools", label: "AI Tools for Education", cats: ["AI Tools", "AI Tools for Education"], exam: "", intro: "Researched comparisons of AI tools that help coaching institutes teach, test, handle admissions and talk to students and parents." },
   { key: "guidance", label: "Guidance & Certifications", cats: ["Guidance", "City Guides", "Certification", "Study Tips"], exam: "", intro: "How to choose a coaching institute, moving to a coaching city, and professional certification comparisons." }
 ];
 const BLOG_TYPES = [
@@ -843,13 +844,13 @@ ${redditBlock}
 </article>`;
   }).join("");
   const brandCards = BRAND_REVIEWS.map(rv => {
-    const x = L.find(o => o.slug === rv.slug);
+    const x = reviewSubject(rv);
     if (!x) return "";
     const cityL = cityLabel(x.city);
     return `<article class="card review-hub-card">
 <div class="rhc-head">
 <span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
-<div><h2><a href="review-${x.slug}.html">${esc(x.name)}</a></h2><div class="muted">${x.city === "online" ? "Online" : cityL} · Full editorial review</div></div>
+<div><h2><a href="review-${x.slug}.html">${esc(x.name)}</a></h2><div class="muted">${x.isTool ? esc(x.toolCategory) : x.city === "online" ? "Online" : cityL} · Full editorial review</div></div>
 </div>
 <div class="rhc-ratings"><span class="rating-chip"><span class="star">★</span> ${rv.verdictRating.toFixed(1)} <span class="muted">our rating</span></span></div>
 <div class="rhc-platform"><p class="rhc-empty" style="font-style:normal;color:var(--ink-2)">${esc(rv.verdictSummary)}</p></div>
@@ -878,12 +879,21 @@ ${redditBlock}
    lives in brand-reviews.js; x is the matching data.json listing (name,
    website, ratings, enquiry form). Only called for slugs present in both
    files — see the write loop near the bottom of this file. */
+/* A brand review can cover a data.json listing (institute/certification/coach)
+   or, when rv.tool is set, a software tool that has no listing (e.g. an AI
+   business-phone tool reviewed for institutes). */
+function reviewSubject(rv) {
+  const x = L.find(o => o.slug === rv.slug);
+  if (x) return x;
+  if (rv.tool) return { slug: rv.slug, name: rv.tool.name, website: rv.tool.url, city: "online", isTool: true, toolGuide: rv.tool.guideSlug, toolCategory: rv.tool.category || "Software tool" };
+  return null;
+}
 function starLine(n) {
   return `<span class="star">★</span> ${Number(n).toFixed(1)}`;
 }
 function brandReviewPage(rv, x) {
   const cityL = cityLabel(x.city);
-  const ownChip = x.ratingCount
+  const ownChip = x.isTool ? "" : x.ratingCount
     ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"} on ${esc(B.name)}</span></span>`
     : `<span class="rating-chip"><span class="muted">No student reviews yet on ${esc(B.name)}</span></span>`;
   const ratingsRows = rv.ratingsBreakdown.map(r => `<tr><td>${esc(r.factor)}</td><td>${starLine(r.rating)}</td><td>${esc(r.why)}</td></tr>`).join("");
@@ -899,7 +909,7 @@ ${rv.resultsSection.tableRows ? `<p>${esc(rv.resultsSection.tableIntro)}</p>
 <table><thead><tr>${rv.resultsSection.tableHeaders.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rv.resultsSection.tableRows.map(row => `<tr>${row.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>` : ""}
 <p>${esc(rv.resultsSection.closingNote)}</p>` : "";
   const pricingRows = (rv.pricingTable || []).map(p => `<tr><td>${esc(p.program)}</td><td>${esc(p.included)}</td><td>${esc(p.investment)}</td></tr>`).join("");
-  const testimonialsHtml = rv.testimonials.map(t => `<div class="rhc-quote brand-quote">“${esc(t.quote)}”<span class="quote-author">— ${esc(t.author)}</span></div>`).join("");
+  const testimonialsHtml = (rv.testimonials || []).map(t => `<div class="rhc-quote brand-quote">“${esc(t.quote)}”<span class="quote-author">— ${esc(t.author)}</span></div>`).join("");
   const faqHtml = rv.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("");
   const inlineBacklinks = rv.backlinks.map(b => `<a href="${b.url}" rel="noopener nofollow"><span class="ic">${b.icon || "↗"}</span> ${esc(b.label)}</a>`).join("");
   const sideBacklinks = rv.backlinks.map(b => `<a class="action" href="${b.url}" rel="noopener nofollow"><span class="ic">${b.icon || "↗"}</span> ${esc(b.label)} <span class="arr">→</span></a>`).join("");
@@ -909,7 +919,7 @@ ${rv.resultsSection.tableRows ? `<p>${esc(rv.resultsSection.tableIntro)}</p>
   };
   const reviewLd = Object.assign({
     "@context": "https://schema.org", "@type": "Review",
-    itemReviewed: Object.assign({ "@type": "EducationalOrganization", name: x.name }, x.website ? { url: x.website } : {}),
+    itemReviewed: Object.assign(x.isTool ? { "@type": "SoftwareApplication", name: x.name, applicationCategory: "BusinessApplication", operatingSystem: "Web, Android, iOS" } : { "@type": "EducationalOrganization", name: x.name }, x.website ? { url: x.website } : {}),
     reviewRating: { "@type": "Rating", ratingValue: rv.verdictRating, bestRating: 5 },
     author: { "@type": "Organization", name: B.name },
     publisher: { "@type": "Organization", name: B.name }
@@ -935,13 +945,13 @@ ${rv.resultsSection.tableRows ? `<p>${esc(rv.resultsSection.tableIntro)}</p>
 <div class="callout"><strong>Best for:</strong> ${esc(rv.bestFor)}</div>
 <h2>What Is ${esc(x.name)}?</h2>
 ${rv.whatIs.map(p => `<p>${esc(p)}</p>`).join("")}
-${whyChooseHtml ? `<h2>Why Learners Choose ${esc(x.name)}</h2>${whyChooseHtml}` : ""}
+${whyChooseHtml ? `<h2>${rv.whyChooseHeading ? esc(rv.whyChooseHeading) : `Why Learners Choose ${esc(x.name)}`}</h2>${whyChooseHtml}` : ""}
 ${resultsHtml}
 <h2>Pricing</h2>
-${rv.pricingTable ? `<table><thead><tr><th>Program</th><th>What's included</th><th>Investment</th></tr></thead><tbody>${pricingRows}</tbody></table>` : ""}
+${rv.pricingTable ? `<table><thead><tr><th>${x.isTool ? "Plan" : "Program"}</th><th>What's included</th><th>Investment</th></tr></thead><tbody>${pricingRows}</tbody></table>` : ""}
 <p>${esc(rv.placementNote)}</p>
-<h2>What Alumni Are Saying</h2>
-${testimonialsHtml}
+${testimonialsHtml ? `<h2>${esc(rv.testimonialsHeading || "What Alumni Are Saying")}</h2>
+${testimonialsHtml}` : ""}
 <p>${esc(rv.archiveNote)}</p>
 <div class="rhc-links">${inlineBacklinks}</div>
 <h2>FAQ</h2>
@@ -953,7 +963,12 @@ ${faqHtml}
 <script type="application/ld+json">${JSON.stringify(faqLd)}</script>
 </div>
 <aside class="detail-side">
-<div class="side-card">
+${x.isTool ? `<div class="side-card">
+<h3>Try ${esc(x.name)}</h3>
+<p class="muted">${esc(rv.tool.priceNote || "")}</p>
+<div style="margin-top:16px"><a class="btn btn-gold" href="${x.website}" target="_blank" rel="noopener nofollow">Visit ${esc(x.name)} ↗</a></div>
+<p class="muted" style="margin-top:12px">Opens the official website in a new tab.</p>
+</div>` : `<div class="side-card">
 <h3>Talk to ${esc(x.name)}</h3>
 <p class="muted">Free callback via our counselling team — no spam, ever.</p>
 <form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
@@ -967,10 +982,11 @@ ${faqHtml}
 <label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
 <button class="btn btn-gold" type="submit">Request a callback</button>
 </form>
-</div>
+</div>`}
 <div class="side-actions">
 ${sideBacklinks}
-<a class="action" href="institute-${x.slug}.html"><span class="ic">≡</span> Full profile <span class="arr">→</span></a>
+${x.isTool ? (x.toolGuide ? `<a class="action" href="ai-tools-${x.toolGuide}.html"><span class="ic">≡</span> ${esc(x.name)} guide for institutes <span class="arr">→</span></a>` : "") : `<a class="action" href="institute-${x.slug}.html"><span class="ic">≡</span> Full profile <span class="arr">→</span></a>`}
+${(rv.relatedLinks || []).map(l => `<a class="action" href="${l.href}"><span class="ic">≡</span> ${esc(l.label)} <span class="arr">→</span></a>`).join("")}
 <a class="action" href="reviews.html"><span class="ic">≡</span> All review pages <span class="arr">→</span></a>
 </div>
 </aside>
@@ -986,6 +1002,16 @@ const aiToolFile = (t) => `ai-tools-${t.slug}.html`;
 const aiShort = (t) => t.shortName || t.name;
 const AI_LAST_CHECKED = "27 September 2026";
 const AI_LAST_CHECKED_ISO = "2026-09-27";
+/* Institute tools are grouped into categories on the hub (t.group). */
+const AI_GROUPS = {
+  institutes: [
+    { key: "teaching", title: "Teaching, content & tests", intro: "Save faculty time on lesson plans, worksheets and quizzes, and run fair online tests." },
+    { key: "communication", title: "Admissions & WhatsApp communication", intro: "Answer admission enquiries and send fee, class and exam reminders on WhatsApp." },
+    { key: "business-phone", title: "AI business phone & virtual numbers", intro: "One professional number for the whole institute, with AI that answers, records, summarises and follows up on every enquiry call.", guide: { href: "best-ai-business-phone-virtual-number-coaching-institutes-india", text: "Read our full comparison of AI business phone tools for institutes" } }
+  ]
+};
+const aiChecked = (t) => t.lastChecked || AI_LAST_CHECKED;
+const aiCheckedIso = (t) => t.lastCheckedIso || AI_LAST_CHECKED_ISO;
 const tableWrap = (inner) => `<div class="table-scroll"><table>${inner}</table></div>`;
 function aiVisitBtn(t, cls) {
   return `<a class="btn ${cls || "btn-gold"}" href="${t.url}" target="_blank" rel="noopener nofollow">Visit ${esc(aiShort(t))} ↗</a>`;
@@ -1011,8 +1037,9 @@ function aiCompareTable(list) {
 }
 const AI_HUB_FAQS = [
   { q: "Which AI tool is best for students in India?", a: "For most students, Google Gemini is the best free starting point: it has step-by-step Guided Learning and free full-length JEE Main mock tests. Gemini Notebook (formerly NotebookLM) is best for revising from NCERT or your own notes, PW AI Guru is best for JEE/NEET doubts in Hinglish, and Perplexity is best for UPSC current affairs with sources." },
-  { q: "Are these AI tools free?", a: "Gemini, Gemini Notebook, ChatGPT and Perplexity all have useful free plans, and PW AI Guru comes at no extra cost for PW students. For institutes, Wayground, MagicSchool AI and Khanmigo for Teachers have free plans; Eklavvya and Interakt are paid, with a free demo or trial." },
-  { q: "Which AI tools can coaching institutes use?", a: "Wayground for quick quizzes and practice tests, Eklavvya for proctored online exams and AI checking of answer sheets, MagicSchool AI and Khanmigo for teacher preparation (lesson plans, worksheets, assessments), and Interakt for WhatsApp admission enquiries and reminders." },
+  { q: "Are these AI tools free?", a: "Gemini, Gemini Notebook, ChatGPT and Perplexity all have useful free plans, and PW AI Guru comes at no extra cost for PW students. For institutes, Wayground, MagicSchool AI and Khanmigo for Teachers have free plans; Eklavvya and Interakt are paid, with a free demo or trial. AI business phone tools are paid: TalkEasy starts at ₹999 a month, MyOperator at ₹5,000 a month (billed yearly), and Exotel and Knowlarity offer 7-day free trials." },
+  { q: "Which AI tools can coaching institutes use?", a: "Wayground for quick quizzes and practice tests, Eklavvya for proctored online exams and AI checking of answer sheets, MagicSchool AI and Khanmigo for teacher preparation (lesson plans, worksheets, assessments), Interakt for WhatsApp admission enquiries and reminders, and AI business phone tools like MyOperator, Exotel, Knowlarity, TalkEasy and Tata Tele Smartflo for answering, recording and following up on admission calls." },
+  { q: "What is the best AI business phone for a coaching institute in India?", a: "For large and multi-branch institutes, MyOperator and Exotel are the most complete, with Tata Tele Smartflo for telecom-grade contact centres. For small and growing institutes, TalkEasy offers AI call answering, call summaries and a built-in CRM at ₹999 a month. Knowlarity is a mature option for missed-call campaigns and outbound calls to parents." },
   { q: "Is it safe for students to study with AI?", a: "Yes, if AI is used to understand concepts and practise rather than to copy answers. All AI tools can make mistakes, so students should verify important facts and formulas with their textbooks, teachers or official sources." },
   { q: "How did you choose these tools?", a: "We picked tools that are available in India, useful for Indian exams or Indian institutes, and clear about pricing. Each tool was researched from its official website and reputable news coverage. No company paid to be included." }
 ];
@@ -1022,19 +1049,33 @@ function aiToolsHub() {
   const url = `${B.siteUrl}/ai-tools`;
   const itemList = (list, name) => ({ "@type": "ItemList", name, itemListElement: list.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, url: `${B.siteUrl}/ai-tools-${t.slug}` })) });
   const ld = [
-    { "@context": "https://schema.org", "@type": "CollectionPage", name: "AI Tools for Learners & Institutes in India", url, description: "Researched guides to the best AI tools for Indian students and coaching institutes.", dateModified: AI_LAST_CHECKED_ISO, publisher: { "@type": "Organization", name: B.name, url: B.siteUrl }, hasPart: [itemList(learners, "AI tools for learners"), itemList(institutes, "AI tools for institutes")] },
+    { "@context": "https://schema.org", "@type": "CollectionPage", name: "AI Tools for Learners & Institutes in India", url, description: "Researched guides to the best AI tools for Indian students and coaching institutes.", dateModified: AI_TOOLS.map(aiCheckedIso).sort().pop(), publisher: { "@type": "Organization", name: B.name, url: B.siteUrl }, hasPart: [itemList(learners, "AI tools for learners"), itemList(institutes, "AI tools for institutes")] },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${B.siteUrl}/` }, { "@type": "ListItem", position: 2, name: "AI Tools", item: url }] },
     { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: AI_HUB_FAQS.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }
   ];
-  const section = (aud, list, intro) => `<section class="section container ai-section" id="${AI_AUD[aud].anchor}">
+  const groupBlock = (g, list) => `<div class="ai-group" id="${g.key}">
+<h3 class="ai-group-h">${esc(g.title)}</h3>
+<p class="section-sub">${esc(g.intro)}${g.guide ? ` <a class="link-arrow" href="${g.guide.href}.html">${esc(g.guide.text)} →</a>` : ""}</p>
+<div class="card-grid">${list.map(aiCard).join("")}</div>
+<div class="prose ai-compare"><h4>Quick comparison</h4>${aiCompareTable(list)}</div>
+</div>`;
+  const section = (aud, list, intro) => {
+    const groups = AI_GROUPS[aud];
+    const inner = groups
+      ? groups.map(g => { const gl = list.filter(t => (t.group || groups[0].key) === g.key); return gl.length ? groupBlock(g, gl) : ""; }).join("")
+      : `<div class="card-grid">${list.map(aiCard).join("")}</div>
+<div class="prose ai-compare"><h3>Quick comparison</h3>${aiCompareTable(list)}</div>`;
+    const jump = groups ? `<div class="ai-group-jump">${groups.filter(g => list.some(t => (t.group || groups[0].key) === g.key)).map(g => `<a class="blog-chip" href="#${g.key}">${esc(g.title)}</a>`).join("")}</div>` : "";
+    return `<section class="section container ai-section" id="${AI_AUD[aud].anchor}">
 <p class="eyebrow">${AI_AUD[aud].label}</p>
 <h2 class="ai-h2">${AI_AUD[aud].h2}</h2>
 <p class="section-sub">${intro}</p>
-<div class="card-grid">${list.map(aiCard).join("")}</div>
-<div class="prose ai-compare"><h3>Quick comparison</h3>${aiCompareTable(list)}</div>
+${jump}
+${inner}
 </section>`;
+  };
   return head("Best AI Tools for Students & Institutes in India (2026)",
-    "Researched AI tools for Indian students and coaching institutes: Gemini, ChatGPT, PW AI Guru, Wayground, Eklavvya and more. Benefits, ₹ prices, how to use.")
+    "Researched AI tools for Indian students and coaching institutes: Gemini, ChatGPT, PW AI Guru, Wayground, Eklavvya, AI business phones and more. ₹ prices, how to use.")
     .replace("</head>", ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + "\n</head>")
     + header("ai-tools.html") + `
 <section class="hero hero-sm"><div class="container">
@@ -1046,9 +1087,9 @@ function aiToolsHub() {
 <section class="section container prose ai-intro">
 <div class="tldr-box"><p class="tldr-label">Quick answer</p>
 <p><strong>For students:</strong> start with <a href="ai-tools-google-gemini.html">Google Gemini</a> (free tutor + JEE Main mocks), <a href="ai-tools-gemini-notebook.html">Gemini Notebook</a> (revise from NCERT and your notes), <a href="ai-tools-chatgpt.html">ChatGPT</a> (Study Mode), <a href="ai-tools-pw-ai-guru.html">PW AI Guru</a> (JEE/NEET doubts in Hinglish) and <a href="ai-tools-perplexity.html">Perplexity</a> (current affairs with sources).</p>
-<p><strong>For institutes:</strong> use <a href="ai-tools-wayground.html">Wayground</a> for quizzes, <a href="ai-tools-eklavvya.html">Eklavvya</a> for proctored exams and AI answer checking, <a href="ai-tools-magicschool-ai.html">MagicSchool AI</a> and <a href="ai-tools-khanmigo.html">Khanmigo</a> for teacher preparation, and <a href="ai-tools-interakt.html">Interakt</a> for WhatsApp admissions and reminders.</p>
+<p><strong>For institutes:</strong> use <a href="ai-tools-wayground.html">Wayground</a> for quizzes, <a href="ai-tools-eklavvya.html">Eklavvya</a> for proctored exams and AI answer checking, <a href="ai-tools-magicschool-ai.html">MagicSchool AI</a> and <a href="ai-tools-khanmigo.html">Khanmigo</a> for teacher preparation, <a href="ai-tools-interakt.html">Interakt</a> for WhatsApp admissions and reminders, and an AI business phone — <a href="ai-tools-myoperator.html">MyOperator</a>, <a href="ai-tools-exotel.html">Exotel</a>, <a href="ai-tools-knowlarity.html">Knowlarity</a>, <a href="ai-tools-talkeasy.html">TalkEasy</a> or <a href="ai-tools-tata-tele-smartflo.html">Tata Tele Smartflo</a> — so no admission call goes unanswered.</p>
 </div>
-<p class="muted">Last checked: ${AI_LAST_CHECKED}. Prices and offers change often — always confirm on the tool's official website.</p>
+<p class="muted">Last checked: ${AI_TOOLS.some(t => t.lastChecked) ? AI_TOOLS.filter(t => t.lastChecked).sort((a, b) => aiCheckedIso(b).localeCompare(aiCheckedIso(a)))[0].lastChecked : AI_LAST_CHECKED}. Prices and offers change often — always confirm on the tool's official website.</p>
 </section>
 ${section("learners", learners, "Free and low-cost AI tools for school students, JEE/NEET aspirants, UPSC and government-exam candidates, and college students.")}
 ${section("institutes", institutes, "AI tools that save faculty time, make testing faster and fairer, and help coaching institutes handle admissions and parent communication.")}
@@ -1071,7 +1112,8 @@ ${AI_HUB_FAQS.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}
 function aiToolPage(t) {
   const aud = AI_AUD[t.audience];
   const pageUrl = `${B.siteUrl}/ai-tools-${t.slug}`;
-  const same = AI_TOOLS.filter(o => o.audience === t.audience && o.slug !== t.slug);
+  const same = AI_TOOLS.filter(o => o.audience === t.audience && o.slug !== t.slug)
+    .sort((a, b) => ((b.group || "") === (t.group || "")) - ((a.group || "") === (t.group || "")));
   const alts = (t.alternatives || []).map(s => AI_TOOLS.find(o => o.slug === s)).filter(Boolean);
   const freeOffer = /^free/i.test(t.priceChip) || /Free/.test(t.pricing.rows[0][1]) || t.pricing.rows[0][1] === "₹0" || t.pricing.rows[0][1] === "US$0";
   const appLd = {
@@ -1084,7 +1126,7 @@ function aiToolPage(t) {
   };
   const pageLd = {
     "@context": "https://schema.org", "@type": "WebPage", name: t.metaTitle, url: pageUrl, description: t.metaDescription,
-    dateModified: AI_LAST_CHECKED_ISO, inLanguage: "en-IN",
+    dateModified: aiCheckedIso(t), inLanguage: "en-IN",
     about: { "@type": "SoftwareApplication", name: t.name },
     author: { "@type": "Organization", name: `${B.name} Team`, url: B.siteUrl },
     publisher: { "@type": "Organization", name: B.name, url: B.siteUrl },
@@ -1099,6 +1141,7 @@ function aiToolPage(t) {
   const benefitsH2 = t.audience === "learners" ? `How ${esc(aiShort(t))} helps students` : `How ${esc(aiShort(t))} helps coaching institutes`;
   const body = `
 <div class="tldr-box ai-quick-answer"><p class="tldr-label">Quick answer</p><p>${esc(t.quickAnswer)}</p></div>
+${(t.relatedLinks || []).map(l => `<div class="callout">${esc(l.lead)} <a href="${l.href}">${esc(l.text)} →</a></div>`).join("")}
 <h2>Key facts</h2>
 ${tableWrap(`<tbody>${t.facts.map(([k, v]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(v)}</td></tr>`).join("")}</tbody>`).replace("<table>", '<table class="facts-table">')}
 <h2>What is ${esc(aiShort(t))}?</h2>
@@ -1122,10 +1165,10 @@ ${alts.length ? `<h2>Alternatives to ${esc(aiShort(t))}</h2><ul>${alts.map(a => 
 ${t.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}
 <h2>Sources</h2>
 <ul class="ai-sources">${t.sources.map(s => `<li><a href="${s.url}" target="_blank" rel="noopener nofollow">${esc(s.label)}</a></li>`).join("")}</ul>
-<p class="muted">Last checked: ${AI_LAST_CHECKED}. ${esc(B.name)} is independent and is not paid by ${esc(t.maker)}. Features and prices change — confirm on the official website before you pay.</p>`;
+<p class="muted">Last checked: ${aiChecked(t)}. ${esc(B.name)} is independent and is not paid by ${esc(t.maker)}. Features and prices change — confirm on the official website before you pay.</p>`;
   const { html: bodyWithIds } = buildToc(body);
   return head(t.metaTitle, t.metaDescription)
-    .replace("</head>", [appLd, pageLd, crumbLd, faqLd].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + `\n<meta property="article:modified_time" content="${AI_LAST_CHECKED_ISO}">\n</head>`)
+    .replace("</head>", [appLd, pageLd, crumbLd, faqLd].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + `\n<meta property="article:modified_time" content="${aiCheckedIso(t)}">\n</head>`)
     + header("ai-tools.html") + `
 <div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="ai-tools.html">AI Tools</a> / <a href="ai-tools.html#${aud.anchor}">${aud.label}</a> / <span>${esc(aiShort(t))}</span></div>
 <section class="container detail-hero">
@@ -1152,7 +1195,7 @@ ${bodyWithIds}
 </div>
 <div class="side-actions">
 <a class="action" href="ai-tools.html#${aud.anchor}"><span class="ic">≡</span> All AI tools ${aud.label.toLowerCase()} <span class="arr">→</span></a>
-${same.map(o => `<a class="action" href="${aiToolFile(o)}"><span class="ic">${esc(o.name[0])}</span> ${esc(aiShort(o))} <span class="arr">→</span></a>`).join("\n")}
+${same.slice(0, 6).map(o => `<a class="action" href="${aiToolFile(o)}"><span class="ic">${esc(o.name[0])}</span> ${esc(aiShort(o))} <span class="arr">→</span></a>`).join("\n")}
 </div>
 </aside>
 </section>` + footer();
@@ -1249,8 +1292,8 @@ function sitemapBody() {
     });
   });
   const inst = L.map(x => `<li><a href="institute-${x.slug}.html">${esc(x.name)} — ${cityLabel(x.city)}</a></li>`).join("");
-  const brandReviewPages = BRAND_REVIEWS.filter(r => L.some(x => x.slug === r.slug))
-    .map(r => { const x = L.find(o => o.slug === r.slug); return `<li><a href="review-${x.slug}.html">${esc(x.name)} — ${x.city === "online" ? "Online" : cityLabel(x.city)}</a></li>`; }).join("");
+  const brandReviewPages = BRAND_REVIEWS.filter(r => reviewSubject(r))
+    .map(r => { const x = reviewSubject(r); return `<li><a href="review-${x.slug}.html">${esc(x.name)} — ${x.isTool ? esc(x.toolCategory) : x.city === "online" ? "Online" : cityLabel(x.city)}</a></li>`; }).join("");
   return `<section class="hero hero-sm"><div class="container"><h1>Sitemap</h1></div></section>
 <section class="section container prose">
 <h2>Pages</h2><ul>${links.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join("")}</ul>
@@ -1341,7 +1384,7 @@ DATA.cities["computer-courses"].forEach(c => w(`computer-courses-${c}.html`, lis
 
 L.forEach(x => w(`institute-${x.slug}.html`, detailPage(x)));
 BRAND_REVIEWS.forEach(rv => {
-  const x = L.find(o => o.slug === rv.slug);
+  const x = reviewSubject(rv);
   if (x) w(`review-${rv.slug}.html`, brandReviewPage(rv, x));
 });
 
