@@ -69,7 +69,8 @@
       "madurai",
       "gaya",
       "cuttack",
-      "dhanbad"
+      "dhanbad",
+      "latur"
     ],
     "certification": [
       "online"
@@ -14452,6 +14453,91 @@
         "Covers JEE Main/Advanced plus NEET, Olympiads, NTSE and KVPY"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "iib-career-institute-latur",
+      "type": "coaching",
+      "name": "IIB Career Institute, Latur",
+      "city": "latur",
+      "locality": "Signal Camp",
+      "address": "IIB Vidyasagar Campus, Udyog Bhavan, Signal Camp, Latur, Maharashtra 413512",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.iibedu.com/iib-neetcoaching/latur-branch/",
+      "about": "IIB Career Institute is a Marathwada-rooted NEET and JEE coaching group with centres in Nanded, Latur, Chhatrapati Sambhajinagar and Pune. Its own Latur branch page confirms a single Latur campus at Vidyasagar Campus, Udyog Bhavan, Signal Camp, offering NEET, JEE and MHT-CET batches for Class 11, Class 12 and repeaters, plus Class 8–10 foundation courses. IIB states a 25-plus-year legacy and a biology-led teaching approach; those are the institute's own claims and are worth checking against recent batch results when you visit.",
+      "highlights": [
+        "Official IIB Latur branch page confirms the Signal Camp campus address",
+        "NEET, JEE and MHT-CET batches for Class 11, 12 and repeaters",
+        "Regional Maharashtra group (Nanded, Latur, Sambhajinagar, Pune)",
+        "1,002 ratings on Justdial, 4.3 rating (checked 7 Oct 2026)"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-latur",
+      "type": "coaching",
+      "name": "Aakash Institute, Latur",
+      "city": "latur",
+      "locality": "Ambejogai Road",
+      "address": "Kayamkhani Estate, Survey No. 5659, Municipal House No. R-2/19/A, Ambejogai Road, Latur, Maharashtra 413512",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.aakash.ac.in/latur-city",
+      "about": "Aakash runs one company-listed centre in Latur, at Kayamkhani Estate on Ambejogai Road, according to its own Latur city page and official centre locator. The branch runs NEET and JEE classroom courses for Class 11, Class 12 and droppers, plus short-term crash courses, and plugs students into Aakash's national test series. It suits students who want a large chain's standardised material without leaving Latur.",
+      "highlights": [
+        "Official Aakash Latur page confirms one centre on Ambejogai Road",
+        "NEET and JEE classroom courses plus crash courses",
+        "Access to Aakash's national test-series network"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-latur",
+      "type": "coaching",
+      "name": "ALLEN Career Institute, Latur",
+      "city": "latur",
+      "locality": "Latur",
+      "address": "Latur, Maharashtra (admission office announced near Udyog Bhavan, Industrial Estate, Latur 413531 at launch in January 2023; confirm the current campus address with the centre)",
+      "estd": 2023,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://allen.in/latur/neet",
+      "about": "Kota-based ALLEN opened its Latur centre in January 2023, per ALLEN's own launch announcement, with classroom batches for NEET (UG), JEE and Olympiads starting that April. ALLEN's official Latur NEET page lists offline classroom programmes built around NCERT-based teaching, Daily Practice Problems, topic tests and full-length NEET mocks. ALLEN's launch notice gave an admission office near Udyog Bhavan; check the present campus address directly before visiting.",
+      "highlights": [
+        "Official ALLEN Latur NEET classroom page",
+        "Centre launched January 2023 (ALLEN's own announcement)",
+        "Offline-only classroom programme with DPPs and full-length mocks"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-latur",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Latur",
+      "city": "latur",
+      "locality": "Ambejogai Road",
+      "address": "2nd Floor, Galaxy Mall/Maxx Mall, Abbas Complex, opp. Kayamkhani Petrol Pump, Ambejogai Road, near Chhatrapati Shivaji Maharaj Chowk, Latur, Maharashtra 413512",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/latur-mh/latur-vidyapeeth-556399",
+      "about": "Physics Wallah's offline arm runs a Latur Vidyapeeth centre on the second floor of Galaxy/Maxx Mall on Ambejogai Road, with the full address, phone number and hours (Mon–Sat, 7 am–8 pm) published on PW's official centre page. It runs NEET batches for Class 11 (two-year), Class 12 (one-year) and droppers, alongside JEE and Class 8–10 foundation programmes. PW's PWSAT scholarship test can reduce tuition fees.",
+      "highlights": [
+        "Official PW centre page with full Ambejogai Road address and hours",
+        "NEET Class 11, Class 12 and dropper batches",
+        "PWSAT scholarship test for tuition-fee concessions"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -14650,6 +14736,9 @@
     },
     "coaching-dhanbad": {
       "intro": "<p>Dhanbad is home to IIT (Indian School of Mines) — one of India's oldest engineering institutions, running since 1926 — yet the city's own dedicated JEE-coaching market stays modest, concentrated mainly around Saraidhela on its western side. Five address-verifiable institutes serve the city today: national chains Aakash, PW Vidyapeeth and Narayana, each with their own official Dhanbad centre confirmation, alongside FIITJEE Dhanbad (a franchise-style centre not listed on FIITJEE's own locator) and the locally founded Gurukul. Every listing below shows its verification status and location.</p>"
+    },
+    "coaching-latur": {
+      "intro": "<p>Latur, in Maharashtra's Marathwada region, is known across the state for the 'Latur pattern' of intensive Class 11–12 science teaching and has long drawn NEET aspirants from surrounding districts. Coaching activity clusters along Ambejogai Road and around Signal Camp and Udyog Bhavan. The current market mixes a Marathwada-born regional group (IIB Career Institute) with branches of national chains (Aakash, ALLEN and PW Vidyapeeth). Every listing below has been checked against the institute's own official centre page.</p>"
     }
   }
 }
