@@ -2,6 +2,66 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    "slug": "nmat-2026-registration-closes-10oct-update",
+    "title": "NMAT 2026 Registration Closes on 10 October; Test Slot Booking Open Until 22 October",
+    "category": "CAT, IPMAT & MBA",
+    "type": "exam-news",
+    "date": "8 Oct 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=cat",
+      "text": "Compare verified CAT / MBA coaching institutes"
+    },
+    "excerpt": "GMAC's registration window for NMAT 2026 closes on Saturday, 10 October. Candidates who register in time can book a test slot until 22 October and sit the exam any day between 2 November and 20 December 2026.",
+    "faqs": [
+      {
+        "q": "What is the last date to register for NMAT 2026?",
+        "a": "Saturday, 10 October 2026, according to the official NMAT page on mba.com run by GMAC. Registration opened on 20 August 2026."
+      },
+      {
+        "q": "Can I book my NMAT test slot after 10 October?",
+        "a": "Yes, but only if you have already registered. Scheduling stays open until Thursday, 22 October 2026. You cannot register after 10 October, even though slot booking runs longer."
+      },
+      {
+        "q": "When is the NMAT 2026 exam?",
+        "a": "There is no single exam date. The testing window runs from Monday, 2 November to Sunday, 20 December 2026, and each candidate picks a date, time and either a test centre or an online-proctored slot."
+      },
+      {
+        "q": "How much is the NMAT 2026 fee?",
+        "a": "INR 3,000 plus taxes for registration in India, per GMAC. A retake also costs INR 3,000, rescheduling costs INR 1,200, and each additional school beyond the first five costs INR 400."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 8 October 2026.</strong></p>\n<p>Registration for NMAT by GMAC 2026 closes on Saturday, 10 October 2026, and candidates who register by then can book a test slot until 22 October 2026, according to the official NMAT page on <a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com</a>, run by GMAC.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Registration window:</strong> 20 August – 10 October 2026</p>\n<p><strong>Slot booking (scheduling) closes:</strong> 22 October 2026</p>\n<p><strong>Testing window:</strong> 2 November – 20 December 2026</p>\n<p><strong>Fee:</strong> INR 3,000 + taxes (retake INR 3,000; reschedule INR 1,200)</p>\n<p><strong>Attempts:</strong> up to 3 in the testing year, at least 15 days apart</p>\n<p><strong>Checked against:</strong> <a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com/exams/nmat</a> and <a href=\"https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/nmat-exam\" rel=\"noopener\" target=\"_blank\">GMAC's NMAT 2026-27 guide</a> (updated August 2026), on 8 October 2026</p>\n</div>\n\n<h2>What the deadline means</h2>\n<p>The 10 October date is a hard cut-off for creating an NMAT registration. NMAT works differently from CAT: registration and scheduling are two separate steps. You register first, and then book a date, time and test centre (or an online-proctored slot). Scheduling stays open for 12 more days after registration closes, until 22 October 2026. So if you're still deciding on a date, register now and book the slot later.</p>\n<p>As of 8 October 2026, GMAC has not announced any extension. Both official GMAC pages we checked still give 10 October as the last registration date. Don't plan around an extension that hasn't been announced.</p>\n\n<h2>Who should register</h2>\n<p>NMAT scores are used by NMIMS and a set of other B-schools. GMAC's guide names ISB, SPJIMR, K J Somaiya Institute of Management and FLAME University among them, and mba.com says more than 58 schools accept the score. For CAT 2026 candidates, NMAT is a useful second attempt. CAT is held once a year, while NMAT lets you test up to three times between 2 November and 20 December. GMAC says the exam has no negative marking, three equally weighted sections (Language Skills, Quantitative Skills, Logical Reasoning) of 36 questions each, and a 120-minute time limit.</p>\n<p>Your registration fee covers score reports to up to five schools, chosen at registration. Each additional school costs INR 400. Check each programme's own admission page for its NMAT cut-off and application deadline, because these are set by the schools, not GMAC.</p>\n\n<h2>Important pointers for MBA aspirants (as of 8 October 2026)</h2>\n<ul>\n<li><strong>8 Oct 2026:</strong> NMAT 2026 registration closes on 10 October 2026, and test-slot scheduling closes on 22 October 2026. (<a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com</a>)</li>\n<li><strong>8 Oct 2026:</strong> NMAT candidates can take the test up to three times in the 2026-27 testing year, with at least 15 days between attempts. (<a href=\"https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/nmat-exam\" rel=\"noopener\" target=\"_blank\">GMAC</a>)</li>\n<li><strong>8 Oct 2026:</strong> XAT 2027 registration remains open until 6 December 2026, and the exam is on 3 January 2027, from 2:00 pm to 5:00 pm. (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>)</li>\n<li><strong>8 Oct 2026:</strong> XAT 2027 admit cards are expected from 20 December 2026, a date XLRI marks as tentative. (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>)</li>\n<li><strong>8 Oct 2026:</strong> CAT 2026 is scheduled for Sunday, 29 November 2026, with admit cards due from 4 November 2026. (<a href=\"https://iimcat.ac.in/\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>)</li>\n</ul>\n\n<p>Planning MBA entrance preparation? Compare classroom options on our <a href=\"coaching.html?exam=cat\">CAT / MBA coaching directory</a>.</p>\n<p><strong>Last updated: 8 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-cat-coaching-institutes-durgapur-2026",
+    "title": "Top CAT Coaching Institutes in Durgapur (2026)",
+    "category": "CAT, IPMAT & MBA",
+    "type": "coaching-guides",
+    "date": "8 Oct 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-durgapur.html",
+      "text": "Browse all verified coaching institutes in Durgapur"
+    },
+    "excerpt": "Durgapur's CAT coaching is clustered in City Centre. We could confirm three national chains on their own official websites: T.I.M.E., IMS and Career Launcher. Here's how they compare.",
+    "faqs": [
+      {
+        "q": "Which is the best CAT coaching institute in Durgapur?",
+        "a": "There's no single best. T.I.M.E., IMS and Career Launcher all have official Durgapur centres in the City Centre area and use their national CAT curriculum and mock-test series. Attend a demo class at each and ask for the Durgapur centre's own results before choosing."
+      },
+      {
+        "q": "Why does this list have only three institutes instead of ten?",
+        "a": "We included only institutes whose own official website confirms a Durgapur centre offering CAT or MBA-entrance coaching. Other names appear on directory sites, but we couldn't confirm them on an official site, so we left them out rather than pad the list."
+      },
+      {
+        "q": "Where are CAT coaching centres in Durgapur located?",
+        "a": "All three listed centres are in City Centre, Durgapur (PIN 713216): T.I.M.E. at Central Park (Doctors Colony), IMS at Antariksh Bhawan on Najrul Sarani, and Career Launcher at its DC Hall City centre."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 8 October 2026.</strong></p>\n<p>Durgapur is an industrial city in West Bengal's Paschim Bardhaman district, and it has a steady supply of CAT aspirants. Many come from <a href=\"https://nitdgp.ac.in/\" rel=\"noopener\" target=\"_blank\">NIT Durgapur</a> and the city's other engineering colleges, and others are working professionals from the Durgapur–Asansol belt. This guide lists the CAT coaching centres in Durgapur that we could confirm on each institute's own official website.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Durgapur, Paschim Bardhaman district, West Bengal</p>\n<p><strong>Exam covered:</strong> CAT 2026 (also XAT, NMAT, SNAP and CMAT preparation)</p>\n<p><strong>Institutes listed:</strong> 3, each confirmed on its own official website as of 8 October 2026</p>\n<p><strong>Coaching hub:</strong> City Centre (PIN 713216). All three listed centres are here.</p>\n<p><strong>Nearby test city:</strong> Durgapur/Asansol is an official XAT 2027 test city, per <a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a></p>\n<p><strong>Upcoming dates:</strong> CAT 2026 on 29 November 2026; NMAT 2026 registration closes 10 October 2026</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own official website lists a Durgapur centre offering CAT or MBA-entrance coaching. We checked T.I.M.E.'s centre directory, IMS's Durgapur centre page and Career Launcher's centre locator. Directory sites also name a local institute, Smart Edge, but its official website showed a database error when we checked on 8 October 2026, so we couldn't confirm its Durgapur address and left it out. That's why there are three names here, not ten. No institute paid for its place in this list.</p>\n\n<h3>1. T.I.M.E. Durgapur</h3>\n<p>T.I.M.E.'s <a href=\"https://time4education.com/Durgapur/Durgapur\" rel=\"noopener\" target=\"_blank\">official Durgapur centre page</a> lists the centre as an authorised T.I.M.E. centre at 3/3, Central Park (Doctors Colony), City Centre. It runs CAT/MBA classroom coaching alongside CMAT, MAT, bank and SSC courses, and IPM and BBA entrance coaching for school students. Students also get T.I.M.E.'s all-India AIMCAT mock series, which is useful for checking your standing against a national pool. Fees are given only on enquiry.</p>\n\n<h3>2. IMS Durgapur</h3>\n<p>IMS's <a href=\"https://www.imsindia.com/center/durgapur/\" rel=\"noopener\" target=\"_blank\">official Durgapur centre page</a> gives its address as Antariksh Bhawan, 2nd Floor, Najrul Sarani, near South Indian Bank, City Centre. The centre says it has trained MBA aspirants in Durgapur for more than 20 years, for CAT, NMAT, XAT, SNAP, CMAT and MICAT. It also runs CLAT, IPMAT and BBA coaching. The years-in-operation figure and the results it mentions come from the centre itself, so ask to see recent Durgapur-specific CAT results when you visit.</p>\n\n<h3>3. Career Launcher Durgapur</h3>\n<p>Career Launcher's <a href=\"https://www.careerlauncher.com/contactus/\" rel=\"noopener\" target=\"_blank\">official centre locator</a> lists a \"Durgapur – DC Hall City\" centre offering MBA programmes, plus law and after-Class-12 courses. Directory listings give the address as the 2nd floor of the Durgapur Cinema Hall Complex, City Centre, near Troika Park. Confirm the exact address and batch timings with the centre before you visit. CL's CAT programme follows its national curriculum and includes its own mock-test series with detailed post-test analysis.</p>\n\n<h2>Comparing your options</h2>\n<p>All three centres are in City Centre, so you can visit them on the same day. All three are national chains, and their CAT materials and all-India mocks are broadly similar. What differs is the local faculty and batch size. Ask each centre who will teach Quant and VARC in your batch, how many students are in a batch, and how many students from that centre converted IIM calls last year. If you're a working professional, also ask about weekend batches and how missed classes are covered. With CAT 2026 on 29 November, most centres will now be running test-series and revision batches rather than full-length courses. Check which one fits your stage of preparation before paying.</p>\n\n<p>Compare full details on our <a href=\"coaching-durgapur.html\">Durgapur coaching page</a>.</p>\n<p><strong>Last updated: 8 October 2026.</strong></p>\n"
+  },
+  {
     "slug": "neet-ug-2026-round3-reporting-ends-9oct-stray-vacancy-round-update",
     "title": "NEET UG 2026: Round 3 Reporting Ends 9 October, Stray Vacancy Round Registration Opens 12 October",
     "category": "NEET & Medical",
