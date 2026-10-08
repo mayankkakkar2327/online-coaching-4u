@@ -70,7 +70,8 @@
       "gaya",
       "cuttack",
       "dhanbad",
-      "latur"
+      "latur",
+      "durgapur"
     ],
     "certification": [
       "online"
@@ -14538,6 +14539,72 @@
         "PWSAT scholarship test for tuition-fee concessions"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "time-durgapur",
+      "type": "coaching",
+      "name": "T.I.M.E. Durgapur",
+      "city": "durgapur",
+      "locality": "City Centre",
+      "address": "3/3, Central Park (Doctors Colony), City Centre, Durgapur, West Bengal 713216",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://time4education.com/Durgapur/Durgapur",
+      "about": "T.I.M.E. (Triumphant Institute of Management Education) runs an authorised centre in Durgapur's City Centre, confirmed on T.I.M.E.'s own centre directory. It offers CAT/MBA classroom coaching alongside CMAT, MAT, bank and SSC courses, and IPM and BBA entrance coaching for school students, with access to T.I.M.E.'s all-India AIMCAT mock-test series.",
+      "highlights": [
+        "Official T.I.M.E. centre page confirms the City Centre address",
+        "CAT/MBA, CMAT and MAT classroom coaching",
+        "All-India AIMCAT mock-test series",
+        "Also runs IPM/BBA, bank and SSC courses"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-durgapur",
+      "type": "coaching",
+      "name": "IMS Durgapur",
+      "city": "durgapur",
+      "locality": "City Centre",
+      "address": "Antariksh Bhawan, 2nd Floor, Najrul Sarani, Near South Indian Bank, City Centre, Durgapur, West Bengal 713216",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.imsindia.com/center/durgapur/",
+      "about": "IMS's official Durgapur centre page confirms a City Centre branch at Antariksh Bhawan, Najrul Sarani. The centre says it has prepared students for CAT, NMAT, XAT, SNAP, CMAT and MICAT for more than 20 years, and it also runs CLAT, IPMAT and BBA coaching. Those years and results are the centre's own claims, so ask for recent Durgapur-specific CAT results when you visit.",
+      "highlights": [
+        "Official IMS centre page confirms the Najrul Sarani address",
+        "CAT, NMAT, XAT, SNAP, CMAT and MICAT preparation",
+        "Centre states 20+ years in Durgapur (own claim)",
+        "Also offers CLAT, IPMAT and BBA coaching"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-durgapur",
+      "type": "coaching",
+      "name": "Career Launcher Durgapur",
+      "city": "durgapur",
+      "locality": "City Centre",
+      "address": "2nd Floor, Durgapur Cinema Hall Complex, City Centre, near Troika Park, Durgapur, West Bengal 713216",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/contactus/",
+      "about": "Career Launcher's official centre locator lists a 'Durgapur – DC Hall City' centre offering MBA programmes, alongside law and after-Class-12 courses. The street address shown here comes from directory listings, so confirm it and current batch timings with the centre. CL's CAT course follows its national curriculum and includes its mock-test series with detailed post-test analysis.",
+      "highlights": [
+        "Listed on Career Launcher's official centre locator (MBA programmes)",
+        "National CAT curriculum and mock-test series",
+        "Also runs law (CLAT) and after-12 courses",
+        "Address from directory listings; confirm before visiting"
+      ],
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
@@ -14739,6 +14806,9 @@
     },
     "coaching-latur": {
       "intro": "<p>Latur, in Maharashtra's Marathwada region, is known across the state for the 'Latur pattern' of intensive Class 11–12 science teaching and has long drawn NEET aspirants from surrounding districts. Coaching activity clusters along Ambejogai Road and around Signal Camp and Udyog Bhavan. The current market mixes a Marathwada-born regional group (IIB Career Institute) with branches of national chains (Aakash, ALLEN and PW Vidyapeeth). Every listing below has been checked against the institute's own official centre page.</p>"
+    },
+    "coaching-durgapur": {
+      "intro": "<p>Durgapur, an industrial city in West Bengal's Paschim Bardhaman district, draws CAT aspirants from NIT Durgapur, the city's other engineering colleges and working professionals across the Durgapur–Asansol belt. MBA-entrance coaching is concentrated in City Centre (PIN 713216), where T.I.M.E., IMS and Career Launcher all run centres. Every listing below has been checked against the institute's own official website.</p>"
     }
   }
 }
