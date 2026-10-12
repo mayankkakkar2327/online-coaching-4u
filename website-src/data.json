@@ -71,7 +71,8 @@
       "cuttack",
       "dhanbad",
       "latur",
-      "durgapur"
+      "durgapur",
+      "kozhikode"
     ],
     "certification": [
       "online"
@@ -14605,6 +14606,116 @@
         "Address from directory listings; confirm before visiting"
       ],
       "mode": "hybrid"
+    },
+    {
+      "slug": "kscsa-kozhikode",
+      "type": "coaching",
+      "name": "Kerala State Civil Service Academy – Kozhikode Sub-centre",
+      "city": "kozhikode",
+      "locality": "West Hill",
+      "address": "West Hill, Chungam P.O., Kozhikode, Kerala 673005",
+      "estd": 2005,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "website": "https://kscsa.org/sub-centres/",
+      "about": "The Kerala State Civil Service Academy was set up by the Government of Kerala in 2005 under the Centre for Continuing Education Kerala (CCEK). Its official sub-centres page lists a Kozhikode centre at West Hill offering Prelims-cum-Mains coaching (regular and weekend), a Civil Service Foundation Course and a Talent Development Course for school students. Admission is through the academy's entrance test.",
+      "highlights": [
+        "State government academy under CCEK (estd 2005)",
+        "Prelims-cum-Mains: regular and weekend batches",
+        "Foundation and Talent Development courses",
+        "Admission through entrance test"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "absolute-ias-academy-kozhikode",
+      "type": "coaching",
+      "name": "Absolute IAS Academy Kozhikode",
+      "city": "kozhikode",
+      "locality": "Kallai Road",
+      "address": "Building No 18/194, Parco Complex, Near Jayalekshmi Silks, Above ICICI Bank, Kallai Road, Opp. Town Bus Stand, Kozhikode, Kerala 673001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "website": "https://www.absoluteiasacademy.com/contact-us/",
+      "about": "Absolute IAS Academy is a Thiruvananthapuram-headquartered civil services academy whose official contact page lists centres in Thiruvananthapuram, Kochi and Kozhikode. It runs regular, weekend, online and foundation batches, a degree-with-civil-service programme and a Malayalam-medium batch, and publishes its own Malayalam study books.",
+      "highlights": [
+        "Official site lists the Kallai Road centre",
+        "Malayalam-medium batch available",
+        "Regular, weekend, online and foundation batches",
+        "Own Malayalam study material"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "alchemy-ias-kozhikode",
+      "type": "coaching",
+      "name": "Alchemy IAS Institute",
+      "city": "kozhikode",
+      "locality": "Mavoor Road",
+      "address": "6th Floor, Golden Plaza Building, Opp. KSRTC Bus Stand, Mavoor Road, Kozhikode, Kerala 673001",
+      "estd": 2016,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "website": "https://alchemyias.com/",
+      "about": "Alchemy IAS Institute's official website lists its Kozhikode centre on Mavoor Road, opposite the KSRTC bus stand, and says the institute was set up in 2016 by Gris Hikdas. It offers a hybrid UPSC prelims-plus-mains course, a three-year integrated degree-plus-IAS programme, Kerala Administrative Service coaching and a junior programme for Classes 5–12.",
+      "highlights": [
+        "Official site lists the Mavoor Road centre",
+        "Hybrid UPSC prelims + mains course",
+        "3-year integrated degree + IAS programme",
+        "KAS coaching and junior programme"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "summit-ias-academy-kozhikode",
+      "type": "coaching",
+      "name": "Summit IAS Academy",
+      "city": "kozhikode",
+      "locality": "Kannur Road (YMCA Junction)",
+      "address": "4th Floor, Shafeer Complex, YMCA Junction, Kannur Road, Kozhikode, Kerala 673001",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "website": "https://summitias.in/",
+      "about": "Summit IAS Academy is a Kozhikode civil services institute whose official website gives its address at YMCA Junction on Kannur Road, about 600 metres from the KSRTC bus stand. It runs a regular batch, a Sunday batch for working aspirants, Malayalam optional coaching, KAS coaching and prelims and mains test series.",
+      "highlights": [
+        "Official site confirms the Kannur Road address",
+        "Regular and Sunday batches",
+        "Malayalam optional coaching",
+        "Prelims and mains test series; KAS coaching"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "xylem-ias-kozhikode",
+      "type": "coaching",
+      "name": "Xylem IAS (Xylem Learning) Kozhikode",
+      "city": "kozhikode",
+      "locality": "Eranhipalam",
+      "address": "Xylem Future Campus, Nalinam Arcade, Mini Bypass Road, Eranhipalam, Kozhikode, Kerala 673006",
+      "estd": null,
+      "exams": [
+        "ias"
+      ],
+      "verified": true,
+      "website": "https://xylemlearning.com/best-civil-service-academy-in-kerala/",
+      "about": "Xylem Learning, a Kozhikode-based ed-tech company also known for NEET and JEE coaching, lists a Kozhikode (Calicut) civil service centre at its Future Campus on its official civil service page, alongside online UPSC classes. The street address comes from Xylem's centre directory; call to confirm the civil service batch location and timings before visiting.",
+      "highlights": [
+        "Official civil service page lists a Kozhikode centre",
+        "Offline batch at the Future Campus plus online UPSC classes",
+        "Large Kerala ed-tech brand",
+        "Confirm civil service batch address before visiting"
+      ],
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
@@ -14809,6 +14920,9 @@
     },
     "coaching-durgapur": {
       "intro": "<p>Durgapur, an industrial city in West Bengal's Paschim Bardhaman district, draws CAT aspirants from NIT Durgapur, the city's other engineering colleges and working professionals across the Durgapur–Asansol belt. MBA-entrance coaching is concentrated in City Centre (PIN 713216), where T.I.M.E., IMS and Career Launcher all run centres. Every listing below has been checked against the institute's own official website.</p>"
+    },
+    "coaching-kozhikode": {
+      "intro": "<p>Kozhikode is north Kerala's main UPSC preparation centre and an official UPSC Civil Services (Preliminary) exam centre. Civil services coaching here is mostly run by Kerala-based academies, along with the state-run Kerala State Civil Service Academy sub-centre at West Hill. Coaching clusters on Mavoor Road, Kannur Road and Kallai Road. Every listing below has been checked against the institute's own official website.</p>"
     }
   }
 }
