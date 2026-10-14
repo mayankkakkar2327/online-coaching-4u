@@ -72,7 +72,8 @@
       "dhanbad",
       "latur",
       "durgapur",
-      "kozhikode"
+      "kozhikode",
+      "chhatrapati-sambhajinagar"
     ],
     "certification": [
       "online"
@@ -14716,6 +14717,50 @@
         "Confirm civil service batch address before visiting"
       ],
       "mode": "hybrid"
+    },
+    {
+      "slug": "ims-chhatrapati-sambhajinagar",
+      "type": "coaching",
+      "name": "IMS Learning Resources, Chhatrapati Sambhajinagar",
+      "city": "chhatrapati-sambhajinagar",
+      "locality": "CIDCO (N-4)",
+      "address": "N-4 12-A, Kamgar Chowk, Sector N-4, CIDCO, Chhatrapati Sambhajinagar, Maharashtra 431003",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.imsindia.com/center/aurangabad/",
+      "about": "IMS's official Aurangabad centre page lists CLAT classroom coaching, CLAT online coaching and MH CET Law coaching, with preparation for Symbiosis Law, NMIMS Law and OP Jindal Law. It names Sanket Kulkarni, a Supreme Court and High Court practitioner, as law mentor and offers one-on-one mentorship and doubt-clearing sessions. The centre describes itself as newly started, and IMS is better known nationally for CAT coaching.",
+      "highlights": [
+        "Official page lists CLAT classroom and online coaching",
+        "Also covers MH CET Law, Symbiosis, NMIMS and OP Jindal Law",
+        "Law mentor is a practising Supreme Court and High Court lawyer",
+        "Centre is newly started"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "clatprep-time-chhatrapati-sambhajinagar",
+      "type": "coaching",
+      "name": "CLATPrep (T.I.M.E.), Chhatrapati Sambhajinagar",
+      "city": "chhatrapati-sambhajinagar",
+      "locality": "Jalna Road",
+      "address": "2nd Floor, Konark Complex, Behind Hotel Amarpreet, Jalna Road, Chhatrapati Sambhajinagar, Maharashtra 431001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://clatprepindia.com/cp-aurangabad.html",
+      "about": "CLATPrep is T.I.M.E.'s CLAT and law-entrance brand. Its official Aurangabad centre page lists classroom courses, online CLAT courses, test series and correspondence courses. The classroom programme cites 70 mock tests on the CLAT, AILET and SLAT pattern, 150 online sectional tests and about 1,800 pages of material. Fees are not published and centre-specific results are not shown.",
+      "highlights": [
+        "Official centre page on Jalna Road",
+        "Classroom, online, test series and correspondence options",
+        "70 mock tests and 150 sectional tests in the classroom programme (as stated)",
+        "Fees available only on enquiry"
+      ],
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
@@ -14923,6 +14968,9 @@
     },
     "coaching-kozhikode": {
       "intro": "<p>Kozhikode is north Kerala's main UPSC preparation centre and an official UPSC Civil Services (Preliminary) exam centre. Civil services coaching here is mostly run by Kerala-based academies, along with the state-run Kerala State Civil Service Academy sub-centre at West Hill. Coaching clusters on Mavoor Road, Kannur Road and Kallai Road. Every listing below has been checked against the institute's own official website.</p>"
+    },
+    "coaching-chhatrapati-sambhajinagar": {
+      "intro": "<p>Chhatrapati Sambhajinagar, still widely called Aurangabad, is a regional education hub in Maharashtra and is home to Maharashtra National Law University, which admits through CLAT. The CLAT coaching market here is small, and the two institutes below are the ones whose own websites confirm a CLAT programme at a local centre. Both sit along Jalna Road and in CIDCO. Every listing has been checked against the institute's official page.</p>"
     }
   }
 }

@@ -2,6 +2,70 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    "slug": "clat-ailet-slat-2027-14oct-no-new-notification-status-check-update",
+    "title": "CLAT 2027 Closes 31 October, AILET 10 November: No New Notices on 14 October",
+    "category": "CLAT & Law",
+    "type": "exam-news",
+    "date": "14 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=clat",
+      "text": "Compare verified CLAT coaching institutes"
+    },
+    "excerpt": "Neither the Consortium of NLUs nor NLU Delhi has posted a new notice since September. CLAT 2027 applications close 31 October and AILET 2027 on 10 November; SLAT holds a toppers' webinar on 16 October.",
+    "faqs": [
+      {
+        "q": "What is the last date to apply for CLAT 2027?",
+        "a": "31 October 2026, according to the Consortium of NLUs' CLAT 2027 page. Applications opened on 3 August 2026 and the exam is on 6 December 2026."
+      },
+      {
+        "q": "What is the last date to apply for AILET 2027?",
+        "a": "10 November 2026, according to NLU Delhi's AILET 2027 portal. Admit cards are due on 30 November and the exam is on 13 December 2026. AILET needs a separate application from CLAT."
+      },
+      {
+        "q": "When are the SLAT 2027 exam dates?",
+        "a": "Saturday, 19 December and Saturday, 26 December 2026, according to the official SLAT site. Candidates can attempt both, and the better score counts for AY 2027-28."
+      },
+      {
+        "q": "Was there any new CLAT 2027 notification this week?",
+        "a": "No. On 14 October 2026 the Consortium's notification list still showed the same five items we saw in September, the newest being the PwD policy dated 7 September 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 14 October 2026.</strong></p>\n<p>CLAT 2027 registration closes on 31 October 2026 and AILET 2027 registration closes on 10 November 2026, and neither the Consortium of NLUs nor NLU Delhi has posted a new notice since our last check, based on a direct look at both official portals on 14 October 2026.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>CLAT 2027:</strong> applications opened 3 August 2026, last date 31 October 2026, exam on 6 December 2026 (53 days away)</p>\n<p><strong>AILET 2027:</strong> applications opened 7 August 2026, last date 10 November 2026, admit card 30 November, exam on 13 December 2026</p>\n<p><strong>SLAT 2027:</strong> test dates 19 and 26 December 2026; free toppers' webinar on 16 October, 5:00–6:00 pm</p>\n<p><strong>New notices today:</strong> none on the CLAT or AILET portals</p>\n<p><strong>Checked against:</strong> <a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">consortiumofnlus.ac.in/clat-2027</a>, <a href=\"https://nationallawuniversitydelhi.in/\" rel=\"noopener\" target=\"_blank\">nationallawuniversitydelhi.in</a> and <a href=\"https://www.slat-test.org/\" rel=\"noopener\" target=\"_blank\">slat-test.org</a>, on 14 October 2026</p>\n</div>\n\n<h2>CLAT 2027: seventeen days left to apply</h2>\n<p>The Consortium of NLUs' CLAT 2027 page still lists five notifications: the press release, the removal of Vellore and Tiruvarur as test centre cities, the reservation-category changes at NLU Meghalaya and WBNUJS Kolkata, and the Persons with Disabilities policy. Nothing newer has been added. The three dates on the page are unchanged: applications opened on 3 August, the last date for receiving applications is 31 October, and the exam is on 6 December 2026. If you chose Vellore or Tiruvarur as your test centre, log in and change your preference before 31 October.</p>\n\n<h2>AILET 2027: separate form, separate deadline</h2>\n<p>NLU Delhi runs AILET on its own portal, so a CLAT application does not cover it. The portal's notification list still shows only the 23 July notification and the 7 August admission notice. Its date panel reads: applications from 7 August, last date 10 November, admit card on 30 November, exam on 13 December 2026. That leaves 27 days to apply.</p>\n\n<h2>SLAT 2027: webinar on Friday</h2>\n<p>Symbiosis' official SLAT site is advertising a webinar on 16 October 2026, 5:00 to 6:00 pm on Zoom, with SLAT toppers sharing strategy. The site says access is only for students who have started their SLAT 2027 application. SLAT 2027 is a one-hour computer-based test with 60 objective questions in five sections and no negative marking, held in 62 cities. The fee is Rs 2,550 per test plus Rs 1,000 per programme applied for, plus taxes. The two test dates are Saturday, 19 December and Saturday, 26 December 2026, and the better of two attempts counts for AY 2027-28.</p>\n\n<h2>What this means for students</h2>\n<p>Nothing changes your plan today. With CLAT forms due in 17 days and AILET forms in 27, the sensible order is to finish both applications well before the last week, when portals tend to slow down. Keep your category certificate and photograph ready, and recheck your test city. Use the time left for full-length mocks rather than new books.</p>\n\n<h2>Important pointers for law aspirants (as of 14 October 2026)</h2>\n<ul>\n<li><strong>14 Oct 2026:</strong> The last date for receiving CLAT 2027 applications is 31 October 2026, and the exam is on 6 December 2026. (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">Consortium of NLUs</a>)</li>\n<li><strong>14 Oct 2026:</strong> The Consortium of NLUs' CLAT 2027 page lists five notifications, the newest being the PwD policy dated 7 September 2026, with nothing added since. (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">Consortium of NLUs</a>)</li>\n<li><strong>14 Oct 2026:</strong> AILET 2027 applications close on 10 November 2026, admit cards are due on 30 November, and the exam is on 13 December 2026. (<a href=\"https://nationallawuniversitydelhi.in/\" rel=\"noopener\" target=\"_blank\">NLU Delhi</a>)</li>\n<li><strong>14 Oct 2026:</strong> SLAT 2027 is held on 19 and 26 December 2026, and the fee is Rs 2,550 per test plus Rs 1,000 per programme, plus taxes. (<a href=\"https://www.slat-test.org/\" rel=\"noopener\" target=\"_blank\">slat-test.org</a>)</li>\n<li><strong>14 Oct 2026:</strong> SLAT 2027 has no negative marking and consists of 60 objective questions in five sections, to be answered in one hour. (<a href=\"https://www.slat-test.org/\" rel=\"noopener\" target=\"_blank\">slat-test.org</a>)</li>\n</ul>\n\n<p>Looking for a law-entrance coaching institute near you? Compare options on our <a href=\"coaching.html?exam=clat\">CLAT coaching directory</a>.</p>\n<p><strong>Last updated: 14 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-clat-coaching-institutes-chhatrapati-sambhajinagar-2026",
+    "title": "Top CLAT Coaching Institutes in Chhatrapati Sambhajinagar (Aurangabad) (2026)",
+    "category": "CLAT & Law",
+    "type": "coaching-guides",
+    "date": "14 Oct 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-chhatrapati-sambhajinagar.html",
+      "text": "Browse all verified coaching institutes in Chhatrapati Sambhajinagar"
+    },
+    "excerpt": "Chhatrapati Sambhajinagar, formerly Aurangabad, has a small CLAT coaching market. Two institutes, IMS and CLATPrep (T.I.M.E.), are confirmed on their own official websites, and we explain which directory names we left out.",
+    "faqs": [
+      {
+        "q": "Which is the best CLAT coaching in Chhatrapati Sambhajinagar (Aurangabad)?",
+        "a": "There's no single best. CLATPrep (T.I.M.E.) on Jalna Road is the more law-specific option, with a stated 70 mock tests in its classroom programme. IMS in CIDCO also covers Maharashtra's law CET and offers one-on-one mentoring. Attend a demo class at both before paying."
+      },
+      {
+        "q": "Is there a CLAT coaching centre in Aurangabad?",
+        "a": "Yes. Both IMS (Kamgar Chowk, CIDCO) and CLATPrep by T.I.M.E. (Konark Complex, Jalna Road) list CLAT programmes for the city on their official websites."
+      },
+      {
+        "q": "Does Chhatrapati Sambhajinagar have a national law university?",
+        "a": "Yes. Maharashtra National Law University is based in the city and admits students through CLAT, so a CLAT rank can lead to a seat in your own city."
+      },
+      {
+        "q": "What is the last date to apply for CLAT 2027?",
+        "a": "31 October 2026, according to the Consortium of NLUs. The exam is on 6 December 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 14 October 2026.</strong></p>\n<p>Chhatrapati Sambhajinagar, still called Aurangabad on most signboards and in most searches, is a regional education hub in Maharashtra, and it also hosts Maharashtra National Law University (MNLU), which admits students through CLAT. The coaching market for CLAT here is small. This guide lists the two institutes whose own official websites confirm a CLAT programme at a centre in the city, and explains why we left others out.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Chhatrapati Sambhajinagar (Aurangabad), Maharashtra</p>\n<p><strong>Exam covered:</strong> CLAT 2027 (the same institutes also prepare for AILET, SLAT and Maharashtra's law CET)</p>\n<p><strong>Institutes listed:</strong> 2, each confirmed on its own official website as of 14 October 2026</p>\n<p><strong>Coaching areas:</strong> Jalna Road and CIDCO (N-4)</p>\n<p><strong>Local law university:</strong> Maharashtra National Law University, which admits through CLAT</p>\n<p><strong>Next CLAT dates:</strong> applications close 31 October 2026; exam on 6 December 2026 (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">Consortium of NLUs</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows a CLAT programme at a centre in Chhatrapati Sambhajinagar. Directory sites list more names for the city, but most of those listings carry old update dates and the institutes' own sites either did not confirm the city or could not be checked. Rather than pad the list to ten, we kept it to what we could confirm. If you know an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. IMS Learning Resources, Chhatrapati Sambhajinagar</h3>\n<p>IMS's <a href=\"https://www.imsindia.com/center/aurangabad/\" rel=\"noopener\" target=\"_blank\">Aurangabad centre page</a> gives the address as N-4 12-A, Kamgar Chowk, Sector N-4, CIDCO, Chhatrapati Sambhajinagar 431003, and lists CLAT classroom coaching, CLAT online coaching and MH CET Law coaching. The page says the law batches also prepare students for Symbiosis Law, NMIMS Law and OP Jindal Law. It names Sanket Kulkarni as the law mentor, described as a Supreme Court and High Court practitioner of 12 years, and promises one-on-one mentorship and doubt-clearing sessions. The centre calls itself newly started, so it has no local track record yet, and the rank and admission claims on the page are testimonials we could not verify. IMS is better known nationally for CAT coaching, so CLAT here is one of several programmes.</p>\n\n<h3>2. CLATPrep (T.I.M.E.), Chhatrapati Sambhajinagar</h3>\n<p>CLATPrep is the CLAT and law-entrance brand of T.I.M.E., and its <a href=\"https://clatprepindia.com/cp-aurangabad.html\" rel=\"noopener\" target=\"_blank\">Aurangabad centre page</a> lists the centre at 2nd Floor, Konark Complex, behind Hotel Amarpreet, Jalna Road, with the contact email aurangabad@time4education.com. The centre offers classroom courses, online CLAT courses, test series and correspondence courses. For the CLAT 2025 classroom programme, the page cites 70 mock tests on the CLAT, AILET and SLAT pattern, 150 online sectional tests and about 1,800 pages of study material. The page says faculty include alumni of NLUs, IITs and IIMs but names none for Aurangabad, and the topper results it shows are national, not specific to this centre. Fees are not published; you have to enquire.</p>\n\n<h2>What we left out, and why</h2>\n<p>Directory sites also list PT Education and Law Admission Tutorials, both at Chaudhary Chambers near Roxy Theatre, First Attempt Success Tutorials on Station Road, and a few others. The directory records for these are dated between 2013 and 2015, and we could not confirm their current CLAT batches on an official page, so we have not listed them. Large online CLAT brands such as LegalEdge also serve students here, but they have no Chhatrapati Sambhajinagar centre.</p>\n\n<h2>How to choose</h2>\n<p>If you want a classroom with a large national mock pool and a dedicated CLAT product, CLATPrep on Jalna Road is the more law-specific of the two. IMS suits students who also want Maharashtra law CET preparation under the same roof and value one-on-one mentoring from a practising lawyer. With only two verified options, many serious aspirants also add an online test series. Whichever you pick, sit in a demo class, ask how many students are in the current CLAT batch, and ask for recent results from this centre, not from the brand as a whole. Fees change every year and neither centre publishes them.</p>\n<p>The CLAT 2027 application deadline is 31 October 2026, so finish your form before you start comparing batches. See every verified listing in the city on our <a href=\"coaching-chhatrapati-sambhajinagar.html\">Chhatrapati Sambhajinagar coaching page</a>.</p>\n<p><strong>Last updated: 14 October 2026.</strong></p>\n"
+  },
+  {
     "slug": "upsc-ifs-mains-2026-from-22-november-cse-2027-notification-13-january-update",
     "title": "UPSC IFS Main 2026 Runs 22–29 November; CSE 2027 Notification Due on 13 January 2027",
     "category": "UPSC & Civil Services",
