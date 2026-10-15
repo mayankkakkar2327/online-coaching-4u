@@ -73,7 +73,8 @@
       "latur",
       "durgapur",
       "kozhikode",
-      "chhatrapati-sambhajinagar"
+      "chhatrapati-sambhajinagar",
+      "bareilly"
     ],
     "certification": [
       "online"
@@ -14761,6 +14762,52 @@
         "Fees available only on enquiry"
       ],
       "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-bareilly",
+      "type": "coaching",
+      "name": "Aakash Institute, Bareilly",
+      "city": "bareilly",
+      "locality": "Civil Lines",
+      "address": "3rd Floor, Ratandeep Complex, Chowki Chauraha, Civil Lines, Bareilly, Uttar Pradesh 243001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.aakash.ac.in/bareilly-city",
+      "about": "Aakash's official Bareilly page lists JEE (Main) and JEE (Main and Advanced) courses alongside NEET-UG and Class 7 to 10 foundation, NTSE and Olympiad courses at its Civil Lines centre. The page says results are strong every year but gives no figures for this centre. Fees are not published; the page says concessions may be available case by case.",
+      "highlights": [
+        "Official page lists JEE Main and JEE Main plus Advanced courses",
+        "Also NEET-UG and Class 7 to 10 foundation courses",
+        "Centre results not published on the page",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-bareilly",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Bareilly",
+      "city": "bareilly",
+      "locality": "Civil Lines",
+      "address": "2nd Floor, JJ Mall, Vishal Mega Mart, Ayub Khan Chauraha, Civil Lines, Bareilly, Uttar Pradesh 243001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/vidyapeeth-centres/bareily-up/bareilly-vidyapeeth-506421",
+      "about": "PW Vidyapeeth's official Bareilly page lists a 2-year Class 11 JEE programme, a 1-year Class 12 programme and a 1-year dropper batch, taught in Hinglish with regular mock tests and an All India Test Series. The centre also runs NEET and Class 8 to 10 foundation batches. Specific fees are not published; the page says the PWSAT scholarship test can earn up to 90 percent off tuition.",
+      "highlights": [
+        "Class 11 (2-year), Class 12 and dropper JEE batches",
+        "Regular mock tests and All India Test Series",
+        "PWSAT scholarship test, up to 90% off tuition as stated",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -14971,6 +15018,9 @@
     },
     "coaching-chhatrapati-sambhajinagar": {
       "intro": "<p>Chhatrapati Sambhajinagar, still widely called Aurangabad, is a regional education hub in Maharashtra and is home to Maharashtra National Law University, which admits through CLAT. The CLAT coaching market here is small, and the two institutes below are the ones whose own websites confirm a CLAT programme at a local centre. Both sit along Jalna Road and in CIDCO. Every listing has been checked against the institute's official page.</p>"
+    },
+    "coaching-bareilly": {
+      "intro": "<p>Bareilly, the main city of the Rohilkhand region in western Uttar Pradesh, has a small JEE coaching market. The two institutes below are the ones whose own official pages confirm a JEE programme at a Bareilly centre, and both are in the Civil Lines area. Every listing has been checked against the institute's official page.</p>"
     }
   }
 }

@@ -2,6 +2,70 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    "slug": "jee-main-2027-registration-not-yet-open-15oct-update",
+    "title": "JEE Main 2027 Registration Not Yet Open: NTA Portal Shows No Notice on 15 October",
+    "category": "JEE & Engineering",
+    "type": "exam-news",
+    "date": "15 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=jee",
+      "text": "Compare verified JEE coaching institutes"
+    },
+    "excerpt": "NTA's calendar proposes JEE Main 2027 Session 1 for 22 to 30 January, but the official portal had no 2027 notice and no registration date on 15 October. We also list five dated GATE 2027 and JEE pointers.",
+    "faqs": [
+      {
+        "q": "When is JEE Main 2027 Session 1?",
+        "a": "Proposed for 22, 23, 24, 28, 29 and 30 January 2027, with 31 January as a buffer day, according to NTA's examination calendar notice dated 16 September 2026. The dates are marked as proposed."
+      },
+      {
+        "q": "Has JEE Main 2027 registration started?",
+        "a": "No. On 15 October 2026 the official JEE Main portal showed no 2027 notice and no application date. Apply only at jeemain.nta.nic.in once NTA publishes the invitation."
+      },
+      {
+        "q": "When is the GATE 2027 exam?",
+        "a": "6, 7, 13, 14, 20 and 21 February 2027, according to the IIT Madras GATE 2027 site. Results are scheduled for 19 March 2027."
+      },
+      {
+        "q": "Are the JEE Main 2027 Session 2 dates out?",
+        "a": "Not yet. NTA's examination calendar up to March 2027 gives proposed Session 1 dates only."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 15 October 2026.</strong></p>\n<p>NTA has not yet opened registration for JEE Main 2027, and the official JEE Main portal carried no 2027 notice when we checked it on 15 October 2026, even though Session 1 is proposed for 22 to 30 January 2027.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>JEE Main 2027 Session 1:</strong> proposed for 22, 23, 24, 28, 29 and 30 January 2027, with 31 January as a buffer day (99 days from 15 October 2026)</p>\n<p><strong>Session 2:</strong> dates not yet announced in NTA's examination calendar</p>\n<p><strong>Registration:</strong> not open as of 15 October 2026; no application date published by NTA</p>\n<p><strong>Official portal:</strong> <a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">jeemain.nta.nic.in</a></p>\n<p><strong>Calendar notice:</strong> NTA's examination calendar up to March 2027, dated 16 September 2026, on <a href=\"https://nta.ac.in/\" rel=\"noopener\" target=\"_blank\">nta.ac.in</a></p>\n</div>\n\n<h2>What NTA has and has not announced</h2>\n<p>NTA's public notice dated 16 September 2026 publishes its examination calendar up to March 2027, and it proposes the JEE Main 2027 Session 1 dates as 22 to 24 and 28 to 30 January 2027. The calendar marks these as proposed, so they can still change.</p>\n<p>The JEE Main portal's notice list on 15 October 2026 still showed only the 2026 cycle: score cards for Session 2 and the 2026 answer keys. There was no invitation to apply, no information bulletin and no Session 2 schedule for 2027.</p>\n<p>In the previous cycle, NTA's notice archive shows the invitation to apply for Session 1 went up around the end of October 2025. Based on that pattern, an application notice in the coming weeks would not be surprising, but NTA has not confirmed any date and we are not treating one as fact.</p>\n\n<h2>What students should do now</h2>\n<p>Keep your Aadhaar, category certificate and any UDID details current before the form opens, since NTA has previously advised candidates to update these before applying. Apply only through the official JEE Main portal once the notice is out. We will update this page when NTA publishes the bulletin.</p>\n\n<h2>Important pointers, 15 October 2026</h2>\n<ul>\n<li>JEE Main 2027 Session 1 is proposed for 22 to 24 and 28 to 30 January 2027, with 31 January as a buffer day, according to NTA's examination calendar notice dated 16 September 2026 (<a href=\"https://nta.ac.in/\" rel=\"noopener\" target=\"_blank\">nta.ac.in</a>).</li>\n<li>As of 15 October 2026, the official JEE Main portal shows no 2027 public notice, so no registration date has been announced (<a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">jeemain.nta.nic.in</a>).</li>\n<li>GATE 2027 will be held on 6, 7, 13, 14, 20 and 21 February 2027, according to IIT Madras's official GATE 2027 site, checked on 15 October 2026 (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">gate2027.iitm.ac.in</a>).</li>\n<li>GATE 2027 results are scheduled for 19 March 2027, per the IIT Madras GATE 2027 timeline (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">gate2027.iitm.ac.in</a>).</li>\n<li>GATE 2027 adds a new Robotics and Automation (RA) test paper and revised syllabi, and the official site showed its application portal as closed on 15 October 2026 (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">gate2027.iitm.ac.in</a>).</li>\n</ul>\n\n<p><em>Sources: NTA (<a href=\"https://nta.ac.in/\" rel=\"noopener\" target=\"_blank\">nta.ac.in</a>), JEE Main portal (<a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">jeemain.nta.nic.in</a>) and IIT Madras GATE 2027 (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">gate2027.iitm.ac.in</a>), all checked on 15 October 2026.</em></p>\n<p><strong>Last updated: 15 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-jee-coaching-institutes-bareilly-2026",
+    "title": "Top JEE Coaching Institutes in Bareilly (2026)",
+    "category": "JEE & Engineering",
+    "type": "coaching-guides",
+    "date": "15 Oct 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-bareilly.html",
+      "text": "Browse all verified coaching institutes in Bareilly"
+    },
+    "excerpt": "Bareilly has a small JEE coaching market. Aakash Institute and PW Vidyapeeth, both in Civil Lines, are confirmed on their own official pages, and we explain which directory names we left out.",
+    "faqs": [
+      {
+        "q": "Which is the best JEE coaching in Bareilly?",
+        "a": "There is no single best. Aakash in Civil Lines is a long-established national chain with a Class 7 to 10 foundation track, while PW Vidyapeeth offers Class 11, Class 12 and dropper JEE batches with a scholarship test. Attend a demo class at both before paying."
+      },
+      {
+        "q": "Does Aakash have a centre in Bareilly?",
+        "a": "Yes. Aakash's official page lists a centre at 3rd Floor, Ratandeep Complex, Chowki Chauraha, Civil Lines, Bareilly 243001, offering JEE Main and JEE Main plus Advanced courses."
+      },
+      {
+        "q": "Does PW Vidyapeeth run JEE classes in Bareilly?",
+        "a": "Yes. Its official Bareilly page lists a 2-year Class 11 JEE programme, a 1-year Class 12 programme and a 1-year dropper batch at JJ Mall, Ayub Khan Chauraha, Civil Lines."
+      },
+      {
+        "q": "When is JEE Main 2027?",
+        "a": "Session 1 is proposed for 22 to 24 and 28 to 30 January 2027 in NTA's examination calendar. Registration had not opened as of 15 October 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 15 October 2026.</strong></p>\n<p>Bareilly, the main city of the Rohilkhand region in western Uttar Pradesh, has a small but growing JEE coaching market, and the two institutes whose own official pages confirm JEE classroom batches here are Aakash Institute in Civil Lines and PW Vidyapeeth near Ayub Khan Chauraha. Both sit in the Civil Lines area. This guide lists only what we could confirm on official pages, and explains who we left out and why.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Bareilly, Uttar Pradesh</p>\n<p><strong>Exam covered:</strong> JEE Main and JEE Advanced (2027 cycle)</p>\n<p><strong>Institutes listed:</strong> 2, each confirmed on its own official website as of 15 October 2026</p>\n<p><strong>Coaching area:</strong> Civil Lines, around Chowki Chauraha and Ayub Khan Chauraha</p>\n<p><strong>Next JEE date:</strong> JEE Main 2027 Session 1 is proposed for 22 to 30 January 2027; registration had not opened on 15 October 2026 (<a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">NTA</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows a JEE programme at a centre in Bareilly. Directory sites list many more names, but they carry no institute websites and no recent confirmation, so we did not rank them. We kept the list to two instead of padding it to ten. If you run or know an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. Aakash Institute, Civil Lines</h3>\n<p>Aakash's <a href=\"https://www.aakash.ac.in/bareilly-city\" rel=\"noopener\" target=\"_blank\">Bareilly page</a> gives the address as 3rd Floor, Ratandeep Complex, Chowki Chauraha, Civil Lines, Bareilly 243001, and lists JEE (Main), JEE (Main and Advanced), NEET-UG and Class 7 to 10 foundation, NTSE and Olympiad courses. The page says results are strong every year but gives no figures for this centre, and fees are not published; the page says fees depend on the course and that concessions may be available case by case. Aakash is a national chain with a long record, so the question to ask is how large and how experienced the Bareilly JEE batch is.</p>\n\n<h3>2. PW Vidyapeeth, Civil Lines</h3>\n<p>The <a href=\"https://www.pw.live/vidyapeeth-centres/bareily-up/bareilly-vidyapeeth-506421\" rel=\"noopener\" target=\"_blank\">PW Vidyapeeth Bareilly page</a> lists the centre at 2nd floor, JJ Mall, Vishal Mega Mart, Ayub Khan Chauraha, Civil Lines, Bareilly 243001. JEE batches are a 2-year programme for Class 11, a 1-year programme for Class 12 and a 1-year dropper batch, taught in Hinglish with regular mock tests and an All India Test Series. The centre also runs NEET and Class 8 to 10 foundation batches. Specific fees are not published; the page says the PWSAT scholarship test can earn up to 90 percent off tuition. Results and batch-size claims on the page are promotional and we could not verify them.</p>\n\n<h2>What we left out, and why</h2>\n<p>ALLEN has a <a href=\"https://allen.in/bareilly/jee-main-advanced\" rel=\"noopener\" target=\"_blank\">JEE (Main + Advanced) page for Bareilly</a> on its own site, but we could not read its details when we checked, so we have not listed it with a confirmed address or course. Directory listings also name Arihant Classes, Bansal Classes, Guru Dronacharya, Resonance (Janakpuri) and Vidyamandir Classes (Pilibhit Road) in Bareilly. We could not confirm a current Bareilly JEE batch for any of them on an official page, so they are not listed.</p>\n\n<h2>How to choose</h2>\n<p>Both listed centres are in Civil Lines, so travel time will not separate them. Aakash suits students who want a long-established national chain with a Class 7 to 10 foundation track. PW Vidyapeeth suits students who want a lower-priced classroom with a Class 11, Class 12 and dropper structure and the option of a scholarship test. Sit in a demo class at both, ask for the current JEE batch size, and ask for results from this centre, not from the brand nationally. Fees change each year, so get the figure in writing.</p>\n<p>JEE Main 2027 registration has not opened yet, so there is time to compare before you pay. See every verified listing in the city on our <a href=\"coaching-bareilly.html\">Bareilly coaching page</a>.</p>\n<p><strong>Last updated: 15 October 2026.</strong></p>\n"
+  },
+  {
     "slug": "clat-ailet-slat-2027-14oct-no-new-notification-status-check-update",
     "title": "CLAT 2027 Closes 31 October, AILET 10 November: No New Notices on 14 October",
     "category": "CLAT & Law",
