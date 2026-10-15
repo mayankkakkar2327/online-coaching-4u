@@ -1122,6 +1122,7 @@ module.exports = [
   },
   {
     "slug": "mat-september-2026-admit-card-cbt-registration-closes-14sep-update",
+    "image": "assets/blog/mat-september-2026-admit-card-cbt-registration-closes-14sep-update.png",
     "title": "MAT September 2026: Admit Card Out, CBT Registration Closes September 14",
     "category": "MAT / MBA",
     "date": "09 Sep 2026",
@@ -1149,6 +1150,7 @@ module.exports = [
   },
   {
     "slug": "top-10-cat-coaching-institutes-jalandhar-2026",
+    "image": "assets/blog/top-10-cat-coaching-institutes-jalandhar-2026.png",
     "title": "Top 10 CAT Coaching Institutes in Jalandhar (2026)",
     "category": "CAT / MBA",
     "date": "09 Sep 2026",
@@ -1176,6 +1178,7 @@ module.exports = [
   },
   {
     "slug": "neet-ug-2026-round2-counselling-new-seats-result-11sep-update",
+    "image": "assets/blog/neet-ug-2026-round2-counselling-new-seats-result-11sep-update.png",
     "title": "NEET UG 2026 Round 2 Counselling: 30 New AIQ Seats Added, Result Due 11 September",
     "category": "NEET / Medical",
     "date": "08 Sep 2026",
@@ -1203,6 +1206,7 @@ module.exports = [
   },
   {
     "slug": "top-10-neet-coaching-institutes-faridabad-2026",
+    "image": "assets/blog/top-10-neet-coaching-institutes-faridabad-2026.png",
     "title": "Top 10 NEET Coaching Institutes in Faridabad (2026)",
     "category": "NEET / Medical",
     "date": "08 Sep 2026",
