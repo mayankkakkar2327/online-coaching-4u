@@ -3,6 +3,7 @@
 module.exports = [
   {
     "slug": "jee-main-2027-registration-not-yet-open-15oct-update",
+    "image": "assets/blog/jee-main-2027-registration-not-yet-open-15oct-update.png",
     "title": "JEE Main 2027 Registration Not Yet Open: NTA Portal Shows No Notice on 15 October",
     "category": "JEE & Engineering",
     "type": "exam-news",
@@ -35,6 +36,7 @@ module.exports = [
   },
   {
     "slug": "top-jee-coaching-institutes-bareilly-2026",
+    "image": "assets/blog/top-jee-coaching-institutes-bareilly-2026.png",
     "title": "Top JEE Coaching Institutes in Bareilly (2026)",
     "category": "JEE & Engineering",
     "type": "coaching-guides",
@@ -67,6 +69,7 @@ module.exports = [
   },
   {
     "slug": "clat-ailet-slat-2027-14oct-no-new-notification-status-check-update",
+    "image": "assets/blog/clat-ailet-slat-2027-14oct-no-new-notification-status-check-update.png",
     "title": "CLAT 2027 Closes 31 October, AILET 10 November: No New Notices on 14 October",
     "category": "CLAT & Law",
     "type": "exam-news",
@@ -99,6 +102,7 @@ module.exports = [
   },
   {
     "slug": "top-clat-coaching-institutes-chhatrapati-sambhajinagar-2026",
+    "image": "assets/blog/top-clat-coaching-institutes-chhatrapati-sambhajinagar-2026.png",
     "title": "Top CLAT Coaching Institutes in Chhatrapati Sambhajinagar (Aurangabad) (2026)",
     "category": "CLAT & Law",
     "type": "coaching-guides",
@@ -131,6 +135,7 @@ module.exports = [
   },
   {
     "slug": "upsc-ifs-mains-2026-from-22-november-cse-2027-notification-13-january-update",
+    "image": "assets/blog/upsc-ifs-mains-2026-from-22-november-cse-2027-notification-13-january-update.png",
     "title": "UPSC IFS Main 2026 Runs 22–29 November; CSE 2027 Notification Due on 13 January 2027",
     "category": "UPSC & Civil Services",
     "type": "exam-news",
@@ -163,6 +168,7 @@ module.exports = [
   },
   {
     "slug": "top-ias-coaching-institutes-kozhikode-2026",
+    "image": "assets/blog/top-ias-coaching-institutes-kozhikode-2026.png",
     "title": "Top IAS Coaching Institutes in Kozhikode (2026)",
     "category": "UPSC & Civil Services",
     "type": "coaching-guides",
@@ -195,6 +201,7 @@ module.exports = [
   },
   {
     "slug": "nmat-2026-registration-closes-10oct-update",
+    "image": "assets/blog/nmat-2026-registration-closes-10oct-update.png",
     "title": "NMAT 2026 Registration Closes on 10 October; Test Slot Booking Open Until 22 October",
     "category": "CAT, IPMAT & MBA",
     "type": "exam-news",
@@ -227,6 +234,7 @@ module.exports = [
   },
   {
     "slug": "top-cat-coaching-institutes-durgapur-2026",
+    "image": "assets/blog/top-cat-coaching-institutes-durgapur-2026.png",
     "title": "Top CAT Coaching Institutes in Durgapur (2026)",
     "category": "CAT, IPMAT & MBA",
     "type": "coaching-guides",
@@ -255,6 +263,7 @@ module.exports = [
   },
   {
     "slug": "neet-ug-2026-round3-reporting-ends-9oct-stray-vacancy-round-update",
+    "image": "assets/blog/neet-ug-2026-round3-reporting-ends-9oct-stray-vacancy-round-update.png",
     "title": "NEET UG 2026: Round 3 Reporting Ends 9 October, Stray Vacancy Round Registration Opens 12 October",
     "category": "NEET & Medical",
     "type": "exam-news",
@@ -283,6 +292,7 @@ module.exports = [
   },
   {
     "slug": "top-neet-coaching-institutes-latur-2026",
+    "image": "assets/blog/top-neet-coaching-institutes-latur-2026.png",
     "title": "Top NEET Coaching Institutes in Latur (2026)",
     "category": "NEET & Medical",
     "type": "coaching-guides",
