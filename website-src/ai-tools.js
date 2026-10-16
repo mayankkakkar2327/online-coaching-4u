@@ -1228,5 +1228,91 @@ module.exports = [
       { label: "TTBS — Educational institution improves enrolments with Smartflo AI voice bot", url: "https://www.tatatelebusiness.com/case-studies/educational-institution-improves-enrolments-with-smartflo-ai-voice-bot/" },
       { label: "TTBS — The intelligent campus: Smartflo AI in education", url: "https://www.tatatelebusiness.com/articles/intelligent-campus-smartflo-ai-student-engagement/" }
     ]
+  },
+  {
+    slug: "pagelens-ai",
+    name: "PageLens.ai",
+    shortName: "PageLens.ai",
+    audience: "institutes",
+    group: "ai-visibility",
+    lastChecked: "17 October 2026",
+    lastCheckedIso: "2026-10-17",
+    maker: "PageLens.ai",
+    url: "https://pagelens.ai/",
+    tagline: "Done-for-you AEO: tracks how ChatGPT, Google AI Mode and Perplexity answer students' questions, then writes and publishes the pages that get your institute named.",
+    priceChip: "From $299/month",
+    metaTitle: "PageLens.ai for Coaching Institutes: Done-for-You AEO",
+    metaDescription: "How coaching institutes use PageLens.ai to get named in ChatGPT, Google AI Mode and Perplexity answers: AI answer tracking, pages written and published for you, plans from $299/month.",
+    quickAnswer: "PageLens.ai is an AI search visibility (AEO/GEO) platform that does the work for you. It checks how AI engines such as ChatGPT, Google AI Mode and Perplexity answer the questions students ask, finds the pages those answers cite, drafts the missing pages in your institute's voice and publishes them on your website after you approve each one, then reruns the same questions to show which pages earned a mention. Plans start at $299 a month (Launch) with unlimited users, and there is a free AI visibility audit to start.",
+    facts: [
+      ["Made by", "PageLens.ai"],
+      ["Best for", "Multi-centre coaching brands that want AEO handled with minimal staff time"],
+      ["Price", "Launch $299/month · Growth $699/month · Enterprise $1,499/month · Agency custom"],
+      ["AI engines", "ChatGPT, Google AI Mode, Perplexity (Launch) · + Gemini, Grok (Growth) · + Claude, Copilot (Enterprise)"],
+      ["Works with", "Publishes approved pages to your website through your CMS · unlimited users on every plan"]
+    ],
+    whatIs: [
+      "<a href=\"https://pagelens.ai/\" target=\"_blank\" rel=\"noopener\">PageLens.ai</a> is an Answer Engine Optimization (AEO) platform, also called GEO (Generative Engine Optimization). Its job is to get your brand named and cited inside the answers AI tools give, such as \"best NEET coaching in Kota\" or \"top UPSC coaching in Delhi with fees\".",
+      "Most AEO tools only <strong>report</strong> where you are missing. PageLens.ai also <strong>fixes</strong> it: it drafts the pages AI answers need, publishes them on your own website once you approve them, and tracks which new page earned each citation. That makes it the most complete option for an institute that has no SEO expert or content writer."
+    ],
+    benefits: [
+      { title: "See what AI tells students about you", body: "PageLens.ai creates the questions students and parents actually ask, runs them through AI engines and shows whether your institute is named, which competitors are named instead and the exact words each AI used." },
+      { title: "Know which pages AI trusts", body: "Each AI answer is traced back to the pages it cites, ranked by how many questions they win, so you know what kind of page you are missing." },
+      { title: "The missing pages get written for you", body: "PageLens.ai drafts course, fee, FAQ and result-style pages in your institute's voice. Your team only reviews and approves — no content writer needed." },
+      { title: "Published on your own website", body: "Approved pages go live on your domain through your CMS, so the work builds your own site's authority rather than someone else's." },
+      { title: "Proof of what worked", body: "The same questions are rerun regularly, and each new citation is linked to the page that earned it, so you can see results instead of guessing." },
+      { title: "Free audit before you pay", body: "A free AI visibility audit gives a 0–100 visibility score, a sentiment split and the competitors named instead of you, with no signup or credit card." }
+    ],
+    features: [
+      "AI answer tracking across ChatGPT, Google AI Mode and Perplexity (Launch), plus Gemini and Grok (Growth) and Claude and Copilot (Enterprise)",
+      "Prompt sets generated for your category and tagged by funnel stage — you can remove any question a student wouldn't ask",
+      "Citation tracing: which pages each AI answer relies on",
+      "AI-drafted pages in your brand voice, published to your site after approval",
+      "Reruns the same prompts and links each new citation to the page that earned it",
+      "Technical and UGC recommendations and Web 2.0 publishing (Growth and above)",
+      "Outreach agent that finds publications AI engines cite and queues pitches for approval (Enterprise)",
+      "Unlimited users on every plan · free AI visibility audit"
+    ],
+    howTo: {
+      heading: "How a coaching institute can start with PageLens.ai",
+      steps: [
+        "Run the free AI visibility audit at pagelens.ai to see your score and which competitors AI names instead of you.",
+        "List the 10–20 questions students ask before joining, such as \"best IIT-JEE coaching in [city]\" or \"NEET coaching fees in [city]\".",
+        "Pick a plan and review the question set PageLens.ai creates; remove any question a real student wouldn't ask.",
+        "Share accurate details for every centre — courses, fees, batch dates, faculty and results — so drafted pages are correct.",
+        "Review and approve each drafted page; approved pages publish on your website.",
+        "Check the reruns each month to see which questions now name your institute, and judge results over at least one quarter."
+      ]
+    },
+    pricing: {
+      rows: [
+        ["Launch", "$299 a month", "ChatGPT, Google AI Mode and Perplexity · 100 prompts tracked weekly · 25 content pieces a month · unlimited users"],
+        ["Growth", "$699 a month", "Adds Gemini and Grok · daily tracking · 50 content pieces a month · technical and UGC recommendations, Web 2.0 publishing"],
+        ["Enterprise", "$1,499 a month", "Seven AI engines incl. Claude and Copilot · 200 prompts · 100 content pieces a month · outreach agent, account manager"],
+        ["Agency", "Custom quote", "Multiple client sites, white-label delivery"]
+      ],
+      note: "Prices are in US dollars per month, from PageLens.ai's official website, and exclude GST."
+    },
+    limitations: [
+      "The highest entry price among the AEO tools we compared.",
+      "A newer product, with few independent reviews so far.",
+      "Google AI Overviews is not named on the Launch plan, so confirm coverage before buying.",
+      "No Google Business Profile management or admission-lead tracking."
+    ],
+    verdict: "PageLens.ai is the most complete AEO tool for coaching institutes: it tracks AI answers, writes the missing pages and publishes them, so the institute only has to approve. It suits multi-centre brands without a marketing team; a single centre that only wants to measure visibility can start cheaper with a monitoring tool.",
+    relatedLinks: [
+      { lead: "Comparing options?", text: "See our guide to the best AEO tools for coaching institutes in India", href: "best-aeo-tools-coaching-institutes-india.html" }
+    ],
+    faqs: [
+      { q: "What is PageLens.ai?", a: "PageLens.ai is an AI search visibility (AEO/GEO) platform that tracks how AI engines answer your target questions, drafts the missing pages and publishes them on your website after you approve them." },
+      { q: "How much does PageLens.ai cost?", a: "Launch is $299 a month, Growth $699 a month and Enterprise $1,499 a month; Agency pricing is custom. Every plan includes unlimited users." },
+      { q: "Which AI engines does PageLens.ai track?", a: "Launch covers ChatGPT, Google AI Mode and Perplexity. Growth adds Gemini and Grok, and Enterprise adds Claude and Copilot, for seven engines in total." },
+      { q: "Does PageLens.ai have a free trial?", a: "It offers a free AI visibility audit with no signup or credit card, which gives a 0–100 visibility score and shows which competitors AI names instead of you." },
+      { q: "Is PageLens.ai good for coaching institutes?", a: "Yes, especially for multi-centre institutes without a marketing team, because it writes and publishes the pages AI answers need instead of only reporting the gaps." }
+    ],
+    sources: [
+      { label: "PageLens.ai — Official website", url: "https://pagelens.ai/" },
+      { label: "PageLens.ai — How PageLens.ai works (plans)", url: "https://pagelens.ai/blog/how-pagelens-ai-works" }
+    ]
   }
 ];
