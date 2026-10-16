@@ -104,7 +104,7 @@ const modeLabel = { offline: "Classroom", hybrid: "Hybrid", online: "Online" };
 const stats = {
   listings: L.length,
   coaching: byType("coaching").length,
-  cities: new Set(L.map(x => x.city)).size,
+  cities: DATA.cities.coaching.filter(c => c !== "online").length,
   reviews: L.reduce((s, x) => s + (x.ratingCount || 0), 0)
 };
 
@@ -120,9 +120,9 @@ function describe(x) {
     x.estd <= 2005 ? `Founded in ${x.estd}, it is one of the longest-running institutes in the city with more than ${age} years of teaching experience.` :
       x.estd <= 2015 ? `It has been operating since ${x.estd} and has built a steady local reputation over ${age} years.` :
       `It was established in ${x.estd}.`,
-    x.rating && x.ratingCount >= 5 ? `Students rate it ${x.rating.toFixed(1)}/5 based on ${x.ratingCount} reviews on our platform.` :
-      x.ratingCount > 0 ? `Early student feedback is positive, though the review count is still small.` :
-      `It has not collected enough student reviews yet — if you have studied here, your review would help others.`,
+    x.rating && x.ratingCount >= 5 ? `It is rated ${x.rating.toFixed(1)}/5 from ${x.ratingCount} ratings on ${ratingSrc(x)}.` :
+      x.ratingCount > 0 ? `It has a small number of public ratings on ${ratingSrc(x)} so far.` :
+      `It has no public ratings yet. If you have studied here, your review would help others.`,
     `The institute is located at ${x.address}. We recommend visiting the campus and sitting in on a demo class before enrolling.`
   ];
   return bits.join(" ");
@@ -133,12 +133,85 @@ function describe(x) {
 const ASSET_V = Date.now().toString(36);
 const CSS_LINK = `<link rel="stylesheet" href="assets/style.css?v=${ASSET_V}">`;
 
+/* coaching cities (excluding the "online" pseudo-city) — one number used everywhere */
+const COACHING_CITIES = DATA.cities.coaching.filter(c => c !== "online");
+const ONLINE_COACHING = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid");
+const OFFLINE_COACHING = byType("coaching").filter(x => x.city !== "online" && x.mode !== "online");
+
+/* Ratings stored in data.json come from public review sites (mostly Justdial), not from
+   reviews collected on this site — so every rating is labelled with its source on the page
+   and is never marked up as the site's own AggregateRating. A listing can set
+   `ratingSource` explicitly; otherwise we detect it from the listing's own text. */
+function ratingSrc(x) {
+  if (x.ratingSource) return x.ratingSource;
+  const t = `${x.about || ""} ${(x.highlights || []).join(" ")}`.toLowerCase();
+  if (/urbanpro/.test(t) && !/justdial/.test(t)) return "UrbanPro";
+  if (/shiksha/.test(t) && !/justdial/.test(t)) return "Shiksha";
+  if (/facebook/.test(t) && !/justdial/.test(t)) return "Facebook";
+  return "Justdial";
+}
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+
+/* ---------- education line icons (motion art) ---------- */
+const ICONS = {
+  cap: `<path d="M4 24l28-12 28 12-28 12z" pathLength="1"/><path d="M16 29v12c0 4 7 8 16 8s16-4 16-8V29" pathLength="1"/><path d="M60 24v14" pathLength="1"/>`,
+  book: `<path d="M32 18c-6-4-14-5-24-4v34c10-1 18 0 24 4 6-4 14-5 24-4V14c-10-1-18 0-24 4z" pathLength="1"/><path d="M32 18v34" pathLength="1"/>`,
+  pencil: `<path d="M44 8l12 12-32 32H12V40z" pathLength="1"/><path d="M38 14l12 12" pathLength="1"/><path d="M12 52l6-6" pathLength="1"/>`,
+  atom: `<circle cx="32" cy="32" r="3" pathLength="1"/><ellipse cx="32" cy="32" rx="26" ry="10" pathLength="1"/><ellipse cx="32" cy="32" rx="26" ry="10" transform="rotate(60 32 32)" pathLength="1"/><ellipse cx="32" cy="32" rx="26" ry="10" transform="rotate(120 32 32)" pathLength="1"/>`,
+  compass: `<circle cx="32" cy="10" r="4" pathLength="1"/><path d="M30 14L16 54M34 14l14 40M21 40h22" pathLength="1"/>`,
+  ruler: `<g transform="rotate(-30 32 32)"><rect x="6" y="24" width="52" height="16" rx="2" pathLength="1"/><path d="M14 24v6M22 24v4M30 24v6M38 24v4M46 24v6" pathLength="1"/></g>`,
+  trophy: `<path d="M20 8h24v14a12 12 0 01-24 0z" pathLength="1"/><path d="M20 12H10c0 8 4 12 10 12M44 12h10c0 8-4 12-10 12" pathLength="1"/><path d="M32 34v10M24 56h16M26 56v-6h12v6" pathLength="1"/>`,
+  pin: `<path d="M32 58S12 38 12 24a20 20 0 0140 0c0 14-20 34-20 34z" pathLength="1"/><circle cx="32" cy="24" r="7" pathLength="1"/>`,
+  bulb: `<path d="M24 44c0-6-8-10-8-20a16 16 0 0132 0c0 10-8 14-8 20z" pathLength="1"/><path d="M25 50h14M27 56h10" pathLength="1"/>`,
+  setsq: `<path d="M8 56V8l48 48z" pathLength="1"/><path d="M18 46V32l14 14z" pathLength="1"/>`,
+  mail: `<rect x="6" y="14" width="52" height="36" rx="2" pathLength="1"/><path d="M6 16l26 20 26-20" pathLength="1"/>`,
+  laptop: `<rect x="12" y="14" width="40" height="28" rx="2" pathLength="1"/><path d="M4 50h56l-4-8H8z" pathLength="1"/>`,
+  chat: `<path d="M8 12h48v30H24l-12 10V42H8z" pathLength="1"/><path d="M18 24h28M18 32h18" pathLength="1"/>`,
+  chip: `<rect x="14" y="14" width="36" height="36" rx="3" pathLength="1"/><rect x="24" y="24" width="16" height="16" pathLength="1"/><path d="M24 6v8M32 6v8M40 6v8M24 50v8M32 50v8M40 50v8M6 24h8M6 32h8M6 40h8M50 24h8M50 32h8M50 40h8" pathLength="1"/>`
+};
+const YELLOW = "#FFF9AB", LAV = "#D9DBF8", OLIVE_INK = "#6B6440";
+function svgIcon(name, o = {}) {
+  return `<svg${o.draw ? ' class="draw"' : ""} style="--r:${o.r || 0}deg;--fd:${o.fd || 0}s" viewBox="0 0 64 64" fill="none" stroke="${o.color || LAV}" stroke-width="${o.sw || 1.5}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
+}
+/* icons placed only in the side margins (hidden below 1100px), never behind text */
+function edgeArt(items, opts = {}) {
+  const one = (it) => `<div class="ico side-${it.side}${it.drift ? " drift" : ""}" style="top:${it.top};width:${it.size}px;height:${it.size}px;${it.mr ? `margin-right:${it.mr}px;` : ""}${it.ml ? `margin-left:${it.ml}px;` : ""}${it.amp ? `--amp:${it.amp}px;` : ""}">${svgIcon(it.icon, { color: it.color, sw: it.sw, r: it.r, fd: it.fd, draw: true })}</div>`;
+  if (opts.hero) {
+    return `<div class="edge-art hero-art hero-away" aria-hidden="true"><div class="l">${items.filter(i => i.side === "l").map(one).join("")}</div><div class="r">${items.filter(i => i.side === "r").map(one).join("")}</div></div>`;
+  }
+  return `<div class="edge-art" aria-hidden="true">${items.map(one).join("")}</div>`;
+}
+/* small floating icon row shown in place of edge art on phones/tablets */
+function iconRow(list, center) {
+  return `<div class="icon-row" aria-hidden="true"${center ? ' style="justify-content:center"' : ""}>${list.map(([n, c, r, fd]) => svgIcon(n, { color: c, sw: 2.2, r, fd })).join("")}</div>`;
+}
+/* headline words that rise in on load; words from index hl onward get the yellow accent */
+function hw(text, hl = -1, hlEnd = 999) {
+  return String(text).split(/\s+/).filter(Boolean).map((w, i) => `<span class="hw${hl >= 0 && i >= hl && i <= hlEnd ? " y" : ""}" style="--i:${i}">${esc(w)}</span>`).join(" ");
+}
+/* section headings whose words light up while scrolling */
+function rv(text, hl = -1, cls = "y") {
+  return String(text).split(/\s+/).filter(Boolean).map((w, i) => `<span class="w${hl >= 0 && i >= hl ? " " + cls : ""}">${esc(w)}</span>`).join(" ");
+}
+const chev = `<svg class="bob" aria-hidden="true" width="26" height="30" viewBox="0 0 26 30" fill="none" stroke="currentColor" stroke-width="3"><path d="M3 4l10 8 10-8"/><path d="M3 14l10 8 10-8" opacity=".6"/></svg>`;
+const ICON_SM = {
+  shield: `<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>`,
+  bubble: `<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H8l-4 4z"/></svg>`,
+  bars: `<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 20V10M12 20V4M18 20v-7"/></svg>`,
+  rupee: `<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 5h10M7 9h10M10 5c3 0 5 1.6 5 4s-2 4-5 4H8l7 7"/></svg>`,
+  check: `<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>`,
+  info: `<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16v.5"/></svg>`,
+  pin: `<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0119 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>`,
+  search: `<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5B6496" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>`
+};
+const arw = `<span class="arw" aria-hidden="true">↗</span>`;
+
 function head(title, desc, image) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <meta property="og:title" content="${esc(title)}">
@@ -147,60 +220,76 @@ function head(title, desc, image) {
 <meta property="og:type" content="website">
 ${image ? `<meta property="og:image" content="${B.siteUrl}/${image}">\n<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="${B.siteUrl}/${image}">` : ""}
 <meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2B399E">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2F4C0EQXC"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H2F4C0EQXC');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 ${CSS_LINK}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2F4C0EQXC"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H2F4C0EQXC');</script>
 </head>
 <body>`;
 }
 
-const LOGO = `<span class="logo-mark"><svg width="19" height="19" viewBox="0 0 34 34" aria-hidden="true"><path d="M17 6l12 6-12 6L5 12l12-6z" fill="#fff"/><path d="M11 16v5c0 2 2.7 3.6 6 3.6s6-1.6 6-3.6v-5l-6 3-6-3z" fill="#c7d2fe"/></svg></span>`;
+const grad = () => "";
+const LOGO_MARK = `<svg aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" fill="none" stroke="#FFF9AB" stroke-width="2.5"><polygon points="20,3 37,20 20,37 3,20"/><polygon points="8,8 32,8 32,32 8,32"/></svg>`;
+const WORDMARK = `<span>onlinecoaching<b>4u</b></span>`;
 
-/* stable gradient class per listing name */
-const grad = (s) => "g" + ((s.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 6) + 1);
-
-function header(active, dark) {
-  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["ai-tools.html", "AI Tools"], ["blog.html", "Blogs"], ["reviews.html", "Reviews"]];
+function header(active) {
+  const nav = [["certification.html", "Certifications"], ["coach.html", "Coaches"], ["computer-courses.html", "Computer Courses"], ["ai-tools.html", "AI Tools"], ["blog.html", "Guides"], ["reviews.html", "Reviews"]];
   const academicActive = active === "coaching-online.html" || active === "coaching.html";
-  return `<header class="site-header${dark ? " header-dark" : ""}">
+  const cur = (h) => active === h ? ' class="active" aria-current="page"' : "";
+  return `<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
 <div class="container header-inner">
-<a class="logo" href="index.html" aria-label="${B.name} home">${LOGO}<span>${B.name}</span></a>
+<a class="logo" href="index.html" aria-label="${B.name} home">${LOGO_MARK}${WORDMARK}</a>
 <nav class="main-nav" aria-label="Main navigation">
 <div class="nav-item nav-has-dropdown">
-<button type="button" class="nav-drop-btn${academicActive ? " active" : ""}" aria-haspopup="true" aria-expanded="false" onclick="this.parentElement.classList.toggle('open')">Academic Coaching <span class="nav-caret" aria-hidden="true">▾</span></button>
+<button type="button" class="nav-drop-btn${academicActive ? " active" : ""}" aria-haspopup="true" aria-expanded="false">Coaching <span class="nav-caret" aria-hidden="true">▾</span></button>
 <div class="nav-dropdown">
-<a href="coaching-online.html"${active === "coaching-online.html" ? ' class="active" aria-current="page"' : ""}>Online Coaching</a>
-<a href="coaching.html"${active === "coaching.html" ? ' class="active" aria-current="page"' : ""}>Offline Coaching</a>
+<a href="coaching-online.html"${cur("coaching-online.html")}>Online Coaching</a>
+<a href="coaching.html"${cur("coaching.html")}>Offline Coaching</a>
 </div>
 </div>
-${nav.map(([h, t]) => `<a href="${h}"${active === h ? ' class="active" aria-current="page"' : ""}>${t}</a>`).join("\n")}
+${nav.map(([h, t]) => `<a href="${h}"${cur(h)}>${t}</a>`).join("\n")}
+<a href="contact.html"${cur("contact.html")}>Contact</a>
 </nav>
-<a class="btn ${dark ? "btn-primary" : "btn-dark"} btn-sm" href="contact.html">Contact us</a>
-<button class="nav-toggle" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+<div class="header-cta">
+<a class="btn btn-sm" href="list-your-institute.html">List your institute ${arw}</a>
+<button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg></button>
 </div>
-</header>`;
+</div>
+</header>
+<div class="drawer" id="drawer" hidden>
+<nav aria-label="Mobile navigation">
+<a href="index.html">Home <span aria-hidden="true">→</span></a>
+<a href="coaching-online.html">Online Coaching <span aria-hidden="true">→</span></a>
+<a href="coaching.html">Offline Coaching <span aria-hidden="true">→</span></a>
+${nav.map(([h, t]) => `<a href="${h}">${t} <span aria-hidden="true">→</span></a>`).join("\n")}
+<a href="about.html">About <span aria-hidden="true">→</span></a>
+<a href="contact.html">Contact <span aria-hidden="true">→</span></a>
+</nav>
+<a class="btn" href="list-your-institute.html">List your institute free ${arw}</a>
+</div>`;
 }
 
 function footer() {
-  const footerCityCounts = DATA.cities.coaching.filter(c => c !== "online").map(c => ({ c, n: byCity("coaching", c).length }));
+  const footerCityCounts = COACHING_CITIES.map(c => ({ c, n: byCity("coaching", c).length }));
   const topFooterCities = [...footerCityCounts].sort((a, b) => b.n - a.n).slice(0, 10);
   const coachingCities = `<li><a href="coaching-online.html">Online Coaching</a></li>` +
     topFooterCities.map(({ c }) => `<li><a href="coaching-${c}.html">Coaching in ${cityLabel(c)}</a></li>`).join("") +
-    `<li><a href="coaching.html">Browse all ${footerCityCounts.length} cities →</a></li>`;
+    `<li><a href="coaching.html" style="color:var(--yellow)">Browse all ${footerCityCounts.length} cities →</a></li>`;
   return `<footer class="site-footer">
 <div class="container footer-grid">
-<div>
-<h3>Coaching</h3><ul>${coachingCities}</ul>
+<div class="foot-brand">
+<a class="logo" href="index.html" aria-label="${B.name} home">${LOGO_MARK}${WORDMARK}</a>
+<p>Compare coaching institutes across India with honest, labelled information. Free for students.</p>
 </div>
-<div>
-<h3>Guides</h3><ul>${POSTS.slice(0, 6).map(p => `<li><a href="${p.slug}.html">${esc(p.title)}</a></li>`).join("")}</ul>
-</div>
-<div>
-<h3>Company</h3><ul>
+<div class="foot-cols">
+<details class="foot-col" open><summary>Coaching</summary><ul>${coachingCities}</ul></details>
+<details class="foot-col" open><summary>Guides</summary><ul>${POSTS.slice(0, 6).map(p => `<li><a href="${p.slug}.html">${esc(p.title)}</a></li>`).join("")}</ul></details>
+<details class="foot-col" open><summary>Company</summary><ul>
 <li><a href="about.html">About Us</a></li>
 <li><a href="contact.html">Contact Us</a></li>
 <li><a href="blog.html">Guides</a></li>
@@ -211,209 +300,352 @@ function footer() {
 <li><a href="list-your-institute.html">List Your Institute</a></li>
 <li><a href="/sitemap.xml">Sitemap</a></li>
 <li><a href="https://www.onlinecoaching4u.in/feed">Feed</a></li>
-</ul>
-</div>
-<div>
-<h3>Legal</h3><ul>
+</ul></details>
+<details class="foot-col" open><summary>Legal</summary><ul>
 <li><a href="privacy.html">Privacy Policy</a></li>
 <li><a href="terms.html">Terms &amp; Conditions</a></li>
 </ul>
-<p class="footer-note">All listing data is verified with institutes where possible. Ratings reflect reviews collected from students.</p>
+<p class="footer-note">Listing data is verified with institutes where possible. Ratings shown are from public review sites such as Justdial and Google, and each one is labelled with its source.</p></details>
 </div>
 </div>
-<div class="container footer-bottom">
-<p>© 2026 ${B.name}. All rights reserved.</p>
-</div>
+<div class="container footer-bottom"><span>© 2026 ${B.name}. All rights reserved.</span><span>Free for students, always.</span></div>
 </footer>
 <script src="assets/app.js?v=${ASSET_V}"></script>
 </body></html>`;
 }
 
-/* ---------- cards ---------- */
-function stars(x) {
-  if (!x.rating) return `<span class="rating muted">No reviews yet</span>`;
-  return `<span class="rating"><span class="star" aria-hidden="true">★</span> ${x.rating.toFixed(1)} <span class="muted">(${x.ratingCount} review${x.ratingCount === 1 ? "" : "s"})</span></span>`;
+/* shared inner-page hero (blue band) */
+function pageHero({ crumbs = [], badge = "", h1 = "", h1Class = "", sub = "", extra = "", art = [], wide = false }) {
+  const crumbHtml = crumbs.length ? `<nav class="crumbs fadein" style="--d:0ms" aria-label="Breadcrumb">${crumbs.map(([h, t], i) => i === crumbs.length - 1 || !h ? `<span${i === crumbs.length - 1 ? ' aria-current="page"' : ""}>${esc(t)}</span>` : `<a href="${h}">${esc(t)}</a>`).join('<span aria-hidden="true">/</span>')}</nav>` : "";
+  return `<section class="page-hero">
+${art.length ? edgeArt(art, { hero: true }) : ""}
+<div class="container"><div class="inner"${wide ? ' style="max-width:none"' : ""}>
+${crumbHtml}
+${badge ? `<div class="badge-line fadein" style="--d:60ms"><i aria-hidden="true"></i>${badge}</div>` : ""}
+<h1${h1Class ? ` class="${h1Class}"` : ""}>${h1}</h1>
+${sub ? `<p class="hero-sub fadein" style="--d:350ms">${sub}</p>` : ""}
+${extra}
+</div></div>
+</section>`;
 }
+const HERO_ART = {
+  a: [{ icon: "pin", side: "r", top: "18%", size: 116, color: YELLOW }, { icon: "book", side: "r", top: "60%", size: 92, mr: 130, fd: -2 }],
+  b: [{ icon: "cap", side: "r", top: "16%", size: 112, color: YELLOW, r: -8 }, { icon: "pencil", side: "r", top: "60%", size: 86, mr: 140, fd: -2, r: 12 }],
+  c: [{ icon: "atom", side: "r", top: "18%", size: 112, color: YELLOW, fd: -1 }, { icon: "ruler", side: "r", top: "60%", size: 90, mr: 140, fd: -3 }],
+  d: [{ icon: "compass", side: "r", top: "18%", size: 112, color: YELLOW, r: -6 }],
+  e: [{ icon: "trophy", side: "r", top: "16%", size: 116, color: YELLOW, r: 6 }, { icon: "bulb", side: "r", top: "60%", size: 88, mr: 140, fd: -2, r: -6 }],
+  f: [{ icon: "chip", side: "r", top: "18%", size: 110, color: YELLOW }, { icon: "laptop", side: "r", top: "60%", size: 92, mr: 140, fd: -2 }],
+  g: [{ icon: "mail", side: "r", top: "20%", size: 108, color: YELLOW, r: 8 }],
+  h: [{ icon: "chat", side: "r", top: "18%", size: 110, color: YELLOW }, { icon: "trophy", side: "r", top: "60%", size: 86, mr: 140, fd: -2 }]
+};
 
-function card(x) {
-  const exams = x.exams.filter(e => e !== "schooling").slice(0, 4).map(e => `<span class="chip">${examLabel(e)}</span>`).join("");
-  const extra = x.exams.filter(e => e !== "schooling").length > 4 ? `<span class="chip chip-more">+${x.exams.length - 4} more</span>` : "";
-  const gender = x.gender ? `<span class="chip">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
-  const price = x.priceRange ? `<span class="chip chip-price">${x.priceRange}</span>` : "";
-  const locLine = x.city === "online" ? `${esc(x.locality)}` : `${esc(x.locality)}, ${cityLabel(x.city)}`;
-  const modeBadge = x.mode ? `<span class="badge ${x.mode === "online" ? "badge-online" : x.mode === "hybrid" ? "badge-hybrid" : "badge-type"}">${modeLabel[x.mode]}</span>` : "";
-  return `<a class="card" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-mode="${x.mode || ""}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
-<div class="card-top">${x.verified ? `<span class="badge badge-verified" title="Details verified with the institute">✓ Verified</span>` : ""}${modeBadge}</div>
-<div class="card-ident">
-<span class="avatar-md ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
-<div><h3>${esc(x.name)}</h3><p class="card-loc">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</p></div>
-</div>
-<div class="card-chips">${exams}${extra}${gender}${price}</div>
-<div class="card-foot">${stars(x)}<span class="card-cta">View profile →</span></div>
+/* ---------- institute card ---------- */
+function scoreLine(x) {
+  if (x.rating && x.ratingCount) return `<span class="score-line"><span class="pill">★ ${x.rating.toFixed(1)}</span>${x.ratingCount} on ${ratingSrc(x)}</span>`;
+  if (x.googleRating) return `<span class="score-line"><span class="pill">★ ${x.googleRating.toFixed(1)}</span>${x.googleReviewCount} on Google</span>`;
+  return `<span class="score-line">No ratings yet</span>`;
+}
+/* kept for any template still calling stars() */
+function stars(x) { return scoreLine(x); }
+
+function card(x, i) {
+  const exams = x.exams.filter(e => e !== "schooling");
+  const examTags = exams.slice(0, 4).map(e => `<span class="tag">${examLabel(e)}</span>`).join("") + (exams.length > 4 ? `<span class="tag grey">+${exams.length - 4} more</span>` : "");
+  const gender = x.gender ? `<span class="tag grey">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
+  const price = x.priceRange ? `<span class="tag green">${esc(x.priceRange)}</span>` : "";
+  const modeTag = x.mode ? `<span class="tag grey">${modeLabel[x.mode]}</span>` : "";
+  const status = x.verified ? `<span class="tag green">✓ Verified</span>` : "";
+  const locLine = x.city === "online" ? esc(x.locality) : `${esc(x.locality)}, ${cityLabel(x.city)}`;
+  const n = typeof i === "number" ? i + 1 : 0;
+  return `<a class="inst fade-up" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-mode="${x.mode || ""}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
+<span class="rank" aria-hidden="true">${n ? String(n).padStart(2, "0") : "·"}</span>
+<div><h3>${esc(x.name)}</h3><div class="where">${locLine}${x.estd ? ` · Estd. ${x.estd}` : ""}</div>
+<div class="tags">${examTags}${modeTag}${gender}${price}${status}</div></div>
+<div class="side">${scoreLine(x)}<span class="go">View profile →</span></div>
 </a>`;
 }
 
 /* ---------- pages ---------- */
-function searchBox() {
-  return `<div class="searchbox searchbox-live" role="search">
+function searchBox(chips) {
+  return `<div class="searchbox-wrap fadein" style="--d:450ms" role="search">
+<div class="searchbox">
+${ICON_SM.search}
 <label class="sr-only" for="site-search">Search institutes, cities or guides</label>
-<input type="text" id="site-search" name="q" placeholder="Search institutes, cities or guides…" autocomplete="off">
-<button class="btn btn-primary" type="button" id="site-search-btn">Search</button>
+<input type="search" id="site-search" name="q" placeholder="Search institutes, cities or guides" autocomplete="off">
+<button class="btn" type="button" id="site-search-btn">Search</button>
+</div>
 <div id="site-search-results" class="search-results" hidden></div>
-</div>`;
+</div>
+${chips ? `<div class="chips fadein" style="--d:550ms">${chips}</div>` : ""}`;
+}
+
+function topRatedList(list) {
+  return list.map(x => {
+    const cityL = x.city === "online" ? "Online" : cityLabel(x.city);
+    const exams = x.exams.filter(e => e !== "schooling").slice(0, 2).map(examLabel).join(", ");
+    return { x, cityL, exams };
+  });
 }
 
 function homePage() {
-  /* custom stroke icons, one per exam — replaces the old generic unicode glyphs
-     (§ ∆ ✚ ◆ ¶ ⚖ ✦ ₹ ◎), which read as dated placeholder symbols */
-  const icons = {
-    ias: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-7h6v7"/><path d="M4 9h16"/></svg>`,
-    jee: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.4"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/></svg>`,
-    neet: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 16v6M9 8h6l3 6a6 6 0 0 1-12 0l3-6Z"/></svg>`,
-    cat: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>`,
-    ssc: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11.5 11 13.5 15.5 8.5"/><rect x="3.5" y="4" width="17" height="16" rx="3"/></svg>`,
-    clat: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l-3 6a3.5 3.5 0 0 0 7 0l-3-6ZM19 7l-3 6a3.5 3.5 0 0 0 7 0l-3-6ZM5 7h14M9 21h6"/></svg>`,
-    nda: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v5c0 5 4 8.5 9 11 5-2.5 9-6 9-11V6l-9-4Z"/></svg>`,
-    bank: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="10" width="18" height="9" rx="1.5"/><path d="M3 10 12 4l9 6M7 10v9M12 10v9M17 10v9"/></svg>`,
-    cuet: `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="M6 10.5V15c0 1.5 2.5 3 6 3s6-1.5 6-3v-4.5"/></svg>`,
-  };
-  /* each tile links straight to whichever city has the most listings for that exam —
-     deterministic and always has results, unlike the old last-visited-city guess,
-     which could land a visitor on a city with zero matches for a niche exam */
-  const examCards = ["ias", "jee", "neet", "cat", "ssc", "clat", "nda", "bank", "cuet"]
-    .map((e) => `<a class="tile tile-h" href="coaching-${bestCityForExam(e)}.html?exam=${e}"><span class="tile-ic" aria-hidden="true">${icons[e]}</span><span class="tile-text"><strong>${examLabel(e)}</strong><span class="muted">${e === "cat" ? "Classroom &amp; online" : "Find coaching"}</span></span></a>`).join("");
-  /* "Browse by city" — a tight grid of the busiest cities plus the long tail as a
-     compact chip list, instead of one full-size card per city (was ~40 identical
-     cards in a row, the single biggest source of homepage clutter) */
-  const cityCounts = DATA.cities.coaching.filter(c => c !== "online").map(c => ({ c, n: byCity("coaching", c).length }));
+  const examSubs = { ias: "Civil services & state PCS", jee: "JEE Main & Advanced", neet: "Medical entrance", cat: "MBA · classroom & online", ssc: "CGL, CHSL & more", clat: "CLAT & AILET", nda: "Defence entrance", bank: "IBPS, SBI & RBI", cuet: "Central universities" };
+  const examCells = ["ias", "jee", "neet", "cat", "ssc", "clat", "nda", "bank", "cuet"]
+    .map((e) => `<a class="cell fade-up" href="coaching-${bestCityForExam(e)}.html?exam=${e}"><span><small>${examSubs[e]}</small><b>${examLabel(e)}</b></span><span class="arw" aria-hidden="true">→</span></a>`).join("");
+  const cityCounts = COACHING_CITIES.map(c => ({ c, n: byCity("coaching", c).length }));
   const sortedCityCounts = [...cityCounts].sort((a, b) => b.n - a.n);
-  const topCityCounts = sortedCityCounts.slice(0, 12);
-  const moreCityCounts = sortedCityCounts.slice(12);
-  const topCityCards = topCityCounts.map(({ c, n }) => `<a class="city-mini" href="coaching-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${n} listed</span></a>`).join("");
-  const moreCityChips = moreCityCounts.map(({ c }) => `<a class="city-chip" href="coaching-${c}.html">${cityLabel(c)}</a>`).join("") +
-    `<a class="city-chip city-chip-cta" href="coaching.html">View all cities →</a>`;
-  const onlineCount = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid").length;
-  const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1));
-  const featured = topRated.slice(0, 6).map(card).join("");
-  /* "Top rated this month" hero widget: curated, not algorithmic — hand-picked slugs */
+  const topCities = sortedCityCounts.slice(0, 12).map(({ c, n }) => `<a class="city" href="coaching-${c}.html"><b>${cityLabel(c)}</b><span>${n} listed</span></a>`).join("");
+  const moreCities = sortedCityCounts.slice(12).map(({ c }) => `<a href="coaching-${c}.html">${cityLabel(c)}</a>`).join(" · ");
+  const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6);
+  const rows = topRatedList(topRated).map(({ x, cityL, exams }, i) => `<a class="trow fade-up" href="institute-${x.slug}.html"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="name">${esc(x.name)}${x.verified ? ` <span class="verified-tag">Verified</span>` : ""}<span class="m-meta">${esc(cityL)} · ${esc(exams)} · ${x.ratingCount} on ${ratingSrc(x)}</span></span><span class="meta">${esc(cityL)}</span><span class="meta">${esc(exams)}</span><span class="score"><span class="pill">★ ${x.rating.toFixed(1)}</span><span class="src">${x.ratingCount} on ${ratingSrc(x)}</span></span></a>`).join("");
+  /* "Top rated this month": curated, not algorithmic — hand-picked slugs */
   const MINI_SLUGS = ["rodha", "iproledge-academy-bengaluru", "sbtechmath-academy", "navjeevan-neet-academy-sikar"];
-  const miniItems = MINI_SLUGS.map(s => L.find(x => x.slug === s)).filter(Boolean);
-  const minis = miniItems.map((x, i) => `<a class="mini" href="institute-${x.slug}.html"><span class="avatar ${grad(x.name)}">${esc(x.name[0])}</span><div><b>${esc(x.name)}</b><span>${esc(x.locality)}${x.estd ? ` · Since ${x.estd}` : ""}</span></div><span class="score">#${i + 1}</span></a>`).join("");
+  const minis = MINI_SLUGS.map(s => L.find(x => x.slug === s)).filter(Boolean).map((x, i) => `<a class="fade-up" href="institute-${x.slug}.html"><span>#${i + 1} · ${x.city === "online" ? "Online, pan-India" : esc(x.locality)}${x.estd ? ` · since ${x.estd}` : ""}</span><b>${esc(x.name)}</b><span>View profile →</span></a>`).join("");
+  const chipPairs = [["jee", "kota", "JEE in Kota"], ["neet", "sikar", "NEET in Sikar"], ["ias", "delhi", "UPSC in Delhi"], ["ca", "bengaluru", "CA in Bengaluru"]]
+    .filter(([, c]) => COACHING_CITIES.includes(c))
+    .map(([e, c, t]) => `<a href="coaching-${c}.html?exam=${e}">${t}</a>`).join("");
+  const totalRatings = L.reduce((s, x) => s + (x.ratingCount || 0), 0);
+  const ticker = ["IAS / PCS", "IIT JEE", "NEET", "CAT / MBA", "SSC", "CLAT / Law", "NDA", "Banking", "CUET", "CA"].map(t => `<span>${t}</span><em>◆</em>`).join("");
   return head(`${B.name} — Find the Best Coaching Institutes in India`,
-    `Compare ${stats.coaching} verified coaching institutes across ${stats.cities} cities. Real reviews, honest details, free for students.`) +
-    header("index.html", true) + `
+    `Compare ${stats.coaching} coaching institutes across ${COACHING_CITIES.length} cities and online. Labelled ratings, honest details, free for students.`) +
+    header("index.html") + `
+<main id="main">
 <section class="hero">
-<div class="container hero-grid">
-<div>
-<p class="hero-kicker">Verified listings · Free for students</p>
-<h1>Choose where you study <em>with certainty,</em> not guesswork</h1>
-<p class="hero-sub">${B.tagline}</p>
-${searchBox()}
-<div class="stats-row">
-<div><strong>${stats.listings}</strong><span>Listings live</span></div>
-<div><strong>${stats.cities}</strong><span>Cities &amp; online</span></div>
-<div><strong>${stats.reviews}+</strong><span>Student reviews</span></div>
-<div><strong>₹0</strong><span>For students, always</span></div>
-</div>
-</div>
-<aside class="hero-card">
-<div class="hc-title">Top rated this month</div>
-${minis}
-</aside>
+${edgeArt([
+  { icon: "cap", side: "l", top: "16%", size: 124, color: YELLOW, sw: 1.4, r: -8 },
+  { icon: "pencil", side: "l", top: "62%", size: 92, ml: 40, sw: 1.6, r: 12, fd: -2 },
+  { icon: "book", side: "r", top: "14%", size: 132, sw: 1.4, r: 6, fd: -1 },
+  { icon: "atom", side: "r", top: "60%", size: 104, mr: 36, color: YELLOW, sw: 1.3, fd: -3 }
+], { hero: true })}
+<div class="container"><div class="hero-inner">
+${iconRow([["cap", YELLOW, -8, 0], ["book", LAV, 0, -1], ["pencil", LAV, 12, -2]])}
+<div class="badge-line fadein" style="--d:60ms"><i aria-hidden="true"></i>Verified listings · Free for students</div>
+<h1>${hw("Choose where you study")} <span class="hw y" style="--i:4">with</span> <span class="hw y" style="--i:5">certainty,</span> <span class="hw" style="--i:6">not</span> <span class="hw" style="--i:7">guesswork</span></h1>
+<p class="hero-sub fadein" style="--d:350ms">${esc(B.tagline)}</p>
+${searchBox(chipPairs)}
+</div></div>
+<a href="#stats" class="scroll-cue" aria-label="Scroll to the next section">${chev}</a>
+</section>
+
+<section class="stats" id="stats" aria-label="Site numbers">
+<div class="container">
+<div class="stat fade-up"><strong data-count="${stats.listings}">${stats.listings}</strong><span>listings live</span></div>
+<div class="stat fade-up"><strong data-count="${COACHING_CITIES.length}">${COACHING_CITIES.length}</strong><span>cities &amp; online</span></div>
+<div class="stat fade-up"><strong data-count="${totalRatings}" data-suffix="+">${totalRatings.toLocaleString("en-IN")}+</strong><span>student ratings tracked</span></div>
+<div class="stat fade-up"><strong>₹0</strong><span>for students, always</span></div>
 </div>
 </section>
-<section class="section container" style="padding-bottom:0">
-<div class="sec-head">
-<div><div class="eyebrow">Start here</div><h2>Online or offline: pick your path</h2></div>
+<div class="ticker-band" aria-hidden="true"><div class="ticker">${ticker}${ticker}</div></div>
+
+${minis ? `<section class="band-blue" aria-label="Top rated this month">
+<div class="container" style="padding-block:44px 52px">
+<div class="eyebrow" style="color:var(--lav)">Top rated this month</div>
+<div class="compare">${minis}</div>
 </div>
-<div class="path-grid">
-<a class="path-card path-card-online" href="coaching-online.html">
-<span class="path-kicker">Study from anywhere</span>
-<h3>Online Coaching</h3>
-<p>Live and self-paced programs from platforms and hybrid institutes, joinable from anywhere. ${onlineCount} listed.</p>
-<span class="link-arrow">Explore online coaching →</span>
-</a>
-<a class="path-card path-card-offline" href="coaching.html">
-<span class="path-kicker">Classroom, near you</span>
-<h3>Offline Coaching</h3>
-<p>In-person institutes with physical batches, browsed by city. ${stats.coaching} institutes listed.</p>
-<span class="link-arrow">Browse by city →</span>
-</a>
+</section>` : ""}
+
+<section class="band-yellow" style="position:relative;overflow:hidden" id="exams">
+${edgeArt([
+  { icon: "compass", side: "l", top: "96px", size: 112, color: OLIVE_INK, r: -10, drift: true, amp: -90 },
+  { icon: "ruler", side: "r", top: "110px", size: 124, color: OLIVE_INK, fd: -2, drift: true, amp: -90 }
+])}
+<div class="container section" style="position:relative">
+<div style="text-align:center">
+${iconRow([["compass", OLIVE_INK, -10, 0], ["ruler", OLIVE_INK, 0, -2]], true)}
+<div class="eyebrow" style="color:var(--olive-ink)">Exam categories</div>
+<h2 class="big-title reveal" style="max-width:780px;margin:0 auto">${rv("What are you preparing for?", 3, "t")}</h2>
+</div>
+<div class="exam-grid" style="margin-top:56px">${examCells}</div>
+<p style="margin-top:26px;text-align:center"><a class="link-arrow" href="coaching.html">All categories →</a></p>
 </div>
 </section>
-<section class="section container">
-<div class="sec-head">
-<div><div class="eyebrow">Start with your goal</div><h2>What are you preparing for?</h2></div>
-<a class="link-arrow" href="coaching.html">All categories →</a>
+
+<section class="band-paper">
+<div class="container section">
+<div class="sec-head" style="margin-bottom:0">
+<div><div class="eyebrow">Start here</div><h2 class="sec-title reveal" style="max-width:640px">${rv("Online or offline: pick your path")}</h2></div>
+<div class="tabs" role="tablist" aria-label="Coaching mode">
+<button class="tab" role="tab" id="tab-online" aria-selected="true" aria-controls="panel-online">Online · ${ONLINE_COACHING.length}</button>
+<button class="tab" role="tab" id="tab-offline" aria-selected="false" aria-controls="panel-offline" tabindex="-1">Offline · ${OFFLINE_COACHING.length}</button>
 </div>
-<div class="tile-grid">${examCards}</div>
-</section>
-<section class="section container" style="padding-top:0">
-<div class="sec-head">
-<div><div class="eyebrow">Ranked by students, not budgets</div><h2>Highest-rated institutes</h2><p class="section-sub" style="margin-bottom:0">Ratings come from students and cannot be bought, edited or hidden.</p></div>
-<a class="link-arrow" href="coaching.html">Browse all ${stats.coaching} →</a>
 </div>
-<div class="card-grid">${featured}</div>
+<div class="panel" id="panel-online" role="tabpanel" aria-labelledby="tab-online">
+<div class="art cut" aria-hidden="true">${svgIcon("laptop", { color: YELLOW, sw: 1.2, draw: true })}</div>
+<div class="copy"><div class="num">${ONLINE_COACHING.length}</div><div class="lbl">online &amp; hybrid programs</div>
+<p>Live and self-paced programs from online platforms and hybrid institutes, joinable from anywhere in India.</p>
+<a class="btn btn-primary" href="coaching-online.html">Explore online coaching ${arw}</a></div>
+</div>
+<div class="panel" id="panel-offline" role="tabpanel" aria-labelledby="tab-offline" hidden>
+<div class="art cut" aria-hidden="true">${svgIcon("pin", { color: YELLOW, sw: 1.2, draw: true })}</div>
+<div class="copy"><div class="num">${OFFLINE_COACHING.length}</div><div class="lbl">classroom institutes in ${COACHING_CITIES.length} cities</div>
+<p>In-person institutes with physical batches. Visit before you join and compare what's near you.</p>
+<a class="btn btn-primary" href="coaching.html">Browse by city ${arw}</a></div>
+</div>
+</div>
 </section>
-<section class="section container why">
-<div class="band">
-<div>
+
+<section class="band-blue" style="position:relative;overflow:hidden">
+${edgeArt([{ icon: "trophy", side: "r", top: "96px", size: 150, color: YELLOW, sw: 1.3, r: 6, drift: true, amp: -80 }])}
+<div class="container section" style="position:relative">
+<div class="eyebrow">Highest-rated institutes</div>
+<h2 class="big-title reveal" style="max-width:760px">${rv("Ranked by students, not budgets.", 2)}</h2>
+<p class="section-sub">Ratings come from students on public review sites like Justdial, and each one is labelled with its source. Institutes can't buy, edit or hide them here.</p>
+<div class="rank-table" style="margin-top:48px">${rows}</div>
+<a class="btn" style="margin-top:36px" href="coaching.html">Browse all ${stats.coaching} institutes ${arw}</a>
+</div>
+</section>
+
+<section class="band-peach">
+<div class="container section trust-wrap">
+<div class="intro">
 <div class="eyebrow">Why students trust us</div>
-<h2>Comparison you can actually believe</h2>
-<p>Most coaching directories sell their rankings. We built this platform on different economics: institutes never pay to rank, reviews are never edited, and anything promoted is labelled in plain sight.</p>
+<h2 class="sec-title reveal">${rv("Comparison you can actually believe", 3, "t")}</h2>
+<p>Most coaching directories sell their rankings. Here, institutes never pay to rank, and anything promoted is labelled in plain sight.</p>
 </div>
-<div class="principles">
-<div class="principle"><span class="num">01</span><div><b>Honest listings</b><span>Verification status shown on every profile — you always know how much to trust.</span></div></div>
-<div class="principle"><span class="num">02</span><div><b>Unedited reviews</b><span>Institutes cannot pay to change or remove what students say.</span></div></div>
-<div class="principle"><span class="num">03</span><div><b>No paid rankings</b><span>Default order reflects our genuine, unpaid recommendation — weighing ratings, track record and free content. Nobody can buy placement.</span></div></div>
-<div class="principle"><span class="num">04</span><div><b>Free for students</b><span>Comparing, enquiring and reviewing costs nothing. Ever.</span></div></div>
+<div class="promises">
+<div class="promise fade-up">${ICON_SM.shield}<h3>Honest listings</h3><p>Verification status is shown on every profile, so you know how much to trust it.</p></div>
+<div class="promise fade-up">${ICON_SM.bubble}<h3>Labelled ratings</h3><p>Every rating shows where it comes from, and institutes can't change or remove it.</p></div>
+<div class="promise fade-up">${ICON_SM.bars}<h3>No paid rankings</h3><p>The default order is our unpaid recommendation. Nobody can buy placement.</p></div>
+<div class="promise fade-up">${ICON_SM.rupee}<h3>Free for students</h3><p>Comparing, enquiring and reviewing cost nothing. Ever.</p></div>
 </div>
 </div>
 </section>
-<section class="section container" style="padding-top:16px">
-<div class="sec-head"><div><div class="eyebrow">Explore</div><h2>Browse by city</h2></div></div>
-<div class="city-mini-grid">${topCityCards}</div>
-<div class="city-more-card"><div class="city-more-label">More cities</div><div class="city-chip-row">${moreCityChips}</div></div>
+
+<section class="band-blue" style="position:relative;overflow:hidden">
+${edgeArt([{ icon: "pin", side: "r", top: "18px", size: 76, color: YELLOW, sw: 1.6, fd: -1, drift: true, amp: -30 }])}
+<div class="container section" style="position:relative">
+<div class="row-head">
+<div><div class="eyebrow">${COACHING_CITIES.length} cities and online</div><h2 class="big-title reveal">${rv("Browse by city", 2)}</h2></div>
+<a class="link-arrow" style="color:var(--lav)" href="coaching.html">View all cities →</a>
+</div>
+<div class="city-grid">${topCities}</div>
+${moreCities ? `<p class="more-cities">More cities: ${moreCities}</p>` : ""}
+</div>
 </section>
-<section class="section container" style="padding-top:16px">
-<div class="sec-head">
-<div><div class="eyebrow">From our editorial desk</div><h2>Guides worth your time</h2></div>
+
+<section class="band-paper">
+<div class="container section">
+<div class="row-head">
+<div><div class="eyebrow">From our editorial desk</div><h2 class="sec-title reveal">${rv("Guides worth your time")}</h2></div>
 <a class="link-arrow" href="blog.html">All guides →</a>
 </div>
-<div class="card-grid">${POSTS.slice(0, 3).map(postCard).join("")}</div>
+<div class="post-grid">${POSTS_BY_DATE.slice(0, 3).map(postCard).join("")}</div>
+</div>
 </section>
-<section class="section container cta-band">
-<h2>Run a coaching institute?</h2>
-<p>Get listed free and reach students actively searching in your city.</p>
-<a class="btn btn-primary" href="list-your-institute.html">List Your Institute Free</a>
-</section>` + footer();
+
+<section class="cta-band">
+${edgeArt([{ icon: "bulb", side: "l", top: "30%", size: 96, color: YELLOW, r: -6, drift: true, amp: -70 }, { icon: "setsq", side: "r", top: "38%", size: 96, r: 8, fd: -2, drift: true, amp: -70 }])}
+<div class="container">
+${iconRow([["bulb", YELLOW, -6, 0], ["setsq", LAV, 8, -2]], true)}
+<h2 class="reveal">${rv("Run a coaching institute?", 2)}</h2>
+<p>Get listed free and reach students actively comparing options in your city.</p>
+<a class="btn" href="list-your-institute.html">List your institute free ${arw}</a>
+</div>
+</section>
+</main>` + footer();
+}
+
+function faqBlock(faqs) {
+  return faqs && faqs.length ? `<section class="band-paper"><div class="container section">
+<div class="prose faq"><h2>Frequently asked questions</h2>${faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}</div>
+</div></section>` : "";
+}
+function ctaBand(h2, p, href, btn, hlFrom = -1) {
+  return `<section class="cta-band">
+${edgeArt([{ icon: "bulb", side: "l", top: "30%", size: 92, color: YELLOW, r: -6, drift: true, amp: -60 }, { icon: "setsq", side: "r", top: "38%", size: 92, r: 8, fd: -2, drift: true, amp: -60 }])}
+<div class="container">
+<h2 class="reveal">${rv(h2, hlFrom)}</h2>
+<p>${p}</p>
+${href ? `<a class="btn" href="${href}">${btn} ${arw}</a>` : ""}
+</div>
+</section>`;
 }
 
 function hubPage(type, title, sub) {
   const hubCC = (DATA.cityContent || {})[`${typePage[type]}-hub`];
   const cities = DATA.cities[typePage[type]].filter(c => !(type === "coaching" && c === "online"));
-  const onlineBanner = type === "coaching" ? `<section class="section container" style="padding-top:0;padding-bottom:0">
-<a class="path-banner" href="coaching-online.html"><span><strong>Looking for online coaching instead?</strong> Browse nationwide online-only CAT/MBA platforms.</span><span class="link-arrow">Explore online coaching →</span></a>
-</section>` : "";
+  const onlineBanner = type === "coaching" ? `<a class="path-banner fade-up" href="coaching-online.html" style="margin-bottom:40px"><span><strong>Looking for online coaching instead?</strong> Compare ${ONLINE_COACHING.length} online and hybrid programs you can join from anywhere.</span><span class="link-arrow">Explore online coaching →</span></a>` : "";
   const cityCards = cities.map(c => {
     const items = byCity(type, c);
     const top = items[0];
-    return `<a class="tile tile-city" href="${typePage[type]}-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${items.length} listed${top && top.rating ? ` · top rated ${top.rating.toFixed(1)}★` : ""}</span></a>`;
+    return `<a class="tile fade-up" href="${typePage[type]}-${c}.html"><strong>${cityLabel(c)}</strong><span class="muted">${items.length} listed${top && top.rating ? ` · top rated ${top.rating.toFixed(1)}★` : ""}</span></a>`;
   }).join("");
   const featured = [...byType(type)].filter(x => !(type === "coaching" && x.city === "online")).sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6).map(card).join("");
+  const words = title.split(" ");
   return head(`${title} — ${B.name}`, sub) + header(`${typePage[type]}.html`) + `
-<section class="hero hero-sm"><div class="container">
-<h1>${title}</h1><p class="hero-sub">${sub}</p>${searchBox()}
-</div></section>
+<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", typePlural[type]]], badge: `${cities.length} ${cities.length === 1 ? "listing page" : "cities"} · ${byType(type).length} listed`, h1: hw(title, words.length - 1), sub: esc(sub), extra: searchBox(""), art: HERO_ART.a })}
+<section class="band-paper">
+<div class="container section">
 ${onlineBanner}
-<section class="section container"><h2>Browse by city</h2><div class="tile-grid">${cityCards}</div></section>
-<section class="section container"><h2>Highest rated</h2><div class="card-grid">${featured}</div></section>
-${hubCC && hubCC.faqs ? `<section class="section container prose"><h2>Frequently asked questions</h2>${hubCC.faqs.map(f => `<h3 style="margin:18px 0 6px">${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}</section>
+<div class="row-head"><h2 class="sec-title reveal">${rv(cities.length > 1 ? "Browse by city" : "Browse listings")}</h2></div>
+<div class="tile-grid">${cityCards}</div>
+<div class="row-head" style="margin-top:72px"><h2 class="sec-title reveal">${rv("Highest rated")}</h2></div>
+<div class="results">${featured}</div>
+</div>
+</section>
+${hubCC && hubCC.faqs ? faqBlock(hubCC.faqs) + `
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": hubCC.faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) })}</script>` : ""}
-<section class="section container cta-band">
-<h2>Own a ${typeLabel[type].toLowerCase()}?</h2><p>List it free and reach students in your city.</p>
-<a class="btn btn-primary" href="list-your-institute.html">Get Listed Free</a>
-</section>` + footer();
+${ctaBand(`Own a ${typeLabel[type].toLowerCase()}?`, "List it free and reach students in your city.", "list-your-institute.html", "Get listed free")}
+</main>` + footer();
+}
+
+/* shared layout for city listing pages and the online coaching page */
+function listingLayout({ type, h1, h1Hl, crumbs, badge, sub, intro, items, examOptions, modeOptions, faqs, ldName, ctaH2, ctaP, art, otherCities }) {
+  const examChips = examOptions.length ? `<div class="fgroup"><label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${examOptions.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select></div>` : "";
+  const modeChips = modeOptions.length > 1
+    ? `<div class="fgroup"><span class="fsel-label" id="mode-label">Mode</span><select id="modesel" class="sr-only" tabindex="-1" aria-hidden="true"><option value="">All modes</option>${modeOptions.map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>
+<div class="mode-toggle" id="modetoggle" role="group" aria-labelledby="mode-label">
+<button type="button" class="mode-btn" data-mode="">All</button>
+${modeOptions.map(m => `<button type="button" class="mode-btn" data-mode="${m}">${modeLabel[m]}</button>`).join("")}
+</div></div>` : "";
+  const local = items.filter(x => x.mode !== "online").length;
+  const online = items.length - local;
+  const rated = items.filter(x => x.rating).map(x => x.rating);
+  const facts = `<div class="hero-facts fadein" style="--d:500ms">
+<div><strong>${items.length}</strong><span>listed</span></div>
+${local && online ? `<div><strong>${local}</strong><span>classroom or hybrid</span></div><div><strong>${online}</strong><span>online options</span></div>` : ""}
+${rated.length ? `<div><strong>${Math.max(...rated).toFixed(1)}</strong><span>highest rating</span></div>` : ""}
+</div>`;
+  const others = (otherCities || []).map(c => `<a class="city fade-up" href="coaching-${c}.html"><b>${cityLabel(c)}</b><span>${byCity("coaching", c).length} listed</span></a>`).join("");
+  return `<main id="main">
+${pageHero({ crumbs, badge, h1: hw(h1, h1Hl), h1Class: "listing-h1", sub, extra: (intro ? `<div class="hero-intro fadein" style="--d:450ms">${intro}</div>` : "") + facts, art })}
+<div class="filters" role="region" aria-label="Filter and sort">
+<div class="container">
+${examChips}
+${modeChips}
+<label class="vcheck" for="verifiedonly"><input type="checkbox" id="verifiedonly"> Verified only</label>
+<div class="sortbox"><label class="fsel-label" for="sortsel">Sort</label>
+<select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most rated</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select></div>
+<span id="rescount" aria-live="polite"></span>
+</div>
+</div>
+<section class="band-paper">
+<div class="container section" style="padding-top:44px">
+<div class="results" id="cards">${items.map(card).join("")}</div>
+<div id="noresults" hidden><p style="margin-bottom:14px"><b style="color:var(--navy)">No listings match these filters.</b> Try another exam or mode, or turn off "Verified only".</p><button type="button" class="btn btn-primary btn-sm" id="clearfilters">Clear filters</button></div>
+<div class="trust-strip">
+<span>${ICON_SM.shield.replace('width="28" height="28"', 'width="18" height="18"')}Institutes cannot pay for placement</span>
+<span>${ICON_SM.bubble.replace('width="28" height="28"', 'width="18" height="18"')}Ratings are labelled with their source (Justdial, Google and others)</span>
+<span>${ICON_SM.info}Online options from other cities are marked "Online"</span>
+</div>
+</div>
+</section>
+${faqBlock(faqs)}
+${others ? `<section class="band-blue"><div class="container section">
+<div class="row-head"><h2 class="big-title reveal">${rv("Other cities", 1)}</h2><a class="link-arrow" style="color:var(--lav)" href="coaching.html">View all ${COACHING_CITIES.length} cities →</a></div>
+<div class="city-grid">${others}</div>
+</div></section>` : ""}
+<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList",
+    "name": ldName,
+    "itemListElement": items.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}` }))
+  })}</script>
+${faqs ? `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  })}</script>` : ""}
+${ctaBand(ctaH2, ctaP, "", "")}
+</main>`;
 }
 
 function listingPage(type, city) {
@@ -426,181 +658,129 @@ function listingPage(type, city) {
   const h1 = isOnline ? oc.h1 : `${label} in ${cityL}`;
   const subNote = isOnline
     ? oc.subNote(items.length)
-    : `${items.length} listed · ordered by our recommendation by default, which weighs student ratings, track record and depth of free content — switch to Top rated, Most reviewed or Oldest anytime. Institutes cannot pay for placement.`;
+    : `${items.length} listed. Ordered by our recommendation by default, which weighs ratings, track record and free content. Switch to Top rated, Most rated or Oldest anytime. Institutes cannot pay for placement.`;
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
-  const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
   const allModes = [...new Set(items.map(x => x.mode).filter(Boolean))];
   const modeOptions = ["offline", "hybrid", "online"].filter(m => allModes.includes(m));
-  const modeChips = allModes.length > 1
-    ? `<select id="modesel" class="sr-only"><option value="">All modes</option>${modeOptions.map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>
-<div class="mode-toggle" id="modetoggle" role="group" aria-label="Filter by mode">
-<button type="button" class="mode-btn" data-mode="">All</button>
-${modeOptions.map(m => `<button type="button" class="mode-btn" data-mode="${m}">${modeLabel[m]}</button>`).join("")}
-</div>`
-    : "";
   const title = isOnline ? oc.title(items.length) : `Best ${label} in ${cityL} (${items.length} listed)`;
+  const otherCities = type === "coaching" && !isOnline
+    ? COACHING_CITIES.filter(c => c !== city).map(c => ({ c, n: byCity("coaching", c).length })).sort((a, b) => b.n - a.n).slice(0, 8).map(o => o.c)
+    : [];
+  const h1Words = h1.split(" ");
   return head(`${title} — ${B.name}`,
     isOnline
       ? oc.metaDesc(items.length)
-      : `Compare ${items.length} ${label.toLowerCase()} in ${cityL} with real student ratings, exam specialisations, addresses and establishment year.`) +
-    header(isOnline && type === "coaching" ? "coaching-online.html" : `${typePage[type]}.html`) + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[type]}.html">${label}</a> / <span>${isOnline ? "Online" : cityL}</span></div>
-<section class="listing-head container">
-<h1>${h1}</h1>
-<p class="hero-sub">${subNote}</p>
-${cc && cc.intro ? `<div class="prose" style="margin-top:14px">${cc.intro}</div>` : ""}
-<div class="filterbar">
-<div class="filterbar-row">
-${examChips}
-${modeChips}
-<label class="fsel-label" for="sortsel">Sort</label>
-<select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
-<label class="vcheck"><input type="checkbox" id="verifiedonly"> Verified only</label>
-<span id="rescount" class="muted"></span>
-</div>
-</div>
-</section>
-<section class="section container"><div class="card-grid" id="cards">${items.map(card).join("")}</div>
-<p id="noresults" class="muted" hidden>No listings match these filters. Try clearing them.</p></section>
-${cc && cc.faqs ? `<section class="section container prose"><h2>Frequently asked questions</h2>${cc.faqs.map(f => `<h3 style="margin:18px 0 6px">${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}</section>` : ""}
-<script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org", "@type": "ItemList",
-    "name": h1,
-    "itemListElement": items.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}` }))
-  })}</script>
-${cc && cc.faqs ? `<script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org", "@type": "FAQPage",
-    "mainEntity": cc.faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
-  })}</script>` : ""}
-<section class="section container cta-band">
-<h2>Know a great ${typeLabel[type].toLowerCase()} in ${cityL} that's missing?</h2>
-<p><a href="list-your-institute.html">Tell us</a> — or if you run it, list it free.</p>
-</section>` + footer();
+      : `Compare ${items.length} ${label.toLowerCase()} in ${cityL} with labelled ratings, exam specialisations, addresses and establishment year.`) +
+    header(isOnline && type === "coaching" ? "coaching-online.html" : `${typePage[type]}.html`) +
+    listingLayout({
+      type, h1, h1Hl: isOnline ? h1Words.length - 1 : h1Words.length - cityL.split(" ").length,
+      crumbs: [["index.html", "Home"], [`${typePage[type]}.html`, label], ["", isOnline ? "Online" : cityL]],
+      badge: `${isOnline ? "Online" : cityL} · ${items.length} listed`,
+      sub: esc(subNote), intro: cc && cc.intro ? cc.intro : "", items,
+      examOptions: allExams, modeOptions, faqs: cc && cc.faqs, ldName: h1,
+      ctaH2: `Know a great ${typeLabel[type].toLowerCase()} in ${cityL} that's missing?`,
+      ctaP: `<a href="list-your-institute.html">Tell us</a>, or if you run it, list it free.`,
+      art: HERO_ART.a, otherCities
+    }) + footer();
 }
 
-/* Dedicated cross-city page for "Online Coaching": coaching institutes don't use a
-   pseudo-city like certification does, so this aggregates every institute whose own
-   mode is online or hybrid, regardless of which city they're physically based in. */
+/* Dedicated cross-city page for "Online Coaching": aggregates every coaching institute
+   whose own mode is online or hybrid, regardless of where it is physically based. */
 function onlineCoachingPage() {
-  const items = byType("coaching").filter(x => x.mode === "online" || x.mode === "hybrid")
+  const items = [...ONLINE_COACHING]
     .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating || 0) * (b.ratingCount || 0) - (a.rating || 0) * (a.ratingCount || 0) || (b.ratingCount || 0) - (a.ratingCount || 0));
   const oc = onlineCopyFor("coaching");
   const allExams = [...new Set(items.flatMap(x => x.exams))].filter(e => e !== "schooling");
-  const examChips = allExams.length ? `<label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${allExams.map(e => `<option value="${e}">${examLabel(e)}</option>`).join("")}</select>` : "";
   const modeOptions = ["hybrid", "online"].filter(m => items.some(x => x.mode === m));
-  const modeChips = modeOptions.length > 1
-    ? `<select id="modesel" class="sr-only"><option value="">All modes</option>${modeOptions.map(m => `<option value="${m}">${modeLabel[m]}</option>`).join("")}</select>
-<div class="mode-toggle" id="modetoggle" role="group" aria-label="Filter by mode">
-<button type="button" class="mode-btn" data-mode="">All</button>
-${modeOptions.map(m => `<button type="button" class="mode-btn" data-mode="${m}">${modeLabel[m]}</button>`).join("")}
-</div>`
-    : "";
-  const title = oc.title(items.length);
-  return head(`${title} — ${B.name}`, oc.metaDesc(items.length)) +
-    header("coaching-online.html") + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="coaching.html">Coaching</a> / <span>Online</span></div>
-<section class="listing-head container">
-<h1>${oc.h1}</h1>
-<p class="hero-sub">${oc.subNote(items.length)}</p>
-<div class="filterbar">
-<div class="filterbar-row">
-${examChips}
-${modeChips}
-<label class="fsel-label" for="sortsel">Sort</label>
-<select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most reviewed</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select>
-<label class="vcheck"><input type="checkbox" id="verifiedonly"> Verified only</label>
-<span id="rescount" class="muted"></span>
-</div>
-</div>
-</section>
-<section class="section container"><div class="card-grid" id="cards">${items.map(card).join("")}</div>
-<p id="noresults" class="muted" hidden>No listings match these filters. Try clearing them.</p></section>
-<script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org", "@type": "ItemList",
-    "name": oc.h1,
-    "itemListElement": items.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}` }))
-  })}</script>
-<section class="section container cta-band">
-<h2>Run an online or hybrid coaching program?</h2>
-<p><a href="list-your-institute.html">List it free</a> and reach students comparing online options.</p>
-</section>` + footer();
+  return head(`${oc.title(items.length)} — ${B.name}`, oc.metaDesc(items.length)) +
+    header("coaching-online.html") +
+    listingLayout({
+      type: "coaching", h1: oc.h1, h1Hl: 0,
+      crumbs: [["index.html", "Home"], ["coaching.html", "Coaching"], ["", "Online"]],
+      badge: `Pan-India · ${items.length} compared`, sub: esc(oc.subNote(items.length)), intro: "", items,
+      examOptions: allExams, modeOptions, faqs: null, ldName: oc.h1,
+      ctaH2: "Run an online or hybrid coaching program?",
+      ctaP: `<a href="list-your-institute.html">List it free</a> and reach students comparing online options.`,
+      art: HERO_ART.f, otherCities: []
+    }) + footer();
 }
 
 function detailPage(x) {
   const cityL = cityLabel(x.city);
   const exams = x.exams.filter(e => e !== "schooling");
   const mapsQ = encodeURIComponent(`${x.name}, ${x.address}`);
-  const highlights = (x.highlights || []).map(h => `<li>${esc(h)}</li>`).join("");
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${mapsQ}`;
+  const highlights = (x.highlights || []).map(h => `<li><div>${esc(h)}</div></li>`).join("");
   const listHref = x.city === "online" ? `${typePage[x.type]}.html` : `${typePage[x.type]}-${x.city}.html`;
-  const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3).map(card).join("");
+  const others = byCity(x.type, x.city).filter(o => o.slug !== x.slug).slice(0, 3);
+  const src = ratingSrc(x);
+  const checked = new Date().toLocaleString("en-IN", { month: "long", year: "numeric" });
+  const genderTag = x.gender ? `<span class="tag">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : "";
+  const ratingBoxes = [
+    x.rating && x.ratingCount ? `<div class="rating-box fadein" style="--d:250ms"><div class="big">${x.rating.toFixed(1)}</div><div class="stars" aria-hidden="true">${"★".repeat(Math.round(x.rating))}</div><p><b>${plural(x.ratingCount, "rating")} on ${src}</b>. Shown as listed there; not collected by ${esc(B.name)}.</p></div>` : "",
+    x.googleRating ? `<div class="rating-box fadein" style="--d:350ms"><div class="big">${x.googleRating.toFixed(1)}</div><div class="stars" aria-hidden="true">${"★".repeat(Math.round(x.googleRating))}</div><p><b>${plural(x.googleReviewCount, "review")} on Google</b>, checked ${checked}.</p></div>` : ""
+  ].filter(Boolean).join("");
+  const glance = [
+    ["Exams", exams.length ? exams.map(examLabel).join(", ") : ""],
+    ["Mode", modeLabel[x.mode] || (x.city === "online" ? "Online" : "Classroom")],
+    [x.city === "online" ? "Availability" : "Locality", x.city === "online" ? onlineCopyFor(x.type).availability : `${x.locality}, ${cityL}`],
+    ["Founded", x.estd ? String(x.estd) : ""],
+    [x.priceRange ? "Room plans" : "Fees", x.priceRange || ""],
+    ["Batch timings", ""]
+  ].map(([k, v], i) => `<div><dt>${k}</dt><dd${v ? "" : ' class="na"'}>${v ? esc(v) : (k === "Batch timings" ? "Ask the institute" : k === "Fees" ? "Not published" : "Not listed")}</dd></div>`).join("");
+  const formHidden = (subject) => `<input type="hidden" name="_subject" value="${subject}">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+<input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">`;
   return head(`${x.name} — ${x.city === "online" ? (x.onlineCategory || onlineCopyFor(x.type).h1) : `${typeLabel[x.type]} in ${cityL}`} | ${B.name}`,
-    `${x.name}, ${x.locality}, ${cityL}.${x.estd ? ` Established ${x.estd}.` : ""}${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 by ${x.ratingCount} students.` : ""} Address, exams offered and enquiry details.`) +
+    `${x.name}, ${x.locality}, ${cityL}.${x.estd ? ` Established ${x.estd}.` : ""}${x.rating ? ` Rated ${x.rating.toFixed(1)}/5 from ${x.ratingCount} ratings on ${src}.` : ""} Address, exams offered and enquiry details.`) +
     header(`${typePage[x.type]}.html`) + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="${typePage[x.type]}.html">${typePlural[x.type]}</a> / <a href="${listHref}">${x.city === "online" ? "Online Platforms" : cityL}</a> / <span>${esc(x.name)}</span></div>
-<section class="container detail-hero">
-<div class="identity">
-<span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
-<div>
-<h1>${esc(x.name)}</h1>
-<div class="sub">${esc(x.address)}</div>
-<div class="badges card-top" style="margin-top:12px;margin-bottom:0">${x.verified ? `<span class="badge badge-verified">✓ Verified listing</span>` : `<span class="badge badge-unverified">Details from public sources</span>`}${exams.map(e => `<span class="badge badge-type">${examLabel(e)}</span>`).join("")}${x.gender ? `<span class="badge badge-type">${x.gender === "Both" ? "Boys & Girls" : x.gender + " only"}</span>` : ""}</div>
+<main id="main">
+<section class="page-hero on-blue">
+${edgeArt(HERO_ART.b.slice(0, 1), { hero: true })}
+<div class="container">
+<nav class="crumbs fadein" style="--d:0ms" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="${typePage[x.type]}.html">${typePlural[x.type]}</a><span aria-hidden="true">/</span><a href="${listHref}">${x.city === "online" ? "Online Platforms" : cityL}</a><span aria-hidden="true">/</span><span aria-current="page">${esc(x.name)}</span></nav>
+<div class="profile-head">
+<div class="who">
+<div class="tags fadein" style="--d:60ms">${exams.slice(0, 6).map(e => `<span class="tag">${examLabel(e)}</span>`).join("")}${x.mode ? `<span class="tag">${modeLabel[x.mode]}</span>` : ""}${genderTag}</div>
+<h1>${hw(x.name, x.name.split(" ").length > 1 ? x.name.split(" ").length - 1 : -1)}</h1>
+<div class="addr fadein" style="--d:300ms">${ICON_SM.pin}<span>${esc(x.address)}</span></div>
+${x.verified
+  ? `<div class="status ok fadein" style="--d:400ms">${ICON_SM.check}<span><b>Verified listing.</b> ${esc(x.name)} has confirmed these details with us.</span></div>`
+  : `<div class="status fadein" style="--d:400ms">${ICON_SM.info}<span><b>Details from public sources.</b> This institute hasn't confirmed its listing with us yet, so it doesn't carry a Verified badge.</span></div>`}
+<div class="hero-acts fadein" style="--d:500ms">
+<a class="btn" href="#callback">Request a callback ${arw}</a>
+${x.website ? `<a class="btn btn-ghost" href="${x.website}" rel="noopener nofollow" target="_blank">Official website</a>` : x.city !== "online" ? `<a class="btn btn-ghost" href="${mapsUrl}" rel="noopener" target="_blank">Open in Google Maps</a>` : ""}
 </div>
 </div>
-<div class="factbar">
-<div class="fact"><span>Student rating</span><b>${x.rating ? `<span class="star">★</span> ${x.rating.toFixed(1)} <small style="font-size:.72rem;color:var(--ink-3);font-family:var(--sans)">${x.ratingCount} reviews</small>` : "No reviews yet"}</b></div>
-${x.googleRating ? `<div class="fact"><span>Google rating</span><b><span class="star">★</span> ${x.googleRating.toFixed(1)} <small style="font-size:.72rem;color:var(--ink-3);font-family:var(--sans)">${x.googleReviewCount} reviews</small></b></div>` : ""}
-${x.estd ? `<div class="fact"><span>Established</span><b>${x.estd}</b></div>` : ""}
-<div class="fact"><span>Mode</span><b>${modeLabel[x.mode] || (x.city === "online" ? "Online" : "Classroom")}</b></div>
-${x.city !== "online" ? `<div class="fact"><span>Locality</span><b>${esc(x.locality)}</b></div>` : ""}
-<div class="fact"><span>${x.city === "online" ? "Availability" : "City"}</span><b>${x.city === "online" ? onlineCopyFor(x.type).availability : cityL}</b></div>
-${x.priceRange ? `<div class="fact"><span>Room plans</span><b>${x.priceRange}</b></div>` : ""}
+${ratingBoxes ? `<div class="rating-stack">${ratingBoxes}</div>` : `<div class="rating-box fadein" style="--d:250ms"><p style="margin:0"><b>No ratings yet.</b> Studied here? Your review would help the next student.</p></div>`}
+</div>
 </div>
 </section>
-<section class="container detail-body">
+
+<section class="band-paper">
+<div class="container section">
+<div class="two-col">
 <div class="detail-main">
-<h2>About ${esc(x.name)}</h2>
-<p class="dropcap">${describe(x)}</p>
-${highlights ? `<h2>Highlights</h2><ul class="hl-list">${highlights}</ul>` : ""}
-${x.ecosystem ? `<h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list eco-list">${x.ecosystem.map(p => `<li><div><a href="${p.url}" rel="noopener"><strong>${esc(p.name)}</strong></a> — ${esc(p.desc)}${p.guideSlug ? ` <a href="${p.guideSlug}.html">Read our full guide →</a>` : ""}</div></li>`).join("")}</ul>` : ""}
-<h2>Fees &amp; batches</h2>
-<p>We don't publish fee tables unless the institute has confirmed them — outdated fee data misleads more than it helps. Use the enquiry card and you'll get current fees, batch timings and any scholarship tests directly.</p>
-<div class="callout">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee — material and test series included — in writing.</div>
-<h2>Student reviews</h2>
-${x.ratingCount ? `<div class="review-box"><div><div class="review-score">${x.rating ? x.rating.toFixed(1) : "–"}</div><div class="of">out of 5 · ${x.ratingCount} review${x.ratingCount === 1 ? "" : "s"}</div></div><p>Ratings are collected from students and published unedited — positive or negative.</p></div>` : `<p>No reviews yet.</p>`}
-${x.googleRating ? `<div class="review-box review-box-google"><div><div class="review-score">${x.googleRating.toFixed(1)}</div><div class="of">out of 5 · ${x.googleReviewCount} reviews</div></div><p>As rated on Google, checked ${new Date().toLocaleString("en-IN", { month: "long", year: "numeric" })}. Separate from our own student ratings above.${x.city !== "online" ? ` <a href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">View on Google Maps →</a>` : ""}</p></div>` : ""}
-${BRAND_REVIEWS.some(r => r.slug === x.slug) ? `<div class="callout">Read our full, in-depth review of ${esc(x.name)} — verdict, pricing and alumni outcomes. <a href="review-${x.slug}.html">Read the review →</a></div>` : ""}
-<script type="application/ld+json">${JSON.stringify(Object.assign({
-  "@context": "https://schema.org", "@type": "EducationalOrganization",
-  "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
-  "address": { "@type": "PostalAddress", "streetAddress": x.address, "addressLocality": x.city === "online" ? "Online" : cityL, "addressCountry": "IN" }
-}, x.estd ? { "foundingDate": String(x.estd) } : {}, x.website ? { "sameAs": x.website } : {}, (x.rating && x.ratingCount) ? { "aggregateRating": { "@type": "AggregateRating", "ratingValue": x.rating, "reviewCount": x.ratingCount, "bestRating": 5 } } : {}))}</script>
-</div>
-<aside class="detail-side">
-<div class="side-card">
-<h3>Talk to this institute</h3>
-<p class="muted">Free callback via our counselling team — no spam, ever.</p>
-<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
-<input type="hidden" name="_subject" value="New enquiry — ${esc(x.name)} (${cityL})">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_template" value="table">
-<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-<input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">
-<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
-<button class="btn btn-gold" type="submit">Request a callback</button>
-</form>
-</div>
-<div class="side-card light">
+<div class="block fade-up"><h2>About ${esc(x.name)}</h2><p>${describe(x)}</p></div>
+<div class="block fade-up"><h2>At a glance</h2><dl class="glance">${glance}</dl></div>
+${highlights ? `<div class="block fade-up"><h2>Highlights</h2><ul class="hl-list">${highlights}</ul></div>` : ""}
+${x.ecosystem ? `<div class="block fade-up"><h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list">${x.ecosystem.map(p => `<li><div><a href="${p.url}" rel="noopener"><strong>${esc(p.name)}</strong></a>: ${esc(p.desc)}${p.guideSlug ? ` <a href="${p.guideSlug}.html">Read our full guide →</a>` : ""}</div></li>`).join("")}</ul></div>` : ""}
+<div class="block fade-up"><h2>Fees &amp; batches</h2>
+<p>We don't publish fee tables unless the institute has confirmed them, because outdated fees mislead more than they help. Request a callback for current fees, batch timings and any scholarship tests.</p>
+<div class="note">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee, with material and test series included, in writing.</div></div>
+<div class="block fade-up" id="reviews"><h2>Ratings &amp; reviews</h2>
+${x.rating && x.ratingCount ? `<div class="agg"><div class="big">${x.rating.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(x.ratingCount, "rating")} on ${src}.</b> Shown as listed on ${src}. These ratings were not collected by ${esc(B.name)}.</p></div>` : ""}
+${x.googleRating ? `<div class="agg google"><div class="big">${x.googleRating.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(x.googleReviewCount, "review")} on Google</b>, checked ${checked}.${x.city !== "online" ? ` <a href="${mapsUrl}" rel="noopener" target="_blank">View on Google Maps</a>` : ""}</p></div>` : ""}
+<p class="muted" style="font-size:15px">No students have reviewed ${esc(x.name)} on ${esc(B.name)} yet. Reviews sent here are checked before they're published, and institutes can't remove them.</p>
+${BRAND_REVIEWS.some(r => r.slug === x.slug) ? `<div class="note">Read our full, in-depth review of ${esc(x.name)}: verdict, pricing and alumni outcomes. <a href="review-${x.slug}.html">Read the review →</a></div>` : ""}
+<div class="card-box" style="margin-top:20px">
 <h3>Share your experience</h3>
-<p class="muted">Studied here? Rate it. Reviews are checked before they're published, not posted instantly.</p>
+<p class="sub">Studied here? Rate it to help the next student decide.</p>
 <form class="enq-form review-form" action="https://formsubmit.co/${B.email}" method="POST">
-<input type="hidden" name="_subject" value="New review — ${esc(x.name)} (${cityL})">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_template" value="table">
-<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-<input type="hidden" name="institute" value="${esc(x.name)} (${cityL})">
+${formHidden(`New review — ${esc(x.name)} (${cityL})`)}
 <fieldset class="star-input">
 <legend>Your rating</legend>
 <input type="radio" id="r5-${x.slug}" name="rating" value="5"><label for="r5-${x.slug}" title="5 stars">★</label>
@@ -610,93 +790,168 @@ ${BRAND_REVIEWS.some(r => r.slug === x.slug) ? `<div class="callout">Read our fu
 <input type="radio" id="r1-${x.slug}" name="rating" value="1" required><label for="r1-${x.slug}" title="1 star">★</label>
 </fieldset>
 <label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
-<label>Your review<textarea name="review" required rows="4" placeholder="Faculty, batch size, results, fees — anything future students should know"></textarea></label>
-<button class="btn btn-outline" type="submit">Submit review</button>
+<label>Your review<textarea name="review" required rows="4" placeholder="Faculty, batch size, results, fees: anything future students should know"></textarea></label>
+<button class="btn btn-primary" type="submit">Submit review</button>
 </form>
 </div>
-<div class="side-actions">
-${x.website ? `<a class="action" href="${x.website}" rel="noopener nofollow"><span class="ic">↗</span> Official website <span class="arr">→</span></a>` : ""}
-${x.city !== "online" ? `<a class="action" href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener"><span class="ic">◎</span> Open in Google Maps <span class="arr">→</span></a>` : ""}
-<a class="action" href="${listHref}"><span class="ic">≡</span> All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} <span class="arr">→</span></a>
 </div>
-${others ? `<h3 class="side-h">Students also compared</h3><div class="side-cards">${others}</div>` : ""}
+<p class="muted" style="font-size:14px;margin-top:22px">See something outdated? <a href="contact.html" style="color:var(--blue);text-decoration:underline">Report a correction</a>. Corrections usually go live within 48 hours.</p>
+<script type="application/ld+json">${JSON.stringify(Object.assign({
+  "@context": "https://schema.org", "@type": "EducationalOrganization",
+  "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
+  "address": { "@type": "PostalAddress", "streetAddress": x.address, "addressLocality": x.city === "online" ? "Online" : cityL, "addressCountry": "IN" }
+}, x.estd ? { "foundingDate": String(x.estd) } : {}, x.website ? { "sameAs": x.website } : {}))}</script>
+<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+  { "@type": "ListItem", "position": 1, "name": "Home", "item": `${B.siteUrl}/` },
+  { "@type": "ListItem", "position": 2, "name": typePlural[x.type], "item": `${B.siteUrl}/${typePage[x.type]}` },
+  { "@type": "ListItem", "position": 3, "name": x.city === "online" ? "Online Platforms" : cityL, "item": `${B.siteUrl}/${listHref.replace(/\.html$/, "")}` },
+  { "@type": "ListItem", "position": 4, "name": x.name, "item": `${B.siteUrl}/institute-${x.slug}` }] })}</script>
+</div>
+<aside class="detail-side" id="callback" style="scroll-margin-top:100px">
+<div class="side-card fade-up">
+<h3>Talk to this institute</h3>
+<p class="muted">Free callback from our counselling team about fees, batches and scholarship tests. No spam, ever.</p>
+<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
+${formHidden(`New enquiry — ${esc(x.name)} (${cityL})`)}
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
+<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" inputmode="tel" placeholder="+91"></label>
+<button class="btn btn-primary" type="submit">Request a callback</button>
+<p class="form-note">Free for students. See our <a href="privacy.html">Privacy Policy</a>.</p>
+</form>
+</div>
+<div class="side-actions fade-up">
+${x.website ? `<a class="action" href="${x.website}" rel="noopener nofollow" target="_blank"><span class="ic" aria-hidden="true">↗</span> Official website <span class="arr" aria-hidden="true">→</span></a>` : ""}
+${x.city !== "online" ? `<a class="action" href="${mapsUrl}" rel="noopener" target="_blank"><span class="ic" aria-hidden="true">◎</span> Open in Google Maps <span class="arr" aria-hidden="true">→</span></a>` : ""}
+<a class="action" href="${listHref}"><span class="ic" aria-hidden="true">≡</span> All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} <span class="arr" aria-hidden="true">→</span></a>
+</div>
 </aside>
-</section>` + footer();
+</div>
+</div>
+</section>
+${others.length ? `<section class="band-blue"><div class="container section">
+<div class="eyebrow">Students also compared</div>
+<h2 class="big-title reveal" style="margin-bottom:36px">${rv(x.city === "online" ? "Other online platforms" : `Other options in ${cityL}`, x.city === "online" ? 1 : 3)}</h2>
+<div class="compare">${others.map(o => `<a class="fade-up" href="institute-${o.slug}.html"><span>${o.city === "online" ? "Online" : esc(o.locality)} · ${esc(o.exams.filter(e => e !== "schooling").slice(0, 2).map(examLabel).join(", "))}</span><b>${esc(o.name)}</b><span>${o.rating ? `<span class="pill" style="font-size:13px">★ ${o.rating.toFixed(1)}</span> ${o.ratingCount} on ${ratingSrc(o)}` : o.googleRating ? `<span class="pill" style="font-size:13px">★ ${o.googleRating.toFixed(1)}</span> ${o.googleReviewCount} on Google` : "No ratings yet"}</span></a>`).join("")}</div>
+<a class="btn" style="margin-top:32px" href="${listHref}">All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} ${arw}</a>
+</div></section>` : ""}
+</main>` + footer();
 }
 
 function simplePage(file, title, desc, bodyHtml, active) {
-  return head(`${title} | ${B.name}`, desc) + header(active || "") + bodyHtml + footer();
+  const body = /<main[\s>]/.test(bodyHtml) ? bodyHtml : `<main id="main">${bodyHtml}</main>`;
+  return head(`${title} | ${B.name}`, desc) + header(active || "") + body + footer();
 }
 
 /* ---------- static page bodies ---------- */
-const aboutBody = `
-<section class="hero hero-sm"><div class="container"><h1>About ${B.name}</h1>
-<p class="hero-sub">We help students and parents compare coaching institutes — honestly.</p></div></section>
-<section class="section container prose">
-<h2>Why we exist</h2>
-<p>Choosing a coaching institute is one of the biggest decisions in a student's life, and most of the information out there is either an advertisement or a guess. ${B.name} exists to put verified, comparable facts in one place: who teaches what, since when, where exactly, and what students actually say about it.</p>
-<h2>How we work</h2>
-<p>Every listing shows its verification status openly. A "Verified" badge means the institute has confirmed its details with us. Everything else is marked as sourced from public information, so you always know how much to trust what you're reading. Ratings come from students and cannot be bought, edited or hidden by institutes.</p>
-<h2>For institutes</h2>
-<p>Listing is free. Verified institutes get a badge, a richer profile and direct enquiries from students in their city. We never charge students, and we clearly separate any promoted placement from organic rankings.</p>
-<p><a class="btn btn-primary" href="list-your-institute.html">List your institute</a></p>
-</section>`;
-
-const contactBody = `
-<section class="hero hero-sm"><div class="container"><h1>Contact us</h1>
-<p class="hero-sub">Questions, feedback, corrections or review submissions — we read everything.</p></div></section>
-<section class="section container split">
-<div class="prose">
-<h2>Reach us directly</h2>
-<p><strong>Students:</strong> ${B.email}<br><strong>Institutes &amp; business:</strong> ${B.email}</p>
-<h2>Corrections</h2>
-<p>Spotted outdated information on a listing? Tell us the page and what's wrong — corrections are our top priority and are usually live within 48 hours.</p>
-</div>
-<div class="side-card">
-<h3>Send a message</h3>
-<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
-<input type="hidden" name="_subject" value="New enquiry — Online Coaching 4u contact form">
+const formBase = (subject) => `<input type="hidden" name="_subject" value="${subject}">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
 <input type="hidden" name="_next" value="${B.siteUrl}/thanks">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">`;
+
+const aboutBody = `<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", "About"]], badge: `About ${B.name}`, h1: hw(`About ${B.name}`, 1), sub: "We help students and parents compare coaching institutes, honestly.", art: HERO_ART.d })}
+<section class="stats" aria-label="Site numbers"><div class="container">
+<div class="stat fade-up"><strong data-count="${stats.listings}">${stats.listings}</strong><span>listings live</span></div>
+<div class="stat fade-up"><strong data-count="${COACHING_CITIES.length}">${COACHING_CITIES.length}</strong><span>cities &amp; online</span></div>
+<div class="stat fade-up"><strong data-count="${POSTS.length}">${POSTS.length}</strong><span>guides published</span></div>
+<div class="stat fade-up"><strong>₹0</strong><span>for students, always</span></div>
+</div></section>
+<section class="band-paper"><div class="container section">
+<div class="split">
+<div><div class="eyebrow">Why we exist</div><h2 class="sec-title reveal">${rv("Checkable facts, in one place")}</h2></div>
+<div class="prose fade-up"><p>Choosing a coaching institute is one of the biggest decisions in a student's life, and most of the information out there is either an advertisement or a guess.</p><p>${B.name} exists to put verified, comparable facts in one place: who teaches what, since when, where exactly, and what students say about it.</p></div>
+</div>
+<div style="margin-top:72px">
+<div class="eyebrow">How we work</div>
+<h2 class="sec-title reveal">${rv("Every listing tells you how far to trust it")}</h2>
+<div class="labels">
+<div class="label-card fade-up"><span class="tag green">✓ Verified</span><p>The institute has confirmed its details with us. Verified institutes get a richer profile and direct enquiries.</p></div>
+<div class="label-card fade-up"><span class="tag badge-unverified">From public sources</span><p>We built the listing from public information and the institute hasn't confirmed it yet. We say so on the page.</p></div>
+<div class="label-card fade-up"><span class="tag">★ Rating · source named</span><p>Ratings come from public review sites such as Justdial and Google, and each one names its source. Institutes can't buy, edit or hide them here.</p></div>
+</div>
+</div>
+</div></section>
+<section class="band-peach"><div class="container section trust-wrap">
+<div class="intro"><div class="eyebrow">Our principles</div><h2 class="sec-title reveal">${rv("What we won't do", 2, "t")}</h2><p>These rules apply to every page on the site.</p></div>
+<ul class="principle-list">
+<li class="fade-up">${ICON_SM.rupee}<div><h3>We never charge students</h3><p>Comparing, enquiring and reviewing are free.</p></div></li>
+<li class="fade-up">${ICON_SM.bars}<div><h3>Rankings aren't for sale</h3><p>We clearly separate any promoted placement from organic rankings.</p></div></li>
+<li class="fade-up">${ICON_SM.bubble}<div><h3>Ratings stay unedited</h3><p>Institutes can't buy, change or hide ratings or reviews.</p></div></li>
+<li class="fade-up">${ICON_SM.shield}<div><h3>We verify where we can</h3><p>Listing data is verified with institutes where possible, and labelled when it isn't.</p></div></li>
+</ul>
+</div></section>
+${ctaBand("For institutes", "Listing is free. Verified institutes get a badge, a richer profile and direct enquiries from students in their city.", "list-your-institute.html", "List your institute", 1)}
+</main>`;
+
+const contactBody = `<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", "Contact"]], badge: "We read everything", h1: hw("Contact us", 1), sub: "Questions, feedback, corrections or review submissions. Write to us and a real person will read it.", art: HERO_ART.g })}
+<section class="band-paper"><div class="container section">
+<div class="split">
+<div>
+<h2 class="sec-title reveal">${rv("Reach us directly")}</h2>
+<div class="labels" style="grid-template-columns:1fr">
+<div class="label-card fade-up"><span class="tag">Students &amp; parents</span><div class="mail"><code>${B.email}</code><button class="copy-btn" type="button" data-copy="${B.email}">Copy</button></div></div>
+<div class="label-card fade-up"><span class="tag">Institutes &amp; business</span><div class="mail"><code>${B.email}</code><button class="copy-btn" type="button" data-copy="${B.email}">Copy</button></div></div>
+</div>
+<div class="note fade-up" style="margin-top:22px"><b>Corrections</b><br>Spotted outdated information on a listing? Tell us the page and what's wrong. Corrections are our top priority and are usually live within 48 hours.</div>
+</div>
+<div class="side-card fade-up">
+<h3>Send a message</h3>
+<p class="muted">We'll reply on the number you give us.</p>
+<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
+${formBase("New enquiry — Online Coaching 4u contact form")}
 <label>Your name<input name="name" required autocomplete="name"></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel"></label>
-<label>Message<textarea name="msg" rows="4" required></textarea></label>
+<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" inputmode="tel" placeholder="+91"></label>
+<label>Message<textarea name="msg" rows="4" required placeholder="For a correction, include the page link and what needs fixing."></textarea></label>
 <button class="btn btn-primary" type="submit">Send message</button>
 </form>
 </div>
-</section>`;
+</div>
+</div></section>
+${ctaBand("Looking for coaching?", `Compare ${stats.coaching} institutes across ${COACHING_CITIES.length} cities and online.`, "coaching.html", "Find coaching", 2)}
+</main>`;
 
-const listBody = `
-<section class="hero hero-sm"><div class="container"><h1>List your institute — free</h1>
-<p class="hero-sub">Reach students actively comparing options in your city. No listing fee, ever.</p></div></section>
-<section class="section container split">
-<div class="prose">
-<h2>What you get</h2>
-<p><strong>A complete profile</strong> — courses, photos, results, address and direct enquiry buttons.<br>
-<strong>A verified badge</strong> — once we confirm your details, students see your listing is trustworthy.<br>
-<strong>Direct leads</strong> — enquiries go straight to you, not through a paywall.</p>
-<h2>What we ask in return</h2>
-<p>Accuracy. Keep your details current, and let student reviews stand — we don't remove negative reviews unless they violate our guidelines.</p>
+const listBody = `<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", "List your institute"]], badge: "For coaching institutes", h1: hw("List your institute — free", 4), sub: "Reach students actively comparing options in your city. No listing fee, ever.", extra: `<div class="hero-acts fadein" style="--d:500ms"><a class="btn" href="#register">Register free ${arw}</a></div>`, art: HERO_ART.e })}
+<section class="band-paper"><div class="container section">
+<div class="split">
+<div>
+<div class="eyebrow">What you get</div>
+<h2 class="sec-title reveal" style="margin-bottom:30px">${rv("Everything students need to choose you")}</h2>
+<div class="benefits">
+<div class="benefit fade-up">${svgIcon("book", { color: "#2B399E", sw: 2.4 }).replace("<svg", '<svg width="30" height="30"')}<h3>Complete profile</h3><p>Courses, photos, results, address and direct enquiry buttons.</p></div>
+<div class="benefit fade-up">${ICON_SM.shield}<h3>Verified badge</h3><p>Once we confirm your details, students see your listing is trustworthy.</p></div>
+<div class="benefit fade-up">${ICON_SM.bubble}<h3>Direct leads</h3><p>Enquiries go straight to you, not through a paywall.</p></div>
 </div>
-<div class="side-card">
-<h3>Registration</h3>
+<div class="note fade-up" style="margin-top:24px"><b>What we ask in return:</b> accuracy. Keep your details current and let student reviews stand. We don't remove negative reviews unless they break our guidelines.</div>
+</div>
+<div class="side-card fade-up" id="register" style="scroll-margin-top:100px">
+<h3>Register your institute</h3>
+<p class="muted">Takes under a minute. We'll contact you to confirm your details.</p>
 <form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
-<input type="hidden" name="_subject" value="New institute registration — Online Coaching 4u">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_template" value="table">
-<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-<label>Institute name<input name="institute" required></label>
-<label>Your name<input name="name" required></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}"></label>
-<label>City<input name="city" required></label>
+${formBase("New institute registration — Online Coaching 4u")}
+<label>Institute name<input name="institute" required autocomplete="organization"></label>
+<label>Your name<input name="name" required autocomplete="name"></label>
+<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" inputmode="tel" placeholder="+91"></label>
+<label>City<input name="city" required autocomplete="address-level2"></label>
 <button class="btn btn-primary" type="submit">Register free</button>
+<p class="form-note">By registering you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>.</p>
 </form>
-<p class="muted">By registering you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>.</p>
 </div>
-</section>`;
+</div>
+</div></section>
+<section class="band-yellow"><div class="container section">
+<div class="eyebrow" style="color:var(--olive-ink)">How listing works</div>
+<h2 class="sec-title reveal" style="margin-bottom:32px">${rv("From sign-up to verified", 3, "t")}</h2>
+<div class="steps">
+<div class="step fade-up"><b>1</b><h3>Register</h3><p>Send your institute name, city and a contact number.</p></div>
+<div class="step fade-up"><b>2</b><h3>Confirm your details</h3><p>We check courses, address and contact details with you.</p></div>
+<div class="step fade-up"><b>3</b><h3>Get the Verified badge</h3><p>Your profile shows the badge and starts receiving enquiries.</p></div>
+</div>
+</div></section>
+${ctaBand("Questions before listing?", "Write to us and we'll help you set up your profile.", "contact.html", "Contact us", 2)}
+</main>`;
 
 /* ---------- blog ---------- */
 const CATS = [...new Set(POSTS.map(p => p.category))];
@@ -708,15 +963,14 @@ function toISODate(d) {
 }
 const POSTS_BY_DATE = [...POSTS].sort((a, b) => new Date(toISODate(b.date)) - new Date(toISODate(a.date)));
 function postCard(p) {
-  return `<a class="card post-card" href="${p.slug}.html">
-<div class="card-media blog-thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" onerror="this.parentNode.classList.add('noimg')">` : `<span class="media-initial" aria-hidden="true">${esc(p.title[0])}</span>`}<span class="card-pill">${esc(postExam(p).label)}</span></div>
-<div class="card-body">
-<span class="muted">${p.date} · ${p.minutes} min read</span>
+  return `<a class="post-card fade-up" href="${p.slug}.html">
+<div class="thumb${p.image ? "" : " noimg"}">${p.image ? `<img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" width="800" height="420" onerror="this.parentNode.classList.add('noimg')">` : ""}<span class="initial" aria-hidden="true">${esc(p.title[0])}</span></div>
+<small>${esc(postExam(p).label)} · ${p.date}</small>
 <h3>${esc(p.title)}</h3>
-<p class="card-loc">${esc(p.excerpt)}</p>
-<div class="card-foot"><span></span><span class="card-cta">Read article →</span></div>
-</div></a>`;
+<p>${esc(p.excerpt)}</p>
+</a>`;
 }
+
 /* ---------- blog categorisation: exam groups + content types ----------
    posts.js keeps its free-text `category`; these maps fold every variant into
    one clean exam group. A post may also set `examGroup` / `type` explicitly. */
@@ -769,16 +1023,24 @@ function blogCard(p) {
   return `<div data-exams="${postExam(p).key}" data-mode="${postType(p).key}" style="display:contents">${postCard(p)}</div>`;
 }
 function blogIndex() {
-  return `
-<section class="hero hero-sm"><div class="container"><h1>Guides &amp; Articles</h1>
-<p class="hero-sub">Original, research-backed articles on choosing coaching, preparing for exams and student life. Pick your exam or the kind of article you need — written by our team, no sponsored content unless clearly labelled.</p></div></section>
-<section class="section container" style="padding-top:36px">
+  const lead = POSTS_BY_DATE[0];
+  return `<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", "Guides"]], badge: "Written by our team · No sponsored content unless labelled", h1: hw("Guides & Articles", 2), sub: "Original, research-backed articles on choosing coaching, preparing for exams and student life. Pick your exam or the kind of article you need.", art: HERO_ART.b })}
+<section class="band-paper"><div class="container section">
 ${blogChipRow(null)}
-<div class="filterbar"><div class="filterbar-row"><label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${BLOG_EXAMS.map(g => `<option value="${g.key}">${esc(g.label)}</option>`).join("")}</select>
-<label class="fsel-label" for="modesel">Type</label><select id="modesel" class="fsel"><option value="">All types</option>${BLOG_TYPES.map(t => `<option value="${t.key}">${esc(t.label)}</option>`).join("")}</select><span id="rescount" class="muted"></span></div></div>
-<div class="card-grid" id="cards" style="margin-top:22px">${POSTS_BY_DATE.map(blogCard).join("")}</div>
-<p id="noresults" class="muted" hidden style="margin-top:20px">No articles match these filters yet — try another exam or type.</p>
-</section>`;
+${lead ? `<a class="featured-post fade-up" href="${lead.slug}.html">
+<div class="thumb${lead.image ? "" : " noimg"}">${lead.image ? `<img src="${lead.image}?v=${ASSET_V}" alt="${esc(lead.imageAlt || lead.title)}" width="800" height="420" onerror="this.parentNode.classList.add('noimg')">` : ""}<span class="initial" aria-hidden="true">${esc(lead.title[0])}</span></div>
+<div><small>Latest · ${esc(postExam(lead).label)}</small><h2>${esc(lead.title)}</h2><p>${esc(lead.excerpt)}</p><p class="muted" style="font-size:14px">${lead.date} · ${lead.minutes} min read</p></div>
+</a>` : ""}
+<div class="filters" style="position:static;box-shadow:none;border:1px solid var(--rule);margin-bottom:28px"><div class="container" style="padding-inline:16px">
+<div class="fgroup"><label class="fsel-label" for="examsel">Exam</label><select id="examsel" class="fsel"><option value="">All exams</option>${BLOG_EXAMS.map(g => `<option value="${g.key}">${esc(g.label)}</option>`).join("")}</select></div>
+<div class="fgroup"><label class="fsel-label" for="modesel">Type</label><select id="modesel" class="fsel"><option value="">All types</option>${BLOG_TYPES.map(t => `<option value="${t.key}">${esc(t.label)}</option>`).join("")}</select></div>
+<span id="rescount" aria-live="polite"></span>
+</div></div>
+<div class="post-grid" id="cards">${POSTS_BY_DATE.map(blogCard).join("")}</div>
+<p id="noresults" hidden>No articles match these filters yet. Try another exam or type.</p>
+</div></section>
+</main>`;
 }
 function blogCategoryPage(item, kind) {
   const file = kind === "exam" ? blogExamFile(item) : blogTypeFile(item);
@@ -798,18 +1060,18 @@ function blogCategoryPage(item, kind) {
       { "@type": "ListItem", position: 2, name: "Blogs", item: `${B.siteUrl}/blog` },
       { "@type": "ListItem", position: 3, name: item.label, item: url }] }
   ];
-  const coachLink = kind === "exam" && item.exam ? `<p style="margin-top:18px"><a class="link-arrow" href="coaching.html?exam=${item.exam}">Compare ${esc(item.label.split(/[ ,&]/)[0])} coaching institutes →</a></p>` : "";
+  const coachLink = kind === "exam" && item.exam ? `<div class="hero-acts fadein" style="--d:500ms"><a class="btn" href="coaching.html?exam=${item.exam}">Compare ${esc(item.label.split(/[ ,&]/)[0])} coaching institutes ${arw}</a></div>` : "";
   return head(`${title} | ${B.name}`, desc)
     .replace("</head>", ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + "\n</head>")
-    + header("blog.html") + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Blogs</a> / <span>${esc(item.label)}</span></div>
-<section class="hero hero-sm" style="padding-top:34px"><div class="container"><p class="eyebrow">${kind === "exam" ? "Blogs by exam" : "Blogs by type"}</p><h1>${esc(h1)}</h1>
-<p class="hero-sub">${esc(item.intro)}</p>${coachLink}</div></section>
-<section class="section container" style="padding-top:36px">
+    + header("blog.html") + `<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["blog.html", "Blogs"], ["", item.label]], badge: `${kind === "exam" ? "Blogs by exam" : "Blogs by type"} · ${list.length} articles`, h1: hw(h1, h1.split(" ").length - 1), sub: esc(item.intro), extra: coachLink, art: HERO_ART.c })}
+<section class="band-paper"><div class="container section">
 ${blogChipRow(item)}
-${sections.map(s => `${s.t ? `<h2 class="blog-sec-h" id="${s.t.key}">${esc(s.t.label)} <span class="muted">(${s.ps.length})</span></h2>` : ""}<div class="card-grid" style="margin-top:18px">${s.ps.map(postCard).join("")}</div>`).join("\n")}
-</section>` + footer();
+${sections.map(s => `${s.t ? `<h2 class="blog-sec-h" id="${s.t.key}">${esc(s.t.label)} <span class="muted" style="font-size:.6em">(${s.ps.length})</span></h2>` : ""}<div class="post-grid">${s.ps.map(postCard).join("")}</div>`).join("\n")}
+</div></section>
+</main>` + footer();
 }
+
 /* ---------- reviews hub ---------- */
 function reviewsIndex() {
   const cards = REVIEWS.map(r => {
@@ -818,8 +1080,8 @@ function reviewsIndex() {
     const cityL = cityLabel(x.city);
     const mapsQ = encodeURIComponent(`${x.name}, ${x.address}`);
     const ownChip = x.ratingCount
-      ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"} on ${esc(B.name)}</span></span>`
-      : `<span class="rating-chip"><span class="muted">No student reviews yet on ${esc(B.name)}</span></span>`;
+      ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${plural(x.ratingCount, "rating")} on ${ratingSrc(x)}</span></span>`
+      : `<span class="rating-chip"><span class="muted">No public ratings yet</span></span>`;
     const googleChip = x.googleRating
       ? `<span class="rating-chip google"><span class="star">★</span> ${x.googleRating.toFixed(1)} <span class="muted">${x.googleReviewCount} on Google</span>${x.city !== "online" ? ` <a href="https://www.google.com/maps/search/?api=1&query=${mapsQ}" rel="noopener">Maps →</a>` : ""}</span>`
       : "";
@@ -833,7 +1095,7 @@ function reviewsIndex() {
       r.instagram ? `<a href="${r.instagram}" rel="noopener nofollow"><span class="ic">◎</span> Instagram</a>` : "",
       `<a class="link-arrow" href="institute-${x.slug}.html">Full profile →</a>`
     ].filter(Boolean).join("");
-    return `<article class="card review-hub-card">
+    return `<article class="review-hub-card fade-up">
 <div class="rhc-head">
 <span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
 <div><h2><a href="institute-${x.slug}.html">${esc(x.name)}</a></h2><div class="muted">${x.city === "online" ? "Online" : cityL}${x.estd ? ` · Est. ${x.estd}` : ""}</div></div>
@@ -847,7 +1109,7 @@ ${redditBlock}
     const x = reviewSubject(rv);
     if (!x) return "";
     const cityL = cityLabel(x.city);
-    return `<article class="card review-hub-card">
+    return `<article class="review-hub-card fade-up">
 <div class="rhc-head">
 <span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
 <div><h2><a href="review-${x.slug}.html">${esc(x.name)}</a></h2><div class="muted">${x.isTool ? esc(x.toolCategory) : x.city === "online" ? "Online" : cityL} · Full editorial review</div></div>
@@ -858,18 +1120,16 @@ ${redditBlock}
 </article>`;
   }).join("");
   return `
-<section class="hero hero-sm"><div class="container"><h1>Reviews</h1>
-<p class="hero-sub">Independent, in-depth reviews of coaching institutes, professional certifications and individual coaches — built from our own research and verified facts, not paid placements.</p></div></section>
-<section class="section container prose">
+<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", "Reviews"]], badge: "Our own research · No paid placements", h1: hw("Reviews", 0), sub: "Independent, in-depth reviews of coaching institutes, professional certifications and individual coaches, built from our own research and verified facts, not paid placements.", art: HERO_ART.h })}
+<section class="band-paper"><div class="container section">
+<div class="prose fade-up" style="margin-bottom:40px">
 <p>Some reviews below link straight back to real, public quotes from students on Reddit and Google — nothing edited, summarised out of context, or paid for. Others are full, in-depth write-ups based on our own research into an institute, certification provider or coach, covering the same ground: credentials, offerings, results and client feedback, checked as thoroughly as we can against public information.</p>
-</section>
-<section class="section container">
+</div>
 <div class="review-hub-list">${cards}${brandCards}</div>
-</section>
-<section class="section container cta-band">
-<h2>Know one of these institutes, coaches or programs personally?</h2>
-<p>Reviews here are unedited and can't be bought or removed. <a href="list-your-institute.html">Tell us what's missing</a> or use the review form on any institute's page.</p>
-</section>`;
+</div></section>
+${ctaBand("Know one of these institutes, coaches or programs personally?", `Reviews here are unedited and can't be bought or removed. <a href="list-your-institute.html">Tell us what's missing</a> or use the review form on any institute's page.`, "", "")}
+</main>`;
 }
 
 /* Long-form editorial review page (review-<slug>.html) for online
@@ -894,8 +1154,8 @@ function starLine(n) {
 function brandReviewPage(rv, x) {
   const cityL = cityLabel(x.city);
   const ownChip = x.isTool ? "" : x.ratingCount
-    ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${x.ratingCount} student review${x.ratingCount === 1 ? "" : "s"} on ${esc(B.name)}</span></span>`
-    : `<span class="rating-chip"><span class="muted">No student reviews yet on ${esc(B.name)}</span></span>`;
+    ? `<span class="rating-chip"><span class="star">★</span> ${x.rating.toFixed(1)} <span class="muted">${plural(x.ratingCount, "rating")} on ${ratingSrc(x)}</span></span>`
+    : `<span class="rating-chip"><span class="muted">No public ratings yet</span></span>`;
   const ratingsRows = rv.ratingsBreakdown.map(r => `<tr><td>${esc(r.factor)}</td><td>${starLine(r.rating)}</td><td>${esc(r.why)}</td></tr>`).join("");
   const whyChooseHtml = (rv.whyChoose || []).map(sec => {
     const list = sec.list ? `<ul>${sec.list.map(li => `<li>${esc(li)}</li>`).join("")}</ul>` : "";
@@ -925,16 +1185,8 @@ ${rv.resultsSection.tableRows ? `<p>${esc(rv.resultsSection.tableIntro)}</p>
     publisher: { "@type": "Organization", name: B.name }
   }, {});
   return head(rv.metaTitle, rv.metaDescription) + header("reviews.html") + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="reviews.html">Reviews</a> / <span>${esc(x.name)}</span></div>
-<section class="container detail-hero">
-<div class="identity">
-<span class="monogram ${grad(x.name)}" aria-hidden="true">${esc(x.name[0])}</span>
-<div>
-<h1>${esc(rv.headline)}</h1>
-<div class="sub">${esc(rv.subheadline)}</div>
-</div>
-</div>
-</section>
+<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["reviews.html", "Reviews"], ["", x.name]], badge: x.isTool ? `${esc(x.toolCategory)} · Editorial review` : "Full editorial review", h1: rv.headline.split(/\s+/).length <= 14 ? hw(rv.headline) : esc(rv.headline), sub: esc(rv.subheadline), art: HERO_ART.h })}
 <section class="container detail-body">
 <div class="detail-main prose">
 <div class="verdict-box">
@@ -990,7 +1242,8 @@ ${(rv.relatedLinks || []).map(l => `<a class="action" href="${l.href}"><span cla
 <a class="action" href="reviews.html"><span class="ic">≡</span> All review pages <span class="arr">→</span></a>
 </div>
 </aside>
-</section>` + footer();
+</section>
+</main>` + footer();
 }
 
 /* ---------- AI tools vertical (/ai-tools hub + ai-tools-<slug> pages) ---------- */
@@ -1017,7 +1270,7 @@ function aiVisitBtn(t, cls) {
   return `<a class="btn ${cls || "btn-gold"}" href="${t.url}" target="_blank" rel="noopener nofollow">Visit ${esc(aiShort(t))} ↗</a>`;
 }
 function aiCard(t) {
-  return `<a class="card ai-card" href="${aiToolFile(t)}">
+  return `<a class="ai-card fade-up" href="${aiToolFile(t)}">
 <div class="card-top"><span class="badge badge-type">${AI_AUD[t.audience].label}</span><span class="chip chip-price">${esc(t.priceChip)}</span></div>
 <div class="card-ident">
 <span class="avatar-md ${grad(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>
@@ -1056,14 +1309,14 @@ function aiToolsHub() {
   const groupBlock = (g, list) => `<div class="ai-group" id="${g.key}">
 <h3 class="ai-group-h">${esc(g.title)}</h3>
 <p class="section-sub">${esc(g.intro)}${g.guide ? ` <a class="link-arrow" href="${g.guide.href}.html">${esc(g.guide.text)} →</a>` : ""}</p>
-<div class="card-grid">${list.map(aiCard).join("")}</div>
+<div class="card-grid" style="margin-top:22px">${list.map(aiCard).join("")}</div>
 <div class="prose ai-compare"><h4>Quick comparison</h4>${aiCompareTable(list)}</div>
 </div>`;
   const section = (aud, list, intro) => {
     const groups = AI_GROUPS[aud];
     const inner = groups
       ? groups.map(g => { const gl = list.filter(t => (t.group || groups[0].key) === g.key); return gl.length ? groupBlock(g, gl) : ""; }).join("")
-      : `<div class="card-grid">${list.map(aiCard).join("")}</div>
+      : `<div class="card-grid" style="margin-top:22px">${list.map(aiCard).join("")}</div>
 <div class="prose ai-compare"><h3>Quick comparison</h3>${aiCompareTable(list)}</div>`;
     const jump = groups ? `<div class="ai-group-jump">${groups.filter(g => list.some(t => (t.group || groups[0].key) === g.key)).map(g => `<a class="blog-chip" href="#${g.key}">${esc(g.title)}</a>`).join("")}</div>` : "";
     return `<section class="section container ai-section" id="${AI_AUD[aud].anchor}">
@@ -1077,13 +1330,8 @@ ${inner}
   return head("Best AI Tools for Students & Institutes in India (2026)",
     "Researched AI tools for Indian students and coaching institutes: Gemini, ChatGPT, PW AI Guru, Wayground, Eklavvya, AI business phones and more. ₹ prices, how to use.")
     .replace("</head>", ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + "\n</head>")
-    + header("ai-tools.html") + `
-<section class="hero hero-sm"><div class="container">
-<p class="eyebrow">AI Tools</p>
-<h1>AI Tools for Learners &amp; Institutes in India</h1>
-<p class="hero-sub">Hand-picked AI tools that genuinely help Indian students prepare for exams and help coaching institutes teach, test and grow — researched from official sources, with honest pros, cons and prices in ₹.</p>
-<div class="ai-jump"><a class="btn btn-primary" href="#for-learners">For Learners</a><a class="btn btn-ghost" href="#for-institutes">For Institutes</a></div>
-</div></section>
+    + header("ai-tools.html") + `<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["", "AI Tools"]], badge: `${AI_TOOLS.length} tools researched · No paid inclusions`, h1: hw("AI Tools for Learners & Institutes in India", 5, 5), sub: "Hand-picked AI tools that genuinely help Indian students prepare for exams and help coaching institutes teach, test and grow. Researched from official sources, with honest pros, cons and prices in ₹.", extra: `<div class="hero-acts fadein" style="--d:450ms"><a class="btn" href="#for-learners">For learners ${arw}</a><a class="btn btn-ghost" href="#for-institutes">For institutes</a></div>`, art: HERO_ART.f })}
 <section class="section container prose ai-intro">
 <div class="tldr-box"><p class="tldr-label">Quick answer</p>
 <p><strong>For students:</strong> start with <a href="ai-tools-google-gemini.html">Google Gemini</a> (free tutor + JEE Main mocks), <a href="ai-tools-gemini-notebook.html">Gemini Notebook</a> (revise from NCERT and your notes), <a href="ai-tools-chatgpt.html">ChatGPT</a> (Study Mode), <a href="ai-tools-pw-ai-guru.html">PW AI Guru</a> (JEE/NEET doubts in Hinglish) and <a href="ai-tools-perplexity.html">Perplexity</a> (current affairs with sources).</p>
@@ -1104,10 +1352,8 @@ ${section("institutes", institutes, "AI tools that save faculty time, make testi
 <h2>Frequently asked questions</h2>
 ${AI_HUB_FAQS.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}
 </section>
-<section class="section container cta-band">
-<h2>Built an AI tool for Indian education?</h2><p>Tell us about it — we review tools that genuinely help learners and institutes.</p>
-<a class="btn btn-primary" href="contact.html">Contact us</a>
-</section>` + footer();
+${ctaBand("Built an AI tool for Indian education?", "Tell us about it. We review tools that genuinely help learners and institutes.", "contact.html", "Contact us", 2)}
+</main>` + footer();
 }
 function aiToolPage(t) {
   const aud = AI_AUD[t.audience];
@@ -1170,18 +1416,8 @@ ${t.faqs.map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join("")}
   return head(t.metaTitle, t.metaDescription)
     .replace("</head>", [appLd, pageLd, crumbLd, faqLd].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") + `\n<meta property="article:modified_time" content="${aiCheckedIso(t)}">\n</head>`)
     + header("ai-tools.html") + `
-<div class="container breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="ai-tools.html">AI Tools</a> / <a href="ai-tools.html#${aud.anchor}">${aud.label}</a> / <span>${esc(aiShort(t))}</span></div>
-<section class="container detail-hero">
-<div class="identity">
-<span class="monogram ${grad(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>
-<div>
-<h1>${esc(t.name)}: ${t.audience === "learners" ? "AI Tool for Students in India" : "AI Tool for Coaching Institutes"}</h1>
-<div class="sub">${esc(t.tagline)}</div>
-<div class="badges"><span class="badge badge-type">${aud.label}</span><span class="chip chip-price">${esc(t.priceChip)}</span><span class="chip">by ${esc(t.maker)}</span></div>
-<div class="ai-hero-cta">${aiVisitBtn(t, "btn-primary")}</div>
-</div>
-</div>
-</section>
+<main id="main">
+${pageHero({ crumbs: [["index.html", "Home"], ["ai-tools.html", "AI Tools"], [`ai-tools.html#${aud.anchor}`, aud.label], ["", aiShort(t)]], badge: `${aud.label} · ${esc(t.priceChip)} · by ${esc(t.maker)}`, h1: hw(`${t.name}: ${t.audience === "learners" ? "AI Tool for Students in India" : "AI Tool for Coaching Institutes"}`, t.name.split(/\s+/).length, t.name.split(/\s+/).length).replace(/<span class="hw y"/, '<span class="hw"'), sub: esc(t.tagline), extra: `<div class="hero-acts fadein" style="--d:450ms">${aiVisitBtn(t, "btn-lav")}</div>`, art: HERO_ART.f })}
 <section class="container detail-body">
 <article class="detail-main prose ai-article">
 ${bodyWithIds}
@@ -1198,7 +1434,8 @@ ${bodyWithIds}
 ${same.slice(0, 6).map(o => `<a class="action" href="${aiToolFile(o)}"><span class="ic">${esc(o.name[0])}</span> ${esc(aiShort(o))} <span class="arr">→</span></a>`).join("\n")}
 </div>
 </aside>
-</section>` + footer();
+</section>
+</main>` + footer();
 }
 
 function postPage(p) {
@@ -1221,45 +1458,59 @@ function postPage(p) {
     "@context": "https://schema.org", "@type": "FAQPage",
     mainEntity: p.faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } }))
   } : null;
+  const crumbLd = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${B.siteUrl}/` },
+    { "@type": "ListItem", position: 2, name: "Blogs", item: `${B.siteUrl}/blog` },
+    { "@type": "ListItem", position: 3, name: postExam(p).label, item: `${B.siteUrl}/${blogExamFile(postExam(p)).replace(/\.html$/, "")}` },
+    { "@type": "ListItem", position: 4, name: p.title, item: `${B.siteUrl}/${p.slug}` }] };
   const shareUrl = `${B.siteUrl}/${p.slug}`;
-  const tocSidebar = tocItems.length > 1 ? `<div class="post-toc-card">
-<p class="toc-title">Table of Contents</p>
-<ul class="toc-list">${tocItems.map((it, i) => `<li><a href="#${it.id}">${String(i + 1).padStart(2, "0")}. ${it.text}</a></li>`).join("")}</ul>
-</div>` : "";
-  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}</head>`) + header("blog.html") + `
-<section class="post-hero">
-<div class="container post-hero-inner${p.image ? "" : " post-hero-inner-solo"}">
-<div class="post-hero-text">
-<a class="post-back" href="blog.html">← Back to Blogs</a>
-<a class="post-pill" href="${blogExamFile(postExam(p))}">${esc(postExam(p).label)}</a> <a class="post-pill" href="${blogTypeFile(postType(p))}">${esc(postType(p).label)}</a>
-<h1>${esc(p.title)}</h1>
-<div class="post-meta-row"><span>${p.date}</span><span>${p.minutes} min read</span></div>
-</div>
-${p.image ? `<div class="post-hero-media"><img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" loading="lazy"></div>` : ""}
-</div>
+  const tocSidebar = tocItems.length > 1 ? `<nav class="post-toc-card" aria-label="On this page">
+<p class="toc-title">On this page</p>
+<ol class="toc-list">${tocItems.map((it) => `<li><a href="#${it.id}">${it.text}</a></li>`).join("")}</ol>
+</nav>` : "";
+  const words = p.title.split(/\s+/);
+  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}<script type="application/ld+json">${JSON.stringify(crumbLd)}</script>\n</head>`) + header("blog.html") + `
+<div class="progress" aria-hidden="true"></div>
+<main id="main">
+<section class="page-hero">
+${edgeArt(HERO_ART.c, { hero: true })}
+<div class="container"><div class="inner" style="max-width:900px">
+<nav class="crumbs fadein" style="--d:0ms" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="blog.html">Blogs</a><span aria-hidden="true">/</span><a href="${blogExamFile(postExam(p))}">${esc(postExam(p).label)}</a></nav>
+<div class="post-pills fadein" style="--d:60ms"><a href="${blogExamFile(postExam(p))}">${esc(postExam(p).label)}</a><a href="${blogTypeFile(postType(p))}">${esc(postType(p).label)}</a></div>
+<h1 style="font-size:clamp(32px,4.6vw,56px)">${words.length <= 16 ? hw(p.title) : esc(p.title)}</h1>
+<div class="art-meta fadein" style="--d:300ms"><span>By the ${esc(B.name)} team</span><span>${p.date}</span><span>${p.minutes} min read</span></div>
+${p.image ? `<div class="post-hero-media cut fadein" style="--d:400ms"><img src="${p.image}?v=${ASSET_V}" alt="${esc(p.imageAlt || p.title)}" width="1200" height="630"></div>` : ""}
+</div></div>
 </section>
-<section class="section container post-layout">
+<section class="band-paper"><div class="container section">
+<div class="post-layout">
 <aside class="post-sidebar">
 ${tocSidebar}
-<div class="post-share"><span>Share this article:</span><div class="post-share-icons">
+<div class="post-share"><span>Share:</span><div class="post-share-icons">
 <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}" rel="noopener" target="_blank" aria-label="Share on LinkedIn">in</a>
-<a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&amp;text=${encodeURIComponent(p.title)}" rel="noopener" target="_blank" aria-label="Share on X">𝕏</a>
+<a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&amp;text=${encodeURIComponent(p.title)}" rel="noopener" target="_blank" aria-label="Share on X">X</a>
+<a href="https://wa.me/?text=${encodeURIComponent(p.title + " " + shareUrl)}" rel="noopener" target="_blank" aria-label="Share on WhatsApp">wa</a>
 </div></div>
 </aside>
-<article class="post-body prose article-body">
-<p class="muted">By the ${B.name} team</p>
+<article class="prose article-body">
+<div class="byline"><span class="av" aria-hidden="true">4u</span><span><b style="color:var(--navy)">${esc(B.name)} team</b><br>Researched from official sources. <a href="contact.html">Report a correction</a></span></div>
 ${bodyHtml}
 ${faqHtml}
 </article>
-</section>
+</div>
+</div></section>
 ${p.cta ? `<div class="post-sticky-cta" id="postStickyCta">
 <div class="container post-sticky-inner">
-<p>Ready to compare verified options?</p>
-<a class="btn btn-primary btn-sm" href="${p.cta.href}">${esc(p.cta.text)}</a>
-<button class="post-sticky-close" type="button" aria-label="Dismiss" onclick="document.getElementById('postStickyCta').style.display='none'">✕</button>
+<p>Ready to compare options?</p>
+<a class="btn btn-sm" href="${p.cta.href}">${esc(p.cta.text)}</a>
+<button class="post-sticky-close" type="button" aria-label="Dismiss" onclick="document.getElementById('postStickyCta').hidden=true">✕</button>
 </div>
 </div>` : ""}
-<section class="section container post-related"><h2>More From Our Guides</h2><div class="card-grid" style="margin-top:26px">${more.map(postCard).join("")}</div></section>`;
+<section class="band-yellow"><div class="container section">
+<div class="row-head"><h2 class="sec-title reveal">${rv("More from our guides", 3, "t")}</h2><a class="link-arrow" href="blog.html">All guides →</a></div>
+<div class="post-grid">${more.map(postCard).join("")}</div>
+</div></section>
+</main>`;
 }
 
 const privacyBody = `
@@ -1367,7 +1618,7 @@ const w = (f, html) => {
 };
 
 w("index.html", homePage());
-w("coaching.html", hubPage("coaching", "Find Your Coaching Institute", `Compare ${stats.coaching} coaching institutes for IAS, JEE, NEET, SSC and more — with real student ratings.`));
+w("coaching.html", hubPage("coaching", "Find Your Coaching Institute", `Compare ${stats.coaching} coaching institutes for IAS, JEE, NEET, SSC and more, with ratings labelled by source.`));
 
 DATA.cities.coaching.forEach(c => w(`coaching-${c}.html`, listingPage("coaching", c)));
 w("coaching-online.html", onlineCoachingPage());
@@ -1405,9 +1656,9 @@ w("sitemap.html", simplePage("sitemap.html", "Sitemap", `All pages on ${B.name}.
 /* thank-you page for form submissions (excluded from sitemap) */
 w("thanks.html", simplePage("thanks.html", "Thank You", "Your message has been sent.", `
 <section class="hero hero-sm"><div class="container">
-<h1>Thank you — we've got it ✓</h1>
+<h1>Thank you, we've got it</h1>
 <p class="hero-sub">Your enquiry has been sent to our counselling team. We typically respond within one working day. Meanwhile, feel free to keep exploring.</p>
-<p style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-primary" href="index.html">Back to homepage</a><a class="btn btn-ghost" href="coaching.html">Browse institutes</a></p>
+<p style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="index.html">Back to homepage</a><a class="btn btn-ghost" href="coaching.html">Browse institutes</a></p>
 </div></section>`).replace('<meta name="robots" content="index, follow">', '<meta name="robots" content="noindex, follow">'));
 
 /* 404 page */
@@ -1415,7 +1666,7 @@ w("404.html", simplePage("404.html", "Page Not Found", "This page does not exist
 <section class="hero hero-sm"><div class="container">
 <h1>Page not found</h1>
 <p class="hero-sub">The page you're looking for doesn't exist or was moved.</p>
-<p style="margin-top:20px"><a class="btn btn-primary" href="index.html">Go to homepage</a></p>
+<p style="margin-top:20px"><a class="btn" href="index.html">Go to homepage</a></p>
 </div></section>`));
 
 /* sitemap.xml + robots.txt for search engines */
@@ -1457,7 +1708,7 @@ fs.writeFileSync(path.join(OUT, "robots.txt"),
 
 /* favicon (SVG of the brand mark) */
 fs.writeFileSync(path.join(OUT, "favicon.svg"),
-  `<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><rect width="34" height="34" rx="8" fill="#4f46e5"/><path d="M17 8l10 5-10 5L7 13l10-5z" fill="#fff"/><path d="M12 16.5v4c0 1.5 2.2 3 5 3s5-1.5 5-3v-4l-5 2.5-5-2.5z" fill="#c7d2fe"/></svg>\n`);
+  `<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" fill="#2B399E"/><g fill="none" stroke="#FFF9AB" stroke-width="2.6"><polygon points="20,6 34,20 20,34 6,20"/><polygon points="10,10 30,10 30,30 10,30"/></g></svg>\n`);
 
 const count = fs.readdirSync(OUT).filter(f => f.endsWith(".html")).length;
 console.log(`Built ${count} HTML pages into ${OUT} (+ sitemap.xml, robots.txt, favicon.svg)`);
