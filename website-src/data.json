@@ -74,7 +74,8 @@
       "durgapur",
       "kozhikode",
       "chhatrapati-sambhajinagar",
-      "bareilly"
+      "bareilly",
+      "bikaner"
     ],
     "certification": [
       "online"
@@ -14808,6 +14809,51 @@
         "Fees on enquiry"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-bikaner",
+      "type": "coaching",
+      "name": "Aakash Institute, Bikaner",
+      "city": "bikaner",
+      "locality": "Jaipur Road",
+      "address": "Sameja Heights, Jaipur Road, Bikaner, Rajasthan 334001 (second centre: No. 231B, Uday Tower, Milan Travels Lane, Sadul Ganj, Bikaner 334001)",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.aakash.ac.in/bikaner-city",
+      "about": "Aakash's official Bikaner page lists two centres, one on Jaipur Road and one in Sadul Ganj, offering NEET-UG coaching, short-term NEET and JEE crash courses, mock tests and the All India Aakash Test Series, plus JEE and Class 7 to 10 foundation programmes. Fees are not published; the page says concessions are decided case by case. Results on the page give no Bikaner-specific figures.",
+      "highlights": [
+        "Official page lists two Bikaner centres",
+        "NEET-UG classroom and crash courses",
+        "All India Aakash Test Series",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-bikaner",
+      "type": "coaching",
+      "name": "ALLEN Career Institute, Bikaner",
+      "city": "bikaner",
+      "locality": "Bikaner",
+      "address": "Bikaner, Rajasthan (street address not published on ALLEN's Bikaner page; confirm with ALLEN)",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://allen.in/bikaner/neet",
+      "about": "ALLEN's official Bikaner NEET page lists two programmes: Nurture, a 2-year course for students moving from Class 10 to 11, and Enthusiast, a 1-year course for students moving from Class 11 to 12. On 16 October 2026 the page showed no open programmes for the 2026-27 filter and did not publish fees or a street address, so confirm current batches directly.",
+      "highlights": [
+        "Official Bikaner NEET page exists",
+        "Nurture (2-year) and Enthusiast (1-year) programmes",
+        "No open 2026-27 batches shown on 16 Oct 2026",
+        "Address and fees not published"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15021,6 +15067,9 @@
     },
     "coaching-bareilly": {
       "intro": "<p>Bareilly, the main city of the Rohilkhand region in western Uttar Pradesh, has a small JEE coaching market. The two institutes below are the ones whose own official pages confirm a JEE programme at a Bareilly centre, and both are in the Civil Lines area. Every listing has been checked against the institute's official page.</p>"
+    },
+    "coaching-bikaner": {
+      "intro": "<p>Bikaner is a smaller NEET coaching town than Kota or Jaipur. The two institutes below are the ones whose own official pages confirm NEET coaching for Bikaner: Aakash Institute, with centres on Jaipur Road and in Sadul Ganj, and ALLEN, which has a Bikaner NEET page but publishes no address. Every listing has been checked against the institute's official page.</p>"
     }
   }
 }

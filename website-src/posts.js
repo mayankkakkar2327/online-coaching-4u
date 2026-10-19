@@ -2,6 +2,72 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    "slug": "neet-ug-2026-stray-round-choice-filling-extended-17oct-result-19oct-update",
+    "image": "assets/blog/neet-ug-2026-stray-round-choice-filling-extended-17oct-result-19oct-update.png",
+    "title": "NEET UG 2026 Stray Round: Choice Filling Extended to 17 October, Result Due 19 October",
+    "category": "NEET & Medical",
+    "type": "exam-news",
+    "date": "19 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=neet",
+      "text": "Compare verified NEET coaching institutes"
+    },
+    "excerpt": "MCC extended NEET UG 2026 stray round choice filling to 12:30 PM on 17 October, and its notice schedules the result for 19 October with reporting from 19 to 26 October. We also list five dated pointers.",
+    "faqs": [
+      {
+        "q": "Until when was NEET UG 2026 stray round choice filling open?",
+        "a": "MCC's UG counselling page, updated on 16 October 2026, shows choice filling and locking closing at 12:30 PM on 17 October 2026, later than the 11:55 PM on 16 October in the 14 October schedule notice."
+      },
+      {
+        "q": "When is the NEET UG 2026 stray round result?",
+        "a": "The seat allotment result is scheduled for 19 October 2026, and reporting at the allotted college runs from 19 to 26 October 2026, per MCC's notice dated 14 October 2026."
+      },
+      {
+        "q": "When did stray round registration close?",
+        "a": "At 4:00 PM on 16 October 2026, with payment until 6:00 PM that day, according to MCC's notice dated 14 October 2026."
+      },
+      {
+        "q": "Which seats were available in the NEET UG 2026 stray round?",
+        "a": "Only the seats on MCC's clear vacancy list for the stray round (MBBS, BDS and B.Sc Nursing), published on mcc.nic.in."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 19 October 2026.</strong></p>\n<p>MCC extended choice filling and locking for the NEET UG 2026 stray vacancy round to 12:30 PM on 17 October 2026, and its notice dated 14 October 2026 schedules the seat allotment result for 19 October, with reporting from 19 to 26 October (<a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in</a>).</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Round:</strong> Stray vacancy round, MCC UG Counselling 2026 (MBBS, BDS, B.Sc Nursing)</p>\n<p><strong>Choice filling and locking:</strong> extended to 12:30 PM, 17 October 2026 (MCC UG counselling page, updated 16 October)</p>\n<p><strong>Result:</strong> scheduled for 19 October 2026 (MCC notice dated 14 October)</p>\n<p><strong>Reporting at allotted college:</strong> 19 to 26 October 2026</p>\n<p><strong>Official source:</strong> <a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in UG counselling page</a>; <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015721838974.pdf\" rel=\"noopener\" target=\"_blank\">schedule notice</a> ref. U-11011/07/2026-MEC dated 14 October 2026</p>\n</div>\n\n<h2>What MCC has announced</h2>\n<p>MCC's notice for the schedule of the stray round, issued from the Office of MCC, DGHS, Ministry of Health &amp; Family Welfare on 14 October 2026, set registration to close at 4:00 PM on 16 October, choice filling to end at 11:55 PM that day, the result on 19 October and reporting from 19 to 26 October. MCC's UG counselling page, last updated on 16 October, then showed choice filling and locking closing at 12:30 PM on 17 October 2026.</p>\n<p>The official page did not show a separate revised result date when we checked on 19 October, so the result stays scheduled for 19 October. Several coaching and news sites report the result as out today. Download the allotment letter only from mcc.nic.in.</p>\n\n<h2>What students should do now</h2>\n<p>If you were allotted a seat, check the result on mcc.nic.in and report to the allotted college between 19 and 26 October 2026 with your original documents. The stray round used only the seats on MCC's clear vacancy list for MBBS, BDS and B.Sc Nursing (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151192074765.pdf\" rel=\"noopener\" target=\"_blank\">official PDF</a>). If you did not get a seat, compare options before you decide on a drop year, and keep an eye on state counselling notices.</p>\n\n<h2>Important pointers, 19 October 2026</h2>\n<ul>\n<li>MCC extended NEET UG 2026 stray round choice filling and locking to 12:30 PM on 17 October 2026 (<a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in</a>).</li>\n<li>The stray round seat allotment result is scheduled for 19 October 2026, and reporting at the allotted college runs from 19 to 26 October 2026 (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015721838974.pdf\" rel=\"noopener\" target=\"_blank\">MCC notice dated 14 Oct 2026</a>).</li>\n<li>Stray round registration was due to close at 4:00 PM on 16 October 2026, with payment until 6:00 PM that day (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015721838974.pdf\" rel=\"noopener\" target=\"_blank\">MCC notice dated 14 Oct 2026</a>).</li>\n<li>MCC's clear vacancy list for the stray round covers MBBS, BDS and B.Sc Nursing seats and is on its UG counselling page (<a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in</a>).</li>\n<li>MCC has published an advisory about a fake notice; candidates should rely only on mcc.nic.in for counselling updates (<a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in</a>).</li>\n</ul>\n\n<p><em>Sources: Medical Counselling Committee, <a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in</a>, and MCC's notice for the schedule of the stray round dated 14 October 2026, checked on 19 October 2026.</em></p>\n<p>Planning for NEET UG 2027? Compare classroom options on our <a href=\"coaching.html?exam=neet\">NEET coaching directory</a>.</p>\n<p><strong>Last updated: 19 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-neet-coaching-institutes-bikaner-2026",
+    "image": "assets/blog/top-neet-coaching-institutes-bikaner-2026.png",
+    "title": "Top NEET Coaching Institutes in Bikaner (2026)",
+    "category": "NEET & Medical",
+    "type": "coaching-guides",
+    "date": "16 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching-bikaner.html",
+      "text": "Browse all verified coaching institutes in Bikaner"
+    },
+    "excerpt": "Bikaner has a small NEET coaching market. Aakash Institute's two centres are confirmed on its official page, ALLEN has a Bikaner NEET page, and we explain which directory names we left out.",
+    "faqs": [
+      {
+        "q": "Which is the best NEET coaching in Bikaner?",
+        "a": "There is no single best. Aakash Institute has two Bikaner centres confirmed on its official page, and ALLEN lists Nurture and Enthusiast NEET programmes for Bikaner. Attend a demo class and ask for Bikaner-specific results before paying."
+      },
+      {
+        "q": "Does Aakash have a centre in Bikaner?",
+        "a": "Yes. Aakash's official page lists centres at Sameja Heights, Jaipur Road, and at Uday Tower, Sadul Ganj, both in Bikaner 334001."
+      },
+      {
+        "q": "Does ALLEN run NEET classes in Bikaner?",
+        "a": "ALLEN has a Bikaner NEET page listing Nurture (Class 10 to 11, 2 years) and Enthusiast (Class 11 to 12, 1 year) programmes, but on 16 October 2026 it showed no open batches for 2026-27 and no street address. Confirm with ALLEN directly."
+      },
+      {
+        "q": "What is the latest NEET counselling update?",
+        "a": "MCC's UG 2026 stray round result was scheduled for 19 October 2026, with reporting from 19 to 26 October, per its notice dated 14 October 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 16 October 2026.</strong></p>\n<p>Bikaner, in northwest Rajasthan, is a smaller NEET coaching town than Kota or Jaipur, and the one institute whose own official page confirms NEET classroom coaching with a Bikaner address is Aakash Institute, with centres on Jaipur Road and in Sadul Ganj. ALLEN also has a Bikaner NEET page on its site. This guide lists only what we could confirm on official pages, and explains who we left out and why.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Bikaner, Rajasthan</p>\n<p><strong>Exam covered:</strong> NEET UG (2027 cycle)</p>\n<p><strong>Institutes listed:</strong> 2 (Aakash confirmed with addresses; ALLEN confirmed as having a Bikaner NEET page, no address published), as of 16 October 2026</p>\n<p><strong>Coaching areas:</strong> Jaipur Road and Sadul Ganj</p>\n<p><strong>Latest NEET news:</strong> MCC UG 2026 stray round result was scheduled for 19 October 2026 (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261015721838974.pdf\" rel=\"noopener\" target=\"_blank\">MCC notice</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows NEET coaching tied to Bikaner. Directory sites and blog lists name many more local institutes, but they carry no official pages and no recent confirmation, so we did not rank them. We kept the list short instead of padding it to ten. If you run or know an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. Aakash Institute, Bikaner</h3>\n<p>Aakash's official <a href=\"https://www.aakash.ac.in/bikaner-city\" rel=\"noopener\" target=\"_blank\">Bikaner page</a> lists two centres: Sameja Heights, Jaipur Road, Bikaner 334001, and No. 231B, Uday Tower, Milan Travels Lane, Sadul Ganj, Bikaner 334001. It offers NEET-UG coaching, short-term NEET and JEE crash courses, mock tests and the All India Aakash Test Series, along with JEE and Class 7 to 10 foundation programmes. Fees are not published; the page says they vary by course and that concessions are decided case by case. Results on the page are promotional and give no Bikaner-specific figures, so ask the centre for its own batch results.</p>\n\n<h3>2. ALLEN Career Institute, Bikaner</h3>\n<p>ALLEN's <a href=\"https://allen.in/bikaner/neet\" rel=\"noopener\" target=\"_blank\">Bikaner NEET page</a> lists two classroom programmes: Nurture, a 2-year course for students moving from Class 10 to 11, and Enthusiast, a 1-year course for students moving from Class 11 to 12. When we checked on 16 October 2026, the page showed no open programmes for the 2026-27 filter, and it does not publish a street address or fees. Call ALLEN to confirm current batches and the centre location before you plan around it.</p>\n\n<h2>What we left out, and why</h2>\n<p>Many \"best NEET coaching in Bikaner\" lists on directory and SEO sites name local tutorials, but none of the names we saw had an official page confirming a current Bikaner NEET batch. PW Vidyapeeth's centre page for Bikaner did not show a Bikaner centre when we checked, so it is not listed.</p>\n\n<h2>How to choose</h2>\n<p>With only two confirmed options, visit the Aakash centres in person and sit a demo class. Ask for the current NEET batch size, the faculty for Physics, Chemistry and Biology, and results from the Bikaner centre, not from the brand nationally. If you are open to moving, Kota and Jaipur have far more verified choices. See what the NEET 2027 cycle looks like on our <a href=\"blog-neet.html\">NEET blog</a> and every verified listing in the city on our <a href=\"coaching-bikaner.html\">Bikaner coaching page</a>.</p>\n<p><strong>Last updated: 16 October 2026.</strong></p>\n"
+  },
+  {
     "slug": "best-aeo-tools-coaching-institutes-india",
     "title": "Best AEO Tools for Coaching Institutes in India (2026)",
     "category": "AI Tools for Education",
