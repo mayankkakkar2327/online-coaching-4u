@@ -76,7 +76,8 @@
       "chhatrapati-sambhajinagar",
       "bareilly",
       "bikaner",
-      "siliguri"
+      "siliguri",
+      "kolhapur"
     ],
     "certification": [
       "online"
@@ -14899,6 +14900,50 @@
         "Results claims on the page carry no figures"
       ],
       "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-kolhapur",
+      "type": "coaching",
+      "name": "Career Launcher Kolhapur (Shivaji Park)",
+      "city": "kolhapur",
+      "locality": "Shivaji Park",
+      "address": "Plot No 82, Ranbhanjali, Near Apex Hospital, Shivaji Park, Kolhapur, Maharashtra 416008",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/center/kolhapur",
+      "about": "Career Launcher's official Kolhapur page lists a law programme covering CLAT, AILET, NMIMS and MH CET Law, with live classes, mock tests and performance tracking. The centre also runs CAT, BBA and IPM courses and quotes 6 of the top 10 ranks in CLAT 2025, which is its own claim. The page shows no fees or batch details, so ask the centre for them.",
+      "highlights": [
+        "Official page lists CLAT, AILET, NMIMS and MH CET Law",
+        "Live classes, mock tests and performance tracking",
+        "Also CAT, BBA and IPM courses",
+        "Fees and batch dates on enquiry"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-kolhapur",
+      "type": "coaching",
+      "name": "IMS Kolhapur (Shahupuri)",
+      "city": "kolhapur",
+      "locality": "Shahupuri",
+      "address": "C/O Padma Gaddi Karakhana, beside SBI Treasury Branch, opposite Hotel Pavillion, Shahupuri, Kolhapur, Maharashtra 416001",
+      "estd": 2020,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://imsindia.com/center/kolhapur",
+      "about": "IMS's official Kolhapur page says the centre was established in 2020 and lists CLAT among its programmes alongside CAT, GMAT, CET, GRE, BBA and IPM. Daksh Mitra is named as Chief Mentor for Law and BBA, and faculty come from Mumbai, Pune and Delhi. The page publishes no fees or results.",
+      "highlights": [
+        "Official IMS page lists CLAT preparation",
+        "Centre states it was established in 2020 (own claim)",
+        "Chief Mentor for Law and BBA named on the page",
+        "Classrooms, study room and online set-up"
+      ],
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
@@ -15118,6 +15163,9 @@
     },
     "coaching-siliguri": {
       "intro": "<p>Siliguri, in the Darjeeling district of West Bengal, is the main hub for CAT and MBA-entrance coaching in North Bengal. IMS on S.F. Road and Career Launcher in Hakimpara are the two classroom centres confirmed on their own official pages, and Rodha is an online option for students who prefer to prepare from home. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-kolhapur": {
+      "intro": "<p>Kolhapur, in southern Maharashtra, has a small law-entrance coaching market. Career Launcher in Shivaji Park and IMS in Shahupuri are the two institutes whose own official pages confirm CLAT preparation at a Kolhapur centre. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }

@@ -2,6 +2,76 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    "slug": "clat-2027-registration-closes-31-october-last-day-tomorrow-30oct-update",
+    "image": "assets/blog/clat-2027-registration-closes-31-october-last-day-tomorrow-30oct-update.png",
+    "title": "CLAT 2027 Registration Closes Tomorrow, 31 October; AILET Open Till 10 November",
+    "category": "CLAT & Law",
+    "type": "exam-news",
+    "date": "30 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=clat",
+      "text": "Compare verified CLAT coaching institutes"
+    },
+    "excerpt": "The last date to apply for CLAT 2027 is 31 October 2026, 11:59 pm, and no extension has been announced. AILET 2027 applications stay open until 10 November. Five dated pointers inside.",
+    "faqs": [
+      {
+        "q": "What is the last date to apply for CLAT 2027?",
+        "a": "31 October 2026, up to 11:59 pm, on the Consortium of NLUs portal. Applications opened on 3 August 2026."
+      },
+      {
+        "q": "Has the CLAT 2027 deadline been extended?",
+        "a": "No extension had been announced as of 30 October 2026. Check consortiumofnlus.ac.in before relying on one."
+      },
+      {
+        "q": "When is the CLAT 2027 exam?",
+        "a": "6 December 2026, from 2:00 pm to 4:00 pm, in offline pen-and-paper mode."
+      },
+      {
+        "q": "Do I need a separate form for AILET 2027?",
+        "a": "Yes. AILET is conducted by NLU Delhi on its own portal. Its last date was 10 November 2026 and the exam is on 13 December 2026, as last read on 14 October 2026."
+      },
+      {
+        "q": "I chose Vellore or Tiruvarur as my CLAT test city. What should I do?",
+        "a": "Both cities were removed from the CLAT 2027 test-centre list. Log in and change your centre preference before 31 October 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 30 October 2026.</strong></p>\n<p>CLAT 2027 applications close tomorrow, 31 October 2026 at 11:59 pm, so today is the last full day to submit the form on the Consortium of NLUs portal.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>CLAT 2027 last date:</strong> 31 October 2026, 11:59 pm (1 day left)</p>\n<p><strong>CLAT 2027 exam:</strong> 6 December 2026, 2:00 pm to 4:00 pm, offline (37 days away)</p>\n<p><strong>Fee:</strong> Rs 4,000 General; Rs 3,500 for SC, ST, BPL and PwD</p>\n<p><strong>AILET 2027:</strong> separate form, last date 10 November 2026, exam 13 December 2026</p>\n<p><strong>Official sources:</strong> <a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">Consortium of NLUs, CLAT 2027</a>, <a href=\"https://nationallawuniversitydelhi.in/\" rel=\"noopener\" target=\"_blank\">NLU Delhi, AILET 2027</a>, <a href=\"https://www.slat-test.org/\" rel=\"noopener\" target=\"_blank\">slat-test.org</a></p>\n</div>\n\n<h2>What to finish before midnight tomorrow</h2>\n<p>The Consortium has not announced an extension, and the last date has stayed at 31 October since applications opened on 3 August 2026. Do not plan around an extension. Fill in the form, upload documents and pay the fee well before the evening of 31 October, because payment gateways slow down on deadline day.</p>\n<p>Check your test centre before you submit. The Consortium has removed Vellore and Tiruvarur from the list of CLAT 2027 test cities. A candidate who had chosen either city must change the preference by 31 October.</p>\n<p>Two NLUs have also changed their reservation categories this year: WBNUJS Kolkata now has a single OBC category, and NLU Meghalaya has added categories. If you applied under the older categories at either university, update them by the same date.</p>\n\n<h2>What happens after the deadline</h2>\n<p>An application correction window is expected to open after registration closes. Education portals report that it may start around 2 November, but the Consortium has not confirmed the dates or the list of editable fields, so wait for the official notice. NLU preferences are normally filled in later, at counselling registration, and not in the application form.</p>\n<p>The syllabus and pattern for CLAT 2027 are unchanged. The expert committee's proposed reforms are meant for CLAT 2028 and later, according to reports on the committee's findings.</p>\n\n<h2>AILET and SLAT: still open</h2>\n<p>AILET is run by NLU Delhi and is not covered by a CLAT application. Its portal showed 10 November 2026 as the last date, 30 November for admit cards and 13 December for the exam when we last read it on 14 October 2026. SLAT 2027 for Symbiosis law schools is on 19 and 26 December 2026.</p>\n<p><em>Verification note:</em> on 30 October the Consortium and NLU Delhi pages did not show readable date panels in our check, so the CLAT deadline rests on the Consortium page as read on 14 October 2026 and on a Careers360 report of 27 October that confirms 31 October 11:59 pm and no extension. The AILET and SLAT dates are as read from their official sites on 14 October 2026. Confirm on the official portals before you pay.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>30 Oct 2026:</strong> The CLAT 2027 application form can be submitted until 11:59 pm on 31 October 2026 on the Consortium of NLUs portal. (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">consortiumofnlus.ac.in</a>)</li>\n<li><strong>30 Oct 2026:</strong> The CLAT 2027 application fee is Rs 4,000 for General candidates and Rs 3,500 for SC, ST, BPL and PwD candidates. (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">consortiumofnlus.ac.in</a>)</li>\n<li><strong>30 Oct 2026:</strong> CLAT 2027 will be held offline, on pen and paper, on 6 December 2026 from 2:00 pm to 4:00 pm. (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">consortiumofnlus.ac.in</a>)</li>\n<li><strong>30 Oct 2026:</strong> AILET 2027 needs a separate application on the NLU Delhi portal; it closes on 10 November 2026 and the exam is on 13 December 2026. (<a href=\"https://nationallawuniversitydelhi.in/\" rel=\"noopener\" target=\"_blank\">nationallawuniversitydelhi.in</a>)</li>\n<li><strong>30 Oct 2026:</strong> SLAT 2027 is held on 19 and 26 December 2026 as a one-hour test of 60 objective questions with no negative marking. (<a href=\"https://www.slat-test.org/\" rel=\"noopener\" target=\"_blank\">slat-test.org</a>)</li>\n</ul>\n\n<p>Choosing a coaching institute for the December exam or for 2028? Compare options on our <a href=\"coaching.html?exam=clat\">CLAT coaching directory</a>.</p>\n<p><strong>Last updated: 30 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-clat-coaching-institutes-kolhapur-2026",
+    "image": "assets/blog/top-clat-coaching-institutes-kolhapur-2026.png",
+    "title": "Top CLAT Coaching Institutes in Kolhapur (2026)",
+    "category": "CLAT & Law",
+    "type": "coaching-guides",
+    "date": "30 Oct 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-kolhapur.html",
+      "text": "Browse all verified coaching institutes in Kolhapur"
+    },
+    "excerpt": "Kolhapur has a small CLAT coaching market. Career Launcher in Shivaji Park and IMS in Shahupuri are confirmed on their own official pages, and we explain which directory names we left out.",
+    "faqs": [
+      {
+        "q": "Which is the best CLAT coaching in Kolhapur?",
+        "a": "There is no single best. Career Launcher in Shivaji Park lists CLAT, AILET and MH CET Law preparation, while IMS in Shahupuri lists CLAT with a named law mentor. Attend a demo class at both before paying."
+      },
+      {
+        "q": "Does Career Launcher have a CLAT centre in Kolhapur?",
+        "a": "Yes. Its official page lists the centre at Plot No 82, Ranbhanjali, near Apex Hospital, Shivaji Park, Kolhapur 416008, with a law programme covering CLAT, AILET, NMIMS and MH CET Law."
+      },
+      {
+        "q": "Does IMS offer CLAT coaching in Kolhapur?",
+        "a": "Yes. IMS's official Kolhapur page lists CLAT among its programmes at the Shahupuri centre, established in 2020, and names Daksh Mitra as Chief Mentor for Law and BBA."
+      },
+      {
+        "q": "When is CLAT 2027?",
+        "a": "6 December 2026, from 2:00 pm to 4:00 pm, offline. Applications close on 31 October 2026 on the Consortium of NLUs portal."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 30 October 2026.</strong></p>\n<p>Kolhapur, in southern Maharashtra, has a small law-entrance coaching market, and the two institutes whose own official pages confirm CLAT preparation at a Kolhapur centre are Career Launcher in Shivaji Park and IMS in Shahupuri. This guide lists only what we could confirm on official pages, and explains who we left out and why.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Kolhapur, Maharashtra</p>\n<p><strong>Exam covered:</strong> CLAT 2027 (exam on 6 December 2026; applications close 31 October 2026), plus AILET and MH CET Law where the institute offers them</p>\n<p><strong>Institutes listed:</strong> 2, each confirmed on its own official website as of 30 October 2026</p>\n<p><strong>Coaching areas:</strong> Shivaji Park (Ranbhanjali) and Shahupuri</p>\n<p><strong>Next CLAT date:</strong> CLAT 2027 registration closes on 31 October 2026 (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">Consortium of NLUs</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows CLAT or law-entrance preparation at a centre in Kolhapur. Directory sites name a few more local tutorials, but they carry no institute websites and no recent confirmation, so we did not rank them. We kept the list to two instead of padding it to ten. If you run an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. Career Launcher, Shivaji Park</h3>\n<p>Career Launcher's <a href=\"https://www.careerlauncher.com/center/kolhapur\" rel=\"noopener\" target=\"_blank\">Kolhapur centre page</a> gives the address as Plot No 82, Ranbhanjali, near Apex Hospital, Shivaji Park, Kolhapur 416008. It lists a law programme covering CLAT, AILET, NMIMS and MH CET Law, with live classes, mock tests and performance tracking, and also CAT, BBA and IPM courses. The centre quotes 6 of the top 10 ranks in CLAT 2025, which is its own claim and which we could not verify. The page shows no fees and no current batch details, so ask for the next CLAT batch date and the fee in writing.</p>\n\n<h3>2. IMS Kolhapur, Shahupuri</h3>\n<p>IMS's <a href=\"https://imsindia.com/center/kolhapur\" rel=\"noopener\" target=\"_blank\">Kolhapur page</a> places the centre at Padma Gaddi Karakhana, beside the SBI Treasury Branch, opposite Hotel Pavillion, Shahupuri, Kolhapur 416001. It says the centre was established in 2020, lists CLAT among its programmes alongside CAT, GMAT, CET, GRE, BBA and IPM, and names Daksh Mitra as Chief Mentor for Law and BBA. The centre has classrooms, a study room and an online learning set-up, with faculty from Mumbai, Pune and Delhi. Fees and results are not published on the page.</p>\n\n<h2>What we left out, and why</h2>\n<p>Directory listings also name First Attempt Success Tutorials (Rajarampuri 7th Lane) and Study Circle (Gargoti, Bhudargad taluka) for CLAT in the Kolhapur area. We could not find an official page for either, so they are not listed. We also looked for a Kolhapur centre of LegalEdge and of T.I.M.E.'s ClatPrep and could not confirm one on their official sites.</p>\n\n<h2>How to choose</h2>\n<p>The two centres are in different parts of the city, Shivaji Park and Shahupuri, so travel time may decide for you. Career Launcher is the one to look at if you also want MH CET Law preparation for Maharashtra law colleges, since its page lists it. IMS suits students who want a smaller, management-and-law centre with a named law mentor. Sit in a demo class at both, ask for the current CLAT batch size, and ask for results from this centre and not from the brand nationally.</p>\n<p>CLAT 2027 applications close on 31 October 2026, so complete your form before you finalise coaching. See every verified listing in the city on our <a href=\"coaching-kolhapur.html\">Kolhapur coaching page</a>.</p>\n<p><strong>Last updated: 30 October 2026.</strong></p>\n"
+  },
+  {
     "slug": "cds-ii-2026-written-result-declared-19oct-ssb-update",
     "image": "assets/blog/cds-ii-2026-written-result-declared-19oct-ssb-update.png",
     "title": "CDS-II 2026 Written Result Declared on 19 October; SSB Interviews Next",
