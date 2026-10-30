@@ -2,6 +2,105 @@
    All articles written from independently verified facts and our own listing data. */
 module.exports = [
   {
+    "slug": "cds-ii-2026-written-result-declared-19oct-ssb-update",
+    "image": "assets/blog/cds-ii-2026-written-result-declared-19oct-ssb-update.png",
+    "title": "CDS-II 2026 Written Result Declared on 19 October; SSB Interviews Next",
+    "category": "SSC, Defence & Govt Exams",
+    "type": "exam-news",
+    "date": "26 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=ias",
+      "text": "Compare verified UPSC / Govt exam coaching institutes"
+    },
+    "excerpt": "UPSC declared the CDS-II 2026 written result on 19 October 2026. Qualified candidates go to the SSB interview, followed by a medical examination. The exam was held on 13 September for 451 vacancies.",
+    "faqs": [
+      {
+        "q": "When was the CDS-II 2026 written result declared?",
+        "a": "On 19 October 2026, through a press note on the UPSC website (upsc.gov.in)."
+      },
+      {
+        "q": "What happens after the CDS-II 2026 written result?",
+        "a": "Qualified candidates are called for the SSB interview, followed by a medical examination. The final merit list is prepared after the SSB."
+      },
+      {
+        "q": "How many vacancies are there in CDS-II 2026?",
+        "a": "451 vacancies were advertised: 100 at IMA, 26 at the Indian Naval Academy, 32 at the Air Force Academy and 293 at OTA, as reported from the UPSC notification."
+      },
+      {
+        "q": "When was the CDS-II 2026 exam held?",
+        "a": "13 September 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 26 October 2026.</strong></p>\n<p>UPSC declared the written result of the Combined Defence Services Examination (II), 2026 on 19 October 2026, and candidates who qualified now move on to the SSB interview, according to the press note on <a href=\"https://www.upsc.gov.in/\" rel=\"noopener\" target=\"_blank\">upsc.gov.in</a>.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Exam:</strong> Combined Defence Services Examination (II), 2026 (CDS-II)</p>\n<p><strong>Written exam held:</strong> 13 September 2026</p>\n<p><strong>Written result declared:</strong> 19 October 2026</p>\n<p><strong>Vacancies advertised:</strong> 451 (IMA 100, Indian Naval Academy 26, Air Force Academy 32, OTA 293), as reported from the notification</p>\n<p><strong>Next stage:</strong> SSB interview, then medical examination</p>\n<p><strong>Official source:</strong> <a href=\"https://www.upsc.gov.in/sites/default/files/WR-CDSE-II-2026-Engl-19102026.pdf\" rel=\"noopener\" target=\"_blank\">UPSC press note dated 19 October 2026</a></p>\n</div>\n\n<h2>What UPSC announced</h2>\n<p>The written result is out on the UPSC website under \"Written Results\", in the form of a press note listing the roll numbers of candidates who qualified. This is only the first stage of selection. The final merit list is prepared after the SSB interview, and it is on that merit list that candidates get a place in the training academies.</p>\n\n<h2>What it means for students</h2>\n<p>If your roll number is on the list, check the UPSC press note and the instructions on the joinindianarmy.nic.in and Indian Navy and Air Force recruitment portals for your SSB call-up. Do not wait for a letter alone; the SSB centre and reporting date are normally shown on the recruiting body's portal once allotted. Candidates who did not qualify have no re-evaluation route in this cycle, so the next opportunity is the next CDS notification.</p>\n<p>We could not open the full text of the press note while preparing this update, so we have kept this article to the dates and stages that UPSC lists publicly. For the number of qualified candidates and exact SSB instructions, read the press note itself.</p>\n\n<h2>Important pointers, 26 October 2026</h2>\n<ul>\n<li>The CDS-II 2026 written result was declared on 19 October 2026 (<a href=\"https://www.upsc.gov.in/sites/default/files/WR-CDSE-II-2026-Engl-19102026.pdf\" rel=\"noopener\" target=\"_blank\">UPSC press note</a>).</li>\n<li>The CDS-II 2026 written exam was held on 13 September 2026, with 451 vacancies advertised across IMA, INA, AFA and OTA (<a href=\"https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf\" rel=\"noopener\" target=\"_blank\">UPSC notification</a>).</li>\n<li>UPSC issued the written result of the National Defence Academy and Naval Academy (II) 2026 examination on 13 October 2026 (<a href=\"https://www.upsc.gov.in/sites/default/files/WR-NDA-NA-II-2026-Engl-13102026.pdf\" rel=\"noopener\" target=\"_blank\">UPSC press note</a>).</li>\n<li>The SSC CGL 2026 Tier 1 exam runs from 30 September to 30 October 2026, and admit cards are issued in phases by exam date (<a href=\"https://ssc.gov.in/\" rel=\"noopener\" target=\"_blank\">ssc.gov.in</a>).</li>\n<li>UPSC's Annual Calendar 2027 lists 13 January 2027 as the Civil Services Examination notification date and 23 May 2027 as the prelims date; these are planned dates and can change (<a href=\"https://www.upsc.gov.in/\" rel=\"noopener\" target=\"_blank\">upsc.gov.in</a>).</li>\n</ul>\n\n<p><em>Sources: Union Public Service Commission, <a href=\"https://www.upsc.gov.in/\" rel=\"noopener\" target=\"_blank\">upsc.gov.in</a>; Staff Selection Commission, <a href=\"https://ssc.gov.in/\" rel=\"noopener\" target=\"_blank\">ssc.gov.in</a>. Checked on 26 October 2026; the CDS-II date was cross-checked against two independent news outlets.</em></p>\n<p>Preparing for a defence or civil services exam? Compare classroom options on our <a href=\"coaching.html?exam=ias\">UPSC / Govt exam coaching directory</a>.</p>\n<p><strong>Last updated: 26 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "nmat-2026-registration-scheduling-deadline-extended-25oct-update",
+    "image": "assets/blog/nmat-2026-registration-scheduling-deadline-extended-25oct-update.png",
+    "title": "NMAT 2026: Registration and Slot Booking Closed on 25 October",
+    "category": "CAT, IPMAT & MBA",
+    "type": "exam-news",
+    "date": "20 Oct 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=cat",
+      "text": "Compare verified CAT / MBA coaching institutes"
+    },
+    "excerpt": "GMAC's official NMAT page shows 25 October 2026 as the last date for registration and slot scheduling, extended from 10 and 22 October; that window has now closed. The test window runs 2 November to 20 December.",
+    "faqs": [
+      {
+        "q": "What is the last date to register for NMAT 2026?",
+        "a": "25 October 2026, according to GMAC's official NMAT page on mba.com. Slot scheduling also closes on 25 October."
+      },
+      {
+        "q": "When is the NMAT 2026 exam?",
+        "a": "Candidates can take NMAT on any available date between 2 November and 20 December 2026, depending on the slot they book."
+      },
+      {
+        "q": "Was the NMAT 2026 deadline extended?",
+        "a": "Yes. The earlier schedule had registration closing on 10 October and scheduling on 22 October 2026; the official page now lists 25 October for both."
+      },
+      {
+        "q": "When is XAT 2027?",
+        "a": "XAT 2027 is on 3 January 2027 and registration closes on 6 December 2026, per xatonline.in."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 26 October 2026.</strong></p>\n<p>NMAT by GMAC 2026 registration and exam-slot scheduling both closed on 25 October 2026 with no further extension listed, and the exam can be taken any day from 2 November to 20 December 2026, according to the official NMAT page on <a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com</a>.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Exam:</strong> NMAT by GMAC 2026 (accepted by NMIMS and other B-schools)</p>\n<p><strong>Registration and scheduling:</strong> 20 August to 25 October 2026</p>\n<p><strong>Test window:</strong> 2 November to 20 December 2026</p>\n<p><strong>Official source:</strong> <a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com/exams/nmat</a>, checked 20 October 2026</p>\n</div>\n\n<h2>What changed from the earlier schedule</h2>\n<p>When GMAC first published the 2026 cycle in August, registration was due to close on 10 October and slot scheduling on 22 October. The official page now lists 25 October for both, so the window has been extended by two weeks for registration and three days for scheduling. Anyone who read our August note should use the 25 October date instead.</p>\n\n<h2>What it means for students</h2>\n<p>The registration and booking window has now closed, so candidates who already hold a booked slot can sit the exam in the 2 November to 20 December window, while others will need to look at other MBA exams. Registering without booking a slot does not secure a seat at a test centre, and slots in popular cities fill first-come, first-served as the window progresses. NMAT allows up to three attempts within the cycle, and the best score counts, so booking an early date leaves room for a retake before 20 December. Rescheduling and retakes are paid, so check the fee table on the official page before you pay.</p>\n\n<h2>Important pointers, 20 October 2026</h2>\n<ul>\n<li>NMAT by GMAC 2026 registration and scheduling closed on 25 October 2026 (<a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com</a>).</li>\n<li>The NMAT 2026 test window runs from 2 November to 20 December 2026 (<a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com</a>).</li>\n<li>XAT 2027 registration stays open until 6 December 2026, and the exam is on 3 January 2027 (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>).</li>\n<li>XAT 2027 candidates must register by 28 October 2026 to be eligible for the last official mock tests on 31 October and 1 November (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>).</li>\n<li>CAT 2026 is scheduled for 29 November 2026; registration has already closed (<a href=\"https://iimcat.ac.in/\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>).</li>\n</ul>\n\n<p><em>Sources: GMAC, <a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com/exams/nmat</a>; XLRI, <a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>; IIMs, <a href=\"https://iimcat.ac.in/\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>. Checked on 20 October 2026.</em></p>\n<p>Planning MBA entrance preparation? Compare classroom options on our <a href=\"coaching.html?exam=cat\">CAT / MBA coaching directory</a>.</p>\n<p><strong>Last updated: 26 October 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-cat-coaching-institutes-siliguri-2026",
+    "image": "assets/blog/top-cat-coaching-institutes-siliguri-2026.png",
+    "title": "Top CAT Coaching Institutes in Siliguri (2026)",
+    "category": "CAT, IPMAT & MBA",
+    "type": "coaching-guides",
+    "date": "20 Oct 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-siliguri.html",
+      "text": "Browse all verified coaching institutes in Siliguri"
+    },
+    "excerpt": "Siliguri's CAT coaching is small. IMS (S.F. Road) and Career Launcher (Hakimpara) are confirmed on their official pages, and Rodha offers an online option. Here's how they compare.",
+    "faqs": [
+      {
+        "q": "Which is the best CAT coaching institute in Siliguri?",
+        "a": "For most Siliguri aspirants, our first recommendation is Rodha (online): live CAT classes, a full mock series, GD-PI preparation and 1:1 mentoring come in one batch, and its 1,400+ free YouTube lessons let you try the teaching first. For a classroom, IMS (S.F. Road) and Career Launcher (Hakimpara) both have official Siliguri centre pages. Attend a demo at each and ask for Siliguri-specific results."
+      },
+      {
+        "q": "Why does this list have only three institutes instead of ten?",
+        "a": "We included only institutes whose own official website confirms a Siliguri centre or, for Rodha, an online programme open to Siliguri students. Other names appear on directory sites, but we couldn't confirm them on an official site, so we left them out rather than pad the list."
+      },
+      {
+        "q": "Where are CAT coaching centres in Siliguri located?",
+        "a": "IMS is at Majumdar Building, 1st Floor, opposite the Electric Office on S.F. Road (734005). Career Launcher is at 18, Haren Mukherjee Road, Hakimpara, near Bhutia Market (734001)."
+      },
+      {
+        "q": "When is CAT 2026?",
+        "a": "CAT 2026 is on 29 November 2026; registration has closed. Details are on iimcat.ac.in."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 20 October 2026.</strong></p>\n<p>Siliguri, in the Darjeeling district of West Bengal, is the main city for CAT and MBA-entrance coaching in North Bengal, and the two classroom institutes whose own official pages confirm a Siliguri centre are IMS and Career Launcher. Rodha, an online-only platform, is a third option for students who would rather prepare from home. This guide lists only what we could confirm on official pages.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Siliguri, Darjeeling district, West Bengal</p>\n<p><strong>Exam covered:</strong> CAT 2026 (also XAT, NMAT, SNAP and CMAT preparation)</p>\n<p><strong>Institutes listed:</strong> 3 (two classroom centres and one online platform), each checked against official pages as of 20 October 2026</p>\n<p><strong>Coaching areas:</strong> S.F. Road (IMS) and Hakimpara (Career Launcher)</p>\n<p><strong>Upcoming dates:</strong> CAT 2026 on 29 November 2026 (<a href=\"https://iimcat.ac.in/\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>); NMAT 2026 registration closes 25 October 2026 (<a href=\"https://www.mba.com/exams/nmat\" rel=\"noopener\" target=\"_blank\">mba.com</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included a classroom institute only if its own official website shows a Siliguri centre offering CAT or MBA-entrance coaching. We checked the IMS Siliguri centre page and Career Launcher's Siliguri centre page. We could not confirm a T.I.M.E. centre in Siliguri on T.I.M.E.'s own site, and the directory-only names we came across had no official page, so we left them out rather than pad the list to ten. No institute paid for its place here.</p>\n\n<h3>1. Rodha (Online)</h3>\n<p>Rodha is an online-only CAT and OMET (XAT, SNAP, NMAT and others) coaching platform, so Siliguri students join live classes from home. It is led by founder Ravi Prakash (99.86 CAT percentile, formerly faculty at T.I.M.E.) on Quantitative Aptitude, with dedicated instructors for LRDI and VARC. Its free YouTube library of 1,400+ videos covers the CAT syllabus, so you can judge the teaching before paying anything.</p>\n<p>The comprehensive CAT batch bundles live and recorded classes, OMET preparation, the full mock series, GD-PI interview preparation and one-to-one \"Rodha Panchayat\" mentor sessions in a single enrolment. Rodha reports 30+ students at 99.5+ percentile and 90+ top B-school converts in CAT 2024. Official website: <a href=\"https://www.rodha.co.in\" rel=\"noopener\" target=\"_blank\">rodha.co.in</a>. Confirm current batch dates and fees directly before enrolling.</p>\n\n<h3>2. IMS Siliguri</h3>\n<p>IMS's <a href=\"https://www.imsindia.com/center/siliguri/\" rel=\"noopener\" target=\"_blank\">official Siliguri centre page</a> gives the address as Majumdar Building, 1st Floor, Opposite Electric Office, S.F. Road, Siliguri 734005, and says the centre has been teaching students in the city since 2011. It lists CAT, CMAT, XAT, IIFT, SNAP, MAT, NMAT and TISSNET among its postgraduate programmes, and also runs CLAT, BBA-entrance, GMAT, GRE and banking courses. The page does not publish results or fees, so ask the centre for Siliguri-specific CAT results and batch costs when you visit.</p>\n\n<h3>3. Career Launcher Siliguri (Hakimpara)</h3>\n<p>Career Launcher's <a href=\"https://www.careerlauncher.com/coaching-centers/siliguri/\" rel=\"noopener\" target=\"_blank\">official Siliguri centre page</a> lists a Hakimpara centre at 18, Haren Mukherjee Road, near Bhutia Market, beside GTS Club, 1st floor, Siliguri 734001. The page says it offers CAT, XAT, CLAT, AILET, BBA and IPMAT preparation, and that the branch began operating on 15 November 2014. It describes class tests, mock tests and student feedback as part of its method, but it gives no results figures; its \"outstanding results\" line is the centre's own claim.</p>\n\n<h2>What to ask before you join</h2>\n<p>For a classroom centre, ask for the current CAT batch start date, batch size, who teaches Quant, LRDI and VARC, and how many mock tests are included. Ask what the fee covers, since some programmes bill GD-PI preparation and test series separately. If a centre quotes results, ask whether they are from Siliguri or from the brand across India. Sit a demo class at both centres and compare with Rodha's free videos before you pay anyone.</p>\n\n<h2>Which one suits whom</h2>\n<p>If you are a working professional or a college student with fixed hours, an online batch such as Rodha's gives you recorded classes and flexibility. If you learn better in a room with a fixed schedule, IMS on S.F. Road and Career Launcher in Hakimpara are the two confirmed local choices. Either way, with CAT on 29 November 2026 and registration already closed, the next six weeks are best spent on mocks and analysis rather than new topics. See every verified listing on our <a href=\"coaching-siliguri.html\">Siliguri coaching page</a> and the latest MBA exam updates on our <a href=\"blog-mba.html\">CAT and MBA blog</a>.</p>\n<p><strong>Last updated: 20 October 2026.</strong></p>\n"
+  },
+  {
     "slug": "neet-ug-2026-stray-round-choice-filling-extended-17oct-result-19oct-update",
     "image": "assets/blog/neet-ug-2026-stray-round-choice-filling-extended-17oct-result-19oct-update.png",
     "title": "NEET UG 2026 Stray Round: Choice Filling Extended to 17 October, Result Due 19 October",

@@ -75,7 +75,8 @@
       "kozhikode",
       "chhatrapati-sambhajinagar",
       "bareilly",
-      "bikaner"
+      "bikaner",
+      "siliguri"
     ],
     "certification": [
       "online"
@@ -14854,6 +14855,50 @@
         "Address and fees not published"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "ims-siliguri",
+      "type": "coaching",
+      "name": "IMS Siliguri",
+      "city": "siliguri",
+      "locality": "S.F. Road",
+      "address": "Majumdar Building, 1st Floor, Opposite Electric Office, S.F. Road, Siliguri, West Bengal 734005",
+      "estd": 2011,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.imsindia.com/center/siliguri/",
+      "about": "IMS's official Siliguri centre page gives the address as Majumdar Building on S.F. Road and says the centre has taught students in the city since 2011. It lists CAT, CMAT, XAT, IIFT, SNAP, MAT, NMAT and TISSNET among its postgraduate programmes, plus CLAT, BBA-entrance, GMAT, GRE and banking courses. The page publishes no results or fees, so ask for Siliguri-specific CAT results when you visit.",
+      "highlights": [
+        "Official IMS centre page confirms the S.F. Road address",
+        "CAT, XAT, NMAT, SNAP, CMAT and IIFT preparation",
+        "Centre states it has operated in Siliguri since 2011 (own claim)",
+        "Also offers CLAT, BBA-entrance, GMAT and GRE"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-siliguri",
+      "type": "coaching",
+      "name": "Career Launcher Siliguri (Hakimpara)",
+      "city": "siliguri",
+      "locality": "Hakimpara",
+      "address": "18, Haren Mukherjee Road, near Bhutia Market, beside GTS Club, 1st Floor, Hakimpara, Siliguri, West Bengal 734001",
+      "estd": 2014,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/coaching-centers/siliguri/",
+      "about": "Career Launcher's official Siliguri centre page lists a Hakimpara centre offering CAT, XAT, CLAT, AILET, BBA and IPMAT preparation, and says the branch began operating on 15 November 2014. It describes class tests, mock tests and student feedback as part of its method; its claim of outstanding results comes with no figures, so ask the centre for recent Siliguri CAT results.",
+      "highlights": [
+        "Official CL centre page confirms the Hakimpara address",
+        "CAT, XAT, CLAT, AILET, BBA and IPMAT preparation",
+        "Centre states it began operating on 15 Nov 2014",
+        "Results claims on the page carry no figures"
+      ],
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
@@ -15070,6 +15115,9 @@
     },
     "coaching-bikaner": {
       "intro": "<p>Bikaner is a smaller NEET coaching town than Kota or Jaipur. The two institutes below are the ones whose own official pages confirm NEET coaching for Bikaner: Aakash Institute, with centres on Jaipur Road and in Sadul Ganj, and ALLEN, which has a Bikaner NEET page but publishes no address. Every listing has been checked against the institute's official page.</p>"
+    },
+    "coaching-siliguri": {
+      "intro": "<p>Siliguri, in the Darjeeling district of West Bengal, is the main hub for CAT and MBA-entrance coaching in North Bengal. IMS on S.F. Road and Career Launcher in Hakimpara are the two classroom centres confirmed on their own official pages, and Rodha is an online option for students who prefer to prepare from home. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
