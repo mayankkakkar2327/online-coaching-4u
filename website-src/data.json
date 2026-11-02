@@ -77,7 +77,8 @@
       "bareilly",
       "bikaner",
       "siliguri",
-      "kolhapur"
+      "kolhapur",
+      "bhilai"
     ],
     "certification": [
       "online"
@@ -14944,6 +14945,75 @@
         "Classrooms, study room and online set-up"
       ],
       "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-bhilai",
+      "type": "coaching",
+      "name": "Aakash Institute, Bhilai",
+      "city": "bhilai",
+      "locality": "GE Road, Supela",
+      "address": "PN 2, 3rd Floor, Supela Chauhan Estate, GE Road, Bhilai, Chhattisgarh 490023",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.aakash.ac.in/bhilai-city",
+      "about": "Aakash's official Bhilai page lists JEE (Main) and JEE (Main and Advanced) courses alongside NEET-UG and Class 7 to 10 foundation courses covering NTSE and Olympiads. The page says Bhilai students show strong results but gives no figures for this centre. Fees are not published; the page says they vary by state and to ask the centre.",
+      "highlights": [
+        "Official page lists JEE Main and JEE Main plus Advanced courses",
+        "Also NEET-UG and Class 7 to 10 foundation courses",
+        "Centre results not published on the page",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-bhilai",
+      "type": "coaching",
+      "name": "ALLEN Career Institute, Bhilai",
+      "city": "bhilai",
+      "locality": "GE Road, Supela",
+      "address": "1st to 3rd Floor, Chouhan State Phase-2, behind Life Care Diagnostic Centre, Chandra Mourya Chowk, GE Road, Supela, Bhilai, Chhattisgarh 490023",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.allen.ac.in/admission/bhilai/",
+      "about": "ALLEN's official Bhilai pages list JEE (Main + Advanced) with a 2-year Nurture programme for students moving from Class 10 to 11 and a 1-year Enthusiast programme for students moving from Class 11 to 12. The centre also runs NEET-UG and Boards, Olympiad and Class 8 to 10 foundation courses. The pages give no fees, results or founding year for this centre.",
+      "highlights": [
+        "Nurture (2-year) and Enthusiast (1-year) JEE programmes",
+        "Also NEET-UG and Class 8 to 10 foundation courses",
+        "Walk-in visits and counselling slots offered",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-bhilai",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Bhilai",
+      "city": "bhilai",
+      "locality": "Nehru Nagar (West)",
+      "address": "Block No. 2, Plot No. 5, Nehru Nagar (West), Motilal Nehru Nagar, Bhilai, Durg district, Chhattisgarh 490020",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/bhilai-ct/bhilai-vidyapeeth-587253",
+      "about": "PW Vidyapeeth's official Bhilai page lists a 2-year Class 11 JEE programme, a 1-year Class 12 programme and a 1-year dropper batch, all covering Physics, Chemistry and Mathematics. The page gives no fee amounts; it says fees depend on the course and that the PWSAT scholarship test can earn up to 90 percent off tuition. Student testimonials on the page are promotional and we have not verified them.",
+      "highlights": [
+        "Class 11 (2-year), Class 12 and dropper JEE batches",
+        "PWSAT scholarship test, up to 90% off tuition as stated",
+        "Next to Pulse Hospital, Nehru Nagar (West)",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15166,6 +15236,9 @@
     },
     "coaching-kolhapur": {
       "intro": "<p>Kolhapur, in southern Maharashtra, has a small law-entrance coaching market. Career Launcher in Shivaji Park and IMS in Shahupuri are the two institutes whose own official pages confirm CLAT preparation at a Kolhapur centre. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-bhilai": {
+      "intro": "<p>Bhilai, in Chhattisgarh's Durg district, has a compact JEE coaching market built around three national brands. Aakash and ALLEN both operate near GE Road in Supela, and PW Vidyapeeth is in Nehru Nagar (West). Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
