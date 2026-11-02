@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf8"));
-const POSTS = require("./posts.js");
+const POSTS = [].concat(require("./posts-extra.js"), require("./posts.js"));
 const REVIEWS = require("./reviews.js");
 const BRAND_REVIEWS = require("./brand-reviews.js");
 const AI_TOOLS = require("./ai-tools.js");
