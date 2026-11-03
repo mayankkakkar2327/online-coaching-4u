@@ -1,7 +1,74 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "neet-ug-2026-special-stray-vacancy-round-state-counselling-2-7-november-3nov-update",
+    "image": "assets/blog/neet-ug-2026-special-stray-vacancy-round-state-counselling-2-7-november-3nov-update.png",
+    "title": "NEET UG 2026: MCC Special Stray Round Opens, State Counselling 2 to 7 November",
+    "category": "NEET & Medical",
+    "type": "exam-news",
+    "date": "3 Nov 2026",
+    "minutes": 3,
+    "cta": {
+      "href": "coaching.html?exam=neet",
+      "text": "Compare verified NEET coaching institutes"
+    },
+    "excerpt": "MCC's special stray vacancy round for NEET UG 2026 MBBS seats runs with state counselling from 2 to 7 November, and the last date of joining is 16 November. Five dated pointers inside.",
+    "faqs": [
+      {
+        "q": "What are the dates of the NEET UG 2026 special stray vacancy round for state counselling?",
+        "a": "State counselling for the special round runs from 2 to 7 November 2026, according to MCC's schedule dated 2 November 2026."
+      },
+      {
+        "q": "What is the last date of joining for the special round?",
+        "a": "16 November 2026, according to MCC's special round schedule."
+      },
+      {
+        "q": "How many seats are in the special stray vacancy round?",
+        "a": "The seat matrix on MCC's site shows a total of 1,219 seats across MBBS, BDS and B.Sc Nursing, and two more MBBS seats were added by Notice No. 19 on 2 November 2026."
+      },
+      {
+        "q": "Where should I check official NEET UG counselling notices?",
+        "a": "Only on mcc.nic.in. MCC has posted an advisory about a fake notice, so do not rely on forwarded PDFs or social media posts."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 3 November 2026.</strong></p>\n<p>MCC has opened a special stray vacancy round for NEET UG 2026 MBBS seats and a fifth round for BDS and B.Sc Nursing, with state counselling running from 2 to 7 November 2026 and the last date of joining set at 16 November 2026.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Round:</strong> Special stray vacancy round (MBBS) and Round 5 (BDS, B.Sc Nursing), NEET UG 2026 counselling</p>\n<p><strong>State counselling window:</strong> 2 to 7 November 2026</p>\n<p><strong>Last date of joining:</strong> 16 November 2026</p>\n<p><strong>Seats:</strong> the round's seat matrix totals 1,219 seats across MBBS, BDS and B.Sc Nursing</p>\n<p><strong>Official sources:</strong> <a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC UG counselling page</a>, <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261102860443934.pdf\" rel=\"noopener\" target=\"_blank\">Special Round Schedule for State 2026, dated 2 Nov 2026</a></p>\n</div>\n\n<h2>What MCC has announced</h2>\n<p>The Medical Counselling Committee (MCC) published the special round schedule for state counselling on 2 November 2026. State counselling for the round runs from 2 to 7 November, and MCC will share data of candidates allotted seats in the all-India, deemed and central university categories with the states on 7 November so that states can weed out those candidates. The last date of joining is 16 November 2026.</p>\n<p>The same schedule tells participating colleges to treat Saturdays, Sundays and gazetted holidays as working days, because the time left in the counselling cycle is short. See the <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261102860443934.pdf\" rel=\"noopener\" target=\"_blank\">official schedule PDF</a> for the table.</p>\n\n<h2>Seat matrix and added seats</h2>\n<p>MCC's <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261102817404741.pdf\" rel=\"noopener\" target=\"_blank\">seat matrix for the special stray vacancy round</a> lists seats in government, deemed, central university, ESIC and AIIMS-type institutes, and its last page shows a total of 1,219 seats. On 2 November, MCC also issued Notice No. 19 adding two MBBS seats: one NRI-quota seat at Hamdard Institute of Medical Sciences and Research, New Delhi, and one OBC PwD-quota seat at Stanley Medical College, Chennai. Candidates can choose these seats during choice filling. See the <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611021519458016.pdf\" rel=\"noopener\" target=\"_blank\">official notice</a>.</p>\n\n<h2>What it means for students</h2>\n<p>This is a late round with few seats, so check the seat matrix for the exact college, quota and category before you lock choices. Candidates who have already joined a seat in an earlier round should read the round's rules on upgrades and exit before registering, because they are set in the MCC information bulletin and not repeated here. MCC's page also notes that stray-round reporting was kept open until 2:00 pm on 27 October 2026 because some institutes had not finished admission formalities.</p>\n<p>State quota seats follow each state's own counselling authority, so confirm your state's dates and eligibility on its official portal. MCC lists a helpline at 7824848020 and the email mcc2026@gov.in on its <a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">UG counselling page</a>.</p>\n\n<h2>Five dated pointers (3 November 2026)</h2>\n<ul>\n<li>As of 3 November 2026, MCC's special round schedule for state counselling is dated 2 November 2026 and runs from 2 to 7 November (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261102860443934.pdf\" rel=\"noopener\" target=\"_blank\">MCC schedule</a>).</li>\n<li>As of 3 November 2026, the last date of joining for the special stray vacancy round is 16 November 2026 (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261102860443934.pdf\" rel=\"noopener\" target=\"_blank\">MCC schedule</a>).</li>\n<li>As of 3 November 2026, the special stray round seat matrix totals 1,219 seats across MBBS, BDS and B.Sc Nursing (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261102817404741.pdf\" rel=\"noopener\" target=\"_blank\">MCC seat matrix</a>).</li>\n<li>On 2 November 2026, MCC added one MBBS NRI-quota seat at Hamdard Institute of Medical Sciences and Research, New Delhi, and one OBC PwD-quota MBBS seat at Stanley Medical College, Chennai (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611021519458016.pdf\" rel=\"noopener\" target=\"_blank\">MCC Notice No. 19</a>).</li>\n<li>As of 3 November 2026, MCC has reminded candidates to rely only on mcc.nic.in for notices; its news section carries an advisory about a fake notice (<a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC UG counselling page</a>).</li>\n</ul>\n<p><strong>Last updated: 3 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-neet-coaching-institutes-thrissur-2026",
+    "image": "assets/blog/top-neet-coaching-institutes-thrissur-2026.png",
+    "title": "Top NEET Coaching Institutes in Thrissur (2026)",
+    "category": "NEET & Medical",
+    "type": "coaching-guides",
+    "date": "3 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-thrissur.html",
+      "text": "Browse all verified coaching institutes in Thrissur"
+    },
+    "excerpt": "Thrissur has two NEET coaching options confirmed on their own official pages: Aakash near East Fort Junction and Brilliant Study Centre in East Fort. We explain who we left out.",
+    "faqs": [
+      {
+        "q": "Which is the best NEET coaching in Thrissur?",
+        "a": "There is no single best. Aakash (Avenue Tower, East Fort Junction) and Brilliant Study Centre (Chaldean Syrian College, East Fort) both list NEET programmes on their official pages. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Does Aakash have a centre in Thrissur?",
+        "a": "Yes. Aakash's official page lists a centre at 2nd Floor, Avenue Tower, East Fort Junction, RC Bishop House Road, Thrissur 680001."
+      },
+      {
+        "q": "Does Brilliant Study Centre run NEET classes in Thrissur?",
+        "a": "Yes. Its official Thrissur campus page lists one-year and two-year NEET programmes, a repeaters batch and the Brilliant Test Series."
+      },
+      {
+        "q": "What are the NEET UG 2026 counselling dates now?",
+        "a": "MCC's special stray vacancy round has state counselling from 2 to 7 November 2026, with joining by 16 November 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 3 November 2026.</strong></p>\n<p>Thrissur, the cultural capital of Kerala, has two NEET coaching options confirmed on their own official pages: Aakash Institute near East Fort Junction and Brilliant Study Centre on the Chaldean Syrian College campus in East Fort. This guide lists only what we could confirm, and says what we could not.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Thrissur, Kerala</p>\n<p><strong>Exam covered:</strong> NEET UG (2027 cycle)</p>\n<p><strong>Institutes listed:</strong> 2, each confirmed on its own official website as of 3 November 2026</p>\n<p><strong>Coaching area:</strong> East Fort</p>\n<p><strong>NEET UG 2026 counselling:</strong> special stray round, state counselling 2 to 7 November 2026 (<a href=\"https://mcc.nic.in/ug-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows a NEET programme at a centre in Thrissur. Directory sites name more institutes, but without an official page we did not rank them. We kept the list to two instead of padding it to ten. If you run or know an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. Aakash Institute, East Fort Junction</h3>\n<p>Aakash's <a href=\"https://www.aakash.ac.in/thrissur-city/neet-ug-coaching\" rel=\"noopener\" target=\"_blank\">Thrissur page</a> gives the address as 2nd Floor, Avenue Tower, East Fort Junction, RC Bishop House Road, Thrissur 680001. It lists NEET classroom, crash and repeater courses, a 2-year medical programme starting in Class 11, a 1-year programme for Class 12, and foundation courses for Classes 8 to 10. The page names national NEET toppers but does not say they studied at the Thrissur centre, and it publishes no fees or centre-level results. Some schedule dates on the page are from 2022, so confirm current batches with the centre.</p>\n\n\n<h3>2. Brilliant Study Centre, East Fort</h3>\n<p>Brilliant's <a href=\"https://brilliantpala.org/campus/thrissur/\" rel=\"noopener\" target=\"_blank\">Thrissur campus page</a> gives the address as Chaldean Syrian College, East Fort, Thrissur 680006. It lists one-year and two-year long-term programmes, a repeaters batch, a two-year integrated programme for Class 10 pass-outs, the Brilliant Test Series, crash courses and a foundation programme. The institute says it has operated since 1984. The page gives no fee amounts or rank figures for Thrissur and asks you to contact the branch office for fees.</p>\n\n<h2>What we left out, and why</h2>\n<p>We did not list other Thrissur NEET centres that appear on directory sites, because we found no current official page confirming a NEET batch for them. We will add them once we can verify them.</p>\n\n<h2>How to choose</h2>\n<p>Both institutes are in East Fort, so location will not separate them; batch size, faculty, test series and the quality of doubt-clearing will. Brilliant lists a standalone test series and a bridge into repeater and integrated batches, while Aakash lists a wider spread from foundation to repeater courses. Sit in a demo class at each, ask for results from this centre and not from the brand statewide, and get fees in writing, since neither publishes them.</p>\n<p>See every verified listing in the city on our <a href=\"coaching-thrissur.html\">Thrissur coaching page</a>. Counselling for the current NEET cycle is still on, so read our <a href=\"neet-ug-2026-special-stray-vacancy-round-state-counselling-2-7-november-3nov-update.html\">3 November counselling update</a> if you are a 2026 candidate.</p>\n<p><strong>Last updated: 3 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "jee-main-2027-session1-registration-open-fresh-form-allowed-2nov-update",
+    "image": "assets/blog/jee-main-2027-session1-registration-open-fresh-form-allowed-2nov-update.png",
     "title": "JEE Main 2027 Session 1: Registration Closes 22 November, NTA Allows Fresh Application Form",
     "category": "JEE & Engineering",
     "type": "exam-news",
@@ -34,6 +101,7 @@ module.exports = [
   },
   {
     "slug": "top-jee-coaching-institutes-bhilai-2026",
+    "image": "assets/blog/top-jee-coaching-institutes-bhilai-2026.png",
     "title": "Top JEE Coaching Institutes in Bhilai (2026)",
     "category": "JEE & Engineering",
     "type": "coaching-guides",

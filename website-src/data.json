@@ -78,7 +78,8 @@
       "bikaner",
       "siliguri",
       "kolhapur",
-      "bhilai"
+      "bhilai",
+      "thrissur"
     ],
     "certification": [
       "online"
@@ -15014,6 +15015,51 @@
         "Fees on enquiry"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-thrissur",
+      "type": "coaching",
+      "name": "Aakash Institute, Thrissur",
+      "city": "thrissur",
+      "locality": "East Fort Junction",
+      "address": "2nd Floor, Avenue Tower, East Fort Junction, RC Bishop House Road, Thrissur, Kerala 680001",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.aakash.ac.in/thrissur-city/neet-ug-coaching",
+      "about": "Aakash's official Thrissur page lists NEET-UG classroom courses, a crash course, a repeater course, a 2-year Class 11 and a 1-year Class 12 medical classroom course, plus foundation courses for Classes 8 to 10. The page names national NEET toppers but does not say they studied at this centre, and it gives no fee amounts or results for Thrissur.",
+      "highlights": [
+        "NEET classroom, crash and repeater courses listed",
+        "2-year (Class 11) and 1-year (Class 12) medical programmes",
+        "Foundation courses for Classes 8 to 10",
+        "Centre results and fees not published on the page"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "brilliant-study-centre-thrissur",
+      "type": "coaching",
+      "name": "Brilliant Study Centre, Thrissur",
+      "city": "thrissur",
+      "locality": "East Fort",
+      "address": "Brilliant Study Centre, Chaldean Syrian College, East Fort, Thrissur, Kerala 680006",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://brilliantpala.org/campus/thrissur/",
+      "about": "Brilliant's official Thrissur campus page lists one-year and two-year long-term programmes, a repeaters batch, a two-year integrated programme for Class 10 pass-outs, the Brilliant Test Series, crash courses and a foundation programme. The institute says it has operated since 1984. The page gives no fee amounts and no rank figures for Thrissur; it says fees vary and to contact the branch office.",
+      "highlights": [
+        "One-year and two-year long-term programmes",
+        "Repeaters batch and Brilliant Test Series",
+        "Institute says it has operated since 1984",
+        "Fees on enquiry with the branch office"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15239,6 +15285,9 @@
     },
     "coaching-bhilai": {
       "intro": "<p>Bhilai, in Chhattisgarh's Durg district, has a compact JEE coaching market built around three national brands. Aakash and ALLEN both operate near GE Road in Supela, and PW Vidyapeeth is in Nehru Nagar (West). Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-thrissur": {
+      "intro": "<p>Thrissur, the cultural capital of Kerala, has a small NEET coaching market around the East Fort area. Aakash Institute runs a centre at Avenue Tower on RC Bishop House Road, and Brilliant Study Centre, the Pala-based institute, operates from the Chaldean Syrian College campus. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
