@@ -79,7 +79,8 @@
       "siliguri",
       "kolhapur",
       "bhilai",
-      "thrissur"
+      "thrissur",
+      "rourkela"
     ],
     "certification": [
       "online"
@@ -15060,6 +15061,50 @@
         "Fees on enquiry with the branch office"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-rourkela",
+      "type": "coaching",
+      "name": "Career Launcher Rourkela",
+      "city": "rourkela",
+      "locality": "Koelnagar",
+      "address": "E-1, 1st Floor, Near HDFC Bank, Koelnagar, Rourkela, Odisha 769014",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/cat-mba/coaching-centers/rourkela",
+      "about": "Career Launcher's official Rourkela centre page gives the address as E-1, 1st Floor, near HDFC Bank, Koelnagar, and its CAT coaching page lists classroom, online and hybrid modes with weekday and weekend batches, mock tests, sectionals and mock interviews. The page quotes inconsistent session counts and shows achiever profiles that are not clearly tied to this centre, and it publishes no fees, so ask for Rourkela-specific results and costs.",
+      "highlights": [
+        "Official page confirms the Koelnagar address",
+        "CAT classroom, online and hybrid programmes with weekday and weekend batches",
+        "30 CAT mocks plus non-CAT mocks and sectionals listed",
+        "Fees and Rourkela-specific results not published"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "time-rourkela",
+      "type": "coaching",
+      "name": "T.I.M.E. Rourkela",
+      "city": "rourkela",
+      "locality": "Koelnagar",
+      "address": "Koelnagar, Rourkela, Odisha (street address not published on official page)",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://time4education.com/Rourkela/",
+      "about": "T.I.M.E.'s official Rourkela page says it serves the Koelnagar area and lists CAT, CMAT, MAT and bank exams, with classroom and online teaching, full-length mocks and doubt support. The page gives no street address, fees or batch dates, and its map data points to another city, so confirm the centre location with T.I.M.E. before visiting.",
+      "highlights": [
+        "Official T.I.M.E. page names Rourkela and the Koelnagar area",
+        "CAT, CMAT and MAT preparation listed",
+        "Classroom and online teaching with full-length mocks",
+        "Street address, fees and batch dates not published"
+      ],
+      "mode": "hybrid"
     }
   ],
   "cityContent": {
@@ -15288,6 +15333,9 @@
     },
     "coaching-thrissur": {
       "intro": "<p>Thrissur, the cultural capital of Kerala, has a small NEET coaching market around the East Fort area. Aakash Institute runs a centre at Avenue Tower on RC Bishop House Road, and Brilliant Study Centre, the Pala-based institute, operates from the Chaldean Syrian College campus. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-rourkela": {
+      "intro": "<p>Rourkela, the steel city of Odisha, has a small CAT and MBA-entrance coaching market centred on Koelnagar. Career Launcher has a confirmed centre there, T.I.M.E. lists Rourkela on its official page, and Rodha is an online option for students who prefer to prepare from home. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
