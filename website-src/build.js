@@ -1459,6 +1459,11 @@ function postPage(p) {
     "@context": "https://schema.org", "@type": "FAQPage",
     mainEntity: p.faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a.replace(/<[^>]+>/g, "") } }))
   } : null;
+  const listLd = p.itemList ? {
+    "@context": "https://schema.org", "@type": "ItemList", name: p.itemListName || p.title,
+    itemListOrder: "https://schema.org/ItemListOrderAscending", numberOfItems: p.itemList.length,
+    itemListElement: p.itemList.map((it, i) => ({ "@type": "ListItem", position: i + 1, name: it.name, ...(it.url ? { url: it.url } : {}) }))
+  } : null;
   const crumbLd = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: `${B.siteUrl}/` },
     { "@type": "ListItem", position: 2, name: "Blogs", item: `${B.siteUrl}/blog` },
@@ -1470,7 +1475,7 @@ function postPage(p) {
 <ol class="toc-list">${tocItems.map((it) => `<li><a href="#${it.id}">${it.text}</a></li>`).join("")}</ol>
 </nav>` : "";
   const words = p.title.split(/\s+/);
-  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}<script type="application/ld+json">${JSON.stringify(crumbLd)}</script>\n</head>`) + header("blog.html") + `
+  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}${listLd ? `<script type="application/ld+json">${JSON.stringify(listLd)}</script>\n` : ""}<script type="application/ld+json">${JSON.stringify(crumbLd)}</script>\n</head>`) + header("blog.html") + `
 <div class="progress" aria-hidden="true"></div>
 <main id="main">
 <section class="page-hero">
