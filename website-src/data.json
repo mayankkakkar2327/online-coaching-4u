@@ -89,11 +89,7 @@
       "online"
     ],
     "computer-courses": [
-      "gurugram",
-      "jaipur",
-      "solapur",
-      "delhi",
-      "pune"
+      "gurugram"
     ]
   },
   "examLabels": {
@@ -163,18 +159,7 @@
     "data-analytics": "Data Analytics",
     "foundation": "Foundation",
     "cfa": "CFA",
-    "frm": "FRM",
-    "school-tuition": "School Tuition",
-    "rscit": "RS-CIT",
-    "ccc": "CCC (NIELIT)",
-    "typing": "Typing (English & Hindi)",
-    "digital-marketing": "Digital Marketing",
-    "patwari": "Patwari",
-    "data-science": "Data Science & AI",
-    "programming": "Programming (Java, Python, C++)",
-    "cloud-devops": "Cloud & DevOps",
-    "sap": "SAP",
-    "defence": "Defence Exams"
+    "frm": "FRM"
   },
   "listings": [
     {
@@ -2202,34 +2187,6 @@
       "thumb": "https://unavatar.io/yuwam.edu.in",
       "website": "https://yuwam.edu.in",
       "mode": "offline"
-    },
-    {
-      "slug": "coachify-jaipur",
-      "type": "coaching",
-      "name": "Coachify",
-      "city": "jaipur",
-      "locality": "Mansarovar",
-      "address": "2nd Floor, VT Tower, Shipra Path, opposite HCG Hospital, Mansarovar, Jaipur, Rajasthan 302020",
-      "estd": 2021,
-      "exams": [
-        "cat",
-        "clat",
-        "ipmat",
-        "cuet"
-      ],
-      "rating": 4.9,
-      "ratingCount": 288,
-      "ratingSource": "Justdial",
-      "verified": false,
-      "website": "https://www.coachifylive.com",
-      "about": "Coachify is a CAT and MBA-entrance coaching institute in Mansarovar, Jaipur, set up in 2021 and led by founder and lead mentor Mohit Matolia, a 99.4 percentile CAT scorer who teaches DILR and Quant. Alongside CAT it prepares students for other MBA exams such as XAT, SNAP and NMAT, and also offers CLAT, IPMAT and CUET coaching. Classroom batches run six days a week in morning and evening slots with 25–30 students per batch, and include printed study material, weekly mocks with analysis, doubt sessions and WAT/PI preparation. Online students can take recorded CAT courses and a CAT test series through coachifylive.com. Scholarships of up to 100% are given through the institute's own talent test. It is rated 4.9/5 from 288 ratings on Justdial.",
-      "highlights": [
-        "CAT-focused coaching led by founder Mohit Matolia (99.4 percentile in CAT)",
-        "Also prepares students for XAT, SNAP, NMAT, CLAT, IPMAT and CUET",
-        "Small classroom batches of 25–30 with weekly mocks and WAT/PI prep",
-        "Rated 4.9 from 288 ratings on Justdial"
-      ],
-      "mode": "hybrid"
     },
     {
       "slug": "physics-wallah-kota-vidyapeeth",
@@ -6843,35 +6800,6 @@
       "mode": "offline"
     },
     {
-      "slug": "ignition-classes-kolkata",
-      "type": "coaching",
-      "name": "Ignition Classes",
-      "city": "kolkata",
-      "locality": "Ripon Street, Park Street",
-      "address": "Plaza Tower, 1st Floor, 94 Ripon Street, near St. Mary's School, Taltala, Kolkata, West Bengal 700016",
-      "estd": 2005,
-      "exams": [
-        "school-tuition",
-        "ca",
-        "jee",
-        "neet",
-        "schooling"
-      ],
-      "rating": 4.8,
-      "ratingCount": 202,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "website": "https://ignitionclasses.in",
-      "about": "Ignition Classes is a tuition and coaching centre on Ripon Street, near Park Street in central Kolkata, run by Dayanand Pandey, who teaches Accountancy and Maths and has about 20 years of teaching experience. It covers Class 6 to 12 in both Science and Commerce for CBSE, ICSE/ISC and State Board students, along with B.Com, CA Foundation and Olympiad preparation, and its website also promotes JEE and NEET coaching. Subjects include Maths, Accounts, Physics, Chemistry, Biology, Economics, English and Computer Science, taught by a team of subject teachers. Classes run Monday to Saturday from 9 AM to 9 PM and on Sundays until 6 PM, with online classes also available. It is rated 4.8/5 from 202 ratings on Justdial, where students mostly mention friendly teachers and clear explanations.",
-      "highlights": [
-        "Class 6–12 Science and Commerce for CBSE, ICSE/ISC and State Board",
-        "B.Com, CA Foundation and Olympiad preparation, plus JEE and NEET coaching",
-        "Subject-specialist teachers; founder Dayanand Pandey teaches Accountancy and Maths",
-        "Rated 4.8 from 202 ratings on Justdial"
-      ],
-      "mode": "hybrid"
-    },
-    {
       "slug": "sbtechmath-academy",
       "type": "coaching",
       "name": "SBTechMath Academy",
@@ -7016,37 +6944,6 @@
       "mode": "hybrid",
       "googleRating": 4.3,
       "googleReviewCount": 394
-    },
-    {
-      "slug": "delhi-defence-coaching-saket",
-      "type": "coaching",
-      "name": "Delhi Defence Coaching (DDC)",
-      "city": "delhi",
-      "locality": "Saket",
-      "address": "F-132, Ground Floor, Lane No. 2, near Saket Metro Station, Mehrauli, New Delhi 110030",
-      "estd": 2017,
-      "exams": [
-        "nda",
-        "cds",
-        "ssc",
-        "bank",
-        "cuet",
-        "clat",
-        "ctet"
-      ],
-      "rating": 4.9,
-      "ratingCount": 216,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "website": "https://delhidefencecoaching.com",
-      "about": "Delhi Defence Coaching (DDC) is a coaching institute near Saket Metro Station in South Delhi, set up on 1 April 2017 and led by director Ravi Kumar. It is best known for defence entrance coaching for NDA and CDS, covering the written exam, physical fitness and personality development for the SSB stage. It also prepares students for SSC, banking, CUET, CLAT and CTET. Students get updated study material, regular mock tests and feedback sessions. DDC also has a second office in Guwahati, Assam. It is rated 4.9/5 from 216 ratings on Justdial.",
-      "highlights": [
-        "NDA and CDS coaching covering written exam, fitness and personality development",
-        "Also coaches for SSC, banking, CUET, CLAT and CTET",
-        "Regular mock tests with feedback",
-        "Rated 4.9 from 216 ratings on Justdial"
-      ],
-      "mode": "offline"
     },
     {
       "slug": "green-mathematical-institute-chennai",
@@ -8243,35 +8140,6 @@
         "Course validity extends well past the exam (e.g. 2027 batch stays accessible until 31 May 2027)",
         "Full-syllabus, multi-subject alternative to single-subject specialist brands like RG Lectures, GanitAnk and All About Chemistry"
       ]
-    },
-    {
-      "slug": "suyog-academy",
-      "type": "coaching",
-      "name": "Suyog Academy",
-      "city": "online",
-      "locality": "Online (Sikar, Rajasthan-based)",
-      "address": "Online — run from Sikar, Rajasthan 332001",
-      "estd": 2024,
-      "exams": [
-        "ras",
-        "cet",
-        "patwari",
-        "ldc",
-        "reet",
-        "railway"
-      ],
-      "rating": null,
-      "ratingCount": 0,
-      "verified": true,
-      "website": "https://suyogacademy.com",
-      "about": "Suyog Academy is an online study platform for Rajasthan government exams, started in 2024 in Sikar and run by Yogesh Jangid. It publishes free Hindi-medium notes on Rajasthan history, geography, art and culture, polity, economy and government schemes, along with daily current affairs, for students preparing for RPSC and RSMSSB exams such as RAS, Rajasthan CET, Patwari, LDC and REET. Paid test series and mock tests are available on the website, and its mobile apps include CET Sarthi for Rajasthan CET and ALP Sarthi for the RRB Assistant Loco Pilot exam. Most notes can be read free without signing up.",
-      "highlights": [
-        "Free Hindi-medium notes on Rajasthan GK, history, geography and polity",
-        "Daily current affairs with a Rajasthan focus",
-        "Test series and mock tests for RPSC, RSMSSB, CET, Patwari and REET",
-        "CET Sarthi and ALP Sarthi mobile apps"
-      ],
-      "mode": "online"
     },
     {
       "slug": "career-launcher-nagpur",
@@ -13545,31 +13413,6 @@
       "mode": "offline"
     },
     {
-      "slug": "hemant-classes-ghaziabad",
-      "type": "coaching",
-      "name": "Hemant Classes",
-      "city": "ghaziabad",
-      "locality": "Shastri Nagar",
-      "address": "H-11, H Block, Shastri Nagar, Raj Nagar, Ghaziabad, Uttar Pradesh 201002",
-      "estd": null,
-      "exams": [
-        "school-tuition",
-        "schooling"
-      ],
-      "rating": 5.0,
-      "ratingCount": 67,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "about": "Hemant Classes is a Ghaziabad tuition centre run by Hemant that focuses on Class 9 and Class 10 students. It teaches Maths and Science for CBSE and ICSE boards from its centre in H Block, Shastri Nagar, near Raj Nagar, and also offers home tuition across Ghaziabad. The institute describes itself as a long-running centre for Class 9 and 10 and promotes its maths teaching with 20 years of experience. It is rated 5.0/5 from 67 ratings on Justdial, where students mostly mention clear concepts, doubt-solving and regular tests.",
-      "highlights": [
-        "Class 9 and Class 10 Maths and Science for CBSE and ICSE",
-        "Centre in Shastri Nagar, Ghaziabad, plus home tuition across the city",
-        "Rated 5.0 from 67 ratings on Justdial",
-        "Regular tests and question banks for board-exam practice"
-      ],
-      "mode": "offline"
-    },
-    {
       "slug": "legaledge-toprankers-rohtak",
       "type": "coaching",
       "name": "LegalEdge by Toprankers",
@@ -15264,147 +15107,48 @@
       "mode": "hybrid"
     },
     {
-      "slug": "taniksha-vision-computer-classes-jaipur",
-      "type": "computer-courses",
-      "name": "Taniksha Vision Computer Classes",
-      "city": "jaipur",
-      "locality": "Sanganer",
-      "address": "A-87, Tirupati Balaji Nagar, Maruti Nagar, Main Sabji Mandi Road, near Hanuman Ji Temple, Pinjrapole Gaushala Mod, Sanganer, Jaipur, Rajasthan 302029",
-      "estd": 2026,
-      "exams": [
-        "rscit",
-        "ccc",
-        "tally-gst",
-        "graphic-design",
-        "typing"
-      ],
-      "rating": 5.0,
-      "ratingCount": 24,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "about": "Taniksha Vision Computer Classes is a computer training centre in Sanganer, Jaipur, run by Satish Kumar and opened in 2026. It teaches a wide range of job-oriented computer courses: Basic Computers, RS-CIT and CCC (NIELIT), MS Excel and PowerPoint, accounting and billing, and graphic design and video editing with Photoshop, Illustrator, Canva, After Effects and Premiere Pro. It also teaches programming in C and C++, English and Hindi typing, and personality and communication skills. Classes are open to school students, college students, working adults and women, with both classroom and online learning, and admissions are open all year. It is rated 5.0/5 from 24 ratings on Justdial.",
-      "highlights": [
-        "RS-CIT, CCC, Basic Computers, MS Excel and accounting courses",
-        "Graphic design and video editing: Photoshop, Illustrator, Canva, After Effects, Premiere Pro",
-        "C and C++ programming, English and Hindi typing, and soft skills",
-        "Rated 5.0 from 24 ratings on Justdial"
-      ],
-      "mode": "hybrid"
-    },
-    {
-      "slug": "mango-engineers-jaipur",
-      "type": "computer-courses",
-      "name": "Mango Engineers",
-      "city": "jaipur",
-      "locality": "Tonk Phatak & Shri Kishanpura",
-      "address": "17, Manav Ashram Colony, Vasundhara Colony, Tonk Phatak, Jaipur, Rajasthan 302018 (second branch: LGF-07, R-Tech Capital Hi Street Mall, Shri Kishanpura, Jaipur 302017)",
+      "slug": "chanakya-ias-academy-dhanbad",
+      "type": "coaching",
+      "name": "Chanakya IAS Academy Dhanbad",
+      "city": "dhanbad",
+      "locality": "Saraidhela",
+      "address": "Ground Floor, IDBI Bank building, Subala Enclave, Saraidhela, Dhanbad, Jharkhand (map on official page points to Univista Tower, Sugiadih; confirm before visiting)",
       "estd": null,
       "exams": [
-        "programming",
-        "web-development",
-        "data-analytics",
-        "data-science",
-        "cloud-devops"
+        "ias"
       ],
-      "rating": 5.0,
-      "ratingCount": 13,
-      "ratingSource": "Justdial",
       "verified": true,
-      "website": "https://mangoengineers.com",
-      "about": "Mango Engineers is a programming and technology training institute in Jaipur with two branches, at Tonk Phatak and Shri Kishanpura. It teaches students, freshers and working professionals in three main areas: programming and full stack development (C, C++, Java, Python, JavaScript, React, Node.js, MERN, Java and Python full stack), data and AI (SQL, Power BI, Data Analytics, Data Science, Machine Learning and Generative AI), and cloud and DevOps (Linux, AWS, Azure, Docker, Kubernetes and cyber security basics). Learning is mentor-guided with coding assignments, lab work and portfolio projects, in classroom or online batches. It also runs diploma and internship programmes, and offers resume help, mock interviews and placement assistance. It is rated 5.0/5 from 13 ratings on Justdial.",
+      "website": "https://chanakyaiasacademy.com/centres/dhanbad/",
+      "about": "Chanakya IAS Academy's official Dhanbad page lists UPSC Civil Services coaching for Prelims, Mains and Interview, a JPSC Foundation course and two- and three-year integrated programmes, in online, hybrid and offline modes with bilingual English and Hindi classes. The page publishes no fees or timings, gives two different locations for the centre, and shows conflicting batch start dates, so confirm the address and current batch by phone.",
       "highlights": [
-        "Programming and full stack: Java, Python, C++, MERN and more",
-        "Data Analytics, Data Science, Machine Learning and Generative AI",
-        "Cloud and DevOps: AWS, Azure, Docker, Kubernetes",
-        "Two Jaipur branches, with classroom and online batches"
+        "UPSC Prelims, Mains and Interview programmes plus JPSC Foundation",
+        "Two- and three-year integrated programmes for school and early-graduation students",
+        "Online, hybrid and offline modes; bilingual classes",
+        "Fees, timings and Dhanbad-specific results not published"
       ],
       "mode": "hybrid"
     },
     {
-      "slug": "digital-mantra-academy-solapur",
-      "type": "computer-courses",
-      "name": "Digital Mantra Academy",
-      "city": "solapur",
-      "locality": "Bhawani Peth",
-      "address": "3/15, 1st Floor, Shree Swaminatha Swami Complex, Bhawani Peth, Solapur, Maharashtra 413002",
-      "estd": 2019,
+      "slug": "clearias-dhanbad",
+      "type": "coaching",
+      "name": "ClearIAS (Online)",
+      "city": "dhanbad",
+      "locality": "Online",
+      "address": "Online coaching, serving Dhanbad aspirants (Kerala-headquartered)",
+      "estd": 2012,
       "exams": [
-        "digital-marketing",
-        "ai-tools"
+        "ias"
       ],
-      "rating": 5.0,
-      "ratingCount": 3,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "website": "https://digitalmantraacademy.com",
-      "about": "Digital Mantra Academy is a digital marketing training institute in Bhawani Peth, Solapur, co-founded by Sachin Kodbur and Pratik Katwate. Its main programme is a 3-month Advanced Digital Marketing Master Course taught in the classroom, covering SEO, Google Ads, Meta (Facebook and Instagram) ads, website building and AI tools, with live client projects. It also runs shorter courses, including a one-week AI Video Creation course, a short-term digital marketing course, a Facebook and Instagram Ads course and a Gemini AI course, plus self-paced recorded courses online. Weekday morning and evening batches are available, and students get a course certificate and placement support such as interview preparation. The academy says it has trained more than 4,000 students.",
+      "verified": false,
+      "website": "https://www.clearias.com/best-ias-coaching-in-dhanbad/",
+      "about": "ClearIAS is an online-first UPSC platform that markets directly to Dhanbad aspirants and says it has no physical centre in the city. Its page lists recorded and live full-syllabus courses and Prelims and Mains test series; fee tables on the page do not match each other, so ask for current prices in writing.",
       "highlights": [
-        "3-month Advanced Digital Marketing course: SEO, Google Ads, Meta Ads, websites and AI tools",
-        "Short courses in AI video creation, Facebook/Instagram ads and Gemini AI",
-        "Live client projects and placement support",
-        "Classroom batches in Solapur plus self-paced online courses"
+        "Online-first with recorded and live classes",
+        "Prelims and Mains test series",
+        "No confirmed Dhanbad centre",
+        "Fee figures on its page are inconsistent"
       ],
-      "mode": "hybrid"
-    },
-    {
-      "slug": "elevon-academy-dwarka-delhi",
-      "type": "computer-courses",
-      "name": "Elevon Academy",
-      "city": "delhi",
-      "locality": "Dwarka Sector 7",
-      "address": "C-390, First Floor, Block C, Ramphal Chowk Road, Sector 7, Palam Extension, Dwarka, New Delhi 110075",
-      "estd": 2025,
-      "exams": [
-        "dca",
-        "adca",
-        "tally-gst",
-        "digital-marketing",
-        "web-development",
-        "data-analytics",
-        "graphic-design",
-        "sap"
-      ],
-      "rating": 4.9,
-      "ratingCount": 382,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "website": "https://www.elevonacademy.in",
-      "about": "Elevon Academy is a computer training institute at Ramphal Chowk in Dwarka Sector 7, South West Delhi, started in 2025. It runs a wide range of career courses: Basic Computers, DCA and ADCA, Basic and Advanced Excel with AI, E-Accounting, NIELIT O Level, Digital Marketing, Graphic Design, Web Development, Full Stack and MEAN Stack development, Data Analytics, Machine Learning and SAP FICO. Courses run from one month to a year, with classes Monday to Saturday from 9 AM to 9 PM and on Sundays until 7 PM. The academy says it is an authorised Tally Skill Incubation Centre partner and offers job assistance after training. It is rated 4.9/5 from 382 ratings on Justdial.",
-      "highlights": [
-        "DCA, ADCA, O Level, Excel and E-Accounting courses",
-        "Digital Marketing, Graphic Design, Web and Full Stack Development",
-        "Data Analytics, Machine Learning and SAP FICO",
-        "Rated 4.9 from 382 ratings on Justdial"
-      ],
-      "mode": "offline"
-    },
-    {
-      "slug": "innomatics-research-labs-pune",
-      "type": "computer-courses",
-      "name": "Innomatics Research Labs",
-      "city": "pune",
-      "locality": "Kothrud",
-      "address": "201, 2nd Floor, Sai Sayaji Apartment, Paud Road, beside Vanaz Metro, above Bata showroom, Ramkrishna Paramhans Nagar, Kothrud, Pune, Maharashtra 411038",
-      "estd": null,
-      "exams": [
-        "data-science",
-        "data-analytics",
-        "ai-tools",
-        "web-development"
-      ],
-      "rating": 4.5,
-      "ratingCount": 329,
-      "ratingSource": "Justdial",
-      "verified": true,
-      "website": "https://www.innomatics.in",
-      "about": "Innomatics Research Labs is a data science and AI training institute with centres in Hyderabad, Pune and Bengaluru. Its Pune centre is on Paud Road in Kothrud, next to Vanaz Metro. It trains students and working professionals in Data Science, Python, Data Analytics, Machine Learning, Artificial Intelligence, Generative AI, Agentic AI and Full Stack Web Development, with a focus on hands-on learning. Its Data Science, Generative AI and Agentic AI programmes are offered with the Technology Innovation Hub (TIH) at IIT Bombay, and its Data Analytics and Full Stack programmes with TIH at IIT Patna, including guest lectures by IIT faculty and regular hackathons. The Pune centre is rated 4.5/5 from 329 ratings on Justdial.",
-      "highlights": [
-        "Data Science, Machine Learning, Generative AI and Agentic AI programmes",
-        "Programmes offered with TIH at IIT Bombay and TIH at IIT Patna",
-        "Data Analytics and Full Stack Web Development courses",
-        "Rated 4.5 from 329 ratings on Justdial"
-      ],
-      "mode": "hybrid"
+      "mode": "online"
     }
   ],
   "cityContent": {
