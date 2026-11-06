@@ -91,7 +91,9 @@
     "computer-courses": [
       "gurugram",
       "jaipur",
-      "solapur"
+      "solapur",
+      "delhi",
+      "pune"
     ]
   },
   "examLabels": {
@@ -166,7 +168,13 @@
     "rscit": "RS-CIT",
     "ccc": "CCC (NIELIT)",
     "typing": "Typing (English & Hindi)",
-    "digital-marketing": "Digital Marketing"
+    "digital-marketing": "Digital Marketing",
+    "patwari": "Patwari",
+    "data-science": "Data Science & AI",
+    "programming": "Programming (Java, Python, C++)",
+    "cloud-devops": "Cloud & DevOps",
+    "sap": "SAP",
+    "defence": "Defence Exams"
   },
   "listings": [
     {
@@ -7010,6 +7018,37 @@
       "googleReviewCount": 394
     },
     {
+      "slug": "delhi-defence-coaching-saket",
+      "type": "coaching",
+      "name": "Delhi Defence Coaching (DDC)",
+      "city": "delhi",
+      "locality": "Saket",
+      "address": "F-132, Ground Floor, Lane No. 2, near Saket Metro Station, Mehrauli, New Delhi 110030",
+      "estd": 2017,
+      "exams": [
+        "nda",
+        "cds",
+        "ssc",
+        "bank",
+        "cuet",
+        "clat",
+        "ctet"
+      ],
+      "rating": 4.9,
+      "ratingCount": 216,
+      "ratingSource": "Justdial",
+      "verified": true,
+      "website": "https://delhidefencecoaching.com",
+      "about": "Delhi Defence Coaching (DDC) is a coaching institute near Saket Metro Station in South Delhi, set up on 1 April 2017 and led by director Ravi Kumar. It is best known for defence entrance coaching for NDA and CDS, covering the written exam, physical fitness and personality development for the SSB stage. It also prepares students for SSC, banking, CUET, CLAT and CTET. Students get updated study material, regular mock tests and feedback sessions. DDC also has a second office in Guwahati, Assam. It is rated 4.9/5 from 216 ratings on Justdial.",
+      "highlights": [
+        "NDA and CDS coaching covering written exam, fitness and personality development",
+        "Also coaches for SSC, banking, CUET, CLAT and CTET",
+        "Regular mock tests with feedback",
+        "Rated 4.9 from 216 ratings on Justdial"
+      ],
+      "mode": "offline"
+    },
+    {
       "slug": "green-mathematical-institute-chennai",
       "type": "coaching",
       "name": "Green Mathematical Institute (GMI)",
@@ -8204,6 +8243,35 @@
         "Course validity extends well past the exam (e.g. 2027 batch stays accessible until 31 May 2027)",
         "Full-syllabus, multi-subject alternative to single-subject specialist brands like RG Lectures, GanitAnk and All About Chemistry"
       ]
+    },
+    {
+      "slug": "suyog-academy",
+      "type": "coaching",
+      "name": "Suyog Academy",
+      "city": "online",
+      "locality": "Online (Sikar, Rajasthan-based)",
+      "address": "Online — run from Sikar, Rajasthan 332001",
+      "estd": 2024,
+      "exams": [
+        "ras",
+        "cet",
+        "patwari",
+        "ldc",
+        "reet",
+        "railway"
+      ],
+      "rating": null,
+      "ratingCount": 0,
+      "verified": true,
+      "website": "https://suyogacademy.com",
+      "about": "Suyog Academy is an online study platform for Rajasthan government exams, started in 2024 in Sikar and run by Yogesh Jangid. It publishes free Hindi-medium notes on Rajasthan history, geography, art and culture, polity, economy and government schemes, along with daily current affairs, for students preparing for RPSC and RSMSSB exams such as RAS, Rajasthan CET, Patwari, LDC and REET. Paid test series and mock tests are available on the website, and its mobile apps include CET Sarthi for Rajasthan CET and ALP Sarthi for the RRB Assistant Loco Pilot exam. Most notes can be read free without signing up.",
+      "highlights": [
+        "Free Hindi-medium notes on Rajasthan GK, history, geography and polity",
+        "Daily current affairs with a Rajasthan focus",
+        "Test series and mock tests for RPSC, RSMSSB, CET, Patwari and REET",
+        "CET Sarthi and ALP Sarthi mobile apps"
+      ],
+      "mode": "online"
     },
     {
       "slug": "career-launcher-nagpur",
@@ -15224,6 +15292,35 @@
       "mode": "hybrid"
     },
     {
+      "slug": "mango-engineers-jaipur",
+      "type": "computer-courses",
+      "name": "Mango Engineers",
+      "city": "jaipur",
+      "locality": "Tonk Phatak & Shri Kishanpura",
+      "address": "17, Manav Ashram Colony, Vasundhara Colony, Tonk Phatak, Jaipur, Rajasthan 302018 (second branch: LGF-07, R-Tech Capital Hi Street Mall, Shri Kishanpura, Jaipur 302017)",
+      "estd": null,
+      "exams": [
+        "programming",
+        "web-development",
+        "data-analytics",
+        "data-science",
+        "cloud-devops"
+      ],
+      "rating": 5.0,
+      "ratingCount": 13,
+      "ratingSource": "Justdial",
+      "verified": true,
+      "website": "https://mangoengineers.com",
+      "about": "Mango Engineers is a programming and technology training institute in Jaipur with two branches, at Tonk Phatak and Shri Kishanpura. It teaches students, freshers and working professionals in three main areas: programming and full stack development (C, C++, Java, Python, JavaScript, React, Node.js, MERN, Java and Python full stack), data and AI (SQL, Power BI, Data Analytics, Data Science, Machine Learning and Generative AI), and cloud and DevOps (Linux, AWS, Azure, Docker, Kubernetes and cyber security basics). Learning is mentor-guided with coding assignments, lab work and portfolio projects, in classroom or online batches. It also runs diploma and internship programmes, and offers resume help, mock interviews and placement assistance. It is rated 5.0/5 from 13 ratings on Justdial.",
+      "highlights": [
+        "Programming and full stack: Java, Python, C++, MERN and more",
+        "Data Analytics, Data Science, Machine Learning and Generative AI",
+        "Cloud and DevOps: AWS, Azure, Docker, Kubernetes",
+        "Two Jaipur branches, with classroom and online batches"
+      ],
+      "mode": "hybrid"
+    },
+    {
       "slug": "digital-mantra-academy-solapur",
       "type": "computer-courses",
       "name": "Digital Mantra Academy",
@@ -15246,6 +15343,66 @@
         "Short courses in AI video creation, Facebook/Instagram ads and Gemini AI",
         "Live client projects and placement support",
         "Classroom batches in Solapur plus self-paced online courses"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "elevon-academy-dwarka-delhi",
+      "type": "computer-courses",
+      "name": "Elevon Academy",
+      "city": "delhi",
+      "locality": "Dwarka Sector 7",
+      "address": "C-390, First Floor, Block C, Ramphal Chowk Road, Sector 7, Palam Extension, Dwarka, New Delhi 110075",
+      "estd": 2025,
+      "exams": [
+        "dca",
+        "adca",
+        "tally-gst",
+        "digital-marketing",
+        "web-development",
+        "data-analytics",
+        "graphic-design",
+        "sap"
+      ],
+      "rating": 4.9,
+      "ratingCount": 382,
+      "ratingSource": "Justdial",
+      "verified": true,
+      "website": "https://www.elevonacademy.in",
+      "about": "Elevon Academy is a computer training institute at Ramphal Chowk in Dwarka Sector 7, South West Delhi, started in 2025. It runs a wide range of career courses: Basic Computers, DCA and ADCA, Basic and Advanced Excel with AI, E-Accounting, NIELIT O Level, Digital Marketing, Graphic Design, Web Development, Full Stack and MEAN Stack development, Data Analytics, Machine Learning and SAP FICO. Courses run from one month to a year, with classes Monday to Saturday from 9 AM to 9 PM and on Sundays until 7 PM. The academy says it is an authorised Tally Skill Incubation Centre partner and offers job assistance after training. It is rated 4.9/5 from 382 ratings on Justdial.",
+      "highlights": [
+        "DCA, ADCA, O Level, Excel and E-Accounting courses",
+        "Digital Marketing, Graphic Design, Web and Full Stack Development",
+        "Data Analytics, Machine Learning and SAP FICO",
+        "Rated 4.9 from 382 ratings on Justdial"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "innomatics-research-labs-pune",
+      "type": "computer-courses",
+      "name": "Innomatics Research Labs",
+      "city": "pune",
+      "locality": "Kothrud",
+      "address": "201, 2nd Floor, Sai Sayaji Apartment, Paud Road, beside Vanaz Metro, above Bata showroom, Ramkrishna Paramhans Nagar, Kothrud, Pune, Maharashtra 411038",
+      "estd": null,
+      "exams": [
+        "data-science",
+        "data-analytics",
+        "ai-tools",
+        "web-development"
+      ],
+      "rating": 4.5,
+      "ratingCount": 329,
+      "ratingSource": "Justdial",
+      "verified": true,
+      "website": "https://www.innomatics.in",
+      "about": "Innomatics Research Labs is a data science and AI training institute with centres in Hyderabad, Pune and Bengaluru. Its Pune centre is on Paud Road in Kothrud, next to Vanaz Metro. It trains students and working professionals in Data Science, Python, Data Analytics, Machine Learning, Artificial Intelligence, Generative AI, Agentic AI and Full Stack Web Development, with a focus on hands-on learning. Its Data Science, Generative AI and Agentic AI programmes are offered with the Technology Innovation Hub (TIH) at IIT Bombay, and its Data Analytics and Full Stack programmes with TIH at IIT Patna, including guest lectures by IIT faculty and regular hackathons. The Pune centre is rated 4.5/5 from 329 ratings on Justdial.",
+      "highlights": [
+        "Data Science, Machine Learning, Generative AI and Agentic AI programmes",
+        "Programmes offered with TIH at IIT Bombay and TIH at IIT Patna",
+        "Data Analytics and Full Stack Web Development courses",
+        "Rated 4.5 from 329 ratings on Justdial"
       ],
       "mode": "hybrid"
     }
