@@ -159,7 +159,8 @@
     "data-analytics": "Data Analytics",
     "foundation": "Foundation",
     "cfa": "CFA",
-    "frm": "FRM"
+    "frm": "FRM",
+    "school-tuition": "School Tuition (Class 9–10)"
   },
   "listings": [
     {
@@ -13409,6 +13410,31 @@
         "Runs both a physical Shastri Nagar centre and an online Virtual Academy track",
         "8.8/10 aggregated rating from 80+ reviews",
         "GS Prelims + Mains coaching programme"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "hemant-classes-ghaziabad",
+      "type": "coaching",
+      "name": "Hemant Classes",
+      "city": "ghaziabad",
+      "locality": "Shastri Nagar",
+      "address": "H-11, H Block, Shastri Nagar, Raj Nagar, Ghaziabad, Uttar Pradesh 201002",
+      "estd": null,
+      "exams": [
+        "school-tuition",
+        "schooling"
+      ],
+      "rating": 5.0,
+      "ratingCount": 67,
+      "ratingSource": "Justdial",
+      "verified": true,
+      "about": "Hemant Classes is a Ghaziabad tuition centre run by Hemant that focuses on Class 9 and Class 10 students. It teaches Maths and Science for CBSE and ICSE boards from its centre in H Block, Shastri Nagar, near Raj Nagar, and also offers home tuition across Ghaziabad. The institute describes itself as a long-running centre for Class 9 and 10 and promotes its maths teaching with 20 years of experience. It is rated 5.0/5 from 67 ratings on Justdial, where students mostly mention clear concepts, doubt-solving and regular tests.",
+      "highlights": [
+        "Class 9 and Class 10 Maths and Science for CBSE and ICSE",
+        "Centre in Shastri Nagar, Ghaziabad, plus home tuition across the city",
+        "Rated 5.0 from 67 ratings on Justdial",
+        "Regular tests and question banks for board-exam practice"
       ],
       "mode": "offline"
     },
