@@ -12,6 +12,9 @@
   var m = location.pathname.match(/(?:coaching|schools|hostels)-([a-z-]+)(?:\.html)?$/);
   if (m) try { localStorage.setItem("oc4u-city", m[1]); } catch (e) {}
 
+  /* ---- "Admin" in the Login menu: only in a browser that has logged in to /admin ---- */
+  try { if (localStorage.getItem("oc4u_admin") === "1") $$("[data-admin-only]").forEach(function (el) { el.hidden = false; }); } catch (e) {}
+
   /* ---- mobile menu drawer ---- */
   var toggle = $(".nav-toggle"), drawer = $("#drawer");
   if (toggle && drawer) {

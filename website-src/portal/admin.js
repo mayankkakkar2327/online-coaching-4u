@@ -695,6 +695,7 @@
     $("#who").textContent = S.user.email; $("#out").hidden = false;
     const { data: p } = await sb.from("profiles").select("*").eq("id", S.user.id).single();
     S.profile = p;
+    try { if (p && p.role === "admin" && !p.blocked) localStorage.setItem("oc4u_admin", "1"); else localStorage.removeItem("oc4u_admin"); } catch (e) {}
     if (!p || p.role !== "admin" || p.blocked) { root.innerHTML = '<div class="notice red">This account doesn\'t have admin access. <a href="/institute">Go to the institute panel</a>.</div>'; return; }
     const { data: st } = await sb.from("settings").select("*");
     S.settings = Object.fromEntries((st || []).map((r) => [r.key, r.value]));

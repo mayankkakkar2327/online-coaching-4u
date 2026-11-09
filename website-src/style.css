@@ -626,3 +626,10 @@ body.nav-open{overflow:hidden}
 .ocr-meta{font-size:13px;color:var(--muted);margin:0}
 .ocr-reply{margin-top:10px;padding:10px 12px;background:#F4F5FB;border-radius:8px;font-size:14px}
 .ocr-reply p{margin:4px 0 0}
+
+/* ---------- header login menu ---------- */
+.nav-login{position:relative}
+.nav-login .nav-drop-btn{padding:8px 4px}
+.nav-login .nav-dropdown{left:auto;right:0;min-width:170px}
+.nav-dropdown a[hidden]{display:none}
+@media (max-width:980px){.nav-login{display:none}}

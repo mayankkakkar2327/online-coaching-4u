@@ -311,6 +311,13 @@ ${nav.map(([h, t]) => `<a href="${h}"${cur(h)}>${t}</a>`).join("\n")}
 <a href="contact.html"${cur("contact.html")}>Contact</a>
 </nav>
 <div class="header-cta">
+<div class="nav-item nav-has-dropdown nav-login">
+<button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">Login <span class="nav-caret" aria-hidden="true">▾</span></button>
+<div class="nav-dropdown">
+<a href="/institute">Institute login</a>
+<a href="/admin" data-admin-only hidden>Admin</a>
+</div>
+</div>
 <a class="btn btn-sm" href="list-your-institute.html">List your institute ${arw}</a>
 <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg></button>
 </div>
@@ -324,6 +331,8 @@ ${nav.map(([h, t]) => `<a href="${h}"${cur(h)}>${t}</a>`).join("\n")}
 ${nav.map(([h, t]) => `<a href="${h}">${t} <span aria-hidden="true">→</span></a>`).join("\n")}
 <a href="about.html">About <span aria-hidden="true">→</span></a>
 <a href="contact.html">Contact <span aria-hidden="true">→</span></a>
+<a href="/institute">Institute login <span aria-hidden="true">→</span></a>
+<a href="/admin" data-admin-only hidden>Admin <span aria-hidden="true">→</span></a>
 </nav>
 <a class="btn" href="list-your-institute.html">List your institute free ${arw}</a>
 </div>`;
