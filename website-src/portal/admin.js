@@ -489,7 +489,7 @@
     const d = a.details || {};
     const fields = d.after ? Object.keys(d.after) : [];
     return `<tr><td class="small" style="width:130px">${fmtDateTime(a.created_at)}</td><td>${a.slug ? `<a href="#/listing/${a.slug}">${nm(a.slug)}</a>` : "—"}</td>
-      <td>${esc(ACT[a.action] || a.action)}${d.title ? ": " + esc(d.title) : ""}${fields.length ? `<div class="small diff">${fields.map((k) => `<div><b>${esc((FIELDS[k] || {}).label || k)}:</b> <span class="old">${showVal(k, (d.before || {})[k])}</span> → <span class="new">${showVal(k, d.after[k])}</span></div>`).join("")}</div>` : ""}${d.reason ? `<div class="muted small">${esc(d.reason)}</div>` : ""}</td>
+      <td>${esc(ACT[a.action] || a.action)}${d.title ? ": " + esc(d.title) : ""}${fields.length ? `<div class="small diff">${fields.map((k) => `<div><b>${esc((FIELDS[k] || {}).label || k)}:</b> <span class="old">${(d.before || {})[k] == null ? '<span class="muted">original listing value</span>' : showVal(k, d.before[k])}</span> → <span class="new">${showVal(k, d.after[k])}</span></div>`).join("")}</div>` : ""}${d.reason ? `<div class="muted small">${esc(d.reason)}</div>` : ""}</td>
       <td class="small">${esc(a.actor_email || "")}</td>
       ${withUndo ? `<td>${a.undone ? '<span class="pill">Undone</span>' : ["live_edit", "admin_edit", "live_course", "course_removed"].includes(a.action) ? `<button class="btn sm ghost" data-undo="${a.id}">Undo</button>` : ""}</td>` : ""}</tr>`;
   }

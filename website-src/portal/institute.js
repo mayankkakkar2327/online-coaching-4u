@@ -256,7 +256,7 @@
     if (!keys.length) { toast("Nothing changed."); return false; }
     const live = keys.filter((k) => goesLive(l, k)), review = keys.filter((k) => !goesLive(l, k));
     const lab = (k) => esc(FIELDS[k] ? FIELDS[k].label : k);
-    const ok = await confirmBox(notPublicYet(l) ? "Save changes?" : "Confirm & publish",
+    const ok = await confirmBox(notPublicYet(l) ? "Save changes?" : live.length ? "Confirm & publish" : "Send for approval?",
       notPublicYet(l) ? `<p>Your draft will be updated. Nothing is public until our team approves the listing.</p>`
         : `${live.length ? `<p><b>These go live on the site within a few minutes:</b></p><ul style="margin:6px 0 12px 18px">${live.map((k) => `<li>${lab(k)}</li>`).join("")}</ul>` : ""}
            ${review.length ? `<p><b>These will be sent to our team for approval:</b></p><ul style="margin:6px 0 12px 18px">${review.map((k) => `<li>${lab(k)}</li>`).join("")}</ul><p class="muted small">We'll email you once they're reviewed.</p>` : ""}
