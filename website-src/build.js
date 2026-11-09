@@ -32,6 +32,7 @@ function mergePortal() {
   const bySlug = new Map(L.map(x => [x.slug, x]));
   const coursesBySlug = {};
   (REMOTE.courses || []).forEach(c => { (coursesBySlug[c.slug] = coursesBySlug[c.slug] || []).push(c); });
+  (REMOTE.reviews || []).forEach(rv => { const t = bySlug.get(rv.slug); if (t) (t.ocReviews = t.ocReviews || []).push(rv); });
   for (const r of REMOTE.listings || []) {
     let x = bySlug.get(r.slug);
     if (r.status === "hidden") {
@@ -759,6 +760,17 @@ function onlineCoachingPage() {
     }) + footer();
 }
 
+const portalForm = (kind, slug, source) => `data-oc4u="${kind}" data-slug="${slug}"${source ? ` data-source="${source}"` : ""} data-api="${PORTAL.SUPABASE_URL}" data-key="${PORTAL.SUPABASE_KEY}" novalidate`;
+const HP_FIELD = `<input type="text" name="hp_website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">`;
+function studentReviews(x) {
+  const rs = x.ocReviews || [];
+  if (!rs.length) return "";
+  const avg = rs.reduce((a, r) => a + r.rating, 0) / rs.length;
+  const stars = (n) => `<span class="ocr-stars" aria-label="${n} out of 5 stars">${"★".repeat(n)}<span class="off">${"★".repeat(5 - n)}</span></span>`;
+  return `<div class="agg oc4u"><div class="big">${avg.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(rs.length, "student review")} on ${esc(B.name)}</b>. Each review was checked by our team before it was published.</p></div>
+<div class="ocr-list">${rs.map(r => `<div class="ocr-item">${stars(r.rating)}<p class="ocr-body">${esc(r.body)}</p><p class="ocr-meta">${esc(r.name)} · ${new Date(r.date).toLocaleDateString("en-IN", { month: "short", year: "numeric" })}</p>${r.reply ? `<div class="ocr-reply"><b>Reply from ${esc(x.name)}</b><p>${esc(r.reply)}</p></div>` : ""}</div>`).join("")}</div>`;
+}
+
 const SOCIAL_LABEL = { instagram: "Instagram", youtube: "YouTube", facebook: "Facebook", linkedin: "LinkedIn", x: "X (Twitter)" };
 function socialLinks(x) {
   const s = x.socials || {};
@@ -859,13 +871,13 @@ ${x.courses && x.courses.length ? coursesBlock(x) : `<p>We don't publish fee tab
 <div class="block fade-up" id="reviews"><h2>Ratings &amp; reviews</h2>
 ${x.rating && x.ratingCount ? `<div class="agg"><div class="big">${x.rating.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(x.ratingCount, "rating")} on ${src}.</b> Shown as listed on ${src}. These ratings were not collected by ${esc(B.name)}.</p></div>` : ""}
 ${x.googleRating ? `<div class="agg google"><div class="big">${x.googleRating.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(x.googleReviewCount, "review")} on Google</b>, checked ${checked}.${x.city !== "online" ? ` <a href="${mapsUrl}" rel="noopener" target="_blank">View on Google Maps</a>` : ""}</p></div>` : ""}
-<p class="muted" style="font-size:15px">No students have reviewed ${esc(x.name)} on ${esc(B.name)} yet. Reviews sent here are checked before they're published, and institutes can't remove them.</p>
+${studentReviews(x) || `<p class="muted" style="font-size:15px">No students have reviewed ${esc(x.name)} on ${esc(B.name)} yet. Reviews sent here are checked by our team before they're published, and institutes can't remove them.</p>`}
 ${BRAND_REVIEWS.some(r => r.slug === x.slug) ? `<div class="note">Read our full, in-depth review of ${esc(x.name)}: verdict, pricing and alumni outcomes. <a href="review-${x.slug}.html">Read the review →</a></div>` : ""}
 <div class="card-box" style="margin-top:20px">
 <h3>Share your experience</h3>
 <p class="sub">Studied here? Rate it to help the next student decide.</p>
-<form class="enq-form review-form" action="https://formsubmit.co/${B.email}" method="POST">
-${formHidden(`New review — ${esc(x.name)} (${cityL})`)}
+<form class="enq-form review-form" ${portalForm("review", x.slug)}>
+${HP_FIELD}
 <fieldset class="star-input">
 <legend>Your rating</legend>
 <input type="radio" id="r5-${x.slug}" name="rating" value="5"><label for="r5-${x.slug}" title="5 stars">★</label>
@@ -874,9 +886,12 @@ ${formHidden(`New review — ${esc(x.name)} (${cityL})`)}
 <input type="radio" id="r2-${x.slug}" name="rating" value="2"><label for="r2-${x.slug}" title="2 stars">★</label>
 <input type="radio" id="r1-${x.slug}" name="rating" value="1" required><label for="r1-${x.slug}" title="1 star">★</label>
 </fieldset>
-<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
-<label>Your review<textarea name="review" required rows="4" placeholder="Faculty, batch size, results, fees: anything future students should know"></textarea></label>
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name" maxlength="80"></label>
+<label>Your email<input name="email" type="email" required autocomplete="email" placeholder="you@example.com" maxlength="150"></label>
+<label>Your review<textarea name="review" required rows="4" minlength="30" maxlength="2000" placeholder="Faculty, batch size, results, fees: anything future students should know"></textarea></label>
 <button class="btn btn-primary" type="submit">Submit review</button>
+<p class="form-note">Only your first name and initial are shown. Your email stays private. Our team checks every review before it goes live.</p>
+<div class="form-msg" role="status" aria-live="polite"></div>
 </form>
 </div>
 </div>
@@ -895,13 +910,14 @@ ${formHidden(`New review — ${esc(x.name)} (${cityL})`)}
 <aside class="detail-side" id="callback" style="scroll-margin-top:100px">
 <div class="side-card fade-up">
 <h3>Talk to this institute</h3>
-<p class="muted">Free callback from our counselling team about fees, batches and scholarship tests. No spam, ever.</p>
-<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
-${formHidden(`New enquiry — ${esc(x.name)} (${cityL})`)}
-<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" inputmode="tel" placeholder="+91"></label>
+<p class="muted">Get a free callback about fees, batches and scholarship tests. No spam, ever.</p>
+<form class="enq-form" ${portalForm("lead", x.slug, "profile")}>
+${HP_FIELD}
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name" maxlength="100"></label>
+<label>Mobile<input name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="10-digit mobile number" maxlength="16"></label>
 <button class="btn btn-primary" type="submit">Request a callback</button>
-<p class="form-note">Free for students. See our <a href="privacy.html">Privacy Policy</a>.</p>
+<p class="form-note">Free for students. Your name and number are shared with ${esc(x.name)} and the ${esc(B.name)} team so they can call you back. See our <a href="privacy.html">Privacy Policy</a>.</p>
+<div class="form-msg" role="status" aria-live="polite"></div>
 </form>
 </div>
 <div class="side-actions fade-up">
@@ -921,7 +937,7 @@ ${others.length ? `<section class="band-blue"><div class="container section">
 <a class="btn" style="margin-top:32px" href="${listHref}">All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} ${arw}</a>
 </div></section>` : ""}
 </main>
-<script>(function(){var u="${PORTAL.SUPABASE_URL}/rest/v1/rpc/track_event",k="${PORTAL.SUPABASE_KEY}",s="${x.slug}";function t(kind){try{fetch(u,{method:"POST",keepalive:true,headers:{apikey:k,"Content-Type":"application/json"},body:JSON.stringify({p_slug:s,p_kind:kind})}).catch(function(){})}catch(e){}}if(!/bot|crawl|spider/i.test(navigator.userAgent))t("view");document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[data-track],a[href^="tel:"],a[href^="https://wa.me"],a[href*="google.com/maps"],form button[type=submit]');if(a)t("click")},true)})();</script>` + footer();
+<script>(function(){var u="${PORTAL.SUPABASE_URL}/rest/v1/rpc/track_event",k="${PORTAL.SUPABASE_KEY}",s="${x.slug}";function t(kind){try{fetch(u,{method:"POST",keepalive:true,headers:{apikey:k,"Content-Type":"application/json"},body:JSON.stringify({p_slug:s,p_kind:kind})}).catch(function(){})}catch(e){}}if(!/bot|crawl|spider/i.test(navigator.userAgent))t("view");document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[data-track],a[href^="tel:"],a[href^="https://wa.me"],a[href*="google.com/maps"],form[data-oc4u=lead] button[type=submit]');if(a)t("click")},true)})();</script>` + footer();
 }
 
 function simplePage(file, title, desc, bodyHtml, active) {
@@ -1304,16 +1320,13 @@ ${x.isTool ? `<div class="side-card">
 </div>` : `<div class="side-card">
 <h3>Talk to ${esc(x.name)}</h3>
 <p class="muted">Free callback via our counselling team — no spam, ever.</p>
-<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
-<input type="hidden" name="_subject" value="New enquiry — ${esc(x.name)} — via review page">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_template" value="table">
-<input type="hidden" name="_next" value="${B.siteUrl}/thanks">
-<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-<input type="hidden" name="institute" value="${esc(x.name)}">
-<label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" placeholder="+91"></label>
+<form class="enq-form" ${portalForm("lead", x.slug, "review-page")}>
+${HP_FIELD}
+<label>Your name<input name="name" required autocomplete="name" placeholder="Full name" maxlength="100"></label>
+<label>Mobile<input name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="10-digit mobile number" maxlength="16"></label>
 <button class="btn btn-gold" type="submit">Request a callback</button>
+<p class="form-note">Your name and number are shared with ${esc(x.name)} and the ${esc(B.name)} team so they can call you back.</p>
+<div class="form-msg" role="status" aria-live="polite"></div>
 </form>
 </div>`}
 <div class="side-actions">
@@ -1604,7 +1617,7 @@ const privacyBody = `
 <section class="hero hero-sm"><div class="container"><h1>Privacy Policy</h1></div></section>
 <section class="section container prose">
 <p>Last updated: November 2026</p>
-<p><strong>What we collect.</strong> When you submit an enquiry or registration form, we collect the details you enter (name, contact number, message) solely to connect you with the institute or respond to you.</p>
+<p><strong>What we collect.</strong> When you request a callback from an institute's page, we collect your name and mobile number and share them with that institute (once it has been verified on ${B.name}) and with our team, only so you can be called back. When you write a review, we collect your name, email and review; only your first name and initial are published, and your email is used only to check that the review is genuine. Contact-form messages are used only to reply to you.</p>
 <p><strong>What we don't do.</strong> We do not sell your personal data. We do not share your contact details with any institute other than the one you enquired about.</p>
 <p><strong>Analytics and cookies.</strong> We use Google Analytics to understand how visitors use the site. We also count profile views and clicks on each listing (without names, emails or other personal details) so institutes can see how their profile performs. The site stores your selected city in your browser, and the institute panel stores your login session in your browser. We don't run ad networks.</p>
 <h2>Institute accounts and verification documents</h2>

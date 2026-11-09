@@ -611,3 +611,18 @@ body.nav-open{overflow:hidden}
 .course-item h3{margin:0 0 8px;font-size:18px}
 .course-item .glance{margin:10px 0 0}
 .course-item p{margin:10px 0 0;font-size:15px}
+
+/* ---------- student reviews + portal forms ---------- */
+.enq-form .hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
+.form-msg:empty{display:none}
+.form-msg{font-size:14px;padding:12px 14px;border-left:3px solid var(--blue);background:#EEF0FA;color:var(--navy)}
+.form-msg.ok{border-color:#17633A;background:#EAF7EF;color:#17633A}
+.form-msg.err{border-color:#B3261E;background:#FDECEA;color:#B3261E}
+.ocr-list{display:grid;gap:14px;margin:14px 0 6px}
+.ocr-item{border:1px solid rgba(43,57,158,.15);background:#fff;padding:14px 16px;border-radius:12px}
+.ocr-stars{color:#E8A400;font-size:16px;letter-spacing:1px}
+.ocr-stars .off{color:#D5D8EC}
+.ocr-body{margin:6px 0 4px;font-size:15px}
+.ocr-meta{font-size:13px;color:var(--muted);margin:0}
+.ocr-reply{margin-top:10px;padding:10px 12px;background:#F4F5FB;border-radius:8px;font-size:14px}
+.ocr-reply p{margin:4px 0 0}

@@ -17,7 +17,8 @@
     course_rejected: "Course rejected", document_uploaded: "Document uploaded", document_accepted: "Document accepted", document_rejected: "Document rejected",
     verification_requested: "Verification requested", verification_approved: "Verified", verification_rejected: "Verification rejected", badge_removed: "Badge removed",
     admin_edit: "Admin edit", listing_hidden: "Listing hidden", listing_unhidden: "Listing unhidden", owner_changed: "Owner changed", user_blocked: "Account blocked",
-    user_unblocked: "Account unblocked", undo: "Undo", setting_changed: "Setting changed", secret_changed: "Secret changed", admin_course_removed: "Admin removed course", admin_course_published: "Admin published course"
+    user_unblocked: "Account unblocked", undo: "Undo", setting_changed: "Setting changed", secret_changed: "Secret changed", admin_course_removed: "Admin removed course", admin_course_published: "Admin published course",
+    review_approved: "Review published", review_rejected: "Review rejected", review_reply_submitted: "Institute replied to a review", reply_approved: "Reply approved", reply_rejected: "Reply rejected"
   };
 
   /* ---------- lookups ---------- */
@@ -31,6 +32,7 @@
   async function names(slugs) {
     const need = [...new Set(slugs.filter((s) => s && !S.names[s]))];
     if (!need.length) return;
+    if (need.length > 100) { for (let i = 0; i < need.length; i += 100) await names(need.slice(i, i + 100)); return; }
     const [c, l] = await Promise.all([sb.from("catalog").select("slug,name,city,website,type").in("slug", need), sb.from("listings").select("slug,data").in("slug", need)]);
     (c.data || []).forEach((r) => { S.names[r.slug] = r; });
     (l.data || []).forEach((r) => { if (r.data && r.data.name) S.names[r.slug] = Object.assign({}, S.names[r.slug] || {}, { name: r.data.name, city: r.data.city || (S.names[r.slug] || {}).city }); });
@@ -40,15 +42,18 @@
 
   async function loadCounts() {
     const c = (q) => q.then((r) => r.count || 0);
-    const [nl, cl, ch, co, vr, dq] = await Promise.all([
+    const [nl, cl, ch, co, vr, dq, rv, rp, ld] = await Promise.all([
       c(sb.from("listings").select("slug", { count: "exact", head: true }).eq("is_new", true).eq("status", "pending")),
       c(sb.from("claims").select("id", { count: "exact", head: true }).in("status", ["pending", "on_hold"])),
       c(sb.from("change_requests").select("id", { count: "exact", head: true }).eq("status", "pending")),
       c(sb.from("courses").select("id", { count: "exact", head: true }).eq("status", "pending")),
       c(sb.from("verification_requests").select("id", { count: "exact", head: true }).eq("status", "pending")),
-      c(sb.from("documents").select("id", { count: "exact", head: true }).eq("status", "uploaded").is("purged_at", null))
+      c(sb.from("documents").select("id", { count: "exact", head: true }).eq("status", "uploaded").is("purged_at", null)),
+      c(sb.from("reviews").select("id", { count: "exact", head: true }).eq("status", "pending")),
+      c(sb.from("reviews").select("id", { count: "exact", head: true }).eq("reply_status", "pending")),
+      c(sb.from("leads").select("id", { count: "exact", head: true }).gte("created_at", new Date(Date.now() - 7 * 864e5).toISOString()))
     ]);
-    S.counts = { listings: nl, claims: cl, changes: ch, courses: co, verify: vr, docs: dq, total: nl + cl + ch + co + vr };
+    S.counts = { listings: nl, claims: cl, changes: ch, courses: co, verify: vr, docs: dq, reviews: rv + rp, leads7: ld, total: nl + cl + ch + co + vr + rv + rp };
   }
 
   /* ---------- shell ---------- */
@@ -62,7 +67,9 @@
       <a href="#/q/changes" class="${active === "q-changes" ? "on" : ""}">Profile changes ${n("changes")}</a>
       <a href="#/q/courses" class="${active === "q-courses" ? "on" : ""}">Courses ${n("courses")}</a>
       <a href="#/q/verify" class="${active === "q-verify" ? "on" : ""}">Verification ${n("verify")}</a>
+      <a href="#/q/reviews" class="${active === "q-reviews" ? "on" : ""}">Reviews ${n("reviews")}</a>
       <div class="lbl">Manage</div>
+      <a href="#/leads" class="${active === "leads" ? "on" : ""}">Leads</a>
       <a href="#/listings" class="${active === "listings" ? "on" : ""}">All listings</a>
       <a href="#/accounts" class="${active === "accounts" ? "on" : ""}">Accounts</a>
       <a href="#/live" class="${active === "live" ? "on" : ""}">Recent live changes</a>
@@ -129,7 +136,7 @@
       ${!st.email_ready ? '<div class="notice amber"><b>Emails are paused.</b> Add your Resend API key in <a href="#/settings">Settings</a> so institutes get approval emails. They\'re queued until then.</div>' : ""}
       ${!st.deploy_ready ? '<div class="notice amber"><b>Auto-publish is off.</b> Add the Vercel deploy hook in <a href="#/settings">Settings</a> so approved changes reach the site automatically.</div>' : ""}
       <div class="grid3">${card("listings", "New listings to review", "#/q/listings")}${card("claims", "Claims to review", "#/q/claims")}${card("changes", "Profile changes to review", "#/q/changes")}
-        ${card("courses", "Courses to review", "#/q/courses")}${card("verify", "Verification requests", "#/q/verify")}<a class="stat" href="#/live" style="text-decoration:none"><span class="muted small">Live changes (last 7 days)</span><b>${(live || []).length}</b></a></div>
+        ${card("courses", "Courses to review", "#/q/courses")}${card("verify", "Verification requests", "#/q/verify")}${card("reviews", "Reviews & replies to check", "#/q/reviews")}${card("leads7", "Leads (last 7 days)", "#/leads")}<a class="stat" href="#/live" style="text-decoration:none"><span class="muted small">Live changes (last 7 days)</span><b>${(live || []).length}</b></a></div>
       <div class="card" style="margin-top:16px"><h2>System</h2><table class="t">
         <tr><td>Listings in catalog</td><td>${st.catalog_count} · synced ${st.catalog_synced ? ago(st.catalog_synced) : "never"}</td></tr>
         <tr><td>Site publishing</td><td>${st.deploy_ready ? "Automatic" : "Not set up"} · ${rb.dirty ? '<span class="pill amber">Changes waiting to publish</span>' : '<span class="pill green">Up to date</span>'} ${rb.last_triggered_at ? `· last publish ${ago(rb.last_triggered_at)}` : ""}</td></tr>
@@ -348,6 +355,95 @@
         if (error) return fail(error); toast("Rejected and emailed."); await loadCounts(); qVerify();
       });
     });
+  }
+
+  /* ---------- reviews queue ---------- */
+  const REV_REASONS = ["This doesn't read like a genuine student experience.", "The review contains abusive language or personal attacks.", "The review includes personal details (phone numbers, names of staff/students).", "This looks like promotion or a duplicate review.", "The review is about a different institute."];
+  const REPLY_REASONS = ["The reply shares the student's personal details.", "The reply is abusive or threatening.", "The reply is promotional rather than a response to the review."];
+  async function qReviews(tab) {
+    tab = tab || "pending";
+    shell("q-reviews", loading());
+    let q = sb.from("reviews").select("*").order("created_at", { ascending: tab !== "published" }).limit(200);
+    if (tab === "pending") q = q.eq("status", "pending");
+    if (tab === "replies") q = q.eq("reply_status", "pending");
+    if (tab === "published") q = q.eq("status", "approved");
+    if (tab === "rejected") q = q.eq("status", "rejected");
+    const { data, error } = await q;
+    if (error) return fail(error);
+    await names(data.map((r) => r.slug));
+    const dupMail = {};
+    if (tab === "pending" && data.length) {
+      const { data: others } = await sb.from("reviews").select("email,slug").in("email", [...new Set(data.map((r) => r.email))]);
+      (others || []).forEach((o) => { (dupMail[o.email] = dupMail[o.email] || new Set()).add(o.slug); });
+    }
+    const stars = (n) => `<span style="color:#E8A400">${"★".repeat(n)}</span><span style="color:#D5D8EC">${"★".repeat(5 - n)}</span>`;
+    const tabs = [["pending", `New reviews`], ["replies", `Institute replies`], ["published", "Published"], ["rejected", "Rejected"]];
+    shell("q-reviews", `<div class="head-row"><h1>Reviews</h1></div>
+      <div class="tabs">${tabs.map(([k, t]) => `<button data-t="${k}" class="${tab === k ? "on" : ""}">${t}</button>`).join("")}</div>
+      ${data.length ? data.map((r) => `<div class="card" data-rv="${r.id}">
+        <div class="head-row" style="margin-bottom:6px"><h2 style="flex:1"><a href="#/listing/${r.slug}">${nm(r.slug)}</a></h2>${stars(r.rating)}</div>
+        <p style="white-space:pre-wrap">${esc(r.body)}</p>
+        <p class="small muted" style="margin-top:8px">${esc(r.name)} · ${esc(r.email)} · ${fmtDateTime(r.created_at)}</p>
+        ${tab === "pending" && dupMail[r.email] && dupMail[r.email].size > 1 ? `<div class="notice amber small" style="margin-top:8px">This email has also reviewed ${dupMail[r.email].size - 1} other institute(s).</div>` : ""}
+        ${r.reply ? `<div class="notice ${r.reply_status === "approved" ? "green" : r.reply_status === "rejected" ? "red" : "amber"} small" style="margin-top:10px"><b>Institute reply (${esc(r.reply_status)}):</b> ${esc(r.reply)}</div>` : ""}
+        ${r.status === "rejected" && r.reason ? `<p class="small" style="margin-top:6px">Rejected: ${esc(r.reason)}</p>` : ""}
+        <div class="btns" style="margin-top:12px">
+          ${tab === "pending" ? '<button class="btn green" data-ok>Approve & publish</button><button class="btn red" data-no>Reject</button>' : ""}
+          ${tab === "replies" ? '<button class="btn green" data-rok>Approve reply</button><button class="btn red" data-rno>Reject reply</button>' : ""}
+          ${tab === "published" ? '<button class="btn ghost" data-no>Unpublish</button>' : ""}
+          ${tab === "rejected" ? '<button class="btn ghost" data-ok>Publish after all</button>' : ""}
+        </div></div>`).join("") : `<div class="empty">${tab === "pending" ? "No new reviews to check." : tab === "replies" ? "No institute replies waiting." : "Nothing here yet."}</div>`}`);
+    $$(".tabs [data-t]").forEach((b) => b.addEventListener("click", () => qReviews(b.dataset.t)));
+    $$("[data-rv]").forEach((el) => {
+      const id = +el.dataset.rv;
+      const go = async (fn, ok, reason, msg) => { const { error } = await sb.rpc(fn, { p_id: id, p_approve: ok, p_reason: reason }); if (error) return fail(error); toast(msg); await loadCounts(); qReviews(tab); };
+      const ok = $("[data-ok]", el); if (ok) ok.addEventListener("click", () => go("admin_decide_review", true, null, "Published — the site updates in a few minutes."));
+      const no = $("[data-no]", el); if (no) no.addEventListener("click", async () => { const r = await askReason(tab === "published" ? "Unpublish review" : "Reject review", REV_REASONS); if (r) go("admin_decide_review", false, r, tab === "published" ? "Unpublished." : "Rejected."); });
+      const rok = $("[data-rok]", el); if (rok) rok.addEventListener("click", () => go("admin_decide_reply", true, null, "Reply approved."));
+      const rno = $("[data-rno]", el); if (rno) rno.addEventListener("click", async () => { const r = await askReason("Reject reply", REPLY_REASONS); if (r) go("admin_decide_reply", false, r, "Reply rejected."); });
+    });
+  }
+
+  /* ---------- leads (all institutes) ---------- */
+  async function viewLeads() {
+    shell("leads", loading());
+    const [{ data, error }, { data: owned }] = await Promise.all([
+      sb.from("leads").select("*").order("created_at", { ascending: false }).limit(5000),
+      sb.from("listings").select("slug,owner_id,verified_level,verified_until")
+    ]);
+    if (error) return fail(error);
+    await names(data.map((x) => x.slug));
+    const own = Object.fromEntries((owned || []).map((o) => [o.slug, o]));
+    const state = (slug) => { const o = own[slug]; if (!o || !o.owner_id) return "unclaimed"; return o.verified_level && (!o.verified_until || new Date(o.verified_until) > new Date()) ? "verified" : "claimed"; };
+    const STATE = { unclaimed: '<span class="pill">Not claimed</span>', claimed: '<span class="pill amber">Claimed, not verified</span>', verified: '<span class="pill blue">Verified — sees leads</span>' };
+    const ST = { new: "New", contacted: "Contacted", enrolled: "Enrolled", not_interested: "Not interested" };
+    let f = { q: "", days: "30", who: "" };
+    const rows = () => data.filter((x) => (!f.q || ((S.names[x.slug] || {}).name + " " + x.name + " " + x.phone).toLowerCase().includes(f.q))
+      && (f.days === "all" || new Date(x.created_at) > Date.now() - (+f.days) * 864e5) && (!f.who || state(x.slug) === f.who));
+    const draw = () => {
+      const r = rows();
+      $("#lrows").innerHTML = r.length ? r.map((x) => `<tr><td class="small">${fmtDateTime(x.created_at)}</td><td><a href="#/listing/${x.slug}">${nm(x.slug)}</a><div>${STATE[state(x.slug)]}</div></td>
+        <td><b>${esc(x.name)}</b><div class="small"><a href="tel:+91${esc(x.phone)}">+91 ${esc(x.phone)}</a></div></td><td class="small">${x.source === "review-page" ? "Review page" : "Profile"}</td>
+        <td class="small">${ST[x.status] || x.status}${x.note ? `<div class="muted">${esc(x.note)}</div>` : ""}</td></tr>`).join("") : '<tr><td colspan="5" class="muted">No leads match.</td></tr>';
+      $("#lcount").textContent = `${r.length} lead${r.length === 1 ? "" : "s"}`;
+    };
+    shell("leads", `<div class="head-row"><h1>Leads</h1><button class="btn sm ghost" id="csv">Download CSV</button></div>
+      <p class="muted small" style="margin-bottom:12px">Every callback request from every institute page. Verified institutes see their own leads in their panel (status and notes they add show here). Leads for unclaimed or unverified institutes are only visible to you.</p>
+      <div class="card tight"><div class="grid3"><label class="f">Search<input type="search" id="lq" placeholder="Institute, name or number"></label>
+        <label class="f">Period<select id="ld"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="all">All time</option></select></label>
+        <label class="f">Institute status<select id="lw"><option value="">All</option><option value="unclaimed">Not claimed</option><option value="claimed">Claimed, not verified</option><option value="verified">Verified</option></select></label></div></div>
+      <p class="small muted" id="lcount" style="margin:0 0 8px"></p>
+      <div class="card tight tscroll"><table class="t"><thead><tr><th>When</th><th>Institute</th><th>Student</th><th>From</th><th>Institute's status</th></tr></thead><tbody id="lrows"></tbody></table></div>`);
+    $("#lq").addEventListener("input", (e) => { f.q = e.target.value.trim().toLowerCase(); draw(); });
+    $("#ld").addEventListener("change", (e) => { f.days = e.target.value; draw(); });
+    $("#lw").addEventListener("change", (e) => { f.who = e.target.value; draw(); });
+    $("#csv").addEventListener("click", () => {
+      const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
+      const lines = [["Date", "Institute", "Institute slug", "Institute status", "Student", "Mobile", "Source", "Status", "Note"].join(",")]
+        .concat(rows().map((x) => [new Date(x.created_at).toISOString().slice(0, 16).replace("T", " "), (S.names[x.slug] || {}).name || x.slug, x.slug, state(x.slug), x.name, "+91" + x.phone, x.source, ST[x.status], x.note].map(q).join(",")));
+      const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([lines.join("\n")], { type: "text/csv" })); a.download = `oc4u-leads-${new Date().toISOString().slice(0, 10)}.csv`; a.click();
+    });
+    draw();
   }
 
   /* ---------- listings ---------- */
@@ -580,7 +676,8 @@
   async function route() {
     const h = location.hash.replace(/^#\/?/, "").split("/");
     try {
-      if (h[0] === "q") return ({ listings: qListings, claims: qClaims, changes: qChanges, courses: qCourses, verify: qVerify }[h[1]] || viewHome)();
+      if (h[0] === "q") return ({ listings: qListings, claims: qClaims, changes: qChanges, courses: qCourses, verify: qVerify, reviews: qReviews }[h[1]] || viewHome)();
+      if (h[0] === "leads") return viewLeads();
       if (h[0] === "listings") return viewListings();
       if (h[0] === "listing" && h[1]) return viewListing(decodeURIComponent(h[1]));
       if (h[0] === "accounts") return viewAccounts();

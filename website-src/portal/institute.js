@@ -190,7 +190,7 @@
     const l = S.listings.find((x) => x.slug === slug);
     if (!l) { location.hash = "#/"; return; }
     tab = tab || "profile";
-    const tabs = [["profile", "Profile"], ["courses", "Courses"], ["media", "Logo & photos"], ["verify", "Documents & badge"], ["stats", "Stats"]];
+    const tabs = [["profile", "Profile"], ["courses", "Courses"], ["media", "Logo & photos"], ["leads", "Leads"], ["reviews", "Reviews"], ["verify", "Documents & badge"], ["stats", "Stats"]];
     shell(slug, `<div class="head-row"><h1>${esc(listingName(l))}</h1><div class="btns">${statusPill(l)} ${badgePill(l)}
       ${l.status === "published" ? `<a class="btn sm ghost" href="/institute-${l.slug}" target="_blank" rel="noopener">View on site ↗</a>` : ""}</div></div>
       ${l.is_new && ["draft", "rejected"].includes(l.status) ? `<div class="notice ${l.status === "rejected" ? "red" : "amber"}">${l.status === "rejected" ? `<b>Needs changes:</b> ${esc(l.reject_reason || "")}<br>` : ""}This listing isn't on the site yet. Fill in your details, then <button class="btn sm" id="submitL">Submit for review</button></div>` : ""}
@@ -213,6 +213,8 @@
     if (tab === "media") return tabMedia(l, el);
     if (tab === "verify") return tabVerify(l, el, l.slug, l.kind, true);
     if (tab === "stats") return tabStats(l, el);
+    if (tab === "leads") return tabLeads(l, el);
+    if (tab === "reviews") return tabReviews(l, el);
   }
 
   function fieldTag(l, k) {
@@ -453,6 +455,76 @@
       <h3 style="margin-top:18px">"Review us" button</h3><div style="margin:8px 0"><img src="/assets/portal/badge-review.svg" alt="" width="210" height="56"></div><code class="snip">${esc(rb)}</code><button class="btn sm ghost" data-copy="r" style="margin-top:8px">Copy code</button></div>`
       .replace(/data-copy="v"/, `data-copy="v" onclick="navigator.clipboard.writeText(${esc(JSON.stringify(vb))});P.toast('Copied.')"`)
       .replace(/data-copy="r"/, `data-copy="r" onclick="navigator.clipboard.writeText(${esc(JSON.stringify(rb))});P.toast('Copied.')"`);
+  }
+
+  /* leads (verified listings only) */
+  const LEAD_STATUS = { new: "New", contacted: "Contacted", enrolled: "Enrolled", not_interested: "Not interested" };
+  async function tabLeads(l, el) {
+    el.innerHTML = '<div class="loading"><span class="spinner"></span></div>';
+    const { data, error } = await sb.rpc("my_leads", { p_slug: l.slug });
+    if (error) return fail(error);
+    if (data.locked) {
+      el.innerHTML = `<div class="card"><h2>Leads</h2><p>${data.count ? `<b>${data.count} student${data.count > 1 ? "s have" : " has"} asked for a callback</b> from your OnlineCoaching4U page.` : "Students who ask for a callback from your OnlineCoaching4U page will appear here."}</p>
+        <p style="margin-top:8px">Leads are shared only with <b>Verified</b> institutes, so students know their number goes to the real institute. Upload your documents to get verified — you'll then see every lead, including earlier ones.</p>
+        <div class="btns" style="margin-top:14px"><a class="btn" href="#/l/${l.slug}/verify">Get verified</a></div></div>`;
+      return;
+    }
+    const leads = data.leads;
+    const counts = Object.fromEntries(Object.keys(LEAD_STATUS).map((k) => [k, leads.filter((x) => x.status === k).length]));
+    const draw = (filter) => {
+      const rows = leads.filter((x) => !filter || x.status === filter);
+      el.innerHTML = `<div class="head-row"><h2 style="flex:1">Leads <span class="muted small">(${leads.length})</span></h2>${leads.length ? '<button class="btn sm ghost" id="csv">Download CSV</button>' : ""}</div>
+        <p class="muted small" style="margin-bottom:12px">Students who asked for a callback from your page on OnlineCoaching4U. Please call them within a day; only use their number to respond to their enquiry.</p>
+        ${leads.length ? `<div class="btns" style="margin-bottom:12px"><button class="btn sm ${!filter ? "" : "ghost"}" data-f="">All</button>${Object.entries(LEAD_STATUS).map(([k, t]) => `<button class="btn sm ${filter === k ? "" : "ghost"}" data-f="${k}">${t} (${counts[k]})</button>`).join("")}</div>
+        <div class="card tight tscroll"><table class="t"><tr><th>When</th><th>Student</th><th>Status</th><th>Note</th></tr>${rows.map((x) => `<tr>
+          <td class="small">${fmtDate(x.created_at)}<div class="muted">${x.source === "review-page" ? "From review page" : "From profile"}</div></td>
+          <td><b>${esc(x.name)}</b><div><a href="tel:+91${esc(x.phone)}">+91 ${esc(x.phone)}</a> · <a href="https://wa.me/91${esc(x.phone)}" target="_blank" rel="noopener">WhatsApp</a></div></td>
+          <td><select data-st="${x.id}" aria-label="Status for ${esc(x.name)}">${Object.entries(LEAD_STATUS).map(([k, t]) => `<option value="${k}" ${x.status === k ? "selected" : ""}>${t}</option>`).join("")}</select></td>
+          <td><input type="text" data-nt="${x.id}" value="${esc(x.note || "")}" placeholder="Add a note" maxlength="1000" aria-label="Note for ${esc(x.name)}"></td></tr>`).join("")}</table></div>`
+        : '<div class="empty">No leads yet. They\'ll appear here as soon as a student asks for a callback.</div>'}`;
+      $$("[data-f]", el).forEach((b) => b.addEventListener("click", () => draw(b.dataset.f)));
+      const save = async (id) => {
+        const x = leads.find((y) => y.id === id);
+        const { error } = await sb.rpc("update_lead", { p_id: id, p_status: x.status, p_note: x.note || "" });
+        if (error) return fail(error); toast("Saved.");
+      };
+      $$("[data-st]", el).forEach((s) => s.addEventListener("change", () => { const x = leads.find((y) => y.id === +s.dataset.st); x.status = s.value; save(x.id); }));
+      $$("[data-nt]", el).forEach((i) => i.addEventListener("change", () => { const x = leads.find((y) => y.id === +i.dataset.nt); x.note = i.value; save(x.id); }));
+      const csv = $("#csv", el);
+      if (csv) csv.addEventListener("click", () => {
+        const q = (v) => `"${String(v == null ? "" : v).replace(/"/g, '""')}"`;
+        const lines = [["Date", "Name", "Mobile", "Source", "Status", "Note"].join(",")].concat(leads.map((x) => [new Date(x.created_at).toISOString().slice(0, 10), x.name, "+91" + x.phone, x.source, LEAD_STATUS[x.status], x.note].map(q).join(",")));
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(new Blob([lines.join("\n")], { type: "text/csv" }));
+        a.download = `oc4u-leads-${l.slug}.csv`; a.click();
+      });
+    };
+    draw("");
+  }
+
+  /* reviews (approved only) + one public reply */
+  async function tabReviews(l, el) {
+    el.innerHTML = '<div class="loading"><span class="spinner"></span></div>';
+    const { data, error } = await sb.rpc("my_reviews", { p_slug: l.slug });
+    if (error) return fail(error);
+    const stars = (n) => `<span style="color:#E8A400">${"★".repeat(n)}</span><span style="color:#D5D8EC">${"★".repeat(5 - n)}</span>`;
+    const avg = data.length ? (data.reduce((a, r) => a + r.rating, 0) / data.length).toFixed(1) : null;
+    el.innerHTML = `<div class="head-row"><h2 style="flex:1">Student reviews</h2>${avg ? `<span class="pill yellow">★ ${avg} from ${data.length}</span>` : ""}</div>
+      <p class="muted small" style="margin-bottom:12px">Reviews are checked by the OnlineCoaching4U team before they go live. Institutes can't edit or remove reviews, but you can post one public reply to each — replies are checked too. Stay polite and factual; never share a student's personal details.</p>
+      ${data.length ? `<div class="list">${data.map((r) => `<div class="item"><div class="main">${stars(r.rating)}<p style="margin:6px 0">${esc(r.body)}</p><div class="meta">${esc(r.name)} · ${fmtDate(r.created_at)}</div>
+        ${r.reply_status === "approved" ? `<div class="notice green small" style="margin:10px 0 0"><b>Your reply (live):</b> ${esc(r.reply)}</div>`
+          : r.reply_status === "pending" ? `<div class="notice amber small" style="margin:10px 0 0"><b>Your reply (in review):</b> ${esc(r.reply)}</div>`
+          : `${r.reply_status === "rejected" ? `<div class="notice red small" style="margin:10px 0 0">Your reply wasn't approved: ${esc(r.reply_reason || "")}. You can write a new one.</div>` : ""}
+             <div style="margin-top:10px"><textarea data-rp="${r.id}" placeholder="Write a public reply" maxlength="1500" style="min-height:70px"></textarea><button class="btn sm" data-send="${r.id}" style="margin-top:6px">Send reply for review</button></div>`}
+        </div></div>`).join("")}</div>` : '<div class="empty">No published student reviews yet.</div>'}`;
+    $$("[data-send]", el).forEach((b) => b.addEventListener("click", async () => {
+      const t = $(`[data-rp="${b.dataset.send}"]`, el).value.trim();
+      if (t.length < 5) return toast("Please write a reply.", true);
+      if (!(await confirmBox("Send this reply?", "<p>Our team will check it before it appears under the review. You can reply only once per review.</p>", "Send"))) return;
+      const { error } = await sb.rpc("reply_review", { p_id: +b.dataset.send, p_reply: t });
+      if (error) return fail(error);
+      toast("Reply sent for review."); tabReviews(l, el);
+    }));
   }
 
   /* stats */
