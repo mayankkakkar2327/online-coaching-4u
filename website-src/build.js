@@ -17,10 +17,64 @@ const B = DATA.brand;
 const L = DATA.listings;
 const EX = DATA.examLabels;
 
+/* ---------- institute portal data (see fetch-remote.js) ----------
+   Institutes manage their own listings in the portal (/institute). What they
+   publish (and what the admin approves) is merged over data.json here. */
+const PORTAL = require("./portal-config.js");
+const REMOTE_FILE = path.join(__dirname, ".remote.json");
+const REMOTE = fs.existsSync(REMOTE_FILE) ? JSON.parse(fs.readFileSync(REMOTE_FILE, "utf8")) : { listings: [], courses: [] };
+const PORTAL_TYPES = ["coaching", "certification", "coach", "computer-courses"];
+const PORTAL_FIELDS = ["name", "type", "city", "locality", "address", "estd", "exams", "mode", "about", "highlights", "website",
+  "timings", "batches", "socials", "logo", "photos", "branches", "results"];
+const cleanCity = (c) => String(c || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+const portalStats = { updated: 0, added: 0, hidden: 0, courses: 0 };
+function mergePortal() {
+  const bySlug = new Map(L.map(x => [x.slug, x]));
+  const coursesBySlug = {};
+  (REMOTE.courses || []).forEach(c => { (coursesBySlug[c.slug] = coursesBySlug[c.slug] || []).push(c); });
+  for (const r of REMOTE.listings || []) {
+    let x = bySlug.get(r.slug);
+    if (r.status === "hidden") {
+      if (x) { L.splice(L.indexOf(x), 1); bySlug.delete(r.slug); portalStats.hidden++; }
+      continue;
+    }
+    const d = r.data || {};
+    if (!x) {
+      if (!r.is_new || !d.name || !PORTAL_TYPES.includes(d.type) || !d.city) continue;
+      x = { slug: r.slug, type: d.type, name: d.name, city: cleanCity(d.city), locality: "", address: "", estd: null, exams: [], verified: false, mode: "offline" };
+      L.push(x); bySlug.set(r.slug, x); portalStats.added++;
+    } else portalStats.updated++;
+    for (const k of PORTAL_FIELDS) {
+      if (d[k] === undefined || d[k] === null || d[k] === "") continue;
+      if (Array.isArray(d[k]) && !d[k].length && k !== "exams") continue;
+      x[k] = d[k];
+    }
+    if (!PORTAL_TYPES.includes(x.type)) x.type = "coaching";
+    x.city = cleanCity(x.city) || "online";
+    if (x.estd) x.estd = parseInt(x.estd, 10) || null;
+    if (!Array.isArray(x.exams)) x.exams = [];
+    x.exams = x.exams.map(e => String(e).toLowerCase().trim()).filter(Boolean);
+    if (!["offline", "hybrid", "online"].includes(x.mode)) x.mode = x.city === "online" ? "online" : "offline";
+    if (!x.locality) x.locality = x.city === "online" ? "Online" : cityLabel(x.city);
+    if (!x.address) x.address = x.city === "online" ? "Online" : `${x.locality}, ${cityLabel(x.city)}`;
+    if (!x.website || !/^https?:\/\//i.test(x.website)) delete x.website;
+    x.portal = { claimed: !!r.claimed, verifiedLevel: r.verified_level || null, verifiedUntil: r.verified_until || null };
+    if (x.portal.verifiedLevel) x.verified = true;
+    const cs = coursesBySlug[r.slug];
+    if (cs && cs.length) { x.courses = cs; portalStats.courses += cs.length; }
+    const cities = DATA.cities[x.type] || (DATA.cities[x.type] = []);
+    if (!cities.includes(x.city)) cities.push(x.city);
+  }
+  // exam tags typed by institutes that the site doesn't know yet get a readable label
+  L.forEach(x => (x.exams || []).forEach(e => { if (!EX[e]) EX[e] = e.length <= 5 ? e.toUpperCase() : e.replace(/-/g, " ").replace(/\b\w/g, m => m.toUpperCase()); }));
+  if (REMOTE.listings && REMOTE.listings.length) console.log(`portal: ${portalStats.updated} updated, ${portalStats.added} added, ${portalStats.hidden} hidden, ${portalStats.courses} courses`);
+}
+
 const cityLabel = (c) => c === "online" ? "Online" : c.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
 const examLabel = (e) => EX[e] || e.toUpperCase();
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const slugify = (s) => String(s).toLowerCase().replace(/<[^>]*>/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+mergePortal();
 
 /* Scans article HTML for <h2>/<h3> headings and tags each with a unique id
    (so anchor links and FAQ deep-links work). Returns the id-annotated HTML
@@ -354,7 +408,7 @@ function card(x, i) {
   const gender = x.gender ? `<span class="tag grey">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
   const price = x.priceRange ? `<span class="tag green">${esc(x.priceRange)}</span>` : "";
   const modeTag = x.mode ? `<span class="tag grey">${modeLabel[x.mode]}</span>` : "";
-  const status = x.verified ? `<span class="tag green">✓ Verified</span>` : "";
+  const status = x.portal && x.portal.verifiedLevel ? `<span class="tag green">✓ ${x.portal.verifiedLevel === "individual" ? "Verified Individual" : "OC4U Verified"}</span>` : x.verified ? `<span class="tag">✓ Confirmed by institute</span>` : "";
   const locLine = x.city === "online" ? esc(x.locality) : `${esc(x.locality)}, ${cityLabel(x.city)}`;
   const n = typeof i === "number" ? i + 1 : 0;
   return `<a class="inst fade-up" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-mode="${x.mode || ""}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
@@ -396,7 +450,7 @@ function homePage() {
   const topCities = sortedCityCounts.slice(0, 12).map(({ c, n }) => `<a class="city" href="coaching-${c}.html"><b>${cityLabel(c)}</b><span>${n} listed</span></a>`).join("");
   const moreCities = sortedCityCounts.slice(12).map(({ c }) => `<a href="coaching-${c}.html">${cityLabel(c)}</a>`).join(" · ");
   const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6);
-  const rows = topRatedList(topRated).map(({ x, cityL, exams }, i) => `<a class="trow fade-up" href="institute-${x.slug}.html"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="name">${esc(x.name)}${x.verified ? ` <span class="verified-tag">Verified</span>` : ""}<span class="m-meta">${esc(cityL)} · ${esc(exams)} · ${x.ratingCount} on ${ratingSrc(x)}</span></span><span class="meta">${esc(cityL)}</span><span class="meta">${esc(exams)}</span><span class="score"><span class="pill">★ ${x.rating.toFixed(1)}</span><span class="src">${x.ratingCount} on ${ratingSrc(x)}</span></span></a>`).join("");
+  const rows = topRatedList(topRated).map(({ x, cityL, exams }, i) => `<a class="trow fade-up" href="institute-${x.slug}.html"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="name">${esc(x.name)}${x.portal && x.portal.verifiedLevel ? ` <span class="verified-tag">Verified</span>` : ""}<span class="m-meta">${esc(cityL)} · ${esc(exams)} · ${x.ratingCount} on ${ratingSrc(x)}</span></span><span class="meta">${esc(cityL)}</span><span class="meta">${esc(exams)}</span><span class="score"><span class="pill">★ ${x.rating.toFixed(1)}</span><span class="src">${x.ratingCount} on ${ratingSrc(x)}</span></span></a>`).join("");
   /* "Top rated this month": curated, not algorithmic — hand-picked slugs */
   const MINI_SLUGS = ["rodha", "iproledge-academy-bengaluru", "sbtechmath-academy", "navjeevan-neet-academy-sikar"];
   const minis = MINI_SLUGS.map(s => L.find(x => x.slug === s)).filter(Boolean).map((x, i) => `<a class="fade-up" href="institute-${x.slug}.html"><span>#${i + 1} · ${x.city === "online" ? "Online, pan-India" : esc(x.locality)}${x.estd ? ` · since ${x.estd}` : ""}</span><b>${esc(x.name)}</b><span>View profile →</span></a>`).join("");
@@ -613,7 +667,7 @@ ${pageHero({ crumbs, badge, h1: hw(h1, h1Hl), h1Class: "listing-h1", sub, extra:
 <div class="container">
 ${examChips}
 ${modeChips}
-<label class="vcheck" for="verifiedonly"><input type="checkbox" id="verifiedonly"> Verified only</label>
+<label class="vcheck" for="verifiedonly"><input type="checkbox" id="verifiedonly"> Verified or confirmed only</label>
 <div class="sortbox"><label class="fsel-label" for="sortsel">Sort</label>
 <select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most rated</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select></div>
 <span id="rescount" aria-live="polite"></span>
@@ -705,6 +759,33 @@ function onlineCoachingPage() {
     }) + footer();
 }
 
+const SOCIAL_LABEL = { instagram: "Instagram", youtube: "YouTube", facebook: "Facebook", linkedin: "LinkedIn", x: "X (Twitter)" };
+function socialLinks(x) {
+  const s = x.socials || {};
+  return Object.keys(SOCIAL_LABEL).filter(k => s[k] && /^https:\/\//.test(s[k])).map(k =>
+    `<a class="action" href="${esc(s[k])}" rel="noopener nofollow ugc" target="_blank" data-track="click"><span class="ic" aria-hidden="true">↗</span> ${SOCIAL_LABEL[k]} <span class="arr" aria-hidden="true">→</span></a>`).join("");
+}
+function portalBlocks(x) {
+  const photos = (x.photos || []).filter(p => /^https:\/\//.test(p)).slice(0, 8);
+  const results = (x.results || []).filter(Boolean);
+  const branches = (x.branches || []).filter(Boolean);
+  return [
+    photos.length ? `<div class="block fade-up"><h2>Photos</h2><div class="inst-photos">${photos.map((p, i) => `<a href="${esc(p)}" target="_blank" rel="noopener"><img src="${esc(p)}" alt="${esc(x.name)} photo ${i + 1}" loading="lazy" width="320" height="220"></a>`).join("")}</div><p class="muted" style="font-size:13px">Photos shared by the institute.</p></div>` : "",
+    x.batches ? `<div class="block fade-up"><h2>Batches</h2><p>${esc(x.batches)}</p></div>` : "",
+    results.length ? `<div class="block fade-up"><h2>Results</h2><ul class="hl-list">${results.map(r => `<li><div>${esc(r)}</div></li>`).join("")}</ul><p class="muted" style="font-size:13px">As claimed by the institute. Our team checks results claims before they're published, but we can't confirm every one independently.</p></div>` : "",
+    branches.length ? `<div class="block fade-up"><h2>Branches</h2><ul class="hl-list">${branches.map(b => `<li><div>${esc(b)}</div></li>`).join("")}</ul></div>` : ""
+  ].join("");
+}
+function coursesBlock(x) {
+  const last = x.courses.map(c => c.updated_at).filter(Boolean).sort().pop();
+  const lastTxt = last ? new Date(last).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" }) : "";
+  return `<div class="course-list">${x.courses.map(c => `<div class="course-item"><h3>${esc(c.title)}</h3>
+<div class="tags">${c.exam ? `<span class="tag">${esc(c.exam)}</span>` : ""}${c.mode ? `<span class="tag grey">${esc(c.mode)}</span>` : ""}${c.duration ? `<span class="tag grey">${esc(c.duration)}</span>` : ""}</div>
+<dl class="glance">${[["Fee", c.fee], ["Next batch", c.batch_start], ["Schedule", c.schedule]].filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
+${c.description ? `<p>${esc(c.description)}</p>` : ""}</div>`).join("")}</div>
+<p class="muted" style="font-size:13px">Fees and batches as listed by the institute${lastTxt ? `, last updated ${lastTxt}` : ""}. Confirm the all-in fee in writing before you pay.</p>`;
+}
+
 function detailPage(x) {
   const cityL = cityLabel(x.city);
   const exams = x.exams.filter(e => e !== "schooling");
@@ -726,7 +807,7 @@ function detailPage(x) {
     [x.city === "online" ? "Availability" : "Locality", x.city === "online" ? onlineCopyFor(x.type).availability : `${x.locality}, ${cityL}`],
     ["Founded", x.estd ? String(x.estd) : ""],
     [x.priceRange ? "Room plans" : "Fees", x.priceRange || ""],
-    ["Batch timings", ""]
+    ["Batch timings", x.timings || ""]
   ].map(([k, v], i) => `<div><dt>${k}</dt><dd${v ? "" : ' class="na"'}>${v ? esc(v) : (k === "Batch timings" ? "Ask the institute" : k === "Fees" ? "Not published" : "Not listed")}</dd></div>`).join("");
   const formHidden = (subject) => `<input type="hidden" name="_subject" value="${subject}">
 <input type="hidden" name="_captcha" value="false">
@@ -745,10 +826,13 @@ ${edgeArt(HERO_ART.b.slice(0, 1), { hero: true })}
 <div class="profile-head">
 <div class="who">
 <div class="tags fadein" style="--d:60ms">${exams.slice(0, 6).map(e => `<span class="tag">${examLabel(e)}</span>`).join("")}${x.mode ? `<span class="tag">${modeLabel[x.mode]}</span>` : ""}${genderTag}</div>
+${x.logo ? `<img class="inst-logo fadein" src="${esc(x.logo)}" alt="${esc(x.name)} logo" width="64" height="64" loading="eager">` : ""}
 <h1>${hw(x.name, x.name.split(" ").length > 1 ? x.name.split(" ").length - 1 : -1)}</h1>
 <div class="addr fadein" style="--d:300ms">${ICON_SM.pin}<span>${esc(x.address)}</span></div>
-${x.verified
-  ? `<div class="status ok fadein" style="--d:400ms">${ICON_SM.check}<span><b>Verified listing.</b> ${esc(x.name)} has confirmed these details with us.</span></div>`
+${x.portal && x.portal.verifiedLevel
+  ? `<div class="status ok fadein" style="--d:400ms">${ICON_SM.check}<span><b>${x.portal.verifiedLevel === "individual" ? "Verified Individual." : "OC4U Verified."}</b> ${x.portal.verifiedLevel === "individual" ? "Our team has checked this person's identity and address documents." : "Our team has checked this institute's registration, GST, address and owner documents."}${x.portal.verifiedUntil ? ` Valid until ${new Date(x.portal.verifiedUntil).toLocaleString("en-IN", { month: "long", year: "numeric" })}.` : ""}</span></div>`
+  : x.verified
+  ? `<div class="status fadein" style="--d:400ms">${ICON_SM.check}<span><b>Confirmed by the institute.</b> ${esc(x.name)} has confirmed these details with us, but hasn't completed document verification yet.</span></div>`
   : `<div class="status fadein" style="--d:400ms">${ICON_SM.info}<span><b>Details from public sources.</b> This institute hasn't confirmed its listing with us yet, so it doesn't carry a Verified badge.</span></div>`}
 <div class="hero-acts fadein" style="--d:500ms">
 <a class="btn" href="#callback">Request a callback ${arw}</a>
@@ -767,9 +851,10 @@ ${ratingBoxes ? `<div class="rating-stack">${ratingBoxes}</div>` : `<div class="
 <div class="block fade-up"><h2>About ${esc(x.name)}</h2><p>${describe(x)}</p></div>
 <div class="block fade-up"><h2>At a glance</h2><dl class="glance">${glance}</dl></div>
 ${highlights ? `<div class="block fade-up"><h2>Highlights</h2><ul class="hl-list">${highlights}</ul></div>` : ""}
+${portalBlocks(x)}
 ${x.ecosystem ? `<div class="block fade-up"><h2>The ${esc(x.name)} ecosystem</h2><ul class="hl-list">${x.ecosystem.map(p => `<li><div><a href="${p.url}" rel="noopener"><strong>${esc(p.name)}</strong></a>: ${esc(p.desc)}${p.guideSlug ? ` <a href="${p.guideSlug}.html">Read our full guide →</a>` : ""}</div></li>`).join("")}</ul></div>` : ""}
-<div class="block fade-up"><h2>Fees &amp; batches</h2>
-<p>We don't publish fee tables unless the institute has confirmed them, because outdated fees mislead more than they help. Request a callback for current fees, batch timings and any scholarship tests.</p>
+<div class="block fade-up" id="courses"><h2>${x.courses && x.courses.length ? "Courses &amp; fees" : "Fees &amp; batches"}</h2>
+${x.courses && x.courses.length ? coursesBlock(x) : `<p>We don't publish fee tables unless the institute has confirmed them, because outdated fees mislead more than they help. Request a callback for current fees, batch timings and any scholarship tests.</p>`}
 <div class="note">Before enrolling anywhere: sit in one ordinary class of the batch you'd actually join, and get the all-in fee, with material and test series included, in writing.</div></div>
 <div class="block fade-up" id="reviews"><h2>Ratings &amp; reviews</h2>
 ${x.rating && x.ratingCount ? `<div class="agg"><div class="big">${x.rating.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(x.ratingCount, "rating")} on ${src}.</b> Shown as listed on ${src}. These ratings were not collected by ${esc(B.name)}.</p></div>` : ""}
@@ -795,7 +880,7 @@ ${formHidden(`New review — ${esc(x.name)} (${cityL})`)}
 </form>
 </div>
 </div>
-<p class="muted" style="font-size:14px;margin-top:22px">See something outdated? <a href="contact.html" style="color:var(--blue);text-decoration:underline">Report a correction</a>. Corrections usually go live within 48 hours.</p>
+<p class="muted" style="font-size:14px;margin-top:22px">See something outdated? <a href="contact.html" style="color:var(--blue);text-decoration:underline">Report a correction</a>. Corrections usually go live within 48 hours.${x.portal && x.portal.claimed ? ` This profile is managed by the institute; changes to its name, contact details and address are checked by our team before they go live.` : ` Run ${esc(x.name)}? <a href="/institute?claim=${x.slug}" style="color:var(--blue);text-decoration:underline">Claim this listing free</a>.`}</p>
 <script type="application/ld+json">${JSON.stringify(Object.assign({
   "@context": "https://schema.org", "@type": "EducationalOrganization",
   "name": x.name, "url": `${B.siteUrl}/institute-${x.slug}`,
@@ -820,7 +905,8 @@ ${formHidden(`New enquiry — ${esc(x.name)} (${cityL})`)}
 </form>
 </div>
 <div class="side-actions fade-up">
-${x.website ? `<a class="action" href="${x.website}" rel="noopener nofollow" target="_blank"><span class="ic" aria-hidden="true">↗</span> Official website <span class="arr" aria-hidden="true">→</span></a>` : ""}
+${x.website ? `<a class="action" href="${x.website}" rel="noopener nofollow" target="_blank" data-track="click"><span class="ic" aria-hidden="true">↗</span> Official website <span class="arr" aria-hidden="true">→</span></a>` : ""}
+${socialLinks(x)}
 ${x.city !== "online" ? `<a class="action" href="${mapsUrl}" rel="noopener" target="_blank"><span class="ic" aria-hidden="true">◎</span> Open in Google Maps <span class="arr" aria-hidden="true">→</span></a>` : ""}
 <a class="action" href="${listHref}"><span class="ic" aria-hidden="true">≡</span> All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} <span class="arr" aria-hidden="true">→</span></a>
 </div>
@@ -834,7 +920,8 @@ ${others.length ? `<section class="band-blue"><div class="container section">
 <div class="compare">${others.map(o => `<a class="fade-up" href="institute-${o.slug}.html"><span>${o.city === "online" ? "Online" : esc(o.locality)} · ${esc(o.exams.filter(e => e !== "schooling").slice(0, 2).map(examLabel).join(", "))}</span><b>${esc(o.name)}</b><span>${o.rating ? `<span class="pill" style="font-size:13px">★ ${o.rating.toFixed(1)}</span> ${o.ratingCount} on ${ratingSrc(o)}` : o.googleRating ? `<span class="pill" style="font-size:13px">★ ${o.googleRating.toFixed(1)}</span> ${o.googleReviewCount} on Google` : "No ratings yet"}</span></a>`).join("")}</div>
 <a class="btn" style="margin-top:32px" href="${listHref}">All ${x.city === "online" ? "online platforms" : `institutes in ${cityL}`} ${arw}</a>
 </div></section>` : ""}
-</main>` + footer();
+</main>
+<script>(function(){var u="${PORTAL.SUPABASE_URL}/rest/v1/rpc/track_event",k="${PORTAL.SUPABASE_KEY}",s="${x.slug}";function t(kind){try{fetch(u,{method:"POST",keepalive:true,headers:{apikey:k,"Content-Type":"application/json"},body:JSON.stringify({p_slug:s,p_kind:kind})}).catch(function(){})}catch(e){}}if(!/bot|crawl|spider/i.test(navigator.userAgent))t("view");document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[data-track],a[href^="tel:"],a[href^="https://wa.me"],a[href*="google.com/maps"],form button[type=submit]');if(a)t("click")},true)})();</script>` + footer();
 }
 
 function simplePage(file, title, desc, bodyHtml, active) {
@@ -866,7 +953,8 @@ ${pageHero({ crumbs: [["index.html", "Home"], ["", "About"]], badge: `About ${B.
 <div class="eyebrow">How we work</div>
 <h2 class="sec-title reveal">${rv("Every listing tells you how far to trust it")}</h2>
 <div class="labels">
-<div class="label-card fade-up"><span class="tag green">✓ Verified</span><p>The institute has confirmed its details with us. Verified institutes get a richer profile and direct enquiries.</p></div>
+<div class="label-card fade-up"><span class="tag green">✓ OC4U Verified</span><p>Our team has checked the institute's registration, GST, address and owner ID documents (ID and address for individual tutors). The badge lasts 12 months.</p></div>
+<div class="label-card fade-up"><span class="tag">✓ Confirmed by institute</span><p>The institute has confirmed its details with us, but hasn't completed document verification yet.</p></div>
 <div class="label-card fade-up"><span class="tag badge-unverified">From public sources</span><p>We built the listing from public information and the institute hasn't confirmed it yet. We say so on the page.</p></div>
 <div class="label-card fade-up"><span class="tag">★ Rating · source named</span><p>Ratings come from public review sites such as Justdial and Google, and each one names its source. Institutes can't buy, edit or hide them here.</p></div>
 </div>
@@ -927,17 +1015,10 @@ ${pageHero({ crumbs: [["index.html", "Home"], ["", "List your institute"]], badg
 <div class="note fade-up" style="margin-top:24px"><b>What we ask in return:</b> accuracy. Keep your details current and let student reviews stand. We don't remove negative reviews unless they break our guidelines.</div>
 </div>
 <div class="side-card fade-up" id="register" style="scroll-margin-top:100px">
-<h3>Register your institute</h3>
-<p class="muted">Takes under a minute. We'll contact you to confirm your details.</p>
-<form class="enq-form" action="https://formsubmit.co/${B.email}" method="POST">
-${formBase("New institute registration — Online Coaching 4u")}
-<label>Institute name<input name="institute" required autocomplete="organization"></label>
-<label>Your name<input name="name" required autocomplete="name"></label>
-<label>Mobile<input name="phone" type="tel" required pattern="[0-9+ -]{10,15}" autocomplete="tel" inputmode="tel" placeholder="+91"></label>
-<label>City<input name="city" required autocomplete="address-level2"></label>
-<button class="btn btn-primary" type="submit">Register free</button>
-<p class="form-note">By registering you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>.</p>
-</form>
+<h3>Create your free institute account</h3>
+<p class="muted">Takes two minutes. Add a new listing, or claim your institute if it's already on ${B.name}. Then manage your profile and courses yourself.</p>
+<a class="btn btn-primary" href="/institute?signup=1" style="width:100%;justify-content:center">Create free account</a>
+<p class="form-note" style="margin-top:12px">Already have an account? <a href="/institute">Log in</a>. By signing up you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>.</p>
 </div>
 </div>
 </div></section>
@@ -945,9 +1026,9 @@ ${formBase("New institute registration — Online Coaching 4u")}
 <div class="eyebrow" style="color:var(--olive-ink)">How listing works</div>
 <h2 class="sec-title reveal" style="margin-bottom:32px">${rv("From sign-up to verified", 3, "t")}</h2>
 <div class="steps">
-<div class="step fade-up"><b>1</b><h3>Register</h3><p>Send your institute name, city and a contact number.</p></div>
-<div class="step fade-up"><b>2</b><h3>Confirm your details</h3><p>We check courses, address and contact details with you.</p></div>
-<div class="step fade-up"><b>3</b><h3>Get the Verified badge</h3><p>Your profile shows the badge and starts receiving enquiries.</p></div>
+<div class="step fade-up"><b>1</b><h3>Create an account</h3><p>Sign up free, then add your institute or claim your existing listing.</p></div>
+<div class="step fade-up"><b>2</b><h3>Upload documents</h3><p>GST, registration, address proof and owner ID for institutes. Individual tutors need only ID and address proof.</p></div>
+<div class="step fade-up"><b>3</b><h3>Get the Verified badge</h3><p>Our team checks your documents. Once verified, everyday updates like courses, timings and photos go live instantly.</p></div>
 </div>
 </div></section>
 ${ctaBand("Questions before listing?", "Write to us and we'll help you set up your profile.", "contact.html", "Contact us", 2)}
@@ -1522,20 +1603,30 @@ ${p.cta ? `<div class="post-sticky-cta" id="postStickyCta">
 const privacyBody = `
 <section class="hero hero-sm"><div class="container"><h1>Privacy Policy</h1></div></section>
 <section class="section container prose">
-<p>Last updated: July 2026</p>
+<p>Last updated: November 2026</p>
 <p><strong>What we collect.</strong> When you submit an enquiry or registration form, we collect the details you enter (name, contact number, message) solely to connect you with the institute or respond to you.</p>
 <p><strong>What we don't do.</strong> We do not sell your personal data. We do not share your contact details with any institute other than the one you enquired about.</p>
-<p><strong>Cookies.</strong> This site stores only a single preference (your selected city) in your browser's local storage. No tracking cookies, no ad networks.</p>
-<p><strong>Removal.</strong> Email ${B.email} to have your enquiry data deleted.</p>
+<p><strong>Analytics and cookies.</strong> We use Google Analytics to understand how visitors use the site. We also count profile views and clicks on each listing (without names, emails or other personal details) so institutes can see how their profile performs. The site stores your selected city in your browser, and the institute panel stores your login session in your browser. We don't run ad networks.</p>
+<h2>Institute accounts and verification documents</h2>
+<p><strong>What we collect.</strong> When an institute or tutor creates an account, we collect the account holder's name, email, phone number (optional) and the listing details they enter. To verify ownership or award the OC4U Verified badge, we ask for documents: GST certificate, business registration, address proof and the owner's ID (PAN or a masked Aadhaar only; we never ask for a full Aadhaar number). Individual tutors only need ID and address proof.</p>
+<p><strong>Why.</strong> Documents are used only to confirm that the person managing a listing really runs it and that the listing's name and address are genuine. Uploaded files are checked by our team, with help from an automated pre-check, and are never shown on the site.</p>
+<p><strong>How long we keep them.</strong> Documents are stored privately and access is limited to our verification team. We delete them once verification is approved. Documents from requests that are rejected or never completed are deleted within 90 days. We keep a record of each decision (approved or not, and the date).</p>
+<p><strong>Contact details.</strong> Phone numbers and emails entered in the institute panel are for our team only and are not published.</p>
+<p><strong>Removal.</strong> Email ${B.email} to have your enquiry data, institute account or documents deleted.</p>
 </section>`;
 
 const termsBody = `
 <section class="hero hero-sm"><div class="container"><h1>Terms &amp; Conditions</h1></div></section>
 <section class="section container prose">
-<p>Last updated: July 2026</p>
+<p>Last updated: November 2026</p>
 <p><strong>Information accuracy.</strong> Listing details are provided by institutes or compiled from public sources, and are marked accordingly. We correct errors promptly when reported but cannot guarantee every detail is current. Always confirm fees, batches and facilities directly before paying.</p>
 <p><strong>Reviews.</strong> Reviews reflect the opinions of their authors. We remove reviews only for abuse, spam or impersonation — not for being negative.</p>
 <p><strong>Free service.</strong> ${B.name} is free for students. Institutes may purchase promoted placement, which is always labelled.</p>
+<h2>For institutes and tutors</h2>
+<p><strong>Claiming and adding listings.</strong> Only the owner of an institute, or someone they have authorised, may claim or add its listing. We may ask for documents before approving a claim, and we may move a listing to a different owner if ownership is disputed and proven.</p>
+<p><strong>Verified badge.</strong> The OC4U Verified badge means our team has checked the documents described in our <a href="privacy.html">Privacy Policy</a>. It is valid for 12 months and can be removed if documents expire or the listing turns out to be misleading. The badge cannot be bought, and it doesn't change rankings or ratings.</p>
+<p><strong>Your content.</strong> You are responsible for keeping your listing, courses and fees accurate. Verified listings can publish everyday updates instantly; changes to name, contact details, address, website and results claims are reviewed before they go live. We may edit, hide or remove content that is misleading, promotional beyond fact, or that breaks these terms. Fees must show the full amount payable; "limited-time" or fake-discount claims aren't allowed. Photos must be your own and must not show students without their consent.</p>
+<p><strong>Reviews and ratings.</strong> Institutes cannot remove, edit or pay to change reviews or ratings.</p>
 <p><strong>Contact.</strong> ${B.email}</p>
 </section>`;
 
@@ -1584,6 +1675,23 @@ fs.mkdirSync(path.join(OUT, "assets"), { recursive: true });
 fs.writeFileSync(path.join(OUT, "assets", "style.css"), css);
 fs.writeFileSync(path.join(OUT, "assets", "app.js"), js);
 fs.writeFileSync(path.join(OUT, "assets", "search-index.json"), JSON.stringify(searchIndex));
+/* per-listing snapshot the portal uses to pre-fill edit forms */
+fs.mkdirSync(path.join(OUT, "assets", "listing-data"), { recursive: true });
+L.forEach(x => fs.writeFileSync(path.join(OUT, "assets", "listing-data", `${x.slug}.json`), JSON.stringify(Object.assign({}, x, { portal: undefined, courses: undefined }))));
+/* listing catalog for the institute portal (claim search + admin sync) */
+fs.writeFileSync(path.join(OUT, "assets", "catalog.json"), JSON.stringify(L.map(x => ({ slug: x.slug, name: x.name, type: x.type, city: x.city, locality: x.locality, website: x.website || "", address: x.address || "" }))));
+/* institute panel + admin panel (not in the sitemap, not indexed) */
+const portalSrc = path.join(__dirname, "portal");
+if (fs.existsSync(portalSrc)) {
+  const portalOut = path.join(OUT, "assets", "portal");
+  fs.mkdirSync(portalOut, { recursive: true });
+  for (const f of fs.readdirSync(portalSrc)) {
+    const src = fs.readFileSync(path.join(portalSrc, f), "utf8")
+      .replace(/__SUPABASE_URL__/g, PORTAL.SUPABASE_URL).replace(/__SUPABASE_KEY__/g, PORTAL.SUPABASE_KEY).replace(/__ASSET_V__/g, ASSET_V);
+    if (f.endsWith(".html")) fs.writeFileSync(path.join(OUT, f), src);
+    else fs.writeFileSync(path.join(portalOut, f), src);
+  }
+}
 
 /* copy blog images */
 const blogSrc = path.join(__dirname, "assets", "blog");
@@ -1710,7 +1818,7 @@ const urls = PAGES.filter(f => f !== "404.html" && f !== "thanks.html").map(f =>
 fs.writeFileSync(path.join(OUT, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 fs.writeFileSync(path.join(OUT, "robots.txt"),
-  `User-agent: *\nAllow: /\n\nSitemap: ${B.siteUrl}/sitemap.xml\n`);
+  `User-agent: *\nAllow: /\nDisallow: /admin$\nDisallow: /institute$\n\nSitemap: ${B.siteUrl}/sitemap.xml\n`);
 
 /* favicon (SVG of the brand mark) */
 fs.writeFileSync(path.join(OUT, "favicon.svg"),
