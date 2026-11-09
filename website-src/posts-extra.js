@@ -1,6 +1,70 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "clat-2027-registration-closed-correction-window-ends-10-november-ailet-2027-closes-9nov-update",
+    "title": "CLAT 2027 Correction Window Ends 10 November; AILET 2027 Registration Also Closes 10 November",
+    "category": "CLAT & Law",
+    "type": "exam-news",
+    "date": "9 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=clat",
+      "text": "Compare verified CLAT coaching institutes"
+    },
+    "excerpt": "CLAT 2027 registration closed on 7 November after an extension, and the correction window ends on 10 November. AILET 2027 registration also closes on 10 November. Five dated pointers inside.",
+    "faqs": [
+      {
+        "q": "What is the last date to edit the CLAT 2027 application form?",
+        "a": "10 November 2026, 11:59 pm, through the candidate login, according to PW Live. The Consortium of NLUs says it will not accept change requests after that date."
+      },
+      {
+        "q": "Was the CLAT 2027 registration deadline extended?",
+        "a": "Yes. Reports from PW Live and CareerIndia say it was extended to 7 November 2026, after the earlier 31 October deadline."
+      },
+      {
+        "q": "When is CLAT 2027?",
+        "a": "6 December 2026, in offline (pen-and-paper) mode, according to CareerIndia and PW Live. The admit card is expected in the third week of November, per PW Live; this is not yet an official date."
+      },
+      {
+        "q": "When does AILET 2027 registration close, and when is the exam?",
+        "a": "Registration closes on 10 November 2026, and the exam is on 13 December 2026, 2:00 to 4:00 pm, offline, according to PW Live and Careers360. Apply at nationallawuniversitydelhi.in."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 9 November 2026.</strong></p>\n<p>The CLAT 2027 correction window closes on 10 November 2026, and AILET 2027 registration also ends on 10 November, so tomorrow is the last day for both.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>CLAT 2027 registration:</strong> opened 3 August 2026; deadline extended to 7 November 2026 (earlier date: 31 October); now closed</p>\n<p><strong>CLAT 2027 correction window:</strong> open until 10 November 2026, 11:59 pm, via candidate login (<a href=\"https://consortiumofnlus.ac.in/clat-2027/\" rel=\"noopener\" target=\"_blank\">consortiumofnlus.ac.in</a>)</p>\n<p><strong>CLAT 2027 exam:</strong> 6 December 2026, offline; admit card expected in the third week of November (reported, not yet official)</p>\n<p><strong>AILET 2027:</strong> registration closes 10 November 2026; exam on 13 December 2026, 2:00 to 4:00 pm, offline (<a href=\"https://nationallawuniversitydelhi.in/\" rel=\"noopener\" target=\"_blank\">nationallawuniversitydelhi.in</a>)</p>\n</div>\n\n<h2>CLAT 2027: what changed</h2>\n<p>Our 30 October update said CLAT 2027 registration would close on 31 October. According to <a href=\"https://www.pw.live/news/clat-2027-application-correction-dates-last-date-edit-form\" rel=\"noopener\" target=\"_blank\">PW Live</a> and <a href=\"https://www.careerindia.com/news/clat-2027-application-correction-window-open-edit-details-by-nov-10-068135.html\" rel=\"noopener\" target=\"_blank\">CareerIndia</a>, both published on 4 November, the Consortium of NLUs extended the deadline to 7 November 2026 for candidates who had not yet applied, and opened a correction window on 4 November that runs until 10 November.</p>\n<p>The fields reported as editable are the test-centre preference, candidate name, date of birth, the programme applied for (UG or PG) and reservation eligibility. PW Live warns that photographs, signatures, email addresses and mobile numbers may not be editable. The Consortium is reported to have said 10 November is the final date and later requests will not be accepted.</p>\n<p>The exam stays on 6 December 2026 in offline mode. PW Live says the admit card is expected in the third week of November; treat that as an expectation until the Consortium posts it.</p>\n<p>Please note that the Consortium's CLAT 2027 page showed no dates when we opened it today, so these dates rest on the two reports above and not on a notice we read ourselves. Confirm on the official site before acting.</p>\n\n<h2>AILET 2027: registration closes tomorrow</h2>\n<p><a href=\"https://www.pw.live/news/ailet-2027-application-deadline\" rel=\"noopener\" target=\"_blank\">PW Live</a> reports that AILET 2027 registration for BA LLB (Hons) and LLM at NLU Delhi closes on 10 November 2026 with no extension mentioned. <a href=\"https://law.careers360.com/articles/ailet-2027-registration\" rel=\"noopener\" target=\"_blank\">Careers360</a> gives these details: registration opened on 7 August; the exam is on 13 December 2026, 2:00 to 4:00 pm, offline; the fee is Rs 3,000 for General, OBC, EWS and foreign nationals and Rs 1,000 for SC, ST and PwD, with SC and ST women below the poverty line exempt; and the admit card is listed for 30 November.</p>\n<p>For BA LLB (Hons), Careers360 lists a Class 12 pass or appearing, with minimum marks of 45 per cent (General), 42 per cent (OBC) and 40 per cent (SC/ST), and no upper age limit. NLU Delhi's own page did not show these details when we opened it, so check the AILET notice and information bulletin on <a href=\"https://nationallawuniversitydelhi.in/\" rel=\"noopener\" target=\"_blank\">nationallawuniversitydelhi.in</a> before paying the fee.</p>\n\n<h2>What it means for students</h2>\n<p>If you applied for CLAT, log in today and check the name, date of birth, programme and category printed on your form, because these are the details most often entered wrongly. Re-check your test-city choice too, as centres can fill. If you have not applied for AILET and want it, you have until tomorrow; keep your Class 12 marksheet details and category certificate ready.</p>\n<p>With CLAT on 6 December and AILET a week later on 13 December, the two papers are only seven days apart, so plan full-length mocks for both now. Compare institutes on our <a href=\"blog-law.html\">CLAT and law blog</a>.</p>\n\n<h2>Five dated pointers (9 November 2026)</h2>\n<ul>\n<li>As of 9 November 2026, CLAT 2027 registration has closed after an extension to 7 November 2026 (<a href=\"https://www.pw.live/news/clat-2027-application-correction-dates-last-date-edit-form\" rel=\"noopener\" target=\"_blank\">PW Live</a>).</li>\n<li>As of 9 November 2026, the CLAT 2027 correction window ends on 10 November 2026 at 11:59 pm (<a href=\"https://www.pw.live/news/clat-2027-application-correction-dates-last-date-edit-form\" rel=\"noopener\" target=\"_blank\">PW Live</a>).</li>\n<li>As of 9 November 2026, CLAT 2027 is scheduled for 6 December 2026 in offline mode (<a href=\"https://www.careerindia.com/news/clat-2027-application-correction-window-open-edit-details-by-nov-10-068135.html\" rel=\"noopener\" target=\"_blank\">CareerIndia</a>).</li>\n<li>As of 9 November 2026, AILET 2027 registration closes on 10 November 2026 (<a href=\"https://www.pw.live/news/ailet-2027-application-deadline\" rel=\"noopener\" target=\"_blank\">PW Live</a>).</li>\n<li>As of 9 November 2026, the AILET 2027 exam is on 13 December 2026, 2:00 to 4:00 pm (<a href=\"https://law.careers360.com/articles/ailet-2027-registration\" rel=\"noopener\" target=\"_blank\">Careers360</a>).</li>\n</ul>\n<p><strong>Last updated: 9 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-clat-coaching-institutes-hubballi-2026",
+    "title": "Top CLAT Coaching Institutes in Hubballi-Dharwad (2026)",
+    "category": "CLAT & Law",
+    "type": "coaching-guides",
+    "date": "9 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-hubballi.html",
+      "text": "Browse all verified coaching institutes in Hubballi"
+    },
+    "excerpt": "Hubballi-Dharwad's CLAT coaching is small. Law Prep Tutorial (Vidya Nagar) is the one classroom centre confirmed on its own page, and Rodha CLAT offers a free online option.",
+    "faqs": [
+      {
+        "q": "Which is the best CLAT coaching institute in Hubballi-Dharwad?",
+        "a": "There is no single best. Law Prep Tutorial in Vidya Nagar is the one classroom centre whose own official page confirms a Hubballi centre; Rodha CLAT is a free online alternative. Attend a demo and ask for Hubballi-specific results."
+      },
+      {
+        "q": "Why does this list have only two institutes instead of ten?",
+        "a": "We included only institutes whose official website confirms a Hubballi centre or an online programme open to Hubballi students. Other names appear on directory sites but could not be confirmed, so we left them out."
+      },
+      {
+        "q": "Where is Law Prep Tutorial in Hubballi?",
+        "a": "Vidya Nagar, Hubballi, Karnataka 580031, according to its official Hubli-Dharwad page. The page lists an offline centre."
+      },
+      {
+        "q": "When is CLAT 2027?",
+        "a": "6 December 2026, offline. Registration has closed and the correction window ends on 10 November 2026, per PW Live and CareerIndia."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 9 November 2026.</strong></p>\n<p>Hubballi-Dharwad has one classroom CLAT institute confirmed on its own official page, Law Prep Tutorial in Vidya Nagar, plus Rodha CLAT as a free online option. This guide lists only what we could confirm, and says what we could not.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Hubballi-Dharwad, Dharwad district, Karnataka</p>\n<p><strong>Exam covered:</strong> CLAT 2027 (also AILET and other law entrances)</p>\n<p><strong>Institutes listed:</strong> 2 (one classroom institute and one online platform), each checked against official pages as of 9 November 2026</p>\n<p><strong>Coaching area:</strong> Vidya Nagar, Hubballi</p>\n<p><strong>Upcoming dates:</strong> CLAT 2027 on 6 December 2026, correction window ends 10 November (<a href=\"https://www.pw.live/news/clat-2027-application-correction-dates-last-date-edit-form\" rel=\"noopener\" target=\"_blank\">PW Live</a>); AILET 2027 on 13 December 2026 (<a href=\"https://law.careers360.com/articles/ailet-2027-registration\" rel=\"noopener\" target=\"_blank\">Careers360</a>)</p>\n</div>\n\n<h2>Why Hubballi-Dharwad for CLAT coaching</h2>\n<p>Hubballi is the headquarters of the Karnataka State Law University, and the twin city is north Karnataka's education hub. Even so, students aiming for a National Law University usually leave Karnataka for the degree, so the test preparation matters more than the local campus. The local coaching market is small, which is why a verified short list is more useful than a padded top ten.</p>\n\n<h2>How we picked this list</h2>\n<p>We included a classroom institute only if its own official website names a Hubballi centre offering CLAT preparation. We found Law Prep Tutorial's Hubli-Dharwad page. We could not find a Career Launcher, IMS or LegalEdge centre page for Hubballi, and directory-only names with no official page were left out. No institute paid for its place here.</p>\n\n<h3>1. Law Prep Tutorial Hubballi (Vidya Nagar)</h3>\n<p>Law Prep Tutorial's <a href=\"https://www.lawpreptutorial.com/hubli-dharwad\" rel=\"noopener\" target=\"_blank\">Hubli-Dharwad page</a> gives the address as Vidya Nagar, Hubballi 580031 and shows an offline centre. It lists three CLAT batches: a CLAT 2027 Target Batch of 800+ hours for Class 12 students, a CLAT 2027 Finisher Batch of 800+ hours for droppers, and a CLAT 2028 Foundation Batch of 1,200+ hours. The company says on its <a href=\"https://lawpreptutorial.com/about-us\" rel=\"noopener\" target=\"_blank\">about page</a> that it has taught law aspirants since 2001 and runs 60+ offline centres, which are its own claims. The Hubballi page also advertises scholarships and discounts and visitor counts; we cannot verify those. Fees are not published, so ask the centre for the full fee, what it covers and the scholarship test terms.</p>\n\n<h3>2. Rodha CLAT (Online)</h3>\n<p>Rodha CLAT is an online programme, so Hubballi students can join without relocating. Its <a href=\"https://clat.rodha.co.in/\" rel=\"noopener\" target=\"_blank\">official page</a> describes the Neenv Batch as free, with 300+ hours of CLAT classes on YouTube, 300+ topic-wise practice tests and 4,000+ curated practice questions. The page does not say whether full-length mocks are part of the free batch, and it gives no enrolment dates or open/closed status, so confirm with Rodha before relying on it this close to the exam.</p>\n\n<h2>What to ask before you join</h2>\n<p>Ask for the batch start date and how it fits the 6 December exam, batch size, who teaches Legal Reasoning, Logical Reasoning and English, and how many full-length mocks are included. Ask what the fee covers and whether results quoted come from Hubballi or from the brand across India. Sit a demo class and compare it with Rodha's free sessions.</p>\n\n<h2>Which one suits whom</h2>\n<p>If you want a fixed classroom routine in Hubballi, Law Prep Tutorial in Vidya Nagar is the one confirmed centre; its Foundation batch suits Class 11 students aiming for CLAT 2028. If you are appearing in 2027 and want flexibility at no cost, Rodha's online batch works from home. With CLAT on 6 December and AILET on 13 December, the weeks left are best spent on mocks and analysis. See every verified listing on our <a href=\"coaching-hubballi.html\">Hubballi coaching page</a> and the latest law exam updates on our <a href=\"blog-law.html\">CLAT and law blog</a>.</p>\n<p><strong>Last updated: 9 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "upsc-cse-mains-2026-result-declared-2526-qualified-daf-2-11-25-november-6nov-update",
     "title": "UPSC CSE Mains 2026 Result Declared: 2,526 Qualify for Interview; DAF-II 11-25 November",
     "category": "UPSC & Civil Services",
