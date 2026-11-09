@@ -80,7 +80,8 @@
       "kolhapur",
       "bhilai",
       "thrissur",
-      "rourkela"
+      "rourkela",
+      "hubballi"
     ],
     "certification": [
       "online"
@@ -15149,6 +15150,28 @@
         "Fee figures on its page are inconsistent"
       ],
       "mode": "online"
+    },
+    {
+      "slug": "law-prep-tutorial-hubballi",
+      "type": "coaching",
+      "name": "Law Prep Tutorial Hubballi (Vidya Nagar)",
+      "city": "hubballi",
+      "locality": "Vidya Nagar",
+      "address": "Vidya Nagar, Hubballi, Karnataka 580031",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.lawpreptutorial.com/hubli-dharwad",
+      "about": "Law Prep Tutorial's official Hubli-Dharwad page lists an offline centre in Vidya Nagar with three CLAT batches: a CLAT 2027 Target Batch for Class 12 students, a CLAT 2027 Finisher Batch for droppers and a CLAT 2028 Foundation Batch, each quoted at 800+ to 1,200+ teaching hours. The company says it has taught law aspirants since 2001. Fees are not published on the page, and its scholarship and result figures are its own claims.",
+      "highlights": [
+        "Official page lists an offline CLAT centre in Vidya Nagar",
+        "Target (2027), Finisher (2027) and Foundation (2028) batches",
+        "800+ to 1,200+ hours quoted per batch",
+        "Fees on enquiry; scholarship and result claims are the centre's own"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15380,6 +15403,9 @@
     },
     "coaching-rourkela": {
       "intro": "<p>Rourkela, the steel city of Odisha, has a small CAT and MBA-entrance coaching market centred on Koelnagar. Career Launcher has a confirmed centre there, T.I.M.E. lists Rourkela on its official page, and Rodha is an online option for students who prefer to prepare from home. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-hubballi": {
+      "intro": "<p>Hubballi-Dharwad is north Karnataka's main education hub and the seat of the Karnataka State Law University, yet its CLAT coaching market is small. Law Prep Tutorial's Vidya Nagar centre is the one classroom institute whose own official page confirms a Hubballi centre, and Rodha CLAT is a free online option for students who prefer to prepare from home. Every listing here has been checked against the institute's official website.</p>"
     }
   }
 }
