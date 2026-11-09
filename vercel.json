@@ -50,6 +50,19 @@
       ]
     },
     {
+      "source": "/assets/portal/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, must-revalidate"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
       "source": "/assets/(style.css|app.js)",
       "headers": [
         {

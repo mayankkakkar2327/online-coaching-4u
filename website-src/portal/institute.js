@@ -445,12 +445,12 @@
   function badgeCard(l, verified, badgeName) {
     if (l.status !== "published") return "";
     const site = "https://www.onlinecoaching4u.in", url = `${site}/institute-${l.slug}`;
-    const vb = `<a href="${url}" target="_blank" rel="noopener" title="${badgeName} on OnlineCoaching4U"><img src="${site}/assets/portal/${l.kind === "individual" ? "badge-individual" : "badge-verified"}.svg" alt="${badgeName} on OnlineCoaching4U" width="180" height="56"></a>`;
-    const rb = `<a href="${url}#reviews" target="_blank" rel="noopener" title="Review us on OnlineCoaching4U"><img src="${site}/assets/portal/badge-review.svg" alt="Review us on OnlineCoaching4U" width="180" height="56"></a>`;
+    const vb = `<a href="${url}" target="_blank" rel="noopener" title="${badgeName} on OnlineCoaching4U"><img src="${site}/assets/portal/${l.kind === "individual" ? "badge-individual" : "badge-verified"}.svg" alt="${badgeName} on OnlineCoaching4U" width="210" height="56"></a>`;
+    const rb = `<a href="${url}#reviews" target="_blank" rel="noopener" title="Review us on OnlineCoaching4U"><img src="${site}/assets/portal/badge-review.svg" alt="Review us on OnlineCoaching4U" width="210" height="56"></a>`;
     return `<div class="card"><h2>Badges for your website</h2>
       <p class="muted small">Optional. Adding a badge to your website doesn't affect your ranking or verification on OC4U.</p>
-      ${verified ? `<h3 style="margin-top:14px">${badgeName} badge</h3><div style="margin:8px 0"><img src="/assets/portal/${l.kind === "individual" ? "badge-individual" : "badge-verified"}.svg" alt="" width="180" height="56"></div><code class="snip">${esc(vb)}</code><button class="btn sm ghost" data-copy="v" style="margin-top:8px">Copy code</button>` : `<p class="small" style="margin-top:10px">The Verified badge becomes available here once your listing is verified.</p>`}
-      <h3 style="margin-top:18px">"Review us" button</h3><div style="margin:8px 0"><img src="/assets/portal/badge-review.svg" alt="" width="180" height="56"></div><code class="snip">${esc(rb)}</code><button class="btn sm ghost" data-copy="r" style="margin-top:8px">Copy code</button></div>`
+      ${verified ? `<h3 style="margin-top:14px">${badgeName} badge</h3><div style="margin:8px 0"><img src="/assets/portal/${l.kind === "individual" ? "badge-individual" : "badge-verified"}.svg" alt="" width="210" height="56"></div><code class="snip">${esc(vb)}</code><button class="btn sm ghost" data-copy="v" style="margin-top:8px">Copy code</button>` : `<p class="small" style="margin-top:10px">The Verified badge becomes available here once your listing is verified.</p>`}
+      <h3 style="margin-top:18px">"Review us" button</h3><div style="margin:8px 0"><img src="/assets/portal/badge-review.svg" alt="" width="210" height="56"></div><code class="snip">${esc(rb)}</code><button class="btn sm ghost" data-copy="r" style="margin-top:8px">Copy code</button></div>`
       .replace(/data-copy="v"/, `data-copy="v" onclick="navigator.clipboard.writeText(${esc(JSON.stringify(vb))});P.toast('Copied.')"`)
       .replace(/data-copy="r"/, `data-copy="r" onclick="navigator.clipboard.writeText(${esc(JSON.stringify(rb))});P.toast('Copied.')"`);
   }
