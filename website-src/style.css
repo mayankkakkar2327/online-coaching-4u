@@ -601,3 +601,13 @@ body.nav-open{overflow:hidden}
 .btn-lav:hover{background:var(--yellow);color:var(--navy)}
 .star-input{position:relative;padding-top:30px}
 .star-input legend{position:absolute;top:0;left:0;float:none;width:auto;margin:0}
+
+/* ---------- institute portal additions on profile pages ---------- */
+.inst-logo{display:block;width:64px;height:64px;object-fit:contain;background:#fff;border-radius:12px;padding:6px;margin:14px 0}
+.inst-photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:8px 0}
+.inst-photos img{width:100%;height:120px;object-fit:cover;border-radius:10px;display:block}
+.course-list{display:grid;gap:14px;margin:8px 0 12px}
+.course-item{border:1px solid rgba(43,57,158,.15);border-radius:14px;padding:16px 18px;background:#fff}
+.course-item h3{margin:0 0 8px;font-size:18px}
+.course-item .glance{margin:10px 0 0}
+.course-item p{margin:10px 0 0;font-size:15px}
