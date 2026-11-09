@@ -2,6 +2,7 @@
 module.exports = [
   {
     "slug": "clat-2027-registration-closed-correction-window-ends-10-november-ailet-2027-closes-9nov-update",
+    "image": "assets/blog/clat-2027-registration-closed-correction-window-ends-10-november-ailet-2027-closes-9nov-update.png",
     "title": "CLAT 2027 Correction Window Ends 10 November; AILET 2027 Registration Also Closes 10 November",
     "category": "CLAT & Law",
     "type": "exam-news",
@@ -34,6 +35,7 @@ module.exports = [
   },
   {
     "slug": "top-clat-coaching-institutes-hubballi-2026",
+    "image": "assets/blog/top-clat-coaching-institutes-hubballi-2026.png",
     "title": "Top CLAT Coaching Institutes in Hubballi-Dharwad (2026)",
     "category": "CLAT & Law",
     "type": "coaching-guides",
@@ -66,6 +68,7 @@ module.exports = [
   },
   {
     "slug": "upsc-cse-mains-2026-result-declared-2526-qualified-daf-2-11-25-november-6nov-update",
+    "image": "assets/blog/upsc-cse-mains-2026-result-declared-2526-qualified-daf-2-11-25-november-6nov-update.png",
     "title": "UPSC CSE Mains 2026 Result Declared: 2,526 Qualify for Interview; DAF-II 11-25 November",
     "category": "UPSC & Civil Services",
     "type": "exam-news",
@@ -98,6 +101,7 @@ module.exports = [
   },
   {
     "slug": "top-ias-coaching-institutes-dhanbad-2026",
+    "image": "assets/blog/top-ias-coaching-institutes-dhanbad-2026.png",
     "title": "Top IAS Coaching Institutes in Dhanbad (2026)",
     "category": "UPSC & Civil Services",
     "type": "coaching-guides",
