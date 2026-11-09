@@ -1603,20 +1603,30 @@ ${p.cta ? `<div class="post-sticky-cta" id="postStickyCta">
 const privacyBody = `
 <section class="hero hero-sm"><div class="container"><h1>Privacy Policy</h1></div></section>
 <section class="section container prose">
-<p>Last updated: July 2026</p>
+<p>Last updated: November 2026</p>
 <p><strong>What we collect.</strong> When you submit an enquiry or registration form, we collect the details you enter (name, contact number, message) solely to connect you with the institute or respond to you.</p>
 <p><strong>What we don't do.</strong> We do not sell your personal data. We do not share your contact details with any institute other than the one you enquired about.</p>
-<p><strong>Cookies.</strong> This site stores only a single preference (your selected city) in your browser's local storage. No tracking cookies, no ad networks.</p>
-<p><strong>Removal.</strong> Email ${B.email} to have your enquiry data deleted.</p>
+<p><strong>Analytics and cookies.</strong> We use Google Analytics to understand how visitors use the site. We also count profile views and clicks on each listing (without names, emails or other personal details) so institutes can see how their profile performs. The site stores your selected city in your browser, and the institute panel stores your login session in your browser. We don't run ad networks.</p>
+<h2>Institute accounts and verification documents</h2>
+<p><strong>What we collect.</strong> When an institute or tutor creates an account, we collect the account holder's name, email, phone number (optional) and the listing details they enter. To verify ownership or award the OC4U Verified badge, we ask for documents: GST certificate, business registration, address proof and the owner's ID (PAN or a masked Aadhaar only; we never ask for a full Aadhaar number). Individual tutors only need ID and address proof.</p>
+<p><strong>Why.</strong> Documents are used only to confirm that the person managing a listing really runs it and that the listing's name and address are genuine. Uploaded files are checked by our team, with help from an automated pre-check, and are never shown on the site.</p>
+<p><strong>How long we keep them.</strong> Documents are stored privately and access is limited to our verification team. We delete them once verification is approved. Documents from requests that are rejected or never completed are deleted within 90 days. We keep a record of each decision (approved or not, and the date).</p>
+<p><strong>Contact details.</strong> Phone numbers and emails entered in the institute panel are for our team only and are not published.</p>
+<p><strong>Removal.</strong> Email ${B.email} to have your enquiry data, institute account or documents deleted.</p>
 </section>`;
 
 const termsBody = `
 <section class="hero hero-sm"><div class="container"><h1>Terms &amp; Conditions</h1></div></section>
 <section class="section container prose">
-<p>Last updated: July 2026</p>
+<p>Last updated: November 2026</p>
 <p><strong>Information accuracy.</strong> Listing details are provided by institutes or compiled from public sources, and are marked accordingly. We correct errors promptly when reported but cannot guarantee every detail is current. Always confirm fees, batches and facilities directly before paying.</p>
 <p><strong>Reviews.</strong> Reviews reflect the opinions of their authors. We remove reviews only for abuse, spam or impersonation — not for being negative.</p>
 <p><strong>Free service.</strong> ${B.name} is free for students. Institutes may purchase promoted placement, which is always labelled.</p>
+<h2>For institutes and tutors</h2>
+<p><strong>Claiming and adding listings.</strong> Only the owner of an institute, or someone they have authorised, may claim or add its listing. We may ask for documents before approving a claim, and we may move a listing to a different owner if ownership is disputed and proven.</p>
+<p><strong>Verified badge.</strong> The OC4U Verified badge means our team has checked the documents described in our <a href="privacy.html">Privacy Policy</a>. It is valid for 12 months and can be removed if documents expire or the listing turns out to be misleading. The badge cannot be bought, and it doesn't change rankings or ratings.</p>
+<p><strong>Your content.</strong> You are responsible for keeping your listing, courses and fees accurate. Verified listings can publish everyday updates instantly; changes to name, contact details, address, website and results claims are reviewed before they go live. We may edit, hide or remove content that is misleading, promotional beyond fact, or that breaks these terms. Fees must show the full amount payable; "limited-time" or fake-discount claims aren't allowed. Photos must be your own and must not show students without their consent.</p>
+<p><strong>Reviews and ratings.</strong> Institutes cannot remove, edit or pay to change reviews or ratings.</p>
 <p><strong>Contact.</strong> ${B.email}</p>
 </section>`;
 
