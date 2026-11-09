@@ -408,7 +408,7 @@ function card(x, i) {
   const gender = x.gender ? `<span class="tag grey">${x.gender === "Both" ? "Boys & Girls" : x.gender === "Female" ? "Girls" : "Boys"}</span>` : "";
   const price = x.priceRange ? `<span class="tag green">${esc(x.priceRange)}</span>` : "";
   const modeTag = x.mode ? `<span class="tag grey">${modeLabel[x.mode]}</span>` : "";
-  const status = x.portal && x.portal.verifiedLevel ? `<span class="tag green">✓ ${x.portal.verifiedLevel === "individual" ? "Verified Individual" : "OC4U Verified"}</span>` : x.verified ? `<span class="tag green">✓ Verified</span>` : "";
+  const status = x.portal && x.portal.verifiedLevel ? `<span class="tag green">✓ ${x.portal.verifiedLevel === "individual" ? "Verified Individual" : "OC4U Verified"}</span>` : x.verified ? `<span class="tag">✓ Confirmed by institute</span>` : "";
   const locLine = x.city === "online" ? esc(x.locality) : `${esc(x.locality)}, ${cityLabel(x.city)}`;
   const n = typeof i === "number" ? i + 1 : 0;
   return `<a class="inst fade-up" href="institute-${x.slug}.html" data-exams="${x.exams.join(",")}" data-verified="${x.verified}" data-featured="${x.featured ? 1 : 0}" data-mode="${x.mode || ""}" data-rating="${x.rating || 0}" data-reviews="${x.ratingCount || 0}" data-estd="${x.estd || 9999}" data-name="${esc(x.name.toLowerCase())}">
@@ -450,7 +450,7 @@ function homePage() {
   const topCities = sortedCityCounts.slice(0, 12).map(({ c, n }) => `<a class="city" href="coaching-${c}.html"><b>${cityLabel(c)}</b><span>${n} listed</span></a>`).join("");
   const moreCities = sortedCityCounts.slice(12).map(({ c }) => `<a href="coaching-${c}.html">${cityLabel(c)}</a>`).join(" · ");
   const topRated = [...byType("coaching")].sort((a, b) => (b.rating || 0) * Math.log((b.ratingCount || 0) + 1) - (a.rating || 0) * Math.log((a.ratingCount || 0) + 1)).slice(0, 6);
-  const rows = topRatedList(topRated).map(({ x, cityL, exams }, i) => `<a class="trow fade-up" href="institute-${x.slug}.html"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="name">${esc(x.name)}${x.verified ? ` <span class="verified-tag">Verified</span>` : ""}<span class="m-meta">${esc(cityL)} · ${esc(exams)} · ${x.ratingCount} on ${ratingSrc(x)}</span></span><span class="meta">${esc(cityL)}</span><span class="meta">${esc(exams)}</span><span class="score"><span class="pill">★ ${x.rating.toFixed(1)}</span><span class="src">${x.ratingCount} on ${ratingSrc(x)}</span></span></a>`).join("");
+  const rows = topRatedList(topRated).map(({ x, cityL, exams }, i) => `<a class="trow fade-up" href="institute-${x.slug}.html"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="name">${esc(x.name)}${x.portal && x.portal.verifiedLevel ? ` <span class="verified-tag">Verified</span>` : ""}<span class="m-meta">${esc(cityL)} · ${esc(exams)} · ${x.ratingCount} on ${ratingSrc(x)}</span></span><span class="meta">${esc(cityL)}</span><span class="meta">${esc(exams)}</span><span class="score"><span class="pill">★ ${x.rating.toFixed(1)}</span><span class="src">${x.ratingCount} on ${ratingSrc(x)}</span></span></a>`).join("");
   /* "Top rated this month": curated, not algorithmic — hand-picked slugs */
   const MINI_SLUGS = ["rodha", "iproledge-academy-bengaluru", "sbtechmath-academy", "navjeevan-neet-academy-sikar"];
   const minis = MINI_SLUGS.map(s => L.find(x => x.slug === s)).filter(Boolean).map((x, i) => `<a class="fade-up" href="institute-${x.slug}.html"><span>#${i + 1} · ${x.city === "online" ? "Online, pan-India" : esc(x.locality)}${x.estd ? ` · since ${x.estd}` : ""}</span><b>${esc(x.name)}</b><span>View profile →</span></a>`).join("");
@@ -667,7 +667,7 @@ ${pageHero({ crumbs, badge, h1: hw(h1, h1Hl), h1Class: "listing-h1", sub, extra:
 <div class="container">
 ${examChips}
 ${modeChips}
-<label class="vcheck" for="verifiedonly"><input type="checkbox" id="verifiedonly"> Verified only</label>
+<label class="vcheck" for="verifiedonly"><input type="checkbox" id="verifiedonly"> Verified or confirmed only</label>
 <div class="sortbox"><label class="fsel-label" for="sortsel">Sort</label>
 <select id="sortsel" class="fsel"><option value="rating">Recommended</option><option value="toprated">Top rated</option><option value="reviews">Most rated</option><option value="estd">Oldest first</option><option value="name">A–Z</option></select></div>
 <span id="rescount" aria-live="polite"></span>
@@ -832,7 +832,7 @@ ${x.logo ? `<img class="inst-logo fadein" src="${esc(x.logo)}" alt="${esc(x.name
 ${x.portal && x.portal.verifiedLevel
   ? `<div class="status ok fadein" style="--d:400ms">${ICON_SM.check}<span><b>${x.portal.verifiedLevel === "individual" ? "Verified Individual." : "OC4U Verified."}</b> ${x.portal.verifiedLevel === "individual" ? "Our team has checked this person's identity and address documents." : "Our team has checked this institute's registration, GST, address and owner documents."}${x.portal.verifiedUntil ? ` Valid until ${new Date(x.portal.verifiedUntil).toLocaleString("en-IN", { month: "long", year: "numeric" })}.` : ""}</span></div>`
   : x.verified
-  ? `<div class="status ok fadein" style="--d:400ms">${ICON_SM.check}<span><b>Verified listing.</b> ${esc(x.name)} has confirmed these details with us.</span></div>`
+  ? `<div class="status fadein" style="--d:400ms">${ICON_SM.check}<span><b>Confirmed by the institute.</b> ${esc(x.name)} has confirmed these details with us, but hasn't completed document verification yet.</span></div>`
   : `<div class="status fadein" style="--d:400ms">${ICON_SM.info}<span><b>Details from public sources.</b> This institute hasn't confirmed its listing with us yet, so it doesn't carry a Verified badge.</span></div>`}
 <div class="hero-acts fadein" style="--d:500ms">
 <a class="btn" href="#callback">Request a callback ${arw}</a>
@@ -953,7 +953,8 @@ ${pageHero({ crumbs: [["index.html", "Home"], ["", "About"]], badge: `About ${B.
 <div class="eyebrow">How we work</div>
 <h2 class="sec-title reveal">${rv("Every listing tells you how far to trust it")}</h2>
 <div class="labels">
-<div class="label-card fade-up"><span class="tag green">✓ Verified</span><p>The institute has confirmed its details with us. Verified institutes get a richer profile and direct enquiries.</p></div>
+<div class="label-card fade-up"><span class="tag green">✓ OC4U Verified</span><p>Our team has checked the institute's registration, GST, address and owner ID documents (ID and address for individual tutors). The badge lasts 12 months.</p></div>
+<div class="label-card fade-up"><span class="tag">✓ Confirmed by institute</span><p>The institute has confirmed its details with us, but hasn't completed document verification yet.</p></div>
 <div class="label-card fade-up"><span class="tag badge-unverified">From public sources</span><p>We built the listing from public information and the institute hasn't confirmed it yet. We say so on the page.</p></div>
 <div class="label-card fade-up"><span class="tag">★ Rating · source named</span><p>Ratings come from public review sites such as Justdial and Google, and each one names its source. Institutes can't buy, edit or hide them here.</p></div>
 </div>
