@@ -260,6 +260,40 @@
     });
   });
 
+  /* ---- enquiry + review forms (saved to the OC4U database) ---- */
+  $$("form[data-oc4u]").forEach(function (f) {
+    var msg = f.querySelector(".form-msg"), btn = f.querySelector("button[type=submit]");
+    var show = function (t, cls) { if (msg) { msg.textContent = t; msg.className = "form-msg " + (cls || ""); } };
+    f.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var kind = f.dataset.oc4u, g = function (n) { var el = f.elements[n]; return el ? String(el.value || "").trim() : ""; };
+      var body, fn;
+      if (kind === "lead") {
+        if (g("name").length < 2) return show("Please enter your name.", "err");
+        if (g("phone").replace(/\D/g, "").length < 10) return show("Please enter a valid 10-digit mobile number.", "err");
+        fn = "submit_lead"; body = { p_slug: f.dataset.slug, p_name: g("name"), p_phone: g("phone"), p_source: f.dataset.source || "profile", p_hp: g("hp_website") };
+      } else {
+        var star = f.querySelector("input[name=rating]:checked");
+        if (!star) return show("Please choose a star rating.", "err");
+        if (g("name").length < 2) return show("Please enter your name.", "err");
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(g("email"))) return show("Please enter a valid email.", "err");
+        if (g("review").length < 30) return show("Please write at least 30 characters about your experience.", "err");
+        fn = "submit_review"; body = { p_slug: f.dataset.slug, p_rating: +star.value, p_name: g("name"), p_email: g("email"), p_body: g("review"), p_hp: g("hp_website") };
+      }
+      if (btn) btn.disabled = true;
+      show("Sending…");
+      fetch(f.dataset.api + "/rest/v1/rpc/" + fn, { method: "POST", headers: { apikey: f.dataset.key, "Content-Type": "application/json" }, body: JSON.stringify(body) })
+        .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+        .then(function (res) {
+          if (!res.ok) throw new Error((res.j && res.j.message) || "Something went wrong. Please try again.");
+          f.reset();
+          show(kind === "lead" ? "Thank you! Your request has been sent. You'll get a call back soon." : "Thank you! Your review has been sent. It will appear here once our team has checked it.", "ok");
+          try { if (window.gtag) gtag("event", kind === "lead" ? "generate_lead" : "submit_review", { institute: f.dataset.slug }); } catch (err) {}
+        })
+        .catch(function (err) { show(err.message || "Something went wrong. Please try again.", "err"); if (btn) btn.disabled = false; });
+    });
+  });
+
   /* ---- footer groups fold on phones ---- */
   if (window.matchMedia("(max-width:640px)").matches) $$(".foot-col").forEach(function (d) { d.open = false; });
 })();
