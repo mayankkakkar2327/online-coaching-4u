@@ -1669,7 +1669,7 @@ fs.writeFileSync(path.join(OUT, "assets", "search-index.json"), JSON.stringify(s
 fs.mkdirSync(path.join(OUT, "assets", "listing-data"), { recursive: true });
 L.forEach(x => fs.writeFileSync(path.join(OUT, "assets", "listing-data", `${x.slug}.json`), JSON.stringify(Object.assign({}, x, { portal: undefined, courses: undefined }))));
 /* listing catalog for the institute portal (claim search + admin sync) */
-fs.writeFileSync(path.join(OUT, "assets", "catalog.json"), JSON.stringify(L.map(x => ({ slug: x.slug, name: x.name, type: x.type, city: x.city, locality: x.locality, website: x.website || "" }))));
+fs.writeFileSync(path.join(OUT, "assets", "catalog.json"), JSON.stringify(L.map(x => ({ slug: x.slug, name: x.name, type: x.type, city: x.city, locality: x.locality, website: x.website || "", address: x.address || "" }))));
 /* institute panel + admin panel (not in the sitemap, not indexed) */
 const portalSrc = path.join(__dirname, "portal");
 if (fs.existsSync(portalSrc)) {
