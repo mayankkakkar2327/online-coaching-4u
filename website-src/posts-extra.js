@@ -1,6 +1,70 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "jee-main-2027-session1-schedule-form-closes-22-november-city-slip-30-december-9nov-update",
+    "title": "JEE Main 2027 Session 1: Form Closes 22 November, City Slip 30 December, Exams from 20 January",
+    "category": "JEE & Engineering",
+    "type": "exam-news",
+    "date": "9 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=jee",
+      "text": "Compare verified JEE coaching institutes"
+    },
+    "excerpt": "NTA's notices fix 22 November as the last date to apply for JEE Main 2027 Session 1, with late fee to 26 November, city slip on 30 December and admit cards on 13 January. Five dated pointers inside.",
+    "faqs": [
+      {
+        "q": "What is the last date to apply for JEE Main 2027 Session 1?",
+        "a": "22 November 2026, up to 11:50 PM, for both the application and fee payment. A late-fee window runs from 23 to 26 November 2026, per NTA's public notices."
+      },
+      {
+        "q": "When is the JEE Main 2027 correction window?",
+        "a": "27 to 29 November 2026, on the website only, up to 11:50 PM."
+      },
+      {
+        "q": "When will the JEE Main 2027 city intimation slip and admit card be released?",
+        "a": "NTA's notice lists 30 December 2026 for the city of examination and 13 January 2027 for admit card download."
+      },
+      {
+        "q": "Can I submit a fresh JEE Main 2027 application form?",
+        "a": "Yes. NTA's 30 October 2026 notice allows a fresh form even if you already hold an application number. Only the latest form with fee paid and a confirmation page counts, and earlier fees are not refunded."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 9 November 2026.</strong></p>\n<p>NTA's public notices fix 22 November 2026 (11:50 PM) as the last date to apply and pay the fee for JEE (Main) 2027 Session 1, with the examination scheduled from 20 to 24 January and on 28 January 2027.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Application and fee, last date:</strong> 22 November 2026, up to 11:50 PM</p>\n<p><strong>Late-fee window:</strong> 23 to 26 November 2026 (Rs 500 late fee), up to 11:50 PM</p>\n<p><strong>Correction window:</strong> 27 to 29 November 2026 (website only)</p>\n<p><strong>City of examination announced:</strong> 30 December 2026</p>\n<p><strong>Admit card:</strong> 13 January 2027</p>\n<p><strong>Exam dates:</strong> 20, 21, 22, 23, 24 and 28 January 2027, two shifts a day</p>\n<p><strong>Official source:</strong> <a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">jeemain.nta.nic.in</a></p>\n</div>\n\n<h2>What NTA's notices say</h2>\n<p>The <a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261024390682350.pdf\" rel=\"noopener\" target=\"_blank\">NTA invitation notice for JEE (Main) 2027 Session 1</a> opened applications on 24 October 2026 and closes the window on 22 November 2026 at 11:50 PM. Late applications with a Rs 500 late fee are accepted from 23 to 26 November 2026. Corrections to application particulars open on 27 November and close on 29 November 2026.</p>\n<p>The same notice lists the city of examination for 30 December 2026 and admit cards for 13 January 2027. The exam is held in two shifts, 9:00 AM to 12:00 noon and 3:00 PM to 6:00 PM; the 3.5-hour B.Arch and B.Planning papers run 30 minutes longer. The notice's table layout is hard to read, so we matched the January exam dates against a <a href=\"https://engineering.careers360.com/articles/jee-mains-2027-registration-last-date-session-1\" rel=\"noopener\" target=\"_blank\">Careers360 report</a> dated 7 November, which agrees. That report also shows a conflicting registration-closing date in one place; the NTA notices say 22 November, and we follow NTA.</p>\n\n<h2>Fresh application: read this before you re-apply</h2>\n<p>NTA's <a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf\" rel=\"noopener\" target=\"_blank\">30 October clarification</a> lets candidates submit a fresh application form, even if they already hold an application number or have paid, because of errors reported in earlier forms. Only the most recent form with fee paid and a generated confirmation page is valid. A fresh form gets a new application number, so you must re-enter every detail and re-upload your photograph, signature and documents. Fees paid on an earlier form are neither refunded nor adjusted.</p>\n<p>If you only need to fix a few details, use the correction window instead. Appearing with more than one application number is treated as unfair means.</p>\n\n<h2>What it means for students</h2>\n<p>There are 13 days left to apply without a late fee. Fill the form on a weekday morning, keep your Class 10 certificate, photograph and signature files ready, and do not leave the fee payment for the last evening. If you plan to appear in both sessions, remember that Session 2 applications open separately and you can reuse your Session 1 application number. Compare verified institutes on our <a href=\"coaching.html?exam=jee\">JEE coaching page</a>, and see the <a href=\"blog-jee.html\">JEE blog</a> for more updates.</p>\n\n<h2>Five dated pointers (9 November 2026)</h2>\n<ul>\n<li>As of 9 November 2026, the last date to apply and pay the fee for JEE Main 2027 Session 1 is 22 November 2026, up to 11:50 PM (<a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261024390682350.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice</a>).</li>\n<li>As of 9 November 2026, late applications with a Rs 500 late fee are accepted from 23 to 26 November 2026 (<a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261024390682350.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice</a>).</li>\n<li>As of 9 November 2026, the correction window runs from 27 to 29 November 2026 and is available on the website only (<a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf\" rel=\"noopener\" target=\"_blank\">NTA clarification of 30 October</a>).</li>\n<li>As of 9 November 2026, NTA lists 30 December 2026 for the city of examination and 13 January 2027 for admit cards (<a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261024390682350.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice</a>).</li>\n<li>As of 9 November 2026, appearing with more than one application number in a session is treated as unfair means, although holding extra numbers without using them is not (<a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf\" rel=\"noopener\" target=\"_blank\">NTA clarification</a>).</li>\n</ul>\n<p><strong>Last updated: 9 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-jee-coaching-institutes-jhansi-2026",
+    "title": "Top JEE Coaching Institutes in Jhansi (2026)",
+    "category": "JEE & Engineering",
+    "type": "coaching-guides",
+    "date": "9 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching-jhansi.html",
+      "text": "Browse all verified coaching institutes in Jhansi"
+    },
+    "excerpt": "Jhansi has a compact JEE coaching market in Civil Lines. Aakash Institute and PW Vidyapeeth both list JEE batches on their official pages; we explain who we left out and why.",
+    "faqs": [
+      {
+        "q": "Which is the best JEE coaching in Jhansi?",
+        "a": "There is no single best. Aakash and PW Vidyapeeth are the two institutes whose own official pages confirm JEE batches in Jhansi, both in Civil Lines. Attend a demo class at both and ask for batch size and results from this centre before paying."
+      },
+      {
+        "q": "Does Aakash have a centre in Jhansi?",
+        "a": "Yes. Aakash's official centre page lists a centre at 551/1 and 551/2, 2nd Floor, Chitra BKD College Road, Civil Lines, Jhansi 284001, opposite Major Dhyanchand Stadium, described as NEET and IIT-JEE coaching."
+      },
+      {
+        "q": "Does PW Vidyapeeth run JEE classes in Jhansi?",
+        "a": "Yes. Its official page lists a 2-year Class 11 programme, a 1-year Class 12 programme and a 1-year dropper batch at 2nd Floor, Elite Circle, Baidehi Complex, Civil Lines, Jhansi 284001."
+      },
+      {
+        "q": "When is the JEE Main 2027 form last date?",
+        "a": "22 November 2026, up to 11:50 PM, with late fee until 26 November 2026, per NTA's notice."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 9 November 2026.</strong></p>\n<p>Jhansi, in Bundelkhand in southern Uttar Pradesh, has a small JEE coaching market, and the two institutes whose own official pages confirm JEE batches here are Aakash Institute and PW Vidyapeeth, both in the Civil Lines area. This guide lists only what we could confirm on official pages, and explains who we left out.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Jhansi, Uttar Pradesh</p>\n<p><strong>Exam covered:</strong> JEE Main and JEE Advanced (2027 cycle)</p>\n<p><strong>Institutes listed:</strong> 2, each confirmed on its own official website as of 9 November 2026</p>\n<p><strong>Coaching area:</strong> Civil Lines</p>\n<p><strong>Next JEE date:</strong> JEE Main 2027 Session 1 application closes 22 November 2026 (<a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">NTA</a>)</p>\n</div>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows a JEE programme at a Jhansi centre. Directory sites list more names, but without institute websites or recent confirmation, so we did not rank them. We kept the list to two instead of padding it to ten. If you run an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. Aakash Institute, Civil Lines</h3>\n<p>Aakash's <a href=\"https://centers.aakash.ac.in/aakash-institute-jhansi-coaching-center-civil-lines-jhansi-99222/Contact-Us\" rel=\"noopener\" target=\"_blank\">Jhansi centre page</a> gives the address as No 551/1 and 551/2, 2nd Floor, Chitra BKD College Road, Civil Lines, Jhansi 284001, in front of Major Dhyanchand Stadium, and describes the centre as offering NEET and IIT-JEE coaching. The page does not give batch schedules, results for this centre or fees, so ask the centre for these in writing. Aakash is a long-established national chain, so the useful question is how large and how experienced the Jhansi JEE batch is.</p>\n\n<h3>2. PW Vidyapeeth, Civil Lines</h3>\n<p>The <a href=\"https://www.pw.live/offline-centres/batches/vidyapeeth/jhansi-up/jhansi-vidyapeeth--tuition-center--557450\" rel=\"noopener\" target=\"_blank\">PW Vidyapeeth Jhansi page</a> lists the centre at 2nd Floor, Elite Circle, Baidehi Complex, Civil Lines, Jhansi 284001. JEE batches are a 2-year Class 11 programme, a 1-year Class 12 programme and a 1-year dropper batch. The centre uses a two-teacher model, with national PW faculty teaching online and an offline teacher handling doubts and practice. It also runs NEET and Class 8 to 10 foundation batches. Specific fees are not published; the page says the PWSAT scholarship test can earn up to 90 percent off tuition. The page gives two different timing statements, so confirm hours before visiting.</p>\n\n<h2>What we left out, and why</h2>\n<p>ALLEN lists centres on its own website, but we could not read its Jhansi page when we checked, so we have not listed it with a confirmed address or course. Directory sites also name other Jhansi tutorials, but we could not confirm a current JEE batch for any of them on an official page.</p>\n\n<h2>How to choose</h2>\n<p>Both listed centres are in Civil Lines, so travel time will not separate them. Aakash suits students who want a long-established national chain. PW Vidyapeeth suits students who want a Class 11, Class 12 and dropper structure with a scholarship-test option. Sit in a demo class at both, ask for the current JEE batch size, and ask for results from this centre, not from the brand nationally. Fees change each year, so get the figure in writing.</p>\n<p>JEE Main 2027 applications close on 22 November 2026, so settle your form first. See every verified listing in the city on our <a href=\"coaching-jhansi.html\">Jhansi coaching page</a>.</p>\n<p><strong>Last updated: 9 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "clat-2027-registration-closed-correction-window-ends-10-november-ailet-2027-closes-9nov-update",
     "image": "assets/blog/clat-2027-registration-closed-correction-window-ends-10-november-ailet-2027-closes-9nov-update.png",
     "title": "CLAT 2027 Correction Window Ends 10 November; AILET 2027 Registration Also Closes 10 November",
