@@ -81,7 +81,9 @@
       "bhilai",
       "thrissur",
       "rourkela",
-      "hubballi"
+      "hubballi",
+      "tiruchirappalli",
+      "jhansi"
     ],
     "certification": [
       "online"
@@ -15172,6 +15174,74 @@
         "Fees on enquiry; scholarship and result claims are the centre's own"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-tiruchirappalli",
+      "type": "coaching",
+      "name": "Career Launcher Tiruchirappalli (Tennur)",
+      "city": "tiruchirappalli",
+      "locality": "Tennur",
+      "address": "35/1, 3rd Floor, Baba Towers, Sashtry Road, Tennur, Tiruchirappalli, Tamil Nadu",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/trichy",
+      "about": "Career Launcher's official Trichy page lists BBA/IPM, Law and MBA programmes, with law coaching covering CLAT and AILET and CLAT/IPM courses for Classes 11 and 12. The page quotes top-10 ranks in CLAT 2019 and AILET 2019, which is its own and dated claim. It shows no current batches or fees, so ask the centre directly.",
+      "highlights": [
+        "Official page lists CLAT and AILET law coaching",
+        "CLAT and IPM courses for Classes 11 and 12",
+        "Also CAT/MBA and BBA/IPM programmes",
+        "Office hours 9 am to 7 pm; batches and fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-jhansi",
+      "type": "coaching",
+      "name": "Aakash Institute, Jhansi",
+      "city": "jhansi",
+      "locality": "Civil Lines",
+      "address": "No 551/1 & 551/2, 2nd Floor, Chitra BKD College Road, Civil Lines, Jhansi, Uttar Pradesh 284001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-jhansi-coaching-center-civil-lines-jhansi-99222/Contact-Us",
+      "about": "Aakash's official Jhansi centre page, which places the centre in front of Major Dhyanchand Stadium, describes it as offering NEET and IIT-JEE coaching. The page gives no batch schedule, centre results or fees, so ask the centre for current details in writing.",
+      "highlights": [
+        "Official page describes NEET and IIT-JEE coaching",
+        "Landmark: in front of Major Dhyanchand Stadium",
+        "Centre results and fees not published",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-jhansi",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Jhansi",
+      "city": "jhansi",
+      "locality": "Civil Lines",
+      "address": "2nd Floor, Elite Circle, Baidehi Complex, Civil Lines, Jhansi, Uttar Pradesh 284001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/jhansi-up/jhansi-vidyapeeth--tuition-center--557450",
+      "about": "PW Vidyapeeth's official Jhansi page lists a 2-year Class 11 JEE programme, a 1-year Class 12 programme and a 1-year dropper batch, plus NEET and Class 8 to 10 foundation batches. Teaching follows a two-teacher model with online national faculty and an offline teacher for doubts. Fees are not published; the PWSAT test can earn up to 90 percent off tuition.",
+      "highlights": [
+        "Class 11 (2-year), Class 12 (1-year) and dropper JEE batches",
+        "Two-teacher model: online faculty plus offline doubt support",
+        "PWSAT scholarship test, up to 90 percent off tuition",
+        "Specific fees not published"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15406,6 +15476,12 @@
     },
     "coaching-hubballi": {
       "intro": "<p>Hubballi-Dharwad is north Karnataka's main education hub and the seat of the Karnataka State Law University, yet its CLAT coaching market is small. Law Prep Tutorial's Vidya Nagar centre is the one classroom institute whose own official page confirms a Hubballi centre, and Rodha CLAT is a free online option for students who prefer to prepare from home. Every listing here has been checked against the institute's official website.</p>"
+    },
+    "coaching-tiruchirappalli": {
+      "intro": "<p>Tiruchirappalli, in central Tamil Nadu, is home to the Tamil Nadu National Law University, yet its law-entrance coaching market is small. Career Launcher in Tennur is the institute whose own official page confirms CLAT and AILET preparation at a Trichy centre, and every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-jhansi": {
+      "intro": "<p>Jhansi, in Bundelkhand in southern Uttar Pradesh, has a compact JEE coaching market centred on Civil Lines. Aakash Institute and PW Vidyapeeth both list JEE batches on their own official pages. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
