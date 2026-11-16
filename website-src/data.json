@@ -83,7 +83,11 @@
       "rourkela",
       "hubballi",
       "tiruchirappalli",
-      "jhansi"
+      "jhansi",
+      "kottayam",
+      "thane",
+      "aligarh",
+      "navi-mumbai"
     ],
     "certification": [
       "online"
@@ -15242,6 +15246,330 @@
         "Specific fees not published"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "brilliant-study-centre-pala-kottayam",
+      "type": "coaching",
+      "name": "Brilliant Study Centre, Pala Campus",
+      "city": "kottayam",
+      "locality": "Mutholy, Pala",
+      "address": "Puliyannoor P.O., Mutholy, Kottayam, Kerala 686573",
+      "estd": 1984,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://brilliantpala.org/campus/kottayam/",
+      "about": "Brilliant's official Kottayam campus page, at its Pala campus in Mutholy, lists one-year and two-year long-term NEET and JEE programmes, repeaters batches, a two-year integrated AIIMS/JEE Advanced programme, the Brilliant Test Series, crash courses and a foundation programme. It lists accommodation and meals for residential students. The institute says it has operated since 1984. No fees or centre-wise results are published.",
+      "highlights": [
+        "Main campus since 1984, near Pala",
+        "Long-term, repeaters and integrated NEET programmes",
+        "Residential accommodation and meals listed",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "xylem-hybrid-campus-kottayam",
+      "type": "coaching",
+      "name": "Xylem Hybrid Campus, Kottayam",
+      "city": "kottayam",
+      "locality": "T.B. Road",
+      "address": "Xylem Hybrid Campus, Near KSRTC Bus Stand, T.B. Road, Kottayam, Kerala",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://xylemlearning.com/locate-us/",
+      "about": "Xylem Learning's official centre directory lists a hybrid campus near the KSRTC bus stand on T.B. Road, Kottayam, for NEET and JEE offline coaching, and its 2027 repeater page names Kottayam as one of nine Kerala hybrid centres. A scholarship based on Class 12 marks or NEET score is offered. Fees and batch dates are not published.",
+      "highlights": [
+        "NEET and JEE offline/hybrid coaching",
+        "NEET 2027 repeater batch listed",
+        "Scholarship on +2 marks or NEET score",
+        "Fees not published"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "aakash-institute-kottayam",
+      "type": "coaching",
+      "name": "Aakash Institute, Kodimatha, Kottayam",
+      "city": "kottayam",
+      "locality": "Kodimatha",
+      "address": "1st & 2nd Floor, Eden Plaza, MC Road, Kodimatha, Kottayam, Kerala 686013",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-best-neet-iit-jee-coaching-in-kottayam-kodimatha-coaching-center-kodimatha-kottayam-99230/Contact-Us",
+      "about": "Aakash's official centre page lists a Kodimatha centre on MC Road for NEET and IIT-JEE coaching for Classes 8 to 12. On 11 November 2026 the page marked the centre as opening soon, so confirm batches, fees and start dates by phone before planning around it.",
+      "highlights": [
+        "NEET and IIT-JEE coaching, Classes 8 to 12",
+        "Marked 'opening soon' on 11 Nov 2026",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-thane",
+      "type": "coaching",
+      "name": "IMS Learning Resources, Thane",
+      "city": "thane",
+      "locality": "Gokhale Road, Thane West",
+      "address": "Ground Floor, Shop No. 9 & 10, Panama Planet, Gokhale Road, Thane (W), Maharashtra 400602",
+      "estd": null,
+      "exams": [
+        "cat",
+        "cet"
+      ],
+      "verified": true,
+      "website": "https://www.imsindia.com/center/mumbai",
+      "about": "IMS's official Mumbai centres page lists IMS Thane at Panama Planet on Gokhale Road, Thane West, with CAT, XAT, NMAT, CMAT, MAT, CET and GMAT among the courses tagged for the centre, plus admission consulting. A separate IMS Manya outlet in the same building handles GMAT, GRE and study-abroad tests only. No Thane fees or centre-wise results are published.",
+      "highlights": [
+        "Official page confirms the Gokhale Road address",
+        "CAT, XAT, NMAT, CMAT and CET courses listed",
+        "Admission consulting offered",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-thane",
+      "type": "coaching",
+      "name": "Career Launcher Thane",
+      "city": "thane",
+      "locality": "Naupada, Thane West",
+      "address": "Office No. 9A, 1st Floor, Ramanand CHS Ltd, Opp. Mango Stationery, Gokhale Road, Naupada, Thane (West), Maharashtra 400602",
+      "estd": null,
+      "exams": [
+        "cat",
+        "ipmat",
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/cat-mba/coaching-centers/mumbai",
+      "about": "Career Launcher's official Mumbai centres page lists its Thane centre in Naupada on Gokhale Road. Its Thane page lists CAT programmes for first-year and second-year graduates and a crash course, with classroom sessions, mock tests, doubt sessions and one-on-one mentoring, and also IPMAT and CLAT coaching. No fees or Thane-specific results are published.",
+      "highlights": [
+        "Official page confirms the Naupada address",
+        "CAT 2-year, 1-year and crash programmes",
+        "Also IPMAT and CLAT coaching",
+        "Fees not published"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "catking-thane",
+      "type": "coaching",
+      "name": "CATKing Thane",
+      "city": "thane",
+      "locality": "Opp. Thane Railway Station, Thane West",
+      "address": "2nd Floor, Above Khandelwal Sweets, Opp. Thane Railway Station, Thane (West), Maharashtra 400601",
+      "estd": null,
+      "exams": [
+        "cat",
+        "cet"
+      ],
+      "verified": true,
+      "website": "https://catking.in/offline-centers",
+      "about": "CATKing's official offline-centres page lists a Thane centre opposite Thane railway station, alongside its Andheri and Borivali centres. It names CAT, NMAT, MAH-MBA CET, SNAP and XAT among the exams covered and links a CAT 2026 offline/hybrid course. Offline fees are not published; online CAT courses are listed from Rs 3,999 to Rs 24,999.",
+      "highlights": [
+        "Official page confirms the station-area address",
+        "CAT and MAH-MBA CET preparation",
+        "Online CAT courses from Rs 3,999",
+        "Offline fees not published"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "amu-residential-coaching-academy-aligarh",
+      "type": "coaching",
+      "name": "Residential Coaching Academy (RCA), Aligarh Muslim University",
+      "city": "aligarh",
+      "locality": "AMU campus",
+      "address": "Residential Coaching Academy, Aligarh Muslim University, Aligarh, Uttar Pradesh 202002",
+      "estd": 2010,
+      "exams": [
+        "ias",
+        "upsc",
+        "judiciary",
+        "ssc"
+      ],
+      "verified": true,
+      "website": "https://www.amu.ac.in/academies/residential-coaching-academy",
+      "about": "AMU's Residential Coaching Academy was set up in 2010 under a University Grants Commission scheme for minorities, SC/ST and women, according to its official page on amu.ac.in. It coaches for UPSC Civil Services prelims and mains, with answer-writing, interview guidance and Super-30 programmes, plus Judicial Services and SSC-CGL. Admission is by an all-India entrance test; selected candidates can get hostel seats.",
+      "highlights": [
+        "Official AMU page; set up in 2010 under a UGC scheme",
+        "Admission through an all-India entrance test",
+        "128 hostel seats (89 men, 39 women)",
+        "Library with 200 general and 50 mains seats"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "care-ias-aligarh",
+      "type": "coaching",
+      "name": "Care IAS, Aligarh",
+      "city": "aligarh",
+      "locality": "Civil Lines",
+      "address": "Lal Diggi Road, near I.G. Hall, Mabood Nagar, Civil Lines, Aligarh, Uttar Pradesh 202002",
+      "estd": null,
+      "exams": [
+        "ias",
+        "upsc",
+        "uppsc",
+        "bpsc"
+      ],
+      "verified": true,
+      "website": "https://www.careias.com/",
+      "about": "Care IAS's official website gives its address on Lal Diggi Road in Civil Lines, near the AMU campus. It lists UPSC and state PSC coaching, including UPPSC, BPSC and APSC, with separate English-medium and Hindi-medium faculty panels and daily answer writing. Fees, founding year and results are not published.",
+      "highlights": [
+        "Official site confirms the Civil Lines address",
+        "UPSC, UPPSC, BPSC and APSC coaching",
+        "English and Hindi medium faculty",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "city-ias-academy-aligarh",
+      "type": "coaching",
+      "name": "City IAS Academy, Aligarh",
+      "city": "aligarh",
+      "locality": "Kela Nagar",
+      "address": "Kela Nagar, Aligarh, Uttar Pradesh (no street address published)",
+      "estd": null,
+      "exams": [
+        "ias",
+        "upsc"
+      ],
+      "verified": true,
+      "website": "https://www.cityiasacademy.com/",
+      "about": "City IAS Academy's official website lists a combined prelims-plus-mains coaching programme and a foundation batch for Class 12 pass-outs, with admission through an entrance test. The site gives only Kela Nagar as its location and its fee section shows placeholder figures, so confirm the address and fees in person.",
+      "highlights": [
+        "Prelims + mains programme and Class 12 foundation batch",
+        "Entrance-test admission",
+        "Street address not published",
+        "Confirm fees in person"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "katara-academy-aligarh",
+      "type": "coaching",
+      "name": "Katara Academy, Aligarh",
+      "city": "aligarh",
+      "locality": "Ramghat Road",
+      "address": "Ramghat Road, near Meenakshi Bridge, Aligarh, Uttar Pradesh",
+      "estd": 2012,
+      "exams": [
+        "ssc",
+        "police",
+        "railway",
+        "nda"
+      ],
+      "verified": true,
+      "website": "https://www.kataraacademy.com/",
+      "about": "Katara Academy's official website says it was established in 2012 on Ramghat Road, Aligarh, and coaches for SSC, UP Police SI, railway and defence exams such as NDA. The site shows selection testimonials but no audited results or fees.",
+      "highlights": [
+        "Official site: established 2012 on Ramghat Road",
+        "SSC, police SI, railway and defence coaching",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "law-prep-tutorial-navi-mumbai",
+      "type": "coaching",
+      "name": "Law Prep Tutorial Navi Mumbai (Sanpada)",
+      "city": "navi-mumbai",
+      "locality": "Sanpada",
+      "address": "F4, First Floor, The Affairs Mall, Palm Beach Road, Sector 17, Sanpada, Navi Mumbai, Maharashtra 400706",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://live.lawpreptutorial.com/lpt-navi-mumbai/",
+      "about": "Law Prep Tutorial's official Navi Mumbai page lists an offline centre at The Affairs Mall on Palm Beach Road, Sanpada, with CLAT batches for Class 12 students, droppers and Class 10-11 students, covering CLAT 2027 and CLAT 2028. Fees are not published; the page mentions scholarships of up to 100%. Its AIR 1 and NLU-selection figures are national brand claims.",
+      "highlights": [
+        "Official page confirms the Sanpada centre address",
+        "Class 12, dropper and Class 10-11 batches",
+        "Free demo class offered",
+        "Fees on enquiry; result claims are brand-wide"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "legaledge-navi-mumbai",
+      "type": "coaching",
+      "name": "LegalEdge by Toprankers, Navi Mumbai (Sanpada)",
+      "city": "navi-mumbai",
+      "locality": "Sanpada",
+      "address": "701, The Affaires, Sector 17, Sanpada, off Palm Beach Marg, near Moraj Circle, Navi Mumbai, Maharashtra 400705",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.toprankers.com/clat-coaching-in-navi-mumbai",
+      "about": "Toprankers' official Navi Mumbai CLAT page lists a LegalEdge centre at 701, The Affaires, Sector 17, Sanpada. The batch shown is a weekend offline batch with hybrid classes in Hindi and English. Fees are not published; the page says a scholarship test is held every Sunday.",
+      "highlights": [
+        "Official Toprankers page confirms the Sanpada address",
+        "Weekend offline batch with hybrid classes",
+        "Weekly scholarship test",
+        "Fees on enquiry"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "career-launcher-vashi-navi-mumbai",
+      "type": "coaching",
+      "name": "Career Launcher Vashi",
+      "city": "navi-mumbai",
+      "locality": "Vashi",
+      "address": "304, 3rd Floor, Devavrata Building, Plot No. 83, near HDFC Bank, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703",
+      "estd": null,
+      "exams": [
+        "clat",
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/center/mumbai/vashi",
+      "about": "Career Launcher's official Vashi centre page lists law entrance (CLAT) coaching alongside CAT and IPMAT at Devavrata Building, Sector 17. Results quoted on the page are brand-wide CLAT and AILET 2026 figures, and fees are not listed.",
+      "highlights": [
+        "Official CL page confirms the Vashi address",
+        "CLAT, CAT and IPMAT programmes",
+        "Result figures are brand-wide claims",
+        "Fees on enquiry"
+      ],
+      "mode": "hybrid"
+    },
+    {
+      "slug": "ims-get-set-law-vashi-navi-mumbai",
+      "type": "coaching",
+      "name": "IMS Vashi (GET.SET.LAW)",
+      "city": "navi-mumbai",
+      "locality": "Vashi",
+      "address": "606, 6th Floor, Devavrata Building, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.imsindia.com/mumbai-centers/",
+      "about": "IMS's official Mumbai centres page lists a Vashi GET.SET.LAW centre, IMS's law-entrance programme, on the 6th floor of Devavrata Building, Sector 17, beside the HDFC Bank building. The page does not publish fees, batch sizes or local results.",
+      "highlights": [
+        "Official IMS page lists the Vashi GET.SET.LAW centre",
+        "Law-entrance (CLAT, AILET) focus",
+        "Near Vashi station, Sector 17",
+        "Fees and local results not published"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15482,6 +15810,18 @@
     },
     "coaching-jhansi": {
       "intro": "<p>Jhansi, in Bundelkhand in southern Uttar Pradesh, has a compact JEE coaching market centred on Civil Lines. Aakash Institute and PW Vidyapeeth both list JEE batches on their own official pages. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-kottayam": {
+      "intro": "<p>Kottayam district in central Kerala is one of the state's oldest NEET coaching hubs, led by Brilliant Study Centre's Pala campus at Mutholy, which has operated since 1984. Xylem runs a hybrid campus on T.B. Road and Aakash lists a new Kodimatha centre. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-thane": {
+      "intro": "<p>Thane, in the Mumbai Metropolitan Region, has a busy MBA entrance coaching market in Thane West, around the railway station, Naupada and Gokhale Road. IMS, Career Launcher and CATKing all list Thane CAT centres on their own official pages. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-aligarh": {
+      "intro": "<p>Aligarh in western Uttar Pradesh is a smaller civil services preparation centre, anchored by Aligarh Muslim University's Residential Coaching Academy, which has run UPSC coaching under a UGC scheme since 2010. Private IAS and SSC institutes cluster in Civil Lines and along Ramghat Road. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-navi-mumbai": {
+      "intro": "<p>Navi Mumbai's CLAT and law-entrance coaching is concentrated in Sector 17 of Sanpada and Vashi, close to the Harbour line stations. Law Prep Tutorial, LegalEdge, Career Launcher and IMS GET.SET.LAW all confirm centres here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
