@@ -2,6 +2,7 @@
 module.exports = [
   {
     "slug": "ailet-2027-applications-closed-13-november-corrections-till-8am-15-november-14nov-update",
+    "image": "assets/blog/ailet-2027-applications-closed-13-november-corrections-till-8am-15-november-14nov-update.png",
     "title": "AILET 2027 Applications Closed on 13 November; Corrections Allowed Until 8 AM on 15 November",
     "category": "CLAT & Law",
     "type": "exam-news",
@@ -34,6 +35,7 @@ module.exports = [
   },
   {
     "slug": "top-clat-coaching-institutes-navi-mumbai-2026",
+    "image": "assets/blog/top-clat-coaching-institutes-navi-mumbai-2026.png",
     "title": "Top CLAT Coaching Institutes in Navi Mumbai (2026)",
     "category": "CLAT & Law",
     "type": "coaching-guides",
@@ -66,6 +68,7 @@ module.exports = [
   },
   {
     "slug": "ssc-chsl-2026-tier1-30-november-cpo-si-23-28-november-je-extra-dates-13nov-update",
+    "image": "assets/blog/ssc-chsl-2026-tier1-30-november-cpo-si-23-28-november-je-extra-dates-13nov-update.png",
     "title": "SSC CHSL 2026 Tier-I From 30 November; CPO Sub-Inspector Exam Moved to 23-28 November, JE Gets Two Extra Days",
     "category": "SSC, Defence & Govt Exams",
     "type": "exam-news",
@@ -98,6 +101,7 @@ module.exports = [
   },
   {
     "slug": "top-ias-coaching-institutes-aligarh-2026",
+    "image": "assets/blog/top-ias-coaching-institutes-aligarh-2026.png",
     "title": "Top IAS Coaching Institutes in Aligarh (2026)",
     "category": "UPSC & Civil Services",
     "type": "coaching-guides",
@@ -130,6 +134,7 @@ module.exports = [
   },
   {
     "slug": "xat-2027-penalty-free-skips-raised-to-12-registration-closes-6-december-12nov-update",
+    "image": "assets/blog/xat-2027-penalty-free-skips-raised-to-12-registration-closes-6-december-12nov-update.png",
     "title": "XAT 2027: XLRI Raises Penalty-Free Skips to 12, Adds 17 Associate Institutes; Registration Closes 6 December",
     "category": "CAT, IPMAT & MBA",
     "type": "exam-news",
@@ -162,6 +167,7 @@ module.exports = [
   },
   {
     "slug": "top-cat-coaching-institutes-thane-2026",
+    "image": "assets/blog/top-cat-coaching-institutes-thane-2026.png",
     "title": "Top CAT Coaching Institutes in Thane (2026)",
     "category": "CAT, IPMAT & MBA",
     "type": "coaching-guides",
@@ -194,6 +200,7 @@ module.exports = [
   },
   {
     "slug": "neet-pg-2026-round2-revised-registration-closes-14-november-result-17-november-11nov-update",
+    "image": "assets/blog/neet-pg-2026-round2-revised-registration-closes-14-november-result-17-november-11nov-update.png",
     "title": "NEET PG 2026 Round 2: Registration Closes 14 November, Result on 17 November After MCC Revises Schedule",
     "category": "NEET & Medical",
     "type": "exam-news",
@@ -226,6 +233,7 @@ module.exports = [
   },
   {
     "slug": "top-neet-coaching-institutes-kottayam-2026",
+    "image": "assets/blog/top-neet-coaching-institutes-kottayam-2026.png",
     "title": "Top NEET Coaching Institutes in Kottayam (2026)",
     "category": "NEET & Medical",
     "type": "coaching-guides",
@@ -258,6 +266,7 @@ module.exports = [
   },
   {
     "slug": "jee-main-2027-session1-schedule-form-closes-22-november-city-slip-30-december-9nov-update",
+    "image": "assets/blog/jee-main-2027-session1-schedule-form-closes-22-november-city-slip-30-december-9nov-update.png",
     "title": "JEE Main 2027 Session 1: Form Closes 22 November, City Slip 30 December, Exams from 20 January",
     "category": "JEE & Engineering",
     "type": "exam-news",
@@ -290,6 +299,7 @@ module.exports = [
   },
   {
     "slug": "top-jee-coaching-institutes-jhansi-2026",
+    "image": "assets/blog/top-jee-coaching-institutes-jhansi-2026.png",
     "title": "Top JEE Coaching Institutes in Jhansi (2026)",
     "category": "JEE & Engineering",
     "type": "coaching-guides",
