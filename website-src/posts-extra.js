@@ -1,6 +1,72 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "gate-2027-correction-window-closed-14-november-defect-rectification-till-30-november-16nov-update",
+    "image": "assets/blog/gate-2027-correction-window-closed-14-november-defect-rectification-till-30-november-16nov-update.png",
+    "title": "GATE 2027 Correction Window Closed on 14 November; Defect Rectification Open Until 30 November",
+    "category": "GATE & Science PG",
+    "type": "exam-news",
+    "date": "16 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=jee",
+      "text": "Compare verified engineering coaching institutes"
+    },
+    "excerpt": "IIT Madras's GATE 2027 fee-based correction window ended on 14 November. Candidates with scrutiny defects can fix them free until 30 November. Plus JEE Main deadlines and five dated pointers.",
+    "faqs": [
+      {
+        "q": "Is the GATE 2027 correction window still open?",
+        "a": "No. The fee-based data correction window ran from 10 to 14 November 2026 and has closed, per the official GATE 2027 website."
+      },
+      {
+        "q": "What is the GATE 2027 application rectification window?",
+        "a": "It is for candidates whose forms were flagged during scrutiny. They are told by email and can fix the defect without any fee until 30 November 2026."
+      },
+      {
+        "q": "When is the GATE 2027 exam?",
+        "a": "On 6, 7, 13, 14, 20 and 21 February 2027. Results are scheduled for 19 March 2027."
+      },
+      {
+        "q": "When will the GATE 2027 admit card come out?",
+        "a": "The website's date table shows 4 January 2027, but its announcements still list the admit card as to be announced, so treat the date as tentative."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 16 November 2026.</strong></p>\n<p>The fee-based data correction window for GATE 2027 closed on 14 November 2026, and candidates who received a scrutiny defect email from IIT Madras now have until 30 November 2026 to fix it without paying again, according to the <a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">official GATE 2027 website</a>.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Exam:</strong> GATE 2027, organised by IIT Madras</p>\n<p><strong>Data correction window (with fee):</strong> 10 to 14 November 2026, now closed</p>\n<p><strong>Application rectification window (defects, no fee):</strong> 14 October to 30 November 2026</p>\n<p><strong>Exam dates:</strong> 6, 7, 13, 14, 20 and 21 February 2027</p>\n<p><strong>Result:</strong> 19 March 2027</p>\n<p><strong>Source:</strong> <a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">gate2027.iitm.ac.in</a>, checked 16 November 2026</p>\n</div>\n\n<h2>What changed</h2>\n<p>The GATE 2027 website lists two separate windows. The data correction window, which charged a fee for changes, ran from 10 to 14 November 2026 and has now ended. The application rectification window is different: it is only for candidates whose forms were flagged during scrutiny, and it stays open until 30 November 2026.</p>\n<p>The website says scrutiny is still going on at the zonal GATE offices. A candidate whose form has a defect is told by email and must correct it in the rectification window. No new fee is charged for this. New registrations are closed.</p>\n\n<h2>What it means for students</h2>\n<p>Check the email inbox you used for GATE registration, including the spam folder, at least once a week until 30 November. An uncorrected defect can lead to the form being rejected. Do not delete the DigiLocker account you applied with, even if it is unverified; the website says future messages will go only to that account.</p>\n<p>If you missed the fee-based correction window, the website does not mention a second one. Do not rely on unofficial posts promising another chance.</p>\n<p>The exam itself is unchanged: three weekends in February 2027 (6–7, 13–14 and 20–21 February), with results on 19 March 2027. The website's date table shows 4 January 2027 for the admit card, while its announcements still say \"to be announced\", so treat 4 January as tentative.</p>\n<p>This cycle also adds a new Robotics and Automation (RA) paper and changes the codes for the XE, XH and XL sectional papers. If you studied from older papers, check the revised syllabus on the website.</p>\n\n<h2>Other engineering deadlines this week</h2>\n<p>JEE Main 2027 Session 1 applications close on 22 November 2026 at 11:50 PM, with late applications and a Rs 500 late fee from 23 to 26 November 2026 (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice of 24 October</a>). VITEEE 2027 applications are open until 31 March 2027 (<a href=\"https://viteee.vit.ac.in/\" rel=\"noopener\" target=\"_blank\">VIT</a>). Compare verified institutes on our <a href=\"coaching.html?exam=jee\">JEE coaching page</a> and see the <a href=\"blog-gate.html\">GATE blog</a> for more.</p>\n\n<h2>Five dated pointers (16 November 2026)</h2>\n<ul>\n<li>As of 16 November 2026, the GATE 2027 fee-based data correction window has closed; it ran from 10 to 14 November 2026 (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">GATE 2027</a>).</li>\n<li>As of 16 November 2026, GATE 2027 candidates who got a scrutiny defect email can fix it free of charge until 30 November 2026 (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">GATE 2027</a>).</li>\n<li>As of 16 November 2026, GATE 2027 is scheduled for 6, 7, 13, 14, 20 and 21 February 2027, with results on 19 March 2027 (<a href=\"https://gate2027.iitm.ac.in/\" rel=\"noopener\" target=\"_blank\">GATE 2027</a>).</li>\n<li>As of 16 November 2026, the last date to apply for JEE Main 2027 Session 1 without a late fee is 22 November 2026, up to 11:50 PM (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA</a>).</li>\n<li>As of 16 November 2026, the JEE Main 2027 Session 1 correction facility is scheduled for 27 to 29 November 2026 (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261030202143.pdf\" rel=\"noopener\" target=\"_blank\">NTA clarification of 30 October</a>).</li>\n</ul>\n<p><strong>Last updated: 16 November 2026.</strong></p>"
+  },
+  {
+    "slug": "top-jee-coaching-institutes-bokaro-2026",
+    "image": "assets/blog/top-jee-coaching-institutes-bokaro-2026.png",
+    "title": "Top JEE Coaching Institutes in Bokaro (2026)",
+    "category": "JEE & Engineering",
+    "type": "coaching-guides",
+    "date": "16 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-bokaro.html",
+      "text": "Browse all verified coaching institutes in Bokaro"
+    },
+    "excerpt": "Bokaro's JEE coaching is concentrated in City Centre, Sector 4. Aakash Institute and PW Vidyapeeth both confirm JEE batches on their official pages; we explain who we left out and why.",
+    "faqs": [
+      {
+        "q": "Which is the best JEE coaching in Bokaro?",
+        "a": "There is no single best. Aakash Institute and PW Vidyapeeth are the two institutes whose own official pages confirm JEE batches in Bokaro, both in City Centre, Sector 4. Attend a demo class at both before paying."
+      },
+      {
+        "q": "Where is Aakash Institute in Bokaro?",
+        "a": "Aakash's official centre page lists M4, 3rd Floor, Aditya Tower, City Centre, Sector 4, Bokaro 827004, near Jai Jawan Petrol Pump."
+      },
+      {
+        "q": "Does PW Vidyapeeth run JEE classes in Bokaro?",
+        "a": "Yes. Its official page lists Class 11 (2-year), Class 12 (1-year) and dropper JEE batches at City Centre, Sector 4, Bokaro Steel City."
+      },
+      {
+        "q": "Is FIITJEE listed in this guide?",
+        "a": "No. Directory sites list a FIITJEE centre in Bokaro, but we could not read FIITJEE's official website to confirm it, so we left it out."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 16 November 2026.</strong></p>\n<p>Bokaro Steel City in Jharkhand has a compact JEE coaching market centred on City Centre in Sector 4, and the two institutes whose own official pages confirm JEE batches here are Aakash Institute and PW Vidyapeeth. This guide lists only what we could confirm on official pages and explains who we left out.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Bokaro Steel City, Jharkhand</p>\n<p><strong>Exam covered:</strong> JEE Main and JEE Advanced (2027 cycle)</p>\n<p><strong>Institutes listed:</strong> 2, each confirmed on its own official website as of 16 November 2026</p>\n<p><strong>Coaching area:</strong> City Centre, Sector 4</p>\n<p><strong>Next JEE date:</strong> JEE Main 2027 Session 1 application closes 22 November 2026 (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA</a>)</p>\n</div>\n\n<h2>Why Bokaro matters for JEE</h2>\n<p>Bokaro is a planned steel township built around the SAIL plant, and its schools have long sent students to engineering entrance exams. Many families here prefer to keep children at home for Class 11 and 12 rather than send them to Kota or Ranchi. That makes the local choice of institute important. Almost every coaching centre in the city sits within a short walk of the City Centre market in Sector 4, so travel time rarely separates the options.</p>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own website shows a JEE programme at a Bokaro centre. Directory sites list more than a dozen names, but most do not have an official centre page we could read. We kept the list to two rather than pad it to ten. If you run an institute that should be here, send us its official page and we will check it.</p>\n\n<h3>1. Aakash Institute, City Centre, Sector 4</h3>\n<p>Aakash's <a href=\"https://centers.aakash.ac.in/aakash-institute-bokaro-coaching-center-sector-4-bokaro-99206/Home\" rel=\"noopener\" target=\"_blank\">Bokaro centre page</a> gives the address as M4, 3rd Floor, Aditya Tower, City Centre, Sector 4, Bokaro 827004, near Jai Jawan Petrol Pump, and lists Engineering, Medical and Foundation streams, including JEE Main and JEE Advanced. Its <a href=\"https://www.aakash.ac.in/bokaro-city/iit-jee-main-advanced-coaching\" rel=\"noopener\" target=\"_blank\">Bokaro JEE course page</a> lists a 2-year Class 11–12 classroom course, a 1-year Class 12 course and a repeater course for droppers. The centre page shows opening hours of 10 AM to 7:30 PM daily. Fees and results for this centre are not published, so ask for both in writing. The results Aakash shows on its Bokaro page are national toppers, not students from this centre.</p>\n\n<h3>2. PW Vidyapeeth, City Centre, Sector 4</h3>\n<p>The <a href=\"https://www.pw.live/offline-centres/batches/vidyapeeth/bokaro-jh/bokaro-vidyapeeth-507522\" rel=\"noopener\" target=\"_blank\">PW Vidyapeeth Bokaro page</a> lists two buildings in City Centre, Sector 4: 3rd Floor, Plot N 1, South Block, above Reliance Smart, and Mezzanine and 1st Floor, Plot S/4. JEE batches are a 2-year Class 11 programme, a 1-year Class 12 programme and a 1-year dropper batch, taught in Hinglish. Specific fees are not published; the PWSAT scholarship test can earn up to 90 percent off tuition. PW's <a href=\"https://www.pw.live/vp-blogs/exams/pw-vidyapeeth-bokaro-jee-main-2026-toppers-list-complete-details\" rel=\"noopener\" target=\"_blank\">own results post</a> names three Bokaro students who scored 99.72 to 99.82 percentile in JEE Main 2026, but gives no total count. The page gives two different timing statements, so confirm hours before visiting.</p>\n\n<h2>What we left out, and why</h2>\n<p>FIITJEE has long been linked with Bokaro, and directory sites give it a City Centre address. We could not read FIITJEE's official website when we checked, so we have not listed it. Brilliant Tutorials, PACE IIT and Medical, Mentors Eduserv, Sri Chaitanya, Kaizen IIT Academy and several local tutorials also appear on directory sites. We could not find a current official page confirming a JEE batch in Bokaro for any of them. Vidyamandir Classes appears on one directory, but its official locations page lists no Jharkhand centre.</p>\n\n<h2>How to choose</h2>\n<p>Both listed centres are in City Centre, so compare them on teaching rather than location. Aakash suits students who want a long-established national chain with a structured classroom course. PW Vidyapeeth suits students who want lower-cost batches with a scholarship-test option and recorded lectures on the app. Attend a demo class at both. Ask each centre for the size of the JEE batch you would join, the teachers' experience and verified results from the Bokaro centre itself.</p>\n<p>Whichever you choose, finish your JEE Main 2027 Session 1 form before 22 November 2026. Browse every verified listing on our <a href=\"coaching-bokaro.html\">Bokaro coaching page</a>.</p>\n<p><strong>Last updated: 16 November 2026.</strong></p>"
+  },
+  {
     "slug": "ailet-2027-applications-closed-13-november-corrections-till-8am-15-november-14nov-update",
     "image": "assets/blog/ailet-2027-applications-closed-13-november-corrections-till-8am-15-november-14nov-update.png",
     "title": "AILET 2027 Applications Closed on 13 November; Corrections Allowed Until 8 AM on 15 November",
