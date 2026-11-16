@@ -1578,7 +1578,7 @@ function postPage(p) {
 <ol class="toc-list">${tocItems.map((it) => `<li><a href="#${it.id}">${it.text}</a></li>`).join("")}</ol>
 </nav>` : "";
   const words = p.title.split(/\s+/);
-  return head(`${p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}${listLd ? `<script type="application/ld+json">${JSON.stringify(listLd)}</script>\n` : ""}<script type="application/ld+json">${JSON.stringify(crumbLd)}</script>\n</head>`) + header("blog.html") + `
+  return head(`${p.metaTitle || p.title} | ${B.name}`, p.excerpt, p.image).replace("</head>", `<meta property="article:published_time" content="${iso}">\n<script type="application/ld+json">${JSON.stringify(articleLd)}</script>\n${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>\n` : ""}${listLd ? `<script type="application/ld+json">${JSON.stringify(listLd)}</script>\n` : ""}<script type="application/ld+json">${JSON.stringify(crumbLd)}</script>\n</head>`) + header("blog.html") + `
 <div class="progress" aria-hidden="true"></div>
 <main id="main">
 <section class="page-hero">
