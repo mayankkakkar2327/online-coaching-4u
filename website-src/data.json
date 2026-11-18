@@ -88,7 +88,9 @@
       "thane",
       "aligarh",
       "navi-mumbai",
-      "bokaro"
+      "bokaro",
+      "kalaburagi",
+      "amravati"
     ],
     "certification": [
       "online"
@@ -15617,6 +15619,102 @@
         "Specific fees not published"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-kalaburagi",
+      "type": "coaching",
+      "name": "Aakash Institute, Kalaburagi",
+      "city": "kalaburagi",
+      "locality": "New Jewargi Road, Baghyavanti Nagar",
+      "address": "No 1/891/72, 39, Ground Floor, Verghese Building, New Jewargi Road, Baghyavanti Nagar, Kalaburagi, Karnataka 585102",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-gulbarga-gulbarga-coaching-center-baghyavanti-nagar-kalaburagi-132884/Home",
+      "about": "Aakash's official Kalaburagi (Gulbarga) centre page, near Hotel Varghese on New Jewargi Road, lists Medical, Engineering and Foundation streams, including NEET (UG), JEE Main and JEE Advanced for Classes 8 to 12. Aakash's Gulbarga NEET page lists 2-year Class 11 and 1-year Class 12 classroom courses. Fees and centre-level results are not published, so ask for both in writing.",
+      "highlights": [
+        "NEET (UG), JEE and Foundation streams",
+        "2-year Class 11 and 1-year Class 12 NEET courses",
+        "Open 10 AM to 7:30 PM daily (official page)",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-kalaburagi",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Kalaburagi",
+      "city": "kalaburagi",
+      "locality": "Kotnoor, PNT Colony Road",
+      "address": "2nd & 3rd Floor, Sanjeevini Complex, Plot No 106, PNT Colony Road, near HDFC Bank, Kotnoor, Kalaburagi, Karnataka 585102",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/kalaburagi-ka/kalaburagi-vidyapeeth--pathshala-centre--591350",
+      "about": "PW Vidyapeeth's official Kalaburagi page lists a Vidyapeeth and Pathshala centre in Sanjeevini Complex, Kotnoor, with NEET batches for Class 11 (2 years), Class 12 (1 year) and droppers (1 year). Fees are not published; the PWSAT test can earn up to 90 percent off tuition. The page shows student testimonials, not centre-wide results.",
+      "highlights": [
+        "Class 11, Class 12 and dropper NEET batches",
+        "PWSAT scholarship test, up to 90 percent off tuition",
+        "Near HDFC Bank, PNT Colony Road",
+        "Specific fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-amravati",
+      "type": "coaching",
+      "name": "Career Launcher, Amravati",
+      "city": "amravati",
+      "locality": "Rathi Nagar",
+      "address": "1st Floor, Totey Complex (Above Totey Eye Hospital), Rathi Nagar, Amravati, Maharashtra 444603",
+      "estd": null,
+      "exams": [
+        "cat",
+        "cet",
+        "clat",
+        "ipmat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/cat-mba/coaching-centers/amravati/",
+      "about": "Career Launcher's official Amravati CAT centre page lists the centre in Totey Complex, Rathi Nagar, with programmes including MBA Classic Extended plus CET, a CET course and CAT and XAT test series. Its Amravati page also lists law, IPM and civil-services coaching and names Swapnil Arun Gawande as centre director. Some programme names on the page still refer to older batches, so confirm current courses. Fees and centre-level results are not published.",
+      "highlights": [
+        "CAT and MAH MBA CET programmes listed",
+        "Above Totey Eye Hospital, Rathi Nagar",
+        "Also lists CLAT and IPM coaching",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "ims-amravati",
+      "type": "coaching",
+      "name": "IMS Learning Resources, Amravati",
+      "city": "amravati",
+      "locality": "Railway Station Road",
+      "address": "Railway Station Road, Amravati, Maharashtra (building and street number not published on the official page)",
+      "estd": null,
+      "exams": [
+        "cat",
+        "cet",
+        "clat",
+        "ipmat"
+      ],
+      "verified": true,
+      "website": "https://imsindia.com/center/amravati/",
+      "about": "IMS's official Amravati centre page places the centre on Railway Station Road and lists CAT, CET, XAT, NMAT, CMAT, MAT and GMAT among its courses, plus IPM, CLAT and admission consulting. The page gives no building name, fees or centre-level results, so call before visiting.",
+      "highlights": [
+        "CAT, CET, XAT, NMAT and CMAT courses listed",
+        "Admission consulting offered",
+        "Railway Station Road (full address not published)",
+        "Fees not published"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15869,6 +15967,12 @@
     },
     "coaching-navi-mumbai": {
       "intro": "<p>Navi Mumbai's CLAT and law-entrance coaching is concentrated in Sector 17 of Sanpada and Vashi, close to the Harbour line stations. Law Prep Tutorial, LegalEdge, Career Launcher and IMS GET.SET.LAW all confirm centres here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-kalaburagi": {
+      "intro": "<p>Kalaburagi (Gulbarga), the divisional headquarters of the Kalyana Karnataka region, draws NEET aspirants from Bidar, Yadgir, Raichur and nearby districts. Two national coaching brands confirm NEET classroom centres here on their own official websites: Aakash Institute on New Jewargi Road and PW Vidyapeeth in Kotnoor. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-amravati": {
+      "intro": "<p>Amravati, the divisional headquarters of western Vidarbha, draws MBA aspirants from Akola, Yavatmal and Washim. Career Launcher (Rathi Nagar) and IMS (Railway Station Road) confirm Amravati centres for CAT and Maharashtra MBA CET on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
