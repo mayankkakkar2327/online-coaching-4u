@@ -90,7 +90,8 @@
       "navi-mumbai",
       "bokaro",
       "kalaburagi",
-      "amravati"
+      "amravati",
+      "gandhinagar"
     ],
     "certification": [
       "online"
@@ -15715,6 +15716,74 @@
         "Fees not published"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "dics-gandhinagar",
+      "type": "coaching",
+      "name": "DICS, Gandhinagar",
+      "city": "gandhinagar",
+      "locality": "Kudasan",
+      "address": "A-306, The Landmark, Urjanagar-1, Opp. Spicy Street, Kudasan-Por Road, Kudasan, Gandhinagar, Gujarat 382421",
+      "estd": null,
+      "exams": [
+        "ias",
+        "upsc"
+      ],
+      "verified": true,
+      "website": "https://dics.co/upsc-ias-ips-coaching-in-gandhinagar",
+      "about": "DICS's official Gandhinagar page gives this Kudasan branch address and lists UPSC GS prelims-cum-mains programmes of 14, 28 and 42 months, test series, answer writing and mock interviews. It also runs a GPSC Class 1 and 2 foundation batch in Gujarati medium and a UPSC plus GPSC hybrid course. Published UPSC fees run from Rs 95,000 to Rs 1,80,000.",
+      "highlights": [
+        "Official branch page with full Kudasan address",
+        "UPSC, GPSC and UPSC plus GPSC hybrid tracks",
+        "Published fees: Rs 95,000 to Rs 1,95,000 by programme",
+        "Morning, afternoon and evening batches"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "chahal-academy-gandhinagar",
+      "type": "coaching",
+      "name": "Chahal Academy, Gandhinagar",
+      "city": "gandhinagar",
+      "locality": "Kudasan",
+      "address": "C 201/202, The Landmark, Pandit Dindayal Upadhyay Marg, Kudasan, Gandhinagar, Gujarat 382421",
+      "estd": null,
+      "exams": [
+        "ias",
+        "upsc"
+      ],
+      "verified": true,
+      "website": "https://chahalacademy.com/best-ias-coaching-in-gandhinagar",
+      "about": "Chahal Academy's official Gandhinagar page gives this Kudasan address and describes the centre as franchisee owned and operated. It lists offline UPSC batches in the morning and evening on weekdays, a weekend batch for working professionals, and fees of Rs 1,00,000 to Rs 1,80,000 by programme length. A GPSC course is linked but its fee is not published.",
+      "highlights": [
+        "Official centre page; franchisee-operated",
+        "Weekday morning and evening batches, plus weekend batch",
+        "Published UPSC fees: Rs 1,00,000 to Rs 1,80,000",
+        "Results quoted are brand-level, not centre-level"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pdeu-cce-gandhinagar",
+      "type": "coaching",
+      "name": "Centre of Continuing Education, PDEU",
+      "city": "gandhinagar",
+      "locality": "Raisan",
+      "address": "Pandit Deendayal Energy University, Raisan Village, Gandhinagar, Gujarat 382007",
+      "estd": null,
+      "exams": [
+        "ias",
+        "upsc"
+      ],
+      "verified": true,
+      "website": "https://pdeu.ac.in/cce",
+      "about": "Pandit Deendayal Energy University's Centre of Continuing Education describes UPSC Civil Services coaching for prelims, mains and interview on its official page, with sessions involving serving and retired civil servants. The page gives no fees, batch dates or results, so contact the centre directly before planning around it.",
+      "highlights": [
+        "University-run centre on PDEU's official website",
+        "Covers UPSC prelims, mains and interview",
+        "Fees and batch dates not published"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -15973,6 +16042,9 @@
     },
     "coaching-amravati": {
       "intro": "<p>Amravati, the divisional headquarters of western Vidarbha, draws MBA aspirants from Akola, Yavatmal and Washim. Career Launcher (Rathi Nagar) and IMS (Railway Station Road) confirm Amravati centres for CAT and Maharashtra MBA CET on their own official websites. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-gandhinagar": {
+      "intro": "<p>Gandhinagar, Gujarat's capital and home of the Gujarat Public Service Commission, is a base for aspirants writing both UPSC CSE and GPSC exams. DICS and Chahal Academy run UPSC and GPSC batches in The Landmark complex in Kudasan, and PDEU's Centre of Continuing Education offers UPSC coaching. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
