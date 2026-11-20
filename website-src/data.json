@@ -91,7 +91,8 @@
       "bokaro",
       "kalaburagi",
       "amravati",
-      "gandhinagar"
+      "gandhinagar",
+      "bathinda"
     ],
     "certification": [
       "online"
@@ -15784,6 +15785,50 @@
         "Fees and batch dates not published"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "law-prep-tutorial-bathinda",
+      "type": "coaching",
+      "name": "Law Prep Tutorial, Bathinda",
+      "city": "bathinda",
+      "locality": "Model Town",
+      "address": "Ground Floor, Street No. 24A, Ajit Road, Model Town Phase 3, Bathinda, Punjab 151001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.lawpreptutorial.com/bathinda",
+      "about": "Law Prep Tutorial's official Bathinda page gives this Model Town address and lists offline CLAT programmes: a CLAT 2027 Target Batch for Class 12 students, a CLAT 2027 Finisher Batch for droppers and a CLAT 2028 Foundation Batch. It advertises a free scholarship test with scholarships of up to 100% and a parent portal. No clear fee is published, and result figures on the site are brand-wide.",
+      "highlights": [
+        "Official centre page with full Model Town address",
+        "Class 12, dropper and CLAT 2028 foundation batches",
+        "Free scholarship test, up to 100% scholarship",
+        "Fees on enquiry; results are brand-wide"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-bathinda",
+      "type": "coaching",
+      "name": "Career Launcher, Bathinda (Civil Lines)",
+      "city": "bathinda",
+      "locality": "Civil Lines",
+      "address": "SCO 24, Second Floor, PUDA Complex, near Gopal Sweets, Bathinda, Punjab 151001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/bathinda/",
+      "about": "Career Launcher's official centre listing gives this PUDA Complex address for its Bathinda - Civil Lines centre. The Bathinda page describes coaching for CLAT and other law exams including PU-LAW, NLAT and SLAT, alongside IPMAT/BBA, CUET, bank PO, SSC and Punjab government exams. Fees, batch timings and centre-level results are not published.",
+      "highlights": [
+        "Official CL centre listing confirms the address",
+        "CLAT plus PU-LAW, NLAT and SLAT preparation",
+        "Also runs IPMAT/BBA and CUET courses",
+        "Fees and batch timings on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16045,6 +16090,9 @@
     },
     "coaching-gandhinagar": {
       "intro": "<p>Gandhinagar, Gujarat's capital and home of the Gujarat Public Service Commission, is a base for aspirants writing both UPSC CSE and GPSC exams. DICS and Chahal Academy run UPSC and GPSC batches in The Landmark complex in Kudasan, and PDEU's Centre of Continuing Education offers UPSC coaching. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-bathinda": {
+      "intro": "<p>Bathinda, the main education centre of Punjab's Malwa region, now has two offline CLAT coaching centres confirmed on the institutes' own websites: Law Prep Tutorial in Model Town and Career Launcher in Civil Lines. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
