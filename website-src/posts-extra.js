@@ -1,6 +1,99 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "jee-advanced-2027-on-23-may-iit-delhi-organising-on-screen-calculator-21nov-update",
+    "image": "assets/blog/jee-advanced-2027-on-23-may-iit-delhi-organising-on-screen-calculator-21nov-update.png",
+    "title": "JEE Advanced 2027 on 23 May: IIT Delhi to Organise, On-Screen Basic Calculator Allowed",
+    "category": "JEE & Engineering",
+    "type": "exam-news",
+    "date": "21 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=jee",
+      "text": "Compare verified JEE coaching institutes"
+    },
+    "excerpt": "IIT Delhi will conduct JEE Advanced 2027 on Sunday, 23 May 2027, and candidates will get an on-screen basic calculator. Eligibility in brief, what it means for you, and five dated pointers.",
+    "faqs": [
+      {
+        "q": "When is JEE Advanced 2027?",
+        "a": "Sunday, 23 May 2027, according to IIT Delhi's press release of 13 November 2026 on jeeadv.ac.in."
+      },
+      {
+        "q": "Which IIT is conducting JEE Advanced 2027?",
+        "a": "IIT Delhi is the organising institute for JEE Advanced 2027."
+      },
+      {
+        "q": "Is a calculator allowed in JEE Advanced 2027?",
+        "a": "Yes, an on-screen basic (non-scientific) calculator with a 10-12 digit display, according to the 13 November 2026 press release. Physical calculators are not mentioned."
+      },
+      {
+        "q": "What is the age limit for JEE Advanced 2027?",
+        "a": "Candidates must have been born on or after 1 October 2002. SC, ST and PwD candidates get five years' relaxation (born on or after 1 October 1997)."
+      },
+      {
+        "q": "How many candidates qualify for JEE Advanced 2027 from JEE Main?",
+        "a": "The top 2,50,000 candidates across all categories in the B.E./B.Tech paper of JEE Main 2027, as per the official eligibility page."
+      },
+      {
+        "q": "When does JEE Advanced 2027 registration open?",
+        "a": "Not announced yet. As of 21 November 2026, the official website gives only the exam date and eligibility criteria."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 21 November 2026.</strong></p>\n<p>JEE Advanced 2027 will be held on Sunday, 23 May 2027, with IIT Delhi as the organising institute, according to a press release dated 13 November 2026 on the official website jeeadv.ac.in.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Exam date:</strong> Sunday, 23 May 2027</p>\n<p><strong>Organising institute:</strong> IIT Delhi</p>\n<p><strong>Official website:</strong> <a href=\"https://jeeadv.ac.in/\" rel=\"noopener\" target=\"_blank\">jeeadv.ac.in</a>, launched with the 13 November 2026 press release</p>\n<p><strong>Calculator:</strong> on-screen basic (non-scientific) calculator with a 10-12 digit display</p>\n<p><strong>Who qualifies:</strong> top 2,50,000 candidates (all categories) in the B.E./B.Tech paper of JEE Main 2027</p>\n<p><strong>Source:</strong> <a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">JEE (Advanced) 2027 press release, 13 Nov 2026</a></p>\n</div>\n\n<h2>What IIT Delhi has announced</h2>\n<p>The <a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">press release</a> issued by IIT Delhi on 13 November 2026 makes four points. JEE Advanced 2027 will be held on 23 May 2027, a Sunday. The official website <a href=\"https://jeeadv.ac.in/\" rel=\"noopener\" target=\"_blank\">jeeadv.ac.in</a> is now live. The eligibility criteria are published on that website. Candidates will be able to use an on-screen basic, non-scientific calculator with a 10-12 digit display during the exam.</p>\n<p>The press release does not give registration dates, the admit card date or the result date. The website's announcements, both posted at 5:00 PM on 13 November, cover only the exam date and the eligibility criteria.</p>\n\n<h2>Eligibility for JEE Advanced 2027, in brief</h2>\n<p>The <a href=\"https://jeeadv.ac.in/eligibility.html\" rel=\"noopener\" target=\"_blank\">eligibility page</a> says Indian nationals and OCI/PIO (I) candidates must meet all five criteria below.</p>\n<p><strong>JEE Main rank:</strong> You must be among the top 2,50,000 successful candidates, across all categories, in the B.E./B.Tech paper of JEE Main 2027. The category split is 40.5% OPEN, 10% GEN-EWS, 27% OBC-NCL, 15% SC and 7.5% ST, with 5% horizontal reservation for PwD candidates within each.</p>\n<p><strong>Age:</strong> You must have been born on or after 1 October 2002. SC, ST and PwD candidates get five years' relaxation, so the cut-off for them is 1 October 1997.</p>\n<p><strong>Attempts:</strong> A candidate can take JEE Advanced at most twice, in two consecutive years.</p>\n<p><strong>Class 12:</strong> You must have appeared in Class 12 (or equivalent) for the first time in 2026 or 2027, with Physics, Chemistry and Mathematics as compulsory subjects. Those who first appeared in 2025 or earlier are not eligible, with one narrow exception for boards that declared 2024-25 results on or after 12 June 2025.</p>\n<p><strong>Earlier IIT admission:</strong> You must not have been admitted to an IIT or IISc programme listed in the JoSAA 2026 business rules, even if you later left it. Those who were allotted an IIT seat through JoSAA 2026 but did not report, withdrew before the last round, or had the seat cancelled before the last round remain eligible.</p>\n<p>Foreign nationals and OCI/PIO (F) candidates do not need to write JEE Main 2027 and can register for JEE Advanced directly, subject to the other conditions on the eligibility page.</p>\n\n<h2>What it means for students</h2>\n<p>There are about six months, or 183 days from today, to the exam. For Class 12 students, that window also holds the board exams and both JEE Main sessions, so your JEE Advanced revision plan should start now rather than after JEE Main results.</p>\n<p>Check the age and Class 12 rules before anything else. A dropper who first appeared in Class 12 in 2025 is not eligible for JEE Advanced 2027 under the published criteria, whatever the JEE Main score, except in the narrow late-board-result case described on the official page.</p>\n<p>Practise with an on-screen calculator. The press release confirms a basic, non-scientific one, so you will not be able to rely on scientific functions. Get used to doing logarithms and roots by hand or with approximations, and use the on-screen tool only for plain arithmetic.</p>\n<p>The first step is still JEE Main. The last date to apply for JEE Main 2027 Session 1 is tomorrow, 22 November 2026, up to 11:50 PM, according to the <a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice</a>. If you have not applied, do it today on <a href=\"https://jeemain.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">jeemain.nta.nic.in</a>.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>21 Nov 2026:</strong> JEE Advanced 2027 will be held on Sunday, 23 May 2027, and IIT Delhi is the organising institute (<a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">IIT Delhi press release, 13 Nov 2026</a>).</li>\n<li><strong>21 Nov 2026:</strong> JEE Advanced 2027 candidates will get an on-screen basic (non-scientific) calculator with a 10-12 digit display (<a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">IIT Delhi press release</a>).</li>\n<li><strong>21 Nov 2026:</strong> To sit JEE Advanced 2027, an Indian candidate must be among the top 2,50,000 in the B.E./B.Tech paper of JEE Main 2027 and born on or after 1 October 2002, or 1 October 1997 for SC, ST and PwD candidates (<a href=\"https://jeeadv.ac.in/eligibility.html\" rel=\"noopener\" target=\"_blank\">JEE Advanced eligibility page</a>).</li>\n<li><strong>21 Nov 2026:</strong> The last date to apply and pay the fee for JEE Main 2027 Session 1 is 22 November 2026, up to 11:50 PM; late applications with a Rs 500 fee run from 23 to 26 November (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice</a>).</li>\n<li><strong>21 Nov 2026:</strong> The JEE Main 2027 Session 1 correction window is 27 to 29 November 2026, and only the latest fee-paid application counts if you submitted a fresh form (<a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf\" rel=\"noopener\" target=\"_blank\">NTA clarification, 30 Oct 2026</a>).</li>\n</ul>\n<p>Preparing for JEE in Chhattisgarh? See our new city guide, <a href=\"top-jee-coaching-institutes-bilaspur-2026.html\">Top JEE Coaching Institutes in Bilaspur</a>.</p>\n<p><strong>Last updated: 21 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-jee-coaching-institutes-bilaspur-2026",
+    "image": "assets/blog/top-jee-coaching-institutes-bilaspur-2026.png",
+    "title": "Top JEE Coaching Institutes in Bilaspur (2026)",
+    "category": "JEE & Engineering",
+    "type": "coaching-guides",
+    "date": "21 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-bilaspur.html",
+      "text": "Browse all verified coaching institutes in Bilaspur"
+    },
+    "excerpt": "Three JEE coaching brands confirm classroom courses in Bilaspur, Chhattisgarh, on their official websites: Aakash on Link Road, PW Vidyapeeth in Kranti Nagar, and ALLEN. What each offers, what they do not publish, and how to choose.",
+    "itemListName": "Top JEE Coaching Institutes in Bilaspur (2026)",
+    "itemList": [
+      {
+        "name": "Aakash Institute, Link Road, Bilaspur",
+        "url": "https://centers.aakash.ac.in/aakash-institute-bilaspur-coaching-center-link-road-bilaspur-99593/Contact-Us"
+      },
+      {
+        "name": "PW Vidyapeeth, Kranti Nagar, Bilaspur",
+        "url": "https://www.pw.live/offline-centres/batches/vidyapeeth/bilaspur-ct/bilaspur-vidyapeeth-406481"
+      },
+      {
+        "name": "ALLEN Career Institute, Bilaspur",
+        "url": "https://allen.in/bilaspur/jee-main-advanced"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best JEE coaching in Bilaspur?",
+        "a": "There is no single best. Aakash Institute, PW Vidyapeeth and ALLEN all confirm JEE classroom courses in Bilaspur on their official websites. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Where is Aakash Institute in Bilaspur?",
+        "a": "Aakash's official centre page lists 2nd Floor, ARK Building, Link Road, Bilaspur 495001, in front of the Zudio showroom. Its JEE page shows an older Link Road address, so call to confirm."
+      },
+      {
+        "q": "Where is PW Vidyapeeth in Bilaspur?",
+        "a": "PW Vidyapeeth's official page lists 3rd Floor, Shri Krishna Shopping Plaza, opposite Rama Magneto Mall, Srikant Verma Marg, Kranti Nagar, Bilaspur 495004."
+      },
+      {
+        "q": "Does ALLEN have JEE classes in Bilaspur?",
+        "a": "Yes. ALLEN's official Bilaspur JEE page lists Nurture, TALLENTPRO XI and Enthusiast classroom courses. The page does not publish a street address."
+      },
+      {
+        "q": "What is the fee for JEE coaching in Bilaspur?",
+        "a": "None of the three institutes publishes a fee amount on its Bilaspur page as of 21 November 2026. Ask for the fee and any scholarship in writing."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 21 November 2026.</strong></p>\n<p>Bilaspur in Chhattisgarh has three national JEE coaching brands whose own official websites confirm JEE classroom courses in the city: Aakash Institute on Link Road, PW Vidyapeeth in Kranti Nagar, and ALLEN Career Institute. This guide lists only those three, explains what each publishes, and says plainly what we could not confirm.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Bilaspur, Chhattisgarh</p>\n<p><strong>Exams covered:</strong> JEE Main and JEE Advanced (2027 and 2028 cycles)</p>\n<p><strong>Institutes listed:</strong> 3, each checked on its own official website on 21 November 2026</p>\n<p><strong>Coaching areas:</strong> Link Road and Srikant Verma Marg (Kranti Nagar)</p>\n<p><strong>Next JEE date:</strong> JEE Main 2027 Session 1 applications close 22 November 2026, 11:50 PM (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA</a>)</p>\n<p><strong>JEE Advanced 2027:</strong> Sunday, 23 May 2027 (<a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">IIT Delhi press release</a>)</p>\n<p><strong>Published fees:</strong> none of the three publishes a fee amount on its Bilaspur page</p>\n</div>\n\n<h2>Why Bilaspur matters for JEE aspirants</h2>\n<p>Bilaspur is one of Chhattisgarh's largest cities, the seat of the Chhattisgarh High Court and the headquarters of the South East Central Railway zone. For families in the northern half of the state, from Korba, Janjgir-Champa, Mungeli and Pendra Road, it is the nearest city with classroom JEE coaching from national brands.</p>\n<p>Until a few years ago, a serious JEE aspirant from this region usually moved to Bhilai, Raipur or Kota. With three national brands now confirming JEE classroom courses in Bilaspur, a student can prepare while staying at home and attending a local school, which saves a large amount on hostel and travel costs.</p>\n<p>The city also has its own engineering institutions, including the Institute of Technology at Guru Ghasidas Vishwavidyalaya, a central university. But most JEE aspirants here aim at the NITs, IIITs and IITs, and the nearest NIT is in Raipur. That makes JEE Main the main target for nearly every student, with JEE Advanced for the top band.</p>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own official website confirms a JEE classroom course in Bilaspur. Directory sites name several more local classes, but without an official page we did not rank them. We have kept the list to three instead of padding it to ten. The order below reflects how much each institute publishes about its Bilaspur centre, not a judgement of teaching quality. None of these is a paid listing on our site.</p>\n\n<h3>1. Aakash Institute, Link Road</h3>\n<p>Aakash's <a href=\"https://centers.aakash.ac.in/aakash-institute-bilaspur-coaching-center-link-road-bilaspur-99593/Contact-Us\" rel=\"noopener\" target=\"_blank\">official centre page</a> gives the address as 2nd Floor, ARK Building, Link Road, Bilaspur 495001, in front of the Zudio showroom, and describes it as a NEET and IIT-JEE coaching centre. Aakash's <a href=\"https://www.aakash.ac.in/bilaspur-city/iit-jee-main-advanced-coaching\" rel=\"noopener\" target=\"_blank\">Bilaspur JEE page</a> lists JEE Main and JEE Advanced programmes for Class 11 and 12 topics, a JEE repeater course for Class 12 pass-outs, and a crash course for revision.</p>\n<p>The JEE page still shows an older address, 1st Floor, Purushottam Bhavan, Link Road, which differs from the centre page. Both are on Link Road; call the centre to confirm before visiting. Aakash does not publish a fee or Bilaspur-specific results on these pages.</p>\n\n<h3>2. PW Vidyapeeth, Kranti Nagar</h3>\n<p>PW Vidyapeeth's <a href=\"https://www.pw.live/offline-centres/batches/vidyapeeth/bilaspur-ct/bilaspur-vidyapeeth-406481\" rel=\"noopener\" target=\"_blank\">official Bilaspur page</a> gives the address as 3rd Floor, Shri Krishna Shopping Plaza, opposite Rama Magneto Mall, Srikant Verma Marg, Kranti Nagar, Bilaspur 495004. It lists IIT-JEE programmes for Class 11, Class 12 and droppers, with a classroom programme and a separate test series programme, alongside NEET and Class 8 to 10 foundation courses.</p>\n<p>The page mentions structured classroom teaching, instant doubt support and an all-India test series. It does not publish fees or Bilaspur-specific results, so ask at the centre and check which teachers teach in person.</p>\n\n<h3>3. ALLEN Career Institute, Bilaspur</h3>\n<p>ALLEN's <a href=\"https://allen.in/bilaspur/jee-main-advanced\" rel=\"noopener\" target=\"_blank\">official Bilaspur JEE page</a> says the institute has launched its JEE (Main + Advanced) classroom programmes in Bilaspur. It lists Nurture and TALLENTPRO XI courses for students moving from Class 10 to 11, and an Enthusiast course for students moving from Class 11 to 12, with printed study material, daily practice problems and regular tests.</p>\n<p>The page does not publish a street address, a fee or Bilaspur-specific results, and its course durations are shown inconsistently in two places. Confirm the centre address, course length and batch timings on the phone before visiting, and ask for the fee in writing.</p>\n\n<h2>What we left out, and why</h2>\n<p>Directory sites list other Bilaspur names under JEE coaching, including local tuition centres and smaller regional brands. For these we found no official page that confirms a current JEE classroom batch at a Bilaspur address, so we have not ranked them. Online-only JEE courses are also left out of this city guide, since students can take them from anywhere.</p>\n\n<h2>How to choose</h2>\n<p>Aakash suits a student who wants a long-running national brand with a repeater course option. PW Vidyapeeth publishes separate Class 11, Class 12 and dropper batches and a standalone test series, which helps if you already study at school and only want tests. ALLEN's two-track Class 11 courses may suit a student who wants a more advanced batch from the start.</p>\n<p>Ask every centre the same five questions: how many students sit in one batch, which teachers teach in the classroom rather than on screen, how many full-length JEE Main and JEE Advanced mocks are included, how doubts are handled outside class hours, and what the refund policy is. Take a demo class before paying, and get the fee and any scholarship in writing.</p>\n<p>If you are writing JEE Main 2027 Session 1, the application closes on 22 November 2026. Read our update on <a href=\"jee-advanced-2027-on-23-may-iit-delhi-organising-on-screen-calculator-21nov-update.html\">JEE Advanced 2027 on 23 May</a> for the eligibility rules, and see every verified listing in the city on our <a href=\"coaching-bilaspur.html\">Bilaspur coaching page</a>.</p>\n<p><strong>Last updated: 21 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "clat-2027-consortium-warns-fake-question-paper-offers-exam-6-december-20nov-update",
     "image": "assets/blog/clat-2027-consortium-warns-fake-question-paper-offers-exam-6-december-20nov-update.png",
     "title": "CLAT 2027: Consortium Warns Paid Question Paper Offers Are Fraud, Exam Stays on 6 December",

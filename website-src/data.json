@@ -92,7 +92,8 @@
       "kalaburagi",
       "amravati",
       "gandhinagar",
-      "bathinda"
+      "bathinda",
+      "bilaspur"
     ],
     "certification": [
       "online"
@@ -15829,6 +15830,74 @@
         "Fees and batch timings on enquiry"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-bilaspur",
+      "type": "coaching",
+      "name": "Aakash Institute, Bilaspur (Link Road)",
+      "city": "bilaspur",
+      "locality": "Link Road",
+      "address": "2nd Floor, ARK Building, Link Road, in front of Zudio showroom, Bilaspur, Chhattisgarh 495001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-bilaspur-coaching-center-link-road-bilaspur-99593/Contact-Us",
+      "about": "Aakash's official Bilaspur centre page gives this Link Road address and describes it as a NEET and IIT-JEE coaching centre. Its Bilaspur JEE page lists JEE Main and JEE Advanced programmes, a repeater course for Class 12 pass-outs and a crash course, but still shows an older Link Road address (Purushottam Bhavan), so confirm before visiting. Fees and centre results are not published.",
+      "highlights": [
+        "Official centre page confirms the Link Road address",
+        "JEE Main, JEE Advanced and repeater courses",
+        "Also runs NEET and foundation courses",
+        "Fees on enquiry; JEE page shows an older address"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-bilaspur",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Bilaspur",
+      "city": "bilaspur",
+      "locality": "Kranti Nagar",
+      "address": "3rd Floor, Shri Krishna Shopping Plaza, opposite Rama Magneto Mall, Srikant Verma Marg, Kranti Nagar, Bilaspur, Chhattisgarh 495004",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/bilaspur-ct/bilaspur-vidyapeeth-406481",
+      "about": "PW Vidyapeeth's official Bilaspur page gives this Kranti Nagar address and lists IIT-JEE programmes for Class 11, Class 12 and droppers, with a classroom programme and a separate test series programme. It also runs NEET and Class 8 to 10 foundation courses. The page mentions doubt support and an all-India test series but publishes no fees or Bilaspur-specific results.",
+      "highlights": [
+        "Official page confirms the Srikant Verma Marg address",
+        "JEE batches for Class 11, Class 12 and droppers",
+        "Classroom and test-series programmes",
+        "Fees and centre results on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-bilaspur",
+      "type": "coaching",
+      "name": "ALLEN Career Institute, Bilaspur",
+      "city": "bilaspur",
+      "locality": "Bilaspur",
+      "address": "Bilaspur, Chhattisgarh (street address not published on ALLEN's official Bilaspur JEE page; confirm with the centre)",
+      "estd": null,
+      "exams": [
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://allen.in/bilaspur/jee-main-advanced",
+      "about": "ALLEN's official Bilaspur JEE page says the institute has launched its JEE (Main + Advanced) classroom programmes in Bilaspur, listing Nurture and TALLENTPRO XI courses for students moving from Class 10 to 11 and an Enthusiast course for students moving from Class 11 to 12. The page does not publish a street address, fees or Bilaspur-specific results.",
+      "highlights": [
+        "Official page lists Nurture, TALLENTPRO XI and Enthusiast",
+        "Printed study material, DPPs and test series",
+        "JEE (Main + Advanced) classroom programmes",
+        "Street address and fees not published online"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16093,6 +16162,9 @@
     },
     "coaching-bathinda": {
       "intro": "<p>Bathinda, the main education centre of Punjab's Malwa region, now has two offline CLAT coaching centres confirmed on the institutes' own websites: Law Prep Tutorial in Model Town and Career Launcher in Civil Lines. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-bilaspur": {
+      "intro": "<p>Bilaspur, one of Chhattisgarh's largest cities and the seat of the state High Court, is the coaching base for engineering and medical aspirants across the northern districts of the state. Aakash Institute on Link Road and PW Vidyapeeth in Kranti Nagar run classroom centres, and ALLEN lists JEE classroom courses for Bilaspur. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
