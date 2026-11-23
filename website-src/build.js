@@ -772,12 +772,15 @@ function onlineCoachingPage() {
 const portalForm = (kind, slug, source) => `data-oc4u="${kind}" data-slug="${slug}"${source ? ` data-source="${source}"` : ""} data-api="${PORTAL.SUPABASE_URL}" data-key="${PORTAL.SUPABASE_KEY}" novalidate`;
 const HP_FIELD = `<input type="text" name="hp_website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">`;
 function studentReviews(x) {
-  const rs = x.ocReviews || [];
+  /* newest first; only the first REVIEWS_PAGE show, "See more reviews" reveals the next REVIEWS_PAGE each click (app.js) */
+  const rs = (x.ocReviews || []).slice().sort((a, b) => new Date(b.date) - new Date(a.date));
   if (!rs.length) return "";
+  const REVIEWS_PAGE = 5;
   const avg = rs.reduce((a, r) => a + r.rating, 0) / rs.length;
   const stars = (n) => `<span class="ocr-stars" aria-label="${n} out of 5 stars">${"★".repeat(n)}<span class="off">${"★".repeat(5 - n)}</span></span>`;
   return `<div class="agg oc4u"><div class="big">${avg.toFixed(1)}</div><p><b style="color:var(--navy)">${plural(rs.length, "student review")} on ${esc(B.name)}</b>. Each review was checked by our team before it was published.</p></div>
-<div class="ocr-list">${rs.map(r => `<div class="ocr-item">${stars(r.rating)}<p class="ocr-body">${esc(r.body)}</p><p class="ocr-meta">${esc(r.name)} · ${new Date(r.date).toLocaleDateString("en-IN", { month: "short", year: "numeric" })}</p>${r.reply ? `<div class="ocr-reply"><b>Reply from ${esc(x.name)}</b><p>${esc(r.reply)}</p></div>` : ""}</div>`).join("")}</div>`;
+<div class="ocr-list" data-page="${REVIEWS_PAGE}">${rs.map((r, i) => `<div class="ocr-item"${i >= REVIEWS_PAGE ? " hidden" : ""}>${stars(r.rating)}<p class="ocr-body">${esc(r.body)}</p><p class="ocr-meta">${esc(r.name)} · ${new Date(r.date).toLocaleDateString("en-IN", { month: "short", year: "numeric" })}</p>${r.reply ? `<div class="ocr-reply"><b>Reply from ${esc(x.name)}</b><p>${esc(r.reply)}</p></div>` : ""}</div>`).join("")}</div>${rs.length > REVIEWS_PAGE ? `
+<button type="button" class="btn btn-ghost ocr-more" data-ocr-more>See more reviews <span class="ocr-more-count">(${rs.length - REVIEWS_PAGE} more)</span></button>` : ""}`;
 }
 
 const SOCIAL_LABEL = { instagram: "Instagram", youtube: "YouTube", facebook: "Facebook", linkedin: "LinkedIn", x: "X (Twitter)" };

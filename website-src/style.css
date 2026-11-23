@@ -626,6 +626,9 @@ body.nav-open{overflow:hidden}
 .ocr-meta{font-size:13px;color:var(--muted);margin:0}
 .ocr-reply{margin-top:10px;padding:10px 12px;background:#F4F5FB;border-radius:8px;font-size:14px}
 .ocr-reply p{margin:4px 0 0}
+.ocr-item[hidden]{display:none}
+.ocr-more{min-height:44px;margin:6px 0 4px;font-size:14px;color:var(--blue)}
+.ocr-more-count{font-weight:400;color:var(--muted)}
 
 /* ---------- header login menu ---------- */
 .nav-login{position:relative}

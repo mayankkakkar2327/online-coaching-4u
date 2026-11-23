@@ -38,6 +38,19 @@
     $$(".nav-item.open").forEach(function (it) { if (!it.contains(e.target)) { it.classList.remove("open"); var b = $(".nav-drop-btn", it); if (b) b.setAttribute("aria-expanded", "false"); } });
   });
 
+  /* ---- student reviews: show 5 more on each "See more reviews" click ---- */
+  $$("[data-ocr-more]").forEach(function (btn) {
+    var list = btn.previousElementSibling;
+    if (!list || !list.classList.contains("ocr-list")) return;
+    var page = +list.getAttribute("data-page") || 5, cnt = $(".ocr-more-count", btn);
+    btn.addEventListener("click", function () {
+      var rest = list.querySelectorAll(".ocr-item[hidden]");
+      for (var i = 0; i < rest.length && i < page; i++) rest[i].removeAttribute("hidden");
+      var left = rest.length - Math.min(rest.length, page);
+      if (left <= 0) btn.remove(); else if (cnt) cnt.textContent = "(" + left + " more)";
+    });
+  });
+
   /* ---- hero mouse parallax ---- */
   var hero = $(".hero, .page-hero");
   if (hero && !reduce && window.matchMedia("(pointer:fine)").matches) {
@@ -72,7 +85,7 @@
         if (num && !num.dataset.done) { num.dataset.done = "1"; countUp(num); }
         io.unobserve(en.target);
       });
-    }, { rootMargin: "0px 0px -6% 0px", threshold: 0.1 });
+    }, { rootMargin: "0px 0px -6% 0px", threshold: 0 });
     $$(".exam-grid, .city-grid, .rank-table, .promises, .post-grid, .stats .container, .results, .benefits, .steps, .compare, .principle-list, .labels, .tile-grid").forEach(function (g) {
       Array.prototype.forEach.call(g.children, function (c, i) { c.style.setProperty("--sd", (i % 6) * 70 + "ms"); });
     });
