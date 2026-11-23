@@ -93,7 +93,8 @@
       "amravati",
       "gandhinagar",
       "bathinda",
-      "bilaspur"
+      "bilaspur",
+      "nanded"
     ],
     "certification": [
       "online"
@@ -15898,6 +15899,97 @@
         "Street address and fees not published online"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-nanded",
+      "type": "coaching",
+      "name": "Aakash Institute, Nanded (Yeshwant College Road)",
+      "city": "nanded",
+      "locality": "Bhagya Nagar",
+      "address": "Plot No 17 & 18, Yeshwant College Road, Bhagya Nagar, Nanded, Maharashtra 431605",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-educational-service-limited-nanded-coaching-center-bhagya-nagar-nanded-99241/Home",
+      "about": "Aakash's official Nanded centre page gives this Yeshwant College Road address and describes it as a NEET and IIT-JEE coaching centre. Its Nanded NEET page lists a two-year classroom course for Class 11, a Class 12 course, a repeater course and a crash course, but shows the PIN code as 431602, so confirm before visiting. Fees and centre results are not published.",
+      "highlights": [
+        "Official centre page confirms the Yeshwant College Road address",
+        "NEET two-year, one-year, repeater and crash courses",
+        "Also runs JEE and Class 8-10 foundation courses",
+        "Fees on enquiry; PIN code differs between pages"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-nanded",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Nanded",
+      "city": "nanded",
+      "locality": "Anand Nagar",
+      "address": "Plot No 15, Ganesh Heights, Anand Nagar Road, Vasant Nagar, Nanded, Maharashtra 431601",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/nanded-mh/nanded-vidyapeeth-322381",
+      "about": "PW Vidyapeeth's official Nanded page gives this Anand Nagar Road address and lists NEET courses for Class 11, Class 12 and droppers, along with IIT-JEE and Class 8 to 10 foundation courses. The page mentions doubt support and an all-India test series but publishes no fees or Nanded-specific results.",
+      "highlights": [
+        "Official page confirms the Anand Nagar Road address",
+        "NEET batches for Class 11, Class 12 and droppers",
+        "Classroom and test-series programmes",
+        "Fees and centre results on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-nanded",
+      "type": "coaching",
+      "name": "ALLEN Career Institute, Nanded",
+      "city": "nanded",
+      "locality": "Nanded",
+      "address": "Nanded, Maharashtra (street address not published on ALLEN's official Nanded NEET page; confirm with the centre)",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://allen.in/nanded/neet",
+      "about": "ALLEN's official Nanded NEET page says the institute runs offline classroom NEET (UG) coaching in Nanded, listing Nurture and TALLENTPRO XI courses for students moving from Class 10 to 11 and Enthusiast and TALLENTPRO XII courses for students moving from Class 11 to 12 in the 2027-28 session. The page does not publish a street address, fees or Nanded-specific results.",
+      "highlights": [
+        "Official page lists Nurture, TALLENTPRO, Enthusiast",
+        "Printed study material, DPPs and test series",
+        "Offline NEET (UG) classroom programmes",
+        "Street address and fees not published online"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "vedantu-learning-centre-nanded",
+      "type": "coaching",
+      "name": "Vedantu Learning Centre, Nanded",
+      "city": "nanded",
+      "locality": "Nanded",
+      "address": "Nanded, Maharashtra (centre address left blank on Vedantu's official Nanded page; book a visit to confirm)",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.vedantu.com/offline-centres/nanded/nanded",
+      "about": "Vedantu's official Nanded centre page lists offline NEET courses for Class 11 (two years), Class 12 (one year) and a repeater batch for Class 12 pass-outs, plus JEE and Class 8 to 10 foundation courses. The page leaves the address blank and publishes no fees or Nanded-specific results.",
+      "highlights": [
+        "Official page lists NEET-11, NEET-12 and repeater batches",
+        "Smart classrooms with online material access",
+        "Also runs JEE and foundation courses",
+        "Address and fees not published online"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16165,6 +16257,9 @@
     },
     "coaching-bilaspur": {
       "intro": "<p>Bilaspur, one of Chhattisgarh's largest cities and the seat of the state High Court, is the coaching base for engineering and medical aspirants across the northern districts of the state. Aakash Institute on Link Road and PW Vidyapeeth in Kranti Nagar run classroom centres, and ALLEN lists JEE classroom courses for Bilaspur. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-nanded": {
+      "intro": "<p>Nanded, the second-largest city in Maharashtra's Marathwada region and part of the well-known Latur-Nanded belt for medical entrance preparation, now has four national brands whose official websites confirm NEET classroom courses in the city: Aakash Institute on Yeshwant College Road, PW Vidyapeeth on Anand Nagar Road, ALLEN Career Institute and Vedantu. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }

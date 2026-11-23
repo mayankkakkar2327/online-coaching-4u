@@ -1,6 +1,99 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "neet-pg-2026-round2-result-declared-reporting-till-25-november-round3-from-26-november-23nov-update",
+    "image": "assets/blog/neet-pg-2026-round2-result-declared-reporting-till-25-november-round3-from-26-november-23nov-update.png",
+    "title": "NEET PG 2026 Round 2 Result Declared: Report by 25 November, No Extension; Round 3 From 26 November",
+    "category": "NEET & Medical",
+    "type": "exam-news",
+    "date": "23 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=neet",
+      "text": "Compare verified NEET coaching institutes"
+    },
+    "excerpt": "MCC declared the NEET PG 2026 Round 2 result on 20 November after a three-day hold over a Madras High Court order. Report by 10 PM on 25 November; Round 3 is scheduled from 26 November. Five dated pointers.",
+    "faqs": [
+      {
+        "q": "Is the NEET PG 2026 Round 2 result out?",
+        "a": "Yes. MCC declared the Round 2 result on 20 November 2026, according to MCC Notice No. 12 of that date."
+      },
+      {
+        "q": "What is the last date to report for NEET PG Round 2?",
+        "a": "25 November 2026, up to 10:00 PM. MCC says there will be no extension of reporting time."
+      },
+      {
+        "q": "Why was the NEET PG Round 2 result delayed?",
+        "a": "MCC put seat processing on hold on 17 November because of an interim order of the Madras High Court in WP No. 46350 of 2026. The result was declared on 20 November."
+      },
+      {
+        "q": "When does NEET PG 2026 Round 3 start?",
+        "a": "MCC's schedule of 16 November lists Round 3 for All India Quota, deemed and central universities from 26 November to 4 December 2026. A detailed Round 3 notice had not been posted as of 23 November."
+      },
+      {
+        "q": "Till when is the PwD portal open for NEET PG Round 3?",
+        "a": "Till 6:00 PM on 28 November 2026 for disability centres and till 6:00 PM on 1 December 2026 for the Appellate Board, as per MCC's notice of 21 November."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 23 November 2026.</strong></p>\n<p>The Medical Counselling Committee (MCC) declared the NEET PG 2026 Round 2 result on 20 November 2026, and candidates allotted a seat must report to their college by 10:00 PM on 25 November 2026, with no extension, according to MCC Notice No. 12 dated 20 November.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Round 2 result:</strong> declared on 20 November 2026 (it had been on hold since 17 November)</p>\n<p><strong>Last date to report for Round 2:</strong> 25 November 2026, up to 10:00 PM. MCC says there will be no extension.</p>\n<p><strong>Round 3 (All India Quota, deemed and central universities):</strong> 26 November to 4 December 2026, as per MCC's schedule of 16 November</p>\n<p><strong>PwD portal for Round 3:</strong> open till 6:00 PM on 28 November for disability centres and till 6:00 PM on 1 December for the Appellate Board</p>\n<p><strong>Source:</strong> <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261120750611410.pdf\" rel=\"noopener\" target=\"_blank\">MCC Notice No. 12, 20 Nov 2026</a></p>\n</div>\n\n<h2>What MCC has announced</h2>\n<p>MCC's <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261120750611410.pdf\" rel=\"noopener\" target=\"_blank\">Notice No. 12</a>, dated 20 November 2026, says the result of Round 2 of PG Counselling 2026 has been declared. The last date of reporting for Round 2 is 25 November 2026, up to 10:00 PM. The notice says plainly that there will be no extension of reporting time and that requests for an extension will not be entertained.</p>\n<p>MCC has also told participating colleges to treat all Saturdays, Sundays and gazetted holidays as working days, so that candidates can report on any day before the deadline. The <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611202051238408.pdf\" rel=\"noopener\" target=\"_blank\">final allotment result for Round 2</a> is posted on the <a href=\"https://mcc.nic.in/pg-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC PG counselling page</a>.</p>\n\n<h2>Why the result was late</h2>\n<p>The Round 2 result was due on 17 November. That day, MCC's <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611171047091852.pdf\" rel=\"noopener\" target=\"_blank\">Notice No. 10</a> said seat processing had been kept on hold because of an interim order of the Madras High Court in WP No. 46350 of 2026, filed by Sri Venkateshwaraa Medical College Hospital and Research Centre against the Government of India and others. The order stayed further admission proceedings and the joining of students by CENTAC and MCC. MCC said it would declare the result only after receiving clarification or directions from the High Court.</p>\n<p>Three days later, on 20 November, MCC declared the result. Notice No. 12 does not explain what changed in the court matter, and we have not found an official notice that does. If your allotment involves a Puducherry college, keep checking the MCC website for any further notice on this case.</p>\n\n<h2>What it means for students</h2>\n<p>If you got a seat in Round 2, you have until 10:00 PM on Wednesday, 25 November to report. That is a tight window, especially if your allotted college is in another state. Book travel now, carry every original document and copy listed in the MCC information bulletin, and do not wait for an extension that MCC has already ruled out.</p>\n<p>If you did not get a seat, or want to upgrade, Round 3 is next. MCC's <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611161679361332.pdf\" rel=\"noopener\" target=\"_blank\">AIQ and state schedule dated 16 November</a> lists Round 3 for All India Quota, deemed and central universities from 26 November to 4 December 2026, with 12 December as the last date of joining. MCC has not yet posted a separate Round 3 notice with registration and choice-filling timings, so watch <a href=\"https://mcc.nic.in/pg-medical-counselling/\" rel=\"noopener\" target=\"_blank\">mcc.nic.in</a> from 25 November.</p>\n<p>The same schedule shows state quota Round 2 counselling from 14 to 24 November, with 30 November as the last date of joining, and state Round 3 from 4 to 12 December. Your state counselling authority may publish its own dates, so check its website as well.</p>\n<p>PwD candidates who want to be considered in Round 3 should note the <a href=\"https://mcc.nic.in/the-pwd-portal-for-neet-pg-counselling-for-round-3-2026-will-remain-available-till-0600-pm-on-28-11-2026-for-the-primary-assessment-board-disability-centres-and-till-0600-pm-on-01-12-2026-for-the/\" rel=\"noopener\" target=\"_blank\">MCC notice of 21 November</a>: the PwD portal will stay open till 6:00 PM on 28 November for the Primary Assessment Boards (disability centres) and till 6:00 PM on 1 December for the Appellate Board.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>23 Nov 2026:</strong> MCC declared the NEET PG 2026 Round 2 result on 20 November 2026 (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261120750611410.pdf\" rel=\"noopener\" target=\"_blank\">MCC Notice No. 12</a>).</li>\n<li><strong>23 Nov 2026:</strong> The last date to report for NEET PG 2026 Round 2 is 25 November 2026, up to 10:00 PM, and MCC says there will be no extension (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261120750611410.pdf\" rel=\"noopener\" target=\"_blank\">MCC Notice No. 12</a>).</li>\n<li><strong>23 Nov 2026:</strong> The NEET PG Round 2 result was held from 17 November because of a Madras High Court interim order in WP No. 46350 of 2026 (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611171047091852.pdf\" rel=\"noopener\" target=\"_blank\">MCC Notice No. 10</a>).</li>\n<li><strong>23 Nov 2026:</strong> NEET PG 2026 Round 3 for All India Quota, deemed and central universities is scheduled from 26 November to 4 December 2026, with joining by 12 December (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611161679361332.pdf\" rel=\"noopener\" target=\"_blank\">MCC schedule, 16 Nov 2026</a>).</li>\n<li><strong>23 Nov 2026:</strong> The NEET PG Round 3 PwD portal is open till 6:00 PM on 28 November for disability centres and till 6:00 PM on 1 December for the Appellate Board (<a href=\"https://mcc.nic.in/the-pwd-portal-for-neet-pg-counselling-for-round-3-2026-will-remain-available-till-0600-pm-on-28-11-2026-for-the-primary-assessment-board-disability-centres-and-till-0600-pm-on-01-12-2026-for-the/\" rel=\"noopener\" target=\"_blank\">MCC notice, 21 Nov 2026</a>).</li>\n</ul>\n<p>Preparing for NEET UG instead? See our new city guide, <a href=\"top-neet-coaching-institutes-nanded-2026.html\">Top NEET Coaching Institutes in Nanded</a>.</p>\n<p><strong>Last updated: 23 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-neet-coaching-institutes-nanded-2026",
+    "image": "assets/blog/top-neet-coaching-institutes-nanded-2026.png",
+    "title": "Top NEET Coaching Institutes in Nanded (2026)",
+    "category": "NEET & Medical",
+    "type": "coaching-guides",
+    "date": "23 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-nanded.html",
+      "text": "Browse all verified coaching institutes in Nanded"
+    },
+    "excerpt": "Four NEET coaching brands confirm classroom courses in Nanded, Maharashtra, on their official websites: Aakash, PW Vidyapeeth, ALLEN and Vedantu. What each offers, what they do not publish, and how to choose.",
+    "itemListName": "Top NEET Coaching Institutes in Nanded (2026)",
+    "itemList": [
+      {
+        "name": "Aakash Institute, Yeshwant College Road, Nanded",
+        "url": "https://centers.aakash.ac.in/aakash-educational-service-limited-nanded-coaching-center-bhagya-nagar-nanded-99241/Home"
+      },
+      {
+        "name": "PW Vidyapeeth, Anand Nagar, Nanded",
+        "url": "https://www.pw.live/offline-centres/batches/vidyapeeth/nanded-mh/nanded-vidyapeeth-322381"
+      },
+      {
+        "name": "ALLEN Career Institute, Nanded",
+        "url": "https://allen.in/nanded/neet"
+      },
+      {
+        "name": "Vedantu Learning Centre, Nanded",
+        "url": "https://www.vedantu.com/offline-centres/nanded/nanded"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best NEET coaching in Nanded?",
+        "a": "There is no single best. Aakash Institute, PW Vidyapeeth, ALLEN and Vedantu all confirm NEET classroom courses in Nanded on their official websites. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Where is Aakash Institute in Nanded?",
+        "a": "Aakash's official pages list Plot No 17 and 18, Yeshwant College Road, Bhagya Nagar, Nanded. The two pages show different PIN codes, so call to confirm."
+      },
+      {
+        "q": "Where is PW Vidyapeeth in Nanded?",
+        "a": "PW Vidyapeeth's official page lists Plot No 15, Ganesh Heights, Anand Nagar Road, Vasant Nagar, Nanded 431601."
+      },
+      {
+        "q": "Does ALLEN have NEET classes in Nanded?",
+        "a": "Yes. ALLEN's official Nanded NEET page lists Nurture, TALLENTPRO XI, Enthusiast and TALLENTPRO XII classroom courses for 2027-28. It does not publish a street address."
+      },
+      {
+        "q": "What is the fee for NEET coaching in Nanded?",
+        "a": "None of the four institutes publishes a fee amount on its Nanded page as of 23 November 2026. Ask for the fee and any scholarship in writing."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 23 November 2026.</strong></p>\n<p>Nanded in Maharashtra's Marathwada region has four national coaching brands whose own official websites confirm NEET classroom courses in the city: Aakash Institute on Yeshwant College Road, PW Vidyapeeth in Anand Nagar, ALLEN Career Institute and Vedantu. This guide lists only those four, explains what each publishes, and says plainly what we could not confirm.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Nanded, Maharashtra (Marathwada region)</p>\n<p><strong>Exam covered:</strong> NEET UG (2027 and 2028 cycles)</p>\n<p><strong>Institutes listed:</strong> 4, each checked on its own official website on 23 November 2026</p>\n<p><strong>Coaching areas:</strong> Yeshwant College Road (Bhagya Nagar) and Anand Nagar Road (Vasant Nagar)</p>\n<p><strong>NEET UG 2027:</strong> no notification on <a href=\"https://neet.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">neet.nta.nic.in</a> as of 23 November 2026</p>\n<p><strong>Published fees:</strong> none of the four publishes a fee amount on its Nanded page</p>\n</div>\n\n<h2>Why Nanded matters for NEET aspirants</h2>\n<p>Nanded is the second-largest city in Marathwada after Chhatrapati Sambhajinagar, and with Latur it forms one of Maharashtra's best-known belts for medical entrance preparation. Families from Nanded, Hingoli, Parbhani, Yavatmal and the bordering districts of Telangana have long sent children here for Class 11 and 12 science along with NEET coaching.</p>\n<p>The city also has its own government medical college, Dr Shankarrao Chavan Government Medical College, which keeps the idea of becoming a doctor very visible for local students. For a Maharashtra student, NEET UG is the only route to MBBS, through either the 15% All India Quota or the 85% state quota counselling run by the State CET Cell.</p>\n<p>Until recently, many Nanded students moved to Latur, Pune or Kota for serious coaching. With four national brands now confirming NEET classroom courses in Nanded itself, a student can prepare from home, which cuts hostel and travel costs sharply.</p>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own official website confirms a NEET classroom course in Nanded. Directory sites name many more local classes, but without an official page we did not rank them. We have kept the list to four instead of padding it to ten. The order below reflects how much each institute publishes about its Nanded centre, not a judgement of teaching quality. None of these is a paid listing on our site.</p>\n\n<h3>1. Aakash Institute, Yeshwant College Road</h3>\n<p>Aakash's <a href=\"https://centers.aakash.ac.in/aakash-educational-service-limited-nanded-coaching-center-bhagya-nagar-nanded-99241/Home\" rel=\"noopener\" target=\"_blank\">official centre page</a> gives the address as Plot No 17 and 18, Yeshwant College Road, Bhagya Nagar, Nanded, and describes it as a NEET and IIT-JEE coaching centre open from 8 AM to 8 PM all week. Aakash's <a href=\"https://www.aakash.ac.in/nanded-city/neet-ug-coaching\" rel=\"noopener\" target=\"_blank\">Nanded NEET page</a> lists a two-year integrated classroom course for Class 11, a one-year course for Class 12, a repeater course for Class 12 pass-outs and a NEET crash course, plus foundation courses for Class 8 to 10.</p>\n<p>The two official pages give different PIN codes (431605 on the centre page, 431602 on the NEET page) for the same street address, so confirm on the phone before visiting. Aakash does not publish a fee or Nanded-specific results on these pages.</p>\n\n<h3>2. PW Vidyapeeth, Anand Nagar</h3>\n<p>PW Vidyapeeth's <a href=\"https://www.pw.live/offline-centres/batches/vidyapeeth/nanded-mh/nanded-vidyapeeth-322381\" rel=\"noopener\" target=\"_blank\">official Nanded page</a> gives the address as Plot No 15, Ganesh Heights, Anand Nagar Road, Vasant Nagar, Nanded 431601. It lists NEET courses for Class 11, Class 12 and droppers, alongside IIT-JEE and Class 8 to 10 foundation courses.</p>\n<p>The page mentions structured classroom teaching, instant doubt support and an all-India test series. It does not publish fees or Nanded-specific results, so ask at the centre and check which teachers teach in person rather than on screen.</p>\n\n<h3>3. ALLEN Career Institute, Nanded</h3>\n<p>ALLEN's <a href=\"https://allen.in/nanded/neet\" rel=\"noopener\" target=\"_blank\">official Nanded NEET page</a> says the institute offers offline classroom NEET (UG) coaching in Nanded. For the 2027-28 session it lists Nurture and TALLENTPRO XI courses for students moving from Class 10 to 11, and Enthusiast and TALLENTPRO XII courses for students moving from Class 11 to 12, with printed study material, daily practice problems and regular tests.</p>\n<p>The page does not publish a street address, a fee or Nanded-specific results, and it shows course durations inconsistently in two places. Confirm the centre address, course length and batch timings before visiting, and ask for the fee in writing.</p>\n\n<h3>4. Vedantu Learning Centre, Nanded</h3>\n<p>Vedantu's <a href=\"https://www.vedantu.com/offline-centres/nanded/nanded\" rel=\"noopener\" target=\"_blank\">official Nanded centre page</a> lists offline NEET courses for Class 11 (two years), Class 12 (one year) and a repeater batch for Class 12 pass-outs, along with foundation courses for Class 8 to 10. Vedantu says its centres use smart classrooms and give students access to its online material.</p>\n<p>The page leaves the centre address blank and publishes no fee or Nanded-specific results. Book a visit through the official page and confirm the address, batch size and fee before enrolling.</p>\n\n<h2>What we left out, and why</h2>\n<p>Nanded has many well-known local science academies and tuition classes that combine Class 11 and 12 teaching with NEET coaching. For these, and for some national brands that appear on directory sites, we found no official page that confirms a current NEET classroom batch at a Nanded address, so we have not ranked them. Online-only NEET courses are also left out of this city guide, since students can take them from anywhere.</p>\n\n<h2>How to choose</h2>\n<p>Aakash suits a student who wants a long-running national brand with a repeater option and a published crash course. PW Vidyapeeth publishes a clear street address and separate Class 11, Class 12 and dropper batches. ALLEN's two-track courses may suit a student who wants a more advanced batch from Class 11. Vedantu suits a student who wants classroom teaching backed by an online library.</p>\n<p>Ask every centre the same five questions: how many students sit in one batch, which teachers teach in the classroom rather than on screen, how many full-length NEET mock tests are included, how doubts are handled outside class hours, and what the refund policy is. Take a demo class before paying, and get the fee and any scholarship in writing.</p>\n<p>If you are tracking NEET PG instead, read our update on <a href=\"neet-pg-2026-round2-result-declared-reporting-till-25-november-round3-from-26-november-23nov-update.html\">the NEET PG 2026 Round 2 result and the 25 November reporting deadline</a>, and see every verified listing in the city on our <a href=\"coaching-nanded.html\">Nanded coaching page</a>.</p>\n<p><strong>Last updated: 23 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "jee-advanced-2027-on-23-may-iit-delhi-organising-on-screen-calculator-21nov-update",
     "image": "assets/blog/jee-advanced-2027-on-23-may-iit-delhi-organising-on-screen-calculator-21nov-update.png",
     "title": "JEE Advanced 2027 on 23 May: IIT Delhi to Organise, On-Screen Basic Calculator Allowed",
