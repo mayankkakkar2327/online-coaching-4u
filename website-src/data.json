@@ -94,7 +94,8 @@
       "gandhinagar",
       "bathinda",
       "bilaspur",
-      "nanded"
+      "nanded",
+      "haldwani"
     ],
     "certification": [
       "online"
@@ -15990,6 +15991,85 @@
         "Address and fees not published online"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-haldwani",
+      "type": "coaching",
+      "name": "Career Launcher, Haldwani (Kaladhungi Road)",
+      "city": "haldwani",
+      "locality": "Kaladhungi Road",
+      "address": "Near Hare Krishna Banquet Hall, Pili Kothi Chauraha, Kaladhungi Road, Haldwani, Uttarakhand 263139",
+      "estd": 2008,
+      "exams": [
+        "cat",
+        "clat",
+        "cuet",
+        "ipmat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/cat-mba/coaching-centers/haldwani/",
+      "about": "Career Launcher's official Haldwani CAT centre page gives this Kaladhungi Road address and lists the MBA Classic Extended (Weekday) programme. Its Haldwani centre page says the centre has run since 2008 and also lists law, CUET, IPM, campus-recruitment training, GRE and Class 8 to 10 programmes. Batch details were not shown on the page when checked on 23 November 2026, and fees are not published.",
+      "highlights": [
+        "MBA Classic Extended (Weekday) programme listed",
+        "Running in Haldwani since 2008, as per the centre page",
+        "Also lists CLAT, CUET and IPM coaching",
+        "Fees and current batches on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-haldwani-nainital-road",
+      "type": "coaching",
+      "name": "T.I.M.E., Haldwani (Nainital Road)",
+      "city": "haldwani",
+      "locality": "Nainital Road",
+      "address": "1st Floor, Anand Clinic, near Krishna Hospital, opposite Allahabad Bank, Nainital Road, Haldwani, Uttarakhand 263139",
+      "estd": null,
+      "exams": [
+        "cat",
+        "bank",
+        "ssc",
+        "clat",
+        "cuet",
+        "ipmat"
+      ],
+      "verified": true,
+      "website": "https://www.time4education.com/Haldwani",
+      "about": "T.I.M.E.'s official Haldwani page lists this Nainital Road address as one of two authorised T.I.M.E. centres in the area. It offers CAT/MBA, CMAT, bank exams, SSC CGL and campus-recruitment training, plus CLAT, IPM, CUET and BBA entrance coaching. The page names IIM Kozhikode alumnus Ankur Mahajan as centre director. Fees are not published.",
+      "highlights": [
+        "CAT/MBA and CMAT coaching listed",
+        "Centre director is an IIM Kozhikode alumnus",
+        "Also bank, SSC, CLAT and IPM courses",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "time-pantnagar-haldwani",
+      "type": "coaching",
+      "name": "T.I.M.E., Pantnagar (Haldwani centre)",
+      "city": "haldwani",
+      "locality": "Pantnagar",
+      "address": "Saraswati Shishu Mandir, opposite Campus School, near Badi Market, Pantnagar University area, Pantnagar, Uttarakhand",
+      "estd": null,
+      "exams": [
+        "cat",
+        "bank",
+        "ssc",
+        "clat",
+        "cuet",
+        "ipmat"
+      ],
+      "verified": true,
+      "website": "https://www.time4education.com/Haldwani",
+      "about": "T.I.M.E.'s official Haldwani page lists this Pantnagar location as the second of its two authorised centres in the area, with the same course list as the Nainital Road centre: CAT/MBA, CMAT, bank exams, SSC CGL, CLAT, IPM and CUET. It is convenient for G.B. Pant University students. Fees are not published.",
+      "highlights": [
+        "CAT/MBA and CMAT coaching listed",
+        "Near the Pantnagar university campus",
+        "Same course list as the Nainital Road centre",
+        "Fees not published"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16260,6 +16340,9 @@
     },
     "coaching-nanded": {
       "intro": "<p>Nanded, the second-largest city in Maharashtra's Marathwada region and part of the well-known Latur-Nanded belt for medical entrance preparation, now has four national brands whose official websites confirm NEET classroom courses in the city: Aakash Institute on Yeshwant College Road, PW Vidyapeeth on Anand Nagar Road, ALLEN Career Institute and Vedantu. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-haldwani": {
+      "intro": "<p>Haldwani, the largest city and commercial centre of Uttarakhand's Kumaon region, draws graduates from Nainital, Almora and the hill districts. Career Launcher (Kaladhungi Road) and T.I.M.E. (Nainital Road and Pantnagar) confirm CAT and MBA coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }

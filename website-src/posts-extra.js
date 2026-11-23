@@ -1,6 +1,95 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "cat-2026-on-29-november-admit-card-download-paused-25-november-9am-4pm-23nov-update",
+    "image": "assets/blog/cat-2026-on-29-november-admit-card-download-paused-25-november-9am-4pm-23nov-update.png",
+    "title": "CAT 2026 Admit Card: Downloads Paused 9 AM to 4 PM on 25 November; Exam Stays on 29 November",
+    "category": "CAT, IPMAT & MBA",
+    "type": "exam-news",
+    "date": "23 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=cat",
+      "text": "Compare verified CAT and MBA coaching institutes"
+    },
+    "excerpt": "The official CAT website says admit cards cannot be downloaded from 9 AM to 4 PM on 25 November because of planned maintenance. CAT 2026 stays on 29 November in three shifts. Five dated pointers, including SNAP and XAT deadlines.",
+    "faqs": [
+      {
+        "q": "Can I download the CAT 2026 admit card on 25 November?",
+        "a": "Not between 9:00 AM and 4:00 PM. The official CAT website says admit cards will not be accessible during that window on 25 November 2026 because of planned maintenance. You can download before or after it."
+      },
+      {
+        "q": "When is CAT 2026?",
+        "a": "CAT 2026 is on Sunday, 29 November 2026, in three shifts, according to the CAT media release of 4 November 2026."
+      },
+      {
+        "q": "Till when can I download the CAT 2026 admit card?",
+        "a": "Till 29 November 2026. The media release says admit cards can be downloaded only from iimcat.ac.in, using your login ID and password, between 6 and 29 November 2026."
+      },
+      {
+        "q": "Is there a CAT 2026 mock test?",
+        "a": "Yes. The official CAT website links a mock test, an exam day video guide and a calculator usage guideline on its home page. The mock has been available since 6 November 2026."
+      },
+      {
+        "q": "When does SNAP 2026 registration close?",
+        "a": "On 25 November 2026, as per the countdown on snaptest.org on 23 November 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 23 November 2026.</strong></p>\n<p>CAT 2026 admit cards cannot be downloaded between 9:00 AM and 4:00 PM on 25 November 2026 because of planned maintenance of the CAT website, according to a notice on the official CAT portal, <a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>; the exam itself stays on Sunday, 29 November 2026.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Admit card blackout:</strong> 25 November 2026, 9:00 AM to 4:00 PM (planned website maintenance)</p>\n<p><strong>Admit card window:</strong> 6 November to 29 November 2026, only on iimcat.ac.in with your CAT login ID and password</p>\n<p><strong>CAT 2026 test day:</strong> Sunday, 29 November 2026, in three shifts</p>\n<p><strong>Conducting IIM:</strong> IIM Indore (helpdesk address on the portal ends in iimidr.ac.in)</p>\n<p><strong>Source:</strong> <a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">CAT 2026 official website</a>, checked 23 November 2026; <a href=\"https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/9901914301.pdf\" rel=\"noopener\" target=\"_blank\">CAT media release, 4 Nov 2026</a></p>\n</div>\n\n<h2>What the CAT website says</h2>\n<p>The home page of the official CAT 2026 website now carries this notice: because of planned maintenance, CAT 2026 admit cards will not be accessible for download between 9:00 AM and 4:00 PM on 25 November 2026. Candidates are told to download their admit cards accordingly.</p>\n<p>The same page repeats that <a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">https://iimcat.ac.in</a> is the only official CAT website. It asks candidates to check the URL before logging in, to be careful with unsecured sites asking for personal details or payments, and to report anything suspicious to the CAT helpdesk at cat2026_helpdesk@iimidr.ac.in.</p>\n<p>Nothing else has changed. The <a href=\"https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/9901914301.pdf\" rel=\"noopener\" target=\"_blank\">CAT media release dated 4 November 2026</a> says admit cards for all eligible candidates can be downloaded only from the CAT website between 6 November and 29 November 2026, and that CAT 2026 will be held on 29 November 2026 (Sunday) in three shifts. The release also says the IIMs have added security measures, including face matching and mobile jammers at select locations, and that the IIMs reserve the right to change the test date and time if the situation warrants.</p>\n\n<h2>What it means for CAT takers</h2>\n<p>If you have not saved your admit card yet, do it before Wednesday morning, or after 4 PM that day. Six days before the exam is the wrong time to find out that a login is not working.</p>\n<p>Once you have the card, check four things: your name and photo, your test centre address, your shift and reporting time, and the photo ID you declared in the form. Take two colour printouts. If anything is wrong, write to the helpdesk listed on the portal well before 29 November, not on the morning of the test.</p>\n<p>Use the remaining days to go through the <a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">CAT 2026 Exam Day Video Guide, the official mock test and the calculator usage guideline</a>, all linked on the home page. The mock shows the real interface, including the on-screen calculator, so one timed attempt on it is worth more than another coaching mock in a different layout.</p>\n<p>Plan your travel to the centre now, especially if your centre is in another city. Your shift timing is printed only on your own admit card.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>23 Nov 2026:</strong> CAT 2026 admit cards will not be downloadable from 9:00 AM to 4:00 PM on 25 November 2026 because of planned maintenance of the CAT website (<a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>).</li>\n<li><strong>23 Nov 2026:</strong> CAT 2026 will be held on Sunday, 29 November 2026, in three shifts (<a href=\"https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/9901914301.pdf\" rel=\"noopener\" target=\"_blank\">CAT media release, 4 Nov 2026</a>).</li>\n<li><strong>23 Nov 2026:</strong> CAT 2026 admit cards can be downloaded only from iimcat.ac.in, using the application login ID and password, between 6 and 29 November 2026 (<a href=\"https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/9901914301.pdf\" rel=\"noopener\" target=\"_blank\">CAT media release, 4 Nov 2026</a>).</li>\n<li><strong>23 Nov 2026:</strong> SNAP 2026 applications close on 25 November 2026, as per the countdown on the official SNAP website on 23 November; the test fee is Rs 2,550 per attempt plus Rs 1,000 per programme, plus taxes (<a href=\"https://www.snaptest.org/\" rel=\"noopener\" target=\"_blank\">snaptest.org</a>).</li>\n<li><strong>23 Nov 2026:</strong> XAT 2027 registration closes on 6 December 2026, and the exam is on 3 January 2027 from 2:00 PM to 5:00 PM (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>).</li>\n</ul>\n<p>Looking for CAT classes in Kumaon? See our new city guide, <a href=\"top-cat-coaching-institutes-haldwani-2026.html\">Top CAT Coaching Institutes in Haldwani</a>.</p>\n<p><strong>Last updated: 23 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-cat-coaching-institutes-haldwani-2026",
+    "image": "assets/blog/top-cat-coaching-institutes-haldwani-2026.png",
+    "title": "Top CAT Coaching Institutes in Haldwani (2026)",
+    "category": "CAT, IPMAT & MBA",
+    "type": "coaching-guides",
+    "date": "23 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-haldwani.html",
+      "text": "Browse all verified coaching institutes in Haldwani"
+    },
+    "excerpt": "Two national MBA-entrance brands confirm centres in the Haldwani area on their own websites: Career Launcher on Kaladhungi Road and T.I.M.E. on Nainital Road and in Pantnagar. What each offers, what they do not publish, and how to choose.",
+    "itemListName": "Top CAT Coaching Institutes in Haldwani (2026)",
+    "itemList": [
+      {
+        "name": "Career Launcher, Kaladhungi Road, Haldwani",
+        "url": "https://www.careerlauncher.com/cat-mba/coaching-centers/haldwani/"
+      },
+      {
+        "name": "T.I.M.E., Nainital Road, Haldwani",
+        "url": "https://www.time4education.com/Haldwani"
+      },
+      {
+        "name": "T.I.M.E., Pantnagar",
+        "url": "https://www.time4education.com/Haldwani"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best CAT coaching in Haldwani?",
+        "a": "There is no single best. Career Launcher (Kaladhungi Road) and T.I.M.E. (Nainital Road and Pantnagar) both list CAT coaching in the Haldwani area on their official websites. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Where is Career Launcher in Haldwani?",
+        "a": "Near Hare Krishna Banquet Hall, Pili Kothi Chauraha, Kaladhungi Road, Haldwani 263139, according to Career Launcher's official Haldwani CAT centre page."
+      },
+      {
+        "q": "Where is T.I.M.E. in Haldwani?",
+        "a": "T.I.M.E.'s official page lists two centres: 1st floor, Anand Clinic, near Krishna Hospital, opposite Allahabad Bank, Nainital Road, Haldwani 263139, and Saraswati Shishu Mandir, opposite Campus School, near Badi Market, Pantnagar."
+      },
+      {
+        "q": "Is there IMS coaching in Haldwani?",
+        "a": "IMS does not list a Haldwani centre in its official centre directory as of 23 November 2026."
+      },
+      {
+        "q": "What is the fee for CAT coaching in Haldwani?",
+        "a": "None of the three centres publishes a fee amount on its official page as of 23 November 2026. Ask for the fee and refund policy in writing."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 23 November 2026.</strong></p>\n<p>Haldwani, the largest city and main commercial centre of Uttarakhand's Kumaon region, has two national MBA-entrance coaching brands with centres confirmed on their own official websites: Career Launcher on Kaladhungi Road and T.I.M.E., which lists two authorised centres, one on Nainital Road and one in Pantnagar. This guide lists only those three centres and says plainly what we could not confirm.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Haldwani, Nainital district, Uttarakhand</p>\n<p><strong>Exams covered:</strong> CAT, plus CMAT and other MBA entrance tests</p>\n<p><strong>Institutes listed:</strong> 2 brands, 3 centres, each checked on the official website on 23 November 2026</p>\n<p><strong>Coaching areas:</strong> Kaladhungi Road (Pili Kothi), Nainital Road, and Pantnagar near the university</p>\n<p><strong>Next exams:</strong> CAT 2026 on 29 November 2026 (<a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>); XAT 2027 on 3 January 2027 (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>)</p>\n<p><strong>Published fees:</strong> none of the three centres publishes a fee amount online</p>\n</div>\n\n<h2>Why Haldwani matters for MBA aspirants</h2>\n<p>Haldwani is where most of Kumaon comes to study and shop. Graduates from Nainital, Almora, Bageshwar, Pithoragarh and the hill towns usually come down to Haldwani for any serious coaching, and engineering and agriculture students from G.B. Pant University in Pantnagar sit close by.</p>\n<p>The region also has an IIM of its own at Kashipur, in neighbouring Udham Singh Nagar district, which keeps the IIM goal visible for local students. Without a classroom in Haldwani, a Kumaon aspirant would have to move to Dehradun or Delhi for CAT coaching. A local classroom lets a final-year student or a working graduate prepare without paying for a hostel in another city.</p>\n\n<h2>How we picked this list</h2>\n<p>We included a centre only if the institute's own website gives a Haldwani-area address and lists CAT or MBA coaching there. Directory sites name more coaching classes, but without an official page we did not rank them. We kept the list to three centres instead of padding it to ten. The order below is not a judgement of teaching quality. None of these is a paid listing on our site.</p>\n\n<h3>1. Career Launcher, Kaladhungi Road</h3>\n<p>Career Launcher's <a href=\"https://www.careerlauncher.com/cat-mba/coaching-centers/haldwani/\" rel=\"noopener\" target=\"_blank\">official Haldwani CAT centre page</a> gives the address as near Hare Krishna Banquet Hall, Pili Kothi Chauraha, Kaladhungi Road, Haldwani 263139, and lists the MBA Classic Extended (Weekday) programme for this centre. The <a href=\"https://www.careerlauncher.com/haldwani/\" rel=\"noopener\" target=\"_blank\">Haldwani centre page</a> says the centre has been running since 2008 and lists MBA, law, CUET, IPM, campus-recruitment training and GRE programmes, plus school-level courses for Class 8 to 10.</p>\n<p>The centre page carries testimonials from former students who name IIM Rohtak, IIM Bangalore, FMS and MDI Gurgaon, but these are the centre's own claims and are several years old. When we checked, the batch-details section on that page said no product was available, so ask which CAT 2027 and post-CAT batches are actually running. No fees are published.</p>\n\n<h3>2. T.I.M.E., Nainital Road</h3>\n<p>T.I.M.E.'s <a href=\"https://www.time4education.com/Haldwani\" rel=\"noopener\" target=\"_blank\">official Haldwani page</a> describes the city as having a T.I.M.E. authorised centre with two locations. The first is on the 1st floor of Anand Clinic, near Krishna Hospital, opposite Allahabad Bank, Nainital Road, Haldwani 263139. It lists CAT/MBA, CMAT, bank exams, SSC CGL and campus-recruitment training for graduates, and CLAT, IPM, CUET and BBA entrance coaching for school students.</p>\n<p>The page names Ankur Mahajan, an IIM Kozhikode alumnus of the 2005 batch, as centre director and says he has mentored more than 100 IIM call-getters from Haldwani. That figure is the centre's own claim, not an audited result. Fees are not published.</p>\n\n<h3>3. T.I.M.E., Pantnagar</h3>\n<p>The second centre on the same <a href=\"https://www.time4education.com/Haldwani\" rel=\"noopener\" target=\"_blank\">T.I.M.E. Haldwani page</a> is at Saraswati Shishu Mandir, opposite Campus School, near Badi Market, in the Pantnagar university area. It lists the same course set as the Nainital Road centre, including CAT/MBA and CMAT, under the same centre director.</p>\n<p>This centre mainly suits students of G.B. Pant University and families living in and around Pantnagar. If you live in Haldwani city, the Nainital Road centre is the practical choice. Ask whether faculty teach in person at both locations or rotate between them.</p>\n\n<h2>What we left out, and why</h2>\n<p>IMS does not list a Haldwani centre in its <a href=\"https://www.imsindia.com/center/\" rel=\"noopener\" target=\"_blank\">official centre directory</a>, so we have not included it. Several directory sites list local tutorials for CAT in Haldwani, but we found no official page confirming a current CAT batch and address for any of them. Mahendra's has a Haldwani branch, but it focuses on bank and SSC exams, not CAT.</p>\n\n<h2>How to choose</h2>\n<p>Both brands have run in Haldwani for years, so the real comparison is batch timing, the teachers who will actually take your classes, and fees. Career Launcher suits a student who wants a fixed weekday classroom schedule. T.I.M.E. suits a student who also wants CMAT or bank-exam preparation alongside CAT, or who lives near Pantnagar. Sit in a demo class at each, ask for results from the Haldwani centre rather than the brand nationally, and get the fee and refund policy in writing.</p>\n<p>With CAT 2026 on 29 November, students joining now should ask about post-CAT batches for XAT, CMAT and GD-PI preparation, or about early batches for CAT 2027. See every verified listing in the city on our <a href=\"coaching-haldwani.html\">Haldwani coaching page</a>, or read today's update: <a href=\"cat-2026-on-29-november-admit-card-download-paused-25-november-9am-4pm-23nov-update.html\">CAT 2026 admit card downloads paused on 25 November</a>.</p>\n<p><strong>Last updated: 23 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "neet-pg-2026-round2-result-declared-reporting-till-25-november-round3-from-26-november-23nov-update",
     "image": "assets/blog/neet-pg-2026-round2-result-declared-reporting-till-25-november-round3-from-26-november-23nov-update.png",
     "title": "NEET PG 2026 Round 2 Result Declared: Report by 25 November, No Extension; Round 3 From 26 November",
