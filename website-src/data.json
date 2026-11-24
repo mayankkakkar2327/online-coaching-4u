@@ -95,7 +95,8 @@
       "bathinda",
       "bilaspur",
       "nanded",
-      "haldwani"
+      "haldwani",
+      "berhampur"
     ],
     "certification": [
       "online"
@@ -16070,6 +16071,53 @@
         "Fees not published"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "pw-govt-exam-wallah-berhampur",
+      "type": "coaching",
+      "name": "PW Govt Exam Wallah, Berhampur",
+      "city": "berhampur",
+      "locality": "Giri Road",
+      "address": "Plot No. 1217, Khata No. 1030/2412, Village/Mouza Baidyanathpur, Giri Road, near IOB Bank, Berhampur, Odisha 760005",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/govt-wallah/berhampur/berhampur-center-533931",
+      "about": "Physics Wallah's Govt Exam Wallah brand lists this Berhampur centre on Giri Road on its official website, with SSC, banking and Odisha state-exam courses. PW's own Govt Exam Wallah centre list also names Berhampur. No batch dates or fees were shown on the centre page when checked on 24 November 2026.",
+      "highlights": [
+        "Official PW Govt Exam Wallah centre page with full address",
+        "SSC, banking and Odisha exam courses listed",
+        "Fees and current batches on enquiry",
+        "Results quoted are brand-level, not centre-level"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "mahendras-berhampur",
+      "type": "coaching",
+      "name": "Mahendra's, Berhampur",
+      "city": "berhampur",
+      "locality": "Panitanki Road",
+      "address": "Saraswati Plaza, 1st Floor, Shergodo Bangla Street, Panitanki Road, near Dena Bank, Berhampur, Odisha 760001",
+      "estd": null,
+      "exams": [
+        "ssc",
+        "bank",
+        "railway"
+      ],
+      "verified": true,
+      "website": "https://branch.mahendras.org/berhampur-100007/home",
+      "about": "Mahendra's official branch page (branch code 100007) gives this Panitanki Road address and lists SSC coaching for CGL, CHSL, MTS, GD and CPO, along with banking, railway, teaching and state-level exams. Branch hours are 7:30 AM to 7:30 PM. No batches were listed on the page on 24 November 2026; the branch confirms fees and seats before enrolment.",
+      "highlights": [
+        "Official branch page with full address",
+        "SSC CGL, CHSL, MTS, GD and CPO coaching",
+        "Also banking, railway, teaching and state exams",
+        "Fees and batch dates on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16343,6 +16391,9 @@
     },
     "coaching-haldwani": {
       "intro": "<p>Haldwani, the largest city and commercial centre of Uttarakhand's Kumaon region, draws graduates from Nainital, Almora and the hill districts. Career Launcher (Kaladhungi Road) and T.I.M.E. (Nainital Road and Pantnagar) confirm CAT and MBA coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-berhampur": {
+      "intro": "<p>Berhampur (Brahmapur), the largest city of southern Odisha, draws SSC and banking aspirants from across Ganjam district. PW Govt Exam Wallah (Giri Road) and Mahendra's (Panitanki Road) confirm Berhampur centres for SSC, banking and state exams on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
