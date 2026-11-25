@@ -96,7 +96,8 @@
       "bilaspur",
       "nanded",
       "haldwani",
-      "berhampur"
+      "berhampur",
+      "karnal"
     ],
     "certification": [
       "online"
@@ -16118,6 +16119,51 @@
         "Fees and batch dates on enquiry"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "law-prep-tutorial-karnal",
+      "type": "coaching",
+      "name": "Law Prep Tutorial, Karnal",
+      "city": "karnal",
+      "locality": "Sector 13",
+      "address": "SCF 25, Second Floor, Sector 13, Karnal, Haryana 132001",
+      "estd": null,
+      "exams": [
+        "clat"
+      ],
+      "verified": true,
+      "website": "https://www.lawpreptutorial.com/karnal",
+      "about": "Law Prep Tutorial's official Karnal page gives this Sector 13 address and lists offline, bilingual CLAT programmes: a CLAT 2029 Foundation Batch, a CLAT 2028 Target Batch and a CLAT 2028 Finisher Batch. A separate Karnal crash course page shows a batch for Class 12 and dropper students running from 17 August to 31 December 2026, six days a week. It advertises a free scholarship test with scholarships of up to 100% and a parent portal. No fee is published, and result figures on the site are brand-wide.",
+      "highlights": [
+        "Official centre page with full Sector 13 address",
+        "CLAT 2028 and 2029 batches plus a CLAT 2027 crash course",
+        "Free scholarship test, up to 100% scholarship",
+        "Fees on enquiry; results are brand-wide"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-karnal",
+      "type": "coaching",
+      "name": "Career Launcher, Karnal (Sector 7)",
+      "city": "karnal",
+      "locality": "Sector 7",
+      "address": "SCO-98, 2nd Floor, Sector-7, near Easy Day, Karnal, Haryana 132001",
+      "estd": null,
+      "exams": [
+        "clat",
+        "ailet"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/law/coaching-centers/karnal/",
+      "about": "Career Launcher's official law coaching centre listing gives this Sector 7 address for its Karnal centre, with the email karnal@careerlauncher.com, and lists the LST Span programme for law entrance aspirants. Career Launcher's law division prepares students for CLAT, AILET and SLAT. Fees, batch timings and centre-level results are not published, and the centre's city web page returned an error when checked on 25 November 2026.",
+      "highlights": [
+        "Official CL law centre listing confirms the address",
+        "LST Span law entrance programme",
+        "CLAT, AILET and SLAT preparation",
+        "Fees and batch timings on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16394,6 +16440,9 @@
     },
     "coaching-berhampur": {
       "intro": "<p>Berhampur (Brahmapur), the largest city of southern Odisha, draws SSC and banking aspirants from across Ganjam district. PW Govt Exam Wallah (Giri Road) and Mahendra's (Panitanki Road) confirm Berhampur centres for SSC, banking and state exams on their own official websites. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-karnal": {
+      "intro": "<p>Karnal, a district headquarters and school hub of northern Haryana, draws Class 11 and 12 students from Kurukshetra, Kaithal and nearby villages. Law Prep Tutorial (Sector 13) and Career Launcher (Sector 7) confirm law entrance coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
