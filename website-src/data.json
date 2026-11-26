@@ -97,7 +97,8 @@
       "nanded",
       "haldwani",
       "berhampur",
-      "karnal"
+      "karnal",
+      "solapur"
     ],
     "certification": [
       "online"
@@ -16164,6 +16165,75 @@
         "Fees and batch timings on enquiry"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "bakliwal-tutorials-solapur",
+      "type": "coaching",
+      "name": "Bakliwal Tutorials, Solapur (Old Employment Chowk)",
+      "city": "solapur",
+      "locality": "Old Employment Chowk",
+      "address": "DRM Office Road, above Bank of India, Old Employment Chowk, Solapur, Maharashtra 413001 (head office; also Jule Solapur and Ashok Chowk centres)",
+      "estd": null,
+      "exams": [
+        "jee",
+        "mhtcet"
+      ],
+      "verified": true,
+      "website": "https://bakliwaltutorialsiit.com/bakliwal_centers/",
+      "about": "Bakliwal Tutorials is a Pune-based IIT-JEE coaching institute (started 2005) whose official About page says it opened in Solapur in 2014. Its official centres page lists three Solapur office-and-classroom centres: Old Employment Chowk (head office), Jule Solapur (2C Ashwagandha Complex, Old Santosh Nagar, Dawat Chowk, 413004) and Ashok Chowk (Prajay Heights, opposite Chippa Market, 413006). Fees and Solapur-specific results are not published; results shown on the site are brand-wide.",
+      "highlights": [
+        "IIT-JEE focused institute, Solapur since 2014",
+        "Three Solapur centres listed on official site",
+        "Head office at Old Employment Chowk",
+        "Fees on enquiry; results are brand-wide"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-solapur",
+      "type": "coaching",
+      "name": "Aakash Institute, Solapur (Murarji Peth)",
+      "city": "solapur",
+      "locality": "Murarji Peth",
+      "address": "Times Square, opposite Prabhat Theatre, Murarji Peth, Solapur, Maharashtra 413001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-best-neet-iit-jee-coaching-in-murarji-peth-solapur-coaching-center-murarji-peth-solapur-99608/Home",
+      "about": "Aakash's official Solapur centre page gives this Murarji Peth address and describes it as a NEET and IIT-JEE coaching centre, open 10 AM to 7:30 PM daily. Its Solapur JEE page lists JEE Main, JEE Advanced, crash and repeater courses, but parts of that page are out of date (2023 timelines, 2021 toppers). Fees and centre results are not published; scholarships are offered through ANTHE.",
+      "highlights": [
+        "Official centre page confirms the Murarji Peth address",
+        "JEE Main, JEE Advanced, crash and repeater courses",
+        "Also runs NEET and foundation courses",
+        "Fees on enquiry; ANTHE scholarships"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-solapur",
+      "type": "coaching",
+      "name": "PW Vidyapeeth (Pathshala Centre), Solapur",
+      "city": "solapur",
+      "locality": "Murarji Peth",
+      "address": "Oasis Mall, B Building, 11A Murarji Oceans, beside Rupa Bhavani Road, Solapur, Maharashtra 413001",
+      "estd": null,
+      "exams": [
+        "jee",
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/solapur-mh/solapur-vidyapeeth--pathshala-centre--359506",
+      "about": "PW Vidyapeeth's official Solapur page lists this Pathshala centre as a JEE, NEET and Foundation coaching centre at Oasis Mall, with structured classroom learning, instant doubt support and an all-India test series. Pathshala centres usually combine PW's screen-based lectures with local mentors; ask how much teaching is in person. Batches, fees and Solapur results are not published.",
+      "highlights": [
+        "Official page confirms the Oasis Mall address",
+        "JEE, NEET and Foundation courses",
+        "All-India test series and doubt support",
+        "Pathshala model; fees on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16443,6 +16513,9 @@
     },
     "coaching-karnal": {
       "intro": "<p>Karnal, a district headquarters and school hub of northern Haryana, draws Class 11 and 12 students from Kurukshetra, Kaithal and nearby villages. Law Prep Tutorial (Sector 13) and Career Launcher (Sector 7) confirm law entrance coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-solapur": {
+      "intro": "<p>Solapur, a district headquarters on the Pune-Hyderabad highway, is the coaching base for students from Pandharpur, Barshi, Akkalkot and the north Karnataka border districts. Bakliwal Tutorials (three centres), Aakash Institute (Murarji Peth) and PW Vidyapeeth (Oasis Mall) confirm JEE coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }

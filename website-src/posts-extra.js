@@ -1,6 +1,95 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "mht-cet-2027-pcm-16-26-april-second-attempt-10-15-may-tentative-26nov-update",
+    "image": "assets/blog/mht-cet-2027-pcm-16-26-april-second-attempt-10-15-may-tentative-26nov-update.png",
+    "title": "MHT CET 2027 Tentative Dates: PCM From 16 to 26 April, Second Attempt 10 to 15 May",
+    "category": "JEE & Engineering",
+    "type": "exam-news",
+    "date": "26 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=jee",
+      "text": "Compare verified JEE coaching institutes"
+    },
+    "excerpt": "Maharashtra's State CET Cell has tentatively scheduled MHT CET 2027 PCM from 16 to 26 April, with an optional second attempt from 10 to 15 May; the better percentile counts. PCB dates, what it means for JEE students, and five dated pointers.",
+    "faqs": [
+      {
+        "q": "When is MHT CET 2027 for PCM?",
+        "a": "The first attempt is tentatively 16 to 26 April 2027 and the second attempt 10 to 15 May 2027, according to the State CET Cell's press note of 16 November 2026."
+      },
+      {
+        "q": "When is MHT CET 2027 for PCB?",
+        "a": "The first attempt is tentatively 8 to 13 April 2027 and the second attempt 6 to 8 May 2027, per the same press note."
+      },
+      {
+        "q": "Is the second MHT CET 2027 attempt compulsory?",
+        "a": "No. The press note says the first CET is compulsory and the second is optional. If you write both, the higher percentile is used for admission."
+      },
+      {
+        "q": "Are the MHT CET 2027 dates final?",
+        "a": "No. The CET Cell calls them tentative and says students should follow the official timetable and notices on cetcell.mahacet.org."
+      },
+      {
+        "q": "When does MHT CET 2027 registration open?",
+        "a": "Not announced in the 16 November 2026 press note. Check cetcell.mahacet.org for the registration notice."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 26 November 2026.</strong></p>\n<p>MHT CET 2027 for the PCM group (engineering, B.Pharm and allied courses) is tentatively scheduled from 16 to 26 April 2027 for the first attempt and from 10 to 15 May 2027 for the second attempt, according to a press note issued by Maharashtra's State CET Cell on 16 November 2026.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Exam:</strong> MHT CET 2027 (PCM and PCB groups), for admission in academic year 2027-28</p>\n<p><strong>PCM, first attempt:</strong> 16 to 26 April 2027 (tentative)</p>\n<p><strong>PCM, second attempt:</strong> 10 to 15 May 2027 (tentative)</p>\n<p><strong>PCB, first attempt:</strong> 8 to 13 April 2027; <strong>second attempt:</strong> 6 to 8 May 2027 (tentative)</p>\n<p><strong>Rule:</strong> the first attempt is compulsory, the second is optional, and the higher percentile of the two counts</p>\n<p><strong>Source:</strong> <a href=\"https://cetcell.mahacet.org/wp-content/uploads/2026/11/DATES-OF-COMMENCEMENT-OF-MAHA-CET-2027-16-NOV-2026.pdf\" rel=\"noopener\" target=\"_blank\">State CET Cell press note, 16 Nov 2026 (Marathi)</a></p>\n</div>\n\n<h2>What the CET Cell announced</h2>\n<p>The State Common Entrance Test Cell, Maharashtra, has released a tentative calendar for 21 entrance tests it will conduct for admissions in the 2027-28 academic year. The tests will run from January to 10 June 2027.</p>\n<p>Two attempts will be offered for 11 courses in 2027, up from three last year. Until now, only the PCM group, the PCB group and MBA/MMS had two attempts. The CET Cell has now added eight more: PGDM, PGCM, five-year LLB, B.HMCT, BCA, BBA, BMS and BBM.</p>\n<p>For the PCM group, the window for the first attempt is 16 to 26 April 2027 and the window for the second attempt is 10 to 15 May 2027. For the PCB group, the first attempt is 8 to 13 April 2027 and the second is 6 to 8 May 2027.</p>\n<p>The press note says the first CET is compulsory and the second is optional. If a student writes both, the higher percentile of the two will be used for admission.</p>\n<p>The CET Cell also said 18,14,456 students registered for its 20 CETs in 2026 and 16,31,335 appeared.</p>\n\n<h2>What it means for engineering aspirants</h2>\n<p>These are tentative dates, not the final timetable. The press note itself says the schedule is provisional and that students should follow the official timetable and further notices on cetcell.mahacet.org. Registration dates for MHT CET 2027 have not been announced in this press note.</p>\n<p>The PCM window sits between JEE Main 2027 Session 2 (dates not yet notified by NTA) and JEE Advanced 2027 on 23 May. A Maharashtra student writing all three should plan revision so that the CET attempts do not eat into the last weeks before JEE Advanced.</p>\n<p>The second attempt is a real safety net. If the April paper goes badly, you can sit again in May without losing anything, because only the better percentile counts. But you must write the first attempt; skipping it is not an option under the rule as announced.</p>\n<p>For most JEE students, MHT CET needs a few weeks of CET-specific practice for speed and the state-board style of questions rather than a separate full course. Check the official syllabus PDF on the CET Cell website before planning.</p>\n\n<h2>Other Maharashtra CET dates in the same press note</h2>\n<p>The CET Cell also gave tentative dates for MBA/MMS (28 to 30 January 2027, second attempt 1 to 3 April), five-year LLB (28 to 29 March, second attempt 24 May), B.Design (18 April), M.HMCT (24 March) and MCA (27 March). It will hold CETs for PGDM, PGCM and GNM Nursing for the first time.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>26 Nov 2026:</strong> MHT CET 2027 PCM first attempt is tentatively 16 to 26 April 2027, and the second attempt is 10 to 15 May 2027 (<a href=\"https://cetcell.mahacet.org/wp-content/uploads/2026/11/DATES-OF-COMMENCEMENT-OF-MAHA-CET-2027-16-NOV-2026.pdf\" rel=\"noopener\" target=\"_blank\">State CET Cell press note, 16 Nov 2026</a>).</li>\n<li><strong>26 Nov 2026:</strong> In MHT CET 2027 the first attempt is compulsory, the second is optional, and the higher percentile of the two is used for admission (<a href=\"https://cetcell.mahacet.org/wp-content/uploads/2026/11/DATES-OF-COMMENCEMENT-OF-MAHA-CET-2027-16-NOV-2026.pdf\" rel=\"noopener\" target=\"_blank\">State CET Cell press note</a>).</li>\n<li><strong>26 Nov 2026:</strong> MHT CET 2027 PCB first attempt is tentatively 8 to 13 April 2027, with the second attempt from 6 to 8 May 2027 (<a href=\"https://cetcell.mahacet.org/wp-content/uploads/2026/11/DATES-OF-COMMENCEMENT-OF-MAHA-CET-2027-16-NOV-2026.pdf\" rel=\"noopener\" target=\"_blank\">State CET Cell press note</a>).</li>\n<li><strong>26 Nov 2026:</strong> The JEE Main 2027 Session 1 application correction window is 27 to 29 November 2026 (<a href=\"https://nta.ac.in/Download/Notice/Notice_20261024220013.pdf\" rel=\"noopener\" target=\"_blank\">NTA notice, 24 Oct 2026</a>; <a href=\"https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf\" rel=\"noopener\" target=\"_blank\">NTA clarification, 30 Oct 2026</a>).</li>\n<li><strong>26 Nov 2026:</strong> JEE Advanced 2027 is on Sunday, 23 May 2027, eight days after the last tentative MHT CET PCM date (<a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">IIT Delhi press release, 13 Nov 2026</a>).</li>\n</ul>\n<p>Preparing for JEE and MHT CET in Solapur? See our new city guide, <a href=\"top-jee-coaching-institutes-solapur-2026.html\">Top JEE Coaching Institutes in Solapur</a>.</p>\n<p><strong>Last updated: 26 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "top-jee-coaching-institutes-solapur-2026",
+    "image": "assets/blog/top-jee-coaching-institutes-solapur-2026.png",
+    "title": "Top JEE Coaching Institutes in Solapur (2026)",
+    "category": "JEE & Engineering",
+    "type": "coaching-guides",
+    "date": "26 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-solapur.html",
+      "text": "Browse all verified coaching institutes in Solapur"
+    },
+    "excerpt": "Three JEE coaching brands confirm classroom centres in Solapur on their official websites: Bakliwal Tutorials (three centres), Aakash at Murarji Peth and PW Vidyapeeth at Oasis Mall. What each offers, what they do not publish, and how to choose.",
+    "itemListName": "Top JEE Coaching Institutes in Solapur (2026)",
+    "itemList": [
+      {
+        "name": "Bakliwal Tutorials, Solapur",
+        "url": "https://bakliwaltutorialsiit.com/bakliwal_centers/"
+      },
+      {
+        "name": "Aakash Institute, Murarji Peth, Solapur",
+        "url": "https://centers.aakash.ac.in/aakash-institute-best-neet-iit-jee-coaching-in-murarji-peth-solapur-coaching-center-murarji-peth-solapur-99608/Home"
+      },
+      {
+        "name": "PW Vidyapeeth (Pathshala Centre), Solapur",
+        "url": "https://www.pw.live/offline-centres/batches/vidyapeeth/solapur-mh/solapur-vidyapeeth--pathshala-centre--359506"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best JEE coaching in Solapur?",
+        "a": "There is no single best. Bakliwal Tutorials, Aakash Institute and PW Vidyapeeth all confirm Solapur centres for JEE on their official websites. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Where is Bakliwal Tutorials in Solapur?",
+        "a": "Its official centres page lists three Solapur centres: Old Employment Chowk (head office, DRM Office Road, above Bank of India), Jule Solapur (Ashwagandha Complex, Dawat Chowk) and Ashok Chowk (Prajay Heights, opposite Chippa Market)."
+      },
+      {
+        "q": "Where is Aakash Institute in Solapur?",
+        "a": "Aakash's official centre page lists Times Square, opposite Prabhat Theatre, Murarji Peth, Solapur 413001."
+      },
+      {
+        "q": "Where is PW Vidyapeeth in Solapur?",
+        "a": "PW's official page lists the Pathshala centre at Oasis Mall, B Building, 11A Murarji Oceans, beside Rupa Bhavani Road, Solapur 413001."
+      },
+      {
+        "q": "What is the fee for JEE coaching in Solapur?",
+        "a": "None of the three publishes a fee for its Solapur centres as of 26 November 2026. Ask for the fee and any scholarship in writing."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 26 November 2026.</strong></p>\n<p>Solapur has three JEE coaching brands whose own official websites confirm classroom centres in the city: Bakliwal Tutorials, a Pune-based IIT-JEE institute with three Solapur centres, Aakash Institute at Murarji Peth, and PW Vidyapeeth at Oasis Mall. This guide lists only those three and says plainly what each does and does not publish.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Solapur, Maharashtra</p>\n<p><strong>Exams covered:</strong> JEE Main, JEE Advanced and MHT CET (PCM)</p>\n<p><strong>Institutes listed:</strong> 3 brands (5 centres), each checked on its own official website on 26 November 2026</p>\n<p><strong>Coaching areas:</strong> Murarji Peth, Old Employment Chowk, Ashok Chowk and Jule Solapur</p>\n<p><strong>JEE Advanced 2027:</strong> Sunday, 23 May 2027 (<a href=\"https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf\" rel=\"noopener\" target=\"_blank\">IIT Delhi press release</a>)</p>\n<p><strong>MHT CET 2027 PCM:</strong> 16 to 26 April 2027, second attempt 10 to 15 May 2027, both tentative (<a href=\"https://cetcell.mahacet.org/wp-content/uploads/2026/11/DATES-OF-COMMENCEMENT-OF-MAHA-CET-2027-16-NOV-2026.pdf\" rel=\"noopener\" target=\"_blank\">State CET Cell press note</a>)</p>\n<p><strong>Published fees:</strong> none of the three publishes a fee amount for its Solapur centres</p>\n</div>\n\n<h2>Why Solapur matters for JEE aspirants</h2>\n<p>Solapur is a district headquarters on the Pune-Hyderabad highway and the main city for students from Pandharpur, Akkalkot, Barshi, Mohol and Mangalwedha. It is also the natural coaching base for families just across the border in north Karnataka, such as Vijayapura and Kalaburagi districts.</p>\n<p>A Solapur student usually targets two exams at once: JEE Main and Advanced for the NITs and IITs, and MHT CET for Maharashtra's state engineering colleges, including the government colleges in Pune and Mumbai. That makes a centre that handles both a practical choice, and it is one reason Pune's Bakliwal Tutorials set up here in 2014.</p>\n<p>The alternative for many families has been to send a Class 11 student to Pune or Latur. A strong local centre lets the student stay at home, attend a local junior college and save on hostel costs.</p>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own official website confirms a classroom centre in Solapur and JEE coaching. Directory sites name several more local classes, but without an official page we did not rank them. We have kept the list to three instead of padding it to ten. The order below reflects JEE focus and how much each institute publishes about Solapur, not a judgement of teaching quality. None of these is a paid listing on our site.</p>\n\n<h3>1. Bakliwal Tutorials, three centres in Solapur</h3>\n<p>Bakliwal Tutorials is an IIT-JEE coaching institute that started in Pune in 2005. Its <a href=\"https://bakliwaltutorialsiit.com/bakliwal_about_us/\" rel=\"noopener\" target=\"_blank\">official About page</a> says it opened its Solapur centre in 2014. The <a href=\"https://bakliwaltutorialsiit.com/bakliwal_centers/\" rel=\"noopener\" target=\"_blank\">official centres page</a> lists three Solapur addresses, each marked as office and classroom: Employment Chowk Centre (head office), above Bank of India, DRM Office Road, Old Employment Chowk, Solapur 413001; Jule Solapur Centre, 2C Ashwagandha Complex, Old Santosh Nagar, Dawat Chowk, Jule Solapur 413004; and Ashok Chowk Centre, Prajay Heights, opposite Chippa Market, Ashok Chowk, Solapur 413006.</p>\n<p>The results it publishes, including JEE Advanced top ranks, are for the brand as a whole and mostly from Pune. It does not publish fees or Solapur-specific results online. Ask which centre runs your batch and which teachers teach there in person.</p>\n\n<h3>2. Aakash Institute, Murarji Peth</h3>\n<p>Aakash's <a href=\"https://centers.aakash.ac.in/aakash-institute-best-neet-iit-jee-coaching-in-murarji-peth-solapur-coaching-center-murarji-peth-solapur-99608/Home\" rel=\"noopener\" target=\"_blank\">official centre page</a> gives the address as Times Square, opposite Prabhat Theatre, Murarji Peth, Solapur 413001, and describes it as a NEET and IIT-JEE coaching centre open from 10 AM to 7:30 PM daily. Aakash's <a href=\"https://www.aakash.ac.in/solapur-city/iit-jee-main-advanced-coaching\" rel=\"noopener\" target=\"_blank\">Solapur JEE page</a> lists JEE Main, JEE Advanced, crash and repeater courses, plus two-year and one-year classroom courses for Class 11 and Class 12 students.</p>\n<p>Parts of that JEE page are clearly out of date. It mentions 2023 batch timelines and 2021 toppers, and mislabels the centre name. Treat it as a list of course types, not current batch dates. No fee or Solapur-specific result is published; Aakash advertises scholarships through its ANTHE test.</p>\n\n<h3>3. PW Vidyapeeth (Pathshala Centre), Oasis Mall</h3>\n<p>PW Vidyapeeth's <a href=\"https://www.pw.live/offline-centres/batches/vidyapeeth/solapur-mh/solapur-vidyapeeth--pathshala-centre--359506\" rel=\"noopener\" target=\"_blank\">official Solapur page</a> lists the centre as a JEE, NEET and Foundation coaching centre at Oasis Mall, B Building, 11A Murarji Oceans, beside Rupa Bhavani Road, Solapur 413001. It mentions structured classroom teaching, instant doubt support and an all-India test series.</p>\n<p>This is a Pathshala centre, which in PW's model usually means recorded or live lectures from PW teachers shown in a classroom, with local mentors for doubts. Ask the centre directly how much of the teaching is in person. The page does not list batches, fees or results for Solapur.</p>\n\n<h2>What we left out, and why</h2>\n<p>Directory sites list other Solapur names under JEE coaching, including local tuition classes and some regional brands. For these we found no official page that confirms a current JEE classroom batch at a Solapur address, so we have not ranked them. ALLEN does not have an official Solapur JEE page as of 26 November 2026. Online-only courses are also left out, since students can take them from anywhere.</p>\n\n<h2>How to choose</h2>\n<p>Bakliwal Tutorials suits a student who wants an institute that teaches only IIT-JEE and has more than one centre in the city to choose from. Aakash suits a student who wants a national brand with a repeater course and the option of a scholarship test. PW Vidyapeeth may suit a family that wants a lower-cost, test-heavy option and is comfortable with screen-based teaching.</p>\n<p>Ask every centre the same five questions: how many students sit in one batch, which teachers teach in the classroom rather than on screen, how many full-length JEE Main and MHT CET mocks are included, how doubts are handled outside class hours, and what the refund policy is. Take a demo class before paying, and get the fee and any scholarship in writing.</p>\n<p>MHT CET 2027 dates have just been announced. Read our update on <a href=\"mht-cet-2027-pcm-16-26-april-second-attempt-10-15-may-tentative-26nov-update.html\">MHT CET 2027 tentative dates</a>, and see every verified listing in the city on our <a href=\"coaching-solapur.html\">Solapur coaching page</a>.</p>\n<p><strong>Last updated: 26 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "clat-2027-admit-card-out-till-6-december-ailet-2027-admit-card-from-24-november-25nov-update",
     "image": "assets/blog/clat-2027-admit-card-out-till-6-december-ailet-2027-admit-card-from-24-november-25nov-update.png",
     "title": "CLAT 2027 Admit Card Out, Download Till 6 December; AILET 2027 Admit Card Released on 24 November",
