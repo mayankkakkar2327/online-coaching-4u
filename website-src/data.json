@@ -98,7 +98,8 @@
       "haldwani",
       "berhampur",
       "karnal",
-      "solapur"
+      "solapur",
+      "hisar"
     ],
     "certification": [
       "online"
@@ -16234,6 +16235,74 @@
         "Pathshala model; fees on enquiry"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "aakash-institute-hisar",
+      "type": "coaching",
+      "name": "Aakash Institute, Hisar (Tosham Road)",
+      "city": "hisar",
+      "locality": "Sector 13",
+      "address": "Plot No 11, 1st Floor, Tosham Road, near Goyal Dharamshala, Sector 13, Hisar, Haryana 125001",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://centers.aakash.ac.in/aakash-institute-hisar-coaching-center-sector-13-hisar-99475/Home",
+      "about": "Aakash's official Hisar centre page gives this Tosham Road address and lists Medical, Engineering and Foundation streams. Its Hisar NEET page lists a one-year Class 12 cum Medical course, a repeater course, three- and four-year integrated courses and Class 8 to 10 foundation courses. Fees and centre results are not published.",
+      "highlights": [
+        "Official centre page confirms the Tosham Road address",
+        "NEET one-year, repeater and integrated courses",
+        "Also runs JEE and Class 8-10 foundation courses",
+        "Fees on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "pw-vidyapeeth-hisar",
+      "type": "coaching",
+      "name": "PW Vidyapeeth, Hisar",
+      "city": "hisar",
+      "locality": "Sector 13",
+      "address": "Plot No 5 & 6, Tosham Road, near Mohan Sweets, Sector 13, Hisar, Haryana 125005",
+      "estd": null,
+      "exams": [
+        "neet",
+        "jee"
+      ],
+      "verified": true,
+      "website": "https://www.pw.live/offline-centres/batches/vidyapeeth/hisar-hr/hisar-vidyapeeth-205065",
+      "about": "PW Vidyapeeth's official Hisar page gives this Tosham Road address and lists NEET courses for Class 11, Class 12 and droppers, along with IIT-JEE and Class 8 to 10 foundation courses. The page mentions doubt support and an all-India test series but publishes no fees or Hisar-specific results.",
+      "highlights": [
+        "Official page confirms the Tosham Road address",
+        "NEET batches for Class 11, Class 12 and droppers",
+        "Classroom and test-series programmes",
+        "Fees and centre results on enquiry"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "allen-career-institute-hisar",
+      "type": "coaching",
+      "name": "ALLEN Career Institute, Hisar",
+      "city": "hisar",
+      "locality": "Hisar",
+      "address": "Hisar, Haryana (street address not published on ALLEN's official Hisar NEET page; confirm with the centre)",
+      "estd": null,
+      "exams": [
+        "neet"
+      ],
+      "verified": true,
+      "website": "https://allen.in/hisar/neet",
+      "about": "ALLEN's official Hisar NEET page says ALLEN Hisar runs NEET (UG) classroom programmes, listing the two-year Nurture course for students moving from Class 10 to 11 and the one-year Enthusiast course for students moving from Class 11 to 12. The page does not publish a street address, fees or Hisar-specific results.",
+      "highlights": [
+        "Official page lists Nurture and Enthusiast",
+        "Printed study material, DPPs and test series",
+        "Offline NEET (UG) classroom programmes",
+        "Street address and fees not published online"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16516,6 +16585,9 @@
     },
     "coaching-solapur": {
       "intro": "<p>Solapur, a district headquarters on the Pune-Hyderabad highway, is the coaching base for students from Pandharpur, Barshi, Akkalkot and the north Karnataka border districts. Bakliwal Tutorials (three centres), Aakash Institute (Murarji Peth) and PW Vidyapeeth (Oasis Mall) confirm JEE coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-hisar": {
+      "intro": "<p>Hisar, the main education centre of western Haryana, now has three national brands whose official websites confirm NEET classroom courses in the city: Aakash Institute and PW Vidyapeeth, both on Tosham Road in Sector 13, and ALLEN Career Institute. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }

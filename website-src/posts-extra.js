@@ -1,6 +1,95 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "top-neet-coaching-institutes-hisar-2026",
+    "image": "assets/blog/top-neet-coaching-institutes-hisar-2026.png",
+    "title": "Top NEET Coaching Institutes in Hisar (2026)",
+    "category": "NEET & Medical",
+    "type": "coaching-guides",
+    "date": "27 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-hisar.html",
+      "text": "Browse all verified coaching institutes in Hisar"
+    },
+    "excerpt": "Three national NEET coaching brands confirm classroom courses in Hisar, Haryana, on their official websites: Aakash and PW Vidyapeeth, both on Tosham Road in Sector 13, and ALLEN. What each offers, what they do not publish, and how to choose.",
+    "itemListName": "Top NEET Coaching Institutes in Hisar (2026)",
+    "itemList": [
+      {
+        "name": "Aakash Institute, Tosham Road, Sector 13, Hisar",
+        "url": "https://centers.aakash.ac.in/aakash-institute-hisar-coaching-center-sector-13-hisar-99475/Home"
+      },
+      {
+        "name": "PW Vidyapeeth, Tosham Road, Sector 13, Hisar",
+        "url": "https://www.pw.live/offline-centres/batches/vidyapeeth/hisar-hr/hisar-vidyapeeth-205065"
+      },
+      {
+        "name": "ALLEN Career Institute, Hisar",
+        "url": "https://allen.in/hisar/neet"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best NEET coaching in Hisar?",
+        "a": "There is no single best. Aakash Institute, PW Vidyapeeth and ALLEN all confirm NEET classroom courses in Hisar on their official websites. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Where is Aakash Institute in Hisar?",
+        "a": "Aakash's official centre page lists Plot No 11, 1st Floor, Tosham Road, near Goyal Dharamshala, Sector 13, Hisar 125001."
+      },
+      {
+        "q": "Where is PW Vidyapeeth in Hisar?",
+        "a": "PW Vidyapeeth's official page lists Plot No 5 and 6, Tosham Road, near Mohan Sweets, Sector 13, Hisar 125005."
+      },
+      {
+        "q": "Does ALLEN have NEET classes in Hisar?",
+        "a": "Yes. ALLEN's official Hisar NEET page lists the two-year Nurture course (target 2028) and the one-year Enthusiast course (target 2027). It does not publish a street address."
+      },
+      {
+        "q": "What is the fee for NEET coaching in Hisar?",
+        "a": "None of the three institutes publishes a fee amount on its Hisar page as of 27 November 2026. Ask for the fee and any scholarship in writing."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 27 November 2026.</strong></p>\n<p>Hisar in western Haryana has three national coaching brands whose own official websites confirm NEET classroom courses in the city: Aakash Institute and PW Vidyapeeth, both on Tosham Road in Sector 13, and ALLEN Career Institute. This guide lists only those three, explains what each publishes, and says plainly what we could not confirm.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Hisar, Haryana</p>\n<p><strong>Exam covered:</strong> NEET UG (2027 and 2028 cycles)</p>\n<p><strong>Institutes listed:</strong> 3, each checked on its own official website on 27 November 2026</p>\n<p><strong>Coaching area:</strong> Tosham Road, Sector 13 (Aakash and PW Vidyapeeth are on the same road)</p>\n<p><strong>NEET UG 2027:</strong> no notification on <a href=\"https://neet.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">neet.nta.nic.in</a> as of 27 November 2026</p>\n<p><strong>Published fees:</strong> none of the three publishes a fee amount on its Hisar page</p>\n</div>\n\n<h2>Why Hisar matters for NEET aspirants</h2>\n<p>Hisar is the main education centre of western Haryana. Students from Hisar, Fatehabad, Sirsa, Bhiwani and Jind districts, and from the bordering parts of Rajasthan, come here for Class 11 and 12 science along with entrance coaching. The city is also home to Guru Jambheshwar University of Science and Technology and Chaudhary Charan Singh Haryana Agricultural University, so it already has a large student population.</p>\n<p>For a Haryana student, NEET UG is the only route to MBBS and BDS, through either the 15% All India Quota counselling run by MCC or the 85% Haryana state quota counselling. Many Hisar families used to send children to Kota or Delhi for NEET. With three national brands now confirming classroom NEET courses in the city itself, a student can prepare from home and save on hostel and travel costs.</p>\n\n<h2>How we picked this list</h2>\n<p>We included an institute only if its own official website confirms a NEET classroom course in Hisar. Directory sites name many more local academies, but without an official page we did not rank them. We have kept the list to three instead of padding it to ten. The order below reflects how much each institute publishes about its Hisar centre, not a judgement of teaching quality. None of these is a paid listing on our site.</p>\n\n<h3>1. Aakash Institute, Tosham Road, Sector 13</h3>\n<p>Aakash's <a href=\"https://centers.aakash.ac.in/aakash-institute-hisar-coaching-center-sector-13-hisar-99475/Home\" rel=\"noopener\" target=\"_blank\">official centre page</a> gives the address as Plot No 11, 1st Floor, Tosham Road, near Goyal Dharamshala, Sector 13, Hisar 125001, and lists Medical, Engineering and Foundation streams, with the centre open from 10 AM to 7:30 PM all week. Aakash's <a href=\"https://www.aakash.ac.in/hisar-city/neet-ug-coaching\" rel=\"noopener\" target=\"_blank\">Hisar NEET page</a> gives the same Tosham Road address and lists a one-year Class 12 cum Medical classroom course, a repeater course for Class 12 pass-outs, three-year and four-year integrated courses starting from Class 10 and Class 9, and foundation courses for Class 8 to 10.</p>\n<p>Aakash does not publish a fee or Hisar-specific results on these pages. Ask about the All India Aakash Test Series and the iTutor video library, which the NEET page lists as part of its courses.</p>\n\n<h3>2. PW Vidyapeeth, Tosham Road, Sector 13</h3>\n<p>PW Vidyapeeth's <a href=\"https://www.pw.live/offline-centres/batches/vidyapeeth/hisar-hr/hisar-vidyapeeth-205065\" rel=\"noopener\" target=\"_blank\">official Hisar page</a> gives the address as Plot No 5 and 6, Tosham Road, near Mohan Sweets, Sector 13, Hisar 125005. It lists NEET courses for Class 11, Class 12 and droppers, alongside IIT-JEE and Class 8 to 10 foundation courses.</p>\n<p>The page mentions structured classroom teaching, instant doubt support and an all-India test series. It does not publish fees or Hisar-specific results, so ask at the centre and check which teachers teach in person rather than on screen. Note that the PIN code on this page (125005) differs from the one on Aakash's page (125001) for the same road; confirm before visiting.</p>\n\n<h3>3. ALLEN Career Institute, Hisar</h3>\n<p>ALLEN's <a href=\"https://allen.in/hisar/neet\" rel=\"noopener\" target=\"_blank\">official Hisar NEET page</a> says ALLEN Hisar offers NEET (UG) classroom programmes. It lists two courses: Nurture, a two-year course for students moving from Class 10 to 11 (target NEET 2028), and Enthusiast, a one-year course for students moving from Class 11 to 12 (target NEET 2027), both with printed study material, daily practice problems and test series.</p>\n<p>The page does not publish a street address, a fee, Hisar-specific results or a dropper course, and one paragraph on it refers to \"ALLEN Gaya\", which looks like a copying error. Confirm the centre address, batch timings and whether a repeater batch runs in Hisar before visiting, and ask for the fee in writing.</p>\n\n<h2>What we left out, and why</h2>\n<p>Hisar has many local science academies and tuition classes that combine Class 11 and 12 teaching with NEET coaching. For these, and for some national brands that appear only on directory or reseller sites, we found no official page confirming a current NEET classroom batch at a Hisar address, so we have not ranked them. Vedantu, which runs offline centres in several other cities, does not list Hisar among its centres. Online-only NEET courses are also left out, since students can take them from anywhere.</p>\n\n<h2>How to choose</h2>\n<p>Aakash suits a student who wants a long-running national brand with a published repeater course and an early-start option from Class 9 or 10. PW Vidyapeeth publishes a clear street address and separate Class 11, Class 12 and dropper batches. ALLEN suits a student moving into Class 11 or 12 who wants ALLEN's national course structure, but it is the least clear of the three about its Hisar centre. Since Aakash and PW Vidyapeeth are on the same road in Sector 13, a family can visit both on one day, sit a demo class at each and compare batch size, teacher experience and the fee in writing before paying.</p>\n<p>For the latest on medical counselling, see our update on <a href=\"neet-pg-2026-round3-registration-open-resignation-extended-till-7pm-27-november-27nov-update.html\">NEET PG 2026 Round 3 registration and the seat resignation window</a>.</p>\n<p><strong>Last updated: 27 November 2026.</strong></p>"
+  },
+  {
+    "slug": "neet-pg-2026-round3-registration-open-resignation-extended-till-7pm-27-november-27nov-update",
+    "image": "assets/blog/neet-pg-2026-round3-registration-open-resignation-extended-till-7pm-27-november-27nov-update.png",
+    "title": "NEET PG 2026 Round 3 Registration Opens; Seat Resignation Window Extended Till 7 PM on 27 November",
+    "category": "NEET & Medical",
+    "type": "exam-news",
+    "date": "27 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=neet",
+      "text": "Compare verified NEET coaching institutes"
+    },
+    "excerpt": "MCC opened NEET PG 2026 Round 3 registration at 6 PM on 26 November and has extended the facility to resign a Round 1 or Round 2 seat till 7 PM on 27 November. Security deposit is forfeited. Five dated pointers.",
+    "faqs": [
+      {
+        "q": "Has NEET PG 2026 Round 3 registration started?",
+        "a": "Yes. MCC said registration for Round 3 of PG Counselling 2026 would begin at 6:00 PM on 26 November 2026."
+      },
+      {
+        "q": "What is the last time to resign a NEET PG Round 1 or Round 2 seat?",
+        "a": "7:00 PM on 27 November 2026. MCC extended the resignation facility from its original deadline of 6:00 PM on 25 November."
+      },
+      {
+        "q": "Will I get my security deposit back if I resign my NEET PG seat?",
+        "a": "No. MCC's notice of 23 November 2026 says candidates resigning a Round 1 or Round 2 seat do so with forfeiture of the security deposit."
+      },
+      {
+        "q": "How do I resign a NEET PG seat?",
+        "a": "Freeze candidates must visit the allotted institute; float candidates submit resignation online on the MCC portal. The resignation letter must be generated online by the college through the MCC portal, or the resignation is treated as null and void."
+      },
+      {
+        "q": "What are the NEET PG 2026 Round 3 dates?",
+        "a": "MCC's schedule of 16 November 2026 lists Round 3 for All India Quota, deemed and central universities from 26 November to 4 December 2026, with 12 December as the last date of joining."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 27 November 2026.</strong></p>\n<p>The Medical Counselling Committee (MCC) opened registration for Round 3 of NEET PG Counselling 2026 at 6:00 PM on 26 November 2026, and has extended the window for candidates to resign a Round 1 or Round 2 seat till 7:00 PM on 27 November 2026.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Round 3 registration:</strong> opened at 6:00 PM on 26 November 2026</p>\n<p><strong>Seat resignation (Round 1 or Round 2):</strong> extended till 7:00 PM on 27 November 2026 (it was due to close at 6:00 PM on 25 November)</p>\n<p><strong>Security deposit:</strong> forfeited on resignation</p>\n<p><strong>Round 3 (AIQ, deemed and central universities):</strong> 26 November to 4 December 2026; last date of joining 12 December, as per MCC's 16 November schedule</p>\n<p><strong>Source:</strong> <a href=\"https://mcc.nic.in/pg-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC PG counselling page</a>, checked on 27 November 2026</p>\n</div>\n\n<h2>What MCC has announced</h2>\n<p>On 26 November, MCC posted a <a href=\"https://mcc.nic.in/registration-for-round-3-of-pg-counselling-2026-will-commence-today-i-e-26-11-2026-from-0600-pm-onwards/\" rel=\"noopener\" target=\"_blank\">one-line notice</a> saying registration for Round 3 of PG Counselling 2026 would begin that day from 6:00 PM. A detailed Round 3 notice with choice-filling and result timings had not been posted on the <a href=\"https://mcc.nic.in/pg-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC PG counselling page</a> when we checked on 27 November.</p>\n<p>On 27 November, MCC posted a <a href=\"https://mcc.nic.in/with-reference-to-the-notice-dated-23-11-2026-the-resignation-facility-has-been-extended-up-to-0700-pm-today-i-e-27-11-2026/\" rel=\"noopener\" target=\"_blank\">second notice</a> saying that, with reference to its notice of 23 November, the resignation facility has been extended up to 7:00 PM the same day, that is, 27 November 2026.</p>\n\n<h2>The resignation rules</h2>\n<p>MCC's <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261123617658977.pdf\" rel=\"noopener\" target=\"_blank\">notice of 23 November</a> says it received many requests from PG candidates who wanted to give up their Round 1 or Round 2 seats, so the competent authority decided to allow resignation. The window first ran from 2:00 PM on 23 November to 6:00 PM on 25 November. The rules in that notice are:</p>\n<ul>\n<li>A Round 1 candidate who did not get upgraded in Round 2 can resign the seat, with forfeiture of the security deposit.</li>\n<li>A freshly allotted Round 2 candidate who joined the seat can resign it, with forfeiture of the security deposit.</li>\n<li>A candidate upgraded in Round 2 who joined the upgraded seat can resign it, with forfeiture of the security deposit.</li>\n<li>Freeze candidates have to visit the allotted institute to resign. Float candidates submit resignation online on the portal.</li>\n<li>The resignation letter must be generated online by the allotted college through the MCC portal. Otherwise the resignation is treated as null and void.</li>\n</ul>\n\n<h2>Why the Round 2 result was delayed, now explained</h2>\n<p>Our 23 November update said MCC had not explained what changed in the Madras High Court case that held up the Round 2 result. MCC's <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611201962665139.pdf\" rel=\"noopener\" target=\"_blank\">Notice No. 11 dated 20 November</a> answers that. It says the High Court, by an order of 19 November in WP No. 46350 of 2026, clarified that its interim stay applies only to Sri Venkateshwaraa Deemed University and not to counselling or admissions for other colleges. MCC therefore kept the status quo on the 161 PG seats of Sri Venkateshwaraa Medical College Hospital and Research Centre, left those seats out of Round 2 seat processing, and declared the result for all other colleges.</p>\n\n<h2>What it means for students</h2>\n<p>If you hold a Round 1 or Round 2 seat and want out, you have until 7:00 PM today, 27 November. Resigning costs you the security deposit, and the resignation counts only if your college generates the letter on the MCC portal, so confirm that step with the college before the deadline. The notices do not spell out how a resignation affects Round 3 participation, so read the MCC information bulletin or ask MCC before you act.</p>\n<p>If you are taking part in Round 3, register on the <a href=\"https://mcc.nic.in/pg-medical-counselling/\" rel=\"noopener\" target=\"_blank\">MCC portal</a> now and watch for the detailed notice on choice filling and locking. Round 3 runs till 4 December as per the <a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611161679361332.pdf\" rel=\"noopener\" target=\"_blank\">16 November schedule</a>, so the window is short. PwD candidates should also note that the <a href=\"https://mcc.nic.in/the-pwd-portal-for-neet-pg-counselling-for-round-3-2026-will-remain-available-till-0600-pm-on-28-11-2026-for-the-primary-assessment-board-disability-centres-and-till-0600-pm-on-01-12-2026-for-the/\" rel=\"noopener\" target=\"_blank\">PwD portal for Round 3</a> stays open till 6:00 PM on 28 November for disability centres and till 6:00 PM on 1 December for the Appellate Board.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>27 Nov 2026:</strong> NEET PG 2026 Round 3 registration opened at 6:00 PM on 26 November 2026 (<a href=\"https://mcc.nic.in/registration-for-round-3-of-pg-counselling-2026-will-commence-today-i-e-26-11-2026-from-0600-pm-onwards/\" rel=\"noopener\" target=\"_blank\">MCC notice, 26 Nov 2026</a>).</li>\n<li><strong>27 Nov 2026:</strong> The last time to resign a NEET PG 2026 Round 1 or Round 2 seat is 7:00 PM on 27 November 2026 (<a href=\"https://mcc.nic.in/with-reference-to-the-notice-dated-23-11-2026-the-resignation-facility-has-been-extended-up-to-0700-pm-today-i-e-27-11-2026/\" rel=\"noopener\" target=\"_blank\">MCC notice, 27 Nov 2026</a>).</li>\n<li><strong>27 Nov 2026:</strong> A candidate who resigns a NEET PG 2026 Round 1 or Round 2 seat forfeits the security deposit (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/20261123617658977.pdf\" rel=\"noopener\" target=\"_blank\">MCC notice, 23 Nov 2026</a>).</li>\n<li><strong>27 Nov 2026:</strong> The 161 PG seats of Sri Venkateshwaraa Medical College Hospital and Research Centre, Puducherry, were kept out of Round 2 seat processing under a Madras High Court order (<a href=\"https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/11/202611201962665139.pdf\" rel=\"noopener\" target=\"_blank\">MCC Notice No. 11, 20 Nov 2026</a>).</li>\n<li><strong>27 Nov 2026:</strong> NEET UG 2027 has not been notified; the latest notices on <a href=\"https://neet.nta.nic.in/\" rel=\"noopener\" target=\"_blank\">neet.nta.nic.in</a> still concern NEET UG 2026.</li>\n</ul>\n<p>Preparing for NEET UG instead? See our new city guide, <a href=\"top-neet-coaching-institutes-hisar-2026.html\">Top NEET Coaching Institutes in Hisar</a>.</p>\n<p><strong>Last updated: 27 November 2026.</strong></p>"
+  },
+  {
     "slug": "mht-cet-2027-pcm-16-26-april-second-attempt-10-15-may-tentative-26nov-update",
     "image": "assets/blog/mht-cet-2027-pcm-16-26-april-second-attempt-10-15-may-tentative-26nov-update.png",
     "title": "MHT CET 2027 Tentative Dates: PCM From 16 to 26 April, Second Attempt 10 to 15 May",
