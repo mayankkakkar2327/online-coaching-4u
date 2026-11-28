@@ -1,6 +1,91 @@
 /* Newest posts, kept in a separate file because posts.js exceeds the GitHub web editor size limit. */
 module.exports = [
   {
+    "slug": "top-cat-coaching-institutes-mangaluru-2026",
+    "image": "assets/blog/top-cat-coaching-institutes-mangaluru-2026.png",
+    "title": "Top CAT Coaching Institutes in Mangaluru (2026)",
+    "category": "CAT, IPMAT & MBA",
+    "type": "coaching-guides",
+    "date": "28 Nov 2026",
+    "minutes": 5,
+    "cta": {
+      "href": "coaching-mangaluru.html",
+      "text": "Browse all verified coaching institutes in Mangaluru"
+    },
+    "excerpt": "Two national MBA-entrance brands confirm centres in Mangaluru on their own websites: T.I.M.E. at Kankanady and Career Launcher at PVS Circle, Kodialbail. What each offers, what they do not publish, and how to choose.",
+    "itemListName": "Top CAT Coaching Institutes in Mangaluru (2026)",
+    "itemList": [
+      {
+        "name": "T.I.M.E., Kankanady, Mangaluru",
+        "url": "https://www.time4education.com/Mangalore"
+      },
+      {
+        "name": "Career Launcher, PVS Circle, Kodialbail, Mangaluru",
+        "url": "https://www.careerlauncher.com/cat-mba/coaching-centers/mangalore/"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which is the best CAT coaching in Mangaluru?",
+        "a": "There is no single best. T.I.M.E. (Kankanady) and Career Launcher (Kodialbail) both list CAT coaching in Mangaluru on their official websites. Attend a demo class at each before paying."
+      },
+      {
+        "q": "Where is T.I.M.E. in Mangalore?",
+        "a": "1st Floor, Kankanady Gate, Kankanady Bypass Road, Kankanady, Mangalore 575002, according to T.I.M.E.'s official Mangalore page."
+      },
+      {
+        "q": "Where is Career Launcher in Mangalore?",
+        "a": "01, 2nd Floor, above Canara Bank, PVS Building, PVS Circle, Kodialbail, Mangalore 575003, according to Career Launcher's official Mangalore CAT centre page."
+      },
+      {
+        "q": "Is there IMS coaching in Mangalore?",
+        "a": "IMS's Mangalore centre page returned not found when checked on 28 November 2026, so we have not listed it."
+      },
+      {
+        "q": "What is the fee for CAT coaching in Mangaluru?",
+        "a": "Neither centre publishes a fee amount on its official page as of 28 November 2026. Ask for the fee and refund policy in writing."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 28 November 2026.</strong></p>\n<p>Mangaluru (Mangalore), the main city of Dakshina Kannada district in Karnataka, has two national MBA-entrance coaching brands with centres confirmed on their own official websites: T.I.M.E. at Kankanady and Career Launcher at PVS Circle, Kodialbail. This guide lists only those two and says plainly what we could not confirm.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>City:</strong> Mangaluru (Mangalore), Dakshina Kannada, Karnataka</p>\n<p><strong>Exams covered:</strong> CAT, plus CMAT, MAT and Karnataka PGCET for MBA</p>\n<p><strong>Institutes listed:</strong> 2 centres, each checked on the institute's official website on 28 November 2026</p>\n<p><strong>Coaching areas:</strong> Kankanady (Bypass Road) and Kodialbail (PVS Circle)</p>\n<p><strong>Next exams:</strong> CAT 2026 on 29 November 2026 (<a href=\"https://iimcat.ac.in\" rel=\"noopener\" target=\"_blank\">iimcat.ac.in</a>); XAT 2027 on 3 January 2027 (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>)</p>\n<p><strong>Published fees:</strong> neither centre publishes a fee amount online</p>\n</div>\n\n<h2>Why Mangaluru matters for MBA aspirants</h2>\n<p>Mangaluru is a college town. Engineering, commerce and science graduates from Dakshina Kannada and Udupi districts, along with students from north Kerala, study here, and NITK Surathkal sits on the city's northern edge.</p>\n<p>Many of these graduates take CAT, while others write Karnataka PGCET or CMAT for state and private MBA seats. Without a local classroom, the usual option is moving to Bengaluru. A centre in the city lets a final-year student or a working graduate prepare without paying for a hostel there.</p>\n\n<h2>How we picked this list</h2>\n<p>We included a centre only if the institute's own website gives a Mangaluru address and lists CAT or MBA coaching there. Directory sites name more local classes, but without an official page we did not rank them. We kept the list to two centres instead of padding it to ten. The order below is not a judgement of teaching quality. Neither is a paid listing on our site.</p>\n\n<h3>1. T.I.M.E., Kankanady</h3>\n<p>T.I.M.E.'s <a href=\"https://www.time4education.com/Mangalore\" rel=\"noopener\" target=\"_blank\">official Mangalore page</a> lists an authorised centre on the 1st floor, Kankanady Gate, Kankanady Bypass Road, Kankanady, Mangalore 575002. For graduates it lists CAT/MBA, CMAT, MAT, Karnataka PGCET, GMAT, GRE, bank exams, SSC CGL and campus-recruitment training. For school students it lists CLAT, IPM, CUET and BBA/BCA/BMS entrance coaching.</p>\n<p>The page names Ganesh Hebbar, a Mangalore University science graduate, as centre director, and says he later expanded the centre's work to Udupi. It lists data interpretation, logical ability and quantitative aptitude as his teaching areas. Fees are not published.</p>\n\n<h3>2. Career Launcher, Kodialbail</h3>\n<p>Career Launcher's <a href=\"https://www.careerlauncher.com/cat-mba/coaching-centers/mangalore/\" rel=\"noopener\" target=\"_blank\">official Mangalore CAT centre page</a> gives the address as 01, 2nd Floor, above Canara Bank, PVS Building, PVS Circle, Kodialbail, Mangalore 575003. The page sits in Career Launcher's CAT coaching-centre directory, so the centre is listed for CAT/MBA preparation.</p>\n<p>The page does not show a batch list, a fee amount, or a start year for this centre. The phone number on the page also looks malformed, so we have not reproduced it. Visit or email the centre to confirm which CAT 2027 and post-CAT batches are running.</p>\n\n<h2>What we left out, and why</h2>\n<p>IMS's centre page for Mangalore returned \"not found\" when we checked on 28 November 2026, so we have not listed it. Several directory sites list local tutorials for CAT and MBA entrances in Mangaluru, but we found no official page confirming a current CAT batch and address for any of them.</p>\n\n<h2>How to choose</h2>\n<p>The real comparison is batch timing, the teachers who will actually take your classes, and fees. T.I.M.E. suits a student who wants Karnataka PGCET or CMAT preparation alongside CAT. Career Launcher suits a student who wants to stay in the central Kodialbail area. Sit in a demo class at both, ask for results from the Mangaluru centre rather than the brand nationally, and get the fee and refund policy in writing.</p>\n<p>With CAT 2026 on 29 November, students joining now should ask about post-CAT batches for XAT, CMAT and GD-PI preparation, or about early batches for CAT 2027. See every verified listing in the city on our <a href=\"coaching-mangaluru.html\">Mangaluru coaching page</a>, or read today's update: <a href=\"cat-2026-on-29-november-shifts-830am-1230pm-430pm-normalisation-method-published-28nov-update.html\">CAT 2026 session timings and normalisation method</a>.</p>\n<p><strong>Last updated: 28 November 2026.</strong></p>\n"
+  },
+  {
+    "slug": "cat-2026-on-29-november-shifts-830am-1230pm-430pm-normalisation-method-published-28nov-update",
+    "image": "assets/blog/cat-2026-on-29-november-shifts-830am-1230pm-430pm-normalisation-method-published-28nov-update.png",
+    "title": "CAT 2026 Tomorrow: Sessions at 8:30 AM, 12:30 PM and 4:30 PM; IIMs Publish Score Normalisation Method",
+    "category": "CAT, IPMAT & MBA",
+    "type": "exam-news",
+    "date": "28 Nov 2026",
+    "minutes": 4,
+    "cta": {
+      "href": "coaching.html?exam=cat",
+      "text": "Compare verified CAT and MBA coaching institutes"
+    },
+    "excerpt": "CAT 2026 is on 29 November in three two-hour sessions. On 26 November the IIMs posted how scores will be normalised across sessions and how percentiles are calculated. Five dated pointers, including SNAP and XAT deadlines.",
+    "faqs": [
+      {
+        "q": "What are the CAT 2026 shift timings?",
+        "a": "8:30 AM to 10:30 AM, 12:30 PM to 2:30 PM and 4:30 PM to 6:30 PM on 29 November 2026, according to the scaled score calculation note on iimcat.ac.in. Your own session is printed on your admit card."
+      },
+      {
+        "q": "Will CAT 2026 scores be normalised?",
+        "a": "Yes. The IIMs' note of 26 November 2026 says three different test forms will be used in three sessions, and scores will be normalised across forms and then across sections before being converted into percentiles."
+      },
+      {
+        "q": "How is the CAT 2026 percentile calculated?",
+        "a": "Percentile = (N − r) / N × 100, where N is the number of candidates who took CAT and r is your rank on scaled score. It is rounded to two decimals, and 99.995 or above is shown as 100."
+      },
+      {
+        "q": "What will the CAT 2026 scorecard show?",
+        "a": "Scaled scores for VARC, DILR and QA, a total scaled score, and the corresponding percentiles, as per the official normalisation note."
+      },
+      {
+        "q": "Has the SNAP 2026 deadline been extended?",
+        "a": "The SNAP home page says applications are extended till 30 November 2026. The important-dates page on the same site still shows 25 November, as checked on 28 November 2026."
+      }
+    ],
+    "html": "\n<p><strong>Last updated: 28 November 2026.</strong></p>\n<p>CAT 2026 will be held tomorrow, Sunday 29 November 2026, in three two-hour sessions, from 8:30 AM to 10:30 AM, 12:30 PM to 2:30 PM and 4:30 PM to 6:30 PM, according to the scaled score document the IIMs posted on the official CAT website on 26 November 2026.</p>\n\n<div class=\"tldr-box\"><p class=\"tldr-label\">Quick facts</p>\n<p><strong>Test day:</strong> Sunday, 29 November 2026</p>\n<p><strong>Sessions:</strong> morning 8:30 to 10:30 AM, afternoon 12:30 to 2:30 PM, evening 4:30 to 6:30 PM (your own session is printed on your admit card)</p>\n<p><strong>New on the portal:</strong> \"Scoring and Equating Process\", dated 26 November 2026, with a linked scaled score and percentile calculation note</p>\n<p><strong>Admit card:</strong> downloadable on iimcat.ac.in till 29 November 2026</p>\n<p><strong>Sources:</strong> <a href=\"https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/Scoring_and_Equating_Process_26-11-2026.pdf\" rel=\"noopener\" target=\"_blank\">CAT 2026 normalisation note, 26 Nov 2026</a>; <a href=\"https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/Scaled_Score_Calculation.pdf\" rel=\"noopener\" target=\"_blank\">Scaled score calculation note</a>; <a href=\"https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/7/9901914301.pdf\" rel=\"noopener\" target=\"_blank\">CAT media release, 4 Nov 2026</a></p>\n</div>\n\n<h2>What the IIMs published on 26 November</h2>\n<p>The CAT 2026 home page now links a one-page note titled \"Normalisation of CAT Scores in 2026\". It says CAT 2026 will use three different test forms in three test sessions, and that candidates' scores will be normalised so that no one gains or loses because of the session they were given.</p>\n<p>The note says the process first adjusts for differences in the spread of scores across the three forms, then normalises scores across sections. The scaled scores are then converted into percentiles for shortlisting. The IIMs compare the method to the one used for GATE.</p>\n<p>For each candidate, the IIMs will publish a scaled score for each section, Verbal Ability and Reading Comprehension (VARC), Data Interpretation and Logical Reasoning (DILR) and Quantitative Ability (QA), a total scaled score, and the percentiles.</p>\n<p>The linked <a href=\"https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/Scaled_Score_Calculation.pdf\" rel=\"noopener\" target=\"_blank\">scaled score calculation note</a> explains the steps using QA as the example. It uses the mean and standard deviation of raw scores in each session, and of all candidates together, and states the session timings as 8:30 to 10:30 AM, 12:30 to 2:30 PM and 4:30 to 6:30 PM on 29 November 2026.</p>\n<p>The percentile formula is given in full. If N candidates took CAT and your rank on scaled score is r, your percentile is (N − r) divided by N, multiplied by 100, rounded to two decimal places. Any percentile of 99.995 or above is shown as 100. Candidates with identical scaled scores get the same rank.</p>\n\n<h2>What it means for tomorrow</h2>\n<p>A tough paper in your session does not, by itself, hurt you. Your raw score is compared with others who took the same form before it is placed on a common scale. So do not try to guess which slot is \"easier\", and do not let a hard first section unsettle you.</p>\n<p>What still matters is accuracy. CAT has negative marking for MCQs, and the scaled score starts from your raw score. Attempt the questions you can solve cleanly, and skip the ones that turn into long guesses.</p>\n<p>Tonight, check three things on your admit card: your session, your reporting time and the exact centre address. Carry the printed admit card and the original photo ID you declared in the form. The 4 November media release says the IIMs have added security measures, including face matching and mobile jammers at select centres, so reach early.</p>\n<p>No result date has been announced on the CAT website yet. We will add it when the IIMs publish it.</p>\n\n<h2>Important pointers</h2>\n<ul>\n<li><strong>28 Nov 2026:</strong> CAT 2026 sessions on 29 November 2026 are 8:30 to 10:30 AM, 12:30 to 2:30 PM and 4:30 to 6:30 PM (<a href=\"https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/Scaled_Score_Calculation.pdf\" rel=\"noopener\" target=\"_blank\">CAT scaled score note</a>).</li>\n<li><strong>28 Nov 2026:</strong> CAT 2026 scores will be normalised across three test forms, and section-wise scaled scores, a total scaled score and percentiles will be published (<a href=\"https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/Scoring_and_Equating_Process_26-11-2026.pdf\" rel=\"noopener\" target=\"_blank\">CAT normalisation note, 26 Nov 2026</a>).</li>\n<li><strong>28 Nov 2026:</strong> A CAT 2026 percentile is (N − r) / N × 100, rounded to two decimals, and any value of 99.995 or above is reported as 100 (<a href=\"https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/Scaled_Score_Calculation.pdf\" rel=\"noopener\" target=\"_blank\">CAT scaled score note</a>).</li>\n<li><strong>28 Nov 2026:</strong> The SNAP 2026 home page says the application deadline has been extended till 30 November 2026, while its important-dates page still shows 25 November; SNAP tests are on 13, 19 and 26 December 2026 and results on 12 January 2027 (<a href=\"https://www.snaptest.org/\" rel=\"noopener\" target=\"_blank\">snaptest.org</a>; <a href=\"https://www.snaptest.org/snap-important-dates\" rel=\"noopener\" target=\"_blank\">SNAP important dates</a>).</li>\n<li><strong>28 Nov 2026:</strong> XAT 2027 applications close on 6 December 2026 (eight days away, as per the countdown on the official site), and the exam is on 3 January 2027 (<a href=\"https://xatonline.in/\" rel=\"noopener\" target=\"_blank\">xatonline.in</a>).</li>\n</ul>\n<p>Planning CAT 2027 coaching in coastal Karnataka? See our new city guide, <a href=\"top-cat-coaching-institutes-mangaluru-2026.html\">Top CAT Coaching Institutes in Mangaluru</a>.</p>\n<p><strong>Last updated: 28 November 2026.</strong></p>\n"
+  },
+  {
     "slug": "top-neet-coaching-institutes-hisar-2026",
     "image": "assets/blog/top-neet-coaching-institutes-hisar-2026.png",
     "title": "Top NEET Coaching Institutes in Hisar (2026)",

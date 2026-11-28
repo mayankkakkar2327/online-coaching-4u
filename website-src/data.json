@@ -99,7 +99,8 @@
       "berhampur",
       "karnal",
       "solapur",
-      "hisar"
+      "hisar",
+      "mangaluru"
     ],
     "certification": [
       "online"
@@ -16303,6 +16304,54 @@
         "Street address and fees not published online"
       ],
       "mode": "offline"
+    },
+    {
+      "slug": "time-mangaluru-kankanady",
+      "type": "coaching",
+      "name": "T.I.M.E., Mangaluru (Kankanady)",
+      "city": "mangaluru",
+      "locality": "Kankanady",
+      "address": "1st Floor, Kankanady Gate, Kankanady Bypass Road, Kankanady, Mangaluru, Karnataka 575002",
+      "estd": null,
+      "exams": [
+        "cat",
+        "bank",
+        "ssc",
+        "clat",
+        "cuet",
+        "ipmat"
+      ],
+      "verified": true,
+      "website": "https://www.time4education.com/Mangalore",
+      "about": "T.I.M.E.'s official Mangalore page lists this Kankanady address as its authorised centre. It offers CAT/MBA, CMAT, MAT, Karnataka PGCET, GMAT, GRE, bank exams, SSC CGL and campus-recruitment training, plus CLAT, IPM, CUET and BBA entrance coaching. The page names Ganesh Hebbar as centre director, who also runs the Udupi centre. Fees are not published (checked 28 November 2026).",
+      "highlights": [
+        "CAT/MBA, CMAT and Karnataka PGCET listed",
+        "Centre director also runs T.I.M.E. Udupi",
+        "Also bank, SSC, CLAT and IPM courses",
+        "Fees not published"
+      ],
+      "mode": "offline"
+    },
+    {
+      "slug": "career-launcher-mangaluru",
+      "type": "coaching",
+      "name": "Career Launcher, Mangaluru (Kodialbail)",
+      "city": "mangaluru",
+      "locality": "Kodialbail",
+      "address": "01, 2nd Floor, above Canara Bank, PVS Building, PVS Circle, Kodialbail, Mangaluru, Karnataka 575003",
+      "estd": null,
+      "exams": [
+        "cat"
+      ],
+      "verified": true,
+      "website": "https://www.careerlauncher.com/cat-mba/coaching-centers/mangalore/",
+      "about": "Career Launcher's official Mangalore CAT centre page gives this PVS Circle, Kodialbail address for CAT/MBA preparation. The page does not list batches, fees or a start year for the centre (checked 28 November 2026), so confirm current CAT 2027 and post-CAT batches directly with the centre.",
+      "highlights": [
+        "Listed in Career Launcher's CAT centre directory",
+        "Central Kodialbail location near PVS Circle",
+        "Batches and fees on enquiry"
+      ],
+      "mode": "offline"
     }
   ],
   "cityContent": {
@@ -16588,6 +16637,9 @@
     },
     "coaching-hisar": {
       "intro": "<p>Hisar, the main education centre of western Haryana, now has three national brands whose official websites confirm NEET classroom courses in the city: Aakash Institute and PW Vidyapeeth, both on Tosham Road in Sector 13, and ALLEN Career Institute. Every listing below has been checked against the institute's official website.</p>"
+    },
+    "coaching-mangaluru": {
+      "intro": "<p>Mangaluru (Mangalore), the main city of Karnataka's Dakshina Kannada district, draws graduates from Dakshina Kannada, Udupi and north Kerala. T.I.M.E. (Kankanady) and Career Launcher (PVS Circle, Kodialbail) confirm CAT and MBA coaching here on their own official websites. Every listing below has been checked against the institute's official website.</p>"
     }
   }
 }
